@@ -1,0 +1,102 @@
+@import 'magnific-popup';
+
+#threewp_broadcast.postbox
+{
+	.label_container,
+	.input_container
+	{
+		display: inline;
+	}
+
+	.blogs.html_section
+	{
+		position: relative;
+
+		.show_hide
+		{
+			cursor: pointer;
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+
+		legend
+		{
+			margin-bottom: 0.5em;
+			font-style: italic;
+		}
+
+		.form_item_checkbox
+		{
+			background-position: right center;
+			background-repeat: no-repeat;
+			margin-bottom: 0.25em;
+			margin-top: 0.25em;
+
+			&.linked
+			{
+				background-image: url("../images/link-16.png");
+			}
+
+			&.disabled
+			{
+				color: #aaa;
+			}
+
+			&.required
+			{
+				background-image: url("../images/lock-16.png");
+			}
+		}
+
+		.selection_change_container
+		{
+			text-align: center;
+		}
+
+		.selection_change
+		{
+			text-align: center;
+			cursor: pointer;
+		}
+
+		// Hide the selection changers when the blog list is closed.
+		&.closed
+		{
+			.selection_change_container
+			{
+				display: none;
+			}
+		}
+	}
+
+	.html_section
+	{
+		margin-bottom: 1em;
+	}
+
+}
+
+#toplevel_page_threewp_broadcast .wp-menu-image.dashicons-before.dashicons-rss:before
+{
+	position: relative;
+	top: -3px;
+	transform: rotate(-45deg);
+}
+
+.broadcast_popup
+{
+	background: white;
+	position: relative;
+	padding: 2em;
+	width: 40em;
+	max-width: 95%;
+	margin: auto;
+}
+
+/** Prevent the popup from covering the admin bar. **/
+.mfp-inline-holder .mfp-content,
+.mfp-ajax-holder .mfp-content
+{
+  margin-top: 3%;
+}

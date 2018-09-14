@@ -1,0 +1,707 @@
+# Translation of Plugins - Best Quiz Plugin for WordPress: WP Quiz - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Best Quiz Plugin for WordPress: WP Quiz - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-05-01 10:14:47+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Best Quiz Plugin for WordPress: WP Quiz - Stable (latest release)\n"
+
+#: wp-quiz.php:393
+msgid "Preview Video/Media"
+msgstr "Prévisualiser la vidéo/média"
+
+#: wp-quiz.php:392
+msgid "Preview Image"
+msgstr "Prévisualiser l’image"
+
+#: wp-quiz.php:391
+msgid "Preview"
+msgstr "Prévisualiser"
+
+#: wp-quiz.php:390
+msgid "Upload Image"
+msgstr "Mettre en ligne une image"
+
+#: wp-quiz.php:389
+msgid "Upload"
+msgstr "Mettre en ligne"
+
+#: wp-quiz.php:313
+msgid "Settings"
+msgstr "Réglages"
+
+#: wp-quiz.php:312
+msgid "Styling"
+msgstr "Style"
+
+#: wp-quiz.php:311
+msgid "Content"
+msgstr "Contenu"
+
+#: inc/class-wp-quiz.php:208
+msgid "I got %%score%% out of %%total%%, and you?"
+msgstr "J’ai obtenu %%score%% sur %%total%%, et vous ?"
+
+#: inc/class-wp-quiz.php:207
+msgid "You got %%score%% out of %%total%%"
+msgstr "Vous avez obtenu %%score%% sur %%total%%"
+
+#: inc/class-wp-quiz.php:206
+msgid "Wrong !"
+msgstr "Faux !"
+
+#: inc/class-wp-quiz.php:205
+msgid "Correct !"
+msgstr "Correct !"
+
+#: inc/class-page-config.php:289
+msgid " Pro feature"
+msgstr "Fonctionnalité pro"
+
+#: inc/class-page-config.php:245
+msgid "Learn how to create Facebook App ID <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr "Apprenez comment créer une ID d’App Facebook <a href=\"%s\" target=\"_blank\">ici</a>."
+
+#. Author URI of the plugin/theme
+msgid "https://mythemeshop.com/"
+msgstr "https://mythemeshop.com/"
+
+#. Author of the plugin/theme
+msgid "MyThemeShop"
+msgstr "MyThemeShop"
+
+#. Description of the plugin/theme
+msgid "WP Quiz makes it incredibly easy to add professional, multimedia quizzes to any website! Fully feature rich and optimized for social sharing. Make your site more interactive!"
+msgstr "WP Quiz rend incroyablement facile d'ajouter des questionnaires multimédia professionnels à tout site web ! Très riche en fonctionnalités et optimisé pour le partage social. Rendez votre site plus interactif !"
+
+#. Plugin URI of the plugin/theme
+msgid "https://mythemeshop.com/plugins/wp-quiz/"
+msgstr "https://mythemeshop.com/plugins/wp-quiz/"
+
+#: wp-quiz.php:681
+msgid "Please deactivate WP Quiz Pro plugin"
+msgstr "Veuillez désactiver l’extension WP Quiz Pro"
+
+#: wp-quiz.php:675
+msgid "WP Quiz requires PHP version 5.4.0 with spl extension or greater and WordPress 3.4 or greater."
+msgstr "WP Quiz nécessitela version 5.4.0 de PHP avec l’extension spl ou supérieure et WordPress 3.4 ou supérieur."
+
+#: wp-quiz.php:586 wp-quiz.php:592
+msgid "Cheating, huh?"
+msgstr "Une fausse manipulation ?"
+
+#: wp-quiz.php:477
+msgid "Date"
+msgstr "Date"
+
+#: wp-quiz.php:476
+msgid "Quiz type"
+msgstr "Type de questionnaire"
+
+#: wp-quiz.php:475
+msgid "Shortcode"
+msgstr "Code court"
+
+#: wp-quiz.php:474
+msgid "Quiz Name"
+msgstr "Nom du questionnaire"
+
+#: wp-quiz.php:421
+msgid "Shortcode:"
+msgstr "Code court :"
+
+#: wp-quiz.php:414
+msgctxt "new quiz title placeholder"
+msgid "Quiz Title"
+msgstr "Titre du questionnaire"
+
+#: wp-quiz.php:400
+msgid "New Quiz type Swiper, Show Ads in the quizzes, Countdown Timer, Open graph integration, Player tracking, Force users to Subscribe to see the results and much more."
+msgstr "Nouveau type de questionnaire Swiper, afficher des annonces dans les questionnaires, minuteur de compte à rebours, intégration Open graph, suivi des joueurs, forcer les utilisateurs à s’abonner pour voir les résultats et bien plus encore."
+
+#: wp-quiz.php:399
+msgid "Please add the Results and save the draft before adding questions"
+msgstr "Veuillez ajouter les résultats et enregistrer le brouillon avant l’ajout de questions"
+
+#: wp-quiz.php:398
+msgid "Like WP Quiz Plugin? You will LOVE WP Quiz Pro!"
+msgstr "Vous aimez l’extension WP Quiz ? Vous aimerez WP Quiz Pro !"
+
+#: wp-quiz.php:396 wp-quiz.php:397
+msgid "Buy WP Quiz Pro"
+msgstr "Acheter WP Quiz Pro"
+
+#: wp-quiz.php:388
+msgid "Answers"
+msgstr "Réponses"
+
+#: wp-quiz.php:387
+msgid "Full Width (responsive)"
+msgstr "Pleine largeur (responsive)"
+
+#: wp-quiz.php:386
+msgid "set width and height in px"
+msgstr "réglez la largeur et la hauteur en px"
+
+#: wp-quiz.php:385
+msgid "Height:"
+msgstr "Hauteur :"
+
+#: wp-quiz.php:384
+msgid "Width:"
+msgstr "Largeur :"
+
+#: wp-quiz.php:383
+msgid "Custom Size"
+msgstr "Taille personnalisée"
+
+#: wp-quiz.php:382
+msgid "Custom"
+msgstr "Personnaliser"
+
+#: wp-quiz.php:381
+msgid "Quiz Size"
+msgstr "Taille de questionnaire"
+
+#: wp-quiz.php:380
+msgid "Animation Out"
+msgstr "Animation de sortie"
+
+#: wp-quiz.php:379
+msgid "Animation In"
+msgstr "Animation d’entrée"
+
+#: wp-quiz.php:378
+msgid "Background color"
+msgstr "Couleur d’arrière-plan"
+
+#: wp-quiz.php:377
+msgid "Font color"
+msgstr "Couleur de police"
+
+#: wp-quiz.php:376
+msgid "Progress bar color"
+msgstr "Couleur de la barre de progression"
+
+#: wp-quiz.php:375
+msgid "Modern Flat Skin"
+msgstr "Modèle moderne à plat"
+
+#: wp-quiz.php:374
+msgid "Traditional Skin"
+msgstr "Modèle traditionnel"
+
+#: wp-quiz.php:373
+msgid "Choose skin"
+msgstr "Choisissez un modèle"
+
+#: wp-quiz.php:372
+msgid "Multiple pages"
+msgstr "Pages multiples"
+
+#: wp-quiz.php:371
+msgid "Show all"
+msgstr "Tout afficher"
+
+#: wp-quiz.php:370
+msgid "Questions layout"
+msgstr "Mise en page des questions"
+
+#: wp-quiz.php:369
+msgid "Customize Layout and Colors"
+msgstr "Personnaliser la mise en page et les couleurs"
+
+#: wp-quiz.php:368
+msgid "Ad Codes"
+msgstr "Codes d’annonce"
+
+#: wp-quiz.php:367
+msgid "Ads after every nth question"
+msgstr "Annonces après chaque nième question"
+
+#: wp-quiz.php:362
+msgid "Force action to see results"
+msgstr "Forcer l'action pour voir les résultats"
+
+#: wp-quiz.php:360
+msgid "(Works only when multiple page layout is selected)"
+msgstr "(ne fonctionne uniquement que lorsque la mise en page multiple pages est sélectionnée)"
+
+#: wp-quiz.php:351
+msgid "No Media"
+msgstr "Aucun média"
+
+#: wp-quiz.php:350
+msgid "Video/Custom Embed"
+msgstr "Intégration vidéo/personnalisée"
+
+#: wp-quiz.php:348
+msgid "Cancel"
+msgstr "Annuler"
+
+#: wp-quiz.php:347
+msgid "(Association: 0-no, 1-normal, 2-strong)"
+msgstr "(Association: 0-non, 1-normal, 2-fort)"
+
+#: wp-quiz.php:346
+msgctxt "input label"
+msgid "Points"
+msgstr "Points"
+
+#: wp-quiz.php:345
+msgctxt "input label"
+msgid "Long Description"
+msgstr "Description longue"
+
+#: wp-quiz.php:344
+msgctxt "input label"
+msgid "Short Description"
+msgstr "Description courte"
+
+#: wp-quiz.php:343
+msgctxt "input label"
+msgid "Description"
+msgstr "Description"
+
+#: wp-quiz.php:342
+msgctxt "input label"
+msgid "Maximum Score"
+msgstr "Score maximum"
+
+#: wp-quiz.php:341
+msgctxt "input label"
+msgid "Minimum Score"
+msgstr "Score minimum"
+
+#: wp-quiz.php:340
+msgctxt "input label"
+msgid "Maximum Correct"
+msgstr "Correct maximum"
+
+#: wp-quiz.php:339
+msgctxt "input label"
+msgid "Minimum Correct"
+msgstr "Correct minimum"
+
+#: wp-quiz.php:338
+msgctxt "input label"
+msgid "Correct Answer?"
+msgstr "Réponse correcte ?"
+
+#: wp-quiz.php:337
+msgctxt "input label"
+msgid "Image Placeholder"
+msgstr "Image par défaut"
+
+#: wp-quiz.php:336
+msgctxt "input label"
+msgid "Youtube/Vimeo/Custom URL"
+msgstr "URL Youtube/Vimeo/personnalisée"
+
+#: wp-quiz.php:335
+msgctxt "input label"
+msgid "Media Type"
+msgstr "Type de média"
+
+#: wp-quiz.php:334
+msgctxt "input label"
+msgid "Image Credit"
+msgstr "Crédits de l’image"
+
+#: wp-quiz.php:333
+msgctxt "input label"
+msgid "Back Image Description"
+msgstr "Description de l’image retour"
+
+#: wp-quiz.php:332
+msgctxt "input label"
+msgid "Back Image"
+msgstr "Image retour"
+
+#: wp-quiz.php:331
+msgctxt "input label"
+msgid "Front Image"
+msgstr "Image frontale"
+
+#: wp-quiz.php:330
+msgctxt "input label"
+msgid "Image"
+msgstr "Image"
+
+#: wp-quiz.php:329
+msgctxt "input label"
+msgid "Explanation"
+msgstr "Explication"
+
+#: wp-quiz.php:328
+msgctxt "input label"
+msgid "Answer"
+msgstr "Réponse"
+
+#: wp-quiz.php:327
+msgctxt "input label"
+msgid "Result"
+msgstr "Résultat"
+
+#: wp-quiz.php:326
+msgctxt "input label"
+msgid "Title"
+msgstr "Titre"
+
+#: wp-quiz.php:325
+msgid "Delete"
+msgstr "Supprimer"
+
+#: wp-quiz.php:324
+msgid "Edit"
+msgstr "Modifier"
+
+#: wp-quiz.php:323
+msgid "Edit Explanation"
+msgstr "Modifier une explication"
+
+#: wp-quiz.php:322
+msgid "Add Explanation"
+msgstr "Ajouter une explication"
+
+#: wp-quiz.php:321
+msgid "Edit Answer"
+msgstr "Modifier une réponse"
+
+#: wp-quiz.php:320
+msgid "Add Answer"
+msgstr "Ajouter une réponse"
+
+#: wp-quiz.php:319
+msgid "Edit Result"
+msgstr "Modifier un résultat"
+
+#: wp-quiz.php:318
+msgid "Add Result"
+msgstr "Ajouter un résultat"
+
+#: wp-quiz.php:317
+msgid "Results"
+msgstr "Résultats"
+
+#: wp-quiz.php:316
+msgid "Edit Question"
+msgstr "Modifier une question"
+
+#: wp-quiz.php:315
+msgid "Add Question"
+msgstr "Ajouter une question"
+
+#: wp-quiz.php:314
+msgid "Questions"
+msgstr "Questions"
+
+#: wp-quiz.php:310
+msgid "Select Quiz Type"
+msgstr "Sélectionnez le type de questionnaire"
+
+#: wp-quiz.php:226
+msgid "Flip Cards"
+msgstr "Cartes retournables"
+
+#: wp-quiz.php:225
+msgid "Personality"
+msgstr "Personnalité"
+
+#: wp-quiz.php:224
+msgid "Trivia"
+msgstr "Anecdote"
+
+#: wp-quiz.php:207
+msgctxt "metabox title"
+msgid "Quiz"
+msgstr "Questionnaire"
+
+#: wp-quiz.php:169
+msgid "Holds the quizzes and their data."
+msgstr "Contient les jeux-questionnaires et leurs données."
+
+#: wp-quiz.php:164
+msgid "Parent Quiz"
+msgstr "Questionnaire parent"
+
+#: wp-quiz.php:163
+msgid "WP Quiz not found in Trash."
+msgstr "WP Quiz n’a pas été trouvé dans la corbeille."
+
+#: wp-quiz.php:162
+msgid "No Quizzes Found."
+msgstr "Aucun questionnaire trouvé."
+
+#: wp-quiz.php:161
+msgid "Edit Quiz"
+msgstr "Modifier le questionnaire"
+
+#: wp-quiz.php:160
+msgid "View Quiz"
+msgstr "Voir le questionnaire"
+
+#: wp-quiz.php:159
+msgid "New Quiz"
+msgstr "Nouveau questionnaire"
+
+#: wp-quiz.php:158
+msgid "Add New WP Quiz"
+msgstr "Ajouter un nouveau WP Quiz"
+
+#: wp-quiz.php:157
+msgctxt "quiz"
+msgid "Add New"
+msgstr "Ajouter un nouveau"
+
+#: wp-quiz.php:156
+msgid "Search Quizzes"
+msgstr "Rechercher des questionnaires"
+
+#: wp-quiz.php:155
+msgid "All Quizzes"
+msgstr "Tous les questionnaires"
+
+#: wp-quiz.php:154
+msgctxt "name admin bar"
+msgid "WP Quiz"
+msgstr "WP Quiz"
+
+#. #-#-#-#-#  wp-quiz-code.pot (WP Quiz 1.0.8)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: wp-quiz.php:151 wp-quiz.php:152 wp-quiz.php:153
+msgid "WP Quiz"
+msgstr "WP Quiz"
+
+#: inc/class-wp-quiz.php:184
+msgid "PLAY AGAIN !"
+msgstr "Recommencer !"
+
+#: inc/class-wp-quiz.php:171
+msgid "WordPress Quiz Plugin"
+msgstr "Extension de questionnaire WordPress"
+
+#: inc/class-wp-quiz.php:171
+msgid "Powered by "
+msgstr "Propulsé par"
+
+#: inc/class-wp-quiz.php:148
+msgid "Google+"
+msgstr "Google+"
+
+#: inc/class-personality-quiz.php:120 inc/class-trivia-quiz.php:122
+msgid "Continue &gt;&gt;"
+msgstr "Continuer &gt;&gt;"
+
+#: inc/class-page-import-export.php:168
+msgid "To use this feature please upgrade to pro version."
+msgstr "Pour utiliser cette fonctionnalité, veuillez mettre à niveau vers la version pro."
+
+#: inc/class-page-import-export.php:163
+msgid "Import File"
+msgstr "Importer un fichier"
+
+#: inc/class-page-import-export.php:158
+msgid "Import Quiz File"
+msgstr "Importer un fichier de questionnaire"
+
+#: inc/class-page-import-export.php:154
+msgid "Import Demo"
+msgstr "Importer la démo"
+
+#: inc/class-page-import-export.php:139
+msgid "Export"
+msgstr "Exporter"
+
+#: inc/class-page-import-export.php:138
+msgid "Import"
+msgstr "Importer"
+
+#: inc/class-page-import-export.php:96 wp-quiz.php:518
+msgid "Import/Export"
+msgstr "Importer/exporter"
+
+#: inc/class-page-import-export.php:82
+msgid "Import and Export Quizzes"
+msgstr "Importer et exporter des questionnaires"
+
+#: inc/class-page-import-export.php:34
+msgid "Failed to import Quiz"
+msgstr "Impossible d'importer le questionnaire"
+
+#: inc/class-page-import-export.php:32
+msgid "Quiz imported successfully"
+msgstr "Questionnaire bien importé"
+
+#: inc/class-page-config.php:341
+msgid "Enable or disable players tracking."
+msgstr "Activer ou désactiver le suivi des joueurs."
+
+#: inc/class-page-config.php:237
+msgid "Enable or disable Open Graph and Twitter Cards meta tags in single quiz head tag."
+msgstr "Activer ou désactiver Open Graph et les méta étiquettes des Twitter Cards la balise d’en-tête de questionnaire unique."
+
+#: inc/class-page-config.php:327
+msgid "Add New"
+msgstr "Ajouter une nouvelle"
+
+#: inc/class-page-config.php:300 wp-quiz.php:365
+msgid "Facebook Share"
+msgstr "Partage Facebook"
+
+#: inc/class-page-config.php:299 wp-quiz.php:364
+msgid "Capture Email"
+msgstr "Capture d'e-mail"
+
+#: inc/class-page-config.php:298 wp-quiz.php:363
+msgid "No Action"
+msgstr "Aucune action"
+
+#: inc/class-page-config.php:295
+msgid "Force action to see the results"
+msgstr "Forcer l'action pour voir les résultats"
+
+#: inc/class-page-config.php:289
+msgid "Works only on trivia quiz type when multiple page layout is selected"
+msgstr "Fonctionne uniquement sur le questionnaire de type anecdotique lorsque la mise en page plusieurs pages est sélectionnée"
+
+#: inc/class-page-config.php:289 wp-quiz.php:359
+msgid "Countdown timer [Seconds/question]"
+msgstr "Minuteur de compte à rebours [secondes/question]"
+
+#: inc/class-page-config.php:283
+msgid "Show Ads after every nth question"
+msgstr "Afficher une annonce après chaque nouvelle question"
+
+#: inc/class-page-config.php:275 wp-quiz.php:366
+msgid "Show Ads"
+msgstr "Afficher une annonce"
+
+#: inc/class-page-config.php:267 wp-quiz.php:357
+msgid "Show embed code toggle"
+msgstr "Afficher le code d’intégration de bascule"
+
+#: inc/class-page-config.php:259 wp-quiz.php:354
+msgid "Randomize Answers"
+msgstr "Rendre les réponses aléatoires"
+
+#: inc/class-page-config.php:251 wp-quiz.php:353
+msgid "Randomize Questions"
+msgstr "Rendre les questions aléatoires"
+
+#: inc/class-page-config.php:245
+msgid "Facebook App ID"
+msgstr "ID d’App Facebook"
+
+#: inc/class-page-config.php:232 inc/class-wp-quiz.php:151 wp-quiz.php:239
+msgid "VK"
+msgstr "VK"
+
+#: inc/class-page-config.php:231 wp-quiz.php:238
+msgid "Google +"
+msgstr "Google +"
+
+#: inc/class-page-config.php:230 inc/class-wp-quiz.php:145 wp-quiz.php:237
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/class-page-config.php:229 inc/class-wp-quiz.php:142 wp-quiz.php:236
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/class-page-config.php:225 wp-quiz.php:358
+msgid "Share buttons"
+msgstr "Boutons de partage"
+
+#: inc/class-page-config.php:217 wp-quiz.php:361
+msgid "Auto scroll to next question (applies to one page layout)"
+msgstr "Défilement auto vers la prochaine question (s’applique à la mise en page one page)"
+
+#: inc/class-page-config.php:211
+msgid "MyThemeShop username"
+msgstr "Nom d'utilisateur MyThemeShop"
+
+#: inc/class-page-config.php:208
+msgid "this link"
+msgstr "ce lien"
+
+#: inc/class-page-config.php:208
+msgid "Check your affiliate earning by following "
+msgstr "Vérifiez vos gains d’affiliation en suivant"
+
+#: inc/class-page-config.php:208
+msgid " and get your referral ID (username) if you don't have it already!"
+msgstr "et obtenez votre ID de référant (nom d’utilisateur) si vous n’en avez pas encore !"
+
+#: inc/class-page-config.php:208
+msgid "Signup"
+msgstr "Inscrivez-vous"
+
+#: inc/class-page-config.php:200
+msgid "Earn 70% commision on every sale by referring your friends and readers."
+msgstr "Gagnez 70% de commission sur chaque vente en référant vos amis et lecteurs."
+
+#: inc/class-page-config.php:200 wp-quiz.php:356
+msgid "Promote the plugin"
+msgstr "Promouvoir l’extension"
+
+#: inc/class-page-config.php:192 wp-quiz.php:355
+msgid "Restart Questions"
+msgstr "Recommencer les questions"
+
+#: inc/class-page-config.php:174
+msgid "Tracking ID"
+msgstr "ID de suivi"
+
+#: inc/class-page-config.php:171 inc/class-page-config.php:174
+#: inc/class-page-config.php:251 inc/class-page-config.php:259
+#: inc/class-page-config.php:267 inc/class-page-config.php:275
+#: inc/class-page-config.php:283 inc/class-page-config.php:295
+#: inc/class-page-config.php:327 inc/class-page-config.php:341 wp-quiz.php:395
+msgid "Pro feature"
+msgstr "Fonctionnalité pro"
+
+#: inc/class-page-config.php:171
+msgid "Profile Name"
+msgstr "Nom de profil"
+
+#: inc/class-page-config.php:122 wp-quiz.php:349
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: inc/class-page-config.php:102 wp-quiz.php:352 wp-quiz.php:506
+msgid "General Settings"
+msgstr "Réglages généraux"
+
+#: inc/class-page-config.php:89
+msgid "Global"
+msgstr "Global"
+
+#: inc/class-page-config.php:88
+msgid "Ad Code"
+msgstr "Code d’annonce"
+
+#: inc/class-page-config.php:87
+msgid "Default Quiz Settings"
+msgstr "Réglages par défaut du questionnaire"
+
+#: inc/class-page-config.php:86
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: inc/class-page-config.php:63
+msgid "Settings saved"
+msgstr "Réglages enregistrés :"
+
+#: inc/class-flip-quiz.php:64 inc/class-wp-quiz.php:140
+msgid "Share your Results :"
+msgstr "Partagez vos résultats :"
+
+#: inc/class-flip-quiz.php:47
+msgid "Click to Flip"
+msgstr "Cliquez pour retourner"

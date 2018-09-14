@@ -1,0 +1,138 @@
+.sdpvs_col {
+	width: 250px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 5px;
+	text-align: center;
+}
+
+.sdpvs_col p {
+	text-align: left;
+}
+
+@media (max-width: 520px) {
+	.sdpvs_col {
+		width: 100%;
+		width: 100vw;
+		display: block;
+	}
+}
+.sdpvs_pie {
+	width: 200px;
+	height: 200px;
+}
+
+.sdpvs_year_bar {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	background-color: blue;
+	color: transparent;
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+a .sdpvs_segment:hover, a .sdpvs_bar:hover {
+	stroke: white;
+	fill: green;
+}
+
+.sdpvs_year_bar:hover {
+	background-color: green;
+	border: 1px solid #fff;
+}
+
+/* Tag Select Page */
+
+#select-all, #deselect-all {
+	cursor: pointer;
+}
+
+/* LIST BOX */
+
+#sdpvs_listcontent {
+	display: none;
+	position: fixed;
+	z-index: 500;
+	margin: 0 auto;
+	padding: 10px;
+	top: 20%;
+	left: 45%;
+	border: 1px solid black;
+	height: auto;
+	max-height: 90%;
+	width: 250px;
+	background: rgba( 255, 255, 255, .8 );
+	overflow-y: scroll;
+}
+
+#sdpvs_listcompare{
+	display: none;
+	position: fixed;
+	z-index: 501;
+	margin: 0 auto;
+	padding: 10px;
+	top: 10%;
+	left: 45%;
+	border: 1px solid black;
+	height: auto;
+	max-height: 90%;
+	width: auto;
+	max-width: 90%;
+	background: rgba( 255, 255, 255, .8 );
+	overflow-y: scroll;
+}
+
+@media (max-width: 1000px) {
+	#sdpvs_listcontent {
+		left: 40%;
+	}
+	#sdpvs_listcompare {
+		left: 30%;
+	}
+}
+@media (max-width: 800px) {
+	#sdpvs_listcontent {
+		left: 30%;
+	}
+	#sdpvs_listcompare {
+		left: 20%;
+	}
+}
+@media (max-width: 550px) {
+	#sdpvs_listcontent {
+		left: 20%;
+	}
+	#sdpvs_listcompare {
+		left: 10%;
+	}
+}
+@media (max-width: 450px) {
+	#sdpvs_listcontent {
+		top: 0;
+		left: 10%;
+		background: rgba( 255, 255, 255, .9 );
+	}
+	#sdpvs_listcompare {
+		left: 2%;
+	}
+}
+
+/* LOADER */
+
+#sdpvs_loading {
+	display: none;
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba( 255, 255, 255, 0 ) url('images/loading.gif') 50% 50% no-repeat;
+}
+
+#sdpvs_loading img {
+	margin: 0 auto;
+	display: block;
+}
+

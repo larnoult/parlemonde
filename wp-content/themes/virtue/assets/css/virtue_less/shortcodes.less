@@ -1,0 +1,168 @@
+// Block Quote 
+.blockquote-full {
+    padding: 20px 20px 10px;
+    border: 1px solid;
+    border-left: 4px solid;
+    float:left;
+    border-color: @gray-hover;
+    border-color: rgba(0,0,0,.1);
+    margin:10px 30px;
+    width:85%;
+}
+.blockquote-left {
+    padding: 20px 20px 10px;
+    border: 1px solid;
+    border-left: 4px solid;
+    float:left;
+    border-color: @gray-hover;
+    border-color: rgba(0,0,0,.1);
+    margin:10px 30px;
+    max-width:250px;
+}
+.blockquote-right {
+    padding: 20px 20px 10px;
+    border: 1px solid;
+    border-left: 4px solid;
+    float:left;
+    border-color: @gray-hover;
+    border-color: rgba(0,0,0,.1);
+    margin:10px 30px;
+    max-width:250px;
+}
+.pullquote-right:before {
+    position: absolute;
+    right: 0;
+    top: 20%;
+    font-size: 34px;
+    color: #eee;
+    color: rgba(0, 0, 0, 0.07);
+    font-family: 'FontAwesome';
+    font-style: normal;
+    speak: none;
+    font-weight: normal;
+    content: "\f10d";
+    -webkit-font-smoothing: antialiased;
+}
+// Pull Quote 
+.pullquote-right {
+    position: relative;
+    padding: 5px 90px 5px 0;
+    margin: 10px 0 5px 40px;
+    float: right;
+    max-width: 250px;
+    font-size: 16px;
+    line-height: 24px;
+    //background: url('../img/pquote-right.png') no-repeat right 20%;
+}
+.pullquote-left {
+    position: relative;
+    padding: 5px 0px 5px 90px;
+    margin: 10px 40px 5px 0px;
+    float: left;
+    max-width: 250px;
+    font-size: 16px;
+    line-height: 24px;
+  //  background: url('../img/pquote-left.png') no-repeat left 20%;
+}
+.pullquote-left:before {
+    position: absolute;
+    left: 0;
+    top: 20%;
+    font-size: 34px;
+    color: #eee;
+    color: rgba(0, 0, 0, 0.07);
+    font-family: 'FontAwesome';
+    font-style: normal;
+    speak: none;
+    font-weight: normal;
+    content: "\f10d";
+    -webkit-font-smoothing: antialiased;
+}
+.pullquote-center {
+    position: relative;
+    padding: 15px 80px;
+    margin: 30px;
+    font-size: 16px;
+    text-align:center;
+    line-height: 24px;
+    //background: url('../img/pquote-left.png') no-repeat left 20%;
+}
+.pullquote-center:before {
+    position: absolute;
+    left: 0;
+    top: 20%;
+    font-size: 34px;
+    color: #eee;
+    color: rgba(0, 0, 0, 0.07);
+    font-family: 'FontAwesome';
+    font-style: normal;
+    speak: none;
+    font-weight: normal;
+    content: "\f10d";
+    -webkit-font-smoothing: antialiased;
+}
+// Dividers
+.space_20 {
+padding: 10px 0;
+}
+.space_40 {
+padding: 20px 0;
+}
+.space_80 {
+padding: 40px 0;
+}
+.hrule {
+    position: relative;
+    margin: 30px auto;
+    height:1px;
+    width:95%;
+    background:#E5E5E5;
+    background:rgba(0,0,0,.05);
+}
+// Accordion 
+// Accordion 
+.panel.panel-default {
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+}
+
+.panel.panel-default {
+margin-bottom: 2px;
+border: 1px solid #e5e5e5;
+}
+.panel-heading .accordion-toggle {
+display: block;
+padding: 8px 15px;
+}
+.panel-heading .accordion-toggle {
+    font-weight: bold;
+    border-left: 2px solid;
+}
+.panel-heading .accordion-toggle.collapsed {
+    border-left: 2px solid @gray-hover;
+}
+.panel-heading .accordion-toggle i{
+    float:right;
+    font-size: 12px;
+margin-top: 5px;
+}
+.panel-heading .accordion-toggle .icon-plus {
+    display:none;
+}
+.panel-heading .accordion-toggle .icon-minus {
+    display:block;
+}
+.panel-heading .accordion-toggle.collapsed .icon-plus {
+    display:block;
+}
+.panel-heading .accordion-toggle.collapsed .icon-minus {
+    display:none;
+}
+.panel-body {
+padding: 9px 15px;
+border-top: 1px solid #e5e5e5;
+}
+#content .gallery {
+    margin: 10px 0;
+}

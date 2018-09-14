@@ -1,0 +1,19 @@
+/* button */
+input[type="submit"].dem-button,
+a.dem-button,
+.dem-button{
+  font-weight: 700;
+  padding: .5em 2em;
+  border: 2px solid;
+  border-radius: 1px;
+  color: #fff;
+  transition: background .2s;
+} 
+
+input[type="submit"].dem-button:hover,
+a.dem-button:hover,
+.dem-button:hover { background: rgba(255,255,255,.2); }
+
+input[type="submit"].dem-button:active,
+a.dem-button:active,
+.dem-button:active { background: white; }

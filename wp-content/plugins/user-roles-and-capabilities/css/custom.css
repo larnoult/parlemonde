@@ -1,0 +1,464 @@
+td.solvease-rnc-center-align,
+th.solvease-rnc-center-align {
+    text-align: center;
+    border-left: 1px solid #e5e5e5;
+}
+
+.solvease-rnc-wide-cell,
+.solvease-rnc-wide-head {
+    width: 200px;
+}
+
+tr.solvease-rnc-head-start td {
+    font-weight: 600;
+    background: #dceaf0;
+    box-shadow: inset 0 1px #fff;
+    border-bottom: 1px solid #b3d3e0;
+}
+
+table.solvease-rnc-table-head tbody tr:hover {
+    background: none repeat scroll 0 0 #e4e4e4;
+}
+
+table.solvease-rnc-table-head th input.solvease-filter-capability {
+    margin: 0;
+}
+
+form#solvease_capability_form {
+    width: 99%;
+}
+
+.tableFloatingHeaderOriginal {
+    background-color: #FFF;
+}
+
+.modal-backdrop.fade.in {
+    height: 100%;
+    z-index: 100;
+    position: fixed;
+}
+
+#solvease-add-role,
+#solvease_un_used_role_delete,
+#solvease-change-default-role,
+#solvease-add-capability,
+#solvease_rc_delete_cap {
+    padding-top: 90px;
+}
+
+form#solvease_capability_form input#filter-capability {
+    padding-left: 10px;
+}
+
+.cap-name-to-filter.green {
+    color: green;
+    font-weight: bold;
+}
+
+tr.found-border-top {
+    border-top: 1px solid #af4b80
+}
+
+tr.found-border-bottom {
+    border-bottom: 1px solid #af4b80
+}
+
+.form-group.control-box-parent {
+    float: left;
+}
+
+#solvease_capability_form .control-box {
+    float: left;
+    padding-left: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.user-role-cap {
+    width: 250px;
+    display: inline-block;
+}
+
+.user-role-cap-parent h4 {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+/* Table Design Start from here */
+
+table.solvease-rnc-table-head tfoot > tr > th,
+table.solvease-rnc-table-head thead > tr.main-table > th {
+    background: #3e98d2;
+    color: #fff;
+}
+
+table.solvease-rnc-table-head tfoot > tr > th,
+table.solvease-rnc-table-head > thead > tr.main-table > th {
+    border: 1px solid #108cdb;
+    padding: 8px;
+    box-shadow: 1px 1px 0 #4caae6 inset;
+}
+
+.role-options span {
+    font-size: 14px;
+    padding: 0 2px;
+}
+
+.role-options span a {
+    color: #fff;
+    cursor: pointer;
+}
+
+.role-options span a:focus,
+.role-options span a:hover {
+    color: #cdf1ff;
+}
+
+/* top head */
+.solvease-rnc-role-list {
+    box-shadow: inset 1px 1px 0 #fff;
+    background: #f3f3f3;
+    padding: 10px;
+    margin-bottom: 0;
+    border-radius: 4px 4px 0 0;
+    border: 1px solid #ddd;
+    position: relative;
+}
+
+.solvease-rnc-role-list li {
+    list-style: none;
+    display: block;
+    padding: 0 0 4px 0;
+}
+
+.solvease-rnc-actions-list {
+    margin: 0;
+    padding: 8px 0 0 0;
+}
+
+.solvease-rnc-actions-list li {
+    list-style: none;
+    display: inline-block;
+    font-size: 13px;
+    padding: 0 7px 0 0;
+}
+
+.solvease-rnc-actions-list li.first {
+    padding-left: 0;
+}
+
+.solvease-rnc-actions-list li.last {
+    padding-right: 0;
+    border-right: 0;
+}
+
+.solvease-rnc-actions-list li span {
+    color: #0e86b2;
+    padding-right: 3px;
+    font-size: 13px;
+}
+
+.solvease-rnc-role-list .form-group {
+    margin-bottom: 0;
+}
+
+.solvease-rnc-role-list .form-control {
+    font-size: 13px;
+    padding: 6px;
+}
+
+th#toolbox {
+    padding: 0;
+}
+
+table.solvease-rnc-table-head .btn-primary, #solvease-rnc-role-modal .btn-primary {
+    box-shadow: inset 1px 1px 0 #5bc9f2;
+    border: 1px solid #3a9bbf;
+    background: #3e98d2;
+    background: -moz-linear-gradient(top, #3e98d2 0%, #1195c5 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3e98d2), color-stop(100%, #1195c5)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #3e98d2 0%, #1195c5 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #3e98d2 0%, #1195c5 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #3e98d2 0%, #1195c5 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #3e98d2 0%, #1195c5 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3e98d2', endColorstr='#1195c5', GradientType=0); /* IE6-8 */
+}
+
+table.solvease-rnc-table-head .btn-primary:hover, #solvease-rnc-role-modal .btn-primary:hover {
+    border: 1px solid #027eab;
+    background: #027eab; /* Old browsers */
+    background: -moz-linear-gradient(top, #4daacb 0%, #027eab 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4daacb), color-stop(100%, #027eab)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #4daacb 0%, #027eab 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #4daacb 0%, #027eab 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #4daacb 0%, #027eab 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #4daacb 0%, #027eab 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4daacb', endColorstr='#027eab', GradientType=0); /* IE6-8 */
+}
+
+table.solvease-rnc-table-head .btn-default, #solvease-rnc-role-modal .btn-default {
+    box-shadow: inset 1px 1px 0 #ffffff;
+    border: 1px solid #ccc;
+    background: #d4d5d7;
+    background: -moz-linear-gradient(top, #ebebeb 0%, #d4d5d7 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ebebeb), color-stop(100%, #d4d5d7)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ebebeb 0%, #d4d5d7 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ebebeb 0%, #d4d5d7 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ebebeb 0%, #d4d5d7 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #ebebeb 0%, #d4d5d7 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ebebeb', endColorstr='#d4d5d7', GradientType=0); /* IE6-8 */
+}
+
+table.solvease-rnc-table-head .btn-default:hover, #solvease-rnc-role-modal .btn-default:hover {
+    border: 1px solid #ddd;
+    background: #cccccc; /* Old browsers */
+    background: -moz-linear-gradient(top, #cccccc 0%, #ebebeb 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #cccccc), color-stop(100%, #ebebeb)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #cccccc 0%, #ebebeb 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #cccccc 0%, #ebebeb 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #cccccc 0%, #ebebeb 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #cccccc 0%, #ebebeb 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#ebebeb', GradientType=0); /* IE6-8 */
+}
+
+table.solvease-rnc-table-head .btn, #solvease-rnc-role-modal .btn {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 6px 15px;
+}
+
+table.solvease-rnc-table-head tr.main-table th:first-child {
+    border-left: none;
+}
+
+/*Checkbox*/
+table.solvease-rnc-table-head div.checker span {
+    background: url(../images/checkbutton.png);
+}
+
+table.solvease-rnc-table-head div.checker,
+table.solvease-rnc-table-head div.checker span,
+table.solvease-rnc-table-head div.checker input {
+    width: 15px;
+    height: 15px;
+}
+
+table.solvease-rnc-table-head div.checker span {
+    background-position: 0 -15px;
+}
+
+table.solvease-rnc-table-head div.checker span.checked {
+    background-position: 0 0;
+}
+
+table.solvease-rnc-table-head div.checker.active span,
+table.solvease-rnc-table-head div.checker.active span.checked,
+table.solvease-rnc-table-head div.checker.hover span.checked,
+table.solvease-rnc-table-head div.checker.focus span.checked,
+table.solvease-rnc-table-head div.checker.hover.active span,
+table.solvease-rnc-table-head div.checker.focus.active span,
+table.solvease-rnc-table-head div.checker.hover.active span.checked,
+table.solvease-rnc-table-head div.checker.focus.active span.checked {
+    background-position: 0 0;
+}
+
+table.solvease-rnc-table-head div.checker.hover span,
+table.solvease-rnc-table-head div.checker.focus span,
+table.solvease-rnc-table-head div.checker.disabled,
+table.solvease-rnc-table-head div.checker.disabled.active,
+table.solvease-rnc-table-head div.checker.disabled span.checked,
+table.solvease-rnc-table-head div.checker.disabled.active span.checked {
+    background-position: 0 -15px;
+}
+
+/*radio*/
+table.solvease-rnc-table-head .radio input[type="radio"] {
+    margin-left: 0;
+    vertical-align: top;
+}
+
+table.solvease-rnc-table-head div.radio span {
+    background-position: 0 0;
+    background-image: url("../images/sprite-radio.png");
+}
+
+table.solvease-rnc-table-head div.radio,
+table.solvease-rnc-table-head div.radio span,
+table.solvease-rnc-table-head div.radio input {
+    width: 15px;
+    height: 15px;
+}
+
+div.radio span.checked, div.radio.active span, div.radio.active span.checked,
+div.radio.hover span, div.radio.focus span, div.radio.hover span.checked,
+div.radio.focus span.checked, div.radio.disabled span, div.radio.disabled.active span,
+div.radio.disabled span.checked, div.radio.disabled.active span.checked,
+div.radio.hover.active span, div.radio.focus.active span,
+div.radio.hover.active span.checked, div.radio.focus.active span.checked {
+    background-position: 0 -15px;
+}
+
+@media (max-width: 1340px) {
+    .solvease-rnc-actions-list {
+        padding: 0;
+    }
+
+    .solvease-rnc-actions-list li {
+        padding: 0 10px 0 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .solvease-rnc-actions-list {
+        padding: 10px 0;
+    }
+}
+
+.solvease-rnc-actions-list li a:focus {
+    box-shadow: none;
+    outline: none;
+    text-decoration: none;
+}
+
+.modal-header {
+    background: none repeat scroll 0 0 #3e98d2;
+    border-bottom: 1px solid #3991ca;
+    border-radius: 6px 6px 0 0;
+    color: #fff;
+    padding: 15px;
+}
+
+.modal-header h4 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+}
+
+#role-id-error {
+    display: none;
+}
+
+th#toolbox .alert {
+    margin-bottom: 0px;
+    border-radius: none;
+}
+
+
+/*=========================================*/
+
+.solvease-rnc-role-list li a span.icons {
+    color: #0e86b2;
+    font-size: 14px;
+    float: left;
+    width: 15px;
+    display: inline-block;
+}
+
+.solvease-rnc-role-list .dropdown-menu > li > a span.actions {
+    display: inline-block;
+    float: left;
+    width: 145px;
+    line-height: 13px;
+    margin: 0 6px;
+    display: inline-block;
+    *zoom: 1;
+}
+
+.solvease-rnc-role-list li span.help {
+    float: right;
+    width: 15px;
+    text-align: right;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.solvease-rnc-role-list li span.help a {
+    color: #999;
+}
+
+.solvease-rnc-role-list li span.help a:hover {
+    color: #108cdb;
+}
+
+.solvease-rnc-role-list .navbar-nav {
+    margin: 0;
+}
+
+.solvease-rnc-role-list .navbar-nav > li > a {
+    padding: 8px 15px;
+    color: #108cdb;
+    line-height: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 1px solid #108cdb;
+    text-align: center;
+}
+
+.solvease-rnc-role-list .dropdown-menu {
+    min-width: 225px;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 10px 0;
+}
+
+.solvease-rnc-role-list .dropdown-menu > li {
+    padding: 8px 10px;
+    display: block;
+    clear: both;
+    overflow: hidden;
+    margin: 0;
+}
+
+.solvease-rnc-role-list .dropdown-menu > li > a {
+    padding: 0;
+    font-weight: normal;
+    border-radius: 0;
+    color: #108cdb;
+    white-space: normal;
+}
+
+.solvease-rnc-role-list .dropdown-menu > li > a:hover,
+.solvease-rnc-role-list .dropdown-menu > li > a:focus {
+    background: none;
+    color: #000;
+}
+
+.solvease-rnc-actions-list {
+    margin: 0;
+    padding: 8px 0 0 0;
+}
+
+.solvease-rnc-actions-list li {
+    list-style: none;
+    display: inline-block;
+    font-size: 13px;
+    padding: 0 7px 0 0;
+}
+
+.solvease-rnc-actions-list li.first {
+    padding-left: 0;
+}
+
+.solvease-rnc-actions-list li.last {
+    padding-right: 0;
+    border-right: 0;
+}
+
+.solvease-rnc-actions-list li span {
+    color: #0e86b2;
+    padding-right: 3px;
+    font-size: 13px;
+}
+
+.solvease-rnc-actions-list li.dropdown {
+    padding-top: 0;
+}
+
+.solvease-rnc-role-list li span.help a {
+    color: #999;
+}
+
+.major-publishing-actions.solvease-pc{
+    min-height: 33px;
+}

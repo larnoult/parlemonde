@@ -1,0 +1,9 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">bp-email</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="0">bp_member_type</taxonomy>
+        <taxonomy translate="0">bp-email-type</taxonomy>
+    </taxonomies>
+</wpml-config>

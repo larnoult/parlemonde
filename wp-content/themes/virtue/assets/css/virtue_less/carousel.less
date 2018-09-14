@@ -1,0 +1,129 @@
+.carousel_outerrim {
+    overflow: hidden;
+}
+.fredcarousel {
+	position: relative;
+}
+.fredcarousel .tcol-ss-12 {
+	float:left;
+}
+#blogcarousel ul#headcarousel li {
+	width: 224px;
+	height: 224px;
+	list-style: none;
+	position: relative;
+	float: left;
+	margin: 0 5px;
+	display: block;
+}
+.prev_carousel, .next_carousel {
+	color: #555;
+	position: absolute;
+	top: 50%;
+	z-index: 999;
+	display: block;
+	margin-top: -37px;
+	width: 35px;
+	height: 75px;
+	border-radius: 0;
+	text-align: center;
+	line-height: 78px;
+	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";
+	filter: alpha(opacity=00);
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	opacity: 0;
+	background: #fff;
+	-webkit-transition: all .3s ease;
+}
+.prev_carousel {
+	left: 10px
+}
+.next_carousel {
+	right: 10px
+}
+.carousel_outerrim:hover .prev_carousel, .carousel_outerrim:hover .next_carousel {
+	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: alpha(opacity=60);
+	-moz-opacity: 0.6;
+	-khtml-opacity: 0.6;
+	opacity: 0.6;
+}
+.carousel_outerrim .prev_carousel:hover, .carousel_outerrim .next_carousel:hover {
+	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1;
+}
+///
+.blog_carousel {
+	margin: 0;
+}
+#blog_carousel_container {
+	padding: 20px 0;
+}
+.blog_carousel .blog_item {
+	border: 1px solid #eee;
+	border-color: rgba(0,0,0,0.05);
+	list-style: none;
+	position: relative;
+	height: auto;
+	min-height: 410px;
+}
+.bcarousellink {
+	display: block;
+padding: 10px;
+}
+.bcarousellink > header >h5 {
+	padding: 0;
+	margin: 0;
+}
+.bcarousellink > header .subhead {
+	text-align: right;
+}
+.bcarousellink > .entry-content {
+	color: #555;
+}
+//
+#portfolio_carousel_container {
+	padding: 20px 0;
+}
+#product-carousel .product_item {
+	border-bottom: none;
+	border-top: none;
+	margin-bottom: 0;
+}
+#portfolio-carousel.threecolumn .portfolio_item {
+	height: auto;
+}
+#portfolio-carousel .portfolio_item .flex-direction-nav a {
+	width: 20px; 
+	height: 43px; 
+	margin: 0px 0 0; 
+	position: absolute; 
+	background: url(../../assets/img/small_slide_direction.png) no-repeat 0 0;
+	top: 5px; 
+	z-index: 10; 
+	cursor: pointer; 
+	text-indent: -9999px; 
+	-webkit-transition: all .3s ease; 
+	-moz-transition: all .3s ease; 
+	transition: all .3s ease;
+}
+#portfolio-carousel .portfolio_item .flex-direction-nav .flex-next {background-position: 100% 0;}
+#portfolio-carousel .portfolio_item .flex-direction-nav .flex-prev {}
+#portfolio-carousel .grid_item{
+	margin-bottom: 0;
+	-webkit-transform: translateZ(0) scale(1,1);
+}
+#post-carousel-gallery img {
+float: left;
+display: block;
+margin: 0 5px;
+}
+.carousel_gallery_item {
+float: left;
+table-layout: fixed;
+}
+.fadein-carousel {opacity: 0;}

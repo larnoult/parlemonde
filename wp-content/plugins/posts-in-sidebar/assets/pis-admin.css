@@ -1,0 +1,193 @@
+/**
+ * Posts in Sidebar CSS for admin UI
+ *
+ * @package PostsInSidebar
+ * @since 2.0
+ */
+
+/* Structure of the elements */
+.clear {
+	clear: both;
+}
+.pis-section {
+	clear: both;
+	margin: 1em 0;
+}
+.pis-section:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.pis-section:last-child {
+	margin-bottom: 0;
+}
+.widget-content > .pis-section:last-child {
+	margin-bottom: 1em;
+}
+.pis-container {
+	display: none;
+	overflow: hidden;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 15px;
+	margin: 0;
+}
+.pis-column-container {
+	clear: both;
+	overflow: hidden;
+}
+.pis-column {
+	float: left;
+	width: 31%;
+	margin: 0 2% 1em 0;
+}
+.pis-column:last-child {
+	margin-right: 0;
+}
+.pis-2col .pis-column {
+	width: 48%;
+}
+
+/* Typography */
+.pis-widget-title {
+	clear: both;
+	padding: 12px;
+	border: 1px solid #ddd;
+	background-color: #fafafa;
+	font-size: 1em;
+	cursor: pointer;
+	margin: 0;
+}
+h4.pis-widget-title {
+	background-color: #cee7a5;
+	border: 1px solid #cee7a5;
+}
+h5.pis-widget-title {
+	background-color: #bfe7f4;
+	border: 1px solid #bfe7f4;
+}
+h6.pis-widget-title {
+	background-color: #cdc5e1;
+	border: 1px solid #cdc5e1;
+}
+h4.pis-widget-title:hover {
+	border-color: #859668;
+}
+h5.pis-widget-title:hover {
+	border-color: #81a2ad;
+}
+h6.pis-widget-title:hover {
+	border-color: #7f7b89;
+}
+h4.pis-widget-title + .pis-container,
+h5.pis-widget-title + .pis-container,
+h6.pis-widget-title + .pis-container {
+	border-width: 2px;
+	border-style: solid;
+	border-top-width: 0;
+}
+h4.pis-widget-title + .pis-container {
+	border-color: #cee7a5;
+}
+h5.pis-widget-title + .pis-container {
+	border-color: #bfe7f4;
+}
+h6.pis-widget-title + .pis-container {
+	border-color: #cdc5e1;
+}
+.pis-title-center {
+	text-align: center;
+}
+.pis-boxed {
+	border-width: 1px;
+	border-style: solid;
+	padding: 1em;
+}
+.pis-boxed-gray {
+	border-color: rgba(128, 128, 128, 0.5);
+	background-color: rgba(128, 128, 128, 0.15);
+}
+.pis-boxed-light-blue {
+	border-color: rgba(191, 231, 244, 1);
+	background-color: rgba(191, 231, 244, 0.5);
+}
+.pis-boxed-orange {
+	border-color: rgba(243, 166, 33, 0.5);
+	background-color: rgba(243, 166, 33, 0.15);
+}
+.pis-boxed-red {
+	border-color: rgba(233, 30, 99, 0.5);
+	background-color: rgba(233, 30, 99, 0.15);
+}
+.pis-section select {
+	width: 99%;
+}
+.pis-column.centered {
+	float: none;
+	margin: 0px auto 13px;
+}
+.pis-section ::-webkit-input-placeholder {
+	color: #ccc;
+}
+.pis-section :-moz-placeholder {  /* Firefox 18- */
+	color: #ccc;
+}
+.pis-section ::-moz-placeholder { /* Firefox 19+ */
+	color: #ccc;
+}
+.pis-section :-ms-input-placeholder {
+	color: #ccc;
+}
+.pis-section h5,
+.pis-section h6 {
+	font-size: 1em;
+}
+.pis-container p:last-child {
+	margin-bottom: 0;
+}
+.pis-container h5 {
+	margin-top: 1em;
+}
+.pis-boxed h5 {
+	margin-top: 0;
+}
+.pis-container h6 {
+	margin-bottom: 1.67em;
+	margin-top: 1em;
+}
+.pis-container h6.pis-widget-title {
+	margin-bottom: 0;
+	margin-top: 1em;
+}
+
+/*
+Fix opening container when PiS is used with SiteOrigin
+@see https://wordpress.org/support/topic/in-siteorigin-pis-does-not-expand/
+*/
+.so-content .pis-widget-title {
+	cursor: default;
+}
+
+.so-content h4.pis-widget-title {
+	background-color: #777;
+	border: 1px solid #777;
+	color: #fff;
+}
+
+.so-content .pis-container {
+	border-left: 1px solid #777;
+	border-right: 1px solid #777;
+	border-bottom: 1px solid #777;
+	display: block;
+}
+
+.so-content h5 + .pis-container {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.so-content h5.pis-widget-title:hover {
+	border-color: #ddd;
+}

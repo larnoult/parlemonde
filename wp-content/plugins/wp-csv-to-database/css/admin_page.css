@@ -1,0 +1,57 @@
+table#ajax_table {
+	border:1px solid black;
+	background-color: #FFFFFF;
+}
+table#ajax_table td {
+	padding:15px;
+}
+table#ajax_table td.auto_inc {
+	color:#F00;
+}
+
+
+.auto_inc_warn {
+	color:#F00;
+}
+
+
+#tabs ul {
+	list-style:disc inside;
+}
+
+
+.info_message, .info_message_dismiss, .success_message, .warning_message, .error_message {
+	border: 1px solid #000;
+	margin: 10px 0px;
+	padding:15px 10px 15px 50px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+.info_message, .info_message_dismiss {
+	color: #00529B;
+	background-color: #BDE5F8;
+	background-image: url('../images/info.png');
+}
+.success_message {
+	color: #4F8A10;
+	background-color: #DFF2BF;
+	background-image:url('../images/success.png');
+}
+.warning_message {
+	color: #9F6000;
+	background-color: #FEEFB3;
+	background-image: url('../images/warning.png');
+}
+.error_message {
+	color: #D8000C;
+	background-color: #FFBABA;
+	background-image: url('../images/error.png');
+}
+
+#return_csv_col_count {
+	font-weight:bold;
+}
+
+#export_to_csv_button, #create_db_button, #delete_db_button {
+	margin-left:40px;
+}

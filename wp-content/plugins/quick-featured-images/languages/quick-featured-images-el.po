@@ -1,0 +1,1110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Quick Featured Images\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/plugins/quick-featured-images\n"
+"POT-Creation-Date: 2018-07-23 23:36+0200\n"
+"PO-Revision-Date: 2018-07-23 23:36+0200\n"
+"Last-Translator: Martin Stehle <m.stehle@gmx.de>\n"
+"Language-Team: Greek\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.9\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-quick-featured-images-admin.php:213
+msgid ""
+"Your time-saving Swiss Army Knife for featured images: Set, replace and "
+"delete them in bulk, in posts lists and set default images for future posts."
+msgstr ""
+"Ο Ελβετικός σουγιάς που σας γλιτώνει χρόνο για τις προβεβλημένες εικόνες: "
+"Ορίστε, αντικαταστήστε και διαγράψτε τις μαζικά, σε λίστες άρθρων και ορίστε "
+"προεπιλεγμένες εικόνες για τα μελλοντικά άρθρα."
+
+#: admin/class-quick-featured-images-admin.php:276
+#, php-format
+msgid ""
+"The plugin requires WordPress version %s or higher. Therefore, WordPress did "
+"not activate it. If you want to use this plugin update the Wordpress files "
+"to the latest version."
+msgstr ""
+"Το πρόσθετο απαιτεί την έκδοση %s ή μεγαλύτερη του Wordpress. Γι'αυτό το "
+"Wordpress δεν το ενεργοποίησε. Αν θέλετε να χρησιμοποιήσετε αυτό το "
+"πρόσθετο, ενημερώστε τα αρχεία του Wordpress στην πιο πρόσφατη έκδοση."
+
+#: admin/class-quick-featured-images-admin.php:482
+#, php-format
+msgid "Welcome to %s! You can find the plugin at %s."
+msgstr "Καλώς ήλθατε στο %s! Μπορείτε να βρείτε το πρόσθετο στο %s."
+
+#: admin/class-quick-featured-images-columns.php:295
+#: admin/class-quick-featured-images-columns.php:456
+#, php-format
+msgid "Change &#8220;%s&#8221;"
+msgstr "Αλλάξτε &#8220;%s&#8221;"
+
+#: admin/class-quick-featured-images-columns.php:320
+#: admin/class-quick-featured-images-columns.php:457
+#, php-format
+msgid "Remove &#8220;%s&#8221;"
+msgstr "Αφαιρέστε &#8220;%s&#8221;"
+
+#: admin/class-quick-featured-images-columns.php:364
+#: admin/class-quick-featured-images-columns.php:377
+#: admin/class-quick-featured-images-columns.php:529
+#, php-format
+msgid "Set image for &#8220;%s&#8221;"
+msgstr "Ορίστε εικόνα για &#8220;%s&#8221;"
+
+#: admin/class-quick-featured-images-defaults.php:275
+msgid "Preset Featured Images"
+msgstr "Προεπιλογή προβεβλημένων εικόνων"
+
+#: admin/class-quick-featured-images-defaults.php:286
+msgid "Set default featured images for future posts"
+msgstr "Ορίστε την προεπιλογή για προβεβλημένες εικόνες των μελλοντικών άρθρων"
+
+#: admin/class-quick-featured-images-settings.php:230
+msgid "Set the visibility of columns of featured images in posts lists"
+msgstr ""
+"Ορίστε την ορατότητα των στηλών των προβεβλημένων εικόνων στις λίστες των "
+"άρθρων"
+
+#: admin/class-quick-featured-images-settings.php:380
+msgid "Columns for featured images in posts lists"
+msgstr "Στήλες για προβεβλημένες εικόνες στις λίστες των άρθρων"
+
+#: admin/class-quick-featured-images-settings.php:388
+msgid "Show additional column for featured images in lists of"
+msgstr "Εμφάνιση πρόσθετης στήλης για προβεβλημένες εικόνες σε λίστες των"
+
+#: admin/class-quick-featured-images-settings.php:393
+msgid "Posts list with image column"
+msgstr "Λίστα άρθρων με στήλη εικόνας"
+
+#: admin/class-quick-featured-images-settings.php:416
+msgid "Visibility of the plugin"
+msgstr "Ορατότητα του πρόσθετου"
+
+#: admin/class-quick-featured-images-settings.php:424
+msgid "Which user role may see the plugin?"
+msgstr "Ποιο προφίλ χρήστη μπορεί να δει το πρόσθετο;"
+
+#: admin/class-quick-featured-images-settings.php:556
+msgid ""
+"Activate the checkboxes at each post type to show the extra columns in the "
+"post lists."
+msgstr ""
+"Επιλέξτε κάθε τύπο άρθρου για να εμφανιστούν εξτρά στήλες στις λίστες των "
+"άρθρων."
+
+#: admin/class-quick-featured-images-settings.php:568
+msgid "Minimum user role to see the plugin in the backend"
+msgstr "Ελάχιστος ρόλος χρήστη για να βλέπει το πρόσθετο στη διαχείριση"
+
+#: admin/class-quick-featured-images-settings.php:604
+msgid "Select the minimum user role a user must have to see the plugin."
+msgstr ""
+"Επιλέξτε τον ελάχιστο ρόλο χρήστη που πρέπει να ισχύει ώστε να εμφανίζεται "
+"το πρόσθετο."
+
+#: admin/class-quick-featured-images-settings.php:609
+#, php-format
+msgid ""
+"The rules as set in &#8220;%s&#8221; work on posts independently of this "
+"setting."
+msgstr ""
+"Οι κανόνες όπως ορίστηκαν στο &#8220;%s&#8221; εφαρμόζονται στα άρθρα "
+"ανεξάρτητα από αυτή τη ρύθμιση."
+
+#: admin/class-quick-featured-images-settings.php:614
+msgid ""
+"This setting controls as well whether a user will see in an image column the "
+"thumbnails with action links or the thumbnails only. To switch image columns "
+"on and off use the section above."
+msgstr ""
+"Αυτή η ρύθμιση ελέγχει αν ο χρήστης θα βλέπει τις μικρογραφίες σε μια στήλη "
+"εικόνων με συνδέσμους ενεργειών ή μόνο τις μικρογραφίες. Για την "
+"ενεργοποίηση ή όχι χρησιμοποιήστε τη ρύθμιση πιο πάνω."
+
+#: admin/class-quick-featured-images-settings.php:615
+msgid "This page is accessible for administrators only."
+msgstr "Αυτή η σελίδα είναι προσβάσιμη μόνο σε διαχειριστές."
+
+#: admin/class-quick-featured-images-settings.php:625
+msgid ""
+"The additional columns give you a quick overview about all used featured "
+"images for every post. The Featured Image column is sortable."
+msgstr ""
+"Οι πρόσθετες στήλες, σας δίνουν μια γρήγορη επισκόπηση για όλες τις "
+"προβεβλημένες εικόνες σε χρήση για κάθε άρθρο. Η στήλη είναι ταξινομήσιμη."
+
+#: admin/class-quick-featured-images-settings.php:634
+msgid "Controls which minimum user role can see the plugin."
+msgstr "Ελέγχει τον ελάχιστο ρόλο χρήστη που μπορεί να δει το πρόσθετο."
+
+#: admin/class-quick-featured-images-tools.php:471
+#, php-format
+msgid "Wrong image ID %d"
+msgstr "Λάθος ταυτότητα εικόνας %d"
+
+#: admin/class-quick-featured-images-tools.php:573
+msgid "Select"
+msgstr "Επιλέξτε"
+
+#: admin/class-quick-featured-images-tools.php:574
+msgid "Add filter"
+msgstr "Προσθήκη φίλτρου"
+
+#: admin/class-quick-featured-images-tools.php:575
+msgid "Refine"
+msgstr "Βελτιστοποίηση"
+
+#: admin/class-quick-featured-images-tools.php:576
+msgid "Confirm"
+msgstr "Επιβεβαίωση"
+
+#: admin/class-quick-featured-images-tools.php:577
+msgid "Perform"
+msgstr "Εκτέλεση"
+
+#: admin/class-quick-featured-images-tools.php:581
+msgid "Set the selected image as new featured image"
+msgstr "Ορίστε την επιλεγμένη εικόνα ως νέα προβεβλημένη εικόνα"
+
+#: admin/class-quick-featured-images-tools.php:582
+msgid "Replace featured images by the selected image"
+msgstr "Αντικατάσταση προβεβλημένων εικόνων με την επιλεγμένη εικόνα"
+
+#: admin/class-quick-featured-images-tools.php:583
+msgid "Remove the selected image as featured image"
+msgstr "Αφαίρεση της επιλεγμένης εικόνας ως προβεβλημένης"
+
+#: admin/class-quick-featured-images-tools.php:586
+msgid "Remove any image as featured image"
+msgstr "Αφαίρεση οποιασδήποτε εικόνας ως προβεβλημένης"
+
+#: admin/class-quick-featured-images-tools.php:587
+msgid "Remove all featured images without existing image files"
+msgstr ""
+"Αφαίρεση όλων των προβεβλημένων εικόνων που δεν έχουν τα αρχεία εικόνων"
+
+#: admin/class-quick-featured-images-tools.php:590
+msgid "Set multiple images randomly as featured images"
+msgstr "Τυχαίος ορισμός πολλαπλών εικόνων ως προβεβλημένων"
+
+#: admin/class-quick-featured-images-tools.php:594
+msgid "Overwrite featured images"
+msgstr "Αντικατάσταση προβεβλημένων εικόνων"
+
+#: admin/class-quick-featured-images-tools.php:595
+msgid "Consider only posts without any featured image"
+msgstr "Να ληφθούν υπ' όψη μόνο τα άρθρα χωρίς προβεβλημένη εικόνα"
+
+#: admin/class-quick-featured-images-tools.php:599
+msgid "Post Type Filter"
+msgstr "Φίλτρο τύπου άρθρου"
+
+#: admin/class-quick-featured-images-tools.php:600
+msgid "Category Filter"
+msgstr "Φίλτρο κατηγορίας"
+
+#: admin/class-quick-featured-images-tools.php:601
+msgid "Tag Filter"
+msgstr "Φίλτρο ετικέτας"
+
+#: admin/class-quick-featured-images-tools.php:630
+msgid "Image width in pixels lower than"
+msgstr "Πλάτος εικόνας σε pixel μικρότερο από"
+
+#: admin/class-quick-featured-images-tools.php:631
+msgid "Image height in pixels lower than"
+msgstr "Ύψος εικόνας σε pixel μικρότερο από"
+
+#: admin/class-quick-featured-images-tools.php:740
+#, php-format
+msgid "The input field %s is empty."
+msgstr "Το πεδίο %s είναι άδειο."
+
+#: admin/class-quick-featured-images-tools.php:741
+msgid "Type in a value into the input field."
+msgstr "Δώστε μια τιμή στο πεδίο."
+
+#: admin/class-quick-featured-images-tools.php:744
+#, php-format
+msgid "%s is not defined."
+msgstr "%s δεν ορίστηκε."
+
+#: admin/class-quick-featured-images-tools.php:745
+msgid "Check how to define the value."
+msgstr "Ελέγξτε πως θα ορίσετε την τιμή."
+
+#: admin/class-quick-featured-images-tools.php:748
+msgid "There is no selected image."
+msgstr "Δεν επιλέχθηκε εικόνα."
+
+#: admin/class-quick-featured-images-tools.php:749
+msgid "Select an image from the media library."
+msgstr "Επιλέξτε μια εικόνα από την συλλογή."
+
+#: admin/class-quick-featured-images-tools.php:752
+#: admin/views/section_image.php:51
+msgid "You have not selected an action."
+msgstr "Δεν επιλέξατε ενέργεια."
+
+#: admin/class-quick-featured-images-tools.php:753
+msgid "Start again and select which action you want to apply."
+msgstr "Ξεκινήστε πάλι και επιλέξτε ποια ενέργεια θέλετε να εφαρμόσετε."
+
+#: admin/class-quick-featured-images-tools.php:756
+#, php-format
+msgid "The input field %s has an invalid value."
+msgstr "Το πεδίο %s έχει λανθασμένη τιμή."
+
+#: admin/class-quick-featured-images-tools.php:757
+msgid "Type in valid values in the input field."
+msgstr "Δώστε έγκυρες τιμές στο πεδίο."
+
+#: admin/class-quick-featured-images-tools.php:761
+msgid "Type in values stored by WordPress."
+msgstr "Δώστε αποθηκευμένες τιμές από το WordPress."
+
+#: admin/class-quick-featured-images-tools.php:1930
+msgid "Set, replace, remove"
+msgstr "Ορίστε, αντικαταστήστε, αφαιρέστε"
+
+#: admin/class-quick-featured-images-tools.php:1941
+msgid "Bulk set, replace and remove featured images for existing posts"
+msgstr ""
+"Μαζικός ορισμός, αντικατάσταση και αφαίρεση προβεβλημένων εικόνων για "
+"υπάρχοντα άρθρα"
+
+#: admin/class-quick-featured-images-tools.php:2050
+msgid "Bulk set as featured image"
+msgstr "Μαζικός ορισμός ως προβεβλημένης εικόνας"
+
+#: admin/views/filter_category.php:3
+msgid "Select a category"
+msgstr "Επιλέξτε μια κατηγορία"
+
+#: admin/views/filter_post_types.php:2
+msgid "Select post types"
+msgstr "Επιλέξτε τύπους άρθρων"
+
+#: admin/views/filter_tag.php:7
+msgid "Select a tag"
+msgstr "Επιλογή ετικέτας"
+
+#: admin/views/filter_tag.php:20
+msgid "There are no tags in use."
+msgstr "Δεν χρησιμοποιούνται ετικέτες."
+
+#: admin/views/form_back_to_selection.php:2
+msgid "Select filters and options again"
+msgstr "Επιλέξτε ξανά φίλτρα και ρυθμίσεις"
+
+#: admin/views/form_back_to_selection.php:3
+msgid ""
+"If you want to change your former selection just go back by clicking on this "
+"button."
+msgstr ""
+"Αν θέλετε να αλλάξετε τις επιλογές σας, απλά πηγαίνετε πίσω κάνοντας κλικ σε "
+"αυτό το κουμπί."
+
+#: admin/views/form_back_to_selection.php:42
+msgid "Modify selection"
+msgstr "Αλλαγή επιλογής"
+
+#: admin/views/form_confirm.php:1
+msgid "Preview of your selection"
+msgstr "Προεπισκόπηση επιλογής"
+
+#: admin/views/form_confirm.php:2
+#, php-format
+msgid "%d matches found"
+msgstr "Βρέθηκαν %d αντιστοιχίσεις"
+
+#: admin/views/form_confirm.php:12
+msgid ""
+"Should the entries of featured images without image files be removed from "
+"the database?"
+msgstr ""
+"Οι καταχωρήσεις προβεβλημένων εικόνων χωρίς εικόνες, να αφαιρεθούν από τη "
+"βάση;"
+
+#: admin/views/form_confirm.php:15 admin/views/section_results.php:16
+msgid "Details"
+msgstr "Λεπτομέρειες"
+
+#: admin/views/form_confirm.php:16 admin/views/section_defaults.php:17
+#: admin/views/section_results.php:18
+msgid "No."
+msgstr "Όχι."
+
+#: admin/views/form_confirm.php:17 admin/views/section_results.php:17
+msgid "Current Featured Image"
+msgstr "Τρέχουσα προβεβλημένη εικόνα"
+
+#: admin/views/form_confirm.php:18
+msgid "Future Featured Image"
+msgstr "Μελλοντική προβεβλημένη εικόνα"
+
+#: admin/views/form_confirm.php:19
+msgid "written on"
+msgstr "γράφτηκε την"
+
+#: admin/views/form_confirm.php:20
+msgid "by"
+msgstr "από"
+
+#: admin/views/form_confirm.php:35
+msgid "Should the selected image be set as featured image to all listed posts?"
+msgstr "Να οριστεί η εικόνα ως προβεβλημένη στα επιλεγμένα άρθρα;"
+
+#: admin/views/form_confirm.php:38
+msgid ""
+"Should the selected images be set randomly as featured images to all listed "
+"posts?"
+msgstr "Να οριστούν οι εικόνες ως προβεβλημένες στα επιλεγμένα άρθρα;"
+
+#: admin/views/form_confirm.php:41
+msgid ""
+"Should the current set featured image be replaced by the selected image at "
+"all listed posts?"
+msgstr ""
+"Να αντικατασταθεί το τρέχον σετ προβεβλημένων εικόνων από την επιλεγμένη "
+"εικόνα στα άρθρα;"
+
+#: admin/views/form_confirm.php:44
+msgid "Should the selected image be removed from all listed posts?"
+msgstr "Να αφαιρεθεί η εικόνα από όλα τα επιλεγμένα άρθρα;"
+
+#: admin/views/form_confirm.php:47
+msgid "Should the future images be set as featured images at all listed posts?"
+msgstr ""
+"Να οριστούν οι μελλοντικές εικόνες ως προβεβλημένες στα επιλεγμένα άρθρα;"
+
+#: admin/views/form_confirm.php:50
+msgid "Should the added featured images be removed from all listed posts?"
+msgstr ""
+"Να αφαιρεθούν οι πρόσθετες προβεβλημένες εικόνας από όλα τα επιλεγμένα άρθρα;"
+
+#: admin/views/form_confirm.php:54 admin/views/section_results.php:27
+msgid ""
+"The list is in alphabetical order according to post title. You can edit a "
+"post in a new window by clicking on its link in the list."
+msgstr ""
+"Η λίστα είναι σε αλφαβητική σειρά σύμφωνα με τον τίτλο του άρθρου. Μπορείτε "
+"να επεξεργαστείτε ένα άρθρο σε νέο παράθυρο κλικάροντάς τον σύνδεσμό του."
+
+#: admin/views/form_confirm.php:120
+msgid "Confirm the change"
+msgstr "Επιβεβαιώστε την αλλαγή"
+
+#: admin/views/form_confirm.php:121
+msgid "You can not undo the operation!"
+msgstr "Δεν μπορείτε να αναιρέσετε την ενέργεια!"
+
+#: admin/views/form_confirm.php:182 admin/views/section_errormsg.php:8
+#: admin/views/section_results.php:86
+msgid "Start again"
+msgstr "Αρχίστε ξανά"
+
+#: admin/views/form_confirm.php:182
+msgid "or refine your selection with the following form fields."
+msgstr "ή βελτιστοποιήστε την επιλογή με τα ακόλουθα πεδία."
+
+#: admin/views/form_refine.php:1
+msgid "Refine your selection"
+msgstr "Βελτιστοποιήστε την επιλογή"
+
+#: admin/views/form_refine.php:8
+msgid "Refine filters"
+msgstr "Φίλτρα βελτιστοποίησης"
+
+#: admin/views/form_refine.php:9
+msgid ""
+"Now you can find posts and pages by matching parameters. Refine them here."
+msgstr ""
+"Τώρα μπορείτε να βρείτε άρθρα και σελίδες ταιριάζοντας παραμέτρους. "
+"Βελτιστοποιήστε τις εδώ."
+
+#: admin/views/form_refine.php:10
+msgid "Whatever you do: You can confirm your choice on the next page."
+msgstr ""
+"Ό,τι και αν κάνετε: Μπορείτε να επιβεβαιώσετε την επιλογή σας στην επόμενη "
+"σελίδα."
+
+#: admin/views/form_refine.php:18
+#, php-format
+msgid "File %s is not available."
+msgstr "Το αρχείο %s δεν είναι διαθέσιμο."
+
+#: admin/views/form_refine.php:48 admin/views/form_select.php:29
+msgid "Preview filtering"
+msgstr "Προεπισκόπηση φίλτρου"
+
+#: admin/views/form_refine.php:54
+msgid ""
+"There are no selected filters. Modify your filter selection or just go on by "
+"clicking on the next button."
+msgstr ""
+"Δεν επιλέχθηκαν φίλτρα. Διαμορφώστε τα φίλτρα σας ή απλά συνεχίστε πατώντας "
+"το επόμενο κουμπί."
+
+#: admin/views/form_select.php:9 admin/views/form_start.php:4
+#: admin/views/section_defaults.php:213
+msgid "Notice"
+msgstr "Επισήμανση"
+
+#: admin/views/form_select.php:11
+msgid ""
+"You did not have selected an image from the list below. To go on select at "
+"least one image you want to replace by the selected image."
+msgstr ""
+"Δεν επιλέξατε εικόνα από την παρακάτω λίστα. Για να συνεχίσετε, επιλέξτε "
+"τουλάχιστο μια εικόνα που θέλετε να αντικατασταθεί από την επιλεγμένη εικόνα."
+
+#: admin/views/form_select.php:17
+msgid "Select the featured images you want to replace by the selected image."
+msgstr ""
+"Επιλέξτε τις προβεβλημένες εικόνες που θέλετε να αντικαταστήσετε με την "
+"επιλεγμένη εικόνα."
+
+#: admin/views/form_select.php:18
+msgid "You can select multiple images. Select at least one image."
+msgstr ""
+"Μπορείτε να επιλέξετε πολλαπλές εικόνες. Επιλέξτε τουλάχιστο μια εικόνα."
+
+#: admin/views/form_select.php:19 admin/views/form_start.php:80
+msgid ""
+"To select multiple images click on the button and use the CTRL key while "
+"clicking on the images."
+msgstr ""
+"Για να επιλέξετε πολλαπλές εικόνες, κάντε κλικ στο κουμπί και χρησιμοποιήστε "
+"το CTRL καθώς κάνετε τις επιλογές."
+
+#: admin/views/form_select.php:23 admin/views/form_start.php:84
+msgid "Choose Images"
+msgstr "Επιλέξτε εικόνες"
+
+#: admin/views/form_select.php:31 admin/views/form_start.php:120
+msgid "Use CTRL for multiple choice"
+msgstr "Χρησιμοποιήστε το CTRL για πολλαπλές επιλογές"
+
+#: admin/views/form_select.php:37
+msgid "Refine your selections"
+msgstr "Βελτιστοποιήστε τις επιλογές"
+
+#: admin/views/form_select.php:38 admin/views/form_select.php:48
+msgid "You can control the process with the following options."
+msgstr "Μπορείτε να ελέγξετε τη διαδικασία με τις ακόλουθες επιλογές."
+
+#: admin/views/form_select.php:45
+msgid "Optional: Select options"
+msgstr "Προεραιτικό: Κάντε επιλογές"
+
+#: admin/views/form_select.php:47
+msgid "Process Options"
+msgstr "Επιλογές επεξεργασίας"
+
+#: admin/views/form_select.php:53
+msgid "Overwrite existing featured images with new ones"
+msgstr "Αντικατάσταση υπαρχόντων προβεβλημένων εικόνων, με νέες"
+
+#: admin/views/form_select.php:63
+msgid ""
+"Posts with featured images will be ignored, even if the Overwrite option is "
+"checked"
+msgstr ""
+"Άρθρα με προβεβλημένες εικόνες θα αγνοηθούν, ακόμη και αν η επιλογή της "
+"αντικατάστασης είναι επιλεγμένη"
+
+#: admin/views/form_select.php:72
+msgid "There are two more options in the premium version for random images:"
+msgstr "Υπάρχουν δύο ακόμη επιλογές στην premium έκδοση για τυχαίες εικόνες:"
+
+#: admin/views/form_select.php:74
+msgid "Use each selected image only once"
+msgstr "Χρησιμοποιείστε κάθε επιλεγμένη εικόνα μόνο μια φορά"
+
+#: admin/views/form_select.php:75
+msgid "Remove excess featured images after all selected images are used"
+msgstr ""
+"Αφαίρεση επιπλέον προβεβλημένων εικόνων μετά τη πλήρη χρήση των επιλεγμένων "
+"εικόνων"
+
+#: admin/views/form_select.php:77 admin/views/form_select.php:115
+#: admin/views/form_select.php:119 admin/views/form_start.php:113
+#: admin/views/section_defaults.php:520 admin/views/section_footer.php:58
+#: admin/views/section_overview.php:91
+msgid "Get the premium version"
+msgstr "Πάρτε την premium έκδοση"
+
+#: admin/views/form_select.php:77 admin/views/form_select.php:115
+#: admin/views/form_select.php:119 admin/views/form_start.php:113
+#: admin/views/section_defaults.php:520 admin/views/section_footer.php:58
+#: admin/views/section_overview.php:90 admin/views/section_overview.php:91
+msgid "/"
+msgstr "/"
+
+#: admin/views/form_select.php:86
+msgid "Optional: Add a filter"
+msgstr "Προεραιτικό: Προσθέστε ένα φίλτρο"
+
+#: admin/views/form_select.php:88
+msgid "Select filters"
+msgstr "Επιλογή φίλτρων"
+
+#: admin/views/form_select.php:89
+msgid ""
+"If you want select one of the following filters to narrow down the set of "
+"concerned posts and pages."
+msgstr ""
+"Αν θέλετε, επιλέξετε ένα από τα κάτωθι φίλτρα για να περιορίσετε τα άρθρα "
+"και τις σελίδες που σας ενδιαφέρουν."
+
+#: admin/views/form_select.php:90
+msgid ""
+"You can select multiple filters. They will return an intersection of their "
+"results."
+msgstr ""
+"Μπορείτε να επιλέξετε πολλαπλά φίλτρα. Θα επιστρέψουν έναν συνδυασμό των "
+"αποτελεσμάτων."
+
+#: admin/views/form_select.php:95
+msgid "Search by post type. By default all posts and pages will be affected."
+msgstr ""
+"Αναζήτηση βάσει τύπου άρθρου. Από προεπιλογή επηρεάζονται όλα τα άρθρα και "
+"οι σελίδες."
+
+#: admin/views/form_select.php:98
+msgid "Search posts by category"
+msgstr "Αναζήτηση άρθρων βάσει κατηγορίας"
+
+#: admin/views/form_select.php:101
+msgid "Search posts by tag"
+msgstr "Αναζήτηση άρθρων βάση ετικέτας"
+
+#: admin/views/form_select.php:115 admin/views/section_overview.php:91
+msgid "Are you looking for more options and more filters?"
+msgstr "Ψάχνετε για περισσότερες επιλογές και φίλτρα;"
+
+#: admin/views/form_select.php:116
+msgid "If you encounter a white, blank page, read this"
+msgstr "Αν αντιμετωπίσετε μια λευκή, κενή σελίδα, διαβάστε αυτό"
+
+#: admin/views/form_select.php:117
+msgid ""
+"Facing a white blank page while trying to treat thousands of posts is the "
+"effect of limited memory capacities on the website server. Instead of "
+"treating a huge amount of posts in one single go try to treat small amounts "
+"of posts multiple times successively. To achieve that do:"
+msgstr ""
+"Αν δείτε μια λευκή κενή σελίδα, ενώ προσπαθείτε να χειριστείτε χιλιάδες "
+"άρθρα, είναι λόγω της περιορισμένης διαθέσιμης μνήμης στην ιστοσελίδα. Αντί "
+"να διαχειρίζεστε μεγάλη ποσότητα άρθρων με μια προσπάθεια, κάντε το σε "
+"μικρές ποσότητες, πολλές φορές διαδοχικά. Για να το κάνετε αυτό:"
+
+#: admin/views/form_select.php:120
+msgid "add the time filter,"
+msgstr "ορίστε το φίλτρο χρόνου,"
+
+#: admin/views/form_select.php:121
+msgid "set a small time range,"
+msgstr "ορίστε μια μικρή χρονική περίοδο,"
+
+#: admin/views/form_select.php:122
+msgid "do the process"
+msgstr "κάντε την επεξεργασία"
+
+#: admin/views/form_select.php:123
+msgid "and repeat it with the next time range as often as needed."
+msgstr "και επαναλάβετε αλλάζοντας τη χρονική περίοδο."
+
+#: admin/views/form_select.php:125
+msgid ""
+"This way is not as fast as one single run, but still much faster than "
+"setting the images for each post manually."
+msgstr ""
+"Μπορεί αυτός ο τρόπος να μην είναι γρήγορος και άμεσος, αλλά σίγουρα "
+"γρηγορότερος από το να ορίζετε προβεβλημένη εικόνα σε κάθε άρθρο χειροκίνητα."
+
+#: admin/views/form_select.php:130
+msgid ""
+"On the next page you can refine the filters. If you did not select any "
+"filter you will go to the preview list directly."
+msgstr ""
+"Στην επόμενη σελίδα μπορείτε να βελτιστοποιήσετε τα φίλτρα. Αν δεν επιλέξατε "
+"κάποιο, θα οδηγηθείτε άμεσα στην λίστα προεπισκόπησης."
+
+#: admin/views/form_start.php:6 admin/views/section_defaults.php:215
+msgid ""
+"The current theme does not support featured images. Anyway you can use this "
+"plugin. The effects are stored and will be visible in a theme which supports "
+"featured images."
+msgstr ""
+"Το τρέχον θέμα δεν υποστηρίζει προβεβλημένες εικόνες. Μπορείτε όμως να "
+"χρησιμοποιήσετε το πρόσθετο. Τα αποτελέσματα θα αποθηκευτούν και θα "
+"εμφανιστούν όταν χρησιμοποιηθεί ένα θέμα που κάνει χρήση προβεβλημένων "
+"εικόνων."
+
+#: admin/views/form_start.php:12
+msgid "What do you want to do?"
+msgstr "Τι θέλετε να κάνετε;"
+
+#: admin/views/form_start.php:14
+msgid ""
+"Here you can add, replace and delete featured images to your posts. Select "
+"one of the following actions and, if necessary, one or more images."
+msgstr ""
+"Εδώ μπορείτε να προσθέσετε, αντικαταστήσετε και διαγράψετε τις προβεβλημένες "
+"εικόνες στα άρθρα σας. Επιλέξτε μια από τις ακόλουθες ενέργειες και -αν "
+"είναι αναγκαίο- μια ή περισσότερες εικόνες."
+
+#: admin/views/form_start.php:15
+msgid "Whatever you select: You can refine your choice on the next page."
+msgstr ""
+"Ό,τι και αν επιλέξετε: Μπορείτε να βελτιστοποιήσετε την επιλογή σας στην "
+"επόμενη σελίδα."
+
+#: admin/views/form_start.php:17
+msgid "Important advice"
+msgstr "Σημαντική συμβουλή"
+
+#: admin/views/form_start.php:18
+msgid ""
+"There is no undo function! It is strongly recommended that you make a backup "
+"of the WordPress database before you perform mass changes."
+msgstr ""
+"Δεν υπάρχει δυνατότητα αναίρεσης! Συνιστάται να κάνετε αντίγραφο ασφαλείας "
+"της βάσης δεδομένων του WordPress, πριν κάνετε μαζικές αλλαγές."
+
+#: admin/views/form_start.php:20
+msgid "Select action"
+msgstr "Επιλέξτε ενέργεια"
+
+#: admin/views/form_start.php:21
+msgid "Actions with a single image"
+msgstr "Ενέργειες με μονή εικόνα"
+
+#: admin/views/form_start.php:22
+msgid "These actions require to select an image with the following button."
+msgstr ""
+"Αυτές οι ενέργειες προϋποθέτουν να επιλέξετε μια εικόνα με το ακόλουθο "
+"κουμπί."
+
+#: admin/views/form_start.php:35
+msgid ""
+"Select the image you want to add to, replace or delete from posts and pages "
+"by clicking on the following button."
+msgstr ""
+"Επιλέξτε την εικόνα που θέλετε να προσθέσετε, αντικαταστήσετε ή διαγράψετε "
+"από τα άρθρα και τις σελίδες σας, κάνοντας κλικ στο ακόλουθο κουμπί."
+
+#: admin/views/form_start.php:57
+msgid "Choose Image"
+msgstr "Επιλέξτε εικόνα"
+
+#: admin/views/form_start.php:61
+msgid "If the button does not work, read this:"
+msgstr "Αν το κουμπί δε δουλεύει, διαβάστε αυτό:"
+
+#: admin/views/form_start.php:62
+msgid ""
+"Some users reported that this button would not work in some WordPress "
+"installations. If this should be the case you can take another way:"
+msgstr ""
+"Κάποιοι χρήστες ανέφεραν ότι αυτό το κουμπί δε δουλεύει σε κάποιες "
+"εγκαταστάσεις του WordPress. Αν συμβαίνει αυτό, μπορείτε να κάνετε κάτι "
+"διαφορετικό:"
+
+#: admin/views/form_start.php:63
+msgid ""
+"1. Go to the media library. 2. Move the mouse over the desired image. "
+"Further links are appearing, among them the link &quot;Bulk set as featured "
+"image&quot;. 3. After a click on it you can move on in this plugin."
+msgstr ""
+"1. Πηγαίνετε στη συλλογή μέσων. 2. Επιλέξτε την επιθυμητή εικόνα. "
+"Εμφανίζονται σύνδεσμοι, μεταξύ των οποίων ο σύνδεσμος &quot;Μαζικός ορισμός "
+"ως προβεβλημένης εικόνας&quot;. 3. Αφ' ότου το κάνετε κλικ, μπορείτε να "
+"συνεχίσετε με το πρόσθετο."
+
+#: admin/views/form_start.php:67
+msgid "Actions with multiple images"
+msgstr "Ενέργειες με πολλαπλές εικόνες"
+
+#: admin/views/form_start.php:68
+msgid ""
+"These actions require at least one selected image with the following button."
+msgstr ""
+"Αυτές οι ενέργειες προϋποθέτουν την επιλογή τουλάχιστον μιας εικόνας με το "
+"ακόλουθο κουμπί."
+
+#: admin/views/form_start.php:101
+msgid "Actions without any selected image"
+msgstr "Ενέργειες χωρίς επιλεγμένη εικόνα"
+
+#: admin/views/form_start.php:102
+msgid "These actions do not require a selected image."
+msgstr "Αυτές οι ενέργειες δεν απαιτούν επιλογή εικόνας."
+
+#: admin/views/form_start.php:113
+msgid "Do you want to assign the first image of each post?"
+msgstr "Θέλετε να ορίσετε την πρώτη εικόνα κάθε άρθρου;"
+
+#: admin/views/section_defaults.php:16
+msgid "matches"
+msgstr "αντιστοιχίσεις"
+
+#: admin/views/section_defaults.php:59
+msgid "Post Type"
+msgstr "Τύπος άρθρου"
+
+#: admin/views/section_defaults.php:204
+msgid "Default featured images for future posts"
+msgstr "Προεπιλεγμένες προβεβλημένες εικόνες για μελλοντικά άρθρα"
+
+#: admin/views/section_defaults.php:206
+msgid ""
+"Define the rules to use images as default featured images automatically "
+"every time a post is saved."
+msgstr ""
+"Ορίστε τους κανόνες για την προεπιλεγμένη αυτόματη χρήση εικόνων ως "
+"προβεβλημένες, κάθε φορά που αποθηκεύεται ένα άρθρο."
+
+#: admin/views/section_defaults.php:207
+msgid ""
+"To use a rule choose the image and set both the taxonomy and the value. A "
+"rule which is defined only partially will be ignored."
+msgstr ""
+"Για να κάνετε χρήση ενός κανόνα, επιλέξτε την εικόνα και ορίστε την "
+"ταξινόμηση και τη τιμή. Αν ο κανόνας οριστεί μερικώς, θα αγνοηθεί."
+
+#: admin/views/section_defaults.php:235
+msgid "An image overwrites an existing image"
+msgstr "Μια εικόνα αντικαθιστά την υπάρχουσα εικόνα"
+
+#: admin/views/section_defaults.php:239
+msgid ""
+"Activate to automatically overwrite an existing featured image while saving "
+"a post"
+msgstr ""
+"Ενεργοποιείστε για να αντικαταστήσετε αυτόματα μια υπάρχουσα προβεβλημένη "
+"εικόνα καθώς αποθηκεύετε ένα άρθρο"
+
+#: admin/views/section_defaults.php:241
+msgid ""
+"If activated the rule is used automatically while saving a post to overwrite "
+"an existing featured image with the new one based on the following rules. Do "
+"not use this if you want to keep manually set featured images."
+msgstr ""
+"Αν ενεργοποιηθεί, ο κανόνας χρησιμοποιείται αυτόματα κατά την αποθήκευση "
+"ενός άρθρου, για να αντικαταστήσει μια υπάρχουσα προβεβλημένη εικόνα με τη "
+"νέα, βάσει των ακόλουθων κανόνων. Μην το χρησιμοποιείτε αν θέλετε να ορίζετε "
+"χειροκίνητα τις προβεβλημένες εικόνες."
+
+#: admin/views/section_defaults.php:248
+msgid "Text with images in WordPress editor"
+msgstr "Κείμενο με εικόνες στον διορθωτή του WordPress"
+
+#: admin/views/section_defaults.php:252
+msgid ""
+"Activate to automatically use the first content image if available in the "
+"media library as featured image while saving a post"
+msgstr ""
+"Ενεργοποιήστε για να κάνετε αυτόματα τη χρήση της πρώτης εικόνας "
+"περιεχομένου, αν είναι διαθέσιμη στη συλλογή πολυμέσων, ως προβεβλημένης "
+"κατά την αποθήκευση του άρθρου"
+
+#: admin/views/section_defaults.php:254
+msgid ""
+"If activated the rule is used automatically while saving a post to set the "
+"first content image - if available in the media library - as the featured "
+"image of the post. If the post has no content images the next rules will be "
+"applied."
+msgstr ""
+"Εάν ενεργοποιηθεί, ο κανόνας χρησιμοποιείται αυτόματα κατά την αποθήκευση "
+"ενός άρθρου, για να οριστεί η πρώτη εικόνα περιεχομένου - εάν είναι "
+"διαθέσιμη στη συλλογή πολυμέσων - ως προβεβλημένη εικόνα του άρθρου. Εάν δεν "
+"έχει εικόνες περιεχομένου, θα εφαρμοστούν οι επόμενοι κανόνες."
+
+#: admin/views/section_defaults.php:255
+msgid "For which post types should this rule be applied?"
+msgstr "Σε ποιους τύπους άρθρων να εφαρμοστεί αυτός ο κανόνας;"
+
+#: admin/views/section_defaults.php:282
+msgid ""
+"Select at least one post type, otherwise all post types will be considered."
+msgstr ""
+"Επιλέξτε τουλάχιστο έναν τύπο άρθρου, αλλιώς όλοι οι τύποι θα συμπεριληφθούν."
+
+#: admin/views/section_defaults.php:488
+msgid "Add rule"
+msgstr "Προσθήκη κανόνα"
+
+#: admin/views/section_defaults.php:493
+msgid "Are you sure to remove this rule?"
+msgstr "Είστε βέβαιοι ότι θέλετε να αφαιρέσετε αυτόν τον κανόνα;"
+
+#: admin/views/section_defaults.php:496
+msgid "How the rules work"
+msgstr "Πώς δουλεύουν οι κανόνες"
+
+#: admin/views/section_defaults.php:497
+msgid ""
+"Every time you save a post the post get the featured image if one of the "
+"following rules match a property of the post. You can also set rules for "
+"pages and all other current post types which support featured images."
+msgstr ""
+"Κάθε φορά που αποθηκεύετε ένα άρθρο, παίρνει την προβεβλημένη εικόνα αν ένας "
+"από τους ακόλουθους κανόνες ταιριάζει με μια ιδιότητα του άρθρου. Μπορείτε "
+"επίσης να ορίσετε κανόνες για τις σελίδες και τους άλλους τύπους άρθρων που "
+"υποστηρίζουν προβεβλημένες εικόνες."
+
+#: admin/views/section_defaults.php:498
+msgid ""
+"Regardless of the order in the list the rules are applied in the following "
+"order until a rule and a property of the post fit together:"
+msgstr ""
+"Ανεξάρτητα από τη σειρά στην λίστα, οι κανόνες εφαρμόζονται με την ακόλουθη "
+"σειρά έως ότου ένας κανόνας και μια ιδιότητα του άρθρου να ταιριάξουν:"
+
+#: admin/views/section_defaults.php:500
+msgid "found first content image. If not then..."
+msgstr "βρέθηκε πρώτη εικόνα περιεχομένου. Αν όχι τότε..."
+
+#: admin/views/section_defaults.php:501
+msgid "matched custom taxonomy. If not then..."
+msgstr "αντιστοίχιση προσαρμοσμένης ταξινόμησης. Αν όχι τότε..."
+
+#: admin/views/section_defaults.php:502
+msgid "matched tag. If not then..."
+msgstr "αντιστοιχισμένη ετικέτα. Αν όχι τότε..."
+
+#: admin/views/section_defaults.php:503
+msgid "matched category. If not then..."
+msgstr "αντιστοιχισμένη κατηγορία. Αν όχι τότε..."
+
+#: admin/views/section_defaults.php:504
+msgid "matched author. If not then..."
+msgstr "αντιστοιχισμένος συντάκτης. Αν όχι τότε..."
+
+#: admin/views/section_defaults.php:505
+msgid "matched post type. If not then..."
+msgstr "αντιστοιχισμένος τύπος άρθρου. Αν όχι τότε..."
+
+#: admin/views/section_defaults.php:506
+msgid "no featured image."
+msgstr "χωρίς προβεβλημένη εικόνα."
+
+#: admin/views/section_defaults.php:508
+msgid ""
+"Bear in mind that if two or more rules with the same taxonomy would fit to "
+"the post it is unforeseeable which image will become the featured image."
+msgstr ""
+"Να έχετε υπ' όψη ότι αν δύο ή περισσότεροι κανόνες με την ίδια ταξινόμηση "
+"ταιριάζουν στο άρθρο δεν είναι προβλέψιμο ποια εικόνα θα χρησιμοποιηθεί ως "
+"προβεβλημένη."
+
+#: admin/views/section_defaults.php:509
+msgid "Additional rules in the premium version"
+msgstr "Πρόσθετοι κανόνες στην premium έκδοση"
+
+#: admin/views/section_defaults.php:511
+msgid "Multiple images to set them randomly as featured image"
+msgstr "Πολλαπλές εικόνες να οριστούν τυχαία ως προβεβλημένες"
+
+#: admin/views/section_defaults.php:512
+msgid "Random featured images at each page load"
+msgstr "Τυχαίες προβεβλημένες εικόνες σε κάθε φόρτωση σελίδας"
+
+#: admin/views/section_defaults.php:513
+msgid ""
+"The first content image can be also an image from an external server to set "
+"it as automated featured image"
+msgstr ""
+"Η πρώτη εικόνα περιεχομένου μπορεί να είναι εικόνα από εξωτερικό server και "
+"να οριστεί αυτόματα ως προβεβλημένη"
+
+#: admin/views/section_defaults.php:514
+msgid ""
+"Remove the first content image automatically after the featured image was "
+"set successfully"
+msgstr ""
+"Αφαίρεση της πρώτης εικόνας περιεχομένου αυτόματα, μετά τον επιτυχημένο "
+"ορισμό της ως προβεβλημένης"
+
+#: admin/views/section_defaults.php:515
+msgid "Match with a search string in post title"
+msgstr "Αντιστοίχιση με κείμενο αναζήτησης στον τίτλο άρθρου"
+
+#: admin/views/section_defaults.php:516
+msgid "Match with a selected post format"
+msgstr "Αντιστοίχιση με επιλεγμένο τύπο άρθρου"
+
+#: admin/views/section_defaults.php:517
+msgid "User defined order of rules"
+msgstr "Σειρά κανόνων ορισμένη από τον χρήστη"
+
+#: admin/views/section_defaults.php:518
+msgid "Import your rules from this plugin into the premium plugin"
+msgstr "Εισάγετε τους κανόνες από αυτό το πρόσθετο στο premium"
+
+#: admin/views/section_errormsg.php:1
+msgid "Error"
+msgstr "Σφάλμα"
+
+#: admin/views/section_errormsg.php:3
+msgid "Reason"
+msgstr "Αιτία"
+
+#: admin/views/section_errormsg.php:5
+msgid "Solution"
+msgstr "Λύση"
+
+#: admin/views/section_footer.php:52
+msgid "Credits and informations"
+msgstr "Ευχαριστίες και πληροφορίες"
+
+#: admin/views/section_footer.php:54 admin/views/section_results.php:87
+msgid "Do you like the plugin?"
+msgstr "Σας άρεσε το πρόσθετο;"
+
+#: admin/views/section_footer.php:54 admin/views/section_results.php:88
+msgid "Please rate it at wordpress.org!"
+msgstr "Παρακαλώ αξιολογήστε το στο wordpress.org!"
+
+#: admin/views/section_footer.php:55
+msgid ""
+"The plugin is for free. But the plugin author would be delighted to your "
+"small contribution."
+msgstr ""
+"Αυτό το πρόσθετο είναι δωρεάν. Αλλά ο συντάκτης του, θα ήταν ευγνώμων για τη "
+"μικρή σας συνεισφορά."
+
+#: admin/views/section_footer.php:55
+msgid "Donation Button"
+msgstr "Κουμπί δωρεάς"
+
+#: admin/views/section_footer.php:55
+msgid "Donate with PayPal"
+msgstr "Κάντε δωρεά με το PayPal"
+
+#: admin/views/section_footer.php:56
+msgid "Do you need support or have an idea for the plugin?"
+msgstr "Χρειάζεστε υποστήριξη ή έχετε μια ιδέα για το πρόσθετο;"
+
+#: admin/views/section_footer.php:56
+msgid ""
+"Post your questions and ideas about Quick Featured Images in the forum at "
+"wordpress.org!"
+msgstr ""
+"Κάντε τις ερωτήσεις και τις ιδέες σας για το Quick Featured Images στο "
+"φόρουμ του wordpress.org!"
+
+#: admin/views/section_footer.php:57
+msgid ""
+"Let the thumbnails appear in the widget of the most recent posts with this "
+"fast plugin"
+msgstr ""
+"Επιτρέψτε τις μικρογραφίες να εμφανίζονται στη μικροεφαρμογή των πιο "
+"πρόσφατων άρθρων με αυτό το γρήγορο πρόσθετο"
+
+#: admin/views/section_footer.php:57
+#, php-format
+msgid "Download plugin %s at %s!"
+msgstr "Κάντε λήψη του %s πρόσθετου στο %s!"
+
+#: admin/views/section_header_progress.php:15
+msgid "Progress bar"
+msgstr "Μπάρα προόδου"
+
+#: admin/views/section_header_progress.php:17
+msgid "You are here"
+msgstr "Είστε εδώ"
+
+#: admin/views/section_image.php:1
+msgid "Your selection"
+msgstr "Η επιλογή σας"
+
+#: admin/views/section_image.php:9
+msgid "Your selected thumbnail"
+msgstr "Η επιλεγμένη σας μικρογραφία"
+
+#: admin/views/section_image.php:12
+msgid "Image title"
+msgstr "Τίτλος εικόνας"
+
+#: admin/views/section_image.php:14 admin/views/section_image.php:36
+msgid "If wrong image start again"
+msgstr "Αν είναι λάθος η εικόνα, αρχίστε ξανά"
+
+#: admin/views/section_image.php:23
+msgid "Your selected thumbnails"
+msgstr "Οι επιλεγμένες σας μικρογραφίες"
+
+#: admin/views/section_image.php:42
+msgid "Your selected action"
+msgstr "Η επιλεγμένη σας ενέργεια"
+
+#: admin/views/section_image.php:55
+msgid "If wrong action start again"
+msgstr "Αν είναι λάθος, αρχίστε ξανά"
+
+#: admin/views/section_image.php:68
+msgid "Your selected options"
+msgstr "Οι επιλογές σας"
+
+#: admin/views/section_image.php:84
+msgid "No selected options"
+msgstr "Καμιά επιλογή"
+
+#: admin/views/section_image.php:90
+msgid "Your selected filters"
+msgstr "Τα επιλεγμένα σας φίλτρα"
+
+#: admin/views/section_image.php:106
+msgid "No selected filters"
+msgstr "Καμία επιλογή φίλτρου"
+
+#: admin/views/section_overview.php:17
+msgid "Manage featured images in a quick way"
+msgstr "Διαχειριστείτε, με γρήγορο τρόπο, τις προβεβλημένες εικόνες"
+
+#: admin/views/section_overview.php:89
+msgid "The premium version"
+msgstr "Η premium έκδοση"
+
+#: admin/views/section_results.php:1
+msgid "Results of the action"
+msgstr "Αποτελέσματα της ενέργειας"
+
+#: admin/views/section_results.php:19
+msgid "Changed successfully"
+msgstr "Αλλάχτηκε επιτυχώς"
+
+#: admin/views/section_results.php:20
+msgid "Unchanged"
+msgstr "Χωρίς αλλαγή"
+
+#: admin/views/section_results.php:82
+msgid "No matches found."
+msgstr "Δε βρέθηκαν αντιστοιχίσεις."
+
+#~ msgid "Changes saved."
+#~ msgstr "Οι αλλαγές αποθηκεύτηκαν."
+
+#~ msgid "No changes were saved."
+#~ msgstr "Δεν αποθηκεύτηκε καμία αλλαγή."
+
+#~ msgid "Special thanks for the fine frontend style of the plugin go to"
+#~ msgstr "Ειδικές ευχαριστίες για το τέλειο στυλ του πρόσθετου στην"
+
+#~ msgid "You can select posts and pages."
+#~ msgstr "Μπορείτε να επιλέξετε άρθρα και σελίδες."

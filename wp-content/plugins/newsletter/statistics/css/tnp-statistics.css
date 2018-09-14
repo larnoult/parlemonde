@@ -1,0 +1,155 @@
+
+
+/* General Purpose Classes */
+
+.tnp-legend {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0px 15px;
+    display: inline-block;
+    vertical-align: middle; 
+}
+
+
+
+
+/* Statistics General Infobox */
+
+.tnp-statistics-general-icon {
+    display: inline-block;
+    background-color: #2980B9;
+    padding: 20px 18px 14px 18px;
+}
+
+.tnp-statistics-general-box {
+    background-color: #2980B9;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+#tnp-heading .tnp-statistics-general-box p {
+    color: #fff;
+    line-height: 25px;
+}
+
+.tnp-statistics-general-title {
+    font-family: "Source Sans Pro", sans-serif;
+    letter-spacing: 0.05rem;
+    background-color: #2980B9;
+    color: #fff;
+    margin: 15px 0px;
+    padding: 9px;
+    border: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.tnp-statistics-info-box {
+    background-color: #3a5168;
+}
+
+.tnp-statistics-info-box .button, .tnp-statistics-info-box .button-secondary {
+    vertical-align: middle;
+}
+
+/* Subscribers Reached Box   */
+
+
+
+.tnp-row-pie-charts {
+    margin: 20px 0px;
+}
+
+.tnp-row-pie-charts canvas[style] {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.tnp-widget .tnp-data {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.tnp-widget .tnp-data .tnp-data-title{
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro";
+}
+
+.tnp-widget .tnp-data .tnp-data-value{
+    font-size: 15px;
+    color: #415b76;
+}
+
+
+
+/* Map Box */
+
+#tnp-map-chart {
+    width: 450px;
+    height: 320px;
+    margin: 0px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#tnp-map-chart .jqvmap-zoomin, #tnp-map-chart .jqvmap-zoomout {
+    color: #fff;
+    padding: 0px;
+}
+
+.tnp-map-legend, .tnp-gender-legend, .tnp-events-legend {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #2C3E50;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px !important;
+}
+
+/* Subscribers Gender Box */
+
+#tnp-gender-chart {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* Events Over Time */
+
+#tnp-events-chart {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+/* Urls Clicked */
+
+.widefat th {
+    font-family: "Montserrat", sans-serif;
+    color: #2C3E50;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+}
+
+.widefat {
+    padding: 0px 10px;
+}
+
+
+/* Retarget Table Layout */
+
+.tnp-retarget .tnp-retarget-table {
+    background-color: #34495E;
+    border: none;
+}
+
+.tnp-retarget .tnp-retarget-table th {
+    color: #fff;
+    border: none;
+}
+
+

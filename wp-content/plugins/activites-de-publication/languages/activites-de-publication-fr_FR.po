@@ -1,0 +1,185 @@
+# Copyright (C) 2018 imath
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Activités de Publication 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/imath/activites-de-publication/"
+"issues\n"
+"POT-Creation-Date: 2018-08-31 18:30+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-09-04 17:14+0100\n"
+"Last-Translator: imath <contact@imathi.eu>\n"
+"Language-Team: FRENCH <contact@imathi.eu>\n"
+"X-Generator: Poedit 1.8.1\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr_FR\n"
+
+#: activites-de-publication.php:99
+msgid ""
+"Cette extension nécessite à minima WordPress 4.9.8, BuddyPress 3.0 et "
+"requiert que le composant des activités soit actif."
+msgstr ""
+
+#: inc/admin.php:43 inc/admin.php:72
+msgid "Activer les activités BuddyPress"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Activités de Publication"
+msgstr ""
+
+#: inc/admin.php:45 inc/admin.php:94
+#: templates/buddypress/common/js-templates/activity/activites-de-publication.php:19
+msgid "Conversations"
+msgstr "Les questions des Grands Explorateurs"
+
+#: inc/admin.php:46
+msgid "Réglage"
+msgstr ""
+
+#: inc/admin.php:203
+msgid "Supprimer définitivement"
+msgstr ""
+
+#: inc/admin.php:204
+msgid "Confirmez votre demande."
+msgstr ""
+
+#: inc/functions.php:136
+msgid "Activer ou non les activités de publication"
+msgstr ""
+
+#: inc/functions.php:174
+msgid "%s a partagé une activité de publication."
+msgstr "%s a posé une question sur un web-reportage"
+
+#: inc/functions.php:186
+msgid "Nouvelle activité de publication"
+msgstr ""
+
+#: inc/functions.php:188
+msgid "Activités de publication"
+msgstr ""
+
+#: inc/functions.php:318
+msgid "%1$s à %2$s"
+msgstr ""
+
+#. translators: %s: login URL
+#: inc/functions.php:496
+msgid ""
+"Vous devez <a href=\"%s\">être connecté·e</a> pour afficher ou publier des "
+"conversations."
+msgstr ""
+
+#: inc/functions.php:499
+msgid "Publier"
+msgstr ""
+
+#: inc/functions.php:500
+msgid "Participez aux conversations !"
+msgstr "Posez une question sur ce web-reportage !"
+
+#: inc/functions.php:501
+msgid "Merci de patienter pendant le chargement des conversations."
+msgstr "Patience, Pelico recherche vos questions !"
+
+#: inc/functions.php:502
+msgid "Aucune conversation initiée, soyez le premier à en démarrer une !"
+msgstr "Pas encore de question, posez la première !"
+
+#: inc/functions.php:504
+msgid ""
+"Désolé, vous n’êtes pas autorisé·e à consulter les activités de cette "
+"publication."
+msgstr ""
+"Désolé, vous n’êtes pas autorisé·e à consulter les questions posées sur ce "
+"reportage !"
+
+#: inc/functions.php:505
+msgid ""
+"Désolé, nous ne sommes pas en mesure de créer cette activité de publication."
+msgstr ""
+"Désolé, nous ne sommes pas en mesure de publier cette question ; un bug ?"
+
+#: inc/functions.php:506
+msgid ""
+"Désolé, vous n’êtes pas autorisé·e à créer des activités pour cette "
+"publication."
+msgstr "Désolé, vous n’êtes pas autorisé·e à créer de question"
+
+#: inc/functions.php:507
+msgid ""
+"Merci d’ajouter du contenu à votre activité de publication à l’aide du champ "
+"texte multiligne."
+msgstr "Votre question est vide ! "
+
+#. translators: %s = member name - already translated for BuddyPress
+#: inc/functions.php:532
+msgid "Profile photo of %s"
+msgstr ""
+
+#. translators: %s = member first name - already translated for BuddyPress
+#: inc/functions.php:545
+msgid "What's new, %s?"
+msgstr ""
+
+#. translators: already translated for BuddyPress
+#: inc/functions.php:547
+msgid "Post what's new"
+msgstr ""
+
+#. translators: already translated for BuddyPress
+#: inc/functions.php:549
+msgid "Post in"
+msgstr ""
+
+#. translators: already translated for BuddyPress
+#: inc/functions.php:551
+msgid "Post Update"
+msgstr ""
+
+#. translators: already translated for BuddyPress
+#: inc/functions.php:553
+msgid "Cancel"
+msgstr ""
+
+#. translators: already translated for BuddyPress
+#: inc/functions.php:776
+msgid "Delete"
+msgstr ""
+
+#: inc/functions.php:781 inc/functions.php:814
+#: templates/buddypress/activity/entry-legacy.php:62
+#: templates/buddypress/activity/entry-nouveau.php:51
+#: templates/buddypress/common/js-templates/activity/activites-de-publication.php:37
+msgid "Modifier"
+msgstr ""
+
+#: templates/buddypress/common/js-templates/activity/activites-de-publication.php:14
+msgid "Commentaires"
+msgstr "Les commentaires des Explorateurs en herbe"
+
+#: templates/buddypress/common/js-templates/activity/activites-de-publication.php:49
+msgid "Charger plus de conversations"
+msgstr "Charger plus de questions"
+
+#. Plugin URI of the plugin/theme
+msgid "https://imathi.eu/tag/activites-de-publication/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Utilisez les activités de BuddyPress pour dynamiser les conversations de vos "
+"publications WordPress."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "imath"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://imathi.eu/"
+msgstr ""

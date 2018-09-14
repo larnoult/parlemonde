@@ -1,0 +1,21 @@
+<h2>What it does</h2>
+<p>The broadcast data check goes through the broadcast data table and for each row checks:</p>
+<ol>
+<li>That the blog+post combination exists in the WordPress database</li>
+<li>That the broadcast data object is readable</li>
+<li>That the parent / children specified in the broadcast data exist</li>
+<li>That the parent / children link back to this blog post</li>
+</ol>
+<p>After finding the problems, you are presented with one or more tables containing a list of the errors. You can then either ignore the errors or choose to repair them selectively.</p>
+<h2>What it repairs</h2>
+<p>The above list is repaired in the follow ways:</p>
+<ol>
+<li>Deletes the row in the broadcast data table</li>
+<li>Deletes the row in the broadcast data table</li>
+<li>Removes the reference to the parent / child</li>
+<li>Links the parent / child back to this post</li>
+</ol>
+<h2>Troubleshooting</h2>
+<h3>A new unlinked parent post appears after each check &amp; repair</h3>
+<p>This means that there are two children that both point to the same parent. Search for the post in the child blog and you should see two posts that are identitical expect for the slug.</p>
+<p>Find the slug that ends with -2 and delete that post. Then rerun the check, relink the parent and you should not receive any more unlinked parent errors for that child post.</p>

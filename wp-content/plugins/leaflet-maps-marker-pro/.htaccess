@@ -1,0 +1,7 @@
+#info: actually not needed anymore since MMP v3.0 but kept for backward compatibility (to not break direct links/bookmarks if access to PHP files is blocked)
+<IfModule mod_rewrite.c>
+	<FilesMatch "leaflet-api\.php|leaflet-download\.php|leaflet-fullscreen\.php|leaflet-geojson\.php|leaflet-georss\.php|leaflet-geositemap\.php|leaflet-kml\.php|leaflet-qr\.php|leaflet-wikitude\.php">
+	RewriteEngine On
+	Allow from all
+	</FilesMatch>
+</IfModule>

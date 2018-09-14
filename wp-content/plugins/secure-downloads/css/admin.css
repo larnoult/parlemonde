@@ -1,0 +1,145 @@
+/**
+ * @version 1.0
+ * @package: Secure Downloads
+ * @category: Admin Pages only
+ * @author wpdevelop
+ *
+ * @web-site http://oplugins.com/
+ * @email info@oplugins.com 
+ * 
+ * @modified 2015-04-11
+ */
+                                                                                
+#opsd-admin-page.opsd_page {}                                                   /* item Listing */                                                                                
+#opsd-new-admin-page.opsd_page {}                                               /* Add New item */                                                                                
+#opsd-resources-admin-page.opsd_page {} *                                       /* Resources */                                                                                
+#opsd-settings-admin-page.opsd_page {}                                          /* Settings */
+
+/* Form elements - add new client */
+#opsd-new-admin-page label.opsd-form-checkbox {
+    margin: 7px 10px 7px 0;
+    vertical-align: middle;
+    line-height: 1.2em;
+    height: 1.2em;
+}
+#opsd-new-admin-page label.opsd-form-checkbox input[type=checkbox] {
+    margin:-3px 5px 0 0;    
+    vertical-align: middle;
+}
+#opsd-new-admin-page label.opsd-form-radio {
+    margin: 7px 10px 7px 0;
+    vertical-align: middle;
+    line-height: 1.5em;
+    height: 1.5em;    
+}
+#opsd-new-admin-page label.opsd-form-radio input[type=radio] {
+    margin:-3px 5px 0 0;
+    vertical-align: middle;    
+}
+
+/* Selection of item resources */
+.visibility_container select option.opsd_single_resource, 
+select option.opsd_single_resource{
+    padding:3px;
+    font-weight:600;
+}
+.visibility_container select option.opsd_parent_resource, 
+select option.opsd_parent_resource{
+    font-weight:600;
+    padding:3px;
+}
+.visibility_container select option.opsd_child_resource, 
+select option.opsd_child_resource{
+    padding:3px 0 3px 20px;
+    font-weight: 400
+}
+
+/* General item Settings page */
+#opsd-settings-admin-page .form-table .description {
+    font-size: 14px;
+    line-height: 2em;
+}
+#opsd-settings-admin-page .form-table span.description{
+    padding: 0 10px;    
+}
+#opsd-settings-admin-page .opsd_sub_settings_grayed{
+    background-color: #f3f3f3;    
+}
+#opsd-settings-admin-page .opsd_sub_settings_grayed th{
+    padding: 10px 0 0 20px;
+}
+#opsd-settings-admin-page .opsd_sub_settings_grayed td fieldset{
+    padding: 0 20px;
+}
+#opsd-settings-admin-page .opsd_tr_set_gen_opsd_range_selection_days_count,
+#opsd-settings-admin-page .opsd_tr_set_gen_opsd_range_selection_days_count_dynamic{
+    border-top: 2px dashed #d5d5d5;
+}
+#opsd-settings-admin-page .opsd_tr_set_gen_opsd_range_start_day_week td{
+    padding-top:0;
+}
+#opsd-settings-admin-page .opsd_tr_set_gen_opsd_range_start_day_week th {
+    padding:0;
+    height: 1px;
+}
+#opsd-settings-admin-page .opsd_expand_section_link,
+#opsd-settings-admin-page a.opsd_expand_section_link:hover,
+#opsd-settings-admin-page a.opsd_expand_section_link:focus {
+    color:#21759b;
+    cursor: pointer;
+    outline: 0;
+    border:none;
+    border-bottom:1px dashed #21759B;
+    text-decoration: none;      
+}
+/* Warning message in Demo  version */
+.opsd_demo_test_version_warning {
+    background: #fee;
+    border: none;
+    border-left: 3px solid #c77 !important;
+    border-radius: 2px;
+    font-size: 0.85em;
+    margin: 0;
+    text-align: left;
+    color: #AA4400;
+    text-shadow: 0 -1px 0 #FFEEEE;    
+}
+
+/* Remove shadow at button of ajax loading upgrade section at Settings > Upgrade page */
+#bk_news_section td a {
+    color: #555 !important;
+    text-shadow: 0 0 0 !important;
+    box-shadow: none;
+}
+#bk_news_section .opsd-listing-header {
+    background: #dfdfdf none repeat scroll 0 0;
+    border-color: #d5d5d5 #d5d5d5 -moz-use-text-color;
+}
+#bk_news_section .opsd-feature-table {
+    border: 2px solid #dfdfdf;
+}
+#bk_news_section .version-name-row {
+    background: #789 none repeat scroll 0 0 !important;
+    color: #fff !important;
+    font-weight: 400;
+    line-height: 1.5em;
+    text-shadow: 0 1px 1px #89a;
+    vertical-align: middle;
+}
+#bk_news_section .opsd-feature-table td.section-header {
+    background: #feb !important;
+}
+/* Message: Thank you for registrations. */
+#bk_registration_info {
+    font-size: 1em;
+    font-weight: 600;
+    margin: 10px 0;
+    opacity: 1;    
+}
+/*#bk_registration_info_reload, */
+#bk_errror_loading .info_message {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin: 10px 0;
+    opacity: 1;    
+}

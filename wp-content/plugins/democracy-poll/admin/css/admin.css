@@ -1,0 +1,108 @@
+/* add edit poll */
+#the-question{ display:block; margin:12px; }
+.new-poll-answers{ margin-bottom:1.5em; }
+.poll-options{ margin-top:1.5em; margin-bottom:1.5em; }
+.poll-options li { list-style: none; }
+
+.dem-new-poll{ padding:20px; }
+.dem-new-poll input[type="text"],
+.dem-new-poll textarea { width:80%; min-width:400px; max-width:800px; }
+
+.dem-new-poll ol .dashicons{ position:absolute; margin-left:-1.5em; }
+.dem-new-poll ol .dashicons:before{ font-size:80%; color:#ccc; }
+
+.dem-del-button{ display:inline-block; cursor: pointer; line-height: 1; padding:0 5px; font-size:23px; color:#acacac; }
+.dem-del-button:hover{ color:#e34f23; }
+
+/* all pages options */
+.democr_options .group{ position:relative; background: #fff; margin-bottom:2em; padding:1em; border: 1px solid #e5e5e5; box-shadow: 0 1px 1px rgba(0,0,0,.04);
+background: #fff; }
+.democr_options .group .title{ margin:-1em -1em 1em -1em; padding:.7em 1em; border-bottom:1px solid #eee; font-weight:600; font-size:110%; }
+.democr_options .block{ position: relative; }
+.democr_options .block em{ display:block; opacity:0.5; padding:5px 0 15px; line-height:1.2; transition:opacity 500ms; }
+.democr_options .block:hover em{ opacity:0.9; }
+
+.democr_options h3{ margin:2em 0 1em 0; }
+
+.dempage_design .loaders,
+.dempage_design .buttons{ float:left; }
+
+.dempage_design .loaders:after,
+.dempage_design .buttons:after,
+.dempage_design .check_radio_wrap:after,
+.dempage_design .group:after,
+.polls-preview:after{ content:''; display:table; clear:both; }
+
+.dempage_design .loaders .lo_item{ position:relative; display:inline-block; text-align:center; height:75px; }
+.dempage_design .loaders .loader{ min-width:30px; margin-bottom:.5em; }
+.dempage_design .loaders .lo_item.svg .loader{ width:40px; height:40px; } /* fix bugs in firefox...*/
+.dempage_design .loaders .loader{ position:relative; }
+.dempage_design .loaders:after,
+.dempage_design .loaders em{ content:''; display: table; clear: both; }
+
+.dempage_design .selectable_els label{ display:inline-block; text-align:center; }
+.dempage_design .selectable_els label > *{ display:inline-block; }
+.dempage_design .selectable_els label{ }
+.dempage_design .selectable_els label input[type="radio"]{ display:none; }
+.dempage_design .selectable_els label input[type="radio"]:checked + .radio_content{ border-bottom:3px solid #000; background:rgba(0,0,0,0.05); }
+.dempage_design .selectable_els label:hover .radio_content{ border-bottom:3px solid rgba(0,0,0,.03); background:rgba(0,0,0,.03); }
+.dempage_design .selectable_els label .radio_content{ padding:1em; border-bottom:3px solid rgba(0,0,0,0); }
+
+
+
+.button .dashicons,
+.button-primary .dashicons{ line-height: 1.3; opacity: 0.7; }
+
+/* design */
+.polls-preview{ position: relative; padding:1em; background: #fff; }
+.polls-preview .poll{ float:left; width:20%; min-width:270px; margin-right:3%; }
+.polls-preview .poll:last-child{ margin-right:0; }
+.polls-preview .poll .tit{ text-align: center; opacity:.5; }
+.polls-preview .wp-picker-container{ position: absolute; bottom: 0; right:0; }
+
+.wp-picker-container{ position: relative; bottom: -.7em; }
+.wp-picker-holder{ position: absolute; z-index: 999; }
+
+
+/* Polls list */
+.metabox-prefs .dashicons{ font-size:14px; vertical-align:inherit; }
+
+.tablenav-pages .dashicons{ cursor:pointer; margin:3px 10px 0 0; }
+.tablenav-pages .dashicons.active{ color:#0096DD; }
+
+.wp-list-table{  }
+.wp-list-table tr:hover{ background:rgba(0,0,0,.05) }
+.tablenav{ height: auto; }
+.wp-list-table .column-id{ width:4em; }
+.wp-list-table .column-active,
+.wp-list-table .column-open{ width:4.5em; }
+.wp-list-table .column-usersvotes{ width:8em; }
+.wp-list-table .column-in_posts{ width:20%; }
+.wp-list-table .column-added{ width: 110px; }
+
+.wp-list-table .statuses{ margin-left:0.5em; float:right; cursor:help; }
+.wp-list-table .statuses > *{ opacity:.2; margin-right:1px; float:right; }
+.wp-list-table .statuses > *:before{ font-size:80%;  }
+.wp-list-table .statuses > *:hover{ opacity:.7; }
+@media( max-width:1300px ){
+	.wp-list-table .statuses{ width:3.8em; }
+}
+
+.wp-list-table .compact-answ{ height:40px; overflow:hidden; }
+.wp-list-table .compact-answ small{ opacity:.7; }
+
+.wp-list-table.dempolls .button{ border-radius:50%; }
+
+/* logs */
+.wp-list-table .column-ip{ width:9em; }
+.wp-list-table .column-ip_info{ width:15%; }
+.wp-list-table .column-userid{ max-width:150px; }
+.wp-list-table .column-date{ width:7.5em; }
+.wp-list-table .column-expire{ width:7.5em; }
+
+
+/* codeMirror css */
+#wpwrap .CodeMirror{ border:1px solid #e5e6e8; }
+#wpwrap .cm-s-default .cm-qualifier{ color:#e91e63; }
+#wpwrap .cm-s-default .cm-property{ font-weight:bolder; }
+

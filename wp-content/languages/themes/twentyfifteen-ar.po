@@ -1,0 +1,298 @@
+# Translation of Themes - Twenty Fifteen in Arabic
+# This file is distributed under the same license as the Themes - Twenty Fifteen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-08-18 16:52:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ar\n"
+"Project-Id-Version: Themes - Twenty Fifteen\n"
+
+#. Description of the plugin/theme
+msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
+msgstr "قالبنا الإفتراضي لعام 2015 بسيط، يركز على المدونات، تم تصميمه من أجل النقاء. Twenty Fifteen قابل للقراءة على تشكيلة واسعة من أحجام الشاشات، ومناسب لعدة لغات. لقد قمنا بتصميمه بإستخدام نهج الموبايل-أولاً، مما يعني بأن المحتوى سيعرض بشكل ملائم، بغض النظر عما إن وصل زوار موقعك عن طريق الهاتف الذكي، الجهاز اللوحي، كمبيوتر محمول أو كمبيوتر سطح مكتب."
+
+#. Theme Name of the plugin/theme
+msgid "Twenty Fifteen"
+msgstr "Twenty Fifteen"
+
+#. translators: %s: post title
+#: inc/template-tags.php:130
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "اترك تعليقًا <span class=\"screen-reader-text\"> على %s</span>"
+
+#: single.php:39
+msgid "Previous post:"
+msgstr "المقالة السابقة:"
+
+#: single.php:38
+msgid "Previous"
+msgstr "السابق"
+
+#: single.php:36
+msgid "Next post:"
+msgstr "المقالة التالية:"
+
+#: single.php:35
+msgid "Next"
+msgstr "التالي"
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "نتائج البحث عن: %s"
+
+#: inc/template-tags.php:120
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "الحجم الكامل"
+
+#: inc/template-tags.php:108
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "الوسوم"
+
+#: inc/template-tags.php:99
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "التصنيفات"
+
+#: inc/template-tags.php:95 inc/template-tags.php:104
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:89
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "الكاتب"
+
+#: inc/template-tags.php:79
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "نُشرت في"
+
+#: inc/template-tags.php:56
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "البنية"
+
+#: inc/template-tags.php:49
+msgid "Featured"
+msgstr "مميّز"
+
+#: inc/template-tags.php:30
+msgid "Newer Comments"
+msgstr "التعليقات الأحدث"
+
+#: inc/template-tags.php:26
+msgid "Older Comments"
+msgstr "التعليقات الأقدم"
+
+#: inc/template-tags.php:23
+msgid "Comment navigation"
+msgstr "تصفّح التعليقات"
+
+#: inc/customizer.php:226
+msgid "Blue"
+msgstr "أزرق"
+
+#: inc/customizer.php:215
+msgid "Purple"
+msgstr "بنفسجي"
+
+#: inc/customizer.php:204
+msgid "Pink"
+msgstr "وردي ـ زهري"
+
+#: inc/customizer.php:193
+msgid "Yellow"
+msgstr "أصفر"
+
+#: inc/customizer.php:182
+msgid "Dark"
+msgstr "داكن"
+
+#: inc/customizer.php:171
+msgid "Default"
+msgstr "افتراضي"
+
+#: inc/customizer.php:93
+msgid "Header and Sidebar Background Color"
+msgstr "لون خلفية الترويسة والشريط الجانبي"
+
+#: inc/customizer.php:72 inc/customizer.php:94 inc/customizer.php:101
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "يستخدم على الترويسة في الشاشات الصغيرة والشريط الجانبي في الشاشات الواسعة."
+
+#: inc/customizer.php:71
+msgid "Header and Sidebar Text Color"
+msgstr "لون نص الترويسة والشريط الجانبي"
+
+#: inc/customizer.php:51
+msgid "Base Color Scheme"
+msgstr "نظام الألوان الأساسي"
+
+#: inc/back-compat.php:37 inc/back-compat.php:48 inc/back-compat.php:62
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Fifteen يتطلب ووردبريس 4.1 على الأقل. أنت تستخدم النسخة %s. فيرجى الترقية والمحاولة مرة أخرى."
+
+#: image.php:88
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">نُشرت على</span><span class=\"post-title\">%title</span>"
+
+#: image.php:25
+msgid "Next Image"
+msgstr "الصورة التالية"
+
+#: image.php:25
+msgid "Previous Image"
+msgstr "الصورة السابقة"
+
+#: header.php:49
+msgid "Menu and widgets"
+msgstr "القائمة والودجات"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "انتقل إلى المحتوى"
+
+#: functions.php:312
+msgid "collapse child menu"
+msgstr "طي القائمة الفرعية"
+
+#: functions.php:311
+msgid "expand child menu"
+msgstr "توسيع القائمة الفرعية"
+
+#. Translators: To add an additional character subset specific to your
+#. language, translate this to 'greek', 'cyrillic', 'devanagari' or
+#. 'vietnamese'. Do not translate into your own language.
+#: functions.php:238
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr "no-subset"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:230
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "off"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Noto Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:222
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Noto Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:214
+msgctxt "Noto Sans font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:187
+msgid "Add widgets here to appear in your sidebar."
+msgstr "أضف المربعات الجانبية هنا لتظهر في الشرائط الجانبية الخاصة بك."
+
+#: functions.php:185
+msgid "Widget Area"
+msgstr "منطقة الودجات"
+
+#: functions.php:87
+msgid "Social Links Menu"
+msgstr "قائمة الروابط الإجتماعية"
+
+#: functions.php:86
+msgid "Primary Menu"
+msgstr "القائمة الأساسية"
+
+#: footer.php:31
+msgid "Proudly powered by %s"
+msgstr "الموقع يستخدم %s بكل فخر"
+
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 2.0)  #-#-#-#-#
+#. Author URI of the plugin/theme
+#: footer.php:30
+msgid "https://wordpress.org/"
+msgstr "http://ar.wordpress.org/"
+
+#: content-none.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "يبدو أنه لا يمكن إيجاد ما تبحث عنه. قد تفيدك خاصية البحث."
+
+#: content-none.php:26
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "عذرا، لا يوجد شيء يتطابق مع كلمات البحث التي استعملتها، المرجو المحاولة من جديد باستعمال كلمات مفتاحية أخرى."
+
+#: content-none.php:22
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "هل أنت على استعداد لنشر مقالتك الأولى؟ <a href=\"%1$s\">ابدأ من هنا</a>."
+
+#: content-none.php:15
+msgid "Nothing Found"
+msgstr "لم يتم العثور على شيء"
+
+#: content-link.php:60 content-page.php:37 content-search.php:28
+#: content-search.php:33 content.php:61 image.php:74
+msgid "Edit"
+msgstr "تحرير"
+
+#: content-link.php:39 content-page.php:26 content.php:41 image.php:61
+msgid "Pages:"
+msgstr "الصفحات:"
+
+#. translators: %s: Name of current post
+#: content-link.php:32 content.php:34 inc/template-tags.php:249
+msgid "Continue reading %s"
+msgstr "متابعة قراءة %s"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#: author-bio.php:34
+msgid "View all posts by %s"
+msgstr "عرض جميع المواضيع التي كتبها %s"
+
+#: author-bio.php:12
+msgid "Published by"
+msgstr "نُشرت بواسطة"
+
+#: archive.php:53 content-link.php:43 content-page.php:30 content.php:45
+#: image.php:65 index.php:50 search.php:43
+msgid "Page"
+msgstr "الصفحة"
+
+#: archive.php:52 index.php:49 search.php:42
+msgid "Next page"
+msgstr "الصفحة التالية"
+
+#: archive.php:51 index.php:48 search.php:41
+msgid "Previous page"
+msgstr "الصفحة السابقة"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "يبدو أنه لا يوجد شيء هنا. ربما حاول استعمال البحث؟"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "عذراً! لايمكن العثور على تلك الصفحة."
+
+#. Author of the plugin/theme
+msgid "the WordPress team"
+msgstr "فريق ووردبريس"
+
+#. Theme URI of the plugin/theme
+msgid "https://wordpress.org/themes/twentyfifteen/"
+msgstr "https://wordpress.org/themes/twentyfifteen/"

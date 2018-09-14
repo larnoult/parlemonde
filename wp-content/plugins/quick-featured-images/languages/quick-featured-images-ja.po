@@ -1,0 +1,1808 @@
+# Copyright (C) 2014
+# This file is distributed under the same license as the plugin package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Quick Featured Images Pro\n"
+"Report-Msgid-Bugs-To: http://quickfeaturedimages.com\n"
+"POT-Creation-Date: 2018-07-23 23:36+0200\n"
+"PO-Revision-Date: 2018-07-23 23:36+0200\n"
+"Last-Translator: Martin Stehle <m.stehle@gmx.de>\n"
+"Language-Team: Martin Stehle <m.stehle@gmx.de>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.9\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-quick-featured-images-admin.php:213
+msgid ""
+"Your time-saving Swiss Army Knife for featured images: Set, replace and "
+"delete them in bulk, in posts lists and set default images for future posts."
+msgstr ""
+"アイキャッチ画像をまとめて設定・変更・削除したり、デフォルトのアイキャッチ画"
+"像を設定したりできる、スイス・アーミーナイフのように多機能で便利なプラグイン"
+"です。"
+
+#: admin/class-quick-featured-images-admin.php:276
+#, php-format
+msgid ""
+"The plugin requires WordPress version %s or higher. Therefore, WordPress did "
+"not activate it. If you want to use this plugin update the Wordpress files "
+"to the latest version."
+msgstr ""
+"このプラグインの動作には WordPress バージョン %s 以上が必要なため、有効化でき"
+"ませんでした。このプラグインを使用するには、Wordpress を最新バージョンに更新"
+"してください。"
+
+#: admin/class-quick-featured-images-admin.php:482
+#, php-format
+msgid "Welcome to %s! You can find the plugin at %s."
+msgstr "%s へようこそ! %s でプラグインにアクセスできます。"
+
+#: admin/class-quick-featured-images-columns.php:295
+#: admin/class-quick-featured-images-columns.php:456
+#, php-format
+msgid "Change &#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221;の変更"
+
+#: admin/class-quick-featured-images-columns.php:320
+#: admin/class-quick-featured-images-columns.php:457
+#, php-format
+msgid "Remove &#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221;の削除"
+
+#: admin/class-quick-featured-images-columns.php:364
+#: admin/class-quick-featured-images-columns.php:377
+#: admin/class-quick-featured-images-columns.php:529
+#, php-format
+msgid "Set image for &#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221;の画像を設定"
+
+#: admin/class-quick-featured-images-defaults.php:275
+msgid "Preset Featured Images"
+msgstr "アイキャッチ画像のプリセット"
+
+# a period at the end of a sentence must be localizable
+#: admin/class-quick-featured-images-defaults.php:286
+msgid "Set default featured images for future posts"
+msgstr "デフォルトのアイキャッチ画像を設定します。"
+
+#: admin/class-quick-featured-images-settings.php:230
+msgid "Set the visibility of columns of featured images in posts lists"
+msgstr ""
+"投稿/固定ページリストにアイキャッチ画像カラムを表示する設定を行います。"
+
+#: admin/class-quick-featured-images-settings.php:380
+msgid "Columns for featured images in posts lists"
+msgstr "投稿リストのアイキャッチ画像のカラム"
+
+#: admin/class-quick-featured-images-settings.php:388
+msgid "Show additional column for featured images in lists of"
+msgstr "アイキャッチ画像カラムを表示するリスト"
+
+#: admin/class-quick-featured-images-settings.php:393
+msgid "Posts list with image column"
+msgstr "画像カラム付の投稿リスト"
+
+#: admin/class-quick-featured-images-settings.php:416
+msgid "Visibility of the plugin"
+msgstr "プラグイン画面の表示"
+
+#: admin/class-quick-featured-images-settings.php:424
+msgid "Which user role may see the plugin?"
+msgstr "プラグイン画面を表示できるユーザー権限"
+
+#: admin/class-quick-featured-images-settings.php:556
+msgid ""
+"Activate the checkboxes at each post type to show the extra columns in the "
+"post lists."
+msgstr ""
+"チェックボックスをオンにした投稿タイプの投稿リストに画像カラムが追加されま"
+"す。"
+
+#: admin/class-quick-featured-images-settings.php:568
+msgid "Minimum user role to see the plugin in the backend"
+msgstr "プラグイン画面を表示するのに必要なユーザー権限"
+
+#: admin/class-quick-featured-images-settings.php:604
+msgid "Select the minimum user role a user must have to see the plugin."
+msgstr "プラグイン画面を表示するのに必要なユーザー権限を選択してください。"
+
+#: admin/class-quick-featured-images-settings.php:609
+#, php-format
+msgid ""
+"The rules as set in &#8220;%s&#8221; work on posts independently of this "
+"setting."
+msgstr ""
+"&#8220;%s&#8221; で指定されたルールは、この権限の設定には影響されずに機能しま"
+"す。"
+
+#: admin/class-quick-featured-images-settings.php:614
+msgid ""
+"This setting controls as well whether a user will see in an image column the "
+"thumbnails with action links or the thumbnails only. To switch image columns "
+"on and off use the section above."
+msgstr ""
+"権限がないユーザーのアイキャッチ画像カラムにはサムネイルだけが表示されます"
+"が、権限があるユーザーではアクションリンク付のサムネイルが表示されます。アイ"
+"キャッチ画像カラムそのものを表示するかどうかは、上のセクションで切り替えてく"
+"ださい。"
+
+#: admin/class-quick-featured-images-settings.php:615
+msgid "This page is accessible for administrators only."
+msgstr "このページには管理者だけがアクセスできます。"
+
+#: admin/class-quick-featured-images-settings.php:625
+msgid ""
+"The additional columns give you a quick overview about all used featured "
+"images for every post. The Featured Image column is sortable."
+msgstr ""
+"投稿リストに画像カラムを追加して、設定済のすべてのアイキャッチ画像を素早く確"
+"認することができます。アイキャッチ画像カラムは並べ替えできます。"
+
+#: admin/class-quick-featured-images-settings.php:634
+msgid "Controls which minimum user role can see the plugin."
+msgstr "プラグイン画面を表示できるユーザー権限を設定します。"
+
+#: admin/class-quick-featured-images-tools.php:471
+#, php-format
+msgid "Wrong image ID %d"
+msgstr "誤った画像ID %d"
+
+#: admin/class-quick-featured-images-tools.php:573
+msgid "Select"
+msgstr "選択"
+
+#: admin/class-quick-featured-images-tools.php:574
+msgid "Add filter"
+msgstr "フィルタの追加"
+
+#: admin/class-quick-featured-images-tools.php:575
+msgid "Refine"
+msgstr "調整"
+
+#: admin/class-quick-featured-images-tools.php:576
+msgid "Confirm"
+msgstr "確認"
+
+#: admin/class-quick-featured-images-tools.php:577
+msgid "Perform"
+msgstr "実行"
+
+#: admin/class-quick-featured-images-tools.php:581
+msgid "Set the selected image as new featured image"
+msgstr "選択した画像を新たなアイキャッチ画像として設定する"
+
+#: admin/class-quick-featured-images-tools.php:582
+msgid "Replace featured images by the selected image"
+msgstr "選択した画像で現在のアイキャッチ画像を置き換える"
+
+#: admin/class-quick-featured-images-tools.php:583
+msgid "Remove the selected image as featured image"
+msgstr "選択した画像が使用されているアイキャッチ画像を削除する"
+
+#: admin/class-quick-featured-images-tools.php:586
+msgid "Remove any image as featured image"
+msgstr "アイキャッチ画像を削除する"
+
+#: admin/class-quick-featured-images-tools.php:587
+msgid "Remove all featured images without existing image files"
+msgstr "ファイルが存在しないアイキャッチ画像を削除する"
+
+#: admin/class-quick-featured-images-tools.php:590
+msgid "Set multiple images randomly as featured images"
+msgstr "複数の画像をランダムにアイキャッチ画像に設定する"
+
+#: admin/class-quick-featured-images-tools.php:594
+msgid "Overwrite featured images"
+msgstr "アイキャッチ画像を上書きする"
+
+#: admin/class-quick-featured-images-tools.php:595
+msgid "Consider only posts without any featured image"
+msgstr "アイキャッチ画像が設定されていない投稿だけを対象にする"
+
+#: admin/class-quick-featured-images-tools.php:599
+msgid "Post Type Filter"
+msgstr "投稿タイプフィルタ"
+
+#: admin/class-quick-featured-images-tools.php:600
+msgid "Category Filter"
+msgstr "カテゴリーフィルタ"
+
+#: admin/class-quick-featured-images-tools.php:601
+msgid "Tag Filter"
+msgstr "タグフィルタ"
+
+#: admin/class-quick-featured-images-tools.php:630
+msgid "Image width in pixels lower than"
+msgstr "画像の幅の最大サイズ"
+
+#: admin/class-quick-featured-images-tools.php:631
+msgid "Image height in pixels lower than"
+msgstr "画像の高さの最大サイズ"
+
+#: admin/class-quick-featured-images-tools.php:740
+#, php-format
+msgid "The input field %s is empty."
+msgstr "入力フィールド %s が空白です。"
+
+#: admin/class-quick-featured-images-tools.php:741
+msgid "Type in a value into the input field."
+msgstr "入力フィールドに値を入力してください。"
+
+#: admin/class-quick-featured-images-tools.php:744
+#, php-format
+msgid "%s is not defined."
+msgstr "%s が定義されていません。"
+
+#: admin/class-quick-featured-images-tools.php:745
+msgid "Check how to define the value."
+msgstr "値の設定のしかたを確認"
+
+#: admin/class-quick-featured-images-tools.php:748
+msgid "There is no selected image."
+msgstr "画像が選択されていません。"
+
+#: admin/class-quick-featured-images-tools.php:749
+msgid "Select an image from the media library."
+msgstr "メディアライブラリから画像を選択してください。"
+
+#: admin/class-quick-featured-images-tools.php:752
+#: admin/views/section_image.php:51
+msgid "You have not selected an action."
+msgstr "アクションが選択されていません。"
+
+#: admin/class-quick-featured-images-tools.php:753
+msgid "Start again and select which action you want to apply."
+msgstr "[やり直す] をクリックしてアクションを選択します。"
+
+#: admin/class-quick-featured-images-tools.php:756
+#, php-format
+msgid "The input field %s has an invalid value."
+msgstr "入力フィールド %s の値が正しくありません。"
+
+#: admin/class-quick-featured-images-tools.php:757
+msgid "Type in valid values in the input field."
+msgstr "入力フィールドに正しい値を入力してください。"
+
+#: admin/class-quick-featured-images-tools.php:761
+msgid "Type in values stored by WordPress."
+msgstr "WordPressに保存されている値を入力してください。"
+
+#: admin/class-quick-featured-images-tools.php:1930
+msgid "Set, replace, remove"
+msgstr "設定・変更・削除"
+
+#: admin/class-quick-featured-images-tools.php:1941
+msgid "Bulk set, replace and remove featured images for existing posts"
+msgstr "アイキャッチ画像を一括で設定・変更・削除します。"
+
+#: admin/class-quick-featured-images-tools.php:2050
+msgid "Bulk set as featured image"
+msgstr "アイキャッチ画像に設定"
+
+#: admin/views/filter_category.php:3
+msgid "Select a category"
+msgstr "カテゴリーを選択"
+
+#: admin/views/filter_post_types.php:2
+msgid "Select post types"
+msgstr "投稿タイプを選択"
+
+#: admin/views/filter_tag.php:7
+msgid "Select a tag"
+msgstr "タグを選択"
+
+#: admin/views/filter_tag.php:20
+msgid "There are no tags in use."
+msgstr "使用されているタグはありません。"
+
+#: admin/views/form_back_to_selection.php:2
+msgid "Select filters and options again"
+msgstr "フィルタとオプションを選択し直す"
+
+#: admin/views/form_back_to_selection.php:3
+msgid ""
+"If you want to change your former selection just go back by clicking on this "
+"button."
+msgstr "選択を変更するには、このボタンをクリックして戻ってください。"
+
+#: admin/views/form_back_to_selection.php:42
+msgid "Modify selection"
+msgstr "選択を変更する"
+
+#: admin/views/form_confirm.php:1
+msgid "Preview of your selection"
+msgstr "選択のプレビュー"
+
+#: admin/views/form_confirm.php:2
+#, php-format
+msgid "%d matches found"
+msgstr "一致: %d 件"
+
+#: admin/views/form_confirm.php:12
+msgid ""
+"Should the entries of featured images without image files be removed from "
+"the database?"
+msgstr ""
+"ファイルが存在しないアイキャッチ画像の指定をデータベースから削除しますか?"
+
+#: admin/views/form_confirm.php:15 admin/views/section_results.php:16
+msgid "Details"
+msgstr "詳細"
+
+#: admin/views/form_confirm.php:16 admin/views/section_defaults.php:17
+#: admin/views/section_results.php:18
+msgid "No."
+msgstr ""
+
+#: admin/views/form_confirm.php:17 admin/views/section_results.php:17
+msgid "Current Featured Image"
+msgstr "現在のアイキャッチ画像"
+
+#: admin/views/form_confirm.php:18
+msgid "Future Featured Image"
+msgstr "新しいアイキャッチ画像"
+
+#: admin/views/form_confirm.php:19
+msgid "written on"
+msgstr "作成日:"
+
+#: admin/views/form_confirm.php:20
+msgid "by"
+msgstr "作成者:"
+
+#: admin/views/form_confirm.php:35
+msgid "Should the selected image be set as featured image to all listed posts?"
+msgstr ""
+"リストに表示されている投稿に、選択した画像をアイキャッチ画像として割り当てま"
+"すか?"
+
+#: admin/views/form_confirm.php:38
+msgid ""
+"Should the selected images be set randomly as featured images to all listed "
+"posts?"
+msgstr ""
+"リストに表示されている投稿に、選択した画像をアイキャッチ画像としてランダムに"
+"割り当てますか?"
+
+#: admin/views/form_confirm.php:41
+msgid ""
+"Should the current set featured image be replaced by the selected image at "
+"all listed posts?"
+msgstr ""
+"リストに表示されている投稿の現在のアイキャッチ画像を、選択した画像で置き換え"
+"ますか?"
+
+#: admin/views/form_confirm.php:44
+msgid "Should the selected image be removed from all listed posts?"
+msgstr "リストに表示されている投稿から、選択した画像を削除しますか?"
+
+#: admin/views/form_confirm.php:47
+msgid "Should the future images be set as featured images at all listed posts?"
+msgstr ""
+"新しいアイキャッチ画像を、リストに表示された投稿のアイキャッチ画像として設定"
+"しますか?"
+
+#: admin/views/form_confirm.php:50
+msgid "Should the added featured images be removed from all listed posts?"
+msgstr "リストに表示されている投稿からアイキャッチ画像を削除しますか?"
+
+#: admin/views/form_confirm.php:54 admin/views/section_results.php:27
+msgid ""
+"The list is in alphabetical order according to post title. You can edit a "
+"post in a new window by clicking on its link in the list."
+msgstr ""
+"リストは投稿タイトル名の順に並んでいます。リスト中のタイトル名のリンクをク"
+"リックすると、新規ウィンドウで投稿を編集できます。"
+
+#: admin/views/form_confirm.php:120
+msgid "Confirm the change"
+msgstr "変更の確認"
+
+#: admin/views/form_confirm.php:121
+msgid "You can not undo the operation!"
+msgstr "実行後の取り消しはできません!"
+
+#: admin/views/form_confirm.php:182 admin/views/section_errormsg.php:8
+#: admin/views/section_results.php:86
+msgid "Start again"
+msgstr "やり直す"
+
+#: admin/views/form_confirm.php:182
+msgid "or refine your selection with the following form fields."
+msgstr "または、下記のフォーム項目で選択を調整してください。"
+
+#: admin/views/form_refine.php:1
+msgid "Refine your selection"
+msgstr "選択の調整"
+
+#: admin/views/form_refine.php:8
+msgid "Refine filters"
+msgstr "フィルタの調整"
+
+#: admin/views/form_refine.php:9
+msgid ""
+"Now you can find posts and pages by matching parameters. Refine them here."
+msgstr "条件を満たす投稿と固定ページを抽出します。下記で条件を調整できます。"
+
+#: admin/views/form_refine.php:10
+msgid "Whatever you do: You can confirm your choice on the next page."
+msgstr "次のページで調整した結果を確認できます。"
+
+#: admin/views/form_refine.php:18
+#, php-format
+msgid "File %s is not available."
+msgstr "%sファイルは利用できません。"
+
+#: admin/views/form_refine.php:48 admin/views/form_select.php:29
+msgid "Preview filtering"
+msgstr "絞り込みのプレビュー"
+
+#: admin/views/form_refine.php:54
+msgid ""
+"There are no selected filters. Modify your filter selection or just go on by "
+"clicking on the next button."
+msgstr ""
+"フィルタが選択されていません。フィルタの選択を変更するか、[次へ]ボタンをク"
+"リックしてください。"
+
+#: admin/views/form_select.php:9 admin/views/form_start.php:4
+#: admin/views/section_defaults.php:213
+msgid "Notice"
+msgstr "通知"
+
+#: admin/views/form_select.php:11
+msgid ""
+"You did not have selected an image from the list below. To go on select at "
+"least one image you want to replace by the selected image."
+msgstr ""
+"下のリストで画像が選択されていません。置き換える画像を少なくとも1つ選んでくだ"
+"さい。"
+
+#: admin/views/form_select.php:17
+msgid "Select the featured images you want to replace by the selected image."
+msgstr ""
+"新しく選んだ画像で置き換えたい、元のアイキャッチ画像を選択してください。"
+
+#: admin/views/form_select.php:18
+msgid "You can select multiple images. Select at least one image."
+msgstr "複数の画像を選択できます。少なくとも1つ選んでください。"
+
+#: admin/views/form_select.php:19 admin/views/form_start.php:80
+msgid ""
+"To select multiple images click on the button and use the CTRL key while "
+"clicking on the images."
+msgstr ""
+"複数の画像を選択するには、下のボタンをクリックした後、Ctrlキーを押しながら画"
+"像をクリックしてください。"
+
+#: admin/views/form_select.php:23 admin/views/form_start.php:84
+msgid "Choose Images"
+msgstr "画像の選択"
+
+#: admin/views/form_select.php:31 admin/views/form_start.php:120
+msgid "Use CTRL for multiple choice"
+msgstr "Ctrlキーを押しながら複数選択"
+
+#: admin/views/form_select.php:37
+msgid "Refine your selections"
+msgstr "選択を調整する"
+
+#: admin/views/form_select.php:38 admin/views/form_select.php:48
+msgid "You can control the process with the following options."
+msgstr "下記のオプションで処理内容や対象を調整できます。"
+
+#: admin/views/form_select.php:45
+msgid "Optional: Select options"
+msgstr "オプションを選択"
+
+#: admin/views/form_select.php:47
+msgid "Process Options"
+msgstr "処理オプション"
+
+#: admin/views/form_select.php:53
+msgid "Overwrite existing featured images with new ones"
+msgstr "現在のアイキャッチ画像を新しい画像に置き換えます。"
+
+#: admin/views/form_select.php:63
+msgid ""
+"Posts with featured images will be ignored, even if the Overwrite option is "
+"checked"
+msgstr ""
+"上書きオプションがオンになっていても、アイキャッチ画像が設定されている投稿は"
+"除外します。"
+
+#: admin/views/form_select.php:72
+msgid "There are two more options in the premium version for random images:"
+msgstr "プレミアム版では、ランダム画像のオプションがあと2つあります:"
+
+#: admin/views/form_select.php:74
+msgid "Use each selected image only once"
+msgstr "同じ画像を2度使用しない"
+
+#: admin/views/form_select.php:75
+msgid "Remove excess featured images after all selected images are used"
+msgstr "選択した画像をすべて使った後、重複するアイキャッチ画像を削除する"
+
+#: admin/views/form_select.php:77 admin/views/form_select.php:115
+#: admin/views/form_select.php:119 admin/views/form_start.php:113
+#: admin/views/section_defaults.php:520 admin/views/section_footer.php:58
+#: admin/views/section_overview.php:91
+msgid "Get the premium version"
+msgstr "プレミアム版を入手"
+
+#: admin/views/form_select.php:77 admin/views/form_select.php:115
+#: admin/views/form_select.php:119 admin/views/form_start.php:113
+#: admin/views/section_defaults.php:520 admin/views/section_footer.php:58
+#: admin/views/section_overview.php:90 admin/views/section_overview.php:91
+msgid "/"
+msgstr ""
+
+#: admin/views/form_select.php:86
+msgid "Optional: Add a filter"
+msgstr "フィルタを追加"
+
+#: admin/views/form_select.php:88
+msgid "Select filters"
+msgstr "フィルタの選択"
+
+#: admin/views/form_select.php:89
+msgid ""
+"If you want select one of the following filters to narrow down the set of "
+"concerned posts and pages."
+msgstr "下記のフィルタで、対象の投稿やページを絞り込むことができます。"
+
+#: admin/views/form_select.php:90
+msgid ""
+"You can select multiple filters. They will return an intersection of their "
+"results."
+msgstr ""
+"複数のフィルタを選択できます。選択したフィルタのすべての条件を満たすものが対"
+"象になります。"
+
+#: admin/views/form_select.php:95
+msgid "Search by post type. By default all posts and pages will be affected."
+msgstr "投稿タイプで絞り込む。デフォルトでは、すべての投稿と固定ページが対象。"
+
+#: admin/views/form_select.php:98
+msgid "Search posts by category"
+msgstr "カテゴリーで絞り込む"
+
+#: admin/views/form_select.php:101
+msgid "Search posts by tag"
+msgstr "タグで絞り込む"
+
+#: admin/views/form_select.php:115 admin/views/section_overview.php:91
+msgid "Are you looking for more options and more filters?"
+msgstr "さらに豊富な設定オプションとフィルタが必要ですか?"
+
+#: admin/views/form_select.php:116
+msgid "If you encounter a white, blank page, read this"
+msgstr "ページが真っ白になったときは..."
+
+#: admin/views/form_select.php:117
+msgid ""
+"Facing a white blank page while trying to treat thousands of posts is the "
+"effect of limited memory capacities on the website server. Instead of "
+"treating a huge amount of posts in one single go try to treat small amounts "
+"of posts multiple times successively. To achieve that do:"
+msgstr ""
+"多数の投稿を対象にしていてページが真っ白になる場合は、Webサーバーのメモリの許"
+"容量を超えている可能性が考えられます。そのようなときは、一度に多数の投稿を処"
+"理するのでなく、少数の投稿を数回に分けて処理するようにしてください。具体的に"
+"は:"
+
+#: admin/views/form_select.php:120
+msgid "add the time filter,"
+msgstr "時間フィルタを追加し、"
+
+#: admin/views/form_select.php:121
+msgid "set a small time range,"
+msgstr "期間を短めに設定して、"
+
+#: admin/views/form_select.php:122
+msgid "do the process"
+msgstr "処理を実行"
+
+#: admin/views/form_select.php:123
+msgid "and repeat it with the next time range as often as needed."
+msgstr "期間を設定し直して処理することを繰り返す"
+
+#: admin/views/form_select.php:125
+msgid ""
+"This way is not as fast as one single run, but still much faster than "
+"setting the images for each post manually."
+msgstr ""
+"一度に処理するよりも時間がかかりますが、それぞれの投稿に手作業でアイキャッチ"
+"画像を設定していくよりはずっと早く処理できます。"
+
+#: admin/views/form_select.php:130
+msgid ""
+"On the next page you can refine the filters. If you did not select any "
+"filter you will go to the preview list directly."
+msgstr ""
+"次のページでフィルタを調整できます。フィルタを選択していない場合は、プレ"
+"ビューリストが表示されます。"
+
+#: admin/views/form_start.php:6 admin/views/section_defaults.php:215
+msgid ""
+"The current theme does not support featured images. Anyway you can use this "
+"plugin. The effects are stored and will be visible in a theme which supports "
+"featured images."
+msgstr ""
+"使用中のテーマはアイキャッチ画像をサポートしていませんが、このプラグインの利"
+"用は可能です。設定内容は保存され、アイキャッチ画像が利用可能なテーマを有効化"
+"すると表示されます。"
+
+#: admin/views/form_start.php:12
+msgid "What do you want to do?"
+msgstr "やりたいことは何ですか?"
+
+#: admin/views/form_start.php:14
+msgid ""
+"Here you can add, replace and delete featured images to your posts. Select "
+"one of the following actions and, if necessary, one or more images."
+msgstr ""
+"投稿のアイキャッチ画像の設定、変更、削除ができます。下記のラジオボタンの中か"
+"ら目的のアクションを1つ選び、必要に応じて1枚または複数の画像も選択してくださ"
+"い。"
+
+#: admin/views/form_start.php:15
+msgid "Whatever you select: You can refine your choice on the next page."
+msgstr "ここで選択した内容は、次のページで調整できます。"
+
+#: admin/views/form_start.php:17
+msgid "Important advice"
+msgstr "重要"
+
+#: admin/views/form_start.php:18
+msgid ""
+"There is no undo function! It is strongly recommended that you make a backup "
+"of the WordPress database before you perform mass changes."
+msgstr ""
+"取り消し機能はありません。大幅な変更を行う前に、WordPress のデータベースの"
+"バックアップを取ることを強くお勧めします。"
+
+#: admin/views/form_start.php:20
+msgid "Select action"
+msgstr "アクションの選択"
+
+#: admin/views/form_start.php:21
+msgid "Actions with a single image"
+msgstr "画像を1枚必要とするアクション"
+
+#: admin/views/form_start.php:22
+msgid "These actions require to select an image with the following button."
+msgstr "次のアクションは、下のボタンで画像を1枚選択する必要があります。"
+
+#: admin/views/form_start.php:35
+msgid ""
+"Select the image you want to add to, replace or delete from posts and pages "
+"by clicking on the following button."
+msgstr ""
+"下のボタンをクリックして、追加、変更、削除したい画像を選択してください。"
+
+#: admin/views/form_start.php:57
+msgid "Choose Image"
+msgstr "画像の選択"
+
+#: admin/views/form_start.php:61
+msgid "If the button does not work, read this:"
+msgstr "ボタンが機能しないときは:"
+
+#: admin/views/form_start.php:62
+msgid ""
+"Some users reported that this button would not work in some WordPress "
+"installations. If this should be the case you can take another way:"
+msgstr "このボタンが機能しないときは、下記をお試しください。"
+
+#: admin/views/form_start.php:63
+msgid ""
+"1. Go to the media library. 2. Move the mouse over the desired image. "
+"Further links are appearing, among them the link &quot;Bulk set as featured "
+"image&quot;. 3. After a click on it you can move on in this plugin."
+msgstr ""
+"1. メディアライブラリを開く。2. 目的の画像にマウスポインタを合わせて &quot;ア"
+"イキャッチ画像に設定&quot; リンクを表示させる。3. そのリンクをクリックしてプ"
+"ラグインの画面に戻る。"
+
+#: admin/views/form_start.php:67
+msgid "Actions with multiple images"
+msgstr "複数の画像を必要とするアクション"
+
+#: admin/views/form_start.php:68
+msgid ""
+"These actions require at least one selected image with the following button."
+msgstr ""
+"次のアクションは、下のボタンで少なくとも1枚の画像を選択する必要があります。"
+
+#: admin/views/form_start.php:101
+msgid "Actions without any selected image"
+msgstr "画像の選択が必要ないアクション"
+
+#: admin/views/form_start.php:102
+msgid "These actions do not require a selected image."
+msgstr "次のアクションは、画像を選択する必要はありません。"
+
+#: admin/views/form_start.php:113
+msgid "Do you want to assign the first image of each post?"
+msgstr "投稿の最初の画像をアイキャッチ画像にしますか?"
+
+#: admin/views/section_defaults.php:16
+msgid "matches"
+msgstr "条件"
+
+#: admin/views/section_defaults.php:59
+msgid "Post Type"
+msgstr "投稿タイプ"
+
+#: admin/views/section_defaults.php:204
+msgid "Default featured images for future posts"
+msgstr "新規投稿のデフォルトのアイキャッチ画像"
+
+#: admin/views/section_defaults.php:206
+msgid ""
+"Define the rules to use images as default featured images automatically "
+"every time a post is saved."
+msgstr ""
+"投稿が保存されるときにデフォルトのアイキャッチ画像を設定するルールを定義しま"
+"す。"
+
+#: admin/views/section_defaults.php:207
+msgid ""
+"To use a rule choose the image and set both the taxonomy and the value. A "
+"rule which is defined only partially will be ignored."
+msgstr ""
+"ルールを設定するには、画像を選んで、分類と値の両方を設定する必要があります。"
+"一方だけ設定されたルールは無視されます。"
+
+# alt text for sample screen image
+#: admin/views/section_defaults.php:235
+msgid "An image overwrites an existing image"
+msgstr "既存の画像の上書き"
+
+#: admin/views/section_defaults.php:239
+msgid ""
+"Activate to automatically overwrite an existing featured image while saving "
+"a post"
+msgstr "投稿の保存時に既存のアイキャッチ画像を自動的に上書きする"
+
+#: admin/views/section_defaults.php:241
+msgid ""
+"If activated the rule is used automatically while saving a post to overwrite "
+"an existing featured image with the new one based on the following rules. Do "
+"not use this if you want to keep manually set featured images."
+msgstr ""
+"オンにすると、すでに設定されているアイキャッチ画像も、以下のルールに基づいて"
+"決定される新しい画像で上書きされます。設定済のアイキャッチ画像を残したい場合"
+"は、このオプションをオンにしないでください。"
+
+# alt text for sample screen image
+#: admin/views/section_defaults.php:248
+msgid "Text with images in WordPress editor"
+msgstr "WordPressエディタ内の画像とテキスト"
+
+#: admin/views/section_defaults.php:252
+msgid ""
+"Activate to automatically use the first content image if available in the "
+"media library as featured image while saving a post"
+msgstr ""
+"投稿の保存時に、投稿の最初の画像 (メディアライブラリにある画像) を自動的にア"
+"イキャッチ画像に設定する"
+
+#: admin/views/section_defaults.php:254
+msgid ""
+"If activated the rule is used automatically while saving a post to set the "
+"first content image - if available in the media library - as the featured "
+"image of the post. If the post has no content images the next rules will be "
+"applied."
+msgstr ""
+"オンにすると、投稿の保存時に、投稿の最初の画像 (メディアライブラリの画像) を"
+"アイキャッチ画像に設定するルールが適用されます。画像が見つからない場合は、次"
+"のルールが適用されます。"
+
+#: admin/views/section_defaults.php:255
+msgid "For which post types should this rule be applied?"
+msgstr "このルールを適用する投稿タイプ"
+
+#: admin/views/section_defaults.php:282
+msgid ""
+"Select at least one post type, otherwise all post types will be considered."
+msgstr ""
+"投稿タイプを少なくとも1つ選択してください。選択しないと、すべての投稿タイプが"
+"対象になります。"
+
+#: admin/views/section_defaults.php:488
+msgid "Add rule"
+msgstr "ルールを追加"
+
+#: admin/views/section_defaults.php:493
+msgid "Are you sure to remove this rule?"
+msgstr "このルールを削除しますか?"
+
+#: admin/views/section_defaults.php:496
+msgid "How the rules work"
+msgstr "ルールの仕組み"
+
+#: admin/views/section_defaults.php:497
+msgid ""
+"Every time you save a post the post get the featured image if one of the "
+"following rules match a property of the post. You can also set rules for "
+"pages and all other current post types which support featured images."
+msgstr ""
+"下記のルールが当てはまれる投稿には、保存時にアイキャッチ画像が自動的に設定さ"
+"れます。アイキャッチ画像をサポートしている固定ページやその他の投稿タイプにも"
+"ルールを設定できます。"
+
+#: admin/views/section_defaults.php:498
+msgid ""
+"Regardless of the order in the list the rules are applied in the following "
+"order until a rule and a property of the post fit together:"
+msgstr ""
+"リストの順番にかかわらず、投稿のプロパティがルールに当てはまるまで、下記の順"
+"番でルールが適用されます。"
+
+#: admin/views/section_defaults.php:500
+msgid "found first content image. If not then..."
+msgstr "最初の画像を探す。もしなければ..."
+
+#: admin/views/section_defaults.php:501
+msgid "matched custom taxonomy. If not then..."
+msgstr "一致するカスタムタクソノミーを探す。なければ..."
+
+#: admin/views/section_defaults.php:502
+msgid "matched tag. If not then..."
+msgstr "一致するタグを探す。なければ..."
+
+#: admin/views/section_defaults.php:503
+msgid "matched category. If not then..."
+msgstr "一致するカテゴリーを探す。なければ..."
+
+#: admin/views/section_defaults.php:504
+msgid "matched author. If not then..."
+msgstr "一致する作成者を探す。なければ..."
+
+#: admin/views/section_defaults.php:505
+msgid "matched post type. If not then..."
+msgstr "一致する投稿タイプを探す。なければ..."
+
+#: admin/views/section_defaults.php:506
+msgid "no featured image."
+msgstr "アイキャッチ画像を設定しない。"
+
+#: admin/views/section_defaults.php:508
+msgid ""
+"Bear in mind that if two or more rules with the same taxonomy would fit to "
+"the post it is unforeseeable which image will become the featured image."
+msgstr ""
+"同じタクソノミーの2つ以上のルールが当てはまった場合、どの画像がアイキャッチ画"
+"像に設定されるか予期できなくなることに注意してください。"
+
+#: admin/views/section_defaults.php:509
+msgid "Additional rules in the premium version"
+msgstr "プレミアム版で利用可能なルール"
+
+#: admin/views/section_defaults.php:511
+msgid "Multiple images to set them randomly as featured image"
+msgstr "複数の画像をランダムにアイキャッチ画像に設定する"
+
+#: admin/views/section_defaults.php:512
+msgid "Random featured images at each page load"
+msgstr "ページを表示するたびにアイキャッチ画像をランダムに割り当てる"
+
+#: admin/views/section_defaults.php:513
+msgid ""
+"The first content image can be also an image from an external server to set "
+"it as automated featured image"
+msgstr ""
+"最初の画像が外部のサーバーの画像でも、自動的にアイキャッチ画像に設定する"
+
+#: admin/views/section_defaults.php:514
+msgid ""
+"Remove the first content image automatically after the featured image was "
+"set successfully"
+msgstr ""
+"アイキャッチ画像の設定が完了したら、投稿コンテンツの最初の画像を削除する"
+
+#: admin/views/section_defaults.php:515
+msgid "Match with a search string in post title"
+msgstr "一致する投稿タイトル検索文字列を探す"
+
+#: admin/views/section_defaults.php:516
+msgid "Match with a selected post format"
+msgstr "一致する投稿フォーマットを探す"
+
+#: admin/views/section_defaults.php:517
+msgid "User defined order of rules"
+msgstr "ルールの順番のカスタマイズ"
+
+#: admin/views/section_defaults.php:518
+msgid "Import your rules from this plugin into the premium plugin"
+msgstr "このプラグインのルールをプレミアム版プラグインでインポート"
+
+#: admin/views/section_errormsg.php:1
+msgid "Error"
+msgstr "エラー"
+
+#: admin/views/section_errormsg.php:3
+msgid "Reason"
+msgstr "原因"
+
+#: admin/views/section_errormsg.php:5
+msgid "Solution"
+msgstr "対応策"
+
+#: admin/views/section_footer.php:52
+msgid "Credits and informations"
+msgstr "クレジットと情報"
+
+#: admin/views/section_footer.php:54 admin/views/section_results.php:87
+msgid "Do you like the plugin?"
+msgstr "プラグインを気に入りましたか?"
+
+#: admin/views/section_footer.php:54 admin/views/section_results.php:88
+msgid "Please rate it at wordpress.org!"
+msgstr "wordpress.org で評価してください!"
+
+#: admin/views/section_footer.php:55
+msgid ""
+"The plugin is for free. But the plugin author would be delighted to your "
+"small contribution."
+msgstr ""
+"このプラグインは無料ですが、少額でもご寄付いただけると大変ありがたく存じま"
+"す。"
+
+#: admin/views/section_footer.php:55
+msgid "Donation Button"
+msgstr "寄付ボタン"
+
+#: admin/views/section_footer.php:55
+msgid "Donate with PayPal"
+msgstr "PayPal で寄付する"
+
+#: admin/views/section_footer.php:56
+msgid "Do you need support or have an idea for the plugin?"
+msgstr "サポートが必要ですか? アイデアをお持ちですか?"
+
+#: admin/views/section_footer.php:56
+msgid ""
+"Post your questions and ideas about Quick Featured Images in the forum at "
+"wordpress.org!"
+msgstr ""
+"wordpress.org のフォーラムに Quick Featured Images の質問やアイデアを投稿して"
+"ください!"
+
+#: admin/views/section_footer.php:57
+msgid ""
+"Let the thumbnails appear in the widget of the most recent posts with this "
+"fast plugin"
+msgstr "高速なプラグインで、最近の投稿ウィジェットにサムネイルを表示しましょう"
+
+#: admin/views/section_footer.php:57
+#, php-format
+msgid "Download plugin %s at %s!"
+msgstr "%s プラグインを %s からダウンロード!"
+
+#: admin/views/section_header_progress.php:15
+msgid "Progress bar"
+msgstr "プログレスバー"
+
+#: admin/views/section_header_progress.php:17
+msgid "You are here"
+msgstr "現在"
+
+#: admin/views/section_image.php:1
+msgid "Your selection"
+msgstr "選択"
+
+#: admin/views/section_image.php:9
+msgid "Your selected thumbnail"
+msgstr "選択したサムネイル"
+
+#: admin/views/section_image.php:12
+msgid "Image title"
+msgstr "画像タイトル"
+
+#: admin/views/section_image.php:14 admin/views/section_image.php:36
+msgid "If wrong image start again"
+msgstr "画像を選択し直す"
+
+#: admin/views/section_image.php:23
+msgid "Your selected thumbnails"
+msgstr "選択したサムネイル"
+
+#: admin/views/section_image.php:42
+msgid "Your selected action"
+msgstr "選択したアクション"
+
+#: admin/views/section_image.php:55
+msgid "If wrong action start again"
+msgstr "アクションを選択し直す"
+
+#: admin/views/section_image.php:68
+msgid "Your selected options"
+msgstr "選択したオプション"
+
+#: admin/views/section_image.php:84
+msgid "No selected options"
+msgstr "オプション未選択"
+
+#: admin/views/section_image.php:90
+msgid "Your selected filters"
+msgstr "選択したフィルタ"
+
+#: admin/views/section_image.php:106
+msgid "No selected filters"
+msgstr "フィルタ未選択"
+
+#: admin/views/section_overview.php:17
+msgid "Manage featured images in a quick way"
+msgstr "アイキャッチ画像をすばやく設定"
+
+#: admin/views/section_overview.php:89
+msgid "The premium version"
+msgstr "プレミアム版"
+
+#: admin/views/section_results.php:1
+msgid "Results of the action"
+msgstr "実行結果"
+
+#: admin/views/section_results.php:19
+msgid "Changed successfully"
+msgstr "変更完了"
+
+#: admin/views/section_results.php:20
+msgid "Unchanged"
+msgstr "変更なし"
+
+#: admin/views/section_results.php:82
+msgid "No matches found."
+msgstr "条件を満たすものがありません。"
+
+#~ msgid "Changes saved."
+#~ msgstr "変更を保存しました。"
+
+#~ msgid "No changes were saved."
+#~ msgstr "変更は保存されませんでした。"
+
+#~ msgid "You can select posts and pages."
+#~ msgstr "投稿と固定ページを選択できます。"
+
+#~ msgid "Special thanks for the fine frontend style of the plugin go to"
+#~ msgstr "すばらしいフロントエンドスタイルの提供に深く感謝します:"
+
+#~ msgid "Do not use the first image"
+#~ msgstr "最初の画像を使用しない"
+
+#~ msgid "Use first content image"
+#~ msgstr "コンテンツの最初の画像を使う"
+
+#~ msgid "Use first attached image"
+#~ msgstr "最初の添付画像を使う"
+
+#~ msgid ""
+#~ "If first image should be used and no image was found: Attempt to use the "
+#~ "thumbnail of the first embedded remote content based on a provided URL, "
+#~ "upload it into the media library and set it as featured image"
+#~ msgstr ""
+#~ "最初の画像を使う設定のときに、画像がなかった場合: 最初の埋め込みコンテンツ"
+#~ "のURLからサムネイルを探し、メディアライブラリにアップロードしてアイキャッ"
+#~ "チ画像に設定する"
+
+#~ msgid "License Activation"
+#~ msgstr "ライセンスの有効化"
+
+#~ msgid "Enter the license key to get automatic upgrades of the plugin."
+#~ msgstr ""
+#~ "ライセンスキーを入力してプラグインの自動アップグレードを有効にします。"
+
+#~ msgid "The license is disabled."
+#~ msgstr "ライセンスは無効です。"
+
+#~ msgid "The license is expired."
+#~ msgstr "ライセンスの有効期限が切れました。"
+
+#~ msgid "The license is inactive."
+#~ msgstr "ライセンスが有効化されていません。"
+
+#~ msgid "The license is invalid."
+#~ msgstr "ライセンスが正しくありません。"
+
+#~ msgid "This appears to be an invalid product for this license key."
+#~ msgstr "無効な製品のライセンスキーと思われます。"
+
+#~ msgid "The license key does not match."
+#~ msgstr "ライセンスキーが一致しません。"
+
+#~ msgid "This appears to be an invalid product name for this license key."
+#~ msgstr "無効な製品名のライセンスキーと思われます。"
+
+#~ msgid "The license is not activatable."
+#~ msgstr "ライセンスが有効化されていません。"
+
+#~ msgid "The license key does not exist."
+#~ msgstr "ライセンスキーがありません。"
+
+#~ msgid "The license has reached its activation limit."
+#~ msgstr "ライセンスの有効化の上限に達しました。"
+
+#~ msgid "The license has been revoked."
+#~ msgstr "ライセンスが取り消されました。"
+
+#~ msgid "The license is not active for the site address %s."
+#~ msgstr "ライセンスは、サイトアドレス %s に対して有効ではありません。"
+
+#~ msgid "The license is valid and active."
+#~ msgstr "ライセンスは有効です。"
+
+#~ msgid "The license status is: %s."
+#~ msgstr "ライセンスのステータス: %s"
+
+#~ msgid "Names of presets"
+#~ msgstr "プリセットの名前"
+
+#~ msgid "All stored presets of &#8220;%s&#8221;"
+#~ msgstr "保存されている&#8220;%s&#8221;プリセット"
+
+#~ msgid ""
+#~ "There are no presets. You can add a preset at the end of the process in "
+#~ "&#8220;%s&#8221;."
+#~ msgstr ""
+#~ "プリセットがありません。&#8220;%s&#8221; の処理の最後にプリセットを追加で"
+#~ "きます。"
+
+#~ msgid "Deactivate the checkboxes at each preset name to delete them."
+#~ msgstr "チェックボックスをオフにしたプリセットは削除されます。"
+
+#~ msgid "Manage the presets for the bulk edit section."
+#~ msgstr "アイキャッチ画像一括編集のプリセットを管理します。"
+
+#~ msgid "Set the first image as featured image"
+#~ msgstr "最初の画像をアイキャッチ画像に設定する"
+
+#~ msgid "Take the first post image if available in the media library"
+#~ msgstr "投稿の最初の画像でメディアライブラリにあるものを使用する"
+
+#~ msgid ""
+#~ "Take the first post image from current site domain, copy and add it to "
+#~ "the media library if not available there"
+#~ msgstr ""
+#~ "投稿の最初の画像でサイトのドメイン下にあるものを使用する (メディアライブラ"
+#~ "リになければコピーして追加)"
+
+#~ msgid ""
+#~ "Take the first external post image, download it and add it to the media "
+#~ "library"
+#~ msgstr ""
+#~ "投稿の最初のサイト外画像をダウンロードし、メディアライブラリに追加して使用"
+#~ "する"
+
+#~ msgid "Take the first attached image of a post"
+#~ msgstr "投稿の最初の添付画像を使用する"
+
+#~ msgid "Take the first image of a WordPress standard gallery"
+#~ msgstr "WordPress標準ギャラリーの最初の画像を使用する"
+
+#~ msgid ""
+#~ "Take the first thumbnail of the embedded remote content based on a "
+#~ "provided URL, download it and add it to the media library"
+#~ msgstr ""
+#~ "埋め込みコンテンツのサムネイルをダウンロードし、メディアライブラリに追加し"
+#~ "て使用する"
+
+#~ msgid "Take the first image of a NextGen Gallery"
+#~ msgstr "NextGenギャラリーの最初の画像を使用する"
+
+#~ msgid "Remove first embedded image"
+#~ msgstr "最初の埋め込み画像を削除する"
+
+#~ msgid "Remove excess featured images"
+#~ msgstr "重複するアイキャッチ画像を削除する"
+
+#~ msgid "Forced removal"
+#~ msgstr "強制削除"
+
+#~ msgid "Attach image to post after set as featured"
+#~ msgstr "アイキャッチ画を像設定後、その画像を投稿に添付する"
+
+#~ msgid "Detach image from post after removed as featured"
+#~ msgstr "アイキャッチ画像を削除した後、投稿から切り離す"
+
+#~ msgid "Post Format Filter"
+#~ msgstr "投稿フォーマットフィルタ"
+
+#~ msgid "Multimedia File Filter"
+#~ msgstr "マルチメディアファイルフィルタ"
+
+#~ msgid "Status Filter"
+#~ msgstr "ステータスフィルタ"
+
+#~ msgid "Search Filter"
+#~ msgstr "検索フィルタ"
+
+#~ msgid "Time Filter"
+#~ msgstr "時間フィルタ"
+
+#~ msgid "Author Filter"
+#~ msgstr "作成者フィルタ"
+
+#~ msgid "Custom Taxonomy Filter"
+#~ msgstr "カスタムタクソノミーフィルタ"
+
+#~ msgid "Featured Image Size Filter"
+#~ msgstr "アイキャッチ画像サイズフィルタ"
+
+#~ msgid "Parent Page Filter"
+#~ msgstr "親ページフィルタ"
+
+#~ msgid "Audio files"
+#~ msgstr "音声ファイル"
+
+#~ msgid "Video files"
+#~ msgstr "動画ファイル"
+
+#~ msgid "Start Month"
+#~ msgstr "開始月"
+
+#~ msgid "End Month"
+#~ msgstr "終了月"
+
+#~ msgid "Day in the start month"
+#~ msgstr "開始月の日付"
+
+#~ msgid "Day in the end month"
+#~ msgstr "終了月の日付"
+
+#~ msgid "Include the posts of the selected dates"
+#~ msgstr "選択した日付の投稿を含める"
+
+#~ msgid "Custom field name"
+#~ msgstr "カスタムフィールド名"
+
+#~ msgid "Operator to test with the value in the custom field"
+#~ msgstr "カスタムフィールドの値と比較する演算子"
+
+#~ msgid "Custom field value to compare with"
+#~ msgstr "値 (カスタムフィールドの値と比較)"
+
+#~ msgid "Custom field type"
+#~ msgstr "カスタムフィールドのタイプ"
+
+#~ msgid "Search in post titles only"
+#~ msgstr "投稿タイトルから検索"
+
+#~ msgid "Select an author"
+#~ msgstr "作成者を選択"
+
+#~ msgid "is equal"
+#~ msgstr "等しい"
+
+#~ msgid "is not equal"
+#~ msgstr "等しくない"
+
+#~ msgid "is greater than"
+#~ msgstr "大きい"
+
+#~ msgid "is lower than"
+#~ msgstr "小さい"
+
+#~ msgid "contains"
+#~ msgstr "含む"
+
+#~ msgid "Select the custom field to find the associated posts/pages."
+#~ msgstr "投稿/固定ページの抽出に使うカスタムフィールドを選択してください。"
+
+#~ msgid ""
+#~ "Optional: Type in the value which will be compared with the value of the "
+#~ "selected custom field."
+#~ msgstr ""
+#~ "オプション: 選択したカスタムフィールドの値と比較する値を入力してください。"
+
+#~ msgid ""
+#~ "Leave it empty if you just want to test the existence of the custom field "
+#~ "per post/page."
+#~ msgstr ""
+#~ "投稿/固定ページにカスタムフィールドが追加されているかどうかチェックしたい"
+#~ "場合は、空白にしてください。"
+
+#~ msgid ""
+#~ "Optional: Change the operator of the comparison. The default is to "
+#~ "compare equality with the value you type in the 'value' field."
+#~ msgstr ""
+#~ "オプション: 比較演算子を設定してください。デフォルトでは、'値'フィールドに"
+#~ "入力した値と等しいかどうか比較します。"
+
+#~ msgid "There are no custom fields in use."
+#~ msgstr "使用されているカスタムフィールドはありません。"
+
+#~ msgid "Registered terms of the taxonomy &#8220;%s&#8221;"
+#~ msgstr "&#8220;%s&#8221;タクソノミーに登録されているターム"
+
+#~ msgid "There are no terms of the taxonomy &#8220;%s&#8221;."
+#~ msgstr "&#8220;%s&#8221;タクソノミーにはタームがありません。"
+
+#~ msgid "Strange search result with custom taxonomies?"
+#~ msgstr "カスタムタクソノミーの検索結果がおかしいとき"
+
+#~ msgid ""
+#~ "The search for custom taxonomy terms could lead to surprising results. "
+#~ "The reason is custom taxonomies can be used in many different ways. It is "
+#~ "not possible to catch them all in one single code expression. If you "
+#~ "should be unsatisfied with the result try other filters to get the result "
+#~ "you want."
+#~ msgstr ""
+#~ "カスタムタクソノミーのタームによる検索が、予期しない結果になることがありま"
+#~ "す。カスタムタクソノミーはさまざまな使われ方をするためです。一通りのコード"
+#~ "ですべてを取得することは困難です。期待した結果が得られなかった場合は、他の"
+#~ "フィルタを試してみてください。"
+
+#~ msgid "There are no custom taxonomies."
+#~ msgstr "カスタムタクソノミーがありません。"
+
+#~ msgid ""
+#~ "The search will find posts with an already added featured image which its "
+#~ "original image file is smaller than one of the given dimensions."
+#~ msgstr ""
+#~ "アイキャッチ画像が設定されている投稿の中で、アイキャッチ画像の元のサイズが"
+#~ "指定サイズよりも小さいものを検索します。"
+
+#~ msgid "For example you can search for posts with too small featured images."
+#~ msgstr ""
+#~ "例えば、サイズが小さすぎるアイキャッチ画像が設定された投稿を検索を検索でき"
+#~ "ます。"
+
+#~ msgid ""
+#~ "Only positive integers from %d to %d are allowed. By default the "
+#~ "thumbnail dimensions as defined in %s are used."
+#~ msgstr ""
+#~ "%d から %d までの正の整数のみ指定できます。デフォルトでは、%s で指定されて"
+#~ "いるサムネイルのサイズに設定されます。"
+
+# a period at the end of a sentence must be localizable
+#~ msgid "Select multimedia file types"
+#~ msgstr "マルチメディアファイル形式を選択してください"
+
+#~ msgid ""
+#~ "You can select two multimedia files types: audios and videos. If you "
+#~ "check at least one of both all other post types (posts, pages, etc.) will "
+#~ "be ignored."
+#~ msgstr ""
+#~ "音声と動画の2つのファイル形式を選択できます。このうち少なくとも1つを選ぶ"
+#~ "と、他の投稿タイプ (投稿、固定ページなど) は無視されます。"
+
+#~ msgid "Include parent page of %s"
+#~ msgstr "%sの親ページを含める"
+
+#~ msgid "Select a parent page of %s"
+#~ msgstr "%sの親ページを選択"
+
+#~ msgid "There are no pages with child pages."
+#~ msgstr "子ページを含む固定ページはありません。"
+
+#~ msgid "Select post formats"
+#~ msgstr "投稿フォーマットを選択"
+
+#~ msgid "There are no custom post types."
+#~ msgstr "カスタム投稿タイプがありません。"
+
+#~ msgid ""
+#~ "If you want to search for an exact phrase surround it with double quotes."
+#~ msgstr "完全一致させたい場合は、キーワードを二重引用符で括ってください。"
+
+#~ msgid "Type in a search term"
+#~ msgstr "検索キーワード"
+
+#~ msgid "Select the statuses of the posts/pages:"
+#~ msgstr "投稿/固定ページのステータスを選択:"
+
+#~ msgid "Date range"
+#~ msgstr "日付の範囲"
+
+#~ msgid ""
+#~ "To define a time segment select both the start date and the end date."
+#~ msgstr "期間を設定するには、開始日と終了日を両方とも選択してください。"
+
+#~ msgid ""
+#~ "You can also define a time period by selecting only one date as the "
+#~ "limiting value of the period."
+#~ msgstr "どちらか一方だけ選択して範囲を絞ることもできます。"
+
+#~ msgid "The listed dates are the date of the publication of stored posts."
+#~ msgstr "リストに表示される日付は、投稿の公開日です。"
+
+#~ msgid ""
+#~ "You can limit the filter to the exact day within the months. The day "
+#~ "options are optional and only work if a month has been selected."
+#~ msgstr ""
+#~ "月の特定の日付を指定してフィルタをさらに絞ることができます。日付はオプショ"
+#~ "ンで、月が選択されているときに機能します。"
+
+#~ msgid "What sort of first image?"
+#~ msgstr "最初の画像の種類"
+
+#~ msgid "See a list of all supported services in a new window."
+#~ msgstr "サポートされているサービスのリストを新規ウィンドウで参照する"
+
+#~ msgid ""
+#~ "Remove the first embedded image from the post content after this image "
+#~ "was set as featured image. This does not affect galleries or attached "
+#~ "images."
+#~ msgstr ""
+#~ "最初の埋め込み画像をアイキャッチ画像に設定した後、その埋め込み画像を投稿か"
+#~ "ら削除します。ギャラリーや添付画像には影響しません。"
+
+#~ msgid ""
+#~ "There is no undo function. Be careful with this option and please create "
+#~ "a backup of the database of this website before you use this!"
+#~ msgstr ""
+#~ "取り消し機能はありませんので、注意して使用してください。実行する前に、この"
+#~ "Webサイトのデータベースのバックアップを取ってください!"
+
+#~ msgid ""
+#~ "Remove first content image even if the featured image was not changed "
+#~ "successfully. Works only if 'Remove first embedded image' is activated."
+#~ msgstr ""
+#~ "アイキャッチ画像が変更できなかった場合も、最初の画像を投稿から削除しま"
+#~ "す。'最初の埋め込み画像を削除する'オプションがオンのときだけ機能します。"
+
+#~ msgid ""
+#~ "By default the selected images will be used multiple times in random "
+#~ "order. If you check this option each selected image will be used only "
+#~ "once. If there are more posts than images the remaining posts will not be "
+#~ "changed. If you want to remove the featured images of remaining posts "
+#~ "check the next option additionally."
+#~ msgstr ""
+#~ "デフォルトでは、選択した画像はランダムに何度も使用されます。このオプション"
+#~ "をオンにすると、それぞれの画像は1回だけ使用されます。画像より多くの投稿が"
+#~ "ある場合、残った投稿のアイキャッチ画像は変更されません。残りの投稿のアイ"
+#~ "キャッチ画像を削除したい場合は、次のオプションもオンにしてください。"
+
+#~ msgid ""
+#~ "Remove existing featured images of remaining posts if all selected images "
+#~ "are used. This option works only with the previous option."
+#~ msgstr ""
+#~ "選択した画像を使い切って、割り当てきれずに残った投稿の既存のアイキャッチ画"
+#~ "像を削除します。このオプションは上のオプションがオンのときだけ機能します。"
+
+#~ msgid ""
+#~ "This will overwrite existing entries in the media library column \"%s\". "
+#~ "If an image will be set as featured image for multiple posts it will be "
+#~ "attached to the last of these posts."
+#~ msgstr ""
+#~ "メディアライブラリの \"%s\" カラムの内容が書き換わります。画像が複数の投稿"
+#~ "のアイキャッチ画像になっている場合は、最後の投稿に添付されます。"
+
+#~ msgid ""
+#~ "Search by post format. By default the standard post format is affected."
+#~ msgstr ""
+#~ "投稿フォーマットで絞り込む。デフォルトでは標準の投稿フォーマットが対象。"
+
+#~ msgid ""
+#~ "Search for audios and videos. This filter will ignore all other post "
+#~ "types automatically."
+#~ msgstr "音声と動画で絞り込む。他の投稿タイプはすべて無視されます。"
+
+#~ msgid ""
+#~ "Search by several statuses (published, draft, private etc.). By default "
+#~ "all statuses will be affected."
+#~ msgstr ""
+#~ "ステータス (公開、下書き、非公開など) で絞り込む。デフォルトではすべてのス"
+#~ "テータスが対象。"
+
+#~ msgid "Search by search term"
+#~ msgstr "検索キーワードで絞り込む"
+
+#~ msgid "Search by time specifications"
+#~ msgstr "時間で絞り込む"
+
+#~ msgid "Search by author"
+#~ msgstr "作成者で絞り込む"
+
+#~ msgid "Search by other taxonomies like plugin categories etc."
+#~ msgstr "カスタムタクソノミーで絞り込む"
+
+#~ msgid "Search by original dimensions of added featured image"
+#~ msgstr "アイキャッチ画像のサイズで絞り込む"
+
+#~ msgid "Search child pages by parent page"
+#~ msgstr "親ページで子ページを絞り込む"
+
+#~ msgid "Some advices from experience"
+#~ msgstr "ヒント"
+
+#~ msgid ""
+#~ "Looking for external images can take a long time. Please be patient for "
+#~ "at least one minute and do not reload the page! If you would see a "
+#~ "timeout message please start again with a filter that limits the number "
+#~ "of posts."
+#~ msgstr ""
+#~ "サイト外の画像の参照には時間がかかります。少なくとも1分程度はページのリ"
+#~ "ロードをせずに待っていてください! もしタイムアウトしてしまったら、フィルタ"
+#~ "で対象の投稿の数を減らしてから再度実行してください。"
+
+#~ msgid ""
+#~ "If you would be unsatisfied with the next results of the search for first "
+#~ "embedded images try the option for external images. Maybe that result "
+#~ "could meet your expectations better."
+#~ msgstr ""
+#~ "最初の埋め込み画像の検索結果が期待通りでなかった場合は、サイト外の画像を使"
+#~ "用するオプションを試してみてください。より良い結果が得られる可能性がありま"
+#~ "す。"
+
+#~ msgid "In case of external images: Respect copyrights of external works"
+#~ msgstr ""
+#~ "サイト外の画像を使う場合は、第三者の著作権を侵害しないようにしてください。"
+
+#~ msgid ""
+#~ "Although embedding contents from other authors into the website is so "
+#~ "easy it does not mean that it is allowed to do that! Do you have the "
+#~ "rights to use the works of other authors in your website? If you are not "
+#~ "sure read the copyright licenses of that works or ask the author."
+#~ msgstr ""
+#~ "他の制作者のコンテンツをWebサイトに埋め込むのは簡単ですが、そうした利用が"
+#~ "許可されているとは限りません! その制作者の作品を自分のWebサイトで使用する"
+#~ "権利を持っていますか? その著作物の使用許諾条項を読むか、制作者に問い合わせ"
+#~ "て、確認してください。"
+
+#~ msgid "In case of embedded contents: Thumbnail not always available"
+#~ msgstr "埋め込みコンテンツの場合、常にサムネイルが利用可能とは限りません。"
+
+#~ msgid ""
+#~ "There are some providers which let their users upload images but do not "
+#~ "give informations about the images to other servers. In such cases a "
+#~ "featured image can not be set."
+#~ msgstr ""
+#~ "サムネイル用の画像がアップロードされていても、その画像の情報を他のサーバー"
+#~ "に開示していないサービスもあります。そのような場合には、アイキャッチ画像を"
+#~ "設定できません。"
+
+#~ msgid ""
+#~ "The plugin will try to find the first image embedded in the content, in a "
+#~ "WordPress standard gallery or attached to a post."
+#~ msgstr ""
+#~ "コンテンツや WordPress の標準ギャラリー、投稿の添付画像の中から、最初の画"
+#~ "像を探して使用します。"
+
+#~ msgid "It will also search in NextGen galleries."
+#~ msgstr "NextGenギャラリーからも検索します。"
+
+#~ msgid "Presets"
+#~ msgstr "プリセット"
+
+#~ msgid ""
+#~ "You can reuse previous settings using presets. Select one of the "
+#~ "following presets."
+#~ msgstr ""
+#~ "プリセットで以前の設定を再利用できます。下記のプリセットから選択してくださ"
+#~ "い。"
+
+#~ msgid "Select a preset"
+#~ msgstr "プリセットを選択"
+
+#~ msgid "Manage the presets on page %s."
+#~ msgstr "%sページでプリセットを管理"
+
+#~ msgid "Search string"
+#~ msgstr "検索文字列"
+
+#~ msgid "Choose random images"
+#~ msgstr "ランダム表示画像の選択"
+
+#~ msgid ""
+#~ "Set the featured image randomly at each page load. That works only for "
+#~ "multiple images and will always overwrite existing featured images!"
+#~ msgstr ""
+#~ "ページを表示するたびにアイキャッチ画像をランダムに割り当てる。複数画像のと"
+#~ "きだけ機能し、既存のアイキャッチ画像は常に上書きされます!"
+
+#~ msgid "works only if &#8220;%s&#8221; is set to &#8220;%s&#8221;"
+#~ msgstr "&#8220;%s&#8221; が &#8220;%s&#8221; のときだけ機能します"
+
+#~ msgid ""
+#~ "The current theme does not support featured images. Anyway you can use "
+#~ "this plugin. The rules are stored and will be visible in a theme which "
+#~ "supports featured images."
+#~ msgstr ""
+#~ "使用中のテーマはアイキャッチ画像をサポートしていませんが、このプラグインの"
+#~ "利用は可能です。設定内容は保存され、アイキャッチ画像が利用可能なテーマを有"
+#~ "効化すると表示されます。"
+
+#~ msgid ""
+#~ "The current theme does not support post formats. Anyway you can use this "
+#~ "plugin. The rules are stored and will be visible in a theme which "
+#~ "supports post formats."
+#~ msgstr ""
+#~ "使用中のテーマは投稿フォーマットをサポートしていませんが、このプラグインの"
+#~ "利用は可能です。設定内容は保存され、投稿フォーマットが利用可能なテーマを有"
+#~ "効化すると表示されます。"
+
+#~ msgid ""
+#~ "Define the rules in two steps: First set the rules, second set the order "
+#~ "of the rules. After that click on the button %s."
+#~ msgstr ""
+#~ "まずルールを作成し、次にルールの順番を設定します。最後に %s ボタンをクリッ"
+#~ "クします。"
+
+#~ msgid "Import presets from Quick Featured Images"
+#~ msgstr "Quick Featured Images のプリセットをインポート"
+
+#~ msgid ""
+#~ "Presets from the free plugin Quick Featured Images are available. Click "
+#~ "on the button to import and apply them here."
+#~ msgstr ""
+#~ "無料プラグイン Quick Featured Images のプリセットも利用可能です。ボタンを"
+#~ "クリックしてインポートしてください。"
+
+#~ msgid "The import will overwrite already existing settings and rules!"
+#~ msgstr "インポートすると、既存のルールと設定は上書きされます!"
+
+#~ msgid ""
+#~ "If you want to dismiss this section please deinstall Quick Featured "
+#~ "Images."
+#~ msgstr ""
+#~ "このセクションを非表示にするには、Quick Featured Images (無料版) を削除し"
+#~ "てください。"
+
+#~ msgid "Import presets"
+#~ msgstr "プリセットのインポート"
+
+#~ msgid "Set rules"
+#~ msgstr "ルールの設定"
+
+#~ msgid ""
+#~ "Set the order of the rules by selecting the number in the selection "
+#~ "fields. 1 means in the first place, 2 means in the second place etc. If "
+#~ "some rules have the same number it is unforeseeable in which order they "
+#~ "will be applied. So set the order uniquely."
+#~ msgstr ""
+#~ "ドロップダウンリストの数字を選択して、ルールを適用する順番を設定してくださ"
+#~ "い。1 が最初、2 がその次、という順番です。複数のルールに同じ数字を設定する"
+#~ "と、それらのルールがどのような順で適用されるかわからないので、数字が重複し"
+#~ "ないように割り当ててください。"
+
+#~ msgid "matched search string in post title. If not then..."
+#~ msgstr "一致する投稿タイトル検索文字列を探す。なければ..."
+
+#~ msgid "matched post format. If not then..."
+#~ msgstr "一致する投稿フォーマットを探す。なければ..."
+
+#~ msgid "Your selected approach"
+#~ msgstr "選択したアプローチ"
+
+#~ msgid "License Settings"
+#~ msgstr "ライセンスの設定"
+
+#~ msgid "License Key"
+#~ msgstr "ライセンスキー"
+
+#~ msgid "Enter your license key. Then click on the button."
+#~ msgstr "ライセンスキーを入力して、ボタンをクリックしてください。"
+
+#~ msgid "License Status"
+#~ msgstr "ライセンスのステータス"
+
+#~ msgid "The license will expire on %1$s at %2$s."
+#~ msgstr "ライセンスは %1$s %2$s に期限が切れます。"
+
+#~ msgid "There are %d activations left"
+#~ msgstr "有効化の上限まであと %d 回"
+
+#~ msgid "Deactivate License"
+#~ msgstr "ライセンスを無効化する"
+
+#~ msgid ""
+#~ "Click to deactivate the license if you do not want to use it on this "
+#~ "server."
+#~ msgstr ""
+#~ "このサーバーで使用しない場合は、クリックしてライセンスを無効化してくださ"
+#~ "い。"
+
+#~ msgid "The license expired on %1$s at %2$s."
+#~ msgstr "ライセンスは %1$s %2$s に期限が切れました。"
+
+#~ msgid "Click here for a new license"
+#~ msgstr "ここをクリックして新しいライセンスを入手"
+
+#~ msgid "Activate License"
+#~ msgstr "ライセンスの有効化"
+
+#~ msgid ""
+#~ "Click to activate the license after you have entered your license key."
+#~ msgstr "ライセンスキーを入力した後にクリックしてライセンスを有効化します。"
+
+#~ msgid "Manage license in your account at the online shop."
+#~ msgstr "オンラインショップでアカウントのライセンスを管理する"
+
+#~ msgid "Important advices about the license"
+#~ msgstr "ライセンスに関する重要事項"
+
+#~ msgid "Why you can not upgrade the plugin"
+#~ msgstr "プラグインのアップグレードができない"
+
+#~ msgid ""
+#~ "If you use a Single Site License in more than one sites the plugin will "
+#~ "not upgrade automatically. A Single Site License works only in the site "
+#~ "where it was activated first."
+#~ msgstr ""
+#~ "シングルサイトライセンスを2サイト以上で使用している場合は、プラグインは自"
+#~ "動アップグレードされません。シングルサイトライセンスは、最初にライセンスを"
+#~ "有効化したサイトでのみ有効です。"
+
+#~ msgid ""
+#~ "To \"move\" a license you have to deactivate it in the old site at first "
+#~ "and after that activate it in the new site."
+#~ msgstr ""
+#~ "ライセンスを\"移動\"するには、元のサイトでライセンスを無効化してから、新し"
+#~ "いサイトで有効化してください。"
+
+#~ msgid "Why a license?"
+#~ msgstr "ライセンスの必要性"
+
+#~ msgid ""
+#~ "With activating the license you will receive automatic upgrades of the "
+#~ "plugin for 365 days since the day of the purchase. Each license key is "
+#~ "valid for one installation of the plugin only."
+#~ msgstr ""
+#~ "ライセンスを有効化すると、購入日から365日間はプラグインが自動アップグレー"
+#~ "ドされます。ライセンスキーはプラグイン1インストールに対してのみ有効です。"
+
+#~ msgid "Terms of the license"
+#~ msgstr "ライセンス条項"
+
+#~ msgid ""
+#~ "By activating this license you are also confirming your agreement to be "
+#~ "bound by the terms of the license associated with this plugin which you "
+#~ "acknowledged at the time of the purchase checkout."
+#~ msgstr ""
+#~ "このライセンスを有効化することにより、プラグインの購入時に確認したライセン"
+#~ "ス条項に拘束されることに同意したものとします。"
+
+#~ msgid "Read the terms of the license (in new window)"
+#~ msgstr "ライセンス条項を確認する (新規ウィンドウ)"
+
+#~ msgid ""
+#~ "This includes that the warranty offered by the plugin author is limited "
+#~ "to correcting any defects and that the plugin author will not be held "
+#~ "liable for any actions or financial loss occurring as a result of using "
+#~ "this plugin."
+#~ msgstr ""
+#~ "プラグインの作者が提供する保証は、プラグインの欠陥を修正することに限定され"
+#~ "ます。プラグインの作者は、このプラグインを使用した結果生じたいかなる訴訟や"
+#~ "経済的損失に対しても責任を負いません。"
+
+#~ msgid "Contact"
+#~ msgstr "連絡先"
+
+#~ msgid ""
+#~ "If you have any issues and problems with activating you can contact the "
+#~ "plugin author for solutions."
+#~ msgstr ""
+#~ "有効化に関して問題があったら、プラグインの作者に解決策を問い合わせることが"
+#~ "できます。"
+
+#~ msgid "Contact page (in new window)"
+#~ msgstr "コンタクトページ (新規ウィンドウ)"
+
+#~ msgid "Image removed successfully from post"
+#~ msgstr "投稿から画像を削除しました"
+
+#~ msgid "Image not removed from post"
+#~ msgstr "投稿から画像が削除されませんでした"
+
+#~ msgid ""
+#~ "You can save the settings of this process as a preset to reuse them for "
+#~ "later processes. Enter a name and press the button. You can select the "
+#~ "preset using the name at the next pass."
+#~ msgstr ""
+#~ "この処理の設定をプリセットとして保存して、後で再利用できます。プリセット名"
+#~ "を入力してボタンをクリックしてください。次回からこの名前でプリセットを選択"
+#~ "できます。"
+
+#~ msgid "Enter a preset name"
+#~ msgstr "プリセット名の入力"

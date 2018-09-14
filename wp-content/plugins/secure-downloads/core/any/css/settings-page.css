@@ -1,0 +1,74 @@
+/**
+ * @version 1.0
+ * @package: Admin Panel
+ * @category: Admin UI
+ * @author wpdevelop
+ *
+ * @web-site http://oplugins.com/
+ * @email info@oplugins.com 
+ * 
+ * @modified 2015-04-11
+ */
+
+/* Admin Content Pages */
+.opsd_page .opsd_admin_page .opsd_header_margin {
+    height:10px;
+}
+/* Collapse & expand elements in settings meta boxes */
+.opsd_page .meta-box .postbox .handlediv {
+    background: url("../../../../../../wp-admin/images/arrows.png") no-repeat scroll 5px -27px transparent;
+}
+.opsd_page .meta-box .postbox.closed .handlediv {
+    background-position:5px 10px;
+}
+.opsd_page .meta-box .postbox .handlediv:hover {
+    cursor: pointer !important;
+}
+.opsd_page .meta-box .postbox .hndle:hover {
+    cursor: default !important;
+}
+
+/* Settings Menuboxes */
+.opsd_settings_row.opsd_settings_row_left {
+    width:64%; 
+    float:left;
+    margin-right:1%;
+}
+.opsd_settings_row.opsd_settings_row_right {
+    width:35%; 
+    float:left;
+}
+
+/* Set  switched Meta Boxes size*/
+.opsd_settings_row.opsd_settings_row_left_small {
+    width:35%; 
+}
+.opsd_settings_row.opsd_settings_row_right_big {
+    width:64%;
+}
+/* FixIn: 7.0.1.54 */
+.opsd_page input::-moz-placeholder,
+.opsd_page textarea::-moz-placeholder{
+  color: #ccc;
+  opacity: 1;
+}
+.opsd_page input:-ms-input-placeholder,
+.opsd_page textarea:-ms-input-placeholder{
+  color: #ccc;
+}
+.opsd_page input::-webkit-input-placeholder,
+.opsd_page textarea::-webkit-input-placeholder{
+  color: #ccc;
+}
+
+/* iPad mini and all iPhones  and other Mobile Devices */
+@media (max-width: 782px) { 
+    /* Settings Top TABS */
+    .opsd_page .opsd_admin_page .metabox-holder .opsd_settings_row {
+        width:100%;
+        float:none;
+    }
+    .opsd_text_hide_mobile {
+        display:none;
+    }
+}

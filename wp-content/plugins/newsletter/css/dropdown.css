@@ -1,0 +1,151 @@
+.tnp-drowpdown ul, .tnp-drowpdown li {
+    margin: 0; padding: 0; border: 0;
+}
+
+/* Removed by Stefano */
+.tnp-drowpdown li {
+    /*min-width: 150px;*/
+}
+
+.tnp-drowpdown {
+    margin-top: 10px;
+    -webkit-transition-timing-function: ease;
+    padding: 5px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #fff;    
+}
+
+.tnp-drowpdown a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.1em;
+}
+
+.tnp-drowpdown a:hover {
+    color: #fff;
+}
+
+.tnp-drowpdown {
+    -webkit-transition: width 2s;
+    transition: width 2s;
+}
+
+.tnp-drowpdown ul ul {
+    display: none;
+    z-index: 10000;
+}
+
+.tnp-drowpdown ul li:hover > ul {
+    display: block;
+}
+
+.tnp-drowpdown ul {
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+}
+.tnp-drowpdown ul:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.tnp-drowpdown ul li {
+    float: left;
+    margin-left: 10px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.tnp-drowpdown ul li:hover {
+    background-color: #34495E;
+    /*border: 1px solid #34495E;*/
+}
+.tnp-drowpdown ul li:hover a {
+}
+
+.tnp-drowpdown ul li a {
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.tnp-drowpdown ul li a small {
+    display: block;
+    color: #afafaf;
+}
+
+.tnp-drowpdown ul ul {
+    background: #332D39;
+    border-radius: 0px;
+    padding: 0;
+    position: absolute;
+}
+.tnp-drowpdown ul ul li {
+    float: none; 
+    position: relative;
+    margin-left: 0;
+    border: none;
+    text-transform: none;
+    line-height: 1.6em;
+}
+
+
+.tnp-drowpdown ul ul li:nth-child(even) {
+    background-color: #3b3342;
+}
+
+
+
+.tnp-drowpdown ul ul li:hover {
+    background: inherit;
+}
+.tnp-drowpdown ul ul li a {
+    padding: 5px 15px;
+    color: #fff;
+}	
+.tnp-drowpdown ul ul li a:hover {
+    background: #34495E;
+}
+
+.tnp-drowpdown ul ul ul {
+    position: absolute; left: 100%; top:0;
+}
+
+.tnp-wrap ul li {
+    list-style-type: none;
+}
+
+.tnp-professional-extensions-button {
+    background-color: #27AE60;
+    border: 1px solid #27AE60 !important;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    border-radius: 3px;
+}
+
+.tnp-professional-extensions-button:hover {
+    background-color: #2ECC71 !important;
+    border: 1px solid #2ECC71 !important;
+}
+
+.tnp-professional-extensions-button-red {
+    background-color: #C0392B;
+    border: 1px solid #C0392B !important;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    border-radius: 3px;
+}
+
+.tnp-professional-extensions-button-red:hover {
+    background-color: #E74C3C !important;
+    border: 1px solid #E74C3C !important;
+}

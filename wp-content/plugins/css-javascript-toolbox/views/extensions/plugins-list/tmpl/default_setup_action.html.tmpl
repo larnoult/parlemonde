@@ -1,0 +1,10 @@
+<?php
+/**
+* 
+*/
+
+// Disallow direct access.
+defined('ABSPATH') or die("Access denied");
+?>
+
+<a href="#<?php echo htmlentities("pluginBase={$component['pluginBase']}&title={$component['title']}") ?>"><?php echo cssJSToolbox::getText('Setup') ?></a>

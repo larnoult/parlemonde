@@ -1,0 +1,179 @@
+# Copyright (C) 2018 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-25 12:31:46+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Varun Dubey\n"
+"Language-Team: Wbcom Designs\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n1.0.1\n"
+
+#: admin/class-bp-activity-filter-admin-setting.php:30
+msgid "BP Activity Filter Settings"
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:30
+msgid " BP Activity Filter Settings "
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:45
+msgid "Email Support"
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:46
+msgid "User Manual"
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:47
+msgid "Rate Us on WordPress.org"
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:50
+msgid "BuddyPress Activity Filter Settings"
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:52
+msgid "Settings saved."
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:54
+msgid "Dismiss this notice."
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:149
+msgid "Display Activity"
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:150
+msgid "Hide Activity"
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:151
+msgid "Post Type Activity"
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:152
+msgid "FAQ"
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:213
+msgid "Select activity you want to list on activity page by default."
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:219
+#: admin/class-bp-activity-filter-admin-setting.php:265
+msgid "Everything"
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:236
+#: admin/class-bp-activity-filter-admin-setting.php:283
+#: admin/class-bp-activity-filter-admin-setting.php:429
+msgid "Save Settings"
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:259
+msgid ""
+"Select activity filters those you want to hide from the dropdown list on "
+"activity front page."
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:297
+msgid "Is this plugin requires another plugin?"
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:300
+msgid "Yes, this plugin requires BuddyPress plugin."
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:303
+msgid "By default, which filters will be displayed in activity dropdown?"
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:306
+msgid "By default, all filters will be displayed."
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:309
+msgid "By default, which filters will be hidden in activity dropdown?"
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:312
+msgid "By default, no filter will be hidden."
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:315
+msgid "If I selected 'Display in Groups' then what will be happened?"
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:318
+msgid ""
+"If you selected 'Display in Groups' option then when you add a new post in "
+"that specific custom post type, all BuddyPress groups display this activity."
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:321
+msgid "What will be displayed if 'Rename in Activity Stream' field empty?"
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:324
+msgid ""
+"If this field is empty then the singular label of custom post type will be "
+"displayed."
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:327
+msgid ""
+"How to modify the custom post type activity content display on the front "
+"end?"
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:330
+msgid "You can modify activity content by given filters."
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:338
+msgid "Where do I ask for support?"
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:341
+msgid ""
+"Please visit <a href=\"http://wbcomdesigns.com/contact\" rel=\"nofollow\" "
+"target=\"_blank\">Wbcom Designs</a> for any query related to plugin and "
+"BuddyPress."
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:394
+msgid "Rename in Activity Stream"
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:406
+msgid "Do not display"
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:412
+msgid "Display in main Activity Stream"
+msgstr ""
+
+#: admin/class-bp-activity-filter-admin-setting.php:419
+msgid "Display in Groups"
+msgstr ""
+
+#: buddypress-activity-filter.php:101
+msgid "Settings"
+msgstr ""

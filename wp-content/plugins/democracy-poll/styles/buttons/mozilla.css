@@ -1,0 +1,43 @@
+/* button */
+input[type="submit"].dem-button,
+a.dem-button,
+.dem-button{
+	font-family: arial,sans-serif;
+	font-size:90%;
+	color: #cdd8e4;
+	text-shadow: 0 -1px rgb(46,53,58);
+	padding:.5em  1.2em;
+	border: 1px solid rgb(33,43,52);
+	border-radius: 3px;
+	background: rgb(81,92,102) linear-gradient(rgb(81,92,102), rgb(69,78,87));
+	box-shadow: 
+		inset 0 1px rgba(101,114,126,1),
+		inset 0 0 1px rgba(140,150,170,.8),
+		0 1px rgb(83,94,104),
+		0 0 1px rgb(86,96,106);
+}
+
+/* button */
+input[type="submit"].dem-button:active,
+a.dem-button:active,
+.dem-button:active {
+	box-shadow:
+		inset 0 1px 3px rgba(0,10,20,.5),
+		0 1px rgb(83,94,104),
+		0 0 1px rgb(86,96,106);
+}
+
+/* button */
+input[type="submit"].dem-button:focus:not(:active),
+a.dem-button:focus:not(:active),
+.dem-button:focus:not(:active) {
+	border: 1px solid rgb(22,32,43);
+	border-bottom: 1px solid rgb(25,34,45);
+	background: rgb(53,61,71);
+	pointer-events: none;
+	box-shadow:
+		inset 0 1px 3px rgba(0,10,20,.5),
+		0 1px rgb(83,94,104),
+		0 0 1px rgb(86,96,106);
+}
+a.dem-button:visited{ color:#cdd8e4; }

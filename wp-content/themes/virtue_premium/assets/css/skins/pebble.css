@@ -1,0 +1,57 @@
+/* Primary color */
+.home-message:hover {background-color:#7ba39f; background-color: rgba(123, 163, 159, 0.6);}
+nav.woocommerce-pagination ul li a:hover, .wp-pagenavi a:hover, .panel-heading .accordion-toggle, .variations .kad_radio_variations label:hover, .variations .kad_radio_variations label.selectedValue {border-color: #7ba39f;}
+a, a:focus, #nav-main ul.sf-menu ul li a:hover, .product_price ins .amount, .price ins .amount, .color_primary, .primary-color, #logo a.brand, #nav-main ul.sf-menu a:hover,
+.woocommerce-message:before, .woocommerce-info:before, #nav-second ul.sf-menu a:hover, .footerclass a:hover, .posttags a:hover, .subhead a:hover, .nav-trigger-case:hover .kad-menu-name, 
+  .nav-trigger-case:hover .kad-navbtn, #kadbreadcrumbs a:hover, #wp-calendar a, .testimonialbox .kadtestimoniallink:hover, .star-rating {color: #7ba39f;}
+.widget_price_filter .ui-slider .ui-slider-handle, .product_item .kad_add_to_cart:hover, .product_item.hidetheaction:hover .kad_add_to_cart:hover, .kad-btn-primary, html .woocommerce-page .widget_layered_nav ul.yith-wcan-label li a:hover, html .woocommerce-page .widget_layered_nav ul.yith-wcan-label li.chosen a,
+.product-category.grid_item a:hover h5, .woocommerce-message .button, .widget_layered_nav_filters ul li a, .widget_layered_nav ul li.chosen a, .wpcf7 input.wpcf7-submit, .yith-wcan .yith-wcan-reset-navigation,.single_add_to_cart_button,
+#containerfooter .menu li a:hover, .bg_primary, .portfolionav a:hover, .home-iconmenu a:hover, .home-iconmenu .home-icon-item:hover, p.demo_store, .topclass, #commentform .form-submit #submit, .kad-hover-bg-primary:hover, .widget_shopping_cart_content .checkout,
+.login .form-row .button, .post-password-form input[type="submit"], .kad-post-navigation .kad-previous-link a:hover, .track_order .button, .kad-post-navigation .kad-next-link a:hover, .cart_totals .checkout-button, .shipping-calculator-form .button,
+.select2-results .select2-highlighted, .menu-cart-btn .kt-cart-total, .variations .kad_radio_variations label.selectedValue, .place-order #place_order, #kad-head-cart-popup a.button.checkout, .shop_table .actions input[type=submit].checkout-button, input[type="submit"].button, .order-actions .button, .productnav a:hover, .image_menu_hover_class, .select2-container--default .select2-results__option--highlighted[aria-selected]{background: #7ba39f;}
+
+/* 20% lighter than Primary */
+a:hover {color: #95b5b2;}
+.kad-btn-primary:hover, .login .form-row .button:hover, .place-order #place_order:hover, .yith-wcan .yith-wcan-reset-navigation:hover, .widget_shopping_cart_content .checkout:hover,.single_add_to_cart_button:hover,
+.woocommerce-message .button:hover, #commentform .form-submit #submit:hover, .wpcf7 input.wpcf7-submit:hover, .track_order .button:hover, #kad-head-cart-popup a.button.checkout:hover, .widget_layered_nav_filters ul li a:hover, .cart_totals .checkout-button:hover, .shipping-calculator-form .button:hover,
+.widget_layered_nav ul li.chosen a:hover, .shop_table .actions input[type=submit].checkout-button:hover, .order-actions .button:hover, input[type="submit"].button:hover, .post-password-form input[type="submit"]:hover {background: #95b5b2;}
+
+.product_item.hidetheaction .kad_add_to_cart {background: transparent; color: transparent;}
+.product_item.hidetheaction:hover .kad_add_to_cart {background: #95b5b2; color: #fff;}
+
+/* Background Skins */
+	body {background:#ebebeb url(../../img/pebble/bg_feat.jpg) repeat;}
+
+.contentclass, .nav-tabs>.active>a, .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {background: #f2f2f2 url(../../img/pebble/bg_post.jpg) repeat;}
+.mobileclass {background: #f2f2f2 url(../../img/pebble/content_bg.jpg) repeat;}
+.headerclass {background: #f2f2f2 url(../../img/pebble/bg_post.jpg) repeat;}
+.footerclass {background: #555 url(../../img/pebble/bg_foot.jpg) repeat;}
+.navclass {background: #f2f2f2 url(../../img/pebble/bg_post.jpg) repeat;}
+.bg-lightgray {background: #f2f2f2 url(../../img/pebble/content_bg.jpg) repeat;}
+/* Header - Type */
+h1, h2, h3 {color:#333;}
+h4 {color: #444;}
+h5 {color: #555;}
+
+.sf-menu a {letter-spacing: normal;}
+#nav-second ul.sf-menu a {letter-spacing: normal;}
+
+.color_gray, #kadbreadcrumbs a, .subhead, .subhead a, .posttags, .posttags a, .product_meta a {color: #555;}
+
+body, .color_body, .sidebar a, .author-name a, .author-latestposts h5 a, .author-latestposts h5, 
+.author-profile .author-occupation, .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus, .product_price, .product_details > .product_excerpt {color:#444;}
+
+/* General */
+a:hover {text-decoration: none;}
+.hometitle {text-align: center;}
+
+/* Footer */
+#containerfooter h3, #containerfooter {color:#f2f2f2;}
+.footercredits {color: #aaa;}
+.footerclass a {color: #f2f2f2;}
+.footernav ul li a {color:#f2f2f2;}
+
+/* Custom */
+.sidebar a {
+	color:#444;
+}

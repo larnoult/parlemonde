@@ -1,0 +1,1296 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cyclone Slider\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-28 08:21+0800\n"
+"PO-Revision-Date: 2017-04-28 08:21+0800\n"
+"Last-Translator: \n"
+"Language-Team: kosinix <kosinix@codefleet.net>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../src/CycloneSlider/Admin.php:140
+#: ../src/legacy/inc/class-cyclone-slider.php:182
+msgid "Cyclone Slider"
+msgstr "Diaporama"
+
+#: ../src/CycloneSlider/Admin.php:141
+#: ../src/legacy/inc/class-cyclone-slider.php:183
+msgid "Slideshow"
+msgstr "Diaporama"
+
+#: ../src/CycloneSlider/Admin.php:142
+#: ../src/legacy/inc/class-cyclone-slider.php:184
+msgid "Add Slideshow"
+msgstr "Ajoutez un diaporama"
+
+#: ../src/CycloneSlider/Admin.php:143
+#: ../src/legacy/inc/class-cyclone-slider.php:185
+msgid "Add New Slideshow"
+msgstr "Ajouter un nouveau diaporama"
+
+#: ../src/CycloneSlider/Admin.php:144
+#: ../src/legacy/inc/class-cyclone-slider.php:186
+msgid "Edit Slideshow"
+msgstr "Editer le diaporama"
+
+#: ../src/CycloneSlider/Admin.php:145
+#: ../src/legacy/inc/class-cyclone-slider.php:187
+msgid "New Slideshow"
+msgstr "Nouveau diaporama"
+
+#: ../src/CycloneSlider/Admin.php:146
+#: ../src/legacy/inc/class-cyclone-slider.php:188
+msgid "View Slideshow"
+msgstr "Voir le diaporama"
+
+#: ../src/CycloneSlider/Admin.php:147
+#: ../src/legacy/inc/class-cyclone-slider.php:189
+msgid "Search Slideshows"
+msgstr "Rechercher des diaporamas"
+
+#: ../src/CycloneSlider/Admin.php:148
+#: ../src/legacy/inc/class-cyclone-slider.php:190
+msgid "No slideshows found"
+msgstr "Pas de diaporama trouvé"
+
+#: ../src/CycloneSlider/Admin.php:149
+#: ../src/legacy/inc/class-cyclone-slider.php:191
+msgid "No slideshows found in Trash"
+msgstr "Pas de diaporama trouvé"
+
+#: ../src/CycloneSlider/Admin.php:195 ../src/CycloneSlider/Admin.php:198
+#: ../src/CycloneSlider/Admin.php:199 ../src/CycloneSlider/Admin.php:202
+#: ../src/CycloneSlider/Admin.php:203 ../src/CycloneSlider/Admin.php:204
+#: ../src/legacy/inc/class-cyclone-slider.php:210
+#: ../src/legacy/inc/class-cyclone-slider.php:211
+#: ../src/legacy/inc/class-cyclone-slider.php:214
+#: ../src/legacy/inc/class-cyclone-slider.php:215
+#: ../src/legacy/inc/class-cyclone-slider.php:216
+msgid "Slideshow updated."
+msgstr "Diaporama mis à jour"
+
+#: ../src/CycloneSlider/Admin.php:196
+#: ../src/legacy/inc/class-cyclone-slider.php:208
+msgid "Custom field updated."
+msgstr "Champ mis à jours"
+
+#: ../src/CycloneSlider/Admin.php:197
+#: ../src/legacy/inc/class-cyclone-slider.php:209
+msgid "Custom field deleted."
+msgstr "Champ supprimé"
+
+#: ../src/CycloneSlider/Admin.php:200
+#, fuzzy
+msgid "Slideshow published."
+msgstr "Diaporama sauvegardé"
+
+#: ../src/CycloneSlider/Admin.php:201
+#: ../src/legacy/inc/class-cyclone-slider.php:213
+msgid "Slideshow saved."
+msgstr "Diaporama sauvegardé"
+
+#: ../src/CycloneSlider/Admin.php:240
+#: ../src/legacy/inc/class-cyclone-slider.php:225
+msgid "Slides"
+msgstr "Diapos"
+
+#: ../src/CycloneSlider/Admin.php:249
+#, fuzzy
+msgid "Slider Preview"
+msgstr "Propriétés de la diapo"
+
+#: ../src/CycloneSlider/Admin.php:258
+#, fuzzy
+msgid "Get Slider Codes"
+msgstr "Modifier vidéo"
+
+#: ../src/CycloneSlider/Admin.php:267
+#, fuzzy
+msgid "Basic Settings"
+msgstr "Réglages du diaporama"
+
+#: ../src/CycloneSlider/Admin.php:276
+#, fuzzy
+msgid "Advanced Settings"
+msgstr "Réglages du diaporama"
+
+#: ../src/CycloneSlider/Admin.php:285
+#, fuzzy
+msgid "Templates"
+msgstr "Thème"
+
+#: ../src/CycloneSlider/Admin.php:294 ../src/CycloneSlider/Admin.php:616
+#: ../src/legacy/inc/class-cyclone-slider.php:520
+msgid "Slideshow ID"
+msgstr "Diaporama ID"
+
+#: ../src/CycloneSlider/Admin.php:314 ../src/CycloneSlider/Exporter.php:111
+#, fuzzy, php-format
+msgid "Slider \"%s\" not found."
+msgstr "[Diaporama non trouvé]"
+
+#: ../src/CycloneSlider/Admin.php:321 ../src/legacy/inc/admin/box-js.php:4
+#: ../src/legacy/inc/class-cyclone-slider.php:298
+msgid "Slide"
+msgstr "Diapo"
+
+#: ../src/CycloneSlider/Admin.php:326
+msgid "[Hidden]"
+msgstr ""
+
+#: ../src/CycloneSlider/Admin.php:467
+msgid "Core"
+msgstr ""
+
+#: ../src/CycloneSlider/Admin.php:468
+#, php-format
+msgid ""
+"You should not make changes to templates in this location. All your changes "
+"will be gone when the plugin is updated. <br />Location: <strong>%s</strong>"
+msgstr ""
+
+#: ../src/CycloneSlider/Admin.php:472 ../src/CycloneSlider/Admin.php:477
+#: ../src/CycloneSlider/Admin.php:481
+#, php-format
+msgid "Location: <strong>%s</strong>"
+msgstr ""
+
+#: ../src/CycloneSlider/Admin.php:473
+msgid ""
+"Your template is in danger of being overwritten when you upgrade your theme. "
+"Please consider creating a WordPress plugin Cyclone Slider template."
+msgstr ""
+
+#: ../src/CycloneSlider/Admin.php:519
+msgid "Slide *"
+msgstr "Diapo *"
+
+#: ../src/CycloneSlider/Admin.php:613
+#: ../src/legacy/inc/class-cyclone-slider.php:519
+msgid "Slideshow Name"
+msgstr "Nom du diaporama"
+
+#: ../src/CycloneSlider/Admin.php:614
+msgid "Template"
+msgstr "Thème"
+
+#: ../src/CycloneSlider/Admin.php:615
+#, fuzzy
+msgid "No. of Slides"
+msgstr "Ajouter au diaporama"
+
+#: ../src/CycloneSlider/Admin.php:617
+#: ../src/legacy/inc/class-cyclone-slider.php:521
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: ../src/CycloneSlider/AssetLoader.php:71
+#: ../src/legacy/inc/class-cyclone-slider.php:148
+msgid "Select an image"
+msgstr "Sélectionnez une image"
+
+#: ../src/CycloneSlider/AssetLoader.php:72
+msgid "Select Images - Use Ctrl + Click or Shift + Click"
+msgstr ""
+
+#: ../src/CycloneSlider/AssetLoader.php:73
+#: ../src/legacy/inc/class-cyclone-slider.php:149
+msgid "Add to Slide"
+msgstr "Ajouter au diaporama"
+
+#: ../src/CycloneSlider/AssetLoader.php:74 ../views/slides.php:9
+#, fuzzy
+msgid "Add Images as Slides"
+msgstr "Ajouter un nouveau diaporama"
+
+#: ../src/CycloneSlider/AssetLoader.php:75
+msgid "Error. Make sure its a valid YouTube URL."
+msgstr ""
+
+#: ../src/CycloneSlider/Data.php:267
+#, php-format
+msgid "Invalid format for get_slider %s parameter."
+msgstr ""
+
+#: ../src/CycloneSlider/ExportPage.php:64
+#: ../src/CycloneSlider/ExportPageNextgen.php:62
+#: ../src/CycloneSlider/ImportPage.php:69
+#, fuzzy
+msgid "Export"
+msgstr "Importer"
+
+#: ../src/CycloneSlider/ExportPage.php:69
+#: ../src/CycloneSlider/ExportPageNextgen.php:67
+#: ../src/CycloneSlider/ExporterNextgen.php:65
+#: ../src/CycloneSlider/ImportPage.php:74
+#: ../src/CycloneSlider/NextgenIntegration.php:65
+#: ../src/legacy/inc/class-nextgen-integration.php:63 ../src/plugin.php:115
+msgid "Import"
+msgstr "Importer"
+
+#: ../src/CycloneSlider/ExportPage.php:77
+#: ../src/CycloneSlider/ImportPage.php:63
+msgid ""
+"ZipArchive not supported. ZipArchive is needed for Import and Export to work."
+msgstr ""
+
+#: ../src/CycloneSlider/ExportPage.php:113
+#: ../src/CycloneSlider/ExportPageNextgen.php:118
+msgid "Your export file is ready. Click Download."
+msgstr ""
+
+#: ../src/CycloneSlider/ExportPage.php:118
+#: ../src/CycloneSlider/ExportPageNextgen.php:123
+msgid "Error creating exports directory."
+msgstr ""
+
+#: ../src/CycloneSlider/ExportPage.php:167
+#: ../src/CycloneSlider/ExportPageNextgen.php:172
+#, fuzzy
+msgid "No slider selected."
+msgstr "Aucuns diaporamas"
+
+#: ../src/CycloneSlider/ExportPage.php:172
+#: ../src/CycloneSlider/ExportPageNextgen.php:177
+msgid "Please choose a file name."
+msgstr ""
+
+#: ../src/CycloneSlider/ExportPageNextgen.php:72 ../src/plugin.php:102
+#, fuzzy
+msgid "Export Nextgen"
+msgstr "Importer"
+
+#: ../src/CycloneSlider/Exporter.php:52
+#, fuzzy
+msgid "Error no sliders selected."
+msgstr "Aucuns diaporamas"
+
+#: ../src/CycloneSlider/Exporter.php:73
+msgid "Error encoding data to JSON."
+msgstr ""
+
+#: ../src/CycloneSlider/Exporter.php:79
+#, php-format
+msgid "Success generating zip %s."
+msgstr ""
+
+#: ../src/CycloneSlider/Exporter.php:109
+#, php-format
+msgid "Exporting data for slider \"%s\"."
+msgstr ""
+
+#: ../src/CycloneSlider/Exporter.php:138
+#, php-format
+msgid ""
+"Image %1$d was not found on slide %2$d of slider %3$s. Path to image is %4$s."
+msgstr ""
+
+#: ../src/CycloneSlider/Exporter.php:182
+#, fuzzy
+msgid "ZipArchive not supported."
+msgstr "Diaporama mis à jour"
+
+#: ../src/CycloneSlider/Exporter.php:188
+#, php-format
+msgid "Error opening zip file %s. Code: %s"
+msgstr ""
+
+#: ../src/CycloneSlider/Exporter.php:197
+#, php-format
+msgid "Error adding file %s to zip."
+msgstr ""
+
+#: ../src/CycloneSlider/Exporter.php:199 ../src/CycloneSlider/Exporter.php:207
+#, php-format
+msgid "File %s added to zip."
+msgstr ""
+
+#: ../src/CycloneSlider/ExporterNextgen.php:39
+#: ../src/CycloneSlider/NextgenIntegration.php:39
+#: ../src/legacy/inc/class-nextgen-integration.php:33
+msgid "NextGEN Integration"
+msgstr "NextGEN Integration"
+
+#: ../src/CycloneSlider/ExporterNextgen.php:55
+#: ../src/CycloneSlider/NextgenIntegration.php:55
+#: ../src/legacy/inc/class-nextgen-integration.php:53
+msgid "Choose a NextGEN Gallery"
+msgstr "Choose a NextGEN Gallery"
+
+#: ../src/CycloneSlider/ExporterNextgen.php:67
+#: ../src/CycloneSlider/NextgenIntegration.php:67
+#: ../src/legacy/inc/class-nextgen-integration.php:65
+msgid ""
+"Select a gallery to import images from. Images will be added as new slides."
+msgstr ""
+"Selectionnez une galerie pour importer les images. Les images devront être "
+"ajoutées comme des nouvelles diapos  "
+
+#: ../src/CycloneSlider/Frontend.php:101
+#, fuzzy, php-format
+msgid "[Slideshow \"%s\" not found]"
+msgstr "[Diaporama non trouvé]"
+
+#: ../src/CycloneSlider/Frontend.php:117
+#: ../src/legacy/inc/class-cyclone-slider.php:648
+#, php-format
+msgid "[Template \"%s\" not found]"
+msgstr "[Thème \"%s\" non trouvé]"
+
+#: ../src/CycloneSlider/ImportPage.php:116
+msgid "Import operation success!"
+msgstr ""
+
+#: ../src/CycloneSlider/Importer.php:35
+msgid "Could not read zip files. ZipArchive not supported."
+msgstr ""
+
+#: ../src/CycloneSlider/Importer.php:40
+#, fuzzy
+msgid "No zip file found."
+msgstr "Aucuns diaporamas"
+
+#: ../src/CycloneSlider/Importer.php:46
+msgid "Error creating imports directory."
+msgstr ""
+
+#: ../src/CycloneSlider/Importer.php:53
+msgid "Error moving uploaded zip."
+msgstr ""
+
+#: ../src/CycloneSlider/Importer.php:60
+#, php-format
+msgid "Error opening zip: %s"
+msgstr ""
+
+#: ../src/CycloneSlider/Importer.php:73
+#, php-format
+msgid "Security error. Invalid %s file."
+msgstr ""
+
+#: ../src/CycloneSlider/Importer.php:80
+#, php-format
+msgid "Security error. File %s is not an image."
+msgstr ""
+
+#: ../src/CycloneSlider/Importer.php:86
+#, php-format
+msgid "Security error. Missing %s file."
+msgstr ""
+
+#: ../src/CycloneSlider/Importer.php:92
+msgid "Error extracting zip."
+msgstr ""
+
+#: ../src/CycloneSlider/Importer.php:99
+msgid "Failed to read export JSON."
+msgstr ""
+
+#: ../src/CycloneSlider/Importer.php:104
+msgid "Failed to decode JSON."
+msgstr ""
+
+#: ../src/CycloneSlider/Importer.php:175
+#, php-format
+msgid "scandir failed on %s"
+msgstr ""
+
+#: ../src/CycloneSlider/Importer.php:191
+#, fuzzy, php-format
+msgid "Source image %s not found."
+msgstr "[Thème \"%s\" non trouvé]"
+
+#: ../src/CycloneSlider/Importer.php:195
+msgid "Copy error."
+msgstr ""
+
+#: ../src/CycloneSlider/SettingsPage.php:51
+msgid "Default options restored."
+msgstr ""
+
+#: ../src/CycloneSlider/WidgetSlider.php:13
+msgid "Cyclone Slider Widget"
+msgstr "Module de diaporama"
+
+#: ../src/CycloneSlider/WidgetSlider.php:14
+#, fuzzy
+msgid "Widget for displaying sliders."
+msgstr "Module pour afficher des diaporamas"
+
+#: ../src/CycloneSlider/WidgetSlider.php:65 ../views/slide-edit-image.php:21
+#, fuzzy
+msgid "Title:"
+msgstr "Titre"
+
+#: ../src/CycloneSlider/WidgetSlider.php:79
+#, fuzzy
+msgid "Select a Slider:"
+msgstr "Sélectionner un diaporama"
+
+#: ../src/CycloneSlider/WidgetSlider.php:94
+#, fuzzy
+msgid "No sliders found."
+msgstr "Aucuns diaporamas"
+
+#: ../src/legacy/cyclone-slider.php:141 ../src/plugin.php:77
+#, fuzzy
+msgid "Cyclone Slider Settings"
+msgstr "Module de diaporama"
+
+#: ../src/legacy/cyclone-slider.php:142 ../src/plugin.php:78
+#, fuzzy
+msgid "Settings"
+msgstr "Réglages du diaporama"
+
+#: ../src/legacy/inc/admin/box-js.php:7 ../src/legacy/inc/admin/box.php:7
+#: ../views/slide-edit.php:24
+msgid "Toggle"
+msgstr "Basculer"
+
+#: ../src/legacy/inc/admin/box-js.php:8 ../src/legacy/inc/admin/box.php:8
+#: ../views/slide-edit.php:27
+msgid "Delete"
+msgstr "Supprimer"
+
+#: ../src/legacy/inc/admin/box-js.php:17 ../src/legacy/inc/admin/box.php:17
+#: ../views/slide-edit-image.php:10 ../views/slide-edit.php:95
+msgid "Get Image"
+msgstr "Importer une image"
+
+#: ../src/legacy/inc/admin/box-js.php:20 ../src/legacy/inc/admin/box.php:20
+#, fuzzy
+msgid "Extra slide elements:"
+msgstr "Zusätzliche Gleitelemente:"
+
+#: ../src/legacy/inc/admin/box-js.php:24 ../src/legacy/inc/admin/box.php:24
+#, fuzzy
+msgid "Slide Link"
+msgstr "Diapo *"
+
+#: ../src/legacy/inc/admin/box-js.php:27 ../src/legacy/inc/admin/box.php:27
+#, fuzzy
+msgid "Link:"
+msgstr "Lien"
+
+#: ../src/legacy/inc/admin/box-js.php:29 ../src/legacy/inc/admin/box.php:29
+#: ../views/slide-edit-image.php:38 ../views/slide-edit.php:120
+msgid "Open Link in:"
+msgstr "Ouvrir le lien dans :"
+
+#: ../src/legacy/inc/admin/box-js.php:31 ../src/legacy/inc/admin/box.php:31
+#: ../views/slide-edit-image.php:40 ../views/slide-edit.php:122
+msgid "Same Window"
+msgstr "Même fenêtre"
+
+#: ../src/legacy/inc/admin/box-js.php:32 ../src/legacy/inc/admin/box.php:32
+#: ../views/slide-edit-image.php:41 ../views/slide-edit.php:123
+msgid "New Tab or Window"
+msgstr "Nouvel onglet ou fenêtre"
+
+#: ../src/legacy/inc/admin/box-js.php:38 ../src/legacy/inc/admin/box.php:38
+#, fuzzy
+msgid "Title"
+msgstr "Titre"
+
+#: ../src/legacy/inc/admin/box-js.php:46 ../src/legacy/inc/admin/box.php:46
+#, fuzzy
+msgid "Description"
+msgstr "Description"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:207
+#, php-format
+msgid "Slideshow updated. Shortcode is [cycloneslider id=\"%s\"]"
+msgstr "Diaporama mis à jours. Son shortcode est [cycloneslider id=\"%s\"]"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:212
+#, php-format
+msgid "Slideshow published. Shortcode is [cycloneslider id=\"%s\"]"
+msgstr "Diaporama publié. Son shortcode est [cycloneslider id=\"%s\"]"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:233
+#, fuzzy
+msgid "Slider Settings"
+msgstr "Module de diaporama"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:241
+#, fuzzy
+msgid "Slider Templates"
+msgstr "Thème"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:306 ../views/slides.php:8
+msgid "Add Slide"
+msgstr "Ajouter une diapo"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:327
+#: ../views/slider-settings.php:3
+msgid "Transition Effects to Use:"
+msgstr "Effet de transition à utiliser"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:338
+#: ../views/slide-settings.php:33 ../views/slider-settings.php:25
+msgid "Next Slide Delay:"
+msgstr "Temps avant la prochaine diapo"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:340
+#: ../views/slider-settings.php:27
+msgid "Milliseconds. 0 to disable auto advance."
+msgstr "Millisecondes. 0 ou désactiver le défilement automatique"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:344
+#: ../views/slider-settings.php:31
+msgid "Transition Effects Speed:"
+msgstr "Temps de l'effet de transtion"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:346
+#: ../views/slide-settings.php:28 ../views/slide-settings.php:35
+#: ../views/slider-settings.php:33
+msgid "Milliseconds"
+msgstr "Millisecondes"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:350
+#: ../views/slider-settings.php:37
+msgid "Width:"
+msgstr "Largeur :"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:352
+#: ../src/legacy/inc/class-cyclone-slider.php:358
+#: ../views/slider-settings.php:39 ../views/slider-settings.php:45
+msgid "pixels."
+msgstr "pixels."
+
+#: ../src/legacy/inc/class-cyclone-slider.php:356
+#: ../views/slider-settings.php:43
+msgid "Height:"
+msgstr "Hauteur :"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:362
+#: ../views/slider-settings.php:75
+msgid "Pause on Hover?"
+msgstr "Pause au survol"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:364
+#: ../src/legacy/inc/class-cyclone-slider.php:372
+#: ../src/legacy/inc/class-cyclone-slider.php:380
+#: ../views/slider-advanced-settings.php:6
+#: ../views/slider-advanced-settings.php:44 ../views/slider-settings.php:66
+#: ../views/slider-settings.php:77 ../views/slider-settings.php:85
+#: ../views/slider-settings.php:93 ../views/slider-settings.php:103
+msgid "Yes"
+msgstr "Oui"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:365
+#: ../src/legacy/inc/class-cyclone-slider.php:373
+#: ../src/legacy/inc/class-cyclone-slider.php:381
+#: ../views/slider-advanced-settings.php:7
+#: ../views/slider-advanced-settings.php:45 ../views/slider-settings.php:65
+#: ../views/slider-settings.php:78 ../views/slider-settings.php:86
+#: ../views/slider-settings.php:94 ../views/slider-settings.php:102
+msgid "No"
+msgstr "Non"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:370
+#: ../views/slider-settings.php:83
+msgid "Show Prev/Next Buttons?"
+msgstr "Afficher les boutons précédent et suivant ?"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:378
+#: ../views/slider-settings.php:91
+msgid "Show Navigation?"
+msgstr "Afficher la navigation ?"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:407
+msgid "Select Template to Use:"
+msgstr ""
+
+#: ../src/legacy/inc/class-cyclone-slider.php:623
+#, fuzzy
+msgid "[Slideshow not found]"
+msgstr "[Diaporama non trouvé]"
+
+#: ../src/plugin.php:88
+#, fuzzy
+msgid "Cyclone Slider Export"
+msgstr "Diaporama"
+
+#: ../src/plugin.php:89
+#, fuzzy
+msgid "Export/Import"
+msgstr "Importer"
+
+#: ../src/plugin.php:101
+#, fuzzy
+msgid "Cyclone Slider Nextgen Export"
+msgstr "Diaporama"
+
+#: ../src/plugin.php:114
+#, fuzzy
+msgid "Cyclone Slider Import"
+msgstr "Diaporama"
+
+#: ../templates/dark/slider.php:40
+msgid "View Larger Image"
+msgstr ""
+
+#: ../templates/dark/slider.php:43 ../templates/dark/slider.php:45
+msgid "Learn More"
+msgstr ""
+
+#: ../templates/dark/slider.php:61 ../templates/default/slider.php:62
+#: ../templates/default/slider.php:66 ../templates/default/slider.php:70
+#: ../templates/standard/slider.php:67 ../templates/thumbnails/slider.php:70
+#, fuzzy
+msgid "Slide type not supported."
+msgstr "Diaporama mis à jour"
+
+#: ../templates/dark/slider.php:70 ../templates/standard/slider.php:76
+#, fuzzy
+msgid "Quote Image"
+msgstr "Importer une image"
+
+#: ../views/export-nextgen-step-1.php:8 ../views/export-nextgen-step-2.php:8
+#: ../views/export-nextgen-step-3.php:8
+#, fuzzy
+msgid "Cyclone Slider Nextgen Exporter"
+msgstr "Diaporama"
+
+#: ../views/export-nextgen-step-1.php:18
+#, fuzzy
+msgid "Choose a NextGEN Gallery:"
+msgstr "Choose a NextGEN Gallery"
+
+#: ../views/export-nextgen-step-1.php:22 ../views/export-step-1.php:22
+#, fuzzy
+msgid "Select All"
+msgstr "Supprimer"
+
+#: ../views/export-nextgen-step-1.php:34 ../views/export-nextgen-step-2.php:28
+#: ../views/export-step-1.php:34 ../views/export-step-2.php:28
+msgid "File Name:"
+msgstr ""
+
+#: ../views/export-nextgen-step-1.php:41 ../views/export-step-1.php:41
+#, fuzzy
+msgid "No slider to export."
+msgstr "Aucuns diaporamas"
+
+#: ../views/export-nextgen-step-1.php:44 ../views/export-step-1.php:44
+msgid "Clear"
+msgstr ""
+
+#: ../views/export-nextgen-step-1.php:45 ../views/export-step-1.php:45
+msgid "Next"
+msgstr ""
+
+#: ../views/export-nextgen-step-2.php:17 ../views/export-step-2.php:17
+#, fuzzy
+msgid "Selected slider(s):"
+msgstr "Sélectionner un diaporama"
+
+#: ../views/export-nextgen-step-2.php:35 ../views/export-nextgen-step-3.php:21
+#: ../views/export-nextgen-step-3.php:26 ../views/export-step-2.php:35
+#: ../views/export-step-3.php:21 ../views/export-step-3.php:26
+#: ../views/import-step-3.php:15
+msgid "Back"
+msgstr ""
+
+#: ../views/export-nextgen-step-2.php:36 ../views/export-step-2.php:36
+msgid "Generate Export File"
+msgstr ""
+
+#: ../views/export-nextgen-step-3.php:22 ../views/export-step-3.php:22
+msgid "Download"
+msgstr ""
+
+#: ../views/export-step-1.php:8 ../views/export-step-2.php:8
+#: ../views/export-step-3.php:8
+#, fuzzy
+msgid "Cyclone Slider Exporter"
+msgstr "Diaporama"
+
+#: ../views/export-step-1.php:18
+#, fuzzy
+msgid "Select sliders:"
+msgstr "Sélectionner un diaporama"
+
+#: ../views/import-step-1.php:8 ../views/import-step-3.php:8
+#, fuzzy
+msgid "Cyclone Slider Importer"
+msgstr "Diaporama"
+
+#: ../views/import-step-1.php:17
+msgid "Import Zip File:"
+msgstr ""
+
+#: ../views/import-step-1.php:24
+msgid "Upload"
+msgstr ""
+
+#: ../views/settings-page.php:7
+msgid ""
+"Play with these settings if Cyclone Slider is not working or if you want to "
+"optimize it."
+msgstr ""
+
+#: ../views/settings-page.php:17
+msgid "Load scripts in:"
+msgstr ""
+
+#: ../views/settings-page.php:20
+msgid "Header"
+msgstr ""
+
+#: ../views/settings-page.php:21
+msgid "Footer"
+msgstr ""
+
+#: ../views/settings-page.php:26
+msgid "Load these scripts:"
+msgstr ""
+
+#: ../views/settings-page.php:31
+msgid "Cycle 2. This is the core script needed by the plugin."
+msgstr ""
+
+#: ../views/settings-page.php:36
+msgid "Cycle 2 - Carousel. Used by these templates: Galleria, Lea, Dos."
+msgstr ""
+
+#: ../views/settings-page.php:41
+msgid "Cycle 2 - Swipe. For touch swipe events."
+msgstr ""
+
+#: ../views/settings-page.php:46
+msgid "Cycle 2 - Tile. Used for tile transition effects."
+msgstr ""
+
+#: ../views/settings-page.php:51
+msgid "Cycle 2 - Video. Used by YouTube template."
+msgstr ""
+
+#: ../views/settings-page.php:56
+msgid "Magnific Popup - Enable lightbox option."
+msgstr ""
+
+#: ../views/settings-page.php:56 ../views/settings-page.php:61
+#: ../views/slider-advanced-settings.php:2
+msgid "Available in pro version."
+msgstr ""
+
+#: ../views/settings-page.php:61
+msgid "Easing - Enable easing options."
+msgstr ""
+
+#: ../views/settings-page.php:66
+msgid "Scripts loading priority:"
+msgstr ""
+
+#: ../views/settings-page.php:69
+msgid "Make this value bigger to load scripts last."
+msgstr ""
+
+#: ../views/settings-page.php:73
+#, fuzzy
+msgid "Load these templates:"
+msgstr "Thèmes de diaporama"
+
+#: ../views/settings-page.php:86
+msgid "Legacy Mode:"
+msgstr ""
+
+#: ../views/settings-page.php:91
+msgid "Turn back time to the bygone era of Cyclone Slider 1."
+msgstr ""
+
+#: ../views/settings-page.php:97
+msgid "Save Options"
+msgstr ""
+
+#: ../views/settings-page.php:98
+msgid "Restore Defaults"
+msgstr ""
+
+#: ../views/slide-edit-image.php:6 ../views/slide-edit.php:91
+msgid "Thumbnail"
+msgstr ""
+
+#: ../views/slide-edit-image.php:12 ../views/slide-edit.php:97
+#, fuzzy
+msgid "View Image"
+msgstr "Importer une image"
+
+#: ../views/slide-edit-image.php:18
+msgid "Caption"
+msgstr ""
+
+#: ../views/slide-edit-image.php:25
+#, fuzzy
+msgid "Description:"
+msgstr "Description"
+
+#: ../views/slide-edit-image.php:31 ../views/slide-edit.php:113
+msgid "Link"
+msgstr "Lien"
+
+#: ../views/slide-edit-image.php:34 ../views/slide-edit.php:116
+msgid "Link URL:"
+msgstr "Lien"
+
+#: ../views/slide-edit-image.php:47
+msgid "Image Attributes"
+msgstr "Attributs de l'image"
+
+#: ../views/slide-edit-image.php:50
+msgid "Alternate Text:"
+msgstr "Texte alternatif"
+
+#: ../views/slide-edit-image.php:54
+msgid "Title Text:"
+msgstr "Titre"
+
+#: ../views/slide-edit.php:8 ../views/slide-edit.php:11
+#: ../views/slide-edit.php:87 ../views/template-selection.php:19
+msgid "Image"
+msgstr "Image"
+
+#: ../views/slide-edit.php:12 ../views/template-selection.php:24
+msgid "YouTube"
+msgstr ""
+
+#: ../views/slide-edit.php:13 ../views/template-selection.php:29
+#, fuzzy
+msgid "Vimeo"
+msgstr "Vidéo"
+
+#: ../views/slide-edit.php:14
+msgid "Custom"
+msgstr "Personnalisé"
+
+#: ../views/slide-edit.php:15 ../views/template-selection.php:39
+msgid "Testimonial"
+msgstr ""
+
+#: ../views/slide-edit.php:56
+msgid "YouTube URL:"
+msgstr ""
+
+#: ../views/slide-edit.php:58
+msgid "Copy and paste a valid YouTube URL here."
+msgstr ""
+
+#: ../views/slide-edit.php:63
+msgid "Do not show suggested videos when the video finishes."
+msgstr ""
+
+#: ../views/slide-edit.php:68
+#, fuzzy
+msgid "Vimeo URL:"
+msgstr "Lien vidéo"
+
+#: ../views/slide-edit.php:70
+#, fuzzy
+msgid "Copy and paste a valid Vimeo URL here."
+msgstr "copier et coller un lien Youtube ou Vimeo"
+
+#: ../views/slide-edit.php:75 ../views/template-selection.php:34
+msgid "Custom HTML"
+msgstr "Code HTML personnalisé"
+
+#: ../views/slide-edit.php:83
+msgid "Quote"
+msgstr ""
+
+#: ../views/slide-edit.php:104
+msgid "Author"
+msgstr ""
+
+#: ../views/slide-edit.php:107
+msgid "Name:"
+msgstr ""
+
+#: ../views/slide-settings.php:3
+#, fuzzy
+msgid "Slide Properties"
+msgstr "Propriétés de la diapo"
+
+#: ../views/slide-settings.php:6
+msgid "Hidden:"
+msgstr ""
+
+#: ../views/slide-settings.php:15
+msgid "Transition Effects:"
+msgstr "Effets de transition"
+
+#: ../views/slide-settings.php:17
+msgid "Default"
+msgstr ""
+
+#: ../views/slide-settings.php:26
+#, fuzzy
+msgid "Effects Speed:"
+msgstr "Temps de l'effet de transtion"
+
+#: ../views/slide-settings.php:43 ../views/slider-settings.php:12
+msgid "Tile Count:"
+msgstr "Nombre de carreaux"
+
+#: ../views/slide-settings.php:45 ../views/slider-settings.php:14
+msgid "The number of tiles to use in the transition."
+msgstr "Nombre de carreaux à utiliser pour les transitions"
+
+#: ../views/slide-settings.php:49
+msgid "Tile Delay:"
+msgstr "Délais"
+
+#: ../views/slide-settings.php:51
+msgid "Milliseconds to delay each individual tile transition."
+msgstr "Delais de transition en millisecondes"
+
+#: ../views/slide-settings.php:55 ../views/slider-settings.php:17
+msgid "Tile Position:"
+msgstr "Position"
+
+#: ../views/slide-settings.php:57 ../views/slider-settings.php:19
+msgid "Vertical"
+msgstr "Vertical"
+
+#: ../views/slide-settings.php:58 ../views/slider-settings.php:20
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: ../views/slider-advanced-settings.php:4
+msgid "Allow Wrap?"
+msgstr ""
+
+#: ../views/slider-advanced-settings.php:10
+msgid ""
+"Determines if slider wraps to beginning slide if it reaches the end slide."
+msgstr ""
+
+#: ../views/slider-advanced-settings.php:15
+#, fuzzy
+msgid "Dynamic Height:"
+msgstr "Hauteur :"
+
+#: ../views/slider-advanced-settings.php:17
+msgid "Off"
+msgstr ""
+
+#: ../views/slider-advanced-settings.php:18
+msgid "On"
+msgstr ""
+
+#: ../views/slider-advanced-settings.php:21
+msgid "Adjust slider height depending on current slide."
+msgstr ""
+
+#: ../views/slider-advanced-settings.php:26
+#, fuzzy
+msgid "Delay:"
+msgstr "Délais"
+
+#: ../views/slider-advanced-settings.php:28
+msgid ""
+"Milliseconds to add or substract from the time before the first transition "
+"occurs."
+msgstr ""
+
+#: ../views/slider-advanced-settings.php:32
+msgid "Easing:"
+msgstr ""
+
+#: ../views/slider-advanced-settings.php:38
+msgid "Easing for transition animations."
+msgstr ""
+
+#: ../views/slider-advanced-settings.php:42
+msgid "Swipe:"
+msgstr ""
+
+#: ../views/slider-advanced-settings.php:48
+msgid "Enable swipe gesture support for touch devices."
+msgstr ""
+
+#: ../views/slider-advanced-settings.php:53
+#, fuzzy
+msgid "Resize Options:"
+msgstr "Description"
+
+#: ../views/slider-advanced-settings.php:61
+msgid ""
+"Fit - (Default) Fit images inside the slideshow maintaining aspect ratio."
+msgstr ""
+
+#: ../views/slider-advanced-settings.php:62
+msgid "Fill - Images will fill the entire slideshow with no empty space."
+msgstr ""
+
+#: ../views/slider-advanced-settings.php:63
+msgid "Crop - Excess parts of images are removed."
+msgstr ""
+
+#: ../views/slider-advanced-settings.php:64
+msgid "Exact - Resize images to exact dimensions ignoring aspect ratio."
+msgstr ""
+
+#: ../views/slider-advanced-settings.php:65
+msgid "Exact Width - Resize to exact width."
+msgstr ""
+
+#: ../views/slider-advanced-settings.php:66
+msgid "Exact Height - Resize to exact height."
+msgstr ""
+
+#: ../views/slider-advanced-settings.php:67
+msgid ""
+"Note: Please clear your browser cache if you are not seeing the changes."
+msgstr ""
+
+#: ../views/slider-advanced-settings.php:69
+msgid "Auto - Cyclone Slider decides the resize option."
+msgstr ""
+
+#: ../views/slider-advanced-settings.php:70
+msgid "Crop - Resize and remove excess parts."
+msgstr ""
+
+#: ../views/slider-advanced-settings.php:71
+msgid "Exact - Resize to exact dimensions."
+msgstr ""
+
+#: ../views/slider-advanced-settings.php:72
+msgid "Landscape - Resize to exact width."
+msgstr ""
+
+#: ../views/slider-advanced-settings.php:73
+msgid "Portrait - Resize to exact height."
+msgstr ""
+
+#: ../views/slider-advanced-settings.php:80
+msgid "Image Quality (JPEG):"
+msgstr ""
+
+#: ../views/slider-advanced-settings.php:83
+msgid "Low"
+msgstr ""
+
+#: ../views/slider-advanced-settings.php:84
+msgid "Medium"
+msgstr ""
+
+#: ../views/slider-advanced-settings.php:85
+msgid "High"
+msgstr ""
+
+#: ../views/slider-advanced-settings.php:86
+msgid "Very High"
+msgstr ""
+
+#: ../views/slider-advanced-settings.php:87
+msgid "Max"
+msgstr ""
+
+#: ../views/slider-advanced-settings.php:91
+msgid "The quality of the generated images. Applies to JPEG images only."
+msgstr ""
+
+#: ../views/slider-advanced-settings.php:92
+msgid ""
+"Low = low quality but small file size. Max = Best quality but large file "
+"size."
+msgstr ""
+
+#: ../views/slider-codes.php:4
+#, fuzzy
+msgid "Your Shortcode:"
+msgstr "Shortcode"
+
+#: ../views/slider-codes.php:6
+msgid ""
+"Copy and paste this shortcode into your Post, Page or Custom Post editor."
+msgstr ""
+
+#: ../views/slider-codes.php:10
+msgid "Your PHP Code:"
+msgstr ""
+
+#: ../views/slider-codes.php:12
+msgid ""
+"Copy and paste this code when you need to display the slider in template "
+"files (header.php, front-page.php, etc.)."
+msgstr ""
+
+#: ../views/slider-id.php:5
+msgid "Change the Slideshow ID here."
+msgstr ""
+
+#: ../views/slider-preview.php:9
+msgid "Your preview will appear here."
+msgstr ""
+
+#: ../views/slider-settings.php:49
+msgid "Width Management:"
+msgstr ""
+
+#: ../views/slider-settings.php:51
+msgid "Responsive"
+msgstr ""
+
+#: ../views/slider-settings.php:52
+msgid "Full"
+msgstr ""
+
+#: ../views/slider-settings.php:53
+msgid "Fixed"
+msgstr ""
+
+#: ../views/slider-settings.php:56
+msgid ""
+"Responsive - resizes to smaller size but maximum width will be equal to the "
+"provided width."
+msgstr ""
+
+#: ../views/slider-settings.php:57
+msgid ""
+"Full - the same as responsive but maximum width will be equal to its "
+"container ignoring the provided width."
+msgstr ""
+
+#: ../views/slider-settings.php:58
+msgid "Fixed - width and height are not resized."
+msgstr ""
+
+#: ../views/slider-settings.php:63
+msgid "Resize Images?"
+msgstr "Retailler l'image ?"
+
+#: ../views/slider-settings.php:70
+msgid "Force Resize"
+msgstr ""
+
+#: ../views/slider-settings.php:71
+#, fuzzy
+msgid ""
+"Yes - resize images to slideshow dimension. <br>No - use the original "
+"uploaded image. <br>Force Resize - Regenerate all images and thumbnails."
+msgstr ""
+"Oui - Retailler les images à la dimension du diaporama. <br /> Non - "
+"utiliser la taille original de l'image importée"
+
+#: ../views/slider-settings.php:96
+msgid "The thumbnails or dots depending on template."
+msgstr "Les miniatures dépendent du template"
+
+#: ../views/slider-settings.php:100
+msgid "Random Slide Order?"
+msgstr "Ordre des diapos aléatoire ?"
+
+#: ../views/slider-settings.php:105
+msgid "Randomize order of slides on every page visit."
+msgstr "Faire un ordre des diapos aléatoires sur chaque page visité"
+
+#: ../views/slides.php:10
+msgid "Sort"
+msgstr ""
+
+#: ../views/template-selection.php:5
+msgid "Name"
+msgstr ""
+
+#: ../views/template-selection.php:6
+msgid "Supported Slides"
+msgstr ""
+
+#: ../views/template-selection.php:7
+msgid "Location"
+msgstr ""
+
+#: ../views/template-selection.php:58
+#, fuzzy
+msgid "Learn More About Templates"
+msgstr "Plus de thèmes..."
+
+#: ../views/template-selection.php:59
+#, fuzzy
+msgid "More Templates"
+msgstr "Plus de thèmes..."
+
+#, fuzzy
+#~ msgid "Selected"
+#~ msgstr "Supprimer"
+
+#~ msgid "Slide Transition Effects"
+#~ msgstr "Effets de transition"
+
+#~ msgid "Disable"
+#~ msgstr "Désactivé"
+
+#~ msgid "Enable Slide Effects"
+#~ msgstr "Permettre les effets de transition"
+
+#~ msgid ""
+#~ "Templates CSS could not be saved. Make sure %stemplates.css is writable."
+#~ msgstr ""
+#~ "Thème CSS non sauvegardé. Assurez-vous que le fichier %stemplates.css "
+#~ "puisse être modifié."
+
+#~ msgid ""
+#~ "Templates JS could not be saved. Make sure %stemplates.js is writable."
+#~ msgstr ""
+#~ "Thème JS non sauvegardé. Assurez-vous que le fichier %stemplates.js "
+#~ "puisse être modifié."
+
+#~ msgid "Video URL:"
+#~ msgstr "Lien vidéo"
+
+#~ msgid "Copy and paste a Youtube or Vimeo URL and hit the Get Video button."
+#~ msgstr "copier et coller un lien Youtube ou Vimeo"
+
+#~ msgid "Get Video"
+#~ msgstr "Modifier vidéo"
+
+#~ msgid "Embed Code"
+#~ msgstr "Code HTML"
+
+#~ msgid ""
+#~ "You can place your embed code directly here. Or you can use the Get Video "
+#~ "button to generate the embed code."
+#~ msgstr "Vous pouvez placer du code directement ici"
+
+#~ msgid ""
+#~ "<strong>Note:</strong> The Slide Properties and Tile effects are not "
+#~ "supported for videos."
+#~ msgstr ""
+#~ "Note : les propriétés du diaporama ne sont pas supportés pour les vidéos"
+
+#~ msgid ""
+#~ "<strong>Note:</strong> Append &wmode=transparent to the embed code src "
+#~ "attribute to make HTML elements appear on top of Flash."
+#~ msgstr ""
+#~ "Note : ajouter à l'attribut &wmode=transparent pour que les éléments HTML "
+#~ "apparaissent au dessus de Flash."
+
+#~ msgid "Drag"
+#~ msgstr "Glisser"
+
+#~ msgid ""
+#~ "Select a template to use. Check the template icons to see what slide type "
+#~ "it supports."
+#~ msgstr ""
+#~ "Choisissez le thème à utiliser. Vérifier les icônes du thème pour savoir "
+#~ "les options qu'il supporte."
+
+#~ msgid "Images"
+#~ msgstr "Images"
+
+#, fuzzy
+#~ msgid "Slide Effects"
+#~ msgstr "Slider-Einstellungen"

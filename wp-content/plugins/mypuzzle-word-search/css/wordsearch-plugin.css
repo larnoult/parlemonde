@@ -1,0 +1,51 @@
+#ws-grid{
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    vertical-align:middle;
+}
+.wsCell {       
+    text-align: center;
+    vertical-align:middle;
+/*    background-color:#f4f4f4;   */
+    -moz-border-radius: 15px; /* FF1+ */   
+    -webkit-border-radius: 15px; /* Saf3-4 */   
+    border-radius: 15px; /* Opera 10.5, IE9, Saf5, Chrome */   
+}
+table td.highlighted {       
+    background-color:#e0e0e0;  
+}  
+table td.startend {       
+    background-color:#709ffe;
+}
+
+/* finish message popup styles */
+#ws_popup {
+    background-color:#fff;
+    border-radius:20px 20px 20px 20px;
+    box-shadow:0 0 5px 5px #999;
+    color:#111;
+    display:none;
+    width:500px;
+    min-height:100px;
+    color:#2B91AF;
+    color:#137abc;
+    font-size: 20px;
+}
+.ws_button>span {
+    font-size:84%;
+}
+
+.ws_button.bClose {
+    border-radius:7px 7px 7px 7px;
+    box-shadow:none;
+    font:bold 131% sans-serif;
+    position:absolute;
+    right:0px;
+    top:0px;
+    padding:0 6px 2px;
+}
+.ws_popcontent {
+    margin-top: 20px;
+    text-align: center;
+}

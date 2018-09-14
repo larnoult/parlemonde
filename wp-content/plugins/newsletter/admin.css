@@ -1,0 +1,2072 @@
+
+@import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,600);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(css/dropdown.css);
+@import url(//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css);
+
+/* Bootstrap like */
+
+#tnp-wrap * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Color picker patch */
+#tnp-wrap .iris-picker, #tnp-wrap .iris-picker * {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+#tnp-wrap *:before,
+#tnp-wrap *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}*/
+
+.row:before,
+.row:after {
+    display: table;
+    content: " ";
+    
+}
+.row:after {
+    clear: both;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    float: left;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+}
+.col-md-12 {width: 100%;}
+.col-md-11 {width: 91.66666667%;}
+.col-md-10 {width: 83.33333333%;}
+.col-md-9 {width: 75%;}
+.col-md-8 {width: 66.66666667%;}
+.col-md-7 {width: 58.33333333%;}
+.col-md-6 {width: 50%;}
+.col-md-5 {width: 41.66666667%;}
+.col-md-4 {width: 33.33333333%;}
+.col-md-3 {width: 25%;}
+.col-md-2 {width: 16.66666667%;}
+.col-md-1 {width: 8.33333333%;}
+
+@media all and (max-width: 1100px) {
+    .col-md-12 {width: 100%;}
+    .col-md-11 {width: 100%;}
+    .col-md-10 {width: 100%;}
+    .col-md-9 {width: 100%;}
+    .col-md-8 {width: 100%;}
+    .col-md-7 {width: 100%;}
+    .col-md-6 {width: 100%;}
+    .col-md-5 {width: 100%;}
+    .col-md-4 {width: 100%;}
+    .col-md-3 {width: 100%;}
+    .col-md-2 {width: 100%;}
+    .col-md-1 {width: 100%;}
+}
+
+.tnp-row-padded {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tnp-col-3-boxed {
+    width: 30%;
+    border: 1px solid #3c414c;
+    padding: 0px 0px 30px 0px;
+    border-radius: 10px;
+}
+
+.tnp-margin-top {
+    margin-top: 80px;
+}
+
+
+
+/* Global Fonts */
+
+#tnp-wrap, 
+#tnp-header, 
+#tnp-body p, 
+#tnp-body td,
+#tnp-body td p,
+#tnp-body input,
+#tnp-body select,
+#tnp-body textarea {
+    font-family: "Open Sans", sans-serif;
+}
+
+#tnp-body h1, 
+#tnp-body h2, 
+#tnp-body h3, 
+#tnp-body h4 {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/*******************************************************************************
+ * Header
+ */
+
+#tnp-header {
+    text-align: left;
+    font-size: 12px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+
+#tnp-header input {
+    font-size: 12px;
+}
+
+#tnp-header a {
+    text-decoration: none;
+    /*font-family: "Montserrat",sans-serif;*/
+    color: white;
+    letter-spacing: 0.1em;
+}
+
+#tnp-header a:hover {
+    color: #fff;
+}
+
+.error a, .error a:hover {
+    color: #000!important;
+}
+
+.updated a, .updated a:hover {
+    color: #000!important;
+}
+
+.tnp-error {
+    border-left: 5px solid #dd0000;
+    background-color: #fff;
+    padding: 10px;
+    margin: 15px 0; 
+    font-size: 1.2em;
+}
+
+.tnp-warning {
+    border-left: 5px solid #ffb900;
+    background-color: #fff;
+    padding: 10px;
+    margin: 15px 0; 
+    font-size: 1.2em;
+}
+
+.tnp-message {
+    border-left: 5px solid #46b450;
+    background-color: #fff;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+/* Default font colors for our dark background page body */
+#tnp-body h1, 
+#tnp-body h2, 
+#tnp-body h3, 
+#tnp-body h4, 
+#tnp-body p {
+    color: #fff;
+}
+
+#tnp-body a, #tnp-body a:active {
+    color: #2980B9; /* Blue */
+}
+
+#tnp-body a:hover {
+    color: #3498DB;
+}
+
+/* Action button container */
+#tnp-body .tnp-submit {
+    margin-bottom: 10px;
+}
+
+/* Primary button correction */
+#tnp-body .button,
+#tnp-body .button:visited,
+#tnp-body .button:hover,
+#tnp-body .button:active,
+#tnp-body .button:focus,
+#tnp-body .button-primary, 
+#tnp-body .button-primary:visited, 
+#tnp-body .button-primary:hover,
+#tnp-body .button-secondary, 
+#tnp-body .button-secondary:visited, 
+#tnp-body .button-secondary:hover {
+    color: #fff;
+    background-color: #3498db;
+    text-shadow: none;
+    width: auto;
+}
+
+/* Icon in button media selector */
+#tnp-body span.wp-media-buttons-icon:before {
+    color: #fff;
+}
+
+/* Standard button */
+#tnp-body .tnp-button {
+    color: #fff;
+    background-color: #3498db;
+    text-shadow: none;
+}
+
+/* White button variant */
+#tnp-body .button-primary.tnp-button-white, #tnp-body .tnp-button.tnp-button-white {
+    color: #444!important;
+    background-color: #fff!important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    width: auto;
+}
+
+/* Form tables correction */
+#tnp-body .form-table h1,  
+#tnp-body .form-table h2,
+#tnp-body .form-table h4,
+#tnp-body .form-table h3 {
+    color: #444;
+}
+
+#tnp-body tbody th, 
+#tnp-body td, 
+#tnp-body td p,
+#tnp-body td .button,
+#tnp-body td .button:visited,
+#tnp-body td .button:hover,
+#tnp-body td .button:active,
+#tnp-body td .button:focus {
+    color: #444;
+}
+
+#tnp-body td a, 
+#tnp-body td a:visited {
+    color: #27AE60; /* Green */
+}
+
+
+/* Tables of class form-table */
+#tnp-body .form-table {
+    background-color: #fff;
+    border: 1px solid #ECF0F1;
+    margin-top: 2em;
+    border-spacing: 4px;
+    border-collapse: separate;
+}
+
+#tnp-body .form-table th {
+    text-align: right;
+    font-weight: bold;
+    max-width: 200px;
+    color: #000000;
+    background-color: #ECF0F1;
+    vertical-align: middle;
+}
+
+#tnp-body .form-table th small {
+    font-weight: normal;
+}
+
+#tnp-body .form-table textarea {
+    width: 100%;
+}
+
+/* Table inside a field form table to create a grid of options */
+#tnp-body .form-table table {
+    border-collapse: collapse;
+}
+
+#tnp-body .form-table table td, 
+.form-table table th {
+    padding: 5px;
+    font-size: .9em;
+    font-weight: normal;
+    border: 1px solid #eee;
+}
+
+#tnp-body .form-table table thead th {
+    text-align: left;
+    font-weight: bold;
+}
+
+
+/*******************************************************************************
+ * Wide fat tables 
+ */
+
+#tnp-body .widefat {
+    width: 90%;
+}
+
+#tnp-body .widefat th {
+    text-align: left;
+}
+
+#tnp-body .widefat thead {
+    background-color: #3498DB;
+    font-family: "Montserrat", sans-serif;
+    color: #fff !important;
+}
+
+#tnp-body .widefat thead tr th {
+    color: #fff !important;
+}
+
+#tnp-body .widefat td, .widefat th {
+    vertical-align: middle;
+}
+
+/* Buttons on widgets top bar */
+#tnp-body .tnp-widget h3 a, 
+#tnp-body .tnp-widget h3 a:visited, 
+#tnp-body .tnp-widget h3 a:hover {
+    color: #fff;
+}
+
+/* jQuery UI tabs corrections */
+#tnp-body #tabs h1,  
+#tnp-body #tabs h2,
+#tnp-body #tabs h3,
+#tnp-body #tabs h4,
+#tnp-body #tabs p,
+#tnp-body #tabs td,
+#tnp-body #tabs th,
+#tnp-body #tabs input,
+#tnp-body #tabs select,
+#tnp-body #tabs textarea,
+#tnp-body #tabs a {
+    color: #444;
+}
+
+/* Button correction */
+#tnp-body #tabs .button,
+#tnp-body #tabs .button:visited,
+#tnp-body #tabs .button:hover,
+#tnp-body #tabs .button-primary, 
+#tnp-body #tabs .button-primary:visited, 
+#tnp-body #tabs .button-primary:hover,
+#tnp-body #tabs .button-secondary, 
+#tnp-body #tabs .button-secondary:visited, 
+#tnp-body #tabs .button-secondary:hover {
+    color: #fff;
+    width: auto;
+}
+
+table.clicks td {
+    border: 1px solid #666;
+    padding: 2px;
+    font-size: 10px;
+}
+
+table.clicks {
+    border-collapse: collapse;
+}
+
+.grid {
+    border-collapse: collapse;
+}
+.grid td, .grid th {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 0;
+}
+.grid th {
+    background-color: #aaa;
+}
+
+.tnp-checkboxes label {
+    display: block;
+    float: left;
+    width: 220px;
+    border: 1px solid #ccc;
+    background-color: #f4f4f4;
+    margin-bottom: 5px;
+    padding: 5px;
+    white-space: nowrap;
+    margin-right: 5px;
+}
+
+.newsletter-checkbox-group, .nl-checkbox-group {
+    float: left;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    background-color: #f4f4f4;
+    margin-bottom: 5px;
+    padding: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* Checkbox group */
+.newsletter-checkboxes-item {
+    float: left;
+    margin-right: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-color: #f4f4f4;
+    width: 150px;
+    margin-bottom: 5px;
+    padding: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.newsletter-checkboxes-item input {
+    vertical-align: text-bottom;
+}
+
+.newsletter-checkboxes-item label {
+    display: inline;
+}
+
+.newsletter-preferences-item {
+    float: left;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    background-color: #f4f4f4;
+    width: 250px;
+    margin-bottom: 5px;
+    padding: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.newsletter-preferences-item label {
+    display: inline;
+}
+
+.form-table td .nl-checkbox-group label {
+    display: inline;
+}
+
+
+
+
+
+
+
+/*
+.form-table td label {
+  font-size: 10px;
+  display: block;
+}
+*/
+
+.tnp-notice {
+    padding: 15px;
+    margin: 10px 0;
+    padding-right: 70px;
+    position: relative;
+    border: 1px sold #eee;
+    background-color: #fff;
+    color: #444;
+    font-size: 13px;
+    border-left: 5px solid #27AE60;
+}
+
+.tnp-notice a {
+    color: #0073aa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tnp-notice a.tnp-dismiss {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #666;
+}
+
+.tnp-notice input[type=email] {
+    margin: 10px 5px 5px;
+    width: 250px;
+    border: none;
+    box-shadow: none;
+    background-color: #ECF0F1;
+    padding: 8px;
+}
+
+.tnp-notice input[type=submit] {
+    border: none;
+    box-shadow: none;
+    background-color: #27AE60;
+    padding: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+.newsletter-message {
+    background-color: #efe;
+    border-color: #393;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    padding: .6em;
+    margin-bottom: .6em;
+}
+
+.newsletter-error-span {
+    color: #f00;
+    font-weight: bold;
+}
+
+.newsletter-error {
+    background-color: #fee;
+    border-color: #933;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    padding: .6em;
+    margin-bottom: .6em;
+}
+
+.newsletter-error strong, .newsletter-message strong {
+    font-weight: bold;
+}
+
+#newsletter-warnings {
+    background-color: #FFEBE8;
+    border-color: #C00;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    padding: .6em;
+    margin-bottom: .6em;
+}
+
+.newsletter-buttons {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.tnp-paginator {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.newsletter-option-grid th {
+    text-align: right;
+    width: auto;
+    border: 0;
+    padding: 3px;
+    font-weight: normal;
+    vertical-align: top;
+    padding-right: 15px;
+}
+.newsletter-option-grid td {
+    border: 0;
+    padding: 3px;
+    vertical-align: top;
+}
+
+.newsletter-box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fafafa;
+    margin-bottom: 15px;
+}
+
+.newsletter-box h3 {
+    margin-top: 0;
+}
+
+.newsletter-textarea-preview {
+    border: 1px solid #ddd;
+}
+
+.tnp-tab-notice {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-left: 3px solid gray;
+    padding: 10px;
+    margin: 10px 0;
+    color: #444;
+}
+
+.tnp-tab-warning {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-left: 3px solid orange;
+    padding: 10px;
+    margin: 10px 0;
+    color: #444;
+}
+
+.tnp-tab-success {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-left: 3px solid green;
+    padding: 10px;
+    margin: 10px 0;
+    color: #444;
+}
+
+.tnp-tab-error {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-left: 3px solid red;
+    padding: 10px;
+    margin: 10px 0;
+    color: #444;
+}
+
+/* .tnp-wrap a[target=_blank]:after {
+    content: "»";
+}*/
+
+
+/*  CSS The Newsletter Team */
+
+/* CSS Tips */
+
+.tnp-tip {
+    margin-top: 5px;
+}
+
+.tip-button {
+    padding: 0px 5px;
+    color: #FD5F65;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    /*font-family: "Montserrat";*/
+    font-size: 10px;
+    border: 1px red solid;
+}
+
+.tip-content {
+    /*font-family: "Montserrat";*/
+    font-weight: 500;
+    font-size: 11px;
+    color: #999999;
+}
+
+/* CSS General Font Styles */
+
+p.description {
+    font-size: 12px !important;
+}
+
+
+/* CSS Themes Preview */
+
+.tnp-theme-preview {
+    display: inline-block;
+    text-align: center;
+}
+
+.tnp-theme-preview p {
+    /*font-family: "Montserrat";*/
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.tnp-theme-preview img:hover {
+    border: 5px solid #FD5F65;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #FD5F65;
+}
+
+.tnp-theme-preview img {
+    border: 5px solid transparent;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+.tnp-header-logo {
+    margin-left: 10px;
+}
+
+
+/* Altrimenti si crea una striscia bianca in mezzo alla pagina! */
+
+
+.wp-core-ui .button-primary {
+    background-color: #2b2f3a;
+    color: #fff;
+    width: auto;
+}
+
+
+/* Regole Generali*/
+
+#tnp-body {
+    padding: 10px;
+    background-color: #28313C;
+    border-color: #28313C;
+    border-width: 10px;
+    border-style: solid;
+    /*overflow: auto;*/
+}
+
+.tnp-darkbg {
+    background-color: #34495E!important;
+}
+
+#tnp-body h3 {
+    margin-top: 25px;
+    clear: both;
+    /* display: inline-block; */
+    /* background-color: #34495E; */
+    /* color: #fff !important; */
+    margin-bottom: 10px;
+    /*    width: 200px;*/
+    /* text-align: right; */
+    /*    border-bottom: 2px solid #27AE60;*/
+}
+
+
+.tnp-body-lite {
+    background-color: #F1F1F1 !important;
+}
+
+
+/* Header & Sub-header Pannelli */
+
+#tnp-heading {
+    padding: 10px;
+    background-color: #28313C;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#tnp-heading a {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    text-decoration: none;
+}
+
+#tnp-heading a:hover {
+    color: #27AE60;
+    border-bottom: 1px solid #27AE60;
+}
+
+#tnp-heading div p {
+    color: #666;
+}
+
+#tnp-heading h2 {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.1rem;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-weight: 700;
+    padding: 0;
+    margin: 0px;
+}
+
+#tnp-heading p {
+    margin: 0px;
+    color: #ccc;
+}
+
+/* Style for WP global notices */
+#tnp-heading .notice p {
+    margin: 0.5em 0;
+    padding: 2px;
+}
+
+#tnp-heading .tnp-btn-h1 {
+    color: #fff;
+    background-color: #3498db;
+    border-radius: 3px;
+    padding: 6px 11px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 10px;
+    font-size: 0.75rem;
+    font-weight: 300;
+    border: none;
+}
+
+#tnp-heading .tnp-btn-h1:hover {
+    color: #fff;
+    background-color: #5DADE2;
+    -webkit-transition: background-color .25s linear;
+    transition: background-color .25s linear;
+    -webkit-font-smoothing: subpixel-antialiased;
+    border: none;
+    color: #fff;
+}
+
+#tnp-body .tnp-widget {
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+    min-height: 350px;
+    color: #000;
+}
+
+#tnp-body .tnp-widget p {
+    color: #000;
+}
+
+/* Widget title */
+.tnp-widget h3 {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.05rem;
+    background-color: #2980B9;
+    color: #fff;
+    margin: 15px 0px;
+    padding: 9px;
+    border: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Widget title button */
+.tnp-widget h3 a {
+    float: right;
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+    padding: 2px 8px;
+    background-color: #26C281;
+    border-radius: 2px;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-size: 0.8rem;	
+}
+
+/* Widget title button hover */
+.tnp-widget h3 a:hover {
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+    background-color: #2ECC71;
+}
+
+.tnp-widget .inside p, .tnp-widget .inside li {
+    font-size: 12px;
+    margin: 10px;
+}
+
+.tnp-widget .inside ul {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+
+
+/* Dashboard Box */
+
+.metabox-holder {
+    width: 100%;
+}
+
+.postbox {
+    border: none;
+}
+
+.postbox h3 a {
+    float: right;
+
+}
+
+
+#dashboard-widgets .postbox-container {
+    width: 33.333%
+}
+
+#tnp-body .postbox p {
+    color: #000;
+}
+
+#dashboard-widgets .postbox-container .postbox h3 {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.05rem;
+    background-color: #415b76;
+    color: #fff;
+    margin: 0;
+    padding: 9px;
+}
+
+#dashboard-widgets .postbox-container h3 a {
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+    padding: 2px 8px;
+    background-color: #26C281;
+    border-radius: 2px;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+}
+
+#dashboard-widgets .postbox-container h3 a:hover {
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+    background-color: #2ECC71;
+}
+
+.postbox-container i {
+    margin-right: 3px;
+}
+#tnp-dash-newsletters tr td:last-of-type {
+    width: 80px;
+    text-align: right;
+}
+
+#tnp-dash-subscribers tr td:last-of-type {
+    width: 80px;
+    text-align: right;
+}
+
+#tnp-dash-subscribers tr td:first-of-type {
+    width: 250px;
+    overflow: hidden;
+}
+
+#tnp-dash-subscribers table {
+    table-layout: fixed;
+}
+
+#tnp-dash-documentation .inside div {
+    margin-top: 10px; 
+}
+
+#tnp-dash-documentation .inside a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    padding: 5px 10px;
+}
+
+
+/* Footer */
+
+#tnp-footer {
+    margin-top: 10px;
+    padding: 20px 10px 10px 40px;
+    background-color: #28313C;
+    font-family: "Montserrat", sans-serif;
+}
+
+#tnp-footer div {
+    width: 33%;
+    display: inline-block;
+}
+
+#tnp-footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#tnp-footer a:hover {
+    color: #BDC3C7;    
+}
+
+#tnp-footer input[type="submit"] {
+    background-color: #2ECC71;
+    border: none;
+    padding: 5px;
+    color: #fff;
+}
+
+#tnp-footer form {
+    white-space: nowrap;
+}
+
+#tnp-footer li {
+    display: inline;
+    margin-left: 15px;
+    padding: 2px 5px;
+    border-left: 3px solid #2ECC71;
+}
+
+/* Wrapper Background */
+
+#wpwrap {
+    background-color: #222B36 !important;
+}
+
+/* Global buttons styles */
+
+#dashboard-widgets .button {
+    border: none;
+    background: none;
+    box-shadow: none;
+    color: #322C39;
+}
+
+#dashboard-widgets .button:hover {
+    background-color: #ECF0F1;
+}
+
+.wp-core-ui .button-secondary, .wp-core-ui .button-primary {
+    background-color: #3498db;
+    border: none;
+    box-shadow: none;
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+    margin: 0px 2px;
+    width: auto;
+}
+
+.wp-core-ui .button-secondary, .wp-core-ui .button, .wp-core-ui .button-primary {
+    background-color: #3498db;
+    box-shadow: none;
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+    margin: 0px 2px;
+}
+
+.wp-core-ui .button-secondary:hover, .wp-core-ui .button:hover, .wp-core-ui .button-primary:hover {
+    background-color: #5DADE2;
+    color: #fff;
+    width: auto;
+}
+
+span.wp-media-buttons-icon:before {
+    color: #fff;
+}
+
+.tnp-paginator [value="Go"] {
+    background-color: #27AE60;
+}
+
+.tnp-paginator [value="Go"]:hover {
+    background-color: #2ECC71;
+}
+
+.notice-dismiss {
+    padding: 3px;
+}
+
+/*.widefat .button-secondary {
+    background: none;
+    color: #3498db;
+}*/
+
+/* Paginator */
+
+.tnp-paginator {
+    color: #fff;
+    font-family: "Montserrat",sans-serif;
+    margin: 10px 0px;
+}
+
+.tnp-paginator .button-secondary {
+    padding: 5px;
+    line-height: normal;
+    height: auto;
+    font-size: 12px;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+    vertical-align: baseline;
+}
+
+.tnp-paginator [value="Go"] {
+    background-color: #27AE60 !important;
+}
+
+.tnp-paginator [value="Go"]:hover {
+    background-color: #2ECC71 !important;
+}
+
+.tnp-paginator input {
+    background-color: #2C3E50;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    padding: 5px;
+    line-height: normal;
+    font-size: 12px;
+    height: 25px;
+}
+
+/* Subscribers Search Box */
+
+.tnp-subscribers-search {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    background-color: #2C3E50;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.tnp-subscribers-search select {
+    margin-left: 5px;
+    padding: none;
+    line-height: inherit;
+}
+
+
+/* Responsive Video Embeds */
+
+.tnp-video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.tnp-video-container iframe,
+.tnp-video-container object,
+.tnp-video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Colors Palette */
+
+.orange {  
+    background-color: #F39C12; /*Orange #F39C12 */
+}
+
+.blue { 
+    background-color: #2980B9; /* Blue #2980B9 */
+}
+
+.purple {
+    background-color: #8E44AD; /* Purple #8E44AD */
+}
+
+.notice a {
+    color: #27AE60 !important;
+    text-decoration: underline!important;
+}
+
+.tnp-chart {
+    border: 1px solid #eee;
+    width: 100%;
+}  
+
+.tnp-db-table {
+    width: auto;
+    background-color: #fff; 
+}
+
+.tnp-db-table thead {
+    border-bottom: 1px solid #eee;
+}
+
+.tnp-db-table th {
+    font-weight: bold;
+}
+
+.tnp-db-table td, .tnp-db-table th {
+    padding: 3px;
+    font-family: monospace;
+    border: 0;
+}
+
+/* STATUS PANEL */
+
+.tnp-main-status h3, .tnp-main-status h4 {
+    color: #fff;
+}
+
+#tnp-status-table .tnp-ok {
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    background-color: #27AE60;
+    padding: 2px 10px;
+    border-radius: 10px;
+}
+
+#tnp-status-table .tnp-ko {
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    background-color: #E74C41;
+    padding: 2px 10px;
+    border-radius: 10px;
+}
+
+#tnp-status-table .tnp-maybe {
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    background-color: #F1C40F;
+    padding: 2px 10px;
+    border-radius: 10px;
+}
+
+.tnp-main-status .tnp-log-files li {
+    padding-left: 15px;
+}
+
+.tnp-main-status .tnp-log-files li, .tnp-main-status .tnp-log-files li a {
+    color: #fff;
+}
+
+.tnp-main-status .tnp-log-files .tnp-log-size {
+    font-style: italic;
+}
+
+table.widefat {
+    border: 0;
+    box-shadow: none;
+}
+
+#tnp-status-table tbody tr:nth-child(2n+1) {
+    background-color: #ECF0F1;
+    border-radius: 2px;
+    margin: 5px;
+}
+
+#tnp-parameters-table tbody tr:nth-child(2n+1) {
+    background-color: #ECF0F1;
+    border-radius: 2px;
+    margin: 5px;
+}
+
+/*******************************************************************************
+ * Overrides some jQuery UI styles, specially for tabs and only inside the 
+ * #tnp-body div 
+ */
+
+#tnp-body .ui-widget {
+    font-family: "Montserrat", sans-serif;
+}
+
+#tnp-body #tabs .ui-widget-header {
+    background: #28313C;
+    border: 0;
+}
+
+#tnp-body #tabs .ui-tabs-panel {
+    padding: 15px!important;
+    background-color: #fff;
+}
+
+#tnp-body #tabs a.ui-tabs-anchor,
+#tnp-body #tabs a.ui-tabs-anchor:visited {
+    color: #444;
+}
+
+#tnp-body .ui-tabs .ui-tabs-nav li a {
+    font-size: 14px;
+}
+
+#tnp-body .ui-tabs {
+    border-color: #28313C;
+    background-color: #28313C;
+    border: 0;
+}
+
+#tnp-body .ui-tabs .ui-tabs-nav {
+    margin: 0;
+    padding: .2em .2em 0 0;
+    background-color: #f2f2f2;
+}
+
+#tnp-body .ui-tabs .ui-tabs-panel {
+    padding: 1em 0;
+    background-color: #f2f2f2;
+    margin: 0;
+    border: 0;
+}
+
+#tnp-body .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    background: #fff !important;
+    font-weight: normal;
+    font-family: "Montserrat", sans-serif;
+}
+
+#tnp-body .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: none;
+    background: #ECF0F1;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/*******************************************************************************
+ * Extension Panel 
+ */
+
+.tnp-extension-premium-box, .tnp-extension-free-box, .tnp-integration-box {
+    width: 300px; 
+    height: 220px; 
+    background-color: #222B36; 
+    text-align: center;
+    margin: 20px; 
+    float: left;
+    position: relative;
+}
+
+.tnp-extension-premium-box:hover, .tnp-extension-free-box:hover, .tnp-integration-box:hover {
+    background-color: #232C35;
+    box-shadow: 1px 1px 15px #222B36;
+}
+
+.tnp-extension-premium-box p, .tnp-extension-free-box p, .tnp-integration-box p {
+    padding: 5px 10px;
+    color: #72777c;
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+.tnp-extension-premium-box h3 {
+    font-family: "Montserrat", sans-serif;
+    padding: 5px 8px !important;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 0px !important;
+    margin-top: 25px !important;
+    font-weight: 300;
+    width: auto !important;
+    border-bottom: none !important;
+}
+
+.tnp-extension-free-box h3 {
+    font-family: "Montserrat", sans-serif;
+    padding: 5px 8px !important;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 0px !important;
+    margin-top: 25px !important;
+    font-weight: 300;
+    width: auto !important;
+    border-bottom: none !important;
+}
+
+.tnp-integration-box h3 {
+    font-family: "Montserrat", sans-serif;
+    padding: 5px 8px !important;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 0px !important;
+    margin-top: 25px !important;
+    font-weight: 300;
+    width: auto !important;
+    border-bottom: none !important;
+}
+
+.tnp-extension-premium-action {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    padding: 12px; 
+    font-family: "Montserrat", sans-serif;
+}
+
+.tnp-extension-free-action {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    padding: 12px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.tnp-integration-action {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    padding: 12px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.tnp-extension-premium-action span {
+    color: #27AE60;
+}
+
+.tnp-extension-free-action span {
+    color: #27AE60;
+}
+
+.tnp-integration-action span {
+    color: #27AE60;
+}
+
+.tnp-extension-activate {
+    color: #1ABC9C;
+    padding: 5px 8px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.tnp-extension-install {
+    color: #2980B9;
+    padding: 5px 8px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.tnp-extension-buy {
+    color: #F1C40F;
+    padding: 5px 8px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.tnp-extension-free {
+    color: #D35400;
+    padding: 5px 8px;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+}
+
+img.tnp-extensions-free-badge {
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 0;
+    width: 70px;
+}
+
+.tnp-extensions-image img {
+    margin: 25px 0px -10px;
+}
+
+/* Subscription modal for free extensions */
+#tnp-subscribe-overlay {
+    height: 100vh;
+    width: 100vw;
+    z-index: 10000;
+    display: none;
+    background-image: url(images/modal-background.png);
+    background-repeat: repeat;
+    position: fixed;
+    top: 0;
+    left: -20px;
+}
+
+#tnp-subscribe-modal {
+    width: 600px;
+    background-color: rgba(255,255,255,1);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+    padding: 25px;
+    background-color: #1D2B38;
+
+    text-align: center;
+}
+
+#tnp-subscribe-modal img {
+    width: 30%;
+}
+
+#tnp-subscribe-title {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: white;
+    font-weight: 200;
+}
+
+#tnp-subscribe-email-wrapper {
+    margin: 20px;
+}
+
+#tnp-subscribe-email-wrapper input {
+    border: none;
+    background-color: #223242;
+    color: white;
+}
+
+#tnp-subscribe-email {
+    font-size: 24px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+#tnp-subscribe-submit-wrapper {
+    margin-bottom: 20px;
+}
+
+#tnp-subscribe-submit {
+    font-size: 24px;
+    background-color: #219050;
+    color: #fff;
+    padding: 10px 35px;
+    border: 0;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+#tnp-subscribe-no-thanks {
+    color: #666;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* Theme options and theme preview styles */
+
+#tnp-body div.tnp-emails-theme-options {
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 14px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: none;
+    background: #ECF0F1;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+/* -------------------------------- 
+
+Tnp Welcome Slider
+
+-------------------------------- */
+
+.cd-slider-wrapper {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  /* hide horizontal scrollbar on IE11 */
+  overflow: hidden;
+  margin: 0 auto;
+}
+.cd-slider-wrapper .cd-slider, .cd-slider-wrapper .cd-slider > li {
+  height: 100%;
+  width: 100%;
+}
+
+.tnp-logo-big {
+    width: 300px;
+}
+
+.tnp-row {
+    display: table-row;
+}
+
+.tnp-third {
+    width: 33%;
+    float: left;
+}
+
+.tnp-welcome-confirm-button {
+    color: #fff;
+    padding: 10px 30px;
+    background-color: #2ECC71;
+    font-weight: 700;
+    font-size: 15px;
+    box-shadow: 0 20px 38px rgba(0, 0, 0, 0.16);
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    margin: 20px auto 0px;
+}
+
+.tnp-welcome-confirm-button:hover {
+    box-shadow: 0 0 38px rgba(0, 0, 0, 0.16);
+    color: #fff;
+}
+
+.tnp-welcome-confirm-button:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.tnp-welcome-link-button {
+    color: #fff;
+    padding: 10px 30px;
+    background-color: #3498DB;
+    font-weight: 700;
+    font-size: 15px;
+    box-shadow: 0 20px 38px rgba(0, 0, 0, 0.16);
+    text-decoration: none;
+}
+
+.tnp-welcome-link-button:hover {
+    box-shadow: 0 0 38px rgba(0, 0, 0, 0.16);
+    color: #fff;
+}
+
+.tnp-welcome-link-button:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#tnp-welcome input[type="text"], #tnp-welcome input[type="email"] {
+    max-width: 90%;
+} 
+
+.tnp-welcome-next {
+    background-color: #2ECC71;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0px 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.16);
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.tnp-welcome-next:hover {
+    box-shadow: 0 0 38px rgba(0, 0, 0, 0.16);
+    color: #fff;
+}
+
+.tnp-welcome-next:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.tnp-welcome-prev {
+    background-color: #3498DB;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0px 0px 0px 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.16);
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.tnp-welcome-prev:hover {
+    box-shadow: 0 0 38px rgba(0, 0, 0, 0.16);
+    color: #fff;
+}
+
+.tnp-welcome-prev:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.tnp-welcome-next svg {
+    margin-left: 10px;
+}
+
+.tnp-welcome-prev svg {
+    margin-right: 10px;
+}
+
+.cd-slider input {
+    width: 250px;
+    height: 40px;
+    border: 1px solid #6c7280;
+    background: #454a56;
+    color: white;
+    color: white;
+    padding: 0px 10px;
+}
+
+.cd-slider > li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  /* used to vertically center its content */
+  display: table;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.cd-slider > li.visible {
+  /* selected slide */
+  position: relative;
+  z-index: 2;
+  opacity: 1;
+}
+.cd-slider > li:first-of-type {
+  background-color: #2B313A;
+}
+.cd-slider > li:nth-of-type(2) {
+  background-color: #2B313A;
+}
+.cd-slider > li:nth-of-type(3) {
+  background-color: #2B313A;
+}
+.cd-slider > li:nth-of-type(4) {
+  background-color: #2B313A;
+}
+.cd-slider > li:first-of-type, .cd-slider > li:nth-of-type(2), .cd-slider > li:nth-of-type(3), .cd-slider > li:nth-of-type(4) {
+  background-size: cover;
+}
+.cd-slider > li > div {
+  /* vertically center the slider content */
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.cd-slider > li h2, .cd-slider > li p {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  line-height: 1.2;
+  margin: 0 auto 14px;
+  color: #ffffff;
+  width: 90%;
+  max-width: 320px;
+}
+.cd-slider > li h2 {
+    font-size: 40px;
+  }
+  .cd-slider > li p {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: left;
+    color: #B8C3C9;
+    margin: 40px auto;
+  }
+  
+.cd-slider > li .cd-btn {
+  display: inline-block;
+  padding: 1.2em 1.4em;
+  margin-top: .8em;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: .25em;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-transform: uppercase;
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+.no-touch .cd-slider > li .cd-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+@media only screen and (min-width: 768px) {
+  .cd-slider > li h2, .cd-slider > li p {
+    max-width: 520px;
+  }
+  .cd-slider > li h2 {
+    font-size: 40px;
+  }
+  .cd-slider > li p {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: left;
+    color: #B8C3C9;
+    margin: 40px auto;
+    
+  }
+}
+@media only screen and (min-width: 1170px) {
+  .cd-slider > li h2, .cd-slider > li p {
+    margin-bottom: 20px;
+  }
+  .cd-slider > li h2 {
+    font-size: 40px;
+  }
+  .cd-slider > li p {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #B8C3C9;
+    margin: 30px auto;
+  }
+}
+
+/* -------------------------------- 
+
+Tnp Welcome Slider Navigation
+
+-------------------------------- */
+.cd-slider-navigation {
+    position: relative;
+    bottom: 110px;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+}
+
+/* svg cover layer */
+
+.cd-svg-cover {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+.cd-svg-cover path {
+  fill: #ED6A6A;
+}
+.cd-svg-cover.is-animating {
+  z-index: 4;
+  opacity: 1;
+  -webkit-transition: opacity 0.6s;
+  -moz-transition: opacity 0.6s;
+  transition: opacity 0.6s;
+}
+
+/* Switch element style */
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* Cossa sea sta roba? ORDINE! */
+
+#tnp-body div.tnp-emails-theme-options table.form-table {
+    margin: 0;  
+}
+
+#tnp-body div.tnp-emails-theme-options h3 {
+    color: #000;
+}
+
+
+/* Suggerimenti Oggetto + Inserimento Emoticons */
+
+.tnp-emails-edit #options-subject {
+    font-size: 16px;
+    display: inline-block;
+    margin: 20px 0px;
+    width: 70%;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.tnp-suggest-button {
+    font-family: "Montserrat", sans-serif;
+    margin-left: 8px;
+    border-radius: 3px;
+    background-color: #2980B9;
+    padding: 10px 15px 8px;
+    font-size: 14px;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.tnp-suggest-button:hover {
+    background-color: #3f8dbf;
+}
+
+.tnp-popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 10000;
+}
+
+.tnp-popup {
+    width: 40vw;
+    height: 66vh;
+    overflow: auto;
+    margin: 100px auto 0 auto;
+    background-color: #181818;
+    padding: 20px;
+    position: relative;
+}
+.tnp-popup-close {
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #181818;
+    color: #fff;
+    font-size: 40px;
+    padding: 10px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.tnp-subjects-header {
+    font-size: 16px;
+    color: #fff;
+    padding: 0px 70px 20px 20px;
+    font-family: "Montserrat", sans-serif;
+    border-bottom: 1px solid #282828;
+}
+
+#tnp-edit-subjects-list {
+    padding: 0px 70px 20px 20px;
+}
+
+#tnp-edit-subjects-list a {
+    padding: 5px;
+}
+
+#tnp-edit-subjects-list svg {
+    margin: 0px 10px 0px 0px;
+    vertical-align: middle;
+}
+
+.tnp-subject-category {
+    color: #565656;
+    margin: 25px 0px 10px 0px;
+    /* font-family: "Montserrat"; */
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+
+#tnp-edit-emoji-list {
+    font-size: 28px;
+}
+#tnp-edit-emoji-list a {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;  
+}
+
+/* Stili per il campo testo oggetto delle email */
+
+/*#options-subject {
+    background: url(images/idea.svg) no-repeat white 99% 3px;
+    background-size: 25px;
+}
+
+#options-subject:hover {
+    background: url(images/idea.svg) no-repeat red 99% 3px;
+    background-size: 25px;
+}*/
+
+
+/* Stile selettore liste - Schermata di invio newsletter */
+
+.tnp-list-conditions p {
+    margin: 0px 10px;
+}
+
+/* Lists panel */
+.tnp-lists .tnp-notes {
+    margin: 0;
+    font-size: .9em;
+}
+
+/* Codemirror editor with preview */
+iframe.tnp-editor-preview-mobile {
+    box-sizing: border-box; 
+    background-color: #fff;
+    border: 1px solid #bbb; 
+    box-shadow: 1px 1px 10px #777;
+    border-radius: 10px; 
+    padding: 5px; 
+    width: 320px; 
+    height: 500px; 
+    float: left;
+}
+
+iframe.tnp-editor-preview-desktop {
+     box-sizing: border-box; 
+     background-color: #fff; 
+     border: 1px solid #bbb; 
+     border-radius: 10px; 
+     box-shadow: 1px 1px 10px #777; 
+     padding: 15px; 
+     width: 650px; 
+     margin-right: 20px; 
+     height: 500px; 
+     float: left;
+}

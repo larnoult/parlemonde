@@ -1,0 +1,1059 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ThreeWP Broadcast\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Mélanger.cz <plugins@melanger.cz>\n"
+"Language-Team: Melanger.cz <plugins@melanger.cz>\n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext;_n;__ngettext_noop;_n_noop;_x;_nx;"
+"_nx_noop;_ex;esc_attr__;esc_attr_e;esc_attr_x;esc_html__;esc_html_e;"
+"esc_html_x;_c;_nc\n"
+"X-Poedit-Basepath: .\n"
+
+#: src/maintenance/checks/view_blog_access/check.php:65
+#, php-format
+msgid "%s does not have access to any blogs."
+msgstr "%s nemá přístup k žádným blogům."
+
+#: src/maintenance/checks/view_blog_access/check.php:73
+#, php-format
+msgid "%s has access to the following blogs: %s%s%s"
+msgstr "%s má přístup k následujícím blogům: %s%s%s"
+
+#: src/maintenance/checks/broadcast_data/check.php:225
+#, php-format
+msgid "%s rows left to check..."
+msgstr "%s řádku ke zkontrolování..."
+
+#: src/traits/admin_menu.php:73
+#, php-format
+msgid "%s seconds"
+msgstr "%s sekund"
+
+#: src/traits/admin_menu.php:126
+#, php-format
+msgid ""
+"A list of custom post types that have broadcasting enabled. The default "
+"value is %s."
+msgstr ""
+"Seznam vlastních typů obsahu (custom post types) pro které chcete povolit "
+"broadcast. Výchozí hodnota je %s."
+
+#: src/sdk/wordpress/traits/debug.php:48
+#, php-format
+msgid ""
+"According to the settings below, you are currently%s in debug mode. Don't "
+"forget to reload this page after saving the settings."
+msgstr ""
+"Podle nastavení níže nyní %sjste v debuggovacím režimu. Nezapomeňte obnovit "
+"tuto stránku po uložení nastavení."
+
+#: src/traits/admin_menu.php:300
+msgid ""
+"Action to take when attachments with the same filename already exist on the "
+"child blog."
+msgstr ""
+"Co udělat, pokud na podřazeném blogu již existuje příloha se stejným jménem."
+
+#: src/sdk/wordpress/updater/edd.php:59 src/sdk/wordpress/updater/edd.php:85
+msgid "Activate license"
+msgstr "Aktivovat licenci"
+
+#: src/sdk/wordpress/plugin_pack/plugin_pack.php:94
+msgid "Activate plugin"
+msgstr "Aktivovat plugin"
+
+#: src/traits/admin_menu.php:98
+msgid ""
+"Add the following lines to your wp-config.php to help find out why errors or "
+"blank screens are occurring:"
+msgstr ""
+"Přidejte následující řádky do wp-config.php, abyste zjistili, proč se "
+"objevují chyby nebo prázdné obrazovky:"
+
+#: src/traits/admin_menu.php:235
+msgid ""
+"All custom fields are passed through the blacklist and then the whitelist. "
+"If the field exists in the blacklist, it will not be broadcast - unless it "
+"is specified in the whitelist."
+msgstr ""
+"Všechna uživatelská pole (custom fields) jsou porovnávána s blacklistem a "
+"potom s whitelistem. Pokud se pole nachází na blacklistu, nebude "
+"broadcastováno - pokud není zároveň uvedeno ve whitelistu."
+
+#: src/sdk/wordpress/table/top/bulkactions.php:100
+msgid "Apply"
+msgstr "Použít"
+
+#: src/maintenance/checks/broadcast_data/check.php:313
+#, php-format
+msgid "Beginning to check broadcast data. %s rows to check."
+msgstr "Začínám kontrolovat data broadcastu. Zbývá %s řádků."
+
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:383
+msgid "Blog group saved!"
+msgstr "Skupina blogů uložena!"
+
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:249
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:275
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:276
+msgid "Blog groups"
+msgstr "Skupiny blogů"
+
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:105
+msgid ""
+"Blog groups help you to quickly add blogs to the broadcast. First create a "
+"blog group and select the blogs you want. When broadcasting the list of blog "
+"groups will appear above the blog list."
+msgstr ""
+"Skupiny blogů Vám pomohou rychle přidávat blogy pro broadcast. Nejprve "
+"vytvoře skupinu blogů a vyberte blogy, které chcete zařadit. Při povolování "
+"broadcastu se nad seznamem blogů zobrazí seznam skupin."
+
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:122
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:347
+msgid "Blogs"
+msgstr "Blogy"
+
+#: src/traits/admin_menu.php:285
+msgid "Blogs to hide"
+msgstr "Skrýt blogy"
+
+#: src/traits/meta_boxes.php:29 src/traits/admin_menu.php:179
+#: src/traits/admin_menu.php:489 src/traits/post_actions.php:60
+msgid "Broadcast"
+msgstr "Broadcast"
+
+#: src/traits/admin_menu.php:207
+msgid "Broadcast as draft"
+msgstr "Broadcast jako koncept"
+
+#: src/traits/admin_menu.php:193
+msgid "Broadcast custom fields"
+msgstr "Povolit broadcast pro uživatelská pole (custom fields)"
+
+#: src/traits/admin_menu.php:440
+msgid "Broadcast information"
+msgstr "Informace o broadcastu"
+
+#: src/traits/meta_boxes.php:111
+msgid "Broadcast is in debug mode. More information than usual will be shown."
+msgstr ""
+"Broadcast je v debuggovacím režimu. Bude zobrazeno více informací než "
+"obyčejně."
+
+#: src/traits/meta_boxes.php:116
+msgid ""
+"Broadcast is not preparing the meta box because it has already been applied."
+msgstr "Broadcast nepřipravuje meta box, protože již byl použit."
+
+#: src/ThreeWP_Broadcast.php:89
+msgid "Broadcast requires a Wordpress network to function."
+msgstr "Broadcast potřebuje k fungování WordPress síť (network)."
+
+#: src/traits/admin_menu.php:214
+msgid "Broadcast scheduled posts"
+msgstr "Povolit broadcast pro naplánované příspěvky"
+
+#: src/traits/admin_menu.php:200
+msgid "Broadcast taxonomies"
+msgstr "Povolit broadcast pro taxonomie"
+
+#: src/traits/meta_boxes.php:192
+msgid "Broadcast to"
+msgstr "Povolit broadcast pro:"
+
+#: src/traits/admin_menu.php:60
+msgid "Broadcast version"
+msgstr "Broadcast verze"
+
+#: src/traits/post_actions.php:70
+msgid "Broadcasted"
+msgstr "Broadcast"
+
+#: src/sdk/wordpress/table/top/bulkactions.php:103
+msgid "Bulk Actions"
+msgstr "Hromadné Akce"
+
+#: src/sdk/wordpress/table/top/bulkactions.php:102
+msgid "Bulk actions"
+msgstr "Hromadné akce"
+
+#: src/traits/admin_menu.php:229
+msgid "Canonical URL"
+msgstr "Kanonická URL"
+
+#: src/traits/admin_menu.php:228
+msgid ""
+"Child posts have their canonical URLs pointed to the URL of the parent post. "
+"This automatically disables the canonical URL from Yoast's Wordpress SEO "
+"plugin."
+msgstr ""
+"Kanonická URL podřazených příspěvků budou směřovat na URL nadřazených "
+"příspěvků. Toto automaticky zakáže kanonická URL z pluginu Yoast's Wordpress "
+"SEO."
+
+#: src/traits/admin_menu.php:272
+msgid "Clear POST"
+msgstr "Vyčistit POST"
+
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:113
+msgid "Click on the group name to edit or delete it."
+msgstr "Klikněte na název skupiny pro editaci nebo smazání."
+
+#: src/traits/post_actions.php:151
+msgid "Click to modify the post's linkage"
+msgstr "Klikněte pro úpravu propojení příspěvku"
+
+#: src/traits/meta_boxes.php:158
+msgid ""
+"Create a link to the children, which will be updated when this post is "
+"updated, trashed when this post is trashed, etc."
+msgstr ""
+"Vytvoří propojení s podřazeným příspěvkem, který bude aktualizován/smazán "
+"společně s aktuálním, atp."
+
+#: src/traits/admin_menu.php:304
+msgid "Create a new attachment with a randomized suffix"
+msgstr "Vytvořit novou přílohu s náhodným sufixem"
+
+#. Form to add a new blog group.
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:161
+msgid "Create a new blog group"
+msgstr "Vytvořit novou skupinu blogů"
+
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:82
+msgid "Create the blog group"
+msgstr "Vytvořit skupinu blogů"
+
+#: src/traits/admin_menu.php:245
+msgid "Custom field blacklist"
+msgstr "Blacklist uživatelských polí"
+
+#: src/traits/admin_menu.php:232
+msgid "Custom field handling"
+msgstr "Nastavení uživatelských polí"
+
+#: src/traits/admin_menu.php:263
+msgid "Custom field protectlist"
+msgstr "Seznam chráněných uživatelských polí"
+
+#: src/traits/admin_menu.php:254
+msgid "Custom field whitelist"
+msgstr "Whitelist uživatelských polí"
+
+#: src/traits/meta_boxes.php:171
+msgid "Custom fields"
+msgstr "Uživatelská pole (custom fields)"
+
+#: src/traits/admin_menu.php:368
+msgid "Custom post types"
+msgstr "Vlastní typy obsahu (custom post types)"
+
+#: src/traits/admin_menu.php:141
+msgid ""
+"Custom post types must be specified using their internal Wordpress names on "
+"a new line each. It is not possible to automatically make a list of "
+"available post types on the whole network because of a limitation within "
+"Wordpress (the current blog knows only of its own custom post types)."
+msgstr ""
+"Vlastní typy obsahu musí být uvedeny pomocí interních názvů ve WordPressu, "
+"každé na novém řádku. Není možné automaticky vytvořit seznam všech "
+"dostupných typů obsahu v celé síti kvůli limitaci WordPressu (aktuální blog "
+"ví pouze o svých aktuálních uživatelských typech obsahu)."
+
+#: src/traits/admin_menu.php:138
+msgid "Custom post types saved!"
+msgstr "Uživatelské typy obsahu (custom post types) uloženy!"
+
+#: src/traits/admin_menu.php:124
+msgid "Custom post types to broadcast"
+msgstr "Povolit broadcast pro tyto uživatelské typy obsahu (custom post types)"
+
+#: src/sdk/wordpress/updater/edd.php:66
+msgid "Deactivate license for this site"
+msgstr "Deaktivovat licenci pro tyto stránky"
+
+#: src/sdk/wordpress/plugin_pack/plugin_pack.php:95
+msgid "Deactivate plugin"
+msgstr "Deaktivovat plugin"
+
+#: src/sdk/wordpress/traits/debug.php:57
+msgid "Debug IPs"
+msgstr "Debuggovací IP adresy"
+
+#: src/traits/admin_menu.php:92
+msgid "Debug code"
+msgstr "Debuggovací kód"
+
+#: src/sdk/wordpress/traits/debug.php:42 src/traits/admin_menu.php:55
+msgid "Debugging"
+msgstr "Debuggování"
+
+#: src/traits/admin_menu.php:398
+msgid "Delete all child posts"
+msgstr "Smazat všechny podřazené příspěvky"
+
+#: src/traits/admin_menu.php:399
+msgid "Delete all children"
+msgstr "Smazat všechny podřazené"
+
+#: src/traits/admin_menu.php:394
+msgid "Delete child"
+msgstr "Smazat podřazený"
+
+#: src/traits/post_actions.php:128
+msgid "Delete children"
+msgstr "Smazat podřazené"
+
+#: src/sdk/wordpress/updater/edd.php:61
+msgid "Delete license data"
+msgstr "Smazat licenční data"
+
+#: src/traits/admin_menu.php:393
+msgid "Delete the child post"
+msgstr "Smazat podřazený příspěvek"
+
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:402
+msgid "Delete the group"
+msgstr "Smazat skupinu"
+
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:395
+msgid "Delete this blog group"
+msgstr "Smazat tuto skupinu blogů"
+
+#: src/sdk/wordpress/plugin_pack/plugin_pack.php:99
+msgid "Description"
+msgstr "Popis"
+
+#: src/traits/admin_menu.php:293
+msgid "Display in overview"
+msgstr "Zobrazit v přehledu"
+
+#: src/traits/admin_menu.php:244
+msgid "Do not broadcast these custom fields."
+msgstr "Zakázat broadcast těchto uživatelských polí."
+
+#: src/traits/admin_menu.php:262
+msgid "Do not overwrite the following fields on the child blogs if they exist."
+msgstr "Nepřepisovat následující pole na podřazeném blogu, pokud existují."
+
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:221
+msgid "Edit blog group"
+msgstr "Editovat skupinu blogů"
+
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:132
+msgid "Edit or delete this blog group"
+msgstr "Editovat nebo smazat tuto skupinu blogů"
+
+#: src/sdk/wordpress/traits/debug.php:52
+msgid "Enable debugging"
+msgstr "Povolit debuggování"
+
+#: src/traits/admin_menu.php:56
+msgid "Enabled"
+msgstr "Povoleno"
+
+#: src/traits/admin_menu.php:253
+msgid "Exceptions to the blacklist."
+msgstr "Výjimky z blacklistu."
+
+#: src/traits/admin_menu.php:301
+msgid "Existing attachments"
+msgstr "Existující přílohy"
+
+#: src/traits/admin_menu.php:403 src/traits/admin_menu.php:404
+msgid "Find orphans"
+msgstr "Najít sirotky"
+
+#: src/traits/post_actions.php:129
+msgid "Find unlinked children"
+msgstr "Najít nepropojené podřazené příspěvky"
+
+#: src/sdk/wordpress/updater/edd.php:96
+msgid "Force new version check"
+msgstr "Vynutit kontrolu nové verze"
+
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:332
+msgid "General settings"
+msgstr "Obecná nastavení"
+
+#: src/sdk/wordpress/updater/edd.php:69
+msgid "Get link to latest version as zip"
+msgstr "Získat odkaz na nejnovější verzi ve formátu ZIP"
+
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:76
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:335
+msgid "Group name"
+msgstr "Název skupiny"
+
+#: src/traits/admin_menu.php:292
+msgid ""
+"How many children to display in the overview before making the list into a "
+"summary."
+msgstr "Kolik podřazených zobrazit v přehledu před skrytím seznamu do shrnutí"
+
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:398
+msgid "I want to delete this blog group"
+msgstr "Chci vymazat tuto skupinu blogů"
+
+#: src/traits/admin_menu.php:284
+msgid ""
+"In the broadcast meta box, after how many blogs the list should be auto-"
+"hidden."
+msgstr "V meta boxu broadcastu, po kolika blozích automaticky skrýt seznam."
+
+#. Caption for the blog / PHP information table
+#: src/traits/admin_menu.php:46
+msgid "Information"
+msgstr "Informace"
+
+#: src/traits/meta_boxes.php:103
+msgid "Invert selection"
+msgstr "Invertovat výběr"
+
+#: src/traits/admin_menu.php:49
+msgid "Key"
+msgstr "Klíč"
+
+#: src/sdk/wordpress/updater/edd.php:77
+msgid "License key"
+msgstr "Licenční klíč"
+
+#: src/traits/meta_boxes.php:157
+msgid "Link this post to its children"
+msgstr "Propojit tento příspěvek s podřazenými"
+
+#: src/traits/admin_menu.php:186
+msgid "Link to child posts"
+msgstr "Propojit s podřazenými"
+
+#: src/traits/admin_menu.php:369
+msgid "Maintenance"
+msgstr "Údržba"
+
+#: src/traits/admin_menu.php:268
+msgid "Miscellaneous"
+msgstr "Ostatní"
+
+#: src/traits/admin_menu.php:174
+msgid ""
+"Multiple roles may be selected. Each role must be individually selected, "
+"since there is no automatic hierarchy where, for example, authors "
+"automatically include the editor role. Note that only the roles on this blog "
+"can be shown."
+msgstr ""
+"Můžete zvolit více rolí. Každá role musí být zvolena samostatně, protože "
+"nefunguje automatická hierarchie - např. role Editor neobsahuje roli Autor. "
+"Poznámka: jsou zobrazeny pouze role na tomto blogu."
+
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:121
+msgid "Name"
+msgstr "Název"
+
+#: src/sdk/wordpress/plugin_pack/plugin_pack.php:107
+msgid "No action selected."
+msgstr "Nebyla zvolena žádná akce."
+
+#: src/traits/post_actions.php:473
+msgid "No change"
+msgstr "Žádná změna"
+
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:250
+msgid "No group selected"
+msgstr "Nebyla vybrána skupina"
+
+#. Not displaying the blog / PHP information table since the user is not a super admin.
+#: src/traits/admin_menu.php:40
+msgid "No information available."
+msgstr "Žádné informace nejsou dostupné."
+
+#: src/sdk/wordpress/traits/debug.php:56
+#, php-format
+msgid ""
+"Only show debugging info to specific IP addresses. Use spaces between IPs. "
+"You can also specify part of an IP address. Your address is %s"
+msgstr ""
+"Zobrazit debuggovací informace pouze specifickým IP adresám. IP adresy "
+"oddělte mezerami. Můžete také vložit pouze část IP adresy. Vaše IP adresa je "
+"%s"
+
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:216
+msgid "Overview"
+msgstr "Souhrn"
+
+#: src/traits/admin_menu.php:303
+msgid "Overwrite the attachment"
+msgstr "Přepsat přílohu"
+
+#: src/traits/admin_menu.php:72
+msgid "PHP maximum execution time"
+msgstr "PHP maximální doba spuštění skriptu (execution time)"
+
+#: src/traits/admin_menu.php:77
+msgid "PHP memory limit"
+msgstr "PHP limit paměti (memory limit)"
+
+#: src/traits/admin_menu.php:64
+msgid "PHP version"
+msgstr "PHP verze"
+
+#: src/sdk/form2/inputs/radios.php:52
+#: src/sdk/form2/inputs/traits/validation.php:182
+#, php-format
+msgid "Please fill in %s."
+msgstr "Prosím vepište %s."
+
+#: src/sdk/wordpress/plugin_pack/plugin_pack.php:98
+msgid "Plugin"
+msgstr "Plugin"
+
+#: src/traits/meta_boxes.php:260
+msgid "Plugins that have hooked into save_post:"
+msgstr "Pluginy které používají hoko save_post:"
+
+#: src/maintenance/checks/broadcast_data/traits/steps/step_results_fail_missing_post.php:39
+#: src/maintenance/checks/broadcast_data/traits/steps/step_results_fail_duplicate_bcd.php:39
+#: src/maintenance/checks/broadcast_data/traits/steps/step_results_fail_broken_bcd.php:39
+#: src/maintenance/checks/broadcast_data/traits/steps/step_results_fail_missing_children.php:46
+#: src/maintenance/checks/broadcast_data/traits/steps/step_results_fail_missing_children.php:47
+#: src/maintenance/checks/broadcast_data/traits/steps/step_results_fail_child_is_unlinked.php:48
+#: src/maintenance/checks/broadcast_data/traits/steps/step_results_fail_child_is_unlinked.php:49
+#: src/maintenance/checks/broadcast_data/traits/steps/step_results_fail_missing_parents.php:45
+#: src/maintenance/checks/broadcast_data/traits/steps/step_results_fail_missing_parents.php:46
+#: src/maintenance/checks/broadcast_data/traits/steps/step_results_fail_parent_is_unlinked.php:47
+#: src/maintenance/checks/broadcast_data/traits/steps/step_results_fail_parent_is_unlinked.php:48
+#, php-format
+msgid "Post %s on blog %s"
+msgstr "Příspěvek %s na blogu %s"
+
+#: src/traits/post_actions.php:61
+msgid "Post actions"
+msgstr "Akce příspěvků"
+
+#: src/traits/admin_menu.php:460
+msgid "Premium Pack"
+msgstr "Premium balíček"
+
+#: src/traits/admin_menu.php:459
+msgid "Premium Pack info"
+msgstr "Informace o prémiovém balíčku"
+
+#: src/sdk/wordpress/updater/edd.php:90
+msgid "Refresh license status"
+msgstr "Obnovit stav licence"
+
+#: src/traits/admin_menu.php:414
+msgid "Restore all"
+msgstr "Obnovit vše"
+
+#: src/traits/admin_menu.php:413
+msgid "Restore all of the child posts from the trash"
+msgstr "Obnovit všechny podřazené příspěvky z koše"
+
+#: src/traits/admin_menu.php:409
+msgid "Restore child"
+msgstr "Obnovit podřazený"
+
+#: src/traits/post_actions.php:130
+msgid "Restore children"
+msgstr "Obnovit podřazené"
+
+#: src/traits/admin_menu.php:408
+msgid "Restore the child post from the trash"
+msgstr "Obnovit podřazený příspěvek z koše"
+
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:181
+msgid "Role needed to use the group function."
+msgstr "Role potřebná k používání funkce skupin."
+
+#: src/traits/admin_menu.php:171
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:177
+msgid "Roles"
+msgstr "Role"
+
+#: src/maintenance/checks/view_broadcast_data/check.php:81
+#, php-format
+msgid "Row %s in the broadcast data table was not found!"
+msgstr "Řádek %s v tabulce dat broadcastu nebyl nalezen!"
+
+#: src/traits/admin_menu.php:219
+msgid "SEO"
+msgstr "SEO"
+
+#: src/traits/admin_menu.php:311
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:188
+msgid "Save settings"
+msgstr "Uložit nastavení"
+
+#: src/traits/admin_menu.php:130
+msgid "Save the broadcastable custom post types"
+msgstr "Uložit povolení broadcastu pro vlastní typy obsahu (custom post types)"
+
+#: src/traits/meta_boxes.php:104
+msgid "Select / deselect all"
+msgstr "Označit / odznačit vše"
+
+#: src/traits/admin_menu.php:367
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:226
+msgid "Settings"
+msgstr "Nastavení"
+
+#: src/sdk/wordpress/traits/debug.php:51
+msgid "Show debugging information in various places."
+msgstr "Zobrazit debuggovací informace na různých místech."
+
+#: src/traits/post_actions.php:70
+msgid "Shows which blogs have posts linked to this one"
+msgstr "Ukázat které blogy mají příspěvky propojené s tímto"
+
+#: src/sdk/wordpress/base.php:417
+msgid "Super admin"
+msgstr "Super administrátor"
+
+#: src/traits/meta_boxes.php:181
+msgid "Taxonomies"
+msgstr "Taxonomie"
+
+#: src/maintenance/checks/broadcast_data/check.php:298
+msgid "The Broadcast Data table is missing the ID column."
+msgstr "V tabulce dat Broadcastu chybí sloupec s ID."
+
+#: src/traits/admin_menu.php:271
+msgid ""
+"The POST PHP variable is data sent when updating posts. Most plugins are "
+"fine if the POST is cleared before broadcasting, while others require that "
+"the data remains intact. Uncheck this setting if you notice that child posts "
+"are not being treated the same on the child blogs as they are on the parent "
+"blog."
+msgstr ""
+"PHP proměnná POST jsou data odeslána při aktualizaci příspěvků. Většina "
+"pluginů fungují normálně pokud je POST vymazáno před broadcastováním, ale "
+"některé vyžadují nezměněná data. Vypněte toto nastavení, pokud zaznamenáte "
+"rozdíly mezi stejnými příspěvky na nadřazeném a podřazeném blogu."
+
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:94
+#, php-format
+msgid "The blog group %s has been created!"
+msgstr "Skupina blogů %s byla vytvořena!"
+
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:414
+msgid "The blog group has been deleted. Please return to the overview."
+msgstr "Skupina blogů byla smazána. Prosím vraťte se na souhrn."
+
+#: src/traits/admin_menu.php:178
+msgid ""
+"The broadcast access role is the user role required to use the broadcast "
+"function at all."
+msgstr ""
+"Přístupová role broadcast je uživatelská role potřebná k obecnému použití "
+"funkce broadcast."
+
+#: src/traits/admin_menu.php:144
+#, php-format
+msgid ""
+"The custom post types registered on <em>this</em> blog are: <code>%s</code>"
+msgstr ""
+"Vlastní typy obsahu (custom post types) registrovaná na <em>tomto</em> blogu "
+"jsou: <code>%s</code>"
+
+#: src/sdk/form2/inputs/email.php:29
+#, php-format
+msgid "The e-mail address in %s is not valid!"
+msgstr "Emailová adresa v poli %s není platná!"
+
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:139
+msgid "The group has no blogs assigned."
+msgstr "Skupina neobsahuje žádné blogy."
+
+#: src/sdk/wordpress/updater/edd.php:152
+#, php-format
+msgid ""
+"The latest version of the plugin can be downloaded from <a href=\"%s\">here</"
+"a>."
+msgstr "Nejnovější verzi pluginu můžete stáhnout <a href=\"%s\">zde</a>."
+
+#: src/sdk/wordpress/base.php:244
+#, php-format
+msgid ""
+"The plugin and all associated settings and database tables have been "
+"removed. Please %sfollow this link to complete the uninstallation procedure"
+"%s."
+msgstr ""
+"Plugin, všechna nastavení a tabulky v databázi byly odstraněny. Prosím "
+"%sklikněte na tento odkaz pro dokončení odinstalace%s."
+
+#: src/traits/admin_menu.php:276
+msgid ""
+"The priority for the save_post hook. Should be after all other plugins have "
+"finished modifying the post. Default is 640."
+msgstr ""
+"Priorita pro hook save_post. Mělo by probíhat až po modifikaci příspěvku "
+"všemi ostatními pluginy. Výchozí je 640."
+
+#: src/sdk/wordpress/plugin_pack/plugin_pack.php:117
+msgid "The selected plugin(s) have been activated."
+msgstr "Zvolené pluginy byly aktivovány."
+
+#: src/sdk/wordpress/plugin_pack/plugin_pack.php:122
+msgid "The selected plugin(s) have been deactivated."
+msgstr "Zvolené pluginy byly deaktivovány."
+
+#: src/sdk/wordpress/plugin_pack/plugin_pack.php:128
+msgid "The selected plugin(s) have been uninstalled."
+msgstr "Zvolené pluginy byly odinstalovány."
+
+#: src/sdk/form2/inputs/traits/maxlength.php:31
+#, php-format
+msgid "The text in %s is too long!"
+msgstr "Text v poli %s je příliš dlouhý!"
+
+#: src/sdk/form2/inputs/traits/minlength.php:42
+#, php-format
+msgid "The text in %s is too short!"
+msgstr "Text v poli %s je příliš krátký!"
+
+#: src/sdk/form2/inputs/traits/max.php:34
+#, php-format
+msgid "The value in %s (%s) is larger than the allowed maximum of %s."
+msgstr "Hodnota v poli %s (%s) je větší než povolené maximum (%s)."
+
+#: src/sdk/form2/inputs/traits/min.php:34
+#, php-format
+msgid "The value in %s (%s) is smaller than the allowed minimum of %s."
+msgstr "Hodnota v poli %s (%s) je menší než povolené minimum (%s)."
+
+#: src/traits/admin_menu.php:88
+msgid "This can be increased by adding the following to your wp-config.php:"
+msgstr "Tuto hodnotu můžete zvýšit přidáním následujícího do wp-config.php:"
+
+#: src/sdk/wordpress/form2/form.php:141
+msgid "This input is required."
+msgstr "Tento údaj je povinný."
+
+#: src/sdk/wordpress/base.php:245
+msgid "This link will take you to the index page"
+msgstr "Tento odkaz Vás přesměruje na úvodní stranu"
+
+#: src/sdk/wordpress/base.php:220
+msgid ""
+"This page will remove all the plugin tables and settings from the database "
+"and then deactivate the plugin."
+msgstr ""
+"Tato stránka odstraní všechny tabulky a nastavení pluginu z databáze a "
+"následně deaktivuje plugin."
+
+#: src/traits/post_actions.php:499
+msgid "This post has no broadcast links."
+msgstr "Tento příspěvek nemá žádná broadcast propojení."
+
+#: src/traits/meta_boxes.php:123
+msgid ""
+"This post is a broadcasted child post. It cannot be broadcasted further."
+msgstr ""
+"Tento příspěvek je podřazený broadcast příspěvek. Nemůže být dále "
+"broadcastován."
+
+#: src/traits/admin_menu.php:488
+msgid "ThreeWP Broadcast"
+msgstr "ThreeWP Broadcast"
+
+#: src/traits/admin_menu.php:157
+msgid "ThreeWP Broadcast Premium Pack info"
+msgstr "Informace o ThreeWP Broadcast Premium balíčku"
+
+#: src/traits/admin_menu.php:423
+msgid "Trash all child posts"
+msgstr "Odstranit všechny podřazené příspěvky"
+
+#: src/traits/admin_menu.php:424
+msgid "Trash all children"
+msgstr "Odstranit všechny podřazené"
+
+#: src/traits/admin_menu.php:419
+msgid "Trash child"
+msgstr "Odstranit podřazený"
+
+#: src/traits/post_actions.php:131
+msgid "Trash children"
+msgstr "Odstranit podřazené"
+
+#: src/traits/admin_menu.php:418
+msgid "Trash the child post"
+msgstr "Odstranit podřazený příspěvek"
+
+#: src/traits/admin_menu.php:370
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:227
+msgid "Uninstall"
+msgstr "Odinstalovat"
+
+#: src/sdk/wordpress/plugin_pack/plugin_pack.php:96
+#: src/sdk/wordpress/base.php:227
+msgid "Uninstall plugin"
+msgstr "Odinstalovat plugin"
+
+#: src/traits/post_actions.php:132
+msgid "Unlink"
+msgstr "Odstranit propojení"
+
+#: src/traits/admin_menu.php:434
+msgid "Unlink all child posts"
+msgstr "Odstranit propojení všech podřazených příspěvků"
+
+#: src/traits/admin_menu.php:435
+msgid "Unlink all children"
+msgstr "Odstranit propojení všech podřazených"
+
+#: src/traits/admin_menu.php:429
+msgid "Unlink child"
+msgstr "Odstranit propojení podřazeného"
+
+#: src/traits/admin_menu.php:428
+msgid "Unlink the child post"
+msgstr "Odstranit propojení podřazeného příspěvku"
+
+#: src/traits/post_actions.php:461
+msgid "Unlink this post from its parent."
+msgstr "Odstranit propojení toho příspěvku a jeho nadřazeného."
+
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:369
+msgid "Update the blog group"
+msgstr "Aktualizovat skupinu blogů"
+
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:182
+msgid "Use groups"
+msgstr "Použít skupiny"
+
+#: src/traits/admin_menu.php:224
+msgid "Use parent permalink"
+msgstr "Použít trvalý odkaz nadřazeného"
+
+#: src/traits/admin_menu.php:302
+msgid "Use the existing attachment on the child blog"
+msgstr "Použít existující přílohu na podřazeném blogu"
+
+#: src/traits/admin_menu.php:223
+msgid ""
+"Use the parent post's permalink for the children. If checked, child posts "
+"will link back to the parent post."
+msgstr ""
+"Použít trvalý odkaz nadřazeného příspěvku pro podřazený. Pokud je zapnuto, "
+"podřazené příspěvky budou odkaz zpět na nadřazené."
+
+#: src/traits/admin_menu.php:50
+msgid "Value"
+msgstr "Hodnota"
+
+#: src/traits/admin_menu.php:185
+msgid ""
+"When a post is linked with broadcasted posts, the child posts are updated / "
+"deleted when the parent is updated."
+msgstr ""
+"Když je příspěvek propojen s broadcastovanými příspěvky, podřazené příspěvky "
+"jsou aktualizovány/odstraněny, když je nadřazený příspěvek aktualizován/"
+"odstraněn."
+
+#: src/traits/admin_menu.php:192
+msgid "Which role is needed to allow custom field broadcasting?"
+msgstr ""
+"Která role je potřeba pro povolení broadcastu interních uživatelských polí "
+"(custom fields)?"
+
+#: src/traits/admin_menu.php:199
+msgid ""
+"Which role is needed to allow taxonomy broadcasting? The taxonomies must "
+"have the same slug on all blogs."
+msgstr ""
+"Která role je potřeba pro povolení broadcastu taxonomií? Taxonomie musí mít "
+"stejný název (slug) na všech blozích."
+
+#: src/traits/admin_menu.php:206
+msgid "Which role is needed to broadcast drafts?"
+msgstr "Která role je potřeba pro povolení broadcastu pro koncepty?"
+
+#: src/traits/admin_menu.php:213
+msgid "Which role is needed to broadcast scheduled (future) posts?"
+msgstr ""
+"Která role je potřeba pro povolení broadcastu pro naplánované příspěvky?"
+
+#: src/traits/admin_menu.php:82
+msgid "Wordpress memory limit"
+msgstr "WordPress paměťový limit"
+
+#: src/traits/admin_menu.php:68
+msgid "Wordpress upload directory array"
+msgstr "WordPress pole s upload adresáři"
+
+#: src/sdk/wordpress/base.php:223
+msgid "Yes, I'm sure I want to remove all the plugin tables and settings."
+msgstr ""
+"Ano, jsem si jist(a) že chci odstranit všechny tabulky a nastavení pluginu."
+
+#: src/traits/admin_menu.php:238
+msgid ""
+"You can use wildcards: <code>field_*123</code> will match all fields that "
+"start with <code>field_</code> and end with <code>123</code>. If you wish to "
+"match all fields except a few, use <code>*</code> in the blacklist and then "
+"the exceptions in the whitelist."
+msgstr ""
+"Můžete použít zástupné znaky: <code>pole_*123</code> bude odpovídat všem "
+"polím začínajícím na <code>pole_</code> a končícím na <code>123</code>. "
+"Pokud chcete zvolit všechna pole s výjimkou několika z nich, použijte "
+"<code>*</code> v blacklistu a výjimky uveďte na whitelist."
+
+#: src/blog_groups/ThreeWP_Broadcast_Blog_Groups.php:109
+msgid "You have not created any blog groups yet."
+msgstr "Zatím jste nevytvořil(a) žádné skupiny blogů."
+
+#: src/sdk/wordpress/base.php:235
+msgid "You have to check the checkbox in order to uninstall the plugin."
+msgstr "Musíte zaškrtnout zaškrtávací pole pro dokončení odinstalace pluginu."
+
+#. Convenience.
+#. Add translation strings
+#: src/traits/meta_boxes.php:102
+msgid "hide all"
+msgstr "skrýt vše"
+
+#: src/sdk/wordpress/base.php:1842
+msgid "no"
+msgstr "ne"
+
+#. You are currently NOT in debug mode.
+#: src/sdk/wordpress/traits/debug.php:45
+msgid "not"
+msgstr "ne"
+
+#: src/traits/admin_menu.php:277
+msgid "save_post priority"
+msgstr "priorita save_post"
+
+#: src/traits/meta_boxes.php:105
+msgid "show all"
+msgstr "zobrazit vše"
+
+#: src/sdk/wordpress/base.php:1842
+msgid "yes"
+msgstr "ano"
+
+#~ msgid "Broadcast all fields, including those beginning with underscores."
+#~ msgstr ""
+#~ "Povolit broadcast pro všechna pole, včetně těch začínajících podtržítky."
+
+#~ msgid "Broadcast internal custom fields"
+#~ msgstr "Povolit broadcast pro interní uživatelská pole (custom fields)"
+
+#~ msgid "Internal field blacklist"
+#~ msgstr "Blacklist interních polí"
+
+#~ msgid "Internal field protectlist"
+#~ msgstr "Protectlist interních polí"
+
+#~ msgid "Internal field whitelist"
+#~ msgstr "Whitelist interních polí"
+
+#~ msgid ""
+#~ "Some custom fields start with underscores. They are generally Wordpress "
+#~ "internal fields and therefore not broadcasted. Some plugins store their "
+#~ "information as underscored custom fields. If you wish them, or some of "
+#~ "them, to be broadcasted, use either of the options below."
+#~ msgstr ""
+#~ "Některá uživatelské pole (custom fields) začínají podtržítkem. Tato pole "
+#~ "jsou většinou interní pole WordPressu a tedy nejsou broadcastována. "
+#~ "Některé pluginy ukládají svoje informace do polí začínajících "
+#~ "podtržítkem. Pokud chcete aby byly, nebo některé z nich, broadcastována, "
+#~ "použijte jednu z možností níže."
+
+#~ msgid "The default whitelist is: %s"
+#~ msgstr "Výchozí whitelist je: %s"
+
+#~ msgid ""
+#~ "When broadcasting internal custom fields, do not overwrite the following "
+#~ "fields on the child blogs."
+#~ msgstr ""
+#~ "Při povoleném broadcastu interních uživatelských polí (custom fields), "
+#~ "nepřepisovat následující pole na podřazených blozích."
+
+#~ msgid ""
+#~ "When broadcasting internal custom fields, override and do not broadcast "
+#~ "these fields."
+#~ msgstr ""
+#~ "Při povoleném broadcastu interních uživatelských polí (custom fields), "
+#~ "ignorovat a nepovolit broadcast pro tato pole."
+
+#~ msgid ""
+#~ "When not broadcasting internal custom fields, override and broadcast "
+#~ "these fields."
+#~ msgstr ""
+#~ "Při vypnutém broadcastu interních uživatelských polí (custom fields), "
+#~ "ignorovat a povolit broadcast pro tato pole."
+
+#~ msgid "Could not parse date"
+#~ msgstr "Nelze přečíst datum"
+
+#~ msgid "DD"
+#~ msgstr "DD"
+
+#~ msgid "Date format"
+#~ msgstr "Formát data"
+
+#~ msgid "HH"
+#~ msgstr "HH"
+
+#~ msgid "Invalid date"
+#~ msgstr "Neplatné datum"
+
+#~ msgid "Invalid email address"
+#~ msgstr "Neplatná emailová adresa"
+
+#~ msgid "Latest valid date"
+#~ msgstr "Poslední platné datum"
+
+#~ msgid "MM"
+#~ msgstr "MM"
+
+#~ msgid "Minimum length"
+#~ msgstr "Minimální délka"
+
+#~ msgid "Required field"
+#~ msgstr "Povinné pole"
+
+#~ msgid "SS"
+#~ msgstr "SS"
+
+#~ msgid "The value must be larger than or equal to"
+#~ msgstr "Hodnota musí být větší nebo rovna"
+
+#~ msgid "The value must be smaller or equal to"
+#~ msgstr "Hodnota musí být menší nebo rovna"
+
+#~ msgid "Valid values"
+#~ msgstr "Platné hodnoty"
+
+#~ msgid "YYYY"
+#~ msgstr "YYYY"
+
+#~ msgid "characters"
+#~ msgstr "znaků"
+
+#~ msgid "characters long"
+#~ msgstr "znaků"
+
+#~ msgid "may not be empty"
+#~ msgstr "nemá být prázdné"
+
+#~ msgid "may not be larger than"
+#~ msgstr "nemá být větší než"
+
+#~ msgid "may not be smaller than"
+#~ msgstr "nemá být menší než"
+
+#~ msgid "must be at least"
+#~ msgstr "musí být alespoň"

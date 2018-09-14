@@ -1,0 +1,290 @@
+# Copyright (C) 2011
+# This file is distributed under the same license as the  package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/ThreeWP_Broadcast.php\n"
+"POT-Creation-Date: 2011-01-16 09:08+0100\n"
+"PO-Revision-Date: 2012-02-02 10:42+0200\n"
+"X-Poedit-Language: Romanian\n"
+"X-Poedit-Country: Romania\n"
+"Language-Team: Web Geeks\n"
+"Last-Translator: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ThreeWP_Broadcast_3Base.php:610
+#, php-format
+msgid "%s ago"
+msgstr "%s în urmă"
+
+#: ThreeWP_Broadcast.php:65
+#: ThreeWP_Broadcast.php:1689
+msgid "Broadcast"
+msgstr "Difuzare"
+
+#: ThreeWP_Broadcast.php:168
+#: ThreeWP_Broadcast.php:1656
+#: ThreeWP_Broadcast.php:1674
+msgid "Unlink"
+msgstr "Unlink"
+
+#: ThreeWP_Broadcast.php:174
+#: ThreeWP_Broadcast.php:1657
+msgid "Trash"
+msgstr "Gunoi"
+
+#: ThreeWP_Broadcast.php:178
+msgid "Help"
+msgstr "ajutor"
+
+#: ThreeWP_Broadcast.php:183
+msgid "ThreeWP Broadcast groups"
+msgstr "Grupuri de difuzare ThreeWP"
+
+#: ThreeWP_Broadcast.php:620
+msgid "Group blogs have been saved."
+msgstr "Grup blog-uri au fost salvate."
+
+#: ThreeWP_Broadcast.php:627
+msgid "The group name may not be empty!"
+msgstr "Numele grupului nu poate fi gol!"
+
+#: ThreeWP_Broadcast.php:639
+msgid "The group has been created!"
+msgstr "Grupul a fost creat!"
+
+#: ThreeWP_Broadcast.php:645
+msgid "You have not created any groups yet."
+msgstr "Încă nu aţi creat orice grupuri."
+
+#: ThreeWP_Broadcast.php:651
+msgid "Group"
+msgstr "Grupa"
+
+#: ThreeWP_Broadcast.php:660
+msgid "Select/deselect all the blogs in the above group."
+msgstr "Selectare/Deselectare toate blog-uri în grupul de mai sus."
+
+#: ThreeWP_Broadcast.php:669
+msgid "Save groups"
+msgstr "Salvaţi grupurile"
+
+#: ThreeWP_Broadcast.php:675
+msgid "New group name"
+msgstr "Nume grup nou"
+
+#: ThreeWP_Broadcast.php:682
+msgid "Create the new group"
+msgstr "Crea noul grup"
+
+#: ThreeWP_Broadcast.php:688
+msgid "Your groups"
+msgstr "Dvs. grupuri"
+
+#: ThreeWP_Broadcast.php:700
+msgid "Create a new group"
+msgstr "Creaţi un grup nou"
+
+#: ThreeWP_Broadcast.php:714
+msgid "Delete"
+msgstr "Ştergere"
+
+#: ThreeWP_Broadcast.php:717
+msgid "To <strong>delete</strong> a group, leave all blogs in that group unmarked and then save."
+msgstr "Pentru a şterge <strong> </ strong> un grup, se lasă toate blogurile din acel grup de nemarcate şi apoi salvaţi."
+
+#: ThreeWP_Broadcast.php:771
+msgid "Link to child post has been removed."
+msgstr "Link pentru a posta copil a fost eliminat."
+
+#: ThreeWP_Broadcast.php:804
+msgid "All links to child posts have been removed!"
+msgstr "Au fost eliminate toate link-uri la posturi de copil!"
+
+#: ThreeWP_Broadcast.php:844
+msgid "The broadcasted child post has been put in the trash."
+msgstr "Post difuzate copil a fost pus în coşul de gunoi."
+
+#: ThreeWP_Broadcast.php:858
+msgid "What is Broadcast?"
+msgstr "Ceea ce este difuzat?"
+
+#: ThreeWP_Broadcast.php:861
+msgid "What the Broadcast window looks like"
+msgstr "Ceea ce arata ca fereastra de difuzare"
+
+#: ThreeWP_Broadcast.php:865
+msgid "With Broadcast you can post to several blogs at once. The broadcast window is first shown at the bottom right on the Add New post/page screen."
+msgstr "Cu Broadcast puteţi posta pe bloguri simultan la mai multe fereastră de difuzare este, în primul afişat în partea dreapta jos de pe Adaugă post / pagină pe ecran.."
+
+#: ThreeWP_Broadcast.php:866
+msgid "The window contains several options and a list of blogs you have access to."
+msgstr "Fereastra conţine mai multe opţiuni şi o listă de blog-uri aveţi acces la."
+
+#: ThreeWP_Broadcast.php:870
+msgid "Some settings might be disabled by the site administrator and if you do not have write access to any blogs, other than this one, the Broadcast window might not appear."
+msgstr "Unele setări pot fi dezactivate de către administratorul site-ului şi dacă nu aveţi acces de scriere la orice blog-uri, altele decât aceasta, fereastra de Broadcast ar putea să nu apară."
+
+#: ThreeWP_Broadcast.php:874
+msgid "To use the Broadcast plugin, simply select which blogs you want to broadcast the post to and then publish the post normally."
+msgstr "Pentru a folosi plugin-ul Broadcast, selectaţi pur şi simplu pe care doriţi blog-uri de difuzare a posta, apoi să publicaţi postul în mod normal."
+
+#: ThreeWP_Broadcast.php:877
+msgid "Options"
+msgstr "Opţiuni"
+
+#: ThreeWP_Broadcast.php:880
+#: ThreeWP_Broadcast.php:985
+msgid "Link this post to its children"
+msgstr "Leagă acest post de copii sale"
+
+#: ThreeWP_Broadcast.php:880
+msgid "will create a link from this post (the parent) to all the broadcasted posts (children). Updating the parent will result in all the children being updated. Links to the children can be removed in the page / post overview."
+msgstr "va crea un link la acest post (mamă), la toate posturile difuzate (copii). Actualizarea mamă va duce la toţi copiii în curs de actualizare Link-uri la copii pot fi eliminate în listă pagina / post.."
+
+#: ThreeWP_Broadcast.php:884
+msgid "Post overview with unlink options"
+msgstr "Prezentare post cu opţiuni unlink"
+
+#: ThreeWP_Broadcast.php:888
+msgid "When a post is linked to children, the children are overwritten when post is updated - all the categories, tags and fields (including featured image) are also overwritten -  and when the parent is trashed or deleted the children get the same treatment. If you want to keep any children and delete only the parent, use the unlink links in the post overview. The unlink link below the post name removes all links and the unlinks to the right remove singular links."
+msgstr "Atunci când un post este legat de copii, copiii sunt suprascrise atunci când postul este actualizat - toate categoriile, tag-uri şi câmpuri (inclusiv imagini prezentate) sunt, de asemenea, suprascrise -. Şi atunci când societatea-mamă este distrus sau şters copiii obţine acelaşi tratament În cazul în care doriţi să păstraţi orice copil şi şterge numai mamă, să utilizaţi linkurile de deconectez în listă postul legătură într-deconectez de mai jos numele posta elimină toate linkurile şi unlinks pentru a elimina dreptul de link-uri singular.. "
+
+#: ThreeWP_Broadcast.php:892
+#: ThreeWP_Broadcast.php:1000
+msgid "Broadcast categories also"
+msgstr "Categorii de difuzare, de asemenea"
+
+#: ThreeWP_Broadcast.php:892
+msgid "will also try to send the categories together with the post."
+msgstr "va încerca, de asemenea, să trimită categoriile împreună cu post."
+
+#: ThreeWP_Broadcast.php:893
+msgid "In order to be able to broadcast the categories, the selected blogs must have the same category names (slugs) as this blog, else the posts will be posted as uncategorized."
+msgstr "Pentru a putea difuza categorii, blogurile selectate trebuie să aibă nume de aceeaşi categorie (melci), astfel cum acest blog, altfel posturile vor fi postate ca Uncategorized."
+
+#: ThreeWP_Broadcast.php:897
+#: ThreeWP_Broadcast.php:1028
+msgid "Broadcast tags also"
+msgstr "Tag-uri de difuzare, de asemenea"
+
+#: ThreeWP_Broadcast.php:897
+msgid "will also mark the broadcasted posts with the same tags."
+msgstr "de asemenea, va marca mesajele difuzate cu aceeaşi Tag-uri."
+
+#: ThreeWP_Broadcast.php:901
+#: ThreeWP_Broadcast.php:1057
+msgid "Broadcast custom fields"
+msgstr "Difuzare câmpuri particularizate"
+
+#: ThreeWP_Broadcast.php:901
+msgid "will give the broadcasted posts the same custom fields as the original. Use this setting to broadcast the featured image."
+msgstr "va da mesaje difuzate aceleaşi câmpuri particularizate ca originalul. Utilizaţi această setare pentru a difuza imagini prezentate."
+
+#: ThreeWP_Broadcast.php:904
+msgid "Groups"
+msgstr "Grupuri"
+
+#: ThreeWP_Broadcast.php:907
+msgid "If the site administrator allows it you may create groups to quickly select several blogs at once. To create a group, start by typing a group name in the text box and pressing the create button."
+msgstr "În cazul în care administratorul site-ului îi permite să vă poate crea grupuri pentru a selecta rapid blog-uri mai multe la o dată pentru a crea un grup, începe prin tastarea unui nume de grup în caseta de text şi apăsarea butonului crea.."
+
+#: ThreeWP_Broadcast.php:911
+msgid "Group setup"
+msgstr "Parametrizare grupă"
+
+#: ThreeWP_Broadcast.php:915
+msgid "Then select which blogs you want to be automatically selected when you choose this group when editing a new post. Press the save button when you are done. Your new group is ready to be used!"
+msgstr "Apoi selectaţi bloguri pe care doriţi să fie selectat automat atunci când vă alegeţi acest grup de la editarea unui post nou. Apăsaţi butonul Save când aţi terminat dvs. grup nou este gata pentru a fi folosit!\"."
+
+#: ThreeWP_Broadcast.php:916
+msgid "Simply choose it in the dropdown box and the blogs you specified will be automatically chosen."
+msgstr "Pur şi simplu alegeţi-o în caseta verticală şi blogurile pe care aţi specificat va fi automat aleasă."
+
+#: ThreeWP_Broadcast.php:946
+msgid "This post is broadcasted child post. It cannot be broadcasted further."
+msgstr "Acest post este difuzat copil post. Nu poate fi difuzat suplimentare."
+
+#: ThreeWP_Broadcast.php:984
+msgid "Create a link to the children, which will be updated when this post is updated, trashed when this post is trashed, etc."
+msgstr "Crearea unei legătură într-copii, care va fi actualizat atunci când acest post este actualizat, distrus atunci când acest post este distrus, etc"
+
+#: ThreeWP_Broadcast.php:1001
+msgid "The categories must have the same name (slug) on the selected blogs."
+msgstr "Categoriile trebuie să aibă acelaşi nume (slug) pe blog-uri selectate."
+
+#: ThreeWP_Broadcast.php:1014
+msgid "Create categories automatically"
+msgstr "Creaţi categorii automat"
+
+#: ThreeWP_Broadcast.php:1015
+msgid "The categories will be created if they don't exist on the selected blogs."
+msgstr "Categorii vor fi create în cazul în care nu există pe blogurile selectate."
+
+#: ThreeWP_Broadcast.php:1029
+msgid "The tags must have the same name (slug) on the selected blogs."
+msgstr "Tag-uri trebuie să aibă acelaşi nume (slug) pe blog-uri selectate."
+
+#: ThreeWP_Broadcast.php:1042
+msgid "Create tags automatically"
+msgstr "Crearea automată a Tag-uri"
+
+#: ThreeWP_Broadcast.php:1043
+msgid "The tags will be created if they don't exist on the selected blogs."
+msgstr "Tag-uri va fi creat dacă nu există pe blog-uri selectate."
+
+#: ThreeWP_Broadcast.php:1056
+msgid "Broadcast all the custom fields and the featured image?"
+msgstr "Difuzat în toate câmpurile particularizate şi imaginea recomandate?"
+
+#: ThreeWP_Broadcast.php:1072
+msgid "Select blogs in group"
+msgstr "Selectaţi Bloguri în grup"
+
+#: ThreeWP_Broadcast.php:1073
+msgid "No group selected"
+msgstr "Nici un grup selectată"
+
+#: ThreeWP_Broadcast.php:1141
+msgid "This blog has already been linked."
+msgstr "Acest blog a fost deja legată."
+
+#: ThreeWP_Broadcast.php:1153
+msgid "This blog is required and cannot be unselected."
+msgstr "Acest blog este necesară şi nu poate fi selectată."
+
+#: ThreeWP_Broadcast.php:1170
+msgid "Broadcast to:"
+msgstr "Emisiuni:"
+
+#: ThreeWP_Broadcast.php:1172
+#: ThreeWP_Broadcast.php:1187
+#: ThreeWP_Broadcast.php:1753
+msgid "Select/deselect all"
+msgstr "Selectare/Deselectare toate"
+
+#: ThreeWP_Broadcast.php:1618
+msgid "Shows which blogs have posts linked to this one"
+msgstr "Arată Bloguri care au posturi legate de aceasta"
+
+#: ThreeWP_Broadcast.php:1618
+msgid "Broadcasted"
+msgstr "Difuzat"
+
+#: ThreeWP_Broadcast.php:1656
+msgid "Remove links to this broadcasted child"
+msgstr "Eliminare link-uri la acest copil difuzate"
+
+#: ThreeWP_Broadcast.php:1657
+msgid "Put this broadcasted child in the trash"
+msgstr "Pune acest copil difuzate în coşul de gunoi"
+
+#: ThreeWP_Broadcast.php:1674
+msgid "Remove links to all the broadcasted children"
+msgstr "Eliminare link-uri către toate copii difuzate"
+

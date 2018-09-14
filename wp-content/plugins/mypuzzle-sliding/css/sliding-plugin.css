@@ -1,0 +1,89 @@
+/* finish message popup styles */
+::-webkit-scrollbar{width:9px;height:9px;}
+::-webkit-scrollbar-button:start:decrement,#doc ::-webkit-scrollbar-button:end:increment{display:block;height:0;background-color:transparent;}
+::-webkit-scrollbar-track-piece{background-color:#FAFAFA;-webkit-border-radius:0;-webkit-border-bottom-right-radius:8px;-webkit-border-bottom-left-radius:8px;}
+::-webkit-scrollbar-thumb:vertical{height:50px;background-color:#999;-webkit-border-radius:8px;}
+::-webkit-scrollbar-thumb:horizontal{width:50px;background-color:#999;-webkit-border-radius:8px;}
+
+.button>span {
+    font-size:84%;
+}
+
+.button.bClose {
+    border-radius:7px 7px 7px 7px;
+    box-shadow:none;
+    font:bold 131% sans-serif;
+    position:absolute;
+    right:0px;
+    top:0px;
+    padding:0 6px 2px;
+}
+#gallery {
+    background-color:#fff;
+    border-radius:20px 20px 20px 20px;
+    box-shadow:0 0 5px 5px #999;
+    color:#111;
+    display: table;
+    display:none;
+    width:650px;
+    min-height:300px;
+    color:#2B91AF;
+    color:#137abc;
+    font-size: 20px;
+}
+#image_container {
+    padding: 25px 25px 25px 25px;
+}
+#gallery .imageWrapper {
+    margin: 1em;
+    float: left;
+    height: 120px;
+    width: 150px;
+    display: table-cell;
+/*    vertical-align: middle;*/
+}
+#gallery .pickImage{
+        margin-left:auto;
+        margin-right:auto;
+        padding: 5px;
+        height: 100px;
+        border:#FFF 1px solid;
+        vertical-align: top;
+        alignment-adjust: central;
+}
+#gallery .imageTitle {
+    text-align: center;
+    font-size: 12px;
+    padding-bottom:15px;
+    padding-top:5px;
+}
+
+
+#gallery .pickImage:hover {
+    /*background:#e0e0e0;*/
+    /*border:#000 2px solid;*/
+    box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.80);
+    -moz-box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.80);
+    -webkit-box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.80);
+}
+#gallery .pickImage.selected {
+    /*background:#e0e0e0;*/
+    border:#000 2px solid;
+    
+}
+
+.scroll-pane
+{
+    margin-top: 30px;
+    width: 95%;
+    height: 200px;
+    overflow: auto;
+    scrollbar-face-color: #000000; 
+    scrollbar-shadow-color: #2D2C4D; 
+    scrollbar-highlight-color:#7D7E94; 
+    scrollbar-3dlight-color: #7D7E94; 
+    scrollbar-darkshadow-color: #2D2C4D; 
+    scrollbar-track-color: #7D7E94; 
+    scrollbar-arrow-color: #C1C1D1; 
+}
+

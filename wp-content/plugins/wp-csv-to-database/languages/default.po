@@ -1,0 +1,261 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp_csv_to_db\n"
+"POT-Creation-Date: 2013-12-14 01:19-0500\n"
+"PO-Revision-Date: 2013-12-14 01:19-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../main.php:31
+msgid "WP CSV/DB"
+msgstr ""
+
+#: ../main.php:54
+msgid "No Database Table was selected. Please select a Database Table."
+msgstr ""
+
+#: ../main.php:57
+msgid "No Input File was selected. Please enter an Input File."
+msgstr ""
+
+#: ../main.php:62
+msgid ""
+"The Input File does not contain the .csv file extension. Please choose a "
+"valid .csv file."
+msgstr ""
+
+#: ../main.php:86
+msgid "Columns do not match."
+msgstr ""
+
+#: ../main.php:87
+msgid ""
+"The number of columns in the database for this table does not match the "
+"number of columns attempting to be imported from the .csv file."
+msgstr ""
+
+#: ../main.php:92
+msgid "Congratulations!  The database has been updated successfully."
+msgstr ""
+
+#: ../main.php:96
+msgid ""
+"No valid .csv file was found at the specified url. Please check the \"Select "
+"Input File\" field."
+msgstr ""
+
+#: ../main.php:103 ../main.php:110
+msgid "click to dismiss"
+msgstr ""
+
+#: ../main.php:118
+msgid "WordPress CSV to Database Options"
+msgstr ""
+
+#: ../main.php:122 ../main.php:463
+msgid "Settings"
+msgstr ""
+
+#: ../main.php:123
+msgid "Help"
+msgstr ""
+
+#: ../main.php:124
+msgid "Preview"
+msgstr ""
+
+#: ../main.php:131
+msgid "Select Database Table:"
+msgstr ""
+
+#: ../main.php:151
+msgid "Select Input File:"
+msgstr ""
+
+#: ../main.php:157
+msgid "File must end with a .csv extension."
+msgstr ""
+
+#: ../main.php:160
+msgid "Disable \"auto_increment\" Column:"
+msgstr ""
+
+#: ../main.php:167
+msgid "Execute File Upload"
+msgstr ""
+
+#: ../main.php:171
+msgid "Step 1 (Select Database Table):"
+msgstr ""
+
+#: ../main.php:173
+msgid "All WP database tables will be queried and listed in the dropdown box."
+msgstr ""
+
+#: ../main.php:174
+msgid "Select the table name which will be used for the query."
+msgstr ""
+
+#: ../main.php:175
+msgid ""
+"Once the table is selected; the \"Table Preview\" will display the structure "
+"of the table."
+msgstr ""
+
+#: ../main.php:176
+msgid ""
+"By structure, this means all column names will be listed in the order they "
+"appear in the database."
+msgstr ""
+
+#: ../main.php:177
+msgid ""
+"This can be used to match the .csv file prior to execution; and verify it "
+"contains the same structure of columns."
+msgstr ""
+
+#: ../main.php:180
+msgid "Step 2 (Select Input File):"
+msgstr ""
+
+#: ../main.php:182
+msgid "The option will be used to locate the file to be used for execution."
+msgstr ""
+
+#: ../main.php:183
+msgid "A direct url to a .csv file may be entered into the text field."
+msgstr ""
+
+#: ../main.php:184
+msgid ""
+"Alternatively, the \"Upload\" button may be used to initiate the WordPress "
+"uploader and manager."
+msgstr ""
+
+#: ../main.php:185
+msgid ""
+"From here, the file can be uploaded from a computer or selected from the "
+"media library."
+msgstr ""
+
+#: ../main.php:188
+msgid "Step 3 (Disable \"auto_increment\" Column):"
+msgstr ""
+
+#: ../main.php:190
+msgid ""
+"This option will only become available when a database table is selected "
+"which contains an auto-incremented column."
+msgstr ""
+
+#: ../main.php:191
+msgid ""
+"If importing a file which already has an auto-incremented column... this "
+"setting most likely will not be needed."
+msgstr ""
+
+#: ../main.php:195
+msgid ""
+"The Table Preview may be useful when comparing the .csv file against the "
+"database table structure."
+msgstr ""
+
+#: ../main.php:197
+msgid ""
+"The Table Preview will display all table column names, in the order they "
+"appear in the database."
+msgstr ""
+
+#: ../main.php:198
+msgid ""
+"If a table column is set to \"auto_increment\"; this column will appear in "
+"the color \"red\"."
+msgstr ""
+
+#: ../main.php:199
+msgid ""
+"This plugin assumes any \"auto_increment\" column will appear first in the "
+"database table. Please double-check the order of the column names to ensure "
+"they match."
+msgstr ""
+
+#: ../main.php:200
+msgid ""
+"If the option is checked to \"Disable auto-increment Column\"; the number of "
+"database columns will be decreased by \"1\"; for the purposes of importing "
+"the .csv file."
+msgstr ""
+
+#: ../main.php:201
+msgid ""
+"Ultimately... the number of database columns MUST match the number of "
+"columns being imported from the .csv file."
+msgstr ""
+
+#: ../main.php:207
+msgid "Table Preview:"
+msgstr ""
+
+#: ../main.php:208
+msgid "Reload Table Preview"
+msgstr ""
+
+#: ../main.php:209
+msgid ""
+"After selecting a database table from the dropdown above; the table column "
+"names will be shown below."
+msgstr ""
+
+#: ../main.php:210
+msgid ""
+"This may be used as a reference when verifying the .csv file is formatted "
+"properly."
+msgstr ""
+
+#: ../main.php:211
+msgid ""
+"If an \"auto-increment\" column exists; it will be rendered in the color "
+"\"red\"."
+msgstr ""
+
+#: ../main.php:423
+msgid "This table contains an \"auto increment\" column."
+msgstr ""
+
+#: ../main.php:424
+msgid "Please be sure to use unique values in this column from the .csv file."
+msgstr ""
+
+#: ../main.php:425
+msgid ""
+"Alternatively, the \"auto increment\" column may be bypassed by clicking the "
+"checkbox above."
+msgstr ""
+
+#: ../main.php:432
+msgid ""
+"This table contains an \"auto increment\" column that has been removed via "
+"the checkbox above."
+msgstr ""
+
+#: ../main.php:433
+msgid ""
+"This means all new .csv entries will given a unique \"auto incremented\" "
+"value when imported (typically, a numerical value)."
+msgstr ""
+
+#: ../main.php:434
+msgid "The Column Name of the removed column is"
+msgstr ""
+
+#: ../main.php:444
+msgid "No Database Table Selected."
+msgstr ""

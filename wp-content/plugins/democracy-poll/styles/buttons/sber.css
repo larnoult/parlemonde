@@ -1,0 +1,25 @@
+/* button */
+input[type="submit"].dem-button,
+a.dem-button,
+.dem-button{
+  color: #ffffff;
+  padding: .5em 2em;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: background .2s;
+}
+
+a.dem-button:visited{ color:#ffffff; }
+
+input[type="submit"].dem-button:hover,
+a.dem-button:hover,
+.dem-button:hover {
+    background: linear-gradient(#f5ae00, #f59500) #f5ae00;
+}
+
+input[type="submit"].dem-button:active,
+a.dem-button:active,
+.dem-button:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }

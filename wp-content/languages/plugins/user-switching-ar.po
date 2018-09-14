@@ -1,0 +1,73 @@
+# Translation of Plugins - User Switching - Stable (latest release) in Arabic
+# This file is distributed under the same license as the Plugins - User Switching - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-10-15 18:34:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ar\n"
+"Project-Id-Version: Plugins - User Switching - Stable (latest release)\n"
+
+#: user-switching.php:102
+msgctxt "User Switching title on user profile screen"
+msgid "User Switching"
+msgstr "تحويل المستخدم"
+
+#: user-switching.php:162 user-switching.php:188 user-switching.php:197
+#: user-switching.php:202 user-switching.php:229
+msgid "Could not switch users."
+msgstr "تعذر تحويل المستخدم."
+
+#: user-switching.php:103 user-switching.php:606 user-switching.php:643
+#: user-switching.php:671
+msgid "Switch&nbsp;To"
+msgstr "تحويل إلى"
+
+#. Translators: "switch off" means to temporarily log out
+#: user-switching.php:238 user-switching.php:258
+msgid "Could not switch off."
+msgstr "تعذر الإطفاء."
+
+#. Translators: "switch off" means to temporarily log out
+#: user-switching.php:500
+msgid "Switch Off"
+msgstr "أطفئ"
+
+#. Translators: 1: user display name; 2: username;
+#: user-switching.php:379
+msgid "Switched back to %1$s (%2$s)."
+msgstr "تم التحويل إلى %1$s (%2$s)."
+
+#. Translators: 1: user display name; 2: username;
+#: user-switching.php:346 user-switching.php:476 user-switching.php:517
+#: user-switching.php:542 user-switching.php:566
+msgid "Switch back to %1$s (%2$s)"
+msgstr "تحويل إلى %1$s (%2$s)"
+
+#. Translators: 1: user display name; 2: username;
+#: user-switching.php:333 user-switching.php:386
+msgid "Switched to %1$s (%2$s)."
+msgstr "تم التحويل إلى %1$s (%2$s)"
+
+#. Plugin URI of the plugin/theme
+msgid "https://johnblackbourn.com/wordpress-plugin-user-switching/"
+msgstr "https://johnblackbourn.com/wordpress-plugin-user-switching/"
+
+#. Plugin Name of the plugin/theme
+msgid "User Switching"
+msgstr "تحويل المستخدم"
+
+#. Author of the plugin/theme
+msgid "John Blackbourn"
+msgstr "John Blackbourn"
+
+#. Description of the plugin/theme
+msgid "Instant switching between user accounts in WordPress"
+msgstr "التحويل المباشر بين حسابات المستخدم في ووردبريس"
+
+#. Author URI of the plugin/theme
+msgid "https://johnblackbourn.com/"
+msgstr "https://johnblackbourn.com/"

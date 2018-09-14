@@ -1,0 +1,152 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BuddyPress Advanced XProfile\n"
+"POT-Creation-Date: 2016-10-04 20:08-0500\n"
+"PO-Revision-Date: 2016-10-04 20:08-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../sp-advanced-xprofile.php:135
+msgid "Labels"
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:142
+msgid "Registration"
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:146
+msgid "Label on registration page"
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:151
+msgid "Self Profile"
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:155
+msgid "Label while viewing your profile"
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:160
+msgid "User's Profile"
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:164
+msgid "Label while viewing another member's page"
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:169
+msgid "Edit Profile"
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:173
+msgid "Label on edit profile page"
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:178
+msgid "Admin Column"
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:182
+msgid "Admin column title "
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:190
+msgid "Validation"
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:196
+msgid "Character Limit"
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:200
+msgid "Set the maximum amount of characters for this field."
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:206
+msgid "Minimum Characters"
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:210
+msgid "Set the minimum amount of characters for this field."
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:216
+msgid "Text Format"
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:219
+msgid "-Select Format-"
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:221
+msgid "Alphanumeric"
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:224
+msgid "Alpha"
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:227
+msgid "Email"
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:230
+msgid "URL"
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:234
+msgid "Choose the text format for an input field."
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:240
+msgid "Advanced Options"
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:248
+msgid "Hide on registration"
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:251
+msgid "Hide field on registration page"
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:257
+msgid "Non editable"
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:260
+msgid "Stop profile field from being updated"
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:266
+msgid "Show in Admin Column"
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:269
+msgid "Display a column on admin user listing page"
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:409
+msgid "Please enter only letters"
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:413
+msgid "Letters, numbers, and underscores only"
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:435
+msgid "Please specify a valid state"
+msgstr ""
+
+#: ../sp-advanced-xprofile.php:439
+msgid "The specified US ZIP Code is invalid"
+msgstr ""

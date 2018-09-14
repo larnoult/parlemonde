@@ -1,0 +1,171 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widget Logic v0.57\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-12-18 08:33+0100\n"
+"Last-Translator: HunStArt <szemcse@freemail.hu>\n"
+"Language-Team: HunStArt <szemcse@freemail.hu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"Language: hu_HU\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ widget-logic
+#. translators: plugin header field 'Name'
+#: widget_logic.php:0
+msgid "Widget Logic"
+msgstr "Widget Logika"
+
+# @ widget-logic
+#. translators: plugin header field 'PluginURI'
+#: widget_logic.php:0
+msgid "http://wordpress.org/extend/plugins/widget-logic/"
+msgstr "http://wordpress.org/extend/plugins/widget-logic/"
+
+# @ widget-logic
+#. translators: plugin header field 'Description'
+#: widget_logic.php:0
+msgid "Control widgets with WP's conditional tags is_home etc"
+msgstr "Vezérlő widget WP feltételes címkékel pl: is_home stb."
+
+# @ widget-logic
+#. translators: plugin header field 'Author'
+#: widget_logic.php:0
+msgid "Alan Trewartha"
+msgstr "Alan Trewartha"
+
+# @ widget-logic
+#. translators: plugin header field 'AuthorURI'
+#: widget_logic.php:0
+msgid "http://freakytrigger.co.uk/author/alan/"
+msgstr "http://freakytrigger.co.uk/author/alan/"
+
+# @ widget-logic
+#. translators: plugin header field 'Version'
+#: widget_logic.php:0
+msgid "0.57"
+msgstr "0.57"
+
+# @ widget-logic
+#: widget_logic.php:18
+msgid "when plugin starts (default)"
+msgstr "amikor a bővítmény indul (alapértelmezett)"
+
+# @ widget-logic
+#: widget_logic.php:19
+msgid "after theme loads"
+msgstr "sablon betöltése után"
+
+# @ widget-logic
+#: widget_logic.php:20
+msgid "when all PHP loaded"
+msgstr "amikor minden PHP betöltődött"
+
+# @ widget-logic
+#: widget_logic.php:21
+msgid "during page header"
+msgstr "fejléc közben"
+
+# @ widget-logic
+#: widget_logic.php:96
+msgid "Success! Options file imported"
+msgstr "A beállításokat tartalmazó fájl importálása sikeresen befejeződött"
+
+# @ widget-logic
+#: widget_logic.php:99
+msgid "Invalid options file"
+msgstr "Érvénytelen fájl beállítások"
+
+# @ widget-logic
+#: widget_logic.php:104
+msgid "No options file provided"
+msgstr "Beállítások fájl nincs kiválasztva"
+
+# @ widget-logic
+#: widget_logic.php:173
+msgid "Widget Logic options"
+msgstr "Widget Logika Beállításai"
+
+# @ widget-logic
+#: widget_logic.php:176
+msgid ""
+"Adds a new WP filter you can use in your own code. Not needed for main "
+"Widget Logic functionality."
+msgstr ""
+"Hozzáad egy új WP szűrőt saját kód segítségével. Nem szükséges főbb Widget "
+"Logic funkcionalitás."
+
+# @ widget-logic
+#: widget_logic.php:178
+msgid "Add 'widget_content' filter"
+msgstr "'Widget_content' szűrő hozzáadása"
+
+# @ widget-logic
+#: widget_logic.php:181
+msgid "Resets a theme's custom queries before your Widget Logic is checked"
+msgstr ""
+"Visszaállítja a sablon szokás lekérdezéseit, mielőtt a Widget Logic meg van "
+"jelölve"
+
+# @ widget-logic
+#: widget_logic.php:183
+msgid "Use 'wp_reset_query' fix"
+msgstr "Használja a 'Wp_reset_query' megerősítést"
+
+# @ widget-logic
+#: widget_logic.php:186
+msgid ""
+"Delays widget logic code being evaluated til various points in the WP "
+"loading process"
+msgstr ""
+"Widget logika kód értékelt késleltetései, ami a WP különböző pontjain "
+"történő betöltési folyamat eléréséhez szükségesek"
+
+# @ widget-logic
+#: widget_logic.php:186
+msgid "Load logic"
+msgstr "Logika betöltése"
+
+# @ widget-logic
+#: widget_logic.php:199
+msgid "Save WL options"
+msgstr "WL beállításainak mentése"
+
+# @ widget-logic
+#: widget_logic.php:203
+msgid "Save all WL options to a plain text config file"
+msgstr "Menti az összes WL beállítást sima szöveges konfigurációs fájlba"
+
+# @ widget-logic
+#: widget_logic.php:203
+msgid "Export options"
+msgstr "Beállítások exportállása"
+
+# @ widget-logic
+#: widget_logic.php:204
+msgid "Import options"
+msgstr "Beállítások importállása"
+
+# @ widget-logic
+#: widget_logic.php:204
+msgid "Load all WL options from a plain text config file"
+msgstr "Betölti az összes WL beállítást sima szöveges konfigurációs fájlból"
+
+# @ widget-logic
+#: widget_logic.php:205
+msgid "Select file for importing"
+msgstr "Fájl kiválasztása importállásra"
+
+# @ widget-logic
+#: widget_logic.php:241
+msgid "Widget logic:"
+msgstr "Widget logika:"

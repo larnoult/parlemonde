@@ -1,0 +1,12 @@
+07-12-2014 21:53:40 - ERROR - 32,8 MB - Blocked by transient newsletter_main_engine set 0 seconds ago
+10-01-2015 12:58:37 - ERROR - 33, 1 MB - Blocked by transient newsletter_main_engine set 0 seconds ago
+12-01-2015 22:05:49 - ERROR - 33, 1 MB - Blocked by transient newsletter_main_engine set 0 seconds ago
+14-01-2015 12:54:39 - ERROR - 9, 2 MB - Blocked by transient newsletter_main_engine set 0 seconds ago
+20-02-2015 23:08:55 - ERROR - 37, 6 MB - Blocked by transient newsletter_main_engine set 0 seconds ago
+20-02-2015 23:08:55 - ERROR - 37, 6 MB - Blocked by transient newsletter_main_engine set 0 seconds ago
+25-02-2015 13:14:13 - ERROR - 37, 6 MB - Blocked by transient newsletter_main_engine set 0 seconds ago
+25-02-2015 13:14:13 - ERROR - 37, 6 MB - Blocked by transient newsletter_main_engine set 0 seconds ago
+05-03-2015 11:49:52 - ERROR - 37, 7 MB - Blocked by transient newsletter_main_engine set 0 seconds ago
+12-03-2015 01:30:13 - ERROR - 37, 7 MB - Blocked by transient newsletter_main_engine set 0 seconds ago
+21-03-2015 19:31:03 - ERROR - 37, 7 MB - Blocked by transient newsletter_main_engine set 0 seconds ago
+22-03-2015 13:53:42 - ERROR - 37, 7 MB - Blocked by transient newsletter_main_engine set 0 seconds ago

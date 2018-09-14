@@ -1,0 +1,131 @@
+# Translation of Plugins - WP Rollback - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - WP Rollback - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-12-20 17:14:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - WP Rollback - Stable (latest release)\n"
+
+#: wp-rollback.php:510
+msgid "View Changelog"
+msgstr "Ver cambios"
+
+#: wp-rollback.php:294
+msgid "Sorry, we couldn't find a changelog entry found for this version. Try checking the <a href=\"%s\" target=\"_blank\">developer log</a> on WP.org."
+msgstr "Lo sentimos, no pudimos encontrar una entrada de registro de cambios registrada para esta versión. Intenta verificar el <a href=\"%s\" target=\"_blank\">registro de desarrolladores</a> en WP.org."
+
+#: includes/rollback-menu.php:42
+msgid "Oh no! We're missing required rollback query strings. Please contact support so we can check this bug out and squash it!"
+msgstr "¡Oh no! Faltan las cadenas de consulta de retroceso necesarias. ¡Por favor, ponte en contacto con soporte para que podamos comprobar este bug y aplastarlo!"
+
+#. Author of the plugin/theme
+msgid "WordImpress"
+msgstr "WordImpress"
+
+#. Description of the plugin/theme
+msgid "Rollback (or forward) any WordPress.org plugin or theme like a boss."
+msgstr "Retrocede (o adelanta) la versión de cualquier tema o plugin de WordPress como un jefe."
+
+#. #-#-#-#-#  wp-rollback-code.pot (WP Rollback 1.5)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  wp-rollback-code.pot (WP Rollback 1.5)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "https://wordimpress.com/"
+msgstr "https://wordimpress.com/"
+
+#: wp-rollback.php:804
+msgid "(WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.)"
+msgstr "(WordPress no pudo establecer una conexión segura con WordPress.org. Ponte en contacto con el administrador del servidor.)"
+
+#: wp-rollback.php:804
+msgid "An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href=\"https://wordpress.org/support/\">support forums</a>."
+msgstr "Ocurrió un error inesperado. Algo puede estar mal con WordPress.org o la configuración de este servidor. Si sigues teniendo problemas, prueba los <a href=\"https://wordpress.org/support/\">foros de soporte</a>."
+
+#: wp-rollback.php:503
+msgid "Installed Version"
+msgstr "Versión instalada"
+
+#: wp-rollback.php:340
+msgid "You do not have sufficient permissions to perform rollbacks for this site."
+msgstr "No tienes suficientes permisos para realizar retrocesos en este sitio."
+
+#: wp-rollback.php:295
+msgid "Please select a version number to perform a rollback."
+msgstr "Selecciona un número de versión para realizar un retroceso."
+
+#: wp-rollback.php:265
+msgid "Loading..."
+msgstr "Cargando..."
+
+#: wp-rollback.php:264
+msgid "No Rollback Available: This is a non-WordPress.org theme."
+msgstr "No hay ningún retroceso disponible: Este no es un tema de WordPress.org."
+
+#: wp-rollback.php:148 wp-rollback.php:160
+msgid "Cheatin&#8217; huh?"
+msgstr "¿Haciendo trampas?"
+
+#: includes/rollback-menu.php:117
+msgid "<strong>Notice:</strong> We strongly recommend you perform a test rollback on a staging site and create a complete backup of your WordPress files and database prior to performing a rollback. We are not responsible for any misuse, deletions, white screens, fatal errors, or any other issue arising from using this plugin."
+msgstr "<strong>Aviso:</strong> te recomendamos que realices un retroceso de pruebas en un sitio de ensayo y crees una copia de seguridad completa de tus archivos de WordPress y de la base de datos antes de realizar un retroceso. No nos hacemos responsables de cualquier uso incorrecto, borrados, pantallas blancas, errores fatales o cualquier otro problema derivado del uso de este plugin."
+
+#: includes/rollback-menu.php:107
+msgid "New Version:"
+msgstr "Nueva versión:"
+
+#: includes/rollback-menu.php:101
+msgid "Installed Version:"
+msgstr "Versión instalada:"
+
+#: includes/rollback-menu.php:94
+msgid "Theme Name:"
+msgstr "Nombre del tema:"
+
+#: includes/rollback-menu.php:92
+msgid "Plugin Name:"
+msgstr "Nombre del plugin:"
+
+#: includes/rollback-menu.php:83
+msgid "Are you sure you want to perform the following rollback?"
+msgstr "¿Estás seguro de que deseas realizar el siguiente retroceso?"
+
+#: includes/rollback-menu.php:65 includes/rollback-menu.php:122
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: includes/rollback-menu.php:64 includes/rollback-menu.php:121
+#: wp-rollback.php:263 wp-rollback.php:567 wp-rollback.php:637
+#: wp-rollback.php:688
+msgid "Rollback"
+msgstr "Retroceso"
+
+#: includes/rollback-menu.php:26
+msgid "plugin"
+msgstr "plugin"
+
+#: includes/rollback-menu.php:26
+msgid "theme"
+msgstr "tema"
+
+#: includes/rollback-menu.php:26
+msgid "Please select which %1$s version you would like to rollback to from the releases listed below. You currently have version %2$s installed of %3$s."
+msgstr "Por favor, selecciona la versión de %1$s a la que desearías retroceder de las versiones que se enumeran a continuación. Actualmente tienes instalada la versión %2$s de %3$s."
+
+#. #-#-#-#-#  wp-rollback-code.pot (WP Rollback 1.5)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: includes/rollback-menu.php:23
+msgid "WP Rollback"
+msgstr "WP Rollback"
+
+#: includes/rollback-menu.php:10
+msgid "WP Rollback is missing necessary parameters to continue. Please contact support."
+msgstr "WP Rollback no encuentra los parámetros necesarios para continuar. Ponte en contacto con el servicio de soporte."
+
+#: includes/rollback-action.php:35
+msgid "This rollback request is missing a proper query string. Please contact support."
+msgstr "Este retroceso no tiene una cadena de consulta adecuada. Ponte en contacto con el servicio de soporte."

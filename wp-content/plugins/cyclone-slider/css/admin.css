@@ -1,0 +1,775 @@
+.clear{
+	clear:both;
+	display: block;
+}
+.clearfix:after,
+.cs-slide-image:after,
+.cs-slide-youtube:after,
+.cs-slide-actions:after,
+.cs-slide-testimonial:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/*** Add extra space in wp 3.6 ***/
+.cycloneslider.version-3-6 #titlediv{
+	margin-bottom: 20px;
+}
+
+/*** ID Metabox ***/
+#cyclone-slider-id input[type="text"]{
+	display: inline-block;
+	min-width: 30%;
+}
+#cyclone-slider-id .cycloneslider-field{
+	padding: 10px 10px 0 10px;
+}
+
+/*** Codes Metabox ***/
+#cyclone-slider-codes .inside{
+    padding:0;
+}
+
+/*** Slides Metabox ***/
+#cyclone-slides-metabox .inside, 
+#cyclone-slider-templates-metabox .inside {
+    margin:0;
+    padding:0;
+	box-sizing: border-box;
+}
+#cyclone-slides-metabox .inside *,
+#cyclone-slides-templates-metabox .inside * {
+	box-sizing: inherit;
+}
+.cs-slide-actions {
+	padding: 20px;
+	border-bottom: 1px solid #eee;
+}
+.cs-slide-actions button {
+	float: left;
+	border: 1px solid #d3d3d3;
+	padding: 5px 10px;
+	margin: 0;
+	color: #444;
+	line-height: 1.5;
+	cursor:pointer;
+	outline: 0;
+	margin-left: -1px;
+	background-color: #f1f1f1; /* Fallback */
+	background-image: -ms-linear-gradient(top, #f9f9f9, #ececec); /* IE10 */
+	background-image: -moz-linear-gradient(top, #f9f9f9, #ececec); /* Firefox */
+	background-image: -o-linear-gradient(top, #f9f9f9, #ececec); /* Opera */
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#ececec)); /* old Webkit */
+	background-image: -webkit-linear-gradient(top, #f9f9f9, #ececec); /* new Webkit */
+	background-image: linear-gradient(top, #f9f9f9, #ececec); /* proposed W3C Markup */
+}
+.cs-slide-actions button:hover,
+.cs-slide-actions button:focus {
+	border-color: #999;
+	position: relative;
+	z-index: 1;
+}
+.cs-slide-actions button.active {
+	-webkit-box-shadow: inset 0 0 15px #006799;
+	-moz-box-shadow: inset 0 0 15px #006799;
+	box-shadow: inset 0 0 15px #006799;
+    background: #0085ba;
+    color: #fff;
+    border-color: #0085b9;
+}
+.cs-slide-actions button:first-child {
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	margin-left: 0;
+}
+.cs-slide-actions button:last-child {
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.cs-sortables {
+	padding: 0;
+	margin: 20px;
+}
+.cs-sortables.active {
+	padding: 10px;
+	border: 1px dashed #d3d3d3;
+}
+.cs-sortables.active .cs-header {
+	cursor: move;
+}
+.cs-slide {
+	margin-bottom:10px;
+}
+.cs-slide:last-child,
+.cs-slide-placeholder:last-child {
+	margin-bottom: 0;
+}
+.cs-header{
+	position: relative;
+    border:1px solid #D3D3D3;
+    background-color: #f1f1f1; /* Fallback */
+	background-image: -ms-linear-gradient(top, #f9f9f9, #ececec); /* IE10 */
+	background-image: -moz-linear-gradient(top, #f9f9f9, #ececec); /* Firefox */
+	background-image: -o-linear-gradient(top, #f9f9f9, #ececec); /* Opera */
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#ececec)); /* old Webkit */
+	background-image: -webkit-linear-gradient(top, #f9f9f9, #ececec); /* new Webkit */
+	background-image: linear-gradient(top, #f9f9f9, #ececec); /* proposed W3C Markup */
+}
+
+.cs-slide[data-slide-hidden="1"] .cs-header {
+	border-color: #e0e0e0;
+	color: #A2A2A2;
+}
+
+.cs-slide-settings svg {
+	margin: 3px;
+    vertical-align: middle;
+}
+.cs-slide-settings .expandable-header span{
+	display: inline-block;
+    vertical-align: middle;
+}
+.cs-slide-settings .expandable-header {
+	border: 0;
+	text-align: right;
+}
+.rtl .cs-slide-settings .expandable-header {
+	text-align: left;
+}
+.cs-slide-settings .expandable-body {
+	border-left: 0;
+	border-right: 0;
+}
+
+.admin-color-light .cs-header {
+	background-color: #F9F9F9;
+	background-image: none;
+}
+
+/* Admin - Blue */
+.admin-color-blue .cs-title,
+.admin-color-blue .cs-templates, 
+.admin-color-blue .cs-templates .body.active,
+.admin-color-blue .cs-templates a,
+.admin-color-blue.cycloneslider h2,
+.admin-color-blue.cycloneslider h3,
+.admin-color-blue.cycloneslider .meta-box-sortables,
+.admin-color-blue .expandable-header,
+.admin-color-blue .cs-slide .note,
+.admin-color-blue .cycloneslider-field .note {
+	color: #0C4D63;
+}
+
+/* Admin - Ocean */
+.admin-color-ocean .cs-title,
+.admin-color-ocean .cs-templates, 
+.admin-color-ocean .cs-templates .body.active,
+.admin-color-ocean .cs-templates a,
+.admin-color-ocean.cycloneslider h2,
+.admin-color-ocean.cycloneslider h3,
+.admin-color-ocean.cycloneslider .meta-box-sortables,
+.admin-color-ocean .expandable-header,
+.admin-color-ocean .cs-slide .note,
+.admin-color-ocean .cycloneslider-field .note {
+	color: #516166;
+}
+
+/* Admin - Coffee */
+.admin-color-coffee .cs-title,
+.admin-color-coffee .cs-templates,
+.admin-color-coffee .cs-templates a,
+.admin-color-coffee.cycloneslider h2,
+.admin-color-coffee.cycloneslider h3,
+.admin-color-coffee.cycloneslider .meta-box-sortables,
+.admin-color-coffee .expandable-header,
+.admin-color-coffee .cs-slide .note,
+.admin-color-coffee .cycloneslider-field .note {
+	color: #59524C;
+}
+.admin-color-coffee .cs-templates .body.active,
+.admin-color-coffee .cs-templates .body.active a{
+	color: #46403C;
+}
+.admin-color-coffee .cs-header,
+.admin-color-coffee .cs-body,
+.admin-color-coffee .cs-slide-type-bar {
+	border-color: #D8CCC2;
+}
+.admin-color-coffee .cs-slide:hover .cs-header,
+.admin-color-coffee .cs-slide:hover .cs-body{
+    border-color: #CABCB1;
+}
+
+/* Admin - Ectoplasm */
+.admin-color-ectoplasm .cs-title,
+.admin-color-ectoplasm .cs-templates, 
+.admin-color-ectoplasm .cs-templates a,
+.admin-color-ectoplasm.cycloneslider h2,
+.admin-color-ectoplasm.cycloneslider h3,
+.admin-color-ectoplasm.cycloneslider .meta-box-sortables,
+.admin-color-ectoplasm .expandable-header,
+.admin-color-ectoplasm .cs-slide .note,
+.admin-color-ectoplasm .cycloneslider-field .note {
+	color: #413256;
+}
+.admin-color-ectoplasm .cs-templates .body.active{
+	color: #523F6D;
+}
+.admin-color-ectoplasm .cs-header,
+.admin-color-ectoplasm .cs-body,
+.admin-color-ectoplasm .cs-slide-type-bar {
+	border-color: #D8CAEC;
+}
+.admin-color-ectoplasm .cs-slide:hover .cs-header,
+.admin-color-ectoplasm .cs-slide:hover .cs-body{
+    border-color: #BEB1CF;
+}
+
+/* Admin - Sunrise */
+.admin-color-sunrise .cs-title,
+.admin-color-sunrise .cs-templates, 
+.admin-color-sunrise .cs-templates .body.active,
+.admin-color-sunrise .cs-templates a,
+.admin-color-sunrise.cycloneslider h2,
+.admin-color-sunrise.cycloneslider h3,
+.admin-color-sunrise.cycloneslider .meta-box-sortables,
+.admin-color-sunrise .expandable-header,
+.admin-color-sunrise .cs-slide .note,
+.admin-color-sunrise .cycloneslider-field .note {
+	color: #8B3B38;
+}
+
+
+.cs-title{
+    float:left;
+	padding:4px 6px;
+	max-width: 50%;
+	white-space: nowrap;
+	overflow: hidden;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}
+.rtl .cs-title{
+	float:right;
+}
+.cs-controls{
+    float:right;
+	padding:2px 5px;
+}
+.rtl .cs-controls{
+	float:left;
+	text-align: right;
+}
+.cs-controls button {
+	font-size: 16px;
+	background: none;
+	border: 0;
+	outline:0;
+	cursor: pointer;
+}
+.cs-controls .cs-delete svg{
+    fill: #CC0A0C;
+}
+.cs-controls .cs-minimize svg{
+    fill: #444;
+}
+.cs-slide:hover .cs-header,
+.cs-slide:hover .cs-body{
+    border-color:#c0c0c0;
+}
+.cs-header .cs-delete:hover svg{
+    fill:#ff0000;
+}
+.cs-body{
+    background:#F5F5F5;
+    min-height:1px; /* IE7 - on open disappearing content - bug fix */
+    border-left:1px solid #D3D3D3;
+    border-right:1px solid #D3D3D3;
+    border-bottom:1px solid #D3D3D3;
+    display:none;
+}
+.cs-slide-type-bar{
+	padding:10px 2%;
+	background: #ECECEC;
+	border-bottom:1px solid #D3D3D3;
+}
+.cs-slide-hidden {
+	float: right;
+	display: block;
+	margin-top: 6px;
+}
+.cs-image-thumb img{
+    display:block;
+    max-width:90%;
+    margin-bottom:10px;
+    border:3px solid #ccc;
+}
+.cs-media-gallery-show{
+    margin-bottom:15px;
+}
+.cs-slide textarea{
+    overflow:auto;
+}
+.cs-slide .note,
+.cycloneslider-field .note{
+    font-weight:normal;
+    font-size:11px;
+    font-style:italic;
+    color:#666666;
+}
+
+/* Image slide */
+.cs-image-preview,
+.cs-image-edit {
+	float: left;
+	width: 50%;
+	padding: 15px;
+}
+.cs-image-edit {
+	padding-left: 0;
+}
+.rtl .cs-image-preview,
+.rtl .cs-image-edit {
+	float: right;
+}
+.rtl .cs-image-edit {
+	padding-left: 15px;
+	padding-right: 0;
+}
+
+/* Select */
+.cs-slide-type {
+	float: left;
+	position: relative;
+}
+.switcher {
+	cursor: pointer;
+}
+
+.switcher .display {
+	display: block;
+	min-width: 115px;
+	border-right: 1px solid #d3d3d3;
+	padding: 5px 25px 5px 10px;
+}
+.cycloneslider .meta-box-sortables svg {
+	width: 16px;
+    height: 16px;
+    fill: #444;
+}
+.switcher .display svg,
+.switcher li svg {
+	float: left;
+    margin-top: 1px;
+}
+.cycloneslider .meta-box-sortables .switcher > svg {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 24px;
+	height: 24px;
+}
+
+.switcher .display span,
+.switcher li span {
+	margin-left: 5px;
+    padding-left: 6px;
+    border-left: 1px solid #d3d3d3;
+}
+.switcher ul {
+	display: none;
+	padding: 0;
+	margin: 0;
+	list-style: none inside;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 100%;
+	background: rgba(255,255,255,0.9);
+	border-left:1px solid #d3d3d3;
+	border-right:1px solid #d3d3d3;
+	border-top:1px solid #d3d3d3;
+	z-index: 100;
+}
+.switcher.open ul {
+	display: block;
+}
+.switcher li {
+	padding: 5px 10px;
+	margin: 0;
+	border-bottom:1px solid #d3d3d3;
+}
+.switcher li:hover {
+	background: #d54e21;
+    color: #fff;
+}
+.switcher li:hover svg {
+	fill: #fff;
+}
+
+/*** Video ***/
+.cs-video-preview{
+    padding:15px 2%;
+	float:left;
+    width:40%;
+}
+.rtl .cs-video-preview{
+	float:right;
+}
+.cs-video-error{
+	background-color: #FFEBE8;
+	border-top: 1px solid #C00;
+	border-bottom: 1px solid #C00;
+}
+.cs-video-error p{
+	padding: 5px 10px;
+	margin: 0;
+}
+.cs-video-settings{
+    float:left;
+    width:50%;
+	padding:15px 2%;
+	min-width:300px;
+}
+.rtl .cs-video-settings{
+	float:right;
+}
+.cs-loader{
+	display:inline-block;
+	width:24px;
+	height:24px;
+	
+}
+.cs-video-thumb{
+	background: url(../images/loader.gif) no-repeat center;
+	min-height:150px;
+}
+.cs-video-thumb img{
+	max-width:100%;
+	margin-bottom:15px;
+}
+
+/*** Custom HTML ***/
+.cs-slide-custom{
+    padding:15px 2%;
+}
+.cs-custom-html{
+	min-height:140px;
+}
+
+/*** YouTube Slide ***/
+.cs-slide-youtube {
+	padding: 15px;
+}
+
+/*** YouTube Vimeo ***/
+.cs-slide-vimeo {
+	padding: 15px;
+}
+
+/*** Testimonial ***/
+.cs-testimonial-quote,
+.cs-quote-properties {
+	float:left;
+    padding:15px;
+    width:50%;
+}
+.rtl .cs-testimonial-quote,
+.rtl .cs-quote-properties {
+	float:right;
+}
+
+/*** Hide other slide types ***/
+.cs-slide-image,
+.cs-slide-video,
+.cs-slide-custom,
+.cs-slide-youtube,
+.cs-slide-vimeo,
+.cs-slide-testimonial{
+	display: none;
+}
+
+/*** Show selected slide type ***/
+.cs-slide[data-slide-type="image"] .cs-slide-image,
+.cs-slide[data-slide-type="video"] .cs-slide-video,
+.cs-slide[data-slide-type="custom"] .cs-slide-custom,
+.cs-slide[data-slide-type="youtube"] .cs-slide-youtube,
+.cs-slide[data-slide-type="vimeo"] .cs-slide-vimeo,
+.cs-slide[data-slide-type="testimonial"] .cs-slide-testimonial{
+	display: block;
+}
+
+/*** Slide effects toggle ***/
+.cycloneslider_metas_enable_slide_effects{
+	float:right;
+	margin-bottom:15px;
+}
+.rtl .cycloneslider_metas_enable_slide_effects{
+	float:left;
+}
+
+/*** Placeholder ***/
+.cs-slide-placeholder{
+    padding:5px;
+    height:20px;
+    border:1px dashed #ccc;
+    margin-bottom:10px;
+	min-height: 30px;
+}
+
+/* Skeleton for adding slide box in JS */
+.cs-slide-skeleton{
+    display:none;
+}
+
+/*** Expandables ***/
+.expandable-box.last{
+    border-bottom:1px solid #D3D3D3;
+}
+.expandable-header{
+    border-left:1px solid #D3D3D3;
+    border-right:1px solid #D3D3D3;
+    border-top:1px solid #D3D3D3;
+    padding:3px 7px;
+    color:#666666;
+    background-color: #f1f1f1;
+    cursor:pointer;
+}
+.expandable-body{
+    border-top:1px solid #D3D3D3;
+    border-left:1px solid #D3D3D3;
+    border-right:1px solid #D3D3D3;
+    padding:20px;
+    background:#f9f9f9;
+	display:none;
+}
+.expandable-header.first{
+    -webkit-border-radius: 3px 3px 0px 0px;
+    border-radius: 3px 3px 0px 0px;
+}
+.expandable-box input.widefat[type="text"]:disabled{
+	background: #f1f1f1;
+}
+
+
+
+/*** Form Fields ***/
+.field{
+	margin-bottom:15px;
+}
+.field.last{
+	margin:0;
+}
+.field label{
+	display:inline-block;
+	margin-bottom:5px;
+	font-weight:bold;
+}
+.field-inline label{
+	width:40%;
+}
+.field-inline input,
+.field-inline select,
+.field-inline textarea{
+	max-width:40%;
+}
+
+.field-normal {
+	padding-top:10px;
+}
+.field-normal label{
+	font-weight: normal;
+}
+
+.cycloneslider-slide-meta-speed,
+.cycloneslider-slide-meta-timeout,
+.cycloneslider-slide-meta-tile-count,
+.cycloneslider-slide-meta-tile-delay{
+	width:25%;
+}
+.cycloneslider-meta-field .note.disabled,
+label.disabled,
+input:disabled{
+	color:#999;
+}
+
+#cyclone-slider-properties-metabox .inside,
+#cyclone-slider-advanced-settings-metabox .inside{
+    padding:0;
+}
+
+/*** Cycloneslider Field ***/
+.cycloneslider-field{
+    padding:15px 10px 20px 10px;
+    border-bottom:1px solid #DFDFDF;
+}
+.cycloneslider-field.last{
+    padding-bottom:10px;
+    border-bottom:0;
+}
+.cycloneslider-field label{
+    display:block;
+    font-weight:bold;
+    margin-bottom:5px;
+}
+.cycloneslider-field input[type="text"],
+.cycloneslider-field select{
+    display:block;
+    min-width:50%;
+    margin-bottom:3px;
+}
+.cycloneslider-field-tile-properties,
+.cycloneslider-slide-tile-properties{
+	display:none;
+}
+.cycloneslider-spacer-10{
+	height:10px;
+}
+.cycloneslider-spacer-15{
+	height:15px;
+}
+
+/*** Nextgen ***/
+#cyclone-nextgen-metabox .inside{
+	padding:0;
+}
+.cycloneslider-field label.inline{
+	display:inline-block;
+	margin:0 0 0 3px;
+}
+#cyclone-nextgen-metabox select{
+	display:inline-block;
+	margin:0 0 0 3px;
+}
+
+
+/*** Templates ***/
+.cs-templates {
+	width: 100%;
+	border-spacing: 0;
+	
+}
+.cs-templates th {
+	padding: 5px;
+	border-bottom:1px solid #ececec;
+}
+
+.cs-templates td {
+	padding: 10px;
+}
+.cs-templates td a {
+	text-decoration: none;
+}
+.cs-templates td:nth-child(1),
+.cs-templates td:nth-child(2) {
+	text-align: left;
+}
+.rtl .cs-templates td:nth-child(1),
+.rtl .cs-templates td:nth-child(2) {
+	text-align: right;
+}
+.cs-templates td:nth-child(3),
+.cs-templates td:nth-child(4) {
+	text-align: center;
+}
+.cs-templates td:nth-child(2) a {
+	color:#444;
+}
+.cs-templates .active td {
+	background: #ececec;
+}
+.cs-templates .active label,
+.cs-templates .active td:nth-child(2) a {
+	color: #0085ba;
+}
+.cs-boxy{
+	position: absolute;
+	left: 0;
+	top:10%;
+	padding: 10px 20px;
+	background: #fff;
+	z-index: 1000;
+	border: 1px solid #CFCFCF;
+	display: none;
+	border-radius: 5px;
+}
+.cs-templates-buttons {
+	border-top: 1px solid #ececec;
+	padding: 10px;
+}
+
+/*** Preview ***/
+#cyclone-slider-preview-metabox .inside{
+	overflow: auto;
+}
+
+/*** Hide admin stuff ***/
+.inline-edit-date,
+.inline-edit-group{
+	display:none;
+}
+
+#cycloneslider_settings_resize{
+	display: inline-block;
+}
+label[for="force_resize"]{
+	display: inline-block;
+	font-weight: normal;
+	margin: 0;
+}
+
+/*** Responsive ***/
+@media (max-width: 800px) {
+	.cs-templates .template-name {
+		width: 20%;
+	}
+	.cs-templates .supported-slide-types {
+		width: 35%;
+	}
+	.cs-templates .cs-location {
+		width: 15%;
+	}
+}
+
+/*** Pro ***/
+.cycloneslider-cover{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #F8F8F8;
+	opacity: 0.7;
+	z-index: 99;
+}
+.cycloneslider-cover p{
+	text-align: center;
+	padding: 80px 0 0 0;
+	font-size: 20px;
+}
+.cycloneslider-cover p a{
+	text-decoration: underline;
+}
+.cs2-disabled{
+	color: #999;
+}
+
+/* Override Admin CSS to prevent covering the lightbox prev button during preview */
+.sticky-menu #adminmenuwrap {
+	z-index: 999;
+}
+
+.export-page-list  {
+	list-style:  inside square;
+}
+
+.cs-upgrade-action a {
+	text-decoration: none;
+	display: block;
+	padding:1px 2px;
+}
+

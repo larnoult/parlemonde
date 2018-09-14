@@ -1,0 +1,268 @@
+# Copyright (C) 2013 bbPress Digest
+# This file is distributed under the same license as the bbPress Digest package.
+msgid ""
+msgstr ""
+"Project-Id-Version: bbPress Digest 2.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/bbpress-digest\n"
+"POT-Creation-Date: 2015-09-27 11:41+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-09-14 10:26+0100\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.1\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr_FR\n"
+"Last-Translator: \n"
+
+#: bbpress-digest.php:153
+msgctxt "plugin actions link"
+msgid "Settings"
+msgstr "Paramètres"
+
+#: bbpress-digest.php:154
+msgid "Donate"
+msgstr "Donnez"
+
+#: inc/admin.php:49
+msgctxt "settings section title"
+msgid "bbPress Digest Settings"
+msgstr "Réglages Alertes bbPress"
+
+#: inc/admin.php:75
+msgid "Show one-click subscription"
+msgstr "Montrer le bouton d’inscription"
+
+#: inc/admin.php:82
+msgid "Show weekly digest option"
+msgstr "Montrer l’option de résumé hebdomadaire"
+
+#: inc/admin.php:104
+msgid "bbPress Digest settings for enabling features"
+msgstr "Réglages du courriel résumé du forum"
+
+#: inc/admin.php:122
+msgid "Allow users to include forum in a digest from a single forum page"
+msgstr ""
+"Autoriser les utilisateurs à rajouter un forum au résumé depuis la page du "
+"forum"
+
+#: inc/admin.php:140
+msgid ""
+"Allow users to chose do they want to receive digest once weekly instead of "
+"once daily"
+msgstr ""
+"Autoriser les utilisateurs à choisir s’ils veulent recevoir un résumé "
+"hebdomadaire plutôt que quotidien"
+
+#: inc/bbp-profile.php:71 inc/wp-profile.php:43
+msgid "bbPress Digest Emails"
+msgstr "Courriels résumés de l’activité du forum"
+
+#: inc/bbp-profile.php:76 inc/wp-profile.php:51
+msgctxt "checkbox label"
+msgid "Yes"
+msgstr "Oui"
+
+#: inc/bbp-profile.php:77 inc/wp-profile.php:52
+msgid ""
+"Check if you want to receive daily digest with active forum topics for that "
+"day."
+msgstr ""
+"Cochez si vous souhaitez recevoir un résumé quotidien ou hebdomadaire de "
+"l’activité du forum."
+
+#: inc/bbp-profile.php:85 inc/wp-profile.php:64
+msgctxt "radio button label"
+msgid "Daily"
+msgstr "Quotidien"
+
+#: inc/bbp-profile.php:86 inc/wp-profile.php:65
+msgctxt "radio button label"
+msgid "Weekly"
+msgstr "Hebdomadaire"
+
+#: inc/bbp-profile.php:87 inc/wp-profile.php:66
+msgid "Choose should you receive digest once daily or once weekly."
+msgstr "Choisissez de recevoir un courriel résumé quotidien ou hebdomadaire"
+
+#: inc/bbp-profile.php:105 inc/wp-profile.php:84
+msgid "Choose on which day of a week you want to receive a digest."
+msgstr "Choisissez le jour de la semaine où vous recevrez le courriel résumé"
+
+#: inc/bbp-profile.php:113 inc/wp-profile.php:96
+msgid "Digests should be sent at this time:"
+msgstr "Les courriels résumés devraient être envoyés à cette heure :"
+
+#: inc/bbp-profile.php:120 inc/wp-profile.php:103
+msgid ""
+"Select the hour of the day when you want to receive digest emails. Current "
+"time is <code>%1$s</code>."
+msgstr ""
+"Sélectionnez l’heure de la journée à laquelle vous souhaitez recevoir votre "
+"courriel résumé. Actuellement, il est <code>%1$s</code>."
+
+#: inc/bbp-profile.php:120 inc/wp-profile.php:103
+msgctxt "current time date format"
+msgid "Y-m-d G:i:s"
+msgstr "Y-m-d G:i:s"
+
+#: inc/bbp-profile.php:125 inc/wp-profile.php:112
+msgctxt "radio button label"
+msgid "All"
+msgstr "Tous les forums"
+
+#: inc/bbp-profile.php:126 inc/wp-profile.php:113
+msgid "Only forums I choose"
+msgstr "Seulement les forums que je sélectionne"
+
+#: inc/bbp-profile.php:127 inc/wp-profile.php:114
+msgid ""
+"Choose should digest include topics from all forums or only from selected "
+"forums."
+msgstr "Choisissez de quels forums vous désirez recevoir le résumé. "
+
+#: inc/bbp-profile.php:137 inc/wp-profile.php:124
+msgid "Choose forums which you want to be included in a digest."
+msgstr ""
+"Sélectionnez les forums pour lesquels vous souhaitez recevoir un courriel "
+"résumé."
+
+#: inc/event.php:161
+msgid "Active topics for week ending %1$s"
+msgstr "[Par Le Monde] Derniers sujets actifs sur le forum (%1$s)"
+
+#: inc/event.php:161
+msgctxt "week span email title date format"
+msgid "d. F Y."
+msgstr "d. F Y."
+
+#: inc/event.php:164
+msgid ""
+"This topics have been active in the last 7 days:\n"
+"\n"
+msgstr ""
+"Bonjour ! \n"
+"Du nouveau sur le forum du professeurs ! Ces sujets du forum ont été actifs "
+"au cours de la semaine passée. N’hésitez pas à y jeter un coup d’oeil :\n"
+"À bientôt sur la toile !\n"
+"\n"
+"[Si vous ne souhaitez plus recevoir ces notifications d’activité, rendez-vous "
+"sur <a href=\"http://prof.parlemonde.org/wp-admin/profile.php\"> votre "
+"profil</a>] \n"
+
+#: inc/event.php:178
+msgid "Active topics for %1$s"
+msgstr "[Par Le Monde] Derniers sujets actifs sur le forum (%1$s)"
+
+#: inc/event.php:178
+msgctxt "one day span email title date format"
+msgid "d. F Y."
+msgstr "d. F Y."
+
+#: inc/event.php:180
+msgctxt "1. Yesterday 2. Today"
+msgid "Active topics for %1$s / %2$s"
+msgstr "[Par Le Monde] Derniers sujets actifs sur le forum (%1$s / %2$s)"
+
+#: inc/event.php:180
+msgctxt "two day span yesterday email title date format"
+msgid "d. F Y."
+msgstr "d. F Y."
+
+#: inc/event.php:180
+msgctxt "one day span today email title date format"
+msgid "d. F Y."
+msgstr "d. F Y."
+
+#: inc/event.php:184
+msgid ""
+"This topics have been active in the last 24 hours:\n"
+"\n"
+msgstr ""
+"Bonjour ! \n"
+"Du nouveau sur le forum du professeurs ! Ces sujets du forum ont été actifs "
+"ces dernières 24 heures. N’hésitez pas à y jeter un coup d’oeil :\n"
+"À bientôt sur la toile !\n"
+"[Si vous ne souhaitez plus recevoir ces notifications d’activité, rendez-vous "
+"sur <a href=\"http://prof.parlemonde.org/wp-admin/profile.php\"> votre "
+"profil</a>] \n"
+
+#: inc/event.php:188
+msgctxt "1. Topic title 2. Topic URL"
+msgid "%1$s: %2$s\r\n"
+msgstr "%1$s: %2$s\r\n"
+
+#: inc/forums-list.php:229
+msgid "No topics available"
+msgstr "Aucun sujet disponible"
+
+#: inc/forums-list.php:234
+msgid "No forums available"
+msgstr "Aucun forum disponible"
+
+#: inc/forums-list.php:239
+msgid "None available"
+msgstr "Aucun"
+
+#: inc/one-click-handle.php:152 inc/one-click-template.php:54
+msgid "The request was unsuccessful. Please try again."
+msgstr ""
+"Une erreur s’est produite pendant le traitement de la demande. Veuillez "
+"recommencer."
+
+#: inc/one-click-template.php:147
+msgid ""
+"<a href=\"%1$s\" class=\"%2$s\">Include topics from this forum to the digest "
+"emails</a> (<a href=\"%3$s\">edit settings</a>)"
+msgstr ""
+"<a href=\"%1$s\" class=\"%2$s\">Rajouter les sujets de ce forum dans votre "
+"courriel résumé</a> (<a href=\"%3$s\">changer les paramètres</a>)"
+
+#: inc/one-click-template.php:148
+msgid ""
+"Topics from this forum are included in digest emails (<a href=\"%1$s\" class="
+"\"%2$s\">remove </a> | <a href=\"%3$s\">edit settings</a>)"
+msgstr ""
+"Les sujets de ce forum sont compris dans votre courriel résumé (<a href=\"%1$s"
+"\" class=\"%2$s\">Enlever </a> | <a href=\"%3$s\">changer les paramètres</a>)"
+
+#: inc/wp-profile.php:48
+msgctxt "settings field label"
+msgid "Digest emails"
+msgstr "Courriels résumés"
+
+#: inc/wp-profile.php:60
+msgid "Daily or weekly"
+msgstr "Quotidien ou hebdomadaire"
+
+#: inc/wp-profile.php:93
+msgid "Digest time"
+msgstr "Heure d’envoi du résumé"
+
+#: inc/wp-profile.php:108
+msgctxt "settings field label"
+msgid "Forums"
+msgstr "Forums"
+
+#. Plugin Name of the plugin/theme
+msgid "bbPress Digest"
+msgstr "Courriels résumés de l’activité du forum"
+
+#. Plugin URI of the plugin/theme
+msgid "http://blog.milandinic.com/wordpress/plugins/bbpress-digest/"
+msgstr "http://blog.milandinic.com/wordpress/plugins/bbpress-digest/"
+
+#. Description of the plugin/theme
+msgid "Send digests with forum's active topics."
+msgstr ""
+"Envoyer facilement un résumé quotidien ou hebdomadaire des derniers sujets "
+"actifs de forum bbpress."
+
+#. Author of the plugin/theme
+msgid "Milan Dinić"
+msgstr "Milan Dinić"
+
+#. Author URI of the plugin/theme
+msgid "http://blog.milandinic.com/"
+msgstr "http://blog.milandinic.com/"

@@ -1,0 +1,402 @@
+/**
+ * @version 1.0
+ * @package: Secure Downloads
+ * @category: Front-End
+ * @author wpdevelop
+ *
+ * @web-site http://oplugins.com/
+ * @email info@oplugins.com 
+ * 
+ * @modified 2016-02-14
+ */
+
+/* item form General structure */
+form.opsd_form {
+    text-align: left;
+}
+.opsd_form .opsd_form_div {
+    margin-left: auto;
+    margin-right: auto;
+}
+.opsd_form .form-group {
+    margin:15px 0px;
+}
+
+/* TEXT, SELECT, TEXTAREA *****************************************************/
+.opsd_form_div textarea,
+.opsd_form_div input[type="text"],
+.opsd_form_div select {
+    border-color: #DFDFDF;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    vertical-align: baseline;
+}
+.opsd_form_div textarea,
+.opsd_form_div input[type="text"] {
+    box-sizing: padding-box;
+    -mox-box-sizing: padding-box;
+    -webkit-box-sizing: padding-box;
+    height:28px;
+    padding:4px;    
+}
+/* Height */
+.opsd_form_div textarea,  
+.opsd_form_div select[multiple], 
+.opsd_form_div select[size]{
+    height:auto;
+}
+/* Width */
+.opsd_form .form-group .controls select,
+.opsd_form textarea,
+.opsd_form input[type="text"]{
+    width:250px;
+}
+/* Time inputs at the form */
+.opsd_form input.opsd-validates-as-time {
+    width: 50px;
+}
+.opsd_form input[type="button"],
+.opsd_form input[type="submit"] {
+    width:auto;
+    vertical-align: middle;
+}
+/* Checkbox, Radio */
+.opsd_form .opsd-checkbox .opsd-list-item,
+.opsd_form .opsd-radio .opsd-list-item{
+    padding: 0 15px 0 0;
+    vertical-align: bottom;
+}
+.opsd_form .opsd-checkbox .opsd-list-item input[type="radio"],
+.opsd_form .opsd-checkbox .opsd-list-item input[type="checkbox"], 
+.opsd_form .opsd-radio .opsd-list-item input[type="radio"],
+.opsd_form .opsd-radio .opsd-list-item input[type="checkbox"] {
+    margin: 1px 0 0;
+    padding: 0;
+    vertical-align: middle;
+}
+.opsd_form label.opsd-list-item-label,
+.opsd_form label.opsd-list-item-label:hover {
+    display: inline;
+    cursor: pointer;    
+    vertical-align: middle;
+    font-weight: 400;
+}
+/* Disabled option in selectbox */ 
+.opsd_form_div select option.booked,
+.opsd_form_div select option:disabled{
+   color:#ddd; 
+}
+/* Visitors selection -  small selectboxes */
+.opsd_form_div select.col-md-1 {
+    float: none;
+    padding: 0 6px;
+    height: 29px;
+} 
+
+/* item Form Buttons *******************************************************/
+.opsd-payment-form .btn,
+.opsd-payment-form .button,
+.opsd_form_div .btn,
+.opsd_form_div .button,
+.opsd_form_div .submit,
+.opsd_form_div .button-secondary {
+    -moz-background-clip: border;
+    -moz-background-inline-policy: continuous;
+    -moz-background-origin: padding;    
+    background: #f7f7f7 none repeat scroll 0 0;
+    border-color: #ccc;
+    box-shadow: 0 1px 0 #eee;
+    color: #555;
+    vertical-align: top;    
+}
+.opsd_form_div .submit,
+.opsd_form_div .button,
+.opsd_form_div .button-primary,
+.opsd_form_div .button-secondary,
+.opsd_form_div .button-highlighted,
+.opsd_form_div #postcustomstuff .submit input {
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    -moz-box-sizing: content-box;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    font-size: 11px !important;
+    line-height: 16px;
+    padding: 2px 8px;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 10px 0px;
+    float: right;
+}
+/* Fix Overwrite issue by theme */
+.opsd_form_div input.btn-primary:hover {
+    background: #0044CC !important;
+}
+/* Pointer */
+.opsd_form_div input[type="button"]:hover,
+.opsd-payment-form input[type="button"]:hover {
+    cursor: pointer !important;
+}
+
+/* CAPTCHA ********************************************************************/
+.opsd_form_div img.captcha_img {
+    vertical-align: middle;
+    box-shadow: none;
+}
+.opsd_form_div .captachinput {
+    width: 120px;
+}
+
+/* Widget container */
+.widget_opsd_item {
+    width:100%;
+    float:left;
+    margin:5px 0px;
+}
+.widget_opsd_item .opsd_form input[type="radio"], 
+.widget_opsd_item .opsd_form input[type="checkbox"] {
+    width:auto;
+}
+/* Under calendar */
+.widget_opsd_item .opsd_form .opsd-help-message.opsd-element-message {
+    font-size: 0.85em;    
+    margin: 10px 4px 4px !important;
+}
+/* Under fields */
+.widget_opsd_item .opsd_form .opsd-form-control-wrap .opsd-help-message {
+    font-size: 0.85em;  
+    margin: 2px 8px 2px 0 !important;
+}
+/* Messages in Ajax request after making item  *****************************/
+.submiting_content {
+    border: 1px solid #5C5;
+    font-size: 15px;
+    font-weight: 600;
+    height: 45px;
+    margin: 15px auto;
+    padding: 15px 10px;
+    text-align: center;
+    
+    width: 80%;
+    line-height: 1.5em;
+    padding: 10px 10% 14px !important;
+}
+/* Warning Messages */
+.opsd-help-message.alert.alert-warning, 
+.opsd-help-message .alert.alert-warning {
+    background-image: none;
+    background-color: #fcf8e3;
+    font-size: 0.85em;
+    box-shadow: none;
+}
+.opsd_form .opsd-checkbox .opsd-help-message.alert.alert-warning {
+    line-height: inherit !important;
+}
+.opsd-help-message.opsd-element-message {
+    padding :5px 5px 4px;
+    margin: 10px 2px;
+    vertical-align: middle;
+    display:inline-block;
+}
+/* Thank you Messages */
+.submiting_content.opsd-help-message.alert.alert-warning.alert-success {
+    border-color: #b2dba1;
+    background-color: #dff0d8;
+    color:#083;
+    height: auto;
+    font-size: 1em;   
+    background-image: none;
+    font-weight: 100;
+}
+.form_opsd_messages {
+    display: none;
+    float: left;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid #9DA;
+    padding: 3px 10px;
+    margin: 2px 5px;
+    background: #FEF9ED;
+    color: #555;
+    margin: 15px auto;
+    padding: 5px 10px;
+    text-align: center;
+    width: 100%;
+    clear: both;
+}
+
+/* Times Title in tooltip */
+.opsd_times_word {
+    font-weight: 600;    
+}
+/* Garbage */
+.opsd_form_garbage {
+    display:none;
+}
+/* Help block */
+.wpdevelop .opsd_form .help-block {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+/* Admin bar count */
+#wp-admin-bar-opsd_options a span#opsd-count {
+    background: none repeat scroll 0 0 #EEE;
+    border-radius: 10px 10px 10px 10px;
+    color: #333;
+    display: inline;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 5px;
+    text-shadow: none;
+}
+#wp-admin-bar-opsd_options a:hover span#opsd-count {
+    background: none repeat scroll 0 0 #FFF;
+    color: #000;
+}
+
+/* Pop Over Styles ************************************************************/
+.wpdevelop.popover {
+  background: none repeat scroll 0 0 transparent;
+  border: medium none;
+  box-shadow: none;
+  width: auto !important;    
+  z-index: 2147483647 !important;
+  
+}
+.wpdevelop.popover.top .arrow {
+    border-top: 5px solid rgba(140, 140, 140, 0.8) !important;
+}
+.wpdevelop.popover.bottom .arrow {
+    border-bottom: 5px solid rgba(140, 140, 140, 0.8) !important;
+}
+.wpdevelop.popover.left .arrow {
+    border-left: 5px solid rgba(140, 140, 140, 0.8) !important;
+}
+.wpdevelop.popover.right .arrow {
+    border-right: 5px solid rgba(140, 140, 140, 0.8) !important;
+}
+.wpdevelop .popover-inner {
+    background: none repeat scroll 0 0 rgba(140, 140, 140, 0.8);
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    padding: 3px;
+    width: 150px;
+    color: #111;
+}
+.wpdevelop .popover-inner .popover-title {
+    background-color: #FFF;
+    border-bottom: 0px solid #EEE;
+    border-radius: 3px 3px 0 0;
+    line-height: 1;
+    padding: 0px; /*9px 15px;*/
+    font-size: 13px;
+}
+.wpdevelop .popover-inner .popover-content {
+    background-clip: padding-box;
+    background-color: #FFF;
+    border-radius: 0 0 3px 3px;
+    padding: 14px;
+}
+.wpdevelop .popover-content, 
+.wpdevelop .popover-content p,
+.wpdevelop .popover-content ul,
+.wpdevelop .popover-content ol {
+    color: #111;
+}
+
+/*  Rotate Icons  for Loading   ***********************************************/
+.opsd_spin {
+  -webkit-animation: spin 2s infinite linear;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+}
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+  }
+}
+@-o-keyframes spin {
+  0% {
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    -o-transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.opsd_rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.opsd_rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.opsd_rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.opsd_flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -webkit-transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.opsd_flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+  -webkit-transform: scale(1, -1);
+  -moz-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  -o-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+/* Mobile *********************************************************************/
+@media (max-width: 782px) {  
+    .wpdevelop input[type="text"], 
+    .wpdevelop select{
+        font-size: 1.1em;
+        height: 28px;
+        padding: 4px 8px;
+    }
+}

@@ -1,0 +1,145 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: test\n"
+"POT-Creation-Date: 2014-01-22 17:53+0100\n"
+"PO-Revision-Date: 2014-01-22 18:33+0100\n"
+"Last-Translator: Jean-Yves Dumaine <jean.yves.dumaine@gmail.com>\n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1) ;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: C:\\xampp-1-7-7\\htdocs\\wordpress\\wp-content"
+"\\plugins\\author-category\n"
+
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/author-category.php:198
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/inc/author_category_Panel_class.php:142
+msgid "Author category"
+msgstr "Author category"
+
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/author-category.php:224
+msgid "this will be posted in: <strong>"
+msgstr "Cet article sera publié dans la catégorie <strong>"
+
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/author-category.php:224
+msgid "</strong> Category"
+msgstr "</strong>"
+
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/author-category.php:227
+msgid "Make Sure you select only the categories you want: <strong>"
+msgstr ""
+"Veillez à sélectionner les catégories (et uniquement celles-là) dans "
+"lesquelles cet article sera publié"
+
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/author-category.php:265
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/inc/author_category_Panel_class.php:167
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/inc/author_category_Panel_class.php:169
+msgid "Author Category"
+msgstr "Catégories Autorisées"
+
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/author-category.php:268
+msgid "Category"
+msgstr "Catégorie"
+
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/author-category.php:272
+msgid ""
+"select a category to limit an author to post just in that category (use Crtl "
+"to select more then one)."
+msgstr ""
+"Sélectionnez la (ou les) catégorie(s) pour lesquelles l'utilisateur pourra "
+"publier un article (utiliser Ctrl pour sélectionner plus d'une catégorie)"
+
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/author-category.php:276
+msgid "Clear Category"
+msgstr "Supprimer les Restrictions"
+
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/author-category.php:280
+msgid "Check if you want to clear the limitation for this user."
+msgstr "Sélectionnez pour supprimer les limitations pour cet utilisateur"
+
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/author-category.php:345
+msgid "Other Plugins by this author"
+msgstr "Autres Plugins du même auteur"
+
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/author-category.php:346
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/inc/author_category_Panel_class.php:171
+msgid "Plugin Support"
+msgstr "la page de Support"
+
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/author-category.php:347
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/inc/author_category_Panel_class.php:172
+msgid "Donate"
+msgstr "Faire une donation"
+
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/inc/author_category_Panel_class.php:30
+msgid "Save changes"
+msgstr "Sauvegarder les modifications"
+
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/inc/author_category_Panel_class.php:31
+msgid "Credits"
+msgstr "Credits"
+
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/inc/author_category_Panel_class.php:32
+msgid "Latest From Bainternet"
+msgstr "Dernières infos sur Bainternet"
+
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/inc/author_category_Panel_class.php:33
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/inc/author_category_Panel_class.php:141
+msgid "Author category settings"
+msgstr "Paramétrage du Plugin Author Category"
+
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/inc/author_category_Panel_class.php:80
+msgid ""
+"Want to help make this plugin even better? All donations are used to improve "
+"and support, so donate $20, $50 or $100 now!"
+msgstr ""
+"Vous voudriez aider à rendre ce plugin meilleur ? Toutes les donation "
+"sseront dévolues à l'amélioration et au support. Vous pouvez d'ores et déjà "
+"donner $20, $50 or $100 "
+
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/inc/author_category_Panel_class.php:82
+msgid "Or you could:"
+msgstr "Ou vous pourriez:"
+
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/inc/author_category_Panel_class.php:84
+msgid "Rate the plugin 5&#9733; on WordPress.org"
+msgstr "Classer ce plugin 5&#9733; sur WordPress.org"
+
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/inc/author_category_Panel_class.php:85
+msgid "Blog about it &amp; link to the plugin page"
+msgstr "Parler de ce plugin et publier un lien vers sa page"
+
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/inc/author_category_Panel_class.php:152
+msgid "Author Category settings"
+msgstr "Paramètres du Plugin Author Category"
+
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/inc/author_category_Panel_class.php:157
+msgid "Check none by default"
+msgstr "Ne selectionner aucune par défaut"
+
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/inc/author_category_Panel_class.php:162
+msgid ""
+"When using multiple categories they are all checked by default, check this "
+"box to disable that."
+msgstr ""
+"Lorsque plusieurs catégories sont possibles, par défaut elles sont toutes "
+"sélectionnées. Pour l'éviter, sélectionnez cette marque"
+
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/inc/author_category_Panel_class.php:171
+msgid "If you have any questions or problems head over to"
+msgstr ""
+"Si vous avez des questions ou des difficultés, n'hésitez pas à consulter la "
+
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/inc/author_category_Panel_class.php:172
+msgid "If you like my wrok then please "
+msgstr "Si vous aimez ce plugin, n'hésitez pas à"
+
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/inc/Simple_Panel_class.php:633
+#: C:\xampp-1-7-7\htdocs\wordpress\wp-content\plugins\author-category/inc/Simple_Panel_class.php:641
+msgid "Sorry, you cannot upload this file type for this field."
+msgstr "Désolé, vous ne pouvez pas télécharger ce type de fichier."

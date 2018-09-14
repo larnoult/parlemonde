@@ -1,0 +1,86 @@
+[class*="wp-image"] {
+		display: block;
+		padding: 0;
+		margin: 10px;
+		line-height: 20px;
+		border: 1px solid #ddd;
+		border-color: rgba(0,0,0,0.05); 
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0px;
+		-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.055);
+		-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.055);
+		box-shadow: 0 1px 3px rgba(0,0,0,0.055);
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+		-o-transition: all .2s ease-in-out;
+		transition: all .2s ease-in-out;
+		-webkit-box-sizing: border-box;
+    	-moz-box-sizing: border-box;
+    	box-sizing: border-box;
+}
+img.alignleft, .wp-caption.alignleft {
+margin: 10px 20px 10px 0;
+}
+img.alignright, .wp-caption.alignright {
+margin: 10px 0px 10px 20px;
+}
+img.alignnone, .wp-caption.alignnone  {
+	margin: 10px 0;
+}
+[class*="wp-image"]:hover {
+	 border-color: #cccccc;
+	 border-color: rgba(0,0,0,0.08); 
+  	-webkit-box-shadow: 0 1px 4px rgba(51,51,51,.25);
+	-moz-box-shadow: 0 1px 4px rgba(51,51,51,.25);
+	box-shadow: 0 1px 4px rgba(51,51,51,.25);
+}
+.thumbnail [class*="wp-image"] {
+		display: block;
+		padding: 0;
+		margin: auto;
+		line-height: 20px;
+		border: 0px solid #ddd;
+		border-color: rgba(0,0,0,0.05); 
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0px;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+		-o-transition: all .2s ease-in-out;
+		transition: all .2s ease-in-out;
+}
+.thumbnail [class*="wp-image"]:hover {
+	 border-color: transparent;
+  	 -webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus {
+    border-color: rgba(140,140,140,.8);
+    outline: 0;
+    outline: thin dotted \9; /* IE6-9 */
+    -webkit-box-shadow: 0 0 8px rgba(200,200,200,.6);
+	-moz-box-shadow: 0 0 8px rgba(200,200,200,.6);
+	box-shadow: 0 0 8px rgba(200,200,200,.6);
+}
+figure.wp-caption {
+max-width: 100%;
+}

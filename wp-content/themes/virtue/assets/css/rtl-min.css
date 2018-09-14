@@ -1,0 +1,112 @@
+body.rtl {
+  direction: rtl;
+  unicode-bidi: embed; }
+
+body.rtl #kt-skip-link {
+  display: none; }
+
+body.rtl .test-prev {
+  left: 10px;
+  right: auto; }
+
+body.rtl .test-next {
+  left: 50px;
+  right: auto; }
+
+body.rtl .alignleft.testimonialimg {
+  float: right; }
+
+body.rtl .testimonialbox {
+  text-align: right; }
+
+@media (min-width: 992px) {
+  .tcol-md-1, .tcol-md-10, .tcol-md-11, .tcol-md-2, .tcol-md-25, .tcol-md-3, .tcol-md-4, .tcol-md-5, .tcol-md-6, .tcol-md-7, .tcol-md-8, .tcol-md-9 {
+    float: right; }
+  .col-md-1, .col-md-10, .col-md-11, .col-md-2, .col-md-25, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    float: right; } }
+
+.postmeta {
+  float: left; }
+
+.home_blog article .entry-content {
+  margin-right: 0;
+  margin-left: 15px; }
+
+#nav-main ul.sf-menu, .nav-main ul.sf-menu {
+  float: left; }
+
+.sf-menu li {
+  float: right; }
+
+.form-search .search-icon {
+  right: 0;
+  left: auto; }
+
+.form-search .search-query {
+  padding-left: 5px;
+  padding-right: 35px; }
+
+.footernav {
+  float: left; }
+
+.footernav ul {
+  float: left;
+  padding-left: 0; }
+
+.footernav ul li {
+  float: right; }
+
+.woocommerce-ordering {
+  float: left; }
+
+.woocommerce-result-count {
+  text-align: right; }
+
+.productnav {
+  float: left; }
+
+div.product .bundle_data div.quantity, div.product form.cart div.quantity {
+  float: right;
+  margin: 0 0 0 10px; }
+
+#content div.product form.cart .button {
+  float: right; }
+
+.author-profile .author-follow {
+  float: left; }
+
+.author-latestposts img, .author-profile img {
+  float: right !important; }
+
+.author-profile .author-name {
+  margin: 5px 100px 0 0; }
+
+.author-profile .author-occupation {
+  margin-left: 0;
+  margin-right: 100px; }
+
+.author-profile .author-description {
+  margin-left: 0;
+  margin-right: 100px; }
+
+.nav-tabs > li {
+  float: right; }
+
+.author-latestposts h5 {
+  margin-right: 100px;
+  margin-left: 5px; }
+
+.author-latestposts ul {
+  margin-left: 0;
+  margin-right: 120px; }
+
+.staff-img.alignleft {
+  float: right;
+  margin: 10px 0px 10px 20px; }
+
+.portfolionav {
+  float: left; }
+
+ul.portfolio-content {
+  padding-left: 0;
+  padding-right: 20px; }

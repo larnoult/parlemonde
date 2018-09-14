@@ -1,0 +1,2 @@
+; Slide Types Supported
+slide_type[] = "image"

@@ -1,0 +1,50 @@
+<?php
+/**
+* 
+*/
+
+// Diallow direct access.
+defined('ABSPATH') or die("Access denied");
+?>
+<div id="cjtoolbox-admin" class="wrap">
+<?php
+    $content = '';
+    echo CJTBlocksManagerView::trigger( 'CJTBlocksManagerView.loadglobalcomponents', $content );
+?>
+<?php require CJTOOLBOX_VIEWS_PATH . '/blocks/block/tmpl/codefile/codefile.html.tmpl' ?>
+    <div id="custom-icon" class="icon32 blocks-icon32"></div>
+    <h2 class="cjt-main-title logo"><?php echo htmlentities( cssJSToolbox::getText('CSS & Javascript Toolbox') ) ?><?php echo apply_filters( 'cjt_after_main_title', '' ) ?></h2>
+    
+    <div id="cjt-banner-bar-right">
+        <?php if (!class_exists('CJTPlusPluginInterface')): ?>
+        <span class="cjt-banner-link">
+            <span><?php echo cssJSToolbox::getText('Upgrade') ?></span>: <a target="_blank" href="http://<?php echo cssJSToolbox::CJT_WEB_SITE_DOMAIN ?>/pricing/"><?php echo cssJSToolbox::getText('CJT PLUS') ?></a>
+        </span>
+        &nbsp;|&nbsp;
+        <?php endif; ?>
+        <span class="cjt-banner-link">
+            <span><?php echo cssJSToolbox::getText('Learn') ?></span>: <a target="_blank" href="http://<?php echo cssJSToolbox::CJT_WEB_SITE_DOMAIN ?>/documentation"><?php echo cssJSToolbox::getText('Online Help') ?></a>
+        </span>
+    </div>
+    <div id="cjtoolbox-blocks-page-form" method="post">
+        <?php wp_nonce_field('cjtoolbox'); ?>
+        <?php wp_nonce_field('closedpostboxes', 'closedpostboxesnonce', false); ?>
+        <?php wp_nonce_field('meta-box-order', 'meta-box-order-nonce', false); ?>
+        <input type="hidden" id="cjt-hasBlocks" value="<?php echo $this->hasBlocks ? 'true' : 'false' ?>" />
+        <input type="hidden" id="cjt-securityToken" value="<?php echo $this->securityToken ?>" />
+        <div id="poststuff" class="metabox-holder">
+            <div id="post-body">
+<?php if ($this->backupId) : ?>
+                <p id="cjt-info"><?php  echo cssJSToolbox::getText('You have now restored the code blocks from the current backup. Nothing is saved until you click "Restore" button. To revert back to the previous code blocks and discard this action, simply click the "Cancel Restore" button.') ?></p>
+<?php endif; ?>
+<?php   echo $this->getTemplate('toolbox', array('location' => 'top')); ?>
+<?php       do_meta_boxes($this->pageHook, 'normal', null); ?>
+                <div id="cjt-noblocks-intro"<?php if ($this->hasBlocks) : ?> style="display:none"<?php endif; ?>>
+<?php       echo $this->getTemplate('intro', array(), 'tmpl/help') ?>
+                </div>
+<?php   echo $this->getTemplate('toolbox', array('location' => 'bottom'));  ?>
+            </div>
+        </div>
+    </div>
+    <div id="cjt-inline-popup"></div>
+</div>

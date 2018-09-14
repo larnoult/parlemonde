@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the wp-migrate-db-pro-multisite-tools package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-migrate-db-pro-multisite-tools\n"
+"Report-Msgid-Bugs-To: nom@deliciousbrains.com\n"
+"POT-Creation-Date: 2017-11-09 09:20-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: class/cli/wpmdbpro-multisite-tools-cli.php:53
+msgid ""
+"The installation must be a Multisite network to make use of the export "
+"subsite option"
+msgstr ""
+
+#: class/cli/wpmdbpro-multisite-tools-cli.php:56
+#: class/cli/wpmdbpro-multisite-tools-cli.php:62
+msgid ""
+"A valid Blog ID or Subsite URL must be supplied to make use of the subsite "
+"option"
+msgstr ""
+
+#: class/cli/wpmdbpro-multisite-tools-cli.php:76
+msgid "A new table name prefix may only be specified for subsite exports."
+msgstr ""
+
+#: class/cli/wpmdbpro-multisite-tools-cli.php:79
+msgid "A valid prefix must be supplied to make use of the prefix option"
+msgstr ""
+
+#: class/wpmdbpro-multisite-tools.php:262
+msgid "Migration failed"
+msgstr ""
+
+#: class/wpmdbpro-multisite-tools.php:263
+msgid "Please select a subsite."
+msgstr ""
+
+#: class/wpmdbpro-multisite-tools.php:264
+msgid "Please enter a new table prefix."
+msgstr ""
+
+#: class/wpmdbpro-multisite-tools.php:265
+msgid ""
+"Please only enter letters, numbers or underscores for the new table prefix."
+msgstr ""
+
+#: class/wpmdbpro-multisite-tools.php:266
+msgid "Export a subsite as a single site install"
+msgstr ""
+
+#: class/wpmdbpro-multisite-tools.php:267
+msgid "Pull into a specific subsite"
+msgstr ""
+
+#: class/wpmdbpro-multisite-tools.php:268
+msgid "Pull from a specific subsite"
+msgstr ""
+
+#: class/wpmdbpro-multisite-tools.php:269
+msgid "Push a specific subsite"
+msgstr ""
+
+#: class/wpmdbpro-multisite-tools.php:270
+msgid "Push to a specific subsite"
+msgstr ""
+
+#: class/wpmdbpro-multisite-tools.php:271
+msgid "Run a find/replace on a specific subsite"
+msgstr ""
+
+#: class/wpmdbpro-multisite-tools.php:272
+msgid "Select a subsite"
+msgstr ""
+
+#: class/wpmdbpro-multisite-tools.php:821
+msgid "Expected local subsite \"short_basedir\" missing from `state_data`."
+msgstr ""
+
+#: class/wpmdbpro-multisite-tools.php:827
+msgid "Expected remote subsite \"short_basedir\" missing from `state_data`."
+msgstr ""
+
+#: template/migrate.php:54
+msgid "New Table Name Prefix"
+msgstr ""
+
+#: template/migrate.php:56
+msgid "New Prefix"
+msgstr ""
+
+#: template/migrate.php:63
+msgid "Addon Missing"
+msgstr ""
+
+#: template/migrate.php:63
+msgid ""
+"The Multisite Tools addon is inactive on the <strong>remote site</strong>. "
+"Please install and activate it to enable subsite migrations."
+msgstr ""
+
+#: template/migrate.php:67
+msgid "Version Mismatch"
+msgstr ""
+
+#: template/migrate.php:67
+#, php-format
+msgid ""
+"We have detected you have version <span class=\"mst-remote-version\"></span> "
+"of WP Migrate DB Pro Multisite Tools at <span class=\"mst-remote-location"
+"\"></span> but are using %1$s here. Please go to the <a href=\"%2$s"
+"\">Plugins page</a> on both installs and check for updates."
+msgstr ""
+
+#: template/migrate.php:71
+msgid "Different Table Prefixes"
+msgstr ""
+
+#: template/migrate.php:71
+#, php-format
+msgid ""
+"We have detected you have table prefix \"<span class=\"mst-remote-prefix\"></"
+"span>\" at <span class=\"mst-remote-location\"></span> but have \"%1$s\" "
+"here. Multisite Tools currently only supports migrating subsites between "
+"sites with the same base table prefix."
+msgstr ""

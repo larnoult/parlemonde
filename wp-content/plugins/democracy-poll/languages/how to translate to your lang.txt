@@ -1,0 +1,22 @@
+EN
+1. Install Poedit program
+2. Run the program and go to menu: "File > NEW form POT/PO file..."
+3. Find "lang" folder of the plugin in the opened dialog window. Turn to show PO files (by default it's hidden), select file "ru_RU.po" and press "Open" button.
+4. Choose language to which you want to translate the plugin and press OK. Now, just in case, update all translation lines: click Update button on Poedit toolbar.
+5. Translate all lines, press "Save" button and save translated file to "lang" folder of the plugin. File name must correspond to your lang locale, see all list here: https://wpcentral.io/internationalization/
+6. Translation done!
+
+
+RU
+1. Установите программу Poedit
+2. Запустите программу и перейдите в меню: "File > NEW form POT/PO file..."
+3. В открывшемся диалоговом окне перейдите в папку плагина "land" и переключитесь на показ PO файлов (их по умолчанию не видно). Выберите файл "ru_RU.po". Нажмите "Открыть" в диалоговом окне.
+4. Выберите язык на который будите переводить и нажмите OK. Теперь, на всякий случай, обновите все строки перевода: нажмите в панели инструментов Poedit кнопку Update.
+5. Переведите все строки и нажмите кнопку Save. И сохраните переведенный файл в папку плагина lang. Название файла должно соответствовать локали вашего перевода. Список локалей смотрите здесь: https://wpcentral.io/internationalization/
+6. Перевод готов!
+
+
+HOW Create .pot file
+1. Create copy of "ru_RU.po" file and rename it to "mypot.pot"
+2. Open "mypot.pot" and delete comments at the bottom of the file. Save it
+3. Done! Now create translation from the POT file in Poedit program.

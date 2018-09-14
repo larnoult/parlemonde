@@ -1,0 +1,284 @@
+# Translation of the WordPress plugin ThreeWP Broadcast 0.0.1 by Edward Hevlund.
+# Copyright (C) 2010 Edward Hevlund
+# This file is distributed under the same license as the ThreeWP Broadcast package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ThreeWP Broadcast 0.0.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/threewp-broadcast\n"
+"POT-Creation-Date: 2010-10-17 13:40+0200\n"
+"PO-Revision-Date: 2010-11-21 11:18+0100\n"
+"Last-Translator: Johan\n"
+"Language-Team: Edward <edward@mindreantre.se>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ThreeWP_Broadcast.php:50
+#: ThreeWP_Broadcast.php:1298
+#: ThreeWP_Broadcast.php:1299
+msgid "Broadcast"
+msgstr "Broadcast"
+
+#: ThreeWP_Broadcast.php:142
+msgid "Help"
+msgstr "Help"
+
+#: ThreeWP_Broadcast.php:147
+#: ThreeWP_Broadcast.php:1273
+#: ThreeWP_Broadcast.php:1285
+msgid "Unlink"
+msgstr "Koppeling verwijderen"
+
+#: ThreeWP_Broadcast.php:153
+msgid "ThreeWP Broadcast groups"
+msgstr "ThreeWP Broadcast groepen"
+
+#: ThreeWP_Broadcast.php:477
+msgid "Group blogs have been saved."
+msgstr "De bloggroep is bewaard."
+
+#: ThreeWP_Broadcast.php:484
+msgid "The group name may not be empty!"
+msgstr "De groepsnaam mag niet leeg zijn!"
+
+#: ThreeWP_Broadcast.php:489
+msgid "The group has been created!"
+msgstr "De groep is aangemaakt!"
+
+#: ThreeWP_Broadcast.php:498
+msgid "You have not created any groups yet."
+msgstr "U heeft nog geen groepen aangemaakt."
+
+#: ThreeWP_Broadcast.php:504
+msgid "Group"
+msgstr "Groep"
+
+#: ThreeWP_Broadcast.php:509
+msgid "Select/deselect all the blogs in the above group."
+msgstr "(De)selecteer alle de blogs in bovenstaande groep."
+
+#: ThreeWP_Broadcast.php:518
+msgid "Save groups"
+msgstr "Bewaar groepen"
+
+#: ThreeWP_Broadcast.php:524
+msgid "New group name"
+msgstr "Nieuwe groepnaam"
+
+#: ThreeWP_Broadcast.php:531
+msgid "Create the new group"
+msgstr "Maak de nieuwe groep aan"
+
+#: ThreeWP_Broadcast.php:537
+msgid "Your groups"
+msgstr "Uw groepen"
+
+#: ThreeWP_Broadcast.php:549
+msgid "Create a new group"
+msgstr "Maak een nieuwe groep aan"
+
+#: ThreeWP_Broadcast.php:563
+msgid "Delete"
+msgstr "Verwijder"
+
+#: ThreeWP_Broadcast.php:566
+msgid "To <strong>delete</strong> a group, leave all blogs in that group unmarked and then save."
+msgstr "Om een groep te <strong>verwijderen</strong>, deselecteer alle blogs in die groep en bewaar dan."
+
+#: ThreeWP_Broadcast.php:594
+msgid "Linked post has been removed!"
+msgstr "Het gekoppelde bericht is verwijderd!"
+
+#: ThreeWP_Broadcast.php:601
+msgid "All linked posts has been removed!"
+msgstr "Alle gekoppelde berichten zijn verwijderd!"
+
+#: ThreeWP_Broadcast.php:616
+msgid "What is Broadcast?"
+msgstr "Wat is Broadcast?"
+
+#: ThreeWP_Broadcast.php:619
+msgid "What the Broadcast window looks like"
+msgstr "Hoe het Broadcast venster eruit ziet"
+
+#: ThreeWP_Broadcast.php:623
+msgid "With Broadcast you can post to several blogs at once. The broadcast window is first shown at the bottom right on the Add New post/page screen."
+msgstr "Met Broadcast kan je berichten  in meerdere blogs tegelijkertijd plaatsen. Het broadcast venster wordt rechtsonderaan getoond bij het maken van een nieuw bericht of pagina."
+
+#: ThreeWP_Broadcast.php:624
+msgid "The window contains several options and a list of blogs you have access to."
+msgstr "Het venster bevat meerdere opties en een lijst van de blogs waar u toegang tot heeft."
+
+#: ThreeWP_Broadcast.php:628
+msgid "Some settings might be disabled by the site administrator and if you do not have write access to any blogs, other than this one, the Broadcast window might not appear."
+msgstr "Sommige opties kunnen uitgeschakeld zijn door de website beheerder en als u geen schrijfrechten heeft voor andere blogs, andere dan deze blog, kan het zijn dat het Broadcast venster niet zichtbaar is."
+
+#: ThreeWP_Broadcast.php:632
+msgid "To use the Broadcast plugin, simply select which blogs you want to broadcast the post to and then publish the post normally."
+msgstr "Om de Broadcast plugin te gebruiken, selecteer dan in welke blogs u het bericht wilt broadcasten en publiceer het bericht erna."
+
+#: ThreeWP_Broadcast.php:635
+msgid "Options"
+msgstr "Opties"
+
+#: ThreeWP_Broadcast.php:638
+#: ThreeWP_Broadcast.php:739
+msgid "Link this post to its children"
+msgstr "Koppel dit bericht aan zijn subitems"
+
+#: ThreeWP_Broadcast.php:638
+msgid "will create a link from this post (the parent) to all the broadcasted posts (children). Updating the parent will result in all the children being updated. Links to the children can be removed in the page / post overview."
+msgstr "zal een koppeling van dit bericht maken (hoofditem) naar alle berichten (subitems) die gebroadcast zijn. Het hoofditem updaten heeft als resultaat dat alle subitems ook geupdate zullen worden. Koppelingen naar de subitems kunnen verwijderd worden bij het pagina / bericht overzicht."
+
+#: ThreeWP_Broadcast.php:642
+msgid "Post overview with unlink options"
+msgstr "Plaats ovezicht met opties om koppeling te verwijderen"
+
+#: ThreeWP_Broadcast.php:646
+msgid "When a post is linked to children, the children are overwritten when post is updated - all the categories, tags and fields (including featured image) are also overwritten -  and when the parent is trashed or deleted the children get the same treatment. If you want to keep any children and delete only the parent, use the unlink links in the post overview. The unlink link below the post name removes all links and the unlinks to the right remove singular links."
+msgstr "Wanneer een bericht gekoppeld is aan subitems, dan worden de subitems overschreven wanneer het bericht geupdate wordt. Alle categorieën, tags en velden (ook aanbevolen afbeelding) worden overschreven en wanneer het hoofditem naar de prullenbak verplaatst of verwijderd wordt krijgen de subitems dezelfde behandeling. Als je alle subitems wilt bewaren maar niet het hoofditem, gebruik dan koppeling verwijderen in het bericht overzicht. De koppeling verwijderen link onder de berichtnaam verwijderd alle koppelingen en de verwijderde koppelingen aan de rechterkant verwijderen unieke links."
+
+#: ThreeWP_Broadcast.php:650
+#: ThreeWP_Broadcast.php:752
+msgid "Broadcast this post as a draft"
+msgstr "Broadcast dit bericht als concept"
+
+#: ThreeWP_Broadcast.php:650
+msgid "will send this post to the selected blogs and mark it as a draft."
+msgstr "verstuur dit bericht naar de geselecteerde blogs en markeer het als concept."
+
+#: ThreeWP_Broadcast.php:654
+#: ThreeWP_Broadcast.php:765
+msgid "Broadcast categories also"
+msgstr "Broadcast ook categorieën"
+
+#: ThreeWP_Broadcast.php:654
+msgid "will also try to send the categories together with the post."
+msgstr "zal ook trachten de categorieeën samen met het bericht te verzenden."
+
+#: ThreeWP_Broadcast.php:655
+msgid "In order to be able to broadcast the categories, the selected blogs must have the same category names (slugs) as this blog, else the posts will be posted as uncategorized."
+msgstr "Om de categorieën ook de broadcasten, moeten de geselecteerde blogs dezelfde categorie namen hebben als deze blog, anders zal het bericht de categorie \"geen categorie\" krijgen."
+
+#: ThreeWP_Broadcast.php:659
+#: ThreeWP_Broadcast.php:794
+msgid "Broadcast tags also"
+msgstr "Broadcast ook tags"
+
+#: ThreeWP_Broadcast.php:659
+msgid "will also mark the broadcasted posts with the same tags."
+msgstr "zal ook de gebroadcaste berichten markeren met dezelfde tags."
+
+#: ThreeWP_Broadcast.php:663
+#: ThreeWP_Broadcast.php:824
+msgid "Broadcast custom fields"
+msgstr "Broadcast extra velden"
+
+#: ThreeWP_Broadcast.php:663
+msgid "will give the broadcasted posts the same custom fields as the original. Use this setting to broadcast the featured image."
+msgstr "zal de berichten die gebroadcast zijn dezelfde extra velden geven als het origineel. Gebruik deze instelling om de aanbevolen afbeelding te broadcasten."
+
+#: ThreeWP_Broadcast.php:666
+msgid "Groups"
+msgstr "Groepen"
+
+#: ThreeWP_Broadcast.php:669
+msgid "If the site administrator allows it you may create groups to quickly select several blogs at once. To create a group, start by typing a group name in the text box and pressing the create button."
+msgstr "Als de website beheerder het toelaat kunt u snel groepen aanmaken om meerdere blogs tegelijkertijd te selecteren. Om een groep te maken, begin een groepnaam in het tekstvak te typen en klik op de knop aanmaken."
+
+#: ThreeWP_Broadcast.php:673
+msgid "Group setup"
+msgstr "Instellingen groep"
+
+#: ThreeWP_Broadcast.php:677
+msgid "Then select which blogs you want to be automatically selected when you choose this group when editing a new post. Press the save button when you are done. Your new group is ready to be used!"
+msgstr "Selecteer dan welke blogs automatisch geselecteerd moeten worden wanneer je deze groep selecteerd wanneer u een nieuw bericht aanmaakt. Druk dan op bewaren als u klaar bent. Uw nieuwe groep is klaar om gebruikt te worden!"
+
+#: ThreeWP_Broadcast.php:678
+msgid "Simply choose it in the dropdown box and the blogs you specified will be automatically chosen."
+msgstr "Kies uit het lijstje en de gekozen blogs zullen automatisch gekozen worden."
+
+#: ThreeWP_Broadcast.php:682
+msgid "Groups have been selected and saved"
+msgstr "De groepen zijn geselecteerd en bewaard"
+
+#: ThreeWP_Broadcast.php:738
+msgid "Create a link to the children, which will be updated when this post is updated, trashed when this post is trashed, etc."
+msgstr "Maak een koppeling naar de subitems, zodat ze geupdate worden wanneer dit bericht geupdate wordt, in de prullenbak geplaatst of verwijderd wordt, enz..."
+
+#: ThreeWP_Broadcast.php:766
+msgid "The categories must have the same name (slug) on the selected blogs."
+msgstr "De categorieën moeten dezelfde naam (slug) krijgen voor de geselecteerde blogs."
+
+#: ThreeWP_Broadcast.php:780
+msgid "Create categories automatically"
+msgstr "Maak automatisch categorieën aan"
+
+#: ThreeWP_Broadcast.php:781
+msgid "The categories will be created if they don't exist on the selected blogs."
+msgstr "De categorieën zullen aangemaakt worden als ze nog niet bestaan in de geselecteerde blogs."
+
+#: ThreeWP_Broadcast.php:795
+msgid "The tags must have the same name (slug) on the selected blogs."
+msgstr "De tags moeten dezelfde naam (slug) hebben als in de geselecteerde blogs."
+
+#: ThreeWP_Broadcast.php:809
+msgid "Create tags automatically"
+msgstr "Maak automatisch tags aan"
+
+#: ThreeWP_Broadcast.php:810
+msgid "The tags will be created if they don't exist on the selected blogs."
+msgstr "De tags zullen aangemaakt worden als ze nog niet bestaan in de geselecteerde blogs."
+
+#: ThreeWP_Broadcast.php:823
+msgid "Broadcast all the custom fields and the featured image?"
+msgstr "Broadcast alle extra velden en de aanbevolen afbeelding?"
+
+#: ThreeWP_Broadcast.php:840
+msgid "Select blogs in group"
+msgstr "Selecteer bloggroep"
+
+#: ThreeWP_Broadcast.php:841
+msgid "No group selected"
+msgstr "Geen groep geselecteerd"
+
+#: ThreeWP_Broadcast.php:878
+msgid "Broadcast to:"
+msgstr "Broadcast naar:"
+
+#: ThreeWP_Broadcast.php:884
+#: ThreeWP_Broadcast.php:1338
+msgid "Select/deselect all"
+msgstr "Selecteer/deselecteer alles"
+
+#: ThreeWP_Broadcast.php:1247
+msgid "Shows which blogs have posts linked to this one"
+msgstr "Toon welke blogs berichten hebben die gekoppeld zijn aan dit bericht"
+
+#: ThreeWP_Broadcast.php:1247
+msgid "Broadcasted"
+msgstr "Gebroadcast"
+
+#: ThreeWP_Broadcast.php:1273
+msgid "Remove links to this broadcasted child"
+msgstr "Verwijder koppelingen die naar dit gebroadcast subitem verwijzen"
+
+#: ThreeWP_Broadcast.php:1285
+msgid "Remove links to all the broadcasted children"
+msgstr "Verwijder koppelingen voor alle gebroadcaste subitems"
+
+#~ msgid "ThreeWP Broadcast"
+#~ msgstr "ThreeWP Broadcast"
+
+#~ msgid ""
+#~ "WPMU plugin to broadcast a post to other blogs. Whitelist, blacklist, "
+#~ "groups and automatic category posting available."
+#~ msgstr ""
+#~ "WPMU plugin om post te broadcasten naar andere blogs. Whitelist, "
+#~ "blacklist, groepen en automatische categorieën zijn beschikbaar bij het "
+#~ "maken van een post."
+
+#~ msgid "To broadcast this post to other blogs, select the blogs below"
+#~ msgstr "För att multiposta till andra bloggar, välj dem här undertill."

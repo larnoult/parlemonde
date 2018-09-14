@@ -1,0 +1,185 @@
+# Translation of Plugins - Safe Redirect Manager - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Safe Redirect Manager - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-03-01 12:30:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Safe Redirect Manager - Stable (latest release)\n"
+
+#. Author of the plugin/theme
+msgid "Taylor Lovett (10up)"
+msgstr "Taylor Lovett (10up)"
+
+#. Description of the plugin/theme
+msgid "Easily and safely manage HTTP redirects."
+msgstr "Gérez simplement et sans risque les redirections HTTP."
+
+#. #-#-#-#-#  tmp-safe-redirect-manager.pot (Safe Redirect Manager 1.7.7) 
+#. #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  tmp-safe-redirect-manager.pot (Safe Redirect Manager 1.7.7) 
+#. #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://www.10up.com"
+msgstr "http://www.10up.com"
+
+#: safe-redirect-manager.php:662
+msgid "If you don't know what this is, leave it as is."
+msgstr "Si vous ne savez pas ce que c'est, ne changez pas la valeur."
+
+#: safe-redirect-manager.php:656
+msgid "HTTP Status Code:"
+msgstr "Code de statut HTTP:"
+
+#: safe-redirect-manager.php:652
+msgid "This can be a URL or a path relative to the root of your website (not your WordPress installation). Ending with a (*) wildcard character will append the request match to the redirect."
+msgstr "Ceci peut être une URL ou un chemin relatif à la racine du site web (et non pas votre installation WordPress). Terminer avec le caractère de remplacement (*) vous permettra d'ajouter la requête à la redirection."
+
+#: safe-redirect-manager.php:650
+msgid "Redirect To:"
+msgstr "Redirection vers:"
+
+#: safe-redirect-manager.php:646
+msgid "This path should be relative to the root of this WordPress installation (or the sub-site, if you are running a multi-site). Appending a (*) wildcard character will match all requests with the base. Warning: Enabling regular expressions will disable wildcards and completely change the way the * symbol is interpretted."
+msgstr "Ce chemin doit être relatif à la racine de cette installation de WordPress (ou le sous-site, si vous utilisez un multisite). L'ajout d’un (*) caractère générique correspondra à toutes les requêtes avec la base. Avertissement : activer les expressions régulières désactivera complètement les caractères génériques et changera la façon dont le symbole * est interprété."
+
+#: safe-redirect-manager.php:645
+msgid "Enable Regular Expressions (advanced)"
+msgstr "Activer les expressions régulières (avancé)"
+
+#: safe-redirect-manager.php:642
+msgid "Redirect From:"
+msgstr "Redirection à partir de:"
+
+#: safe-redirect-manager.php:620
+msgid "Redirect Settings"
+msgstr "Paramètres de redirection"
+
+#: safe-redirect-manager.php:576
+msgid "No redirect rules found in trash."
+msgstr "Aucune règle de redirection trouvée dans la corbeille."
+
+#: safe-redirect-manager.php:575
+msgid "No redirect rules found."
+msgstr "Aucune règle de redirection trouvée."
+
+#: safe-redirect-manager.php:574
+msgid "Search Redirects"
+msgstr "Rechercher une redirection"
+
+#: safe-redirect-manager.php:573
+msgid "View Redirect Rule"
+msgstr "Voir la règle de redirection"
+
+#: safe-redirect-manager.php:571
+msgid "New Redirect Rule"
+msgstr "Nouvelle règle de redirection"
+
+#: safe-redirect-manager.php:570
+msgid "Edit Redirect Rule"
+msgstr "Modifier la règle de redirection"
+
+#. #-#-#-#-#  tmp-safe-redirect-manager.pot (Safe Redirect Manager 1.7.7) 
+#. #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: safe-redirect-manager.php:569 safe-redirect-manager.php:572
+#: safe-redirect-manager.php:578
+msgid "Safe Redirect Manager"
+msgstr "Safe Redirect Manager"
+
+#: safe-redirect-manager.php:567
+msgctxt "post type singular name"
+msgid "Redirect"
+msgstr "Redirection"
+
+#: safe-redirect-manager.php:566
+msgctxt "post type general name"
+msgid "Safe Redirect Manager"
+msgstr "Safe Redirect Manager"
+
+#: safe-redirect-manager.php:502
+msgid "Date"
+msgstr "Date"
+
+#: safe-redirect-manager.php:498
+msgid "Redirect From"
+msgstr "Redirection à partir de"
+
+#: safe-redirect-manager.php:495
+msgid "HTTP Status Code"
+msgstr "Code de statut HTTP"
+
+#: safe-redirect-manager.php:494
+msgid "Redirect To"
+msgstr "Redirection vers"
+
+#: safe-redirect-manager.php:442
+msgid "Redirect rule draft updated."
+msgstr "Brouillon de règle de redirection mis à jour."
+
+#. translators: Publish box date format, see http:php.net/date
+#: safe-redirect-manager.php:441
+msgid "M j, Y @ G:i"
+msgstr "j M Y @ G:i"
+
+#: safe-redirect-manager.php:439
+msgid "Redirect rule scheduled for: <strong>%1$s</strong>."
+msgstr "Règle de redirection planifiée pour: <strong>%1$s</strong>."
+
+#: safe-redirect-manager.php:438
+msgid "Redirect rule submitted."
+msgstr "Règle de redirection envoyée."
+
+#: safe-redirect-manager.php:437
+msgid "Redirect rule saved."
+msgstr "Règle de redirection enregistrée."
+
+#: safe-redirect-manager.php:436
+msgid "Redirect rule published."
+msgstr "Règle de redirection publiée."
+
+#. translators: %s: date and time of the revision
+#: safe-redirect-manager.php:435
+msgid "Redirect rule restored to revision from %s"
+msgstr "Règle de redirection restaurée de la révision à partir de %s"
+
+#: safe-redirect-manager.php:432
+msgid "Custom field deleted."
+msgstr "Champ personnalisé supprimé."
+
+#: safe-redirect-manager.php:431
+msgid "Custom field updated."
+msgstr "Champ personnalisé mis à jour."
+
+#: safe-redirect-manager.php:430 safe-redirect-manager.php:433
+msgid "Redirect rule updated."
+msgstr "Règle de redirection mise à jour."
+
+#: safe-redirect-manager.php:324
+msgid "Safe Redirect Manager Error: You have reached the maximum allowable number of redirects"
+msgstr "Erreur de Safe Redirect Manager: Vous avez atteint le nombre maximal autorisé de redirections."
+
+#: safe-redirect-manager.php:316
+msgid "Safe Redirect Manager Warning: Possible redirect loops and/or chains have been created."
+msgstr "Avertissement de Safe Redirect Manager: il est possible que vous ayez créé des boucles et/ou chaînes de redirections."
+
+#: safe-redirect-manager.php:272
+msgid "An error occurred creating the redirect."
+msgstr "Une erreur est survenue en créant la redirection."
+
+#: safe-redirect-manager.php:260
+msgid "Redirect already exists for %s"
+msgstr "Une redirection existe déjà pour %s"
+
+#: safe-redirect-manager.php:256
+msgid "Invalid status code."
+msgstr "Code d’état non valide."
+
+#: safe-redirect-manager.php:253
+msgid "Redirect from and/or redirect to arguments are invalid."
+msgstr "Les arguments pour Redirection à partir de et/ou Redirection vers sont non valides."

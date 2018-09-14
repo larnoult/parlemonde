@@ -1,0 +1,2394 @@
+/*
+Theme Name: VP-multi-asso
+Theme URI: http://themes.kadencethemes.com/virtue-premium/
+Description: Child theme for Virtue – Premium theme
+Author: Kadence Themes
+Author URI: http://www.kadencethemes.com/
+Template: virtue_premium
+Version: 1.0.0
+*/
+
+
+/* VERSION EN LIGNE ADULTE avec thème payant*/
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*  Importation des polices | faire du tri.. | si incompatibilité avec navigateur, générer le format otf (voir la police PLMoon) */
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+@font-face {
+  font-family: 'LoveYa';
+  src: url('LoveYaLikeASister.eot?#iefix') format('embedded-opentype'),  url('LoveYaLikeASister.woff') format('woff'), url('LoveYaLikeASister.ttf')  format('truetype'), url('LoveYaLikeASister.svg#LoveYaLikeASister') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'ange';
+    src: url('cheveuxdange-webfont.eot');
+    src: url('cheveuxdange-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cheveuxdange-webfont.woff') format('woff'),
+         url('cheveuxdange-webfont.ttf') format('truetype'),
+         url('cheveuxdange-webfont.svg#cheveuxdangemedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'exception';
+    src: url('theonlyexception-webfont.eot');
+    src: url('theonlyexception-webfont.eot?#iefix') format('embedded-opentype'),
+         url('theonlyexception-webfont.woff') format('woff'),
+         url('theonlyexception-webfont.ttf') format('truetype'),
+         url('theonlyexception-webfont.svg#the_only_exceptionregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'amandine';
+    src: url('amandine-webfont.eot');
+    src: url('amandine-webfont.eot?#iefix') format('embedded-opentype'),
+         url('amandine-webfont.woff') format('woff'),
+         url('amandine-webfont.ttf') format('truetype'),
+         url('amandine-webfont.svg#amandinehandwriting') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'moon';
+    src: url('plmoon-webfont.eot');
+    src: url('plmoon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('plmoon-webfont.woff') format('woff'),
+         url('plmoon-webfont.ttf') format('truetype'),
+         url('plmoon-webfont.svg#pwflymetothemoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'littledays';
+    src: url('plm-littledays-webfont.eot');
+    src: url('plm-littledays-webfont.eot?#iefix') format('embedded-opentype'),
+         url('plm-littledays-webfont.woff') format('woff'),
+         url('plm-littledays-webfont.ttf') format('truetype'),
+         url('plm-littledays-webfont.svg#little_daysregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* les couleurs 
+
+orange : 219, 198, 183  
+bleu : 77, 94, 188 et 145, 149, 198
+rouge : c74721 = 199, 71, 33
+
+*/
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* modification du style du menu mobile */
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*
+.nav-trigger-case:hover .kad-menu-name, .nav-trigger-case:hover .kad-navbtn {
+font-family:'moon'!important;
+}
+
+.kad-mnav > li {
+font-family:'moon'!important;
+}
+.kad-mnav > li .sf-description, .kad-mnav > li > ul > li{
+font-family:'littledays'!important;
+} */
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* modification du style générale du site, via  */
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*ul li {
+	list-style: none;
+}
+
+ul li:before:not(#menu-plm-menu){
+	content:'\2022  ';
+	color:grey;
+	position:relative;
+	
+}*/
+
+.child {
+/*	font-family: 'ange';
+	font-size: 15px !important;*/
+/*	font-weight:bold !important;*/
+	font-weight:600 !important;
+	
+	display:inline !important;
+/*	background: url("http://www.parlemonde.org/wp-content/uploads/2014/05/gribouille.png") repeat !important;	*/
+	width:auto !important;
+	
+} 
+.plm {
+	font-family: 'littledays';
+	font-size: 23px !important;
+	text-transform: capitalize;
+	margin-left:5px;
+
+}
+
+h1{
+	font-family:'littledays'!important;
+	font-size: 35px !important;
+}
+/*
+h4{
+/*	font-family:'ange'!important;
+	font-size: 20px !important;
+	font-weight:bold !important;
+	padding-top:10px!important;
+	padding-bottom:10px!important;
+	text-transform:uppercase!important;
+}*/
+
+
+
+
+.homeLine{
+width:40% !important;
+margin-right:0px!important	;
+}
+
+/* class de partage de l'article */
+.jwsharethis {
+	font-family: 'littledays';
+	color: rgba(199, 71, 33,1) ;
+	font-size: 22px;
+	margin-top: 55px !important;
+	border-bottom: 1px solid rgba(199, 71, 33, 0.4) ;
+} 
+
+/*
+.topbarmenu ul li a {
+font-size: 24px;
+}
+
+.sf-menu li {font-family:'amandine' !important;}
+*/
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* modification du style de la side bar... ne pas oublier !important */
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.widget-inner h3 {
+	border-top: 1px solid rgba(0, 0, 0, .05) !important;
+}
+
+.sidebar{
+/*border-left: thick solid #ff0000!important;*/
+
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* modification de class déjà existantes dans virtue.css du thème parent... ne pas oublier !important */
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+ 
+/*hr { 
+	background: rgba(199, 71, 33,1) !important;
+	color: rgba(199, 71, 33,1) !important;
+	height: 1.5px !important;
+	width: 80%;
+}*/
+
+p .subtitle{ /* pour modifier les sous titres de chaque partie*/
+	 
+	margin-top:10px !important;
+}
+
+
+.low-width{ /* pour changer la largeur de la page d'acceuil */
+	width:80%!important;
+	margin:0px auto!important;
+	border-right: 0px solid rgba(204, 114, 181, .3)!important;
+	
+}
+
+.main{
+	padding-left:25px !important;
+	padding-right:25px !important;
+/*	border-right: 1px solid rgba(204, 114, 181, .3)!important;*/
+}
+
+.kad-standard-logo{
+	width:450px !important;
+	height: auto!important;
+}
+
+.belowlogo-text{
+/*position:absolute !important;
+left:-19px!important;
+top:30px !important;
+-webkit-transform:rotate(-45deg)!important;
+-moz-transform:rotate(-45deg)!important;
+-ms-transform:rotate(-45deg)!important;
+-o-transform:rotate(-45deg)!important;
+transform:rotate(-45deg)!important;
+font-size:11px !important;
+border-bottom: 2px solid rgba(0, 0, 0, .05) !important;
+font-weight:bolder !important;
+
+text-transform:uppercase!important;*/
+
+/*background:grey !important;
+-webkit-box-shadow: 0 8px 40px -8px rgba(0, 0, 0, .05);
+   -moz-box-shadow: 0 8px 40px -8px rgba(0, 0, 0, .05);
+        box-shadow: 0 8px 40px -8px rgba(0, 0, 0, .05);*/
+}
+/*
+.belowlogo-text:after{
+	content:""; ;background: rgba(0, 0, 0, .05); position: absolute; top: -5px; left: 25%; height: 1px; width: 50% !important
+	}  
+	*/
+	/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/	
+	/* Styler le testimonal */	
+	/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+	
+.author{
+	font-style:italic !important;
+}
+
+.testimonials-widget blockquote{
+	font-size:25px !important;
+}
+
+.testimonials-widget{
+	/*width:80%!important;
+	margin:0px auto!important;*/
+	padding-top:50px !important;
+	padding-bottom:0px !important;
+}
+
+
+
+
+
+
+.pullquote-left{
+    position: relative;
+    padding: 10px 90px 10px 90px;
+    margin: 30px 40px 30px 0 !important;
+    float: left;
+    max-width: 4950px;
+    font-size: 23px;
+    line-height: 29px;
+	width:100%;
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/	
+/* Les plus et moins de l'accordéon */	
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*
+.icon-plus-sign:before {
+    content: "\f055";
+}
+
+.icon-minus-sign:before {
+    content: "\f056";
+}
+
+.icon-plus:before {
+    content: "\f067"
+}
+
+.icon-minus:before {
+    content: "\f068"
+}
+*/
+/*
+.panel-heading {
+	background-image:url("http://www.parlemonde.org/wp-content/uploads/2014/05/fond-13.jpg") !important;
+	
+} /*
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/	
+/* Les bulles explicatives */	
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+a.menu-bulle span{
+/*	font-family:ange!important;*/
+	font-color:white !important;
+	display:none;
+}
+
+a.menu-bulle:hover {
+    position: relative
+}
+
+a.menu-bulle:hover #bulle-quoi{
+	    display: block;
+	    background: url(http://www.parlemonde.org/wp-content/uploads/2014/05/bulle1-gif-rouge.png) no-repeat ;
+		background-size: 100%;
+	    left: 125px;
+	    margin: 10px;
+	    width: 105px;
+	    height: 105px;
+	    position: absolute;
+	    top: -89px;
+		padding: 27px 5px 5px 32px;
+		color:white;
+		font-weight:bold;
+}
+
+a.menu-bulle:hover #bulle-qui{
+	    display: block;
+	    background: url(http://www.parlemonde.org/wp-content/uploads/2014/05/bulle1-gif-bleu.png) no-repeat ;
+		background-size: 100%;
+	    left: 120px;
+	    margin: 10px;
+	    width: 100px;
+	    height: 100px;
+	    position: absolute;
+	    top: 0px;
+		padding: 27px 5px 5px 32px;
+		color:white;
+		font-weight:bold;
+}
+
+a.menu-bulle:hover #bulle-quand{
+	    display: block;
+	    background: url(http://www.parlemonde.org/wp-content/uploads/2014/05/bulle1-gif-vert.png) no-repeat ;
+		background-size: 100%;
+	    left: 75px;
+	    margin: 10px;
+	    width: 120px;
+	    height: 120px;
+	    position: absolute;
+	    top: -90px;
+		padding: 37px 5px 5px 32px;
+		color:green;
+		font-weight:bold;
+}
+
+a.menu-bulle:hover #bulle-ou{
+	    display: block;
+	    background: url(http://www.parlemonde.org/wp-content/uploads/2014/05/bulle1-gif-jaune.png) no-repeat ;
+		background-size: 100%;
+	    left: 105px;
+	    margin: 10px;
+	    width: 95px;
+	    height: 95px;
+	    position: absolute;
+	    top: -75px;
+		padding: 27px 5px 5px 32px;
+		color:white;
+		font-weight:bold;
+}
+
+a.menu-bulle:hover #bulle-1901{
+	    display: block;
+	    background: url(http://www.parlemonde.org/wp-content/uploads/2014/05/bulle1-gif-marron-T.png) no-repeat ;
+		background-size: 100%;
+	    left: 90px;
+	    margin: 10px;
+	    width: 110px;
+	    height: 110px;
+	    position: absolute;
+	    top: -0px;
+		padding: 27px 5px 5px 32px;
+		color:white;
+		font-weight:bold;
+}
+
+
+
+a.menu-bulle:hover #bulle-comment{
+	    display: block;
+	    background: url(http://www.parlemonde.org/wp-content/uploads/2014/05/1-bulle1-gif-violet-T.png) no-repeat ;
+		background-size: 90%;
+	    left: 135px;
+	    margin: 10px;
+	    width: 160px;
+	    height: 140px;
+	    position: absolute;
+	    top: 3px;
+		padding: 47px 5px 5px 42px;
+		color:white;
+		font-weight:bold;
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/	
+/* pour changer le style du menu principal */	
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+#nav-main{
+    margin-top: 127px!important;
+}
+
+.sf-menu ul, .sf-menu li:hover ul, .sf-menu li.sfHover ul {
+    width: 90%;
+}
+
+
+
+
+/* To style the sliding menu - adapted from https://codepad.co/snippet/FQaiCzbb*/
+#nav-main > ul > li > a::first-letter{
+	color: #c32e4a;
+}
+
+#nav-main > ul > li > a:hover, #nav-main > ul > li > a:focus, #nav-main > ul > li > a:active, #nav-main > ul li.sfHover > a {
+    color: #c32e4a!important;
+    text-decoration: none;
+}
+
+#nav-main > ul > li > a {
+    text-decoration: none;
+    transition: color 0.1s, background-color 0.1s;
+}
+#nav-main > ul > li > a {
+    position: relative;
+    display: block;
+    transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
+}
+#nav-main > ul > li > a::before  {
+ 		content: '';
+	    display: block;
+	    position: absolute;
+	    bottom: 1px;
+	    left: 7%;
+	    height: 3px;
+	    width: 88%;
+	    background-color: #c32e4a;
+	    transform-origin: left top;
+	    transform: scale(0.15, 1);
+	    transition: color 0.1s,transform 0.2s ease-out;
+}
+#nav-main > ul > li > a:active::before {
+    background-color: #c32e4a;
+}
+#nav-main > ul > li > a:hover::before, a:focus::before {
+    transform-origin: left top;
+    transform: scale(1, 1);
+}
+
+#nav-main ul.sf-menu li.current-menu-item > a, #nav-main ul.sf-menu > li.current-menu-parent > a {
+	color:#c32e4a ;
+}
+	
+#nav-main > ul > li :hover > a{
+	color:#c32e4a!important ;	
+}
+
+#nav-main > ul > li > a { /* pour changer le style du menu principal */	
+	font-family:"alegreya sans sc"!important; 
+	font-size: 25px!important;
+	vertical-align:middle!important;
+} 	
+/*
+#nav-main > ul > li:after, #nav-main > ul > li:before{
+	content:""; 
+	background: rgba(0, 0, 0, .05); position: absolute;
+	 height: 2px; 
+	width: 80% !important
+}
+
+#nav-main > ul > li:before{
+	content:""; 
+    top: -5px;
+    left: 10%;
+}
+
+#nav-main > ul > li:after{
+	content:""; 
+	top: 45px; 
+	left: 10%;
+}*/
+
+#menu1 span, #menu2 span, #menu3 span, #menu4 span{
+    display:inline-block !important;
+}
+
+
+#nav-main > ul > li > ul > li > a { /* pour changer le style du sous-menu */
+	height:auto!important;
+	font-family: littledays !important; 
+	font-size:23px !important;	
+}
+
+.sf-menu ul { /* pour choisir la transparence du menu */
+	background: rgba(255,255,255,0.98) !important;
+	} 
+
+
+
+#nav-main > ul > li > a { /* pour changer le style du menu principal */	
+	font-family:"alegreya sans sc"!important; 
+	font-size: 32px!important;
+	vertical-align:middle!important;
+} 	
+
+
+#nav-main > ul > li > ul > li > a { /* pour changer le style du sous-menu */
+	height:auto!important;
+	font-family: littledays !important; 
+	font-size:23px !important;	
+}
+
+.sf-menu ul { /* pour choisir la transparence du menu */
+	background: rgba(255,255,255,0.98) !important;
+	} 
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/	
+/* pour rapprocher le menu principal du logo | finalement non utilisé */ 
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/	
+/*
+.col-md-4, .span4 {
+        width: 13.33333333333333%!important;
+    }
+.col-md-8, .span8 {
+        width: 86.66666666666666%!important;
+    }	
+
+#nav-main ul.sf-menu {
+	float: left!important;
+	}
+	
+	*/
+/*li.menu-par-le-monde ul.sf-dropdown-menu{
+	font-family: roboto !important; 
+}*/
+
+
+/* Pour modifier la largeur du menu*/
+.sf-menu ul, .sf-menu li:hover ul, .sf-menu li.sfHover ul {
+	width: 200px !important;
+	} 
+
+.sf-menu li a .sf-description { /* for setting menu description style */
+	font-family: littledays; 
+	font-size:23px; 
+	font-weight:normal;
+	padding-top:10px!important;
+	padding-bottom:7px!important;
+	border-bottom: 1px solid rgba(0, 0, 0, .05) !important;
+    
+	} 
+/*	
+.sf-menu li a .sf-description:hover {
+	visibility:visible!important;
+	font-family: ange!important;
+	font-size:14px!important;
+	
+}*/
+
+/* Pour modifier 1) le sous-menu sélectionné , 2) le menu sélectionné */
+
+#nav-main ul.sf-menu li.current-menu-item > a, #nav-main ul.sf-menu > li.current-menu-parent > a {
+	color:rgba(199, 71, 33,1) ;
+}
+/* 
+#nav-main ul.sf-menu > li.current-menu-item > a, #nav-main ul.sf-menu > li.current-menu-parent > a {
+	background: url('http://www.parlemonde.org/wp-content/uploads/2014/05/paper1-tache.png') no-repeat left top!important;
+	background-size:100% 100% !important;
+}*/
+	
+.soutien {
+	visibility:hidden !important;
+}
+
+
+
+.headerclass {background:rgba(255,255,255,0.90);
+	margin-top: 20px;}
+.footerclass {background:rgba(255,255,255,0.90);}
+.contentclass {background:rgba(255,255,255,0.95);}
+
+#wp-admin-bar-wp-logo{
+	display:none; !important;
+}
+
+.flexslider{ /* to get an hand on ALL sliders   class imghoverclass quand on met une image*/
+	max-width:960px !important;
+	margin-left: auto !important;
+	margin-right:auto !important;
+}  
+
+.imghoverclass {
+	margin:0 auto!important;
+	height:auto !important;
+	max-width:1000px !important;
+	width:90% !important;
+/*	border:1px solid !important;
+	color:black !important;
+/*	display:table-cell!important;
+	vertical-align:middle!important;*/
+}
+
+.imghoverclass  img {
+	width: 100%;
+  height : auto;
+  max-height: 100%;
+  max-width: 100%;
+  /*cursor:pointer !important;*/
+}
+
+/*
+.imghoverclass  {
+    opacity: 1!important;
+    -webkit-transition: opacity .2s ease-in-out!important;
+    -moz-transition: opacity .2s ease-in-out!important;
+    -ms-transition: opacity .2s ease-in-out!important;
+    -o-transition: opacity .2s ease-in-out!important;
+    transition: opacity .2s ease-in-out!important;
+    -webkit-transform: translateZ(0) scale(1, 1)!important;
+}
+
+.imghoverclass:hover {
+    opacity: .8!important;
+}
+*/
+  /*  width: 100% !important;
+	display:block !important;
+	margin:auto !important;
+	left:0px !important;
+	right:0px !important;
+	margin-right: 0px !important;
+    margin-left: 0px !important;
+} */
+
+.img-margin-center {
+/*	margin:auto !important;*/
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* les images du qui */
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.pelico-peluche{
+	padding-bottom:40px;
+}
+.pelico-peluche img{
+	width:10%;
+	float:right;
+	top:0px;
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* pour la partie En route */
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#monde-map {
+	position: relative; 
+	top: 10px;
+	width:100%;
+}
+
+#monde-map img {
+	display:block !important; 
+	width:100%;
+	}
+	
+#monde-map .hotspots {
+	width:100%; 
+	height:100%; 
+	position:absolute; 
+	left:0; 
+	top:0; 	
+	}
+
+#monde-map .hotspots span {
+	display:block; 
+/*	border:1px solid black; */
+	position:absolute;
+	width:6%; 
+	height:8%;
+}
+
+#monde-map .hotspots span#france-drop-in {
+	left:45%; 
+	top:25%; 
+}
+#monde-map .hotspots span#tunisie-drop-in {
+	left:45%; 
+	top:34%; 
+}
+#monde-map .hotspots span#liban-drop-in {
+	left:52%; 
+	top:34%; 
+}
+
+#monde-map .hotspots span#ouganda-drop-in {
+	left:53%; 
+	top:50%; 
+}
+
+#monde-map .hotspots span#namibie-drop-in {
+	left:47%; 
+	top:58%; 
+}
+
+#monde-map .hotspots span#chili-drop-in {
+	left:24%; 
+	top:71%; 
+}
+
+#monde-map .hotspots span#colombie-drop-in {
+	left:24%; 
+	top:48%; 
+}
+
+#monde-map .hotspots span#salvador-drop-in {
+	left:17%; 
+	top:38%; 
+}
+
+#monde-map .hotspots span#canada-drop-in {
+	left:23%; 
+	top:22%; 
+}
+
+#monde-map .hotspots span#mongolie-drop-in {
+	left:69%; 
+	top:25%; 
+}
+
+#monde-map .hotspots span#nepal-drop-in {
+	left:69%; 
+	top:35%; 
+}
+
+#monde-map .hotspots span#sri-lanka-drop-in {	
+	left:69%; 
+	top:45%;
+}
+
+#monde-map .hotspots span#malaisie-drop-in {
+	left:76%; 
+	top:45%;
+}
+
+#monde-map .hotspots span#japon-drop-in {
+	left:82%; 
+	top:26%; 
+}
+
+#monde-map .hotspots span#australie-drop-in {
+	left:82%; 
+	top:68%; 
+}
+/*
+.monde {
+	margin: 0 auto;
+	max-width:900px;
+    width: 100%; 
+	text-align:middle;
+}*/
+
+
+#France,#Salvador {
+	z-index:1;
+	width: 25%;
+	position: relative; 
+	top: 0px;
+	left:0px;
+	cursor:move;
+}
+
+.mini-puzzle{
+	width: 82%;
+	height: auto; 
+}
+
+.puzzle-piece td{
+	font-family: "littledays";
+	font-size:20px;
+	text-align:center;
+	vertical-align:center;
+}
+
+#Liban{
+	visibility:hidden;
+}
+#monde-map {
+	position: relative; 
+	top: 10px;
+}
+
+ul.list-bulle {
+	margin-top: 5px;
+	margin-left: 10px;
+	}
+	
+/* Pour styler le slider cyclone */
+.cycloneslider-caption {
+	margin-bottom: 15px!important;
+}
+
+#map_ou_actuellement{
+	visibility:hidden !important;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* pour la partie quand */ 
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#timeline-embed {
+	
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* pour la partie 1901 */ 
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.sac-bulle{
+	position: relative;
+	max-width:1200px;
+	height:900px;
+    width: 100%; 
+	margin-top:35px;
+	}
+	
+.sac-bulle div{
+/*	font-family:'ange'!important;*/
+	font-size:13px;
+	font-weight:bold;
+	background-image:no-repeat;
+	 position:absolute; 
+/*		padding-top: 55px ;*/
+		padding-left: 66px;
+		padding-right: 66px;
+		text-align:center;
+	  	margin-left: auto;
+	    margin-right: auto;
+		display: table; 
+	
+}
+
+
+
+.sac-bulle div span{
+	display:table-cell;
+	 vertical-align:middle;
+}
+
+/*Pour faire changer les textes dans les bulles*/
+.sac-bulle span.toShow{
+	display:none;
+	}
+
+.sac-bulle div:hover {
+	background-repeat: no-repeat;
+}
+
+
+
+.sac-bulle div#instituteur {
+		background-image: url('http://www.parlemonde.org/wp-content/uploads/2014/05/bulle1-gif-rouge.png') ;
+		width: 220px ;
+		height: 180px;
+		background-size: cover;
+		left:10%;
+		top:0%;
+		color:white;
+		-ms-behavior: url(http://www.parlemonde.org/scripts/backgroundsize.min.htc);
+		}
+
+.sac-bulle div:hover span{
+		color:black;
+			
+}
+
+#instituteur:hover span.toHide{display:none;}
+#instituteur:hover span.toShow{
+	display:table-cell;
+	}
+
+		
+.sac-bulle div#benevole {
+		background-image: url('http://www.parlemonde.org/wp-content/uploads/2014/05/bulle1-gif-bleu-T.png') ;
+		width: 230px ;
+		height: 170px;
+		background-size: cover;
+		-ms-behavior: url(http://www.parlemonde.org/scripts/backgroundsize.min.htc);
+		left:40%;
+		top:1%;
+		color:white;
+		}
+		
+#benevole:hover span.toHide{display:none;}
+#benevole:hover span.toShow{display:table-cell;}
+
+	
+
+.sac-bulle div#graphiste {
+		background-image: url('http://www.parlemonde.org/wp-content/uploads/2014/05/bulle1-gif-vert-T.png') ;
+		width: 230px ;
+		height: 170px;
+		background-size: cover;
+		-ms-behavior: url(http://www.parlemonde.org/scripts/backgroundsize.min.htc);
+		left: 30%;
+		top:20%;
+		color:green;
+		}
+
+#graphiste:hover span.toHide{display:none;}
+#graphiste:hover span.toShow{display:table-cell;}
+
+		
+.sac-bulle div#programmateur {
+		background-image: url('http://www.parlemonde.org/wp-content/uploads/2014/05/bulle1-gif-jaune.png') ;
+		width: 270px ;
+		height: 200px;
+		background-size: cover;
+		-ms-behavior: url(http://www.parlemonde.org/scripts/backgroundsize.min.htc);
+		left: 70%;
+		top:-5%;
+		color:yellow;
+		
+		}
+
+#programmateur:hover span.toHide{display:none;}
+#programmateur:hover span.toShow{display:table-cell;}
+						
+.sac-bulle div#pedopsy {
+		background-image: url('http://www.parlemonde.org/wp-content/uploads/2014/05/bulle1-gif-marron.png');
+		width:270px ;
+		height: 200px;
+		background-size: cover;
+		-ms-behavior: url(http://www.parlemonde.org/scripts/backgroundsize.min.htc);
+		left: 55%;
+		top:18%;
+		color:white;
+		}
+
+		
+#pedopsy:hover span.toHide{display:none;}
+#pedopsy:hover span.toShow{display:table-cell;}
+
+
+		
+				
+.sac-bulle div#melomane {
+		background-image: url('http://www.parlemonde.org/wp-content/uploads/2014/05/bulle1-gif-bleu2.png');
+		width: 220px ;
+		height: 180px;
+		background-size: cover;
+		-ms-behavior: url(http://www.parlemonde.org/scripts/backgroundsize.min.htc);
+		left: 0%;
+		top:60%;
+		color:white;	
+		}
+
+#melomane:hover span.toHide{display:none;}
+#melomane:hover span.toShow{display:table-cell;}
+				
+.sac-bulle div#monteur {
+		background-image: url('http://www.parlemonde.org/wp-content/uploads/2014/05/1-bulle1-gif-bleu3.png') ;
+		width: 200px ;
+		height: 150px;
+		background-size: cover;
+		-ms-behavior: url(http://www.parlemonde.org/scripts/backgroundsize.min.htc);
+		left: 40%;
+		top:39%;
+		color:white;
+		}
+
+#monteur:hover span.toHide{display:none;}
+#monteur:hover span.toShow{display:table-cell;}
+		
+.sac-bulle div#traducteur {
+		background-image: url('http://www.parlemonde.org/wp-content/uploads/2014/05/1-bulle1-gif-violet.png');
+		width: 240px ;
+		height: 196px;
+		background-size: cover;
+		-ms-behavior: url(http://www.parlemonde.org/scripts/backgroundsize.min.htc);
+		left: 18%;
+		top:44%;
+		color:white;
+		
+		}
+#traducteur:hover span.toHide{display:none;}
+#traducteur:hover span.toShow{display:table-cell;}
+
+.sac-bulle div#interprete {
+		background-image: url('http://www.parlemonde.org/wp-content/uploads/2014/05/1-bulle1-gif-turquoise.png') ;
+		width: 270px ;
+		height: 200px;
+		background-size: cover;
+		-ms-behavior: url(http://www.parlemonde.org/scripts/backgroundsize.min.htc);
+		left: 85%;
+		top:25%;
+		color:white;
+		}
+#interprete:hover span.toHide{display:none;}
+#interprete:hover span.toShow{display:table-cell;}
+		
+.sac-bulle div#contact {
+		background-image: url('http://www.parlemonde.org/wp-content/uploads/2014/05/1-bulle1-gif-orange.png');
+		width: 315px ;
+		height: 255px;
+		background-size: cover;
+		-ms-behavior: url(http://www.parlemonde.org/scripts/backgroundsize.min.htc);
+		left: 55%;
+		top:45%;
+		padding-left:80px !important;
+		color:white;
+		}
+#contact:hover span.toHide{display:none;}
+#contact:hover span.toShow{display:table-cell;}
+		
+.sac-bulle div#hebergement {
+		background-image: url('http://www.parlemonde.org/wp-content/uploads/2014/05/1-bulle1-gif-marron2.png');
+		width: 315px ;
+		height: 255px;
+		background-size: cover;
+		-ms-behavior: url(http://www.parlemonde.org/scripts/backgroundsize.min.htc);
+		left: -5%;
+		top:19%;
+		color:white;
+		}		
+#hebergement:hover span.toHide{display:none;}
+#hebergement:hover span.toShow{display:table-cell;}
+
+.sac-bulle div#diffuseur {
+		background-image: url('http://www.parlemonde.org/wp-content/uploads/2014/05/1-bulle1-gif-vert2.png') ;
+		width: 315px ;
+		height: 255px;
+		background-size: cover;
+		-ms-behavior: url(http://www.parlemonde.org/scripts/backgroundsize.min.htc);
+		left: 25%;
+		top:63%;
+		color:white;
+		}		
+#diffuseur:hover span.toHide{display:none;}
+#diffuseur:hover span.toShow{display:table-cell;}
+
+.sac-bulle div#media {
+		background-image: url('http://www.parlemonde.org/wp-content/uploads/2014/05/1-bulle1-gif-violet2.png') ;
+		width: 290px ;
+		height: 220px;
+		background-size: cover;
+		-ms-behavior: url(http://www.parlemonde.org/scripts/backgroundsize.min.htc);
+		left: 68%;
+		top:73%;
+		color:white;
+		}		
+#media:hover span.toHide{display:none;}
+#media:hover span.toShow{display:table-cell;}
+		
+/* essai Drag and Drop */
+.draggableObject { float:left; }
+
+.droppableRightArm{
+    width:400px;
+   height:400px;
+    background-color:red;
+    float:left;
+}
+
+.bandage{
+    width:100px;
+   height:100px;
+    background-color:blue;
+}
+.plaster{
+    width:100px;
+   height:100px;
+    background-color:pink;
+}
+
+.rpRightArmPlaster {
+ background-color:yellow;   
+}
+
+.rpRightArmBandage {
+ background-color:grey; 
+}
+
+/* HOME PAGE*/
+.kad_tagline{
+	margin-top:30px;
+}
+
+/* Pour cacher Pelico et les nuages de la page d'acceuil si l'écran est trop petit */ 
+@media screen and (max-width: 900px) {
+  #home-page-container, #homeheader, .candidatez, #menu-fixed, #tweet-that, #supportPLM { 
+	display: none !important; 
+	visibility: hidden;}  /* hide it on small screens */
+}
+
+
+
+#homePagemobile{
+	display:none;
+}
+
+@media screen and (max-width: 900px) {
+	#homePagemobile{
+		display:block!important;
+	}
+}
+h1#PLM-home-title-1{
+padding-top: 300px;
+position: absolute
+}
+
+#PLM-home-title-1, #PLM-home-title-2{
+	font-size:26px !important;
+	display:inline !important;
+	
+}
+
+#PLM-home-title-2{
+	padding-left:0px!important;	
+}
+
+#dragPelico{
+	display:inline !important;
+	z-index:1;
+}
+
+#home-page-container{
+	position:relative;
+	max-width:1300px;
+	height:700px;
+    width: 120%;
+	margin-bottom: 200px;
+/*  	display: table;
+	border:1px black solid;*/
+}
+
+/*
+#home-page-container div{
+	position:absolute;
+	vertical-align: middle;
+	padding: 13px;
+	display: table-cell;
+}*/
+
+#home-page-container div img{
+	height:auto;
+/*	opacity:0.4;*/
+}
+#home-page-container div{
+	position:absolute;
+}
+
+#home-page-container div .question {
+	position:absolute;
+	display:block;
+	font-family:"littledays";
+	font-size:80px;
+	left:70%;
+	top:40%;
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg);
+	-o-transform: rotate(-20deg);
+	text-shadow: 1px 1px 1px #7a7979;
+	z-index:0;
+	color:white;
+}
+
+#home-page-container div .attractP {
+	position:absolute;
+	display:block;
+	left:70%;
+	top:0%;
+	color:white;
+	border:solid 1px black;
+	width:50px;
+	height:100px;
+}
+
+
+
+#home-page-container > div > div {
+	visibility:hidden;
+}
+
+
+#nuage-quoi{
+	top:13%;
+	left:1%;
+}
+
+#nuage-quoi div{
+	position:absolute;
+	top:-20%;
+	left:+89%;
+	width:330px ;
+	height:auto;
+	padding-right: 2px;
+	padding-left: 2px;
+	text-align:left;
+}
+
+#nuage-cap{
+	top:-1%;
+	left:56%;
+}
+
+#nuage-cap div{
+	position:absolute;
+	top:95%;
+	left:-60%;
+	width:470px ;
+	height:auto;
+	padding-right: 2px;
+	padding-left: 2px;
+	text-align:right;
+
+}
+
+#nuage-route{
+	top:65%;
+	left:-15%;
+}
+
+#nuage-route div {
+	position:absolute;
+	width:280px ;
+	height:auto;
+	padding-right: 2px;
+	padding-left: 2px;	
+	top:5%;
+	left:90%;	
+	text-align:left;
+}
+
+#nuage-1901{
+	top:62%;
+	left:67%;
+}
+
+#nuage-1901 div{
+	position:absolute;
+	width:300px ;
+	height:auto;
+	padding-right: 2px;
+	padding-left: 2px;	
+	top:20%;
+	left:-90%;	
+	text-align:right;
+}
+
+
+#nuage-contact{
+	top:90%;
+	left:22%;
+}
+
+#nuage-contact div{
+	position:absolute;
+	width:380px ;
+	height:auto;
+	padding-right: 2px;
+	padding-left: 2px;	
+	top:20%;
+	left:+98%;
+	text-align:left;
+}
+
+/*
+#nuage-comment{
+	top:65%;
+	left:-8%;
+}
+
+#nuage-comment div{
+	position:absolute;
+	width:260px ;
+	height:auto;
+	padding-right: 2px;
+	padding-left: 2px;	
+	top:90%;
+	left:35%;
+}
+*/
+
+
+.home #content{
+/*
+	background-image:url('http://www.parlemonde.org/cc/wp-content/uploads/2014/05/ciel-21.jpg') !important;
+	background-size: 100%;
+	width:100%;*/
+	
+}
+
+
+
+#homeheader h1{ /* pour modifier le titre de la page d'accueil*/
+	position:relative !important;
+	top:450px !important;
+	width:95% !important;
+	padding-right:0px!important;
+}
+#homeheader .page-header{
+	width:100% !important;
+	height:80px !important;
+}
+
+
+
+#dragPelico{
+	cursor:move;
+}
+
+#form td{
+	padding-right:30px !important;
+	vertical-align:middle!important;
+}
+
+.HomeIframe {
+margin-top: 10px;
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: auto; 
+-webkit-overflow-scrolling:touch; 
+} 
+.HomeIframe iframe {
+position: absolute;
+top:0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+/* pour enlever le titre au forum */
+.bbp-breadcrumb-home{
+visibility:hidden;
+display:none;
+}
+
+/* Pour styler le changement de langue*/
+.bogo-language-switcher li {
+display:inline;
+margin-left:5px;
+}
+
+
+
+
+/*Pour la barre faussement admin*/
+
+#admin-like{
+	font: 400 13px/32px "Open Sans",sans-serif;
+	height: 32px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-width: 600px;
+	color: #fff;
+	background-color: rgb(34, 34, 34);
+	padding-left:50px;
+	z-index:9999;
+	display:block;	
+	padding-left:25px!important;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+#admin-like, img#ou-Header{
+display:none;
+}
+}
+
+
+#button-like, input.newsletter-submit, input.wysija-submit.wysija-submit-field{
+	-webkit-appearance: none;
+	-webkit-background-clip: border-box;
+	-webkit-background-origin: padding-box;
+	-webkit-background-size: auto;
+	-webkit-box-shadow: rgba(120, 200, 230, 0.498039) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.14902) 0px 1px 0px 0px;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgb(46, 162, 204);
+	background-image: none;
+	background-origin: padding-box;
+	background-size: auto;
+	border-bottom-color: rgb(0, 116, 162);
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: rgb(0, 116, 162);
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: rgb(0, 116, 162);
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: rgb(0, 116, 162);
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	box-shadow: rgba(120, 200, 230, 0.498039) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.14902) 0px 1px 0px 0px;
+	box-sizing: border-box;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	display: inline;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	height: 30px;
+	line-height: 28px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 25px;
+	margin-top: 0px;
+	padding-bottom: 2px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 0px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: baseline;
+	white-space: nowrap;
+	width: 91px;
+}
+input.wysija-submit.wysija-submit-field{
+	width: 120px!important;
+}
+
+#connect-Home{ 
+	padding-left:300px
+	}
+	
+#button-like > a , input.newsletter-submit > a {
+	color: #fff;
+	background-color: rgb(46, 162, 204);
+	
+}
+
+#PLM_fr{
+	float:right;
+/*	background-color: #cf4944;*/
+/*	background-image: repeating-linear-gradient(45deg, rgb(34, 34, 34,1), rgb(34, 34, 34,1) 35px, rgba(207, 73, 68, 1) 35px, rgba(207, 73, 68, 1) 70px);*/
+	padding-left:10px;
+	padding-right:10px;
+	padding-top: 3px;
+    
+}
+
+#PLM_fr> a {
+	color: #fff;	
+}
+
+.topMargin{
+	padding-top:25px;
+}
+
+
+/* to style Support us sticker */
+div#supportPLM{
+	position: absolute;
+	left:85%;
+	top:8%;
+	z-index:9999!important;
+}
+
+.anim750{
+  transition: all 750ms ease-in-out;
+}
+
+#Awesome{
+	position: relative;
+	width: 180px;
+	height: 180px;
+	margin: 0 auto;
+  
+  backface-visibility: hidden;
+}
+
+#Awesome .sticky{
+	transform: rotate(45deg);
+}
+
+#Awesome:hover .sticky{
+	transform: rotate(10deg);
+}
+
+#Awesome .sticky{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width:180px;
+	height: 180px;
+}
+
+#Awesome .reveal .circle{
+	box-shadow: 0 1px 0px rgba(0,0,0,.15);
+  
+  font-family: 'helvetica neue', arial;
+  font-weight: 200;
+line-height: 120px;
+  text-align: center;
+  
+  cursor: pointer;
+}
+
+#Awesome .reveal .circle{
+	background: #fafafa;
+}
+
+#Awesome .circle_wrapper{
+	position: absolute;
+	width: 180px;
+	height: 180px;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+}
+
+#Awesome .circle{
+	position: absolute;
+	width: 140px;
+	height:  140px;
+	margin: 20px;
+	
+	border-radius: 999px;
+}
+
+#Awesome .back{
+	height: 10px;
+	top: 30px;
+}
+
+#Awesome:hover .back{
+	height: 90px;
+	top: 110px;
+}
+
+#Awesome .back .circle{
+	margin-top: -130px;
+	background-color: #fbec3f;
+
+	background-image: -webkit-linear-gradient(bottom, rgba(251,236,63,.0), rgba(255,255,255,.8));
+}
+
+#Awesome:hover .back .circle{
+	margin-top: -50px;
+}
+
+#Awesome .front{
+	height: 150px;
+	bottom: 0;
+	top: auto;
+	
+	-webkit-box-shadow: 0 -140px 20px -140px rgba(0,0,0,.3);
+}
+
+#Awesome:hover .front{
+	height: 70px;
+	
+	-webkit-box-shadow: 0 -60px 10px -60px rgba(0,0,0,.1);
+}
+
+#Awesome .front .circle{
+	margin-top: -10px;
+	background: #fbec3f;
+
+	background-image: -webkit-linear-gradient(bottom, rgba(251,236,63,.0) 75%, #f7bb37 95%);
+  background-image: -moz-linear-gradient(bottom, rgba(251,236,63,.0) 75%, #f7bb37 95%);
+  background-image: linear-gradient(bottom, rgba(251,236,63,.0) 75%, #f7bb37 95%);
+}
+
+#Awesome #SupportFrench{
+	font-family: 'helvetica neue', arial;
+	 font-weight: 300;
+	 text-align: center;
+	position: relative;
+	left: 23%;
+	top: 40%;
+	width: 180px;
+	height:180px;
+	 line-height: 20px;
+	transition: opacity 50ms linear 400ms;
+}
+
+#Awesome:hover #SupportFrench{
+	opacity: 0;	
+	transition: opacity 50ms linear 300ms;
+}
+
+#Awesome:hover .front .circle{
+	margin-top: -90px;
+	background-color: #e2d439;
+	background-position: 0 100px;
+}
+
+div#tweet-that{
+	position: relative;
+	display:inline-block;
+	top:-17px;
+	left: 65%;
+	width:21%;
+	text-align: right;
+	border-right: 1px solid rgba(204, 114, 181, .3);
+	border-bottom:1px solid rgba(0, 0, 0, 0.1);
+	padding-left: 10px;
+	padding-right: 15px;
+	padding-bottom: 8px; 
+	padding-top:5px;
+	background-color:rgba(0,0,0,.01);
+}
+
+#tweet-that img {
+	float: left;
+	padding-left: 10px;
+	margin-top:-6px;
+	}
+	
+/* to have nice homogenous buttons */
+.wpcf7 input{
+border-radius: 5px!important;	
+}
+.wpcf7 input[type=submit]{
+	margin-top: 22px!important;
+}
+
+.button-form-like{
+background: #002b75;
+padding: 12px 18px;
+font-size: 14px;
+border: none;
+display: inline-block;
+color: #fff;
+transition: background .6s ease-out;
+-webkit-transition: background .6s ease-out;
+-moz-transition: background .6s ease-out;
+-o-transition: background .6s ease-out;
+width:auto
+height: auto;
+border-radius: 5px;
+max-width: 570px;
+cursor: pointer;
+display: inline-block;
+}
+
+.button-form-like:hover{
+background: #007cba;
+}
+.button-form-like > a, .button-form-like:hover > a{
+color: #fff;
+}
+
+
+/* to style le where are we? Ou sommes-nous ? */
+img#ou-Header{
+	position:absolute;
+	width:auto;
+	top:25px;
+	right:13%;
+}
+
+
+
+
+.pullquote-left::before{
+	color: rgba(0, 0, 0, 0.53)!important;	
+}
+
+/* To include lateral menu */
+
+#menu-fixed
+{
+position:fixed;
+top:37%;
+right: 0;
+width: 80px;
+z-index:99999;
+}
+
+#menu-fixed ul{
+list-style:none;
+padding-left: 0px;
+}
+
+
+#menu-fixed ul li{
+right:0;
+position: relative;
+margin-bottom: 1px;
+background-color: rgba(250, 250, 250, 0.9);
+border-radius: 7px;
+-webkit-border-radius: 7px;
+-moz-border-radius: 7px;
+border: 1px solid #d9d9d9;
+margin-right: -5px;
+height:70px ;
+width: 136px;
+transition: all 0.2s ease;
+}
+
+#menu-fixed ul li:hover{
+background-color: rgba(250, 105, 69, 0.92);				
+border: 1px solid rgba(216, 91, 60,0.92);	
+margin-left:-30px;
+}
+
+
+#menu-fixed div#img_plm{
+background:url(http://www.parlemonde.org/wp-content/uploads/2015/05/plm-fr.png) no-repeat center 0;
+}
+
+li.plateforme:hover #img_plm{
+	background:url(http://www.parlemonde.org/wp-content/uploads/2015/05/plm-fr-b.png) no-repeat center 0 !important;
+}
+
+#img_plm + div{
+	margin-top:-4px !important;
+}
+
+#menu-fixed div#img_donner{
+background:url(http://www.parlemonde.org/wp-content/uploads/2015/05/don.png) no-repeat center 0;
+}
+
+
+li.donner:hover #img_donner{
+background:url(http://www.parlemonde.org/wp-content/uploads/2015/05/don-b.png) no-repeat center 0!important;
+}
+
+#menu-fixed div#img_sinscrire{
+background:url(http://www.parlemonde.org/wp-content/uploads/2015/05/sinscrire.png) no-repeat center 0;
+}
+
+li.sinscrire:hover #img_sinscrire{
+background:url(http://www.parlemonde.org/wp-content/uploads/2015/05/sinscrire-b.png) no-repeat center 0!important;
+}
+
+#menu-fixed div#img_contact{
+background:url(http://www.parlemonde.org/wp-content/uploads/2015/05/contact.png) no-repeat center 0;
+}
+
+li.contact:hover #img_contact{
+background:url(http://www.parlemonde.org/wp-content/uploads/2015/05/contact-b.png) no-repeat center 0!important;
+}
+
+#menu-fixed div#img_prof{
+background:url(http://www.parlemonde.org/wp-content/uploads/2015/05/prof.png) no-repeat center 0;
+}
+
+li.salledesprofs:hover #img_prof{
+background:url(http://www.parlemonde.org/wp-content/uploads/2015/05/prof-b.png) no-repeat center 0!important;
+}
+
+#menu-fixed div#img_prof + div{
+	margin-top:-6px;	
+}
+
+#menu-fixed div.icone {
+height: 40px;
+margin-bottom: 5px;
+margin-top: 5px;
+}
+
+
+#menu-fixed ul li div {
+color: #4D4D4D;
+font-size: 76%;
+font-family: 'Source Sans Pro';
+font-weight:bold;
+margin-bottom: 10px;
+text-align: center;
+line-height: 10px;
+width: 76px;
+}
+
+#menu-fixed ul li:hover div{
+	color:white;
+}
+
+
+/* To style l'equipe */
+ul.lequipe, ul.listeRouge {
+list-style: none;
+}
+
+
+
+ul.lequipe	 li:before, ul.listeRouge li:before {
+		 content: "\00BB \0020";
+		 color: #cf4944;
+		font-size:20px;
+		font-weight: bold;
+	     }
+
+ul.listeRouge li{
+	padding-bottom:6px;
+	margin-left:35px;
+}
+
+
+.pullquote-lb{
+    position: relative;
+    padding: 10px 90px 10px 90px;
+    margin: 30px 40px 30px 0 !important;
+    float: left;
+    max-width: 4950px;
+    font-size: 23px;
+    line-height: 29px;
+	width:100%;
+}
+
+.pullquote-lb::before{
+position: absolute;
+left: 0;
+top: 20%;
+font-size: 34px;
+color: rgba(0, 0, 0, 0.53)!important;	
+font-family: virtue_icons;
+font-style: normal;
+speak: none;
+font-weight: 400;
+content: "\e19f";
+-webkit-font-smoothing: antialiased;
+}
+
+
+		@media only screen and (min-device-width: 768px) 
+		{ 
+			ul.lequipe	 li{
+				margin-left: -48px;
+				padding-bottom: 6px;
+			}
+
+			.lequipeStrong strong{
+				font-size:22px;
+				margin-left: -60px;
+			}			
+		}
+
+
+
+.lequipeStrong img{
+	margin-top:30px;
+}
+
+/* To style comparison table Pelico / Pelico +*/
+
+.comparison-table, .mission-table{
+clear: both;
+width: 100%;
+margin: 20px 0 40px 0;
+border: 0;
+border-collapse: collapse;
+text-align: center;
+background: #fff;
+padding: 1px;
+display: table;
+border-collapse: separate;
+-webkit-border-horizontal-spacing: 2px;
+-webkit-border-vertical-spacing: 2px;
+border-top-color: gray;
+width: 65%;
+margin:0 auto;
+}
+
+.mission-table{
+	width: 85%!important;
+	
+}
+
+.comparison-table thead, .mission-table thead{
+	background: rgba(204, 204, 204, 0.48);
+}
+.comparison-table tr:nth-child(even), .mission-table tr:nth-child(even) {
+	background: rgba(236, 236, 236, 0.19);
+	}
+.comparison-table tr:nth-child(odd), mission-table tr:nth-child(odd) {
+	background: rgba(204, 204, 204, 0.29);
+	}
+.comparison-table td, .comparison-table th {
+	line-height: 1;
+	padding: 12px;
+}
+
+.comparison-table tbody td:first-child{
+	text-align: left;
+}
+
+.mission-table td, .mission-table th{
+	line-height: 1;
+	padding: 15px;
+}
+.mission-table td{
+	width:50%;
+	text-align:left!important;
+}
+
+.ico-ok{
+background: url('http://www.parlemonde.org/wp-content/uploads/2015/06/ico-ok.png') top left no-repeat;
+display: inline-block;
+white-space: nowrap;
+overflow: hidden;
+text-indent: 100%;
+height: 29px;
+width: 29px;
+line-height: 1;
+vertical-align: middle;
+}
+
+
+/* To style temoignages page */
+#temoignage-anecdote div{
+	width:50%;
+	margin: 0 auto;
+	margin-bottom:60px;
+	font-size:17px;
+}
+
+.listeLove{
+	font-family: Alegreya;
+	font-size: 16px;
+    line-height: 22px;
+}
+
+.PDF-download{
+	
+	margin-bottom: 40px;
+
+	
+}
+
+#Une #PelicoMail{
+	width: 30%;
+	position: absolute;
+	right: 30px;
+	top: -60px;	
+}
+
+
+#Une-counter{
+	height: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 36px;
+	width: 25px;
+	/* padding: px; */
+	display: inline-block;
+	color: #fff;
+	text-shadow: 0px 1px 1px #707070;
+	font-weight: bold;
+	font-family: helvetica;
+	text-align: center;
+	font-size: 12px;
+	top: 24px;
+	right: 6px;
+	position: absolute;
+	background-color: #91daf6;
+	border: 1px solid #7cb7cd;
+	background: -webkit-linear-gradient(top, #c2ecfa 0%, #71cef3 100%);
+	background: -moz-linear-gradient(top, #c2ecfa 0%, #71cef3 100%);
+	background: -ms-linear-gradient(top, #c2ecfa 0%, #71cef3 100%);
+	background: -o-linear-gradient(top, #c2ecfa 0%, #71cef3 100%);
+	background: linear-gradient(top, #c2ecfa 0%, #71cef3 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#c2ecfa', endColorstr='#71cef3', GradientType=0 );
+}
+
+
+h3.entry-title, h5.entry-title{
+	line-height: 22px!important;
+	font-weight: 500!important;
+	font-size: 19px!important;
+	font-style: normal!important;
+}
+
+
+#wrapEDF{
+	width:231;
+	height:164,5;
+	float:left;
+	position:absolute;
+	left:-110px;
+}
+
+#EDF{
+	border: none;
+	overflow: hidden;
+	 ms-zoom: 0.7;
+	    -moz-transform: scale(0.7);
+	    -moz-transform-origin: 0 0;
+	    -o-transform: scale(0.7);
+	    -o-transform-origin: 0 0;
+	    -webkit-transform: scale(0.7);
+	    -webkit-transform-origin: 0 0;
+}
+
+
+.gallery-icon img, .imgShadow img{
+  -webkit-box-shadow: 0px 0px 20px 0px #c4c4c4;
+    -moz-box-shadow: 0px 0px 20px 0px #c4c4c4;
+    box-shadow: 0px 0px 20px 0px #c4c4c4;
+	
+}
+
+.candidatez{
+	z-index: 200;
+	font-size: 95%;
+	color: white;
+	position: absolute;
+	right: -10%;
+	background-color: red;
+	padding: 20px 2% 20px 5%;
+	/* float: left; */
+	text-align: center;
+	width: 40%;
+	transform: rotate(45deg);
+}
+
+.candidatez a{
+	color:white;
+	font-weight:bold 
+}
+
+.candidatez a:hover{
+	color:grey;
+	font-weight:bold 
+}
+
+/* Pour styler la top bar */
+
+#topbar{
+	    background: #c32e4a!important;
+}
+
+#lang_sel{
+
+float: right;
+position: absolute;
+top: 10px;
+right: 5px;
+width: 150px;
+    z-index: 999999;
+	}
+	
+	#welcome-plm {
+	    color: white;
+	    text-align: left;
+	    padding-top: 8px!important;
+	    float: left;
+	}
+/* Footer */
+.footer-widget h3 {
+    border-top: 0px solid rgba(0, 0, 0, .05) !important;
+    border-top-width: 0px;
+    border-top-style: solid;
+    border-top-color: rgba(0, 0, 0, 0.05);
+	color:white!important;
+	margin-bottom: 25px!important;
+
+	font-family: Alegreya!important;
+    line-height: 40px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+
+}
+
+
+/* Footer Look */
+
+#containerfooter {
+     padding-top: 0px!important;
+    height: auto;
+    background-image: linear-gradient( to top, #c32e4a, #c32e4a 15%, rgb(255, 255, 255) 15%, #ffffff 85%, #c32e4a 85% )
+}
+
+.footercredits p {
+    color: white;
+}
+
+
+/* pour corriger l'absence de couleur dans le lien des footers */
+.blue-link{color: #002b75
+!important;}
+.blue-link:hover{color: #1e73be
+!important;}
+
+
+/* To style footer MailPoet Widget */
+
+.widget_text .widget_wysija_cont.shortcode_wysija {
+    float: right;
+    margin-top: -160px!important;
+}
+
+/* To style give topbar - don */
+@media only screen and (min-width: 600px)  {
+#topbar{
+	width: 100%;
+ position: fixed;
+   z-index: 100000;	
+}
+
+}
+
+#welcome-plm a {
+    color: white;
+	display:inline-flex;
+	-webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+ 
+}
+
+#welcome-plm a:hover {
+	color:pink;
+	
+}
+
+svg#heart {
+    height: 35px;
+    width: 35px;
+    margin-top: -7px;
+    margin-left: 20px;
+}
+
+.textwidget svg#heart {
+	height: 131px;
+	    width: 255px;
+	margin-top:-30px;
+}
+	
+#welcome-plm span.plm {
+    padding-top: 3px;
+    padding-right: 3px;
+}
+
+#welcome-plm strong {
+    padding-left: 2px;
+}
+
+#heart-path {
+  fill: pink;
+  stroke: pink;
+  stroke-width: 1px;
+  stroke-dasharray: 125;
+  stroke-dashoffset: -125;
+  stroke-linecap: butt;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+
+#heart-path:hover, #welcome-plm a:hover #heart-path {
+  fill: #cf4944;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 125;
+}
+
+
+
+
+#heart {
+	-webkit-animation: heart-pulse 1s linear 5;
+	-moz-animation: heart-pulse 1s linear 5;
+	-ms-animation: heart-pulse 1s linear 5;
+	animation: heart-pulse 1s linear 5;
+}
+
+@keyframes "heart-pulse" {
+ 0% {
+    -webkit-transform: scale(1);
+   	-moz-transform: scale(1);
+   	-o-transform: scale(1);
+   	-ms-transform: scale(1);
+   	transform: scale(1);
+ }
+ 50% {
+    -webkit-transform: scale(0.8);
+   	-moz-transform: scale(0.8);
+   	-o-transform: scale(0.8);
+   	-ms-transform: scale(0.8);
+   	transform: scale(0.8);
+ }
+ 100% {
+    -webkit-transform: scale(1);
+   	-moz-transform: scale(1);
+   	-o-transform: scale(1);
+   	-ms-transform: scale(1);
+   	transform: scale(1);
+ }
+
+}
+
+@-moz-keyframes heart-pulse {
+ 0% {
+   -moz-transform: scale(1);
+   transform: scale(1);
+ }
+ 50% {
+   -moz-transform: scale(0.8);
+   transform: scale(0.8);
+ }
+ 100% {
+   -moz-transform: scale(1);
+   transform: scale(1);
+ }
+
+}
+
+@-webkit-keyframes "heart-pulse" {
+ 0% {
+   -webkit-transform: scale(1);
+   transform: scale(1);
+ }
+ 50% {
+   -webkit-transform: scale(0.8);
+   transform: scale(0.8);
+ }
+ 100% {
+   -webkit-transform: scale(1);
+   transform: scale(1);
+ }
+
+}
+
+@-ms-keyframes "heart-pulse" {
+ 0% {
+   -ms-transform: scale(1);
+   transform: scale(1);
+ }
+ 50% {
+   -ms-transform: scale(0.8);
+   transform: scale(0.8);
+ }
+ 100% {
+   -ms-transform: scale(1);
+   transform: scale(1);
+ }
+
+}
+
+
+
+
+#text-17 > h3{
+	color:#cf4944!important;
+}
+
+/* To style accordeon accordion virtue shortcode */
+.panel-heading{
+	background-color:gray;
+}
+
+.panel-heading h5 {
+    color: white;
+    font-style: normal;
+    font-family: inherit;
+}
+
+/* To customize Sozi presentation - Based http://sozi.baierouge.fr/pages/tutorial-embedding.html */ 
+iframe.sozi, object.sozi, embed.sozi {
+    box-shadow: rgb(230, 230, 230) 0px 5px 10px 3px;
+    border: 1px solid rgb(230, 230, 230);
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#arrowContainer{
+margin:0 auto;
+margin-top:10px;
+width:80%;
+text-align: center
+}
+
+span#frame-title {
+    font-family: Alegreya;
+    line-height: 40px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*
+.arrow { 
+	position: absolute;
+	top: 50%;
+	width: 5vmin;
+	height: 5vmin;
+	background: transparent;
+	border-top: 1vmin solid #cf4944;
+	border-right: 1vmin solid #cf4944;
+	box-shadow: 0 0 0 lightgray;
+	transition: all 200ms ease;
+}	
+.arrow.left {
+		left: 0;
+		transform: translate3d(0,-50%,0) rotate(-135deg);
+	}
+
+.arrow.right {
+		right: 0;
+		transform: translate3d(0,-50%,0) rotate(45deg);
+	}
+	
+.arrow:hover {
+		border-color: orange;
+		box-shadow: 0.5vmin -0.5vmin 0 #cf4944;
+	}
+	
+.arrow:before { 
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-40%,-60%) rotate(45deg);
+		width: 200%;
+		height: 200%;
+	}
+/* from https://codepen.io/varystrategic/pen/zGrMQK */
+
+
+input#btn-next {
+    float: right;
+    margin-right: 70px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+input#btn-prev {
+    float: left;
+    margin-left: 70px;
+    padding-right: 30px;
+    padding-left: 30px;
+}

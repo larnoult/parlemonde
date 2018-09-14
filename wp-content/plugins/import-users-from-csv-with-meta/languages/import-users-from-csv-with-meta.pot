@@ -1,0 +1,1067 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Blank Pot v1.0.0\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2017-01-24 19:47+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Toni Ginard <toni.ginard@gmail.com>\n"
+"Language-Team: Your Team <translations@example.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: import-users-from-csv-with-meta.php:51
+#: import-users-from-csv-with-meta.php:204
+msgid "Welcome to"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:52
+#: import-users-from-csv-with-meta.php:201
+msgid "Welcome,"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:52
+#: import-users-from-csv-with-meta.php:201
+msgid "Your data to login in this site is:"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:52
+#: import-users-from-csv-with-meta.php:201
+msgid "URL to login"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:52
+#: import-users-from-csv-with-meta.php:201 importer.php:834 smtp.php:218
+msgid "Username"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:102
+msgid "Insert users massively (CSV)"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:102
+#: import-users-from-csv-with-meta.php:208 importer.php:533
+msgid "Import users from CSV"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:103
+msgid "SMTP Configuration"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:109
+#: import-users-from-csv-with-meta.php:208
+msgid "Donate"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:110
+msgid "Premium support"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:111
+msgid "Premium plugins"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:201 smtp.php:222
+msgid "Password"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:208
+msgid "Customs columns loaded"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:208 importer.php:940
+msgid "Mail options"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:208 importer.php:827
+msgid "Documentation"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:208
+msgid "Cron import"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:208
+msgid "Shop"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:208
+msgid "Hire an expert"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:248
+msgid "Error, we cannot find the file"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:292
+msgid "Unable to write to directory. Is this directory writable by the server?"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:300
+msgid "Error, the file"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:300
+msgid "could not moved to"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:329
+msgid "Mail template updated correctly"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:382
+msgid "Settings updated correctly"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:388
+msgid "Import cron task starts at"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:409
+msgid "--Finished at"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:535
+msgid "You are not an adminstrator"
+msgstr ""
+
+#: importer.php:60
+msgid "Ready to registers"
+msgstr ""
+
+#: importer.php:61
+msgid "First row represents the form of sheet"
+msgstr ""
+
+#: importer.php:88
+msgid "File must contain at least 2 columns: username and email"
+msgstr ""
+
+#: importer.php:116
+msgid "Inserting and updating data"
+msgstr ""
+
+#: importer.php:118
+msgid "Row"
+msgstr ""
+
+#: importer.php:123
+msgid "Row number"
+msgstr ""
+
+#: importer.php:123
+msgid "does not have the same columns than the header, we are going to skip"
+msgstr ""
+
+#: importer.php:176
+msgid "Problems with ID"
+msgstr ""
+
+#: importer.php:176
+msgid ""
+"username is not the same in the CSV and in database, we are going to skip."
+msgstr ""
+
+#: importer.php:223
+msgid "User already exists as:"
+msgstr ""
+
+#: importer.php:223
+msgid "(in this CSV file is called:"
+msgstr ""
+
+#: importer.php:242
+msgid "Problems with user:"
+msgstr ""
+
+#: importer.php:242
+msgid ", we are going to skip. \\r\\nError: "
+msgstr ""
+
+#: importer.php:366
+msgid "Password has not been changed"
+msgstr ""
+
+#: importer.php:441
+msgid "Process finished you can go"
+msgstr ""
+
+#: importer.php:441
+msgid "here to see results"
+msgstr ""
+
+#: importer.php:456
+msgid "You are not allowed to see this content."
+msgstr ""
+
+#: importer.php:502
+msgid "Click to open/close"
+msgstr ""
+
+#: importer.php:506
+msgid "Old CSV files uploaded"
+msgstr ""
+
+#: importer.php:509
+msgid ""
+"For security reasons you should delete this files, probably they would be "
+"visible in the Internet if a bot or someone discover the URL. You can delete "
+"each file or maybe you want delete all CSV files you have uploaded:"
+msgstr ""
+
+#: importer.php:510
+msgid "Delete all CSV files uploaded"
+msgstr ""
+
+#: importer.php:520
+msgid "Delete"
+msgstr ""
+
+#: importer.php:529
+msgid ""
+"File must contain at least <strong>2 columns: username and email</strong>. "
+"These should be the first two columns and it should be placed <strong>in "
+"this order: username and email</strong>. If there are more columns, this "
+"plugin will manage it automatically."
+msgstr ""
+
+#: importer.php:530
+msgid ""
+"Please, read carefully how <strong>passwords are managed</strong> and also "
+"take note about capitalization, this plugin is <strong>case sensitive</"
+"strong>."
+msgstr ""
+
+#: importer.php:543
+msgid "Update existing users?"
+msgstr ""
+
+#: importer.php:546 importer.php:575
+msgid "Yes"
+msgstr ""
+
+#: importer.php:547 importer.php:574
+msgid "No"
+msgstr ""
+
+#: importer.php:553 importer.php:1108
+msgid "Role"
+msgstr ""
+
+#: importer.php:566
+msgid ""
+"If you choose more than one role, the roles would be assigned correctly but "
+"you should use some plugin like <a href=\"https://wordpress.org/plugins/user-"
+"role-editor/\">User Role Editor</a> to manage them."
+msgstr ""
+
+#: importer.php:571
+msgid "Update roles for existing users?"
+msgstr ""
+
+#: importer.php:581
+msgid "CSV file <span class=\"description\">(required)</span></label>"
+msgstr ""
+
+#: importer.php:585
+msgid "<em>or you can choose directly a file from your host,"
+msgstr ""
+
+#: importer.php:585 importer.php:589
+msgid "click here"
+msgstr ""
+
+#: importer.php:588 importer.php:1047 importer.php:1138
+msgid "You have to introduce the path to file, i.e.:"
+msgstr ""
+
+#: importer.php:589
+msgid "or you can upload it directly from your PC"
+msgstr ""
+
+#: importer.php:595
+msgid "What should the plugin do with empty cells?"
+msgstr ""
+
+#: importer.php:598
+msgid "Leave the old value for this metadata"
+msgstr ""
+
+#: importer.php:599
+msgid "Delete the metadata"
+msgstr ""
+
+#: importer.php:625
+msgid "BuddyPress users"
+msgstr ""
+
+#: importer.php:626
+msgid ""
+"You can insert any profile from BuddyPress using his name as header. Plugin "
+"will check, before import, which fields are defined in BuddyPress and will "
+"assign it in the update. You can use this fields:"
+msgstr ""
+
+#: importer.php:630
+msgid ""
+"Remember that all date fields have to be imported using a format like this: "
+"2016-01-01 00:00:00"
+msgstr ""
+
+#: importer.php:632 importer.php:648 importer.php:665 importer.php:681
+msgid "Only for"
+msgstr ""
+
+#: importer.php:632 importer.php:648 importer.php:665 importer.php:681
+msgid "users"
+msgstr ""
+
+#: importer.php:644
+msgid "Do not activate users"
+msgstr ""
+
+#: importer.php:645
+msgid "Activate users when they are being imported"
+msgstr ""
+
+#: importer.php:648
+msgid "WP Members"
+msgstr ""
+
+#: importer.php:658
+msgid "Approve users at the same time is being created"
+msgstr ""
+
+#: importer.php:661
+msgid "Do not approve users"
+msgstr ""
+
+#: importer.php:662
+msgid "Approve users when they are being imported"
+msgstr ""
+
+#: importer.php:665
+msgid "New User Approve"
+msgstr ""
+
+#: importer.php:675
+msgid "Repeated email in different users?"
+msgstr ""
+
+#: importer.php:678
+msgid "Not allowed"
+msgstr ""
+
+#: importer.php:679
+msgid "Allowed"
+msgstr ""
+
+#: importer.php:681
+msgid "Allow Multiple Accounts"
+msgstr ""
+
+#: importer.php:681
+msgid ""
+"Allow multiple user accounts to be created having the same email address."
+msgstr ""
+
+#: importer.php:690
+msgid "WordPress Access Areas is activated"
+msgstr ""
+
+#: importer.php:692
+msgid "As user of"
+msgstr ""
+
+#: importer.php:692
+msgid "WordPress Access Areas"
+msgstr ""
+
+#: importer.php:692
+msgid "you can use the Access Areas created"
+msgstr ""
+
+#: importer.php:692 importer.php:942
+msgid "here"
+msgstr ""
+
+#: importer.php:692
+msgid ""
+"and use this areas in your own CSV file. Please use the column name "
+"<strong>wp-access-areas</strong> and in each row use <strong>the name that "
+"you have used"
+msgstr ""
+
+#: importer.php:692
+msgid ", like this ones:"
+msgstr ""
+
+#: importer.php:701
+msgid ""
+"If you leave this cell empty for some user or the access area indicated "
+"doesn't exist, user won't be assigned to any access area. You can choose "
+"more than one area for each user using pads between them in the same row, i."
+"e.: "
+msgstr ""
+
+#: importer.php:708
+msgid "Send mail"
+msgstr ""
+
+#: importer.php:710
+msgid "Do you wish to send a mail with credentials and other data?"
+msgstr ""
+
+#: importer.php:710 importer.php:711
+msgid "yes"
+msgstr ""
+
+#: importer.php:711
+msgid ""
+"Do you wish to send this mail also to users that are being updated? (not "
+"only to the one which are being created)"
+msgstr ""
+
+#: importer.php:719
+msgid "Start importing"
+msgstr ""
+
+#: importer.php:727
+msgid "Please choose a file"
+msgstr ""
+
+#: importer.php:732
+msgid "Please enter a path to the file"
+msgstr ""
+
+#: importer.php:737
+msgid "Please select a role"
+msgstr ""
+
+#: importer.php:744
+msgid "Are you sure to delete this file?"
+msgstr ""
+
+#: importer.php:753
+msgid "There were problems deleting the file, please check file permissions"
+msgstr ""
+
+#: importer.php:755
+msgid "File successfully deleted"
+msgstr ""
+
+#: importer.php:763
+msgid ""
+"Are you sure to delete ALL CSV files uploaded? There can be CSV files from "
+"other plugins."
+msgstr ""
+
+#: importer.php:771
+msgid "There were problems deleting the files, please check files permissions"
+msgstr ""
+
+#: importer.php:773
+msgid "Files successfully deleted"
+msgstr ""
+
+#: importer.php:798
+msgid "Custom columns loaded"
+msgstr ""
+
+#: importer.php:802
+msgid "Columns loaded in previous files"
+msgstr ""
+
+#: importer.php:803
+msgid ""
+"(if you load another CSV with different columns, the new ones will replace "
+"this list)"
+msgstr ""
+
+#: importer.php:812
+msgid "There is no columns loaded yet"
+msgstr ""
+
+#: importer.php:831
+msgid "Columns position"
+msgstr ""
+
+#: importer.php:832
+msgid ""
+"(Documents should look like the one presented into screenshot. Remember you "
+"should fill the first two columns with the next values)"
+msgstr ""
+
+#: importer.php:835
+msgid "Email"
+msgstr ""
+
+#: importer.php:837
+msgid ""
+"(The next columns are totally customizable and you can use whatever you "
+"want. All rows must contains same columns)"
+msgstr ""
+
+#: importer.php:838
+msgid "(User profile will be adapted to the kind of data you have selected)"
+msgstr ""
+
+#: importer.php:839
+msgid ""
+"(If you want to disable the extra profile information, please deactivate "
+"this plugin after make the import)"
+msgstr ""
+
+#: importer.php:843
+msgid "id"
+msgstr ""
+
+#: importer.php:844
+msgid ""
+"You can use a column called id in order to make inserts or updates of an "
+"user using the ID used by WordPress in the wp_users table. We have two "
+"different cases:"
+msgstr ""
+
+#: importer.php:846
+msgid ""
+"If id <strong>doesn't exist in your users table</strong>: user will be "
+"inserted"
+msgstr ""
+
+#: importer.php:847
+msgid ""
+"If id <strong>exists</strong>: plugin check if username is the same, if yes, "
+"it will update the data, if not, it ignores the cell to avoid problems"
+msgstr ""
+
+#: importer.php:852
+msgid "Passwords"
+msgstr ""
+
+#: importer.php:853
+msgid ""
+"A string that contains user passwords. We have different options for this "
+"case:"
+msgstr ""
+
+#: importer.php:855
+msgid ""
+"If you <strong>don't create a column for passwords</strong>: passwords will "
+"be generated automatically"
+msgstr ""
+
+#: importer.php:856
+msgid ""
+"If you <strong>create a column for passwords</strong>: if cell is empty, "
+"password won't be updated; if cell has a value, it will be used"
+msgstr ""
+
+#: importer.php:861
+msgid "WordPress default profile data"
+msgstr ""
+
+#: importer.php:862
+msgid ""
+"You can use those labels if you want to set data adapted to the WordPress "
+"default user columns (the ones who use the function"
+msgstr ""
+
+#: importer.php:864
+msgid ""
+"A string that contains a URL-friendly name for the user. The default is the "
+"user's username."
+msgstr ""
+
+#: importer.php:865
+msgid "A string containing the user's URL for the user's web site."
+msgstr ""
+
+#: importer.php:866
+msgid ""
+"A string that will be shown on the site. Defaults to user's username. It is "
+"likely that you will want to change this, for both appearance and security "
+"through obscurity (that is if you don't use and delete the default admin "
+"user)."
+msgstr ""
+
+#: importer.php:867
+msgid "The user's nickname, defaults to the user's username."
+msgstr ""
+
+#: importer.php:868
+msgid "The user's first name."
+msgstr ""
+
+#: importer.php:869
+msgid "The user's last name."
+msgstr ""
+
+#: importer.php:870
+msgid "A string containing content about the user."
+msgstr ""
+
+#: importer.php:871
+msgid "User's Jabber account."
+msgstr ""
+
+#: importer.php:872
+msgid "User's AOL IM account."
+msgstr ""
+
+#: importer.php:873
+msgid "User's Yahoo IM account."
+msgstr ""
+
+#: importer.php:874
+msgid "Using the WordPress format for this kind of data Y-m-d H:i:s."
+msgstr ""
+
+#: importer.php:881
+msgid "WooCommerce is activated"
+msgstr ""
+
+#: importer.php:882
+msgid ""
+"You can use those labels if you want to set data adapted to the WooCommerce "
+"default user columns"
+msgstr ""
+
+#: importer.php:910
+msgid "Important notice"
+msgstr ""
+
+#: importer.php:911
+msgid ""
+"You can upload as many files as you want, but all must have the same "
+"columns. If you upload another file, the columns will change to the form of "
+"last file uploaded."
+msgstr ""
+
+#: importer.php:914
+msgid "Any question about it"
+msgstr ""
+
+#: importer.php:917
+msgid "Free support (in WordPress forums):"
+msgstr ""
+
+#: importer.php:918
+msgid "Premium support (with a quote):"
+msgstr ""
+
+#: importer.php:923
+msgid "Example"
+msgstr ""
+
+#: importer.php:924
+msgid "Download this"
+msgstr ""
+
+#: importer.php:924
+msgid "file"
+msgstr ""
+
+#: importer.php:924
+msgid "to test"
+msgstr ""
+
+#: importer.php:942
+msgid "You can set your own SMTP and other mail details"
+msgstr ""
+
+#: importer.php:947
+msgid "WordPress automatic emails users updated"
+msgstr ""
+
+#: importer.php:951
+msgid "Send automattic WordPress emails?"
+msgstr ""
+
+#: importer.php:955
+msgid ""
+"Deactivate WordPress automattic email when an user is updated or his "
+"password is changed"
+msgstr ""
+
+#: importer.php:956
+msgid ""
+"Activate WordPress automattic email when an user is updated or his password "
+"is changed"
+msgstr ""
+
+#: importer.php:958
+msgid ""
+"When you update an user or change his password, WordPress prepare and send "
+"automattic email, you can deactivate it here."
+msgstr ""
+
+#: importer.php:966
+msgid "Customize the email that can be sent when importing users"
+msgstr ""
+
+#: importer.php:968
+msgid "Mail subject :"
+msgstr ""
+
+#: importer.php:976
+msgid "username to login"
+msgstr ""
+
+#: importer.php:977
+msgid "user password"
+msgstr ""
+
+#: importer.php:978
+msgid "current site login url"
+msgstr ""
+
+#: importer.php:979
+msgid "lost password url"
+msgstr ""
+
+#: importer.php:980
+msgid "password reset url"
+msgstr ""
+
+#: importer.php:981
+msgid "user email"
+msgstr ""
+
+#: importer.php:982
+msgid ""
+"You can also use any WordPress user standard field or an own metadata, if "
+"you have used it in your CSV. For example, if you have a first_name column, "
+"you could use **first_name** or any other meta_data like **my_custom_meta**"
+msgstr ""
+
+#: importer.php:1038
+msgid "Execute an import of users periodically"
+msgstr ""
+
+#: importer.php:1044
+msgid "Path of file that are going to be imported"
+msgstr ""
+
+#: importer.php:1046 importer.php:1137
+msgid "Insert complete path to the file"
+msgstr ""
+
+#: importer.php:1051
+msgid "Period"
+msgstr ""
+
+#: importer.php:1054
+msgid "Hourly"
+msgstr ""
+
+#: importer.php:1055
+msgid "Twicedaily"
+msgstr ""
+
+#: importer.php:1056
+msgid "Daily"
+msgstr ""
+
+#: importer.php:1058
+msgid "How often the event should reoccur?"
+msgstr ""
+
+#: importer.php:1062
+msgid "Activate periodical import?"
+msgstr ""
+
+#: importer.php:1068
+msgid "Send mail when using periodical import?"
+msgstr ""
+
+#: importer.php:1074
+msgid "Send mail also to users that are being updated?"
+msgstr ""
+
+#: importer.php:1080
+msgid "Delete users that are not present in the CSV?"
+msgstr ""
+
+#: importer.php:1089 importer.php:1091
+msgid "Delete posts of deled users without assing to any user"
+msgstr ""
+
+#: importer.php:1103
+msgid ""
+"After delete users, we can choose if we want to assign their posts to "
+"another user. Please do not delete them or posts will be deleted."
+msgstr ""
+
+#: importer.php:1113 importer.php:1115
+msgid "Disable role assignement in cron import"
+msgstr ""
+
+#: importer.php:1126
+msgid "Which role would be used to import users?"
+msgstr ""
+
+#: importer.php:1130
+msgid "Move file after import?"
+msgstr ""
+
+#: importer.php:1143
+msgid "Auto rename after move?"
+msgstr ""
+
+#: importer.php:1150
+msgid ""
+"Your file will be renamed after moved, so you will not lost any version of "
+"it. The way to rename will be append the time stamp using this date format: "
+"YmdHis."
+msgstr ""
+
+#: importer.php:1155
+msgid "Last actions of schedule task"
+msgstr ""
+
+#: importer.php:1162
+msgid "Save schedule options"
+msgstr ""
+
+#: importer.php:1169
+msgid ""
+"Are you sure to delete all users that are not present in the CSV? This "
+"action cannot be undone."
+msgstr ""
+
+#: importer.php:1203
+msgid "Do you like it?"
+msgstr ""
+
+#: importer.php:1206
+msgid "buy me a coffee"
+msgstr ""
+
+#: importer.php:1207 importer.php:1227
+msgid "Hi! we are"
+msgstr ""
+
+#: importer.php:1207 importer.php:1227
+msgid "and"
+msgstr ""
+
+#: importer.php:1207 importer.php:1227
+msgid "from"
+msgstr ""
+
+#: importer.php:1207 importer.php:1227
+msgid "developers of this plugin."
+msgstr ""
+
+#: importer.php:1208
+msgid ""
+"We have been spending many hours to develop this plugin. <br>If you like and "
+"use this plugin, you can <strong>buy us a cup of coffee</strong>."
+msgstr ""
+
+#: importer.php:1212
+msgid "PayPal – The safer, easier way to pay online."
+msgstr ""
+
+#: importer.php:1224
+msgid "Need help with WordPress or WooCommerce?"
+msgstr ""
+
+#: importer.php:1228
+msgid ""
+"We work everyday with WordPress and WooCommerce, if you need help hire us, "
+"send us a message to"
+msgstr ""
+
+#: smtp.php:26 smtp.php:245
+msgid "Send Test"
+msgstr ""
+
+#: smtp.php:40
+msgid "Test mail to "
+msgstr ""
+
+#: smtp.php:41
+msgid ""
+"This is a test email generated by the Import User From CSV With Meta "
+"WordPress plugin."
+msgstr ""
+
+#: smtp.php:79
+msgid "Message sent successfully"
+msgstr ""
+
+#: smtp.php:83
+msgid "Test Message Sent"
+msgstr ""
+
+#: smtp.php:84
+msgid "The result was:"
+msgstr ""
+
+#: smtp.php:86
+msgid "The full debugging output is shown below:"
+msgstr ""
+
+#: smtp.php:88
+msgid "The SMTP debugging output is shown below:"
+msgstr ""
+
+#: smtp.php:119
+msgid "Import User From CSV With Meta - SMTP server options"
+msgstr ""
+
+#: smtp.php:123
+msgid "Global options"
+msgstr ""
+
+#: smtp.php:124
+msgid ""
+"Do you want to use your own SMTP settings for this plugin or the WordPress "
+"settings."
+msgstr ""
+
+#: smtp.php:128
+msgid "Settings"
+msgstr ""
+
+#: smtp.php:131
+msgid "Use plugin SMTP settings"
+msgstr ""
+
+#: smtp.php:133
+msgid "Use this settings to send mail."
+msgstr ""
+
+#: smtp.php:135
+msgid "Use WordPress general settings to send mail."
+msgstr ""
+
+#: smtp.php:143
+msgid "From Email"
+msgstr ""
+
+#: smtp.php:145
+msgid ""
+"You can specify the email address that emails should be sent from. If you "
+"leave this blank, the default email will be used."
+msgstr ""
+
+#: smtp.php:145
+msgid ""
+"<strong>Please Note:</strong> You appear to be using a version of WordPress "
+"prior to 2.3. Please ignore the From Name field and instead enter Name&lt;"
+"email@domain.com&gt; in this field."
+msgstr ""
+
+#: smtp.php:148
+msgid "From Name"
+msgstr ""
+
+#: smtp.php:150
+msgid ""
+"You can specify the name that emails should be sent from. If you leave this "
+"blank, the emails will be sent from WordPress."
+msgstr ""
+
+#: smtp.php:156 smtp.php:159
+msgid "Mailer"
+msgstr ""
+
+#: smtp.php:161
+msgid "Send emails of this plugin via SMTP."
+msgstr ""
+
+#: smtp.php:163
+msgid "Use the PHP mail() function to send emails."
+msgstr ""
+
+#: smtp.php:171 smtp.php:174
+msgid "Return Path"
+msgstr ""
+
+#: smtp.php:176
+msgid "Set the return-path to match the From Email"
+msgstr ""
+
+#: smtp.php:182
+msgid "SMTP Options"
+msgstr ""
+
+#: smtp.php:183
+msgid "These options only apply if you have chosen to send mail by SMTP above."
+msgstr ""
+
+#: smtp.php:187
+msgid "SMTP Host"
+msgstr ""
+
+#: smtp.php:191
+msgid "SMTP Port"
+msgstr ""
+
+#: smtp.php:195 smtp.php:198
+msgid "Encryption"
+msgstr ""
+
+#: smtp.php:200
+msgid "No encryption."
+msgstr ""
+
+#: smtp.php:202
+msgid "Use SSL encryption."
+msgstr ""
+
+#: smtp.php:204
+msgid ""
+"Use TLS encryption. This is not the same as STARTTLS. For most servers SSL "
+"is the recommended option."
+msgstr ""
+
+#: smtp.php:208
+msgid "Authentication"
+msgstr ""
+
+#: smtp.php:211
+msgid "No: Do not use SMTP authentication."
+msgstr ""
+
+#: smtp.php:213
+msgid "Yes: Use SMTP authentication."
+msgstr ""
+
+#: smtp.php:214
+msgid "If this is set to no, the values below are ignored."
+msgstr ""
+
+#: smtp.php:227
+msgid "Save Changes"
+msgstr ""
+
+#: smtp.php:234
+msgid "Send a Test Email"
+msgstr ""
+
+#: smtp.php:240
+msgid "To:"
+msgstr ""
+
+#: smtp.php:242
+msgid ""
+"Type an email address here and then click Send Test to generate a test email."
+msgstr ""

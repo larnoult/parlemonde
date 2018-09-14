@@ -1,0 +1,20 @@
+<style>
+	.tab_contents ol
+	, .pv_message ol
+	{
+		margin-left: 3em;
+	}
+
+	.tab_contents ul
+	, .pv_message ul
+	{
+		margin-left: 2em;
+		list-style-type: disc;
+	}
+
+	.tab_contents li
+	, .pv_message li
+	{
+		line-height: 120%;
+	}
+</style>

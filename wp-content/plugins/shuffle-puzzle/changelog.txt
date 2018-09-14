@@ -1,0 +1,18 @@
+Version 2.2
+- Improvement: The Validation SP name
+- Improvement: Now to copy SP name is easier
+- Fix: Inability to add data to the WP DB
+- Fix: Correct tiles position after the screen size has been changed
+
+
+Version 2.1
+- small bugs are fixed
+- WP 4.1 improvements
+
+
+Version 2.0
+- Design of interface was changed
+- Option to show/hide of shuffling upon start was added
+- 4 user defined callback functions (firstStart, onStart, afterCreate, onChange) were added
+- Ability to change some parameters dynamically was added
+- CSS-editor was added

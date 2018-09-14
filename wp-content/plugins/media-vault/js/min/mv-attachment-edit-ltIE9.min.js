@@ -1,0 +1,1 @@
+jQuery(function(e){var c=e(".mgjp-mv-permission-select");e("#mgjp_mv_protection_toggle").change(function(){this.checked?c.addClass("mgjp-mv-active"):c.removeClass("mgjp-mv-active")}).change()}(jQuery));

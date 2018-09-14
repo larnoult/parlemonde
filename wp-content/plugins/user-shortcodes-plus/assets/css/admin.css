@@ -1,0 +1,20 @@
+.kbj-user-shortcodes-plus-icon {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    vertical-align: text-top;
+    margin: 0 2px;
+}
+
+.kbj-user-shortcodes-plus-icon::before {
+    font: 400 18px/1 dashicons;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f110";
+    color: #82878c;
+}
+
+.kbj-user-shortcode-meta--wrapper {
+    display: none;
+}

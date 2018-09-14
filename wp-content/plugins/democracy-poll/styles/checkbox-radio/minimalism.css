@@ -1,0 +1,85 @@
+/*
+	radio checkbox - minimalism
+
+	we have such structure:
+
+	label.dem__checkbox_label or label.dem__radio_label
+	   └── input.dem__checkbox or input.dem__radio
+	   └── input + .dem__spot
+
+	Not use TAG names in selectors please: use '.dem__checkbox_label' not 'label.dem__checkbox_label'
+
+	Note: set sizes with 'em' - is not good idea!
+*/
+.dem__checkbox,
+.dem__radio{ display:none !important; }
+
+.dem__checkbox_label,
+.dem__radio_label{ position: relative; box-sizing: content-box; }
+
+.dem__checkbox_label .dem__spot,
+.dem__radio_label .dem__spot {
+	position: relative;
+	display: inline-block;
+	vertical-align: baseline;
+	top: .1em;
+	cursor: pointer;
+	/*style*/
+	width: 14px;
+	height: 14px;
+	margin-left: -20px;
+}
+
+.dem__checkbox_label{ padding-left: 19px; }
+.dem__radio_label{ padding-left: 16px; }
+
+.dem__checkbox_label .dem__spot:after,
+.dem__radio_label .dem__spot:after{
+	content: '';
+	position: absolute;
+	opacity: .2;
+}
+
+.dem__checkbox_label .dem__spot:after {
+	width: 9px;
+    height: 5px;
+    top: 2px;
+    left: 2px;
+	border:2px solid #333;
+	border-top: none;
+	border-right: none;
+	background: transparent;
+	-ms-transform: rotate(-45deg);-webkit-transform: rotate(-45deg);	transform: rotate(-45deg);
+}
+.dem__radio_label .dem__spot:after {
+	width: 6px;
+    height: 6px;
+	border-radius:50%;
+	top: 50%;
+    left: 50%;
+	background: #333;
+	-ms-transform: translate(-50%, -50%);-webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);
+}
+
+.dem__checkbox_label:hover .dem__spot::after,
+.dem__radio_label:hover .dem__spot::after {
+	opacity: .5;
+}
+
+.dem__checkbox:checked + .dem__spot,
+.dem__radio:checked + .dem__spot {
+	border-color:#999;
+}
+.dem__checkbox:checked + .dem__spot:after,
+.dem__radio:checked + .dem__spot:after {
+	opacity: 1;
+}
+.dem__checkbox:disabled + .dem__spot,
+.dem__radio:disabled + .dem__spot {
+	opacity: .5;
+}
+.dem__checkbox_label:disabled .dem__spot::after,
+.dem__radio_label:disabled .dem__spot::after {
+	opacity: .5;
+}
+

@@ -1,0 +1,31 @@
+/* button */
+input[type="submit"].dem-button,
+a.dem-button,
+.dem-button{
+  color: rgba(255,255,255,.9);
+  text-shadow: #2e7ebd 0 1px 2px;
+  text-align: center;
+  padding: .6em 1em;
+  border: 1px solid;
+  border-color: #60a3d8 #2970a9 #2970a9 #60a3d8;
+  border-radius: 6px;
+  background: #60a3d8 linear-gradient(#89bbe2, #60a3d8 50%, #378bce);
+  box-shadow: inset rgba(255,255,255,.5) 1px 1px;
+}
+a.dem-button:visited{ color:rgba(255,255,255,.9); }
+
+input[type="submit"].dem-button:hover,
+a.dem-button:hover,
+.dem-button:hover {
+  color: rgb(255,255,255);
+  background-image: linear-gradient(#9dc7e7, #74afdd 50%, #378bce);
+}
+
+input[type="submit"].dem-button:active,
+a.dem-button:active,
+.dem-button:active {
+  color: #ffffff;
+  border-color: #2970a9;
+  background-image: linear-gradient(#5796c8, #6aa2ce);
+  box-shadow: none;
+}

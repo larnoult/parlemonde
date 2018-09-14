@@ -1,0 +1,293 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BP-Registration-Options v4.1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-21 09:11-0500\n"
+"PO-Revision-Date: 2018-05-21 09:11-0500\n"
+"Last-Translator: Michael Beckwith <michael.d.beckwith@gmail.com>\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: includes/admin.php:214
+msgid "Membership Denied"
+msgstr ""
+
+#: includes/admin.php:219
+msgid "Membership Approved"
+msgstr ""
+
+# @ bp-registration-options
+#: includes/admin.php:336
+#, fuzzy, php-format
+msgid "You have %d new member request that needs to be approved or denied."
+msgid_plural ""
+"You have %d new member requests that needs to be approved or denied."
+msgstr[0] ""
+"Vous avez %s nouvelles demandes d'inscription en attente d'approbation ou de "
+"rejet. Prière de %s cliquer ici%s pour cette opération."
+msgstr[1] ""
+"Vous avez %s nouvelles demandes d'inscription en attente d'approbation ou de "
+"rejet. Prière de %s cliquer ici%s pour cette opération."
+
+#: includes/admin.php:345
+#, php-format
+msgid "Please %s to take action"
+msgstr ""
+
+#: includes/admin.php:349
+#, fuzzy
+msgid "click here"
+msgstr "Cliquez ici"
+
+# @ bp-registration-options
+#: includes/admin.php:382 includes/admin.php:383
+msgid "BP Registration"
+msgstr "Inscription BP"
+
+# @ bp-registration-options
+#: includes/admin.php:394 includes/admin.php:395
+msgid "Member Requests "
+msgstr "Demande(s) d'inscription"
+
+# @ bp-registration-options
+#: includes/admin.php:435 includes/admin.php:485 includes/core.php:708
+msgid "Member Requests"
+msgstr "Demande d'inscription"
+
+# @ bp-registration-options
+#: includes/admin.php:459
+msgid ""
+"Your membership account is awaiting approval by the site administrator. You "
+"will not be able to fully interact with the social aspects of this website "
+"until your account is approved. Once approved or denied you will receive an "
+"email notice."
+msgstr ""
+"Votre demande de création de compte est en attente d'approbation. Quand la "
+"demande aura été traitée vous recevrez un courriel."
+
+# @ bp-registration-options
+#: includes/admin.php:466
+#, fuzzy, php-format
+msgid ""
+"Hi [username], your member account at %s has been approved! You can now "
+"login and start interacting with the rest of the community..."
+msgstr ""
+"Bonjour [username], votre inscription du %s a été validée. Vous pouvez "
+"maintenant vous connecter et participer à la vie du site."
+
+# @ bp-registration-options
+#: includes/admin.php:475
+#, fuzzy, php-format
+msgid ""
+"Hi [username], we regret to inform you that your member account at %s has "
+"been denied..."
+msgstr ""
+"Bonjour [username], votre demande d'inscription du on %s a été rejetée ..."
+
+# @ bp-registration-options
+#: includes/admin.php:484
+#, fuzzy, php-format
+msgid ""
+"[username] ( [user_email] ) would like to become a member of your website. "
+"To accept or reject their request, please go to %s"
+msgstr ""
+"souhaiterait s'inscrire sur votre site. Pour accepter ou rejeter ces "
+"demandes rendez-vous en"
+
+#: includes/admin.php:493
+#, php-format
+msgid "Hi [username], your account at %s is currently pending approval."
+msgstr ""
+
+#: includes/admin.php:929
+#, php-format
+msgid "%s version %s by %s"
+msgstr ""
+
+# @ bp-registration-options
+#: includes/admin.php:932 includes/core.php:692
+msgid "BP Registration Options"
+msgstr "Options d'enregistrement BP"
+
+#: includes/admin.php:940
+msgid "Please Report Bugs"
+msgstr ""
+
+#: includes/admin.php:943
+msgid "Follow on Twitter:"
+msgstr ""
+
+# @ bp-registration-options
+#: includes/compatibility.php:54
+#, fuzzy, php-format
+msgid ""
+"%s ( %s ) would like to become a member of your website. To accept or reject "
+"their request, please go to <a href=\"%s\">%s</a>."
+msgstr ""
+"souhaiterait s'inscrire sur votre site. Pour accepter ou rejeter ces "
+"demandes rendez-vous en"
+
+# @ bp-registration-options
+#: includes/core.php:584
+msgid "New Member Request"
+msgstr "Demande d'inscription"
+
+#: includes/core.php:613
+msgid "Pending Membership"
+msgstr ""
+
+# @ bp-registration-options
+#: includes/core.php:701
+msgid "General Settings"
+msgstr "Paramètres généraux"
+
+#: includes/core.php:780
+msgid "You have pending users to moderate."
+msgstr ""
+
+#, fuzzy
+#~ msgid "Help / Support"
+#~ msgstr "Aide / Support"
+
+# @ bp-registration-options
+#~ msgid "This plugin requires WordPress version 3.0 or higher."
+#~ msgstr "Ce plugin requiert au moins la version 3.0 de Wordpress."
+
+# @ bp-registration-options
+#~ msgid "Moderate New Members"
+#~ msgstr "Gérer les demandes de nouveaux membres"
+
+# @ bp-registration-options
+#, fuzzy
+#~ msgid ""
+#~ "Every new member will have to be approved by an administrator before they "
+#~ "can interact with BuddyPress/bbPress components."
+#~ msgstr ""
+#~ "Tous les nouveaux membres devront avoir été validés par un administrateur "
+#~ "avant de pouvoir interagir dans le cadre de Buddypress."
+
+# @ bp-registration-options
+#, fuzzy
+#~ msgid ""
+#~ "Only registered or approved members can view BuddyPress/bbPress pages "
+#~ "(Private Network)."
+#~ msgstr ""
+#~ "Seuls les membres dont l'inscription a été validée peuvent consulter les "
+#~ "pages BuddyPress (réseau privé)."
+
+# @ bp-registration-options
+#~ msgid "Activate & Profile Alert Message:"
+#~ msgstr "Message d'alerte à l'activation:"
+
+# @ bp-registration-options
+#~ msgid "Account Approved Email:"
+#~ msgstr "Courriel de compte validé:"
+
+# @ bp-registration-options
+#~ msgid "Account Denied Email:"
+#~ msgstr "Courriel de refus de validation:"
+
+# @ bp-registration-options
+#, fuzzy
+#~ msgid "Short Code Key: [username], [user_email]"
+#~ msgstr "Code d'appel: [username]"
+
+# @ bp-registration-options
+#~ msgid "Please approve or deny the following new members:"
+#~ msgstr ""
+#~ "Prière de valider ou de rejeter les demandes d'inscription suivantes :"
+
+# @ bp-registration-options
+#~ msgid "Photo"
+#~ msgstr "Photo"
+
+# @ bp-registration-options
+#~ msgid "Name"
+#~ msgstr "Nom"
+
+# @ bp-registration-options
+#~ msgid "Email"
+#~ msgstr "Courriel"
+
+# @ bp-registration-options
+#~ msgid "Created"
+#~ msgstr "Créé"
+
+# @ bp-registration-options
+#~ msgid "Additional Data"
+#~ msgstr "Données complémentaires"
+
+# @ bp-registration-options
+#~ msgid "Approve"
+#~ msgstr "Approbation"
+
+# @ bp-registration-options
+#~ msgid "Deny"
+#~ msgstr "Refus"
+
+# @ bp-registration-options
+#~ msgid "Ban"
+#~ msgstr "Bannissement"
+
+# @ bp-registration-options
+#~ msgid "No new members to approve."
+#~ msgstr "Pas de nouveau membre à inscrire."
+
+#, fuzzy
+#~ msgid "Email Address"
+#~ msgstr "adresse email"
+
+# @ bp-registration-options
+#~ msgid "BuddyPress Registration Options plugin created by"
+#~ msgstr "Plugin pour options d'inscription BuddyPress créé par"
+
+# @ bp-registration-options
+#~ msgid "Follow"
+#~ msgstr "Suivre"
+
+# @ bp-registration-options
+#~ msgid "Are you sure you want to deny and delete the checked member(s)?"
+#~ msgstr ""
+#~ "Êtes-vous sûr de vouloir refuser et supprimer les inscriptions ci-"
+#~ "dessous ?"
+
+# @ bp-registration-options
+#~ msgid "Are you sure you want to ban and delete the checked member(s)?"
+#~ msgstr ""
+#~ "Êtes-vous sûr de vouloir bannir et supprimer les inscriptions ci-dessous ?"
+
+# @ bp-registration-options
+#~ msgid "Are you sure you want to reset to the default messages?"
+#~ msgstr "Êtes-vous sûr de vouloir revenir aux messages par défaut ?"
+
+# @ bp-registration-options
+#~ msgid "City:"
+#~ msgstr "Ville :"
+
+# @ bp-registration-options
+#~ msgid "IP:"
+#~ msgstr "IP :"
+
+# @ bp-registration-options
+#~ msgid "bp_registration_options"
+#~ msgstr "bp_registration_options"
+
+# @ bp-registration-options
+#~ msgid "Reset Messages"
+#~ msgstr "Remise à zéro des messages"
+
+# @ bp-registration-options
+#~ msgid "Save Options"
+#~ msgstr "Enregistrer les options"

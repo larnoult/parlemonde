@@ -1,0 +1,9 @@
+#mem-grid{
+    float:left;
+    text-align:center;       
+    vertical-align:middle;   
+    cursor: pointer;
+    margin:5px;
+    border:0px solid #e0e0e0;
+}
+

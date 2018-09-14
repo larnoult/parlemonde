@@ -1,0 +1,98 @@
+# Copyright (C) 2015 WP Gallery Custom Links
+# This file is distributed under the same license as the WP Gallery Custom Links package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Gallery Custom Links 1.10.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-gallery-custom-"
+"links\n"
+"POT-Creation-Date: 2015-09-30 16:28:32+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: wp-gallery-custom-links.php:85
+msgid "Gallery Link URL"
+msgstr ""
+
+#: wp-gallery-custom-links.php:88
+msgid ""
+"Will replace \"Image File\" or \"Attachment Page\" link for this image in "
+"galleries. Use [none] to remove the link from this image in galleries."
+msgstr ""
+
+#: wp-gallery-custom-links.php:97
+msgid "Gallery Link Target"
+msgstr ""
+
+#: wp-gallery-custom-links.php:100
+msgid ""
+"This setting will be applied to this image in galleries regardless of "
+"whether or not a Gallery Link URL has been specified."
+msgstr ""
+
+#: wp-gallery-custom-links.php:106
+msgid "Do Not Change"
+msgstr ""
+
+#: wp-gallery-custom-links.php:107
+msgid "Same Window"
+msgstr ""
+
+#: wp-gallery-custom-links.php:108
+msgid "New Window"
+msgstr ""
+
+#: wp-gallery-custom-links.php:114
+msgid "Gallery Link OnClick Effect"
+msgstr ""
+
+#: wp-gallery-custom-links.php:117
+msgid ""
+"Lightbox and other OnClick events are removed by default from this image in "
+"galleries. This setting will only be applied to this image in galleries if "
+"this image has a Gallery Link URL specified."
+msgstr ""
+
+#: wp-gallery-custom-links.php:123
+msgid "Remove"
+msgstr ""
+
+#: wp-gallery-custom-links.php:124
+msgid "Keep"
+msgstr ""
+
+#: wp-gallery-custom-links.php:129
+msgid "Gallery Link Additional CSS Classes"
+msgstr ""
+
+#: wp-gallery-custom-links.php:132
+msgid ""
+"Additional CSS classes specified here will be applied to the "
+"<strong><em>link</em></strong> around this image in galleries regardless of "
+"whether or not a Gallery Link URL has been specified."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Gallery Custom Links"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.fourlightsweb.com/wordpress-plugins/wp-gallery-custom-links/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Specify custom links for WordPress gallery images (instead of attachment or "
+"file only)."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Four Lights Web Development"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.fourlightsweb.com"
+msgstr ""

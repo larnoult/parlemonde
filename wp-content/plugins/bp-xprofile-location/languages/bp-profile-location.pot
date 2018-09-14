@@ -1,0 +1,55 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: bp-profile-location\n"
+"POT-Creation-Date: 2016-12-21 03:06-0800\n"
+"PO-Revision-Date: 2016-05-17 07:35-0800\n"
+"Last-Translator: \n"
+"Language-Team: PhiloPress\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../inc/class-pp-field-type-location.php:14
+msgctxt "xprofile field type category"
+msgid "Single Fields"
+msgstr ""
+
+#: ../inc/class-pp-field-type-location.php:15
+msgctxt "xprofile field type"
+msgid "Location"
+msgstr ""
+
+#: ../inc/class-pp-field-type-location.php:54
+msgid "Start typing an address"
+msgstr ""
+
+#: ../inc/class-pp-field-type-location.php:151
+msgid "Do you want this field to save a geocode for each member?"
+msgstr ""
+
+#: ../inc/class-pp-field-type-location.php:162
+msgid "The geocode will be saved in the usermeta table in this format:"
+msgstr ""
+
+#: ../inc/pp-field-type-location.php:128
+msgid "This is a required field"
+msgstr ""
+
+#: ../loader.php:26
+msgid ""
+"BP xProfile Location requires the BuddyPress plugin. Please install "
+"BuddyPress or deactivate the BP xProfile Location plugin."
+msgstr ""
+
+#: ../loader.php:42
+msgid ""
+"BP xProfile Location requires the BuddyPress Extended Profiles "
+"component. Please enable Extended Profiles or deactivate BP xProfile "
+"Location."
+msgstr ""

@@ -1,0 +1,7 @@
+#info: allowing direct access to the listed files is intentional and needed for the plugin to run properly!
+<IfModule mod_rewrite.c>
+	<FilesMatch "start\.php|proxy\.php|leaflet-api\.php|leaflet-download\.php|leaflet-fullscreen\.php|leaflet-geojson\.php|leaflet-georss\.php|leaflet-geositemap\.php|leaflet-kml\.php|leaflet-qr\.php|leaflet-wikitude\.php|changelog\.php">
+	RewriteEngine On
+	Allow from all
+	</FilesMatch>
+</IfModule>

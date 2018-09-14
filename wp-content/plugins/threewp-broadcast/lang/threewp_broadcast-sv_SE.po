@@ -1,0 +1,1332 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Edward Plainview <edward@plainview.se>\n"
+"Language-Team: Edward <edward@plainviewplugins.com>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#: src/maintenance/checks/view_blog_access/check.php:69
+#, php-format
+msgid "%s does not have access to any blogs."
+msgstr "%s har inte tillgång till några bloggar."
+
+#. Use x has access to the following blogs: ul-blogs-ul
+#: src/maintenance/checks/view_blog_access/check.php:78
+#, php-format
+msgid "%s has access to the following blogs: %s%s%s"
+msgstr "%s har tillgång till följande bloggar: %s%s%s"
+
+#: src/maintenance/checks/broadcast_data/check.php:323
+#, php-format
+msgid "%s rows left to check..."
+msgstr "%s rader kvar att kontrollera..."
+
+#: src/ThreeWP_Broadcast.php:755
+#, php-format
+msgid "%s seconds"
+msgstr "%s sekunder"
+
+#: src/traits/admin_menu.php:161
+#, php-format
+msgid ""
+"A list of custom post types that have broadcasting enabled. The default "
+"value is %s."
+msgstr ""
+"En lista över vilka inläggstyper som får multipostas. Standardvärdet är %s."
+
+#: src/traits/admin_menu.php:233
+msgid ""
+"Action to take when attachments with the same filename already exist on the "
+"child blog."
+msgstr ""
+"Vad för åtgärd skall tas när en fil med samma namn redan finns på bloggen."
+
+#. Table column header. Actions available for this maintenance check.
+#: src/maintenance/controller.php:80
+msgid "Actions"
+msgstr "Åtgärder"
+
+#: src/ThreeWP_Broadcast.php:780
+msgid ""
+"Add the following lines to your wp-config.php to help find out why errors or "
+"blank screens are occurring:"
+msgstr ""
+"Lägg till följande rader i din wp-config.php fil för att få reda på varför "
+"det uppstår fel eller du får vita skärmar:"
+
+#. Menu item name
+#: src/traits/admin_menu.php:555
+msgid "Add-on packs"
+msgstr "Tilläggspaket"
+
+#. Page heading
+#: src/traits/admin_menu.php:553
+msgid "Add-on packs info"
+msgstr "Information om tilläggspaketen"
+
+#. Menu item for menu
+#. Page title for menu
+#: src/premium_pack/ThreeWP_Broadcast_Plugin_Pack.php:156
+#: src/premium_pack/ThreeWP_Broadcast_Plugin_Pack.php:158
+msgid "Add-ons"
+msgstr "Tillägg"
+
+#: src/traits/admin_menu.php:106
+msgid ""
+"All custom fields are passed through the blacklist and then the whitelist. "
+"If the field exists in the blacklist, it will not be broadcast - unless it "
+"is specified in the whitelist."
+msgstr ""
+"Alla egna fält skickas först igenom svartlistan sedan vitlistan. Om fältet "
+"förekommer i svartlistan kommer den inte att multipostas - om den inte "
+"samtidigt finns i vitlistan."
+
+#. Add-ons tab name
+#: src/premium_pack/ThreeWP_Broadcast_Plugin_Pack.php:66
+msgid "Available add-ons"
+msgstr "Tillgängliga tillägg"
+
+#. Label for time savings
+#: src/traits/savings_calculator.php:40
+msgid "Basic setup"
+msgstr "Grundinställningar"
+
+#: src/maintenance/checks/broadcast_data/check.php:414
+#, php-format
+msgid "Beginning to check broadcast data. %s rows to check."
+msgstr "Börjar kontrollera multipostningsdatan. %s rader kvar att kontrollera."
+
+#: src/maintenance/controller.php:105
+msgid ""
+"Below is a table of available checks / tools. Click on the name of the check "
+"to use it."
+msgstr ""
+"Nedan visas en lista över alla tillgängliga kontroller och tester. Klicka på "
+"namnet på testet för att börja."
+
+#: src/maintenance/checks/view_broadcast_data/check.php:49
+msgid "Blog ID"
+msgstr "BloggID"
+
+#. Input label.
+#: src/traits/admin_menu.php:211
+msgid "Blogs to hide"
+msgstr "Bloggar som göms"
+
+#. Meta box title
+#. Role needed to...
+#. Menu title
+#. Page title
+#: src/traits/meta_boxes.php:32 src/traits/admin_menu.php:254
+#: src/traits/admin_menu.php:585 src/traits/admin_menu.php:587
+#: src/traits/post_actions.php:73
+msgid "Broadcast"
+msgstr "Multiposta"
+
+#: src/traits/admin_menu.php:58
+msgid "Broadcast add-on packs info"
+msgstr "Information om tilläggspaketen"
+
+#. Role needed to...
+#: src/traits/admin_menu.php:286
+msgid "Broadcast as draft"
+msgstr "Multiposta som utkast"
+
+#. Role needed to...
+#: src/traits/admin_menu.php:270
+msgid "Broadcast custom fields"
+msgstr "Multiposta egna fälten också"
+
+#. Name of maintenance check
+#: src/maintenance/checks/broadcast_data/check.php:103
+msgid "Broadcast data"
+msgstr "Multipostningsdata"
+
+#. Tab name for non-admins
+#: src/traits/admin_menu.php:513
+msgid "Broadcast information"
+msgstr "Multipostningsinformation"
+
+#: src/traits/meta_boxes.php:141
+msgid "Broadcast is in debug mode. More information than usual will be shown."
+msgstr ""
+"Multipostning är i debug-läge. Du kommer få se mer information än vanligt."
+
+#: src/traits/meta_boxes.php:148
+msgid ""
+"Broadcast is not preparing the meta box because it has already been applied."
+msgstr ""
+"Multipost gör ingenting med metaboxen eftersom den redan har behandlats."
+
+#: src/ThreeWP_Broadcast.php:104
+msgid "Broadcast requires a Wordpress network to function."
+msgstr "Multipostning kräver ett Wordpressnätverk."
+
+#. Role needed to...
+#: src/traits/admin_menu.php:294
+msgid "Broadcast scheduled posts"
+msgstr "Multiposta tidsinställda inlägg"
+
+#. Role needed to...
+#: src/traits/admin_menu.php:278
+msgid "Broadcast taxonomies"
+msgstr "Multiposta taxonomier"
+
+#. Input label for meta box
+#: src/traits/meta_boxes.php:226
+msgid "Broadcast to"
+msgstr "Multiposta till"
+
+#. Name of broadcast column in overview
+#: src/traits/post_actions.php:83
+msgid "Broadcasted"
+msgstr "Multipostat"
+
+#. SEO setting
+#: src/traits/admin_menu.php:313
+msgid "Canonical URL"
+msgstr "Canonical URL"
+
+#. Table column header. Type of maintenance check.
+#: src/maintenance/controller.php:76
+msgid "Check"
+msgstr "Kontroll"
+
+#. Maintenace check description
+#: src/maintenance/checks/view_blog_access/check.php:17
+msgid "Check to see which users can write to which blogs."
+msgstr "Visa vilka bloggar användare har skrivtillgång till."
+
+#. the next 500 of 1000 relations
+#: src/maintenance/checks/broadcast_data/check.php:128
+#, php-format
+msgid "Checking the next %s of %s relations."
+msgstr "Kontrollerar %s av %s förhållanden."
+
+#: src/maintenance/checks/broadcast_data/check.php:97
+msgid ""
+"Checks and optionally repairs missing broadcast data, parents and children "
+"found in the database table."
+msgstr ""
+"Kontrollerar och eventuellt även reparerar multipostningsinformationen av "
+"alla inlägg i databasen."
+
+#: src/traits/admin_menu.php:311
+msgid ""
+"Child posts have their canonical URLs pointed to the URL of the parent post. "
+"This automatically disables the canonical URL from Yoast's Wordpress SEO "
+"plugin."
+msgstr ""
+"Canonical länkar till multipostade inlägg kan istället pekas till "
+"ursprungliga inlägget. Detta tar automatiskt bort canonical URL-"
+"inställningen från Yoasts Wordpress SEO-tillägg."
+
+#. Input label.
+#: src/traits/admin_menu.php:187
+msgid "Clear POST"
+msgstr "Töm POST"
+
+#. Title when hovering over the links in the broadcast column
+#: src/traits/post_actions.php:174
+msgid "Click to modify the post's linkage"
+msgstr "Klicka för att ändra inläggets länkning"
+
+#. Input title for meta box
+#: src/traits/meta_boxes.php:186
+msgid ""
+"Create a link to the children, which will be updated when this post is "
+"updated, trashed when this post is trashed, etc."
+msgstr ""
+"Skapa en länk till barnen, vilka kommer att uppdateras när det här inlägget "
+"uppdateras, läggs i papperskorgen, osv."
+
+#. Existing attachment action.
+#: src/traits/attachments.php:254
+msgid "Create a new attachment with a randomized suffix"
+msgstr "Skapa en ny bilaga med slumpad text på slutet av namnet"
+
+#: src/traits/admin_menu.php:124
+msgid "Custom field blacklist"
+msgstr "Egna fält: svartlista"
+
+#. Legend for custom field handling fieldset
+#: src/traits/admin_menu.php:103
+msgid "Custom field handling"
+msgstr "Hantering av egna fält"
+
+#: src/traits/admin_menu.php:144
+msgid "Custom field protectlist"
+msgstr "Egna fält: skyddslista"
+
+#: src/traits/admin_menu.php:134
+msgid "Custom field whitelist"
+msgstr "Egna fält: vitlista"
+
+#. Input label for meta box
+#: src/traits/meta_boxes.php:203
+msgid "Custom fields"
+msgstr "Egna fält"
+
+#. Label for fieldset
+#: src/traits/admin_menu.php:152
+msgid "Custom post types"
+msgstr "Inläggstyper"
+
+#: src/traits/admin_menu.php:167
+msgid ""
+"Custom post types must be specified using their internal Wordpress names on "
+"a new line each. It is not possible to automatically make a list of "
+"available post types on the whole network because of a limitation within "
+"Wordpress (the current blog knows only of its own custom post types)."
+msgstr ""
+"Inläggstyperna måste anges med Wordpress interna namn för inläggstypen. Det "
+"är omöjligt att visa samtliga inläggstyper på alla bloggar på grund av en "
+"begränsning i Wordpress (nuvarande bloggen vet bara om sina egna)."
+
+#: src/traits/admin_menu.php:159
+msgid "Custom post types to broadcast"
+msgstr "Inläggstyper som får multipostas"
+
+#. Tab heading for non-admins when doing post actions.
+#: src/traits/admin_menu.php:453
+msgid "Delete all child posts"
+msgstr "Ta bort samtliga inlägg"
+
+#. Tab name for non-admins when doing post actions.
+#: src/traits/admin_menu.php:455
+msgid "Delete all children"
+msgstr "Ta bort alla barninlägg"
+
+#. Existing attachment action.
+#: src/traits/attachments.php:250
+msgid "Delete and then recopy the attachment"
+msgstr "Ta bort och kopiera om bilagan"
+
+#. Tab name for non-admins when doing post actions.
+#. Single post action in the popup
+#: src/traits/admin_menu.php:448 src/traits/post_actions.php:119
+msgid "Delete child"
+msgstr "Ta bort inlägg"
+
+#. Bulk post action in the dropdown
+#: src/traits/post_actions.php:146
+msgid "Delete children"
+msgstr "Ta bort länkade inlägg"
+
+#. With the unchecked child blogs:
+#. Tab heading for non-admins when doing post actions.
+#: src/traits/meta_boxes.php:275 src/traits/admin_menu.php:446
+msgid "Delete the child post"
+msgstr "Ta bort inlägget"
+
+#. Table column header. Description of maintenance check.
+#: src/maintenance/controller.php:78
+msgid "Description"
+msgstr "Beskrivning"
+
+#. Button
+#: src/maintenance/checks/view_blog_access/check.php:51
+msgid "Display blog access for the selected user(s)"
+msgstr "Visa bloggtillgång för de valda användarna"
+
+#. Input label.
+#: src/traits/admin_menu.php:220
+msgid "Display in overview"
+msgstr "Visa i översikten"
+
+#. Custom field blacklist.
+#: src/traits/admin_menu.php:123
+msgid "Do not broadcast these custom fields."
+msgstr "Multiposta inte följande egna fälten."
+
+#. Custom field protectlist.
+#: src/traits/admin_menu.php:143
+msgid "Do not overwrite the following fields on the child blogs if they exist."
+msgstr "Skriv inte över följande om de redan finns i inläggen."
+
+#. With the unchecked child blogs:
+#: src/traits/meta_boxes.php:273
+msgid "Do not update"
+msgstr "Låt bli att uppdatera"
+
+#. Custom field whitelist.
+#: src/traits/admin_menu.php:133
+msgid "Exceptions to the blacklist."
+msgstr "Undantag från svartlistan."
+
+#. What to do with existing attachments when broadcasting?
+#: src/traits/admin_menu.php:235
+msgid "Existing attachments"
+msgstr "Befintliga mediafiler"
+
+#. Button - broadcast data is link data
+#: src/maintenance/checks/view_broadcast_data/check.php:59
+msgid "Find and display the broadcast data"
+msgstr "Leta upp och visa länkdata"
+
+#. Button
+#: src/maintenance/checks/view_post_info/check.php:40
+msgid "Find and display the post info"
+msgstr "Leta upp och visa inläggsinfo"
+
+#. Fieldset label - broadcast data is linking data
+#: src/maintenance/checks/view_broadcast_data/check.php:35
+msgid "Find broadcast data by ID"
+msgstr "Visa länkdata via ID"
+
+#. Fieldset label - broadcast data is linking data
+#: src/maintenance/checks/view_broadcast_data/check.php:45
+msgid "Find broadcast data by blog and post ID"
+msgstr "Hitta länkdata via blog- och inläggsnummer"
+
+#. Tab heading for non-admins when doing post actions.
+#. Tab name for non-admins when doing post actions.
+#: src/traits/admin_menu.php:460 src/traits/admin_menu.php:462
+msgid "Find orphans"
+msgstr "Hitta olänkade"
+
+#. Bulk post action in the dropdown
+#: src/traits/post_actions.php:148
+msgid "Find unlinked children"
+msgstr "Hitta olänkade inlägg"
+
+#: src/maintenance/checks/broadcast_data/check.php:316
+msgid ""
+"Finished checking database rows. Now checking the actual broadcast data "
+"relations."
+msgstr ""
+"Kontroll av databasdatan utförd. Kontrollerar nu att förhållandena i datan "
+"stämmer."
+
+#. Status text for maintenance check
+#: src/maintenance/checks/broadcast_data/check.php:118
+msgid "Finished checking relations. Showing results."
+msgstr "Förhållandena kontrollerade. Visar resultatet."
+
+#. Fieldset legend for time savings
+#. Label for time savings
+#: src/traits/savings_calculator.php:80 src/traits/savings_calculator.php:86
+msgid "Hourly wage"
+msgstr "Timlön"
+
+#: src/traits/savings_calculator.php:66
+#, php-format
+msgid ""
+"How long, in percent, it takes to update a post, compared to created a brand "
+"new post. %s%% is a nice, round, number."
+msgstr ""
+"Hur lång tid, i procent, det tar att uppdatera ett inlägg jämfört med hur "
+"lång tid det tar att skriva ett helt nytt. %s%% är ett bra, runt tal."
+
+#: src/traits/admin_menu.php:218
+msgid ""
+"How many children to display in the overview before making the list into a "
+"summary."
+msgstr "Hur många bloggar att visa innan en sammanfattning visas istället."
+
+#: src/traits/admin_menu.php:191
+msgid ""
+"How many save_post hook decoys to insert before the real Broadcast save_post "
+"hook. This value should be raised if you notice that Broadcast isn't doing "
+"anything. This is due to a bug in Wordpress when other plugins call "
+"remove_action on the save_post hook."
+msgstr ""
+"Hur många save_post omvägar att lägga in innan Multipostar tar över med sin "
+"egen save_post händelse. Detta värdet bör höjas om du märker att Multipost "
+"inte gör något. Detta beror på en bugg i Wordpress."
+
+#: src/traits/savings_calculator.php:35
+#, php-format
+msgid ""
+"How many seconds it takes to switch blogs, start a new post and paste text "
+"into the title and content boxes. This varies depending on how efficient you "
+"are and how fast your webhost is. %s seconds is the default value."
+msgstr ""
+"Hur många sekunder det tar dig att byta blogg, skriva ett nytt inlägg och "
+"klistra in all text där den ska vara. Detta värdet beror på hur snabb och "
+"effektiv du är och hur snabbt ditt webhotell är. Standardvärdet är %s "
+"sekunder."
+
+#: src/traits/savings_calculator.php:49
+#, php-format
+msgid ""
+"How many seconds to add for each image that is attached to the post. %s "
+"seconds is the default value to upload the image, caption it and then insert "
+"it into the post."
+msgstr ""
+"Hur många sekunder att lägga till i beräkningen för varje bild som bifogas "
+"inlägget. Standardvärdet för att lägga upp en bild, skriva en beskrivning "
+"och klistra in bilden i inlägget är %s sekunder."
+
+#. Desc for time savings
+#: src/traits/savings_calculator.php:84
+msgid "How much money per hour do you earn?"
+msgstr "Hur mycket pengar tjänar du i timmen?"
+
+#: src/premium_pack/Plugin_Pack.php:43
+#, php-format
+msgid ""
+"If the pack is not activating as it should due to an SSL error, add this to "
+"your wp-config.php file: %s"
+msgstr ""
+"Om paketet vägrar aktiveras på grund av ett SSL-fel, lägg till följande i "
+"din wp-config.php fil: %s"
+
+#: src/traits/admin_menu.php:209
+msgid ""
+"In the broadcast meta box, after how many blogs the list should be auto-"
+"hidden."
+msgstr "Anger vid vilket antal blogglistan ska gömmas i multipostningsrutan."
+
+#: src/traits/meta_boxes.php:132
+msgid "Invert selection"
+msgstr "Byt markeringar"
+
+#. Input label for meta box
+#: src/traits/meta_boxes.php:184
+msgid "Link this post to its children"
+msgstr "Länka det här inlägg till de multipostade inläggen"
+
+#. Role needed to...
+#: src/traits/admin_menu.php:262
+msgid "Link to child posts"
+msgstr "Länka till de multipostade inläggen"
+
+#. Name of tab for Broadcast settings
+#: src/traits/admin_menu.php:400
+msgid "Maintenance"
+msgstr "Underhåll"
+
+#. Label for fieldset
+#: src/traits/admin_menu.php:182
+msgid "Miscellaneous"
+msgstr "Övrigt"
+
+#: src/savings_calculator/Data.php:83
+msgid "Money saved"
+msgstr "Pengar sparade"
+
+#. Since when is the time savings function monitoring
+#: src/savings_calculator/Data.php:44
+msgid "Monitoring since"
+msgstr "Registrerar sedan"
+
+#: src/traits/admin_menu.php:248
+msgid ""
+"Multiple roles may be selected. Each role must be individually selected, "
+"since there is no automatic hierarchy where, for example, authors "
+"automatically include the editor role. Note that only the roles on this blog "
+"can be shown."
+msgstr ""
+"Flera roller kan väljas. Varje roll måste väljas för hand eftersom det inte "
+"finns någon automatisk hierarki där exempelvis författare automatiskt "
+"inkluderas i redaktörsrollen. Observera att endast rollerna på nuvarande "
+"blogg kan visas."
+
+#: src/traits/admin_menu.php:89
+#, php-format
+msgid ""
+"Network admin! To ensure compatibility, please upgrade your version of the "
+"Broadcast %s add-on pack (%s) to match the major version of Broadcast "
+"itself: %s"
+msgstr ""
+"Nätverkadmin! Säkerställ att du använder samma version av tilläggspaketet %s "
+"(%s) som du gör av Multipost: %s"
+
+#. Fieldset legend for time savings. Timings for new posts.
+#: src/traits/savings_calculator.php:30
+msgid "New post time"
+msgstr "Tid för nya inlägg"
+
+#: src/traits/post_actions.php:515
+msgid "No change"
+msgstr "Ingen förändring"
+
+#: src/maintenance/checks/broadcast_data/check.php:275
+msgid ""
+"No problems found with the broadcast data. Click on the maintenance tab to "
+"return to the maintenance overview."
+msgstr ""
+"Inga problem hittade med datan! Klicka på underhållsfliken för att komma "
+"tillbaka till översikten."
+
+#: src/traits/admin_menu.php:361
+msgid "Options saved!"
+msgstr "Inställningarna är sparade!"
+
+#: src/traits/meta_boxes.php:113
+msgid ""
+"Please disable the following incompatible plugins before using Broadcasting:"
+msgstr "Var god avaktivera följande tillägg som inte fungerar med Multipost:"
+
+#: src/traits/meta_boxes.php:314
+msgid "Plugins that have hooked into save_post:"
+msgstr "Tillägg som reagerar på save_post:"
+
+#. Post 123 does not
+#: src/maintenance/checks/view_post_info/check.php:63
+#, php-format
+msgid "Post %s does not exist."
+msgstr "Inlägg %s finns inte."
+
+#: src/maintenance/checks/view_broadcast_data/check.php:54
+#: src/maintenance/checks/view_post_info/check.php:35
+msgid "Post ID"
+msgstr "InläggsID"
+
+#: src/traits/post_actions.php:74
+msgid "Post actions"
+msgstr "Åtgärder"
+
+#: src/traits/savings_calculator.php:61
+msgid "Post update time"
+msgstr "Tid att uppdatera inlägg"
+
+#. How many posts have been created during time savings monitoring
+#: src/savings_calculator/Data.php:50
+msgid "Posts created"
+msgstr "Nya inlägg"
+
+#. How many posts have been updated during time savings monitoring
+#: src/savings_calculator/Data.php:55
+msgid "Posts updated"
+msgstr "Uppdaterade inlägg"
+
+#. Button text
+#: src/traits/savings_calculator.php:98
+msgid "Reset the savings"
+msgstr "Nollställ besparingarna"
+
+#. Fieldset legend for time savings
+#: src/traits/savings_calculator.php:94
+msgid "Reset time saved"
+msgstr "Nollställ tidsbesparingar"
+
+#. Tab name for non-admins when doing post actions.
+#: src/traits/admin_menu.php:476
+msgid "Restore all"
+msgstr "Återställ alla"
+
+#. Tab heading for non-admins when doing post actions.
+#: src/traits/admin_menu.php:474
+msgid "Restore all of the child posts from the trash"
+msgstr "Återställ samtliga inlägg"
+
+#. Tab name for non-admins when doing post actions.
+#. Single post action in the popup
+#: src/traits/admin_menu.php:469 src/traits/post_actions.php:121
+msgid "Restore child"
+msgstr "Återställ inlägg"
+
+#. Bulk post action in the dropdown
+#: src/traits/post_actions.php:150
+msgid "Restore children"
+msgstr "Återställ inlägg"
+
+#. Tab heading for non-admins when doing post actions.
+#: src/traits/admin_menu.php:467
+msgid "Restore the child post from the trash"
+msgstr "Återställ inlägget"
+
+#. Label for fieldset
+#: src/traits/admin_menu.php:245
+msgid "Roles"
+msgstr "Roller"
+
+#: src/maintenance/checks/view_broadcast_data/check.php:88
+#, php-format
+msgid "Row %s in the broadcast data table was not found!"
+msgstr "Rad %s i multipostningstabellen hittades inte!"
+
+#: src/traits/admin_menu.php:301
+msgid "SEO"
+msgstr "Sökmotorsoptimering"
+
+#. Button text
+#: src/traits/admin_menu.php:318 src/traits/savings_calculator.php:102
+msgid "Save settings"
+msgstr "Spara inställningar"
+
+#: src/traits/meta_boxes.php:133
+msgid "Select / deselect all"
+msgstr "Markera / avmarkera alla"
+
+#. Name of tab for Broadcast settings
+#: src/traits/admin_menu.php:394
+msgid "Settings"
+msgstr "Inställningar"
+
+#. Title for broadcast column in overview
+#: src/traits/post_actions.php:81
+msgid "Shows which blogs have posts linked to this one"
+msgstr "Visar vilka bloggar har inlägg länkade till detta"
+
+#. Submit button for post actions
+#: src/traits/post_actions.php:547
+msgid "Submit"
+msgstr "Verkställ"
+
+#. Name of tab for Broadcast settings
+#: src/traits/admin_menu.php:405
+msgid "System info"
+msgstr "Systeminfo"
+
+#. Input label for meta box
+#: src/traits/meta_boxes.php:214
+msgid "Taxonomies"
+msgstr "Taxonomier"
+
+#: src/maintenance/checks/broadcast_data/check.php:398
+msgid "The Broadcast Data table is missing the ID column."
+msgstr "Multipostningstabellen saknar ID-kolumnen."
+
+#: src/maintenance/checks/view_broadcast_data/check.php:48
+msgid "The ID of the blog. The current blog is the default."
+msgstr "Bloggens ID. Nuvarande bloggen är standardvärdet."
+
+#: src/maintenance/checks/view_post_info/check.php:34
+msgid "The ID of the post to view"
+msgstr "ID:et för inlägget du vill visa"
+
+#: src/maintenance/checks/view_broadcast_data/check.php:53
+msgid "The ID of the post."
+msgstr "Inläggets nummer."
+
+#. Input title
+#: src/maintenance/checks/view_broadcast_data/check.php:39
+msgid "The ID of the row in the database table."
+msgstr "Länkdatans radnummer i databastabellen."
+
+#: src/traits/admin_menu.php:185
+msgid ""
+"The POST PHP variable is data sent when updating posts. Most plugins are "
+"fine if the POST is cleared before broadcasting, while others require that "
+"the data remains intact. Uncheck this setting if you notice that child posts "
+"are not being treated the same on the child blogs as they are on the parent "
+"blog."
+msgstr ""
+"PHP POST-data används för att uppdatera inlägg. De flesta tillägg är OK om "
+"POST töms innan multipostning, medan andra kräver att POST-datan är kvar. "
+"Bocka ur inställningen om du märker att multipostade inlägg inte ser "
+"likadant ut på alla bloggar."
+
+#: src/premium_pack/ThreeWP_Broadcast_Plugin_Pack.php:46
+#, php-format
+msgid "The author can be contacted at: %s"
+msgstr "Tilläggsförfattaren kan nås på: %s"
+
+#: src/traits/admin_menu.php:252
+msgid ""
+"The broadcast access role is the user role required to use the broadcast "
+"function at all."
+msgstr "Vilken användarroll behövs för att använda multipostning alls."
+
+#: src/maintenance/checks/broadcast_data/check.php:291
+msgid ""
+"The broadcast data table is missing the ID column. It should now have been "
+"created. Please rerun the test. If the test fails, then something is wrong "
+"with the database."
+msgstr ""
+"Tabellen som lagrar multipostningsinformationen saknar ID-kolumn. Kolumnen "
+"bör nu ha skapats. Var god kör om testet. Om testet misslyckas även då, är "
+"det något fel med databasen."
+
+#: src/traits/admin_menu.php:170
+#, php-format
+msgid "The custom post types registered on <em>this</em> blog are: %s"
+msgstr "Inläggstyperna tillgängliga på <em>den här</em> bloggen är: %s"
+
+#: src/premium_pack/ThreeWP_Broadcast_Plugin_Pack.php:113
+#, php-format
+msgid ""
+"The plugin and all associated settings and database tables have been "
+"removed. Please %sfollow this link to complete the uninstallation procedure"
+"%s."
+msgstr ""
+"Tillägget och alla inställningar och databastabeller har tagits bort. Besök "
+"%sden här länken för att avsluta avinstallationsproceduren%s."
+
+#: src/traits/admin_menu.php:200
+msgid ""
+"The priority for the save_post hook. Should be after all other plugins have "
+"finished modifying the post. Default is 640."
+msgstr ""
+"Prioritet för save_post händelsen. Detta bör vara efter samtliga andra "
+"tillägg är klara med att ändra i inlägget. Standardvärdet är 640."
+
+#. Message after resetting savings calculator.
+#: src/traits/savings_calculator.php:127
+msgid "The savings have been reset."
+msgstr "Besparingarna har nollställts."
+
+#: src/maintenance/checks/view_blog_access/check.php:34
+msgid "The user or users for which to check blog access."
+msgstr "Användaren eller användarna dess tillgång du vill se."
+
+#. Message after updating savings calculator.
+#: src/traits/savings_calculator.php:120
+msgid "The values have been updated."
+msgstr "Värdena har uppdaterats."
+
+#. Input title for required blogs.
+#: src/traits/meta_boxes.php:256
+msgid "This blog is required"
+msgstr "Denna bloggen måste väljas"
+
+#: src/premium_pack/ThreeWP_Broadcast_Plugin_Pack.php:93
+msgid ""
+"This button will remove the database settings for the add-on packs "
+"themselves: list of activated plugins, license keys."
+msgstr ""
+"Den här knappen tar bort de inställningarna som har med själva paketen att "
+"göra: listan över aktivterade tillägg, licensnycklar."
+
+#: src/ThreeWP_Broadcast.php:770
+msgid "This can be increased by adding the following to your wp-config.php:"
+msgstr "Detta kan utökas om du lägger till följande i din wp-config.php fil:"
+
+#: src/maintenance/controller.php:103
+msgid ""
+"This function allows the broadcast database to be checked and repaired. Make "
+"a backup of your Wordpress installation before using the repair functions."
+msgstr ""
+"Den här funktionen kontrollerar multipostningsinformationen. Gör en "
+"säkerhetskopia på din installation innan du gör något här."
+
+#: src/premium_pack/ThreeWP_Broadcast_Plugin_Pack.php:114
+msgid "This link will take you to the index page"
+msgstr "Den här länken tar dig till indexsidan"
+
+#: src/traits/post_actions.php:543
+msgid "This post has no broadcast links."
+msgstr "Inlägget har inga länkar."
+
+#: src/traits/meta_boxes.php:156
+msgid ""
+"This post is a broadcasted child post. It cannot be broadcasted further."
+msgstr ""
+"Det här inlägget är ett multipostat inlägg. Funktionen kan inte användas."
+
+#: src/premium_pack/ThreeWP_Broadcast_Plugin_Pack.php:41
+msgid ""
+"This table shows all Broadcast add-ons that are available via the activated "
+"Broadcast add-on packs."
+msgstr ""
+"Tabellen visar samtliga tillägg som finns tillgängliga via dina Multipost "
+"tilläggspaket."
+
+#: src/traits/savings_calculator.php:131
+msgid ""
+"This time savings tracker guesses roughly how much time you have saved by "
+"using Broadcast instead of manually copying out posts."
+msgstr ""
+"Den här funktionen försöker hålla koll på ungefär hur mycket tid du sparar "
+"genom att använda Multipost, jämfört med att skriva inläggen manuellt."
+
+#. Label for time savings
+#: src/traits/savings_calculator.php:54
+msgid "Time per attachment"
+msgstr "Tid per mediafil"
+
+#. How much time has been saved during time savings monitoring
+#: src/savings_calculator/Data.php:60
+msgid "Time saved (HH:MM:SS)"
+msgstr "Tisbesparing (TT:MM:SS)"
+
+#: src/traits/savings_calculator.php:205
+msgid "Time savings"
+msgstr "Tidsbesparingar"
+
+#: src/premium_pack/ThreeWP_Broadcast_Plugin_Pack.php:96
+msgid ""
+"To uninstall the settings for each pack add-on, use the add-on list bulk "
+"action."
+msgstr "Vill du avinstallera tilläggen, använd listan från tilläggsöversikten."
+
+#. Tab heading for non-admins when doing post actions.
+#: src/traits/admin_menu.php:488
+msgid "Trash all child posts"
+msgstr "Lägg samtliga inlägg i papperskorgen"
+
+#. Tab name for non-admins when doing post actions.
+#: src/traits/admin_menu.php:490
+msgid "Trash all children"
+msgstr "Ta bort alla inlägg"
+
+#. Tab name for non-admins when doing post actions.
+#. Single post action in the popup
+#: src/traits/admin_menu.php:483 src/traits/post_actions.php:123
+msgid "Trash child"
+msgstr "Lägg inlägget i papperskorgen"
+
+#. Bulk post action in the dropdown
+#: src/traits/post_actions.php:152
+msgid "Trash children"
+msgstr "Lägg inläggen i papperskorgen"
+
+#. With the unchecked child blogs:
+#. Tab heading for non-admins when doing post actions.
+#: src/traits/meta_boxes.php:277 src/traits/admin_menu.php:481
+msgid "Trash the child post"
+msgstr "Lägg inlägget i papperskorgen"
+
+#. Name of tab for Broadcast settings
+#. Uninstall tab name
+#: src/traits/admin_menu.php:412
+#: src/premium_pack/ThreeWP_Broadcast_Plugin_Pack.php:76
+msgid "Uninstall"
+msgstr "Avinstallera"
+
+#: src/premium_pack/ThreeWP_Broadcast_Plugin_Pack.php:99
+msgid "Uninstall the pack settings"
+msgstr "Ta bort paketets inställningar"
+
+#. Unknown BLOG_ID
+#: src/maintenance/checks/broadcast_data/check.php:71
+msgid "Unknown "
+msgstr "Okänd"
+
+#. Bulk post action in the dropdown
+#. Label of unlink checkbox
+#: src/traits/post_actions.php:154 src/traits/post_actions.php:504
+msgid "Unlink"
+msgstr "Ta bort länk"
+
+#. Tab heading for non-admins when doing post actions.
+#: src/traits/admin_menu.php:503
+msgid "Unlink all child posts"
+msgstr "Avlänka samtliga inlägg"
+
+#. Tab name for non-admins when doing post actions.
+#: src/traits/admin_menu.php:505
+msgid "Unlink all children"
+msgstr "Avlänka samtliga inlägg"
+
+#. Tab name for non-admins when doing post actions.
+#. Single post action in the popup
+#: src/traits/admin_menu.php:497 src/traits/post_actions.php:125
+msgid "Unlink child"
+msgstr "Avlänka inlägget"
+
+#. With the unchecked child blogs:
+#. Tab heading for non-admins when doing post actions.
+#: src/traits/meta_boxes.php:279 src/traits/admin_menu.php:495
+msgid "Unlink the child post"
+msgstr "Ta bort inlägget"
+
+#. Description of unlink checkbox
+#: src/traits/post_actions.php:502
+msgid "Unlink this post from its parent."
+msgstr "Ta bort länkningen till det här inlägget."
+
+#. Label for time savings
+#: src/traits/savings_calculator.php:71
+msgid "Update time"
+msgstr "Uppdateringstid"
+
+#. SEO setting
+#: src/traits/admin_menu.php:307
+msgid "Use parent permalink"
+msgstr "Använd källinläggets länk"
+
+#. Existing attachment action.
+#: src/traits/attachments.php:246
+msgid "Use the existing attachment on the child blog"
+msgstr "Använd befintliga bilagan från bloggen"
+
+#: src/traits/savings_calculator.php:135
+msgid ""
+"Use the form below to help Broadcast more correctly guess how much time you "
+"have saved."
+msgstr ""
+"Använd formuläret undertill för bättre beräkna hur mycket tid du har sparat "
+"med hjälp av Multipost."
+
+#: src/maintenance/checks/view_broadcast_data/check.php:31
+msgid ""
+"Use the form below to look up the broadcast data (linking) either by "
+"specifying the ID of the row in the database or the combination of blog ID "
+"and post ID. Leave the row input empty to look up using blog and post IDs."
+msgstr ""
+"Använd formuläret för att visa multipostningsdatan (länkdatan) genom att "
+"antingen ange ID av länkdatan i databastabellen, eller en kombination av "
+"blogg- och inläggsID. Om du vill använda senare sättet att söka, lämna "
+"databasnumret tomt."
+
+#: src/traits/admin_menu.php:305
+msgid ""
+"Use the parent post's permalink for the children. If checked, child posts "
+"will link back to the parent post."
+msgstr ""
+"Använd ursprungliga inläggets permalänk istället för de multipostade "
+"inläggens vanliga permalänk."
+
+#. Description of the maintenance check
+#: src/maintenance/checks/view_blog_access/check.php:95
+msgid ""
+"Use this tool to help diagnose why the Broadcast meta box isn't apprearing "
+"for some users. To be able to broadcast to a blog the user must be added as "
+"an author or above."
+msgstr ""
+"Använd verktyget för att hjälpa till att lista ut varför Multipostningsrutan "
+"inte visas för vissa användare. För att kunna multiposta till en blogg måste "
+"användaren vara minst författare."
+
+#. for blog access in the maintenance check
+#: src/maintenance/checks/view_blog_access/check.php:36
+msgid "User(s) to check"
+msgstr "Användare att visa"
+
+#. Name of maintenance check.
+#: src/maintenance/checks/view_blog_access/check.php:23
+msgid "View blog access"
+msgstr "Visa bloggtillgång"
+
+#. Maintenance check name
+#: src/maintenance/checks/view_broadcast_data/check.php:23
+msgid "View broadcast data"
+msgstr "Visa multipostningsdata"
+
+#: src/maintenance/checks/broadcast_data/check.php:89
+msgid "View help and troubleshooting guide"
+msgstr "Visa hjälp och felsökningsguiden"
+
+#. Maintenance check name
+#: src/maintenance/checks/view_post_info/check.php:23
+msgid "View post info"
+msgstr "Visa inläggsdata"
+
+#. Maintenance check description
+#: src/maintenance/checks/view_post_info/check.php:17
+msgid "View post information including metadata."
+msgstr "Visa inläggsinformation inklusive metadata."
+
+#. Input title
+#: src/traits/meta_boxes.php:269
+msgid "What to do with unchecked, linked child blogs"
+msgstr "Vad göra med de omarkerade men länkade bloggarna"
+
+#: src/traits/admin_menu.php:260
+msgid ""
+"When a post is linked with broadcasted posts, the child posts are updated / "
+"deleted when the parent is updated."
+msgstr ""
+"När ett inlägg länkas till de multipostade inläggen, uppdateras / tas de "
+"multipostade inlägg bort samtidigt med ursprungliga inlägget."
+
+#: src/traits/admin_menu.php:268
+msgid "Which role is needed to allow custom field broadcasting?"
+msgstr "Vilken roll behövs för att multiposta egna fält?"
+
+#: src/traits/admin_menu.php:276
+msgid ""
+"Which role is needed to allow taxonomy broadcasting? The taxonomies must "
+"have the same slug on all blogs."
+msgstr ""
+"Vilken användarroll behövs för att kunna multiposta taxonomier? Taxonomierna "
+"måste ha exakt samma namn på samtliga bloggar."
+
+#: src/traits/admin_menu.php:284
+msgid "Which role is needed to broadcast drafts?"
+msgstr "Vilken roll behövs för att multiposta utkast?"
+
+#: src/traits/admin_menu.php:292
+msgid "Which role is needed to broadcast scheduled (future) posts?"
+msgstr "Vilken roll behövs för att multiposta tidsinställda inlägg?"
+
+#. Input label
+#: src/traits/meta_boxes.php:271
+msgid "With the unchecked child blogs"
+msgstr "Med de omarkerade bloggarna"
+
+#: src/traits/admin_menu.php:110
+#, php-format
+msgid ""
+"You can use wildcards: %s will match all fields that start with %s and end "
+"with %s. If you wish to match all fields except a few, use %s in the "
+"blacklist and then the exceptions in the whitelist."
+msgstr ""
+"Du kan använda jokertecken: %s kommer att matacha alla fält som börjar med "
+"%s och slutar på %s. Om du vill matcha samtliga fält förutom några stycken, "
+"skriv %s i svartlistan och lägg in alla undantagen i vitlistan."
+
+#: src/savings_calculator/Data.php:74
+msgid "days"
+msgstr "dagar"
+
+#. Add translation strings
+#: src/traits/meta_boxes.php:131
+msgid "hide all"
+msgstr "göm alla"
+
+#. Input label.
+#: src/traits/admin_menu.php:193
+msgid "save_post decoys"
+msgstr "save_post omvägar"
+
+#. Input label.
+#: src/traits/admin_menu.php:202
+msgid "save_post priority"
+msgstr "save_post prioritet"
+
+#: src/traits/meta_boxes.php:134
+msgid "show all"
+msgstr "visa alla"
+
+#~ msgid "ThreeWP Broadcast"
+#~ msgstr "ThreeWP Multipost"
+
+#~ msgid ""
+#~ "According to the settings below, you are currently%s in debug mode. Don't "
+#~ "forget to reload this page after saving the settings."
+#~ msgstr ""
+#~ "Enligt inställningarna nedan är du%s i debugläge. Glöm inte att ladda om "
+#~ "den här sidan efter du sparat inställningarna."
+
+#~ msgid "Activate license"
+#~ msgstr "Aktivera licens"
+
+#~ msgid "Activate plugin"
+#~ msgstr "Aktivera tillägg"
+
+#~ msgid "Apply"
+#~ msgstr "Verställ"
+
+#~ msgid "Blog group saved!"
+#~ msgstr "Blog-gruppen har sparats!"
+
+#~ msgid "Blog groups"
+#~ msgstr "Blog-grupper"
+
+#~ msgid ""
+#~ "Blog groups help you to quickly add blogs to the broadcast. First create "
+#~ "a blog group and select the blogs you want. When broadcasting the list of "
+#~ "blog groups will appear above the blog list."
+#~ msgstr ""
+#~ "Blog-grupper hjälper dig att snabbt lägga till bloggar till "
+#~ "multipostningen. Skapa först en grupp där du väljer vilka bloggar du vill "
+#~ "ska ingå. När du sedan multipostar kommer gruppen att synas ovanför blogg-"
+#~ "listan."
+
+#~ msgid "Broadcast version"
+#~ msgstr "Multipostningsversion"
+
+#~ msgid "Bulk actions"
+#~ msgstr "Massåtgärder"
+
+#~ msgid "Click on the group name to edit or delete it."
+#~ msgstr "Klicka på gruppens namn för att redigera eller ta bort den."
+
+#~ msgid "Create a new blog group"
+#~ msgstr "Skapa en ny blogg-grupp"
+
+#~ msgid "Create the blog group"
+#~ msgstr "Skapa blogg-gruppen"
+
+#~ msgid "Custom post types saved!"
+#~ msgstr "Inläggstyperna har sparats!"
+
+#~ msgid "Deactivate license for this site"
+#~ msgstr "Avaktivera licensen"
+
+#~ msgid "Deactivate plugin"
+#~ msgstr "Avaktivera tillägg"
+
+#~ msgid "Debug IPs"
+#~ msgstr "Felsöknings IPadresser"
+
+#~ msgid "Debug code"
+#~ msgstr "Felsökningskod"
+
+#~ msgid "Debugging"
+#~ msgstr "Felsökning"
+
+#~ msgid "Delete license data"
+#~ msgstr "Ta bort licensdata"
+
+#~ msgid "Delete the group"
+#~ msgstr "Ta bort grupppen"
+
+#~ msgid "Delete this blog group"
+#~ msgstr "Ta bort den här blogg-gruppen"
+
+#~ msgid "Edit blog group"
+#~ msgstr "Redigera blogg-gruppen"
+
+#~ msgid "Edit or delete this blog group"
+#~ msgstr "Redigera eller ta bort gruppen"
+
+#~ msgid "Enable debugging"
+#~ msgstr "Slå på felsökning"
+
+#~ msgid "Enabled"
+#~ msgstr "Aktiverat"
+
+#~ msgid "Force new version check"
+#~ msgstr "Tvinga koll efter nya versioner"
+
+#~ msgid "General settings"
+#~ msgstr "Allmänna inställningar"
+
+#~ msgid "Get link to latest version as zip"
+#~ msgstr "Hämta ziplänk till senaste versionen"
+
+#~ msgid "Group name"
+#~ msgstr "Gruppens namn"
+
+#~ msgid "I want to delete this blog group"
+#~ msgstr "Jag vill ta bort den här blog-gruppen"
+
+#~ msgid "Information"
+#~ msgstr "Information"
+
+#~ msgid "Key"
+#~ msgstr "Nyckel"
+
+#~ msgid "License key"
+#~ msgstr "Licensnyckel"
+
+#~ msgid "Name"
+#~ msgstr "Namn"
+
+#~ msgid "No action selected."
+#~ msgstr "Ingen åtgärd vald."
+
+#~ msgid "No group selected"
+#~ msgstr "Ingen grupp vald"
+
+#~ msgid "No information available."
+#~ msgstr "Ingen info tillgänglig."
+
+#~ msgid ""
+#~ "Only show debugging info to specific IP addresses. Use spaces between "
+#~ "IPs. You can also specify part of an IP address. Your address is %s"
+#~ msgstr ""
+#~ "Visa felsökningsinformation endast för vissa IP-adresser. Skriv "
+#~ "mellanslag mellan IPerna. Du kan också ange delar av en IP-adress. Din "
+#~ "adress är %s"
+
+#~ msgid "Overview"
+#~ msgstr "Översikt"
+
+#~ msgid "PHP maximum execution time"
+#~ msgstr "Tidsbegräsning för PHP"
+
+#~ msgid "PHP memory limit"
+#~ msgstr "PHP minnesbegränsning"
+
+#~ msgid "PHP version"
+#~ msgstr "PHPversion"
+
+#~ msgid "Please fill in %s."
+#~ msgstr "Du måste fylla i %s."
+
+#~ msgid "Plugin"
+#~ msgstr "Tillägg"
+
+#~ msgid "Premium Pack"
+#~ msgstr "Premium Pack"
+
+#~ msgid "Premium Pack info"
+#~ msgstr "Info om Premium Pack"
+
+#~ msgid "Refresh license status"
+#~ msgstr "Ladda om licensstatus"
+
+#~ msgid "Role needed to use the group function."
+#~ msgstr "Rollen som behövs för att använda gruppfunktionen."
+
+#~ msgid "Save the broadcastable custom post types"
+#~ msgstr "Spara listan över inläggstyperna som får multipostas"
+
+#~ msgid "Show debugging information in various places."
+#~ msgstr "Visa felsökningsinfo här och var."
+
+#~ msgid "Super admin"
+#~ msgstr "Nätverksadmin"
+
+#~ msgid "The blog group %s has been created!"
+#~ msgstr "Blog-gruppen %s har skapats!"
+
+#~ msgid "The blog group has been deleted. Please return to the overview."
+#~ msgstr "Blog-gruppen har tagits bort. Du kan nu återgå till översikten."
+
+#~ msgid "The e-mail address in %s is not valid!"
+#~ msgstr "E-postadressen i fältet %s är inte giltig!"
+
+#~ msgid "The group has no blogs assigned."
+#~ msgstr "Gruppen har inga bloggar."
+
+#~ msgid ""
+#~ "The latest version of the plugin can be downloaded from <a href=\"%s"
+#~ "\">here</a>."
+#~ msgstr "Senaste versionen kan laddas hem <a href=\"%s\">härifrån</a>."
+
+#~ msgid "The selected plugin(s) have been activated."
+#~ msgstr "Tilläggen har aktiverats."
+
+#~ msgid "The selected plugin(s) have been uninstalled."
+#~ msgstr "Tillägen har avinstallerats."
+
+#~ msgid "The text in %s is too long!"
+#~ msgstr "Texten i %s är för lång!"
+
+#~ msgid "The text in %s is too short!"
+#~ msgstr "Texten i %s är för kort!"
+
+#~ msgid "The value in %s (%s) is larger than the allowed maximum of %s."
+#~ msgstr "Värdet i %s (%s) är större än maxvärdet %s."
+
+#~ msgid "The value in %s (%s) is smaller than the allowed minimum of %s."
+#~ msgstr "Värdet i %s (%s) är mindre än minimumvärdet %s."
+
+#~ msgid ""
+#~ "This page will remove all the plugin tables and settings from the "
+#~ "database and then deactivate the plugin."
+#~ msgstr ""
+#~ "Detta kommer att ta bort samtliga tilläggets databastabeller och "
+#~ "inställningar, och sedan avaktivera tilläget."
+
+#~ msgid "ThreeWP Broadcast Premium Pack info"
+#~ msgstr "ThreeWP Multipost Premium Pack-information"
+
+#~ msgid "Update the blog group"
+#~ msgstr "Uppdatera blog-gruppen"
+
+#~ msgid "Use groups"
+#~ msgstr "Använd grupperna"
+
+#~ msgid "Value"
+#~ msgstr "Värde"
+
+#~ msgid "Wordpress memory limit"
+#~ msgstr "Wordpress' minnesbegränsning"
+
+#~ msgid "Wordpress upload directory array"
+#~ msgstr "Wordpress' uppladdningsmappar"
+
+#~ msgid "Yes, I'm sure I want to remove all the plugin tables and settings."
+#~ msgstr ""
+#~ "Ja, jag är säker på att jag vill ta bort tillägget och samtliga "
+#~ "inställningar."
+
+#~ msgid "You have not created any blog groups yet."
+#~ msgstr "Du har inte skapat några blogggrupper än."
+
+#~ msgid "You have to check the checkbox in order to uninstall the plugin."
+#~ msgstr "Du måste kryssa i rutan för att avinstallera tillägget."
+
+#~ msgid "no"
+#~ msgstr "nej"
+
+#~ msgid "not"
+#~ msgstr "inte"
+
+#~ msgid "yes"
+#~ msgstr "ja"

@@ -1,0 +1,154 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BuddyPress Edit Activity\n"
+"Report-Msgid-Bugs-To: https://www.buddyboss.com/contact/\n"
+"POT-Creation-Date: 2017-12-29 03:56:23+00:00\n"
+"PO-Revision-Date: 2016-05-01 14:49-0400\n"
+"Last-Translator: jean-pierre michaud <nexialys@yahoo.com>\n"
+"Language-Team: jean-pierre michaud <nexialys@yahoo.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: buddypress-edit-activity.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: buddypress-edit-activity.php:80
+msgid "Couldn't load main class at:<br/>%s"
+msgstr "Impossible de charger les composantes sur:<br/>%s"
+
+#: buddypress-edit-activity.php:86
+msgid "<h1>Fatal error:</h1><hr/><pre>%s</pre>"
+msgstr "<h1>Erreur fatale:</h1><hr/><pre>%s</pre>"
+
+#: buddypress-edit-activity.php:111
+msgid ""
+"<strong>BuddyPress Edit Activity</strong></a> requires the BuddyPress plugin "
+"to work. Please <a href=\"http://buddypress.org\">install BuddyPress</a> "
+"first."
+msgstr ""
+"<strong>l'Editeur d'Activité BuddyPress</strong></a> a besoin de BuddyPress "
+"pour fonctionner. Vous devez <a href=\"http://buddypress.org\">installer "
+"BuddyPress</a> en premier."
+
+#: includes/admin.php:142
+msgid "Front-end Editing Settings"
+msgstr "Réglages d’Édition en Avant-plan"
+
+#: includes/admin.php:144
+msgid "Who can edit activity"
+msgstr "Qui peut éditer son activité"
+
+#: includes/admin.php:145
+msgid "Editable on front-end"
+msgstr "Edition en avant-plan"
+
+#: includes/admin.php:146
+msgid "Disallow editing after"
+msgstr "Désactiver l’édition après "
+
+#: includes/admin.php:173
+msgid "Buddypress Edit Activity"
+msgstr "BuddyPress Editeur d’Activité"
+
+#: includes/admin.php:175
+msgid "Need BuddyPress customizations?"
+msgstr "Besoin de personnaliser votre BuddyPress?"
+
+#: includes/admin.php:175
+msgid "Say hello."
+msgstr "Dites bonjour."
+
+#: includes/admin.php:181
+msgid "Settings updated."
+msgstr "Réglages mis à jour."
+
+#: includes/admin.php:189
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: includes/admin.php:219
+msgid "Admin only"
+msgstr "Admin seulement"
+
+#: includes/admin.php:220
+msgid "Admin and user who created the post"
+msgstr "Un admin et ceux qui ont créé leur billet"
+
+#: includes/admin.php:238
+msgid "Activity Posts"
+msgstr "Billets d’activités"
+
+#: includes/admin.php:239
+msgid "Activity Replies"
+msgstr "Réponses d’activités"
+
+#: includes/admin.php:254
+msgid " minutes"
+msgstr " minutes"
+
+#: includes/admin.php:255
+msgid "Leave at 0 to set no time limit "
+msgstr "Laisser à 0 pour désactiver la limite de temps"
+
+#: includes/admin.php:264
+msgid "Exclude admins from time limit."
+msgstr "Exclure les admins de la limite de temps."
+
+#: includes/admin.php:274
+msgid "Settings"
+msgstr "Réglages"
+
+#: includes/main-class.php:86 includes/main-class.php:88
+msgid "Cheatin&#8217; huh?"
+msgstr "On triche, hum?"
+
+#: includes/main-class.php:229
+msgid ""
+"Are you sure you want to do this?\n"
+"The activity changes you made will be lost."
+msgstr ""
+
+#: includes/main-class.php:232 includes/main-class.php:293
+#: includes/main-class.php:305
+msgid "Edit"
+msgstr "Modifier"
+
+#: includes/main-class.php:233
+msgid "Save"
+msgstr "Sauver"
+
+#: includes/main-class.php:234
+msgid "Cancel"
+msgstr "Cancel"
+
+#: includes/main-class.php:385
+msgid "Nothing found!"
+msgstr "Rien de Trouvé!"
+
+#: includes/main-class.php:436
+msgid "Error!"
+msgstr "Erreur!"
+
+#~ msgid "BuddyPress Edit Activity"
+#~ msgstr "Editeur d’Activité BuddyPress"
+
+#~ msgid "https://www.buddyboss.com/product/buddypress-edit-activity/"
+#~ msgstr "https://www.buddyboss.com/product/buddypress-edit-activity/"
+
+#~ msgid "Edit BuddyPress activity posts from the front-end"
+#~ msgstr "Editer l'activité BuddyPress à partir de l'avant-plan"
+
+#~ msgid "BuddyBoss"
+#~ msgstr "BuddyBoss"
+
+#~ msgid "http://buddyboss.com"
+#~ msgstr "http://buddyboss.com"

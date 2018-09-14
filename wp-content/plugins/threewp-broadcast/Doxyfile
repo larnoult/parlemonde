@@ -1,0 +1,11 @@
+# Run doxygen to generate the documentation.
+
+PROJECT_NAME		= Broadcast
+INPUT			= . src
+EXCLUDE_PATTERNS	= */src/sdk/*
+EXTRACT_ALL		= YES
+EXTRACT_PRIVATE		= YES
+GENERATE_HTML		= YES
+GENERATE_LATEX		= NO
+HTML_OUTPUT		= apidoc
+RECURSIVE = YES

@@ -1,0 +1,361 @@
+/* This stylesheet is used to style the admin option form of the plugin. */
+
+/*
+ * Layout
+ *
+ */
+.qfi_wrapper {
+	overflow: hidden;
+}
+#qfi_main {
+	float: left;
+	width: 66%;
+}
+#qfi_footer {
+	float: right;
+	width: 33%;
+}
+#qfi_main .qfi_content {
+	margin: 2em 1em 1em 0;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding-bottom: 2em;
+}
+#qfi_footer .qfi_content {
+	margin: 2em 0 1em 1em;
+	background-color: #F5FBFD;
+	border-radius: 8px;
+	border: 1px solid #ccc;
+}
+
+/* floating halfs */
+.qfi_w50percent {
+	width: 50%;
+	float: left;
+	display: block;
+	margin: 0;
+	border: 0 none;
+	padding: 0;
+}
+.qfi_w50percent p {
+	margin-top: 0;
+}
+
+/*
+ * Elements
+ *
+ */
+ 
+/* Footer */
+#qfi_footer .qfi_content h2 {
+	background: none;
+	margin: 0;
+}
+#qfi_footer .qfi_content dl {
+	padding: 0 8px;
+}
+#qfi_footer .qfi_content li, 
+#qfi_footer .qfi_content dd {
+	overflow: hidden; /* correct height if inner flowing elements */
+	margin-bottom: 10px;
+	margin-left: 0;
+}
+#qfi_main .widefat a {
+	text-decoration: underline;
+}
+
+/* Filter 'Replace' */
+#qfi_replace {
+	overflow: hidden;
+}
+#qfi_replace label {
+	display: block;
+	float: left;
+	overflow: hidden;
+	padding: 0 3em 3em 0;
+}
+#qfi_replace input[type="radio"]:checked:before,
+#qfi_replace input[type="radio"]:checked,
+#qfi_replace input[type="radio"],
+#qfi_replace input[type="checkbox"]:checked:before,
+#qfi_replace input[type="checkbox"]:checked,
+#qfi_replace input[type="checkbox"] {
+	position: relative;
+	top: 2.5em;
+	left: 1.5em;
+	padding: 9px !important;
+}
+
+/* Progress Bar */
+#progress {
+}
+#progress em {
+	font-weight: bold;
+	font-style: normal;
+}
+#progress #bar {
+	display: block;
+	overflow: hidden;
+	line-height: 1;
+	padding: 1em;
+	background: none repeat scroll 0 0 #e3e3e3;
+	color: #222;
+}
+#progress #bar span {
+	line-height: 1;
+	padding: 1em;
+}
+#progress #bar strong {
+	line-height: 1;
+	padding: 1em;
+}
+
+/* Other content elements */
+body[class*=_page_quick-featured-images-defaults] #qfi_main .qfi_content table.widefat th:nth-of-type(1),
+body[class*=_page_quick-featured-images-defaults] #qfi_main .qfi_content table.widefat td:nth-of-type(1),
+body[class*=_page_quick-featured-images-defaults] #qfi_main .qfi_content table.widefat th:nth-of-type(4),
+body[class*=_page_quick-featured-images-defaults] #qfi_main .qfi_content table.widefat td:nth-of-type(4) {
+	text-align: center;
+}
+body[class*=_page_quick-featured-images-defaults] #qfi_main .qfi_content table.widefat td:nth-of-type(4) {
+	vertical-align: middle;
+}
+body[class*=_page_quick-featured-images-defaults] #qfi_main .qfi_content table.form-table,
+body[class*=_page_quick-featured-images-settings] #qfi_main .qfi_content table.form-table {
+	width: auto;
+}
+body[class*=_page_quick-featured-images-defaults] #qfi_main .qfi_content form select {
+	width: 100%;
+}
+body[class*=_page_quick-featured-images-defaults] #qfi_main .qfi_content table.form-table,
+body[class*=_page_quick-featured-images-settings] #qfi_main .qfi_content table.form-table,
+#qfi_main .qfi_content legend,
+#qfi_main .qfi_content h4,
+#qfi_main .qfi_content h3,
+#qfi_main .qfi_content ul,
+#qfi_main .qfi_content p {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+#qfi_main .qfi_content p.qfi_valid {
+	color: green;
+	font-weight: bold;
+}
+#qfi_main .qfi_content p.qfi_invalid {
+	color: red;
+	font-weight: bold;
+}
+
+#qfi_main .qfi_content h3 {
+	font-size: 1.12em;
+	line-height: 1.44;
+}
+#qfi_main .qfi_content h4 {
+	margin-bottom: 0;
+	font-size: 1em;
+}
+#qfi_main .qfi_content fieldset {
+	margin-bottom: 1em;
+}
+
+#qfi_main .qfi_content legend {
+	margin-bottom: .5em;
+	font-weight: bold;
+}
+#qfi_main .qfi_content ul {
+	list-style: disc outside none;
+	padding-left: 1em;
+}
+#qfi_main .qfi_content ul.selected_images {
+	padding-left: 0;
+}
+#qfi_main .qfi_content ul.selected_images li {
+	display: inline;
+	margin: 0 8px 0 0;
+	padding: 0;
+}
+#qfi_main .qfi_content ol {
+	margin-left: 3em;
+	margin-right: 8px;
+}
+#qfi_main .qfi_content .failure {
+	font-weight: bold;
+}
+#qfi_main div.qfi-failure,
+#qfi_main .widefat tr.qfi-failure {
+	background-color: #ffebe8;
+}
+#qfi_main div.qfi-failure {
+	margin: 0 0 1.5em;
+	padding: 8px 0;
+	font-weight: bold;
+}
+#qfi_year {
+	width: 4em;
+}
+.wrap h2 {
+	background: none repeat scroll 0 0 #DDD;
+	color: #222222;
+	padding: 8px;
+}
+.wrap h2.nobottom {
+	margin-bottom: 0;
+}
+.qfi_content_inside .failure {
+	/*color: #000;*/
+	font-size: 1.5em;
+	/*font-weight: bold;*/
+	/*margin-top: 0.5em;*/
+	/*padding: 0 15px;*/
+}
+.qfi_content_inside .success {
+	color: #555;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0.5em;
+	padding: 0 15px;
+}
+.toplevel_page_quick-featured-images-overview #qfi_main .qfi_content ul li span.dashicons {
+	font-size: 15em;
+	width: auto;
+	height: auto;
+	line-height: 1;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: baseline;
+}
+.toplevel_page_quick-featured-images-overview #qfi_main .qfi_content ul li:nth-of-type(1) a span {
+	color: #3399CC; /*#236ea3;*/
+}
+.toplevel_page_quick-featured-images-overview #qfi_main .qfi_content ul li:nth-of-type(1) a:focus span,
+.toplevel_page_quick-featured-images-overview #qfi_main .qfi_content ul li:nth-of-type(1) a:hover span {
+	color: #66B3D9; /*#2e91d6;*/
+}
+.toplevel_page_quick-featured-images-overview #qfi_main .qfi_content ul li:nth-of-type(2) a span {
+	color: #FF9900; /*#17826a;*/
+}
+.toplevel_page_quick-featured-images-overview #qfi_main .qfi_content ul li:nth-of-type(2) a:focus span,
+.toplevel_page_quick-featured-images-overview #qfi_main .qfi_content ul li:nth-of-type(2) a:hover span {
+	color: #FFB340; /*#20b594;*/
+}
+.toplevel_page_quick-featured-images-overview #qfi_main .qfi_content ul li:nth-of-type(3) a span {
+	color: #99CCCC; /*#a6321f;*/
+}
+.toplevel_page_quick-featured-images-overview #qfi_main .qfi_content ul li:nth-of-type(3) a:focus span,
+.toplevel_page_quick-featured-images-overview #qfi_main .qfi_content ul li:nth-of-type(3) a:hover span {
+	color: #B3D9D9; /*#d94128;*/
+}
+.toplevel_page_quick-featured-images-overview #qfi_main .qfi_content ul li:nth-of-type(4) a span {
+	color: #CC9900;
+}
+.toplevel_page_quick-featured-images-overview #qfi_main .qfi_content ul li:nth-of-type(4) a:focus span,
+.toplevel_page_quick-featured-images-overview #qfi_main .qfi_content ul li:nth-of-type(4) a:hover span {
+	color: #D9B340;
+}
+
+#qfi_main .qfi_content .qfi_page_description {
+	background-color: #d0d0d0;
+	font-weight: bold;
+	padding: 8px 0;
+}
+body[class*=_page_quick-featured-images-settings] #qfi_main .qfi_content form h2,
+#qfi_main .qfi_content .no-bottom {
+	margin-bottom: 0;
+}
+#template_row {
+	display: none;
+}
+.attachment-thumbnail {
+	/*border: 2px solid #666;*/
+	border-radius: 3px;
+	box-shadow: 3px 3px 3px 1px #999;
+	-webkit-box-shadow: 3px 3px 3px 1px #999;
+	margin-bottom: 9px;
+	background-color: whitesmoke;
+}
+#qfi_main .selected_images li img[src$="svg"] {
+	width: 60px;
+	height: auto;
+}
+#qfi_main .qfi_w50percent p img[src$="svg"] {
+	width: 150px;
+	height: auto;
+}
+#qfi_max_width,
+#qfi_max_height {
+	width: 4em;
+
+}
+.toplevel_page_quick-featured-images-overview #qfi_main .qfi_content ul {
+	list-style: none;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+	overflow: hidden;
+}
+.toplevel_page_quick-featured-images-overview #qfi_main .qfi_content li {
+	display: block;
+	float: left;
+	width: 50%;
+	height: 310px;
+}
+.toplevel_page_quick-featured-images-overview #qfi_main .qfi_content ul li a:focus img,
+.toplevel_page_quick-featured-images-overview #qfi_main .qfi_content ul li a:hover img {
+	opacity: .6;
+}
+#qfi_main .qfi_content img.alignleft,
+#qfi_footer .qfi_content img.avatar {
+	display: inline;
+	float: left;
+	margin: 3px .8em 5px 0;
+}
+#qfi_main .qfi_content form td .qfi_preset_image {
+	 display: block;
+	 width: 80px;
+	 height: auto;
+}
+#qfi_main .qfi_content img#paypal_button {
+	max-width: 195px;
+}
+#qfi_main .qfi_content img.qfi_random_img {
+	 width: 80px;
+	 height: auto;
+	 margin-right: .8em;
+}
+.qfi_ad_for_pro {
+	font-weight: bold;
+}
+/* If auto-folding of the admin menu */
+@media only screen and (max-width: 900px) {
+	/* dissolve floating */
+	#qfi_main,
+	#qfi_footer,
+	#qfi_main .qfi_content,
+	#qfi_footer .qfi_content {
+		float: none;
+		width: auto;
+		margin: 0;
+	}
+	#progress #bar span {
+		line-height: 4;
+	}
+}
+/* Smartphone */
+@media screen and (max-width: 600px) {
+	/* Progress Bar */
+	#progress #bar span.sep,
+	#progress #bar span.wp-ui-notification,
+	#progress #bar strong.wp-ui-highlight {
+		display: block;
+		line-height: 1;
+	}
+	#progress #bar span.sep {
+		padding: .5em 1em;
+	}
+	/* floating halfs */
+	.toplevel_page_quick-featured-images-overview #qfi_main .qfi_content li,
+	.qfi_w50percent {
+		float: none;
+		width: auto;
+		height: auto;
+	}
+}

@@ -1,0 +1,86 @@
+/**
+ *
+ *
+ * @author Josh Lobe
+ * http://ultimatetinymcepro.com
+ */
+ 
+#body {
+	margin: auto;
+	padding:20px;
+	
+	background: #fbfbfb;
+	background: -moz-linear-gradient(top, #fbfbfb 0%, #dedede 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fbfbfb), color-stop(100%,#dedede));
+	background: -webkit-linear-gradient(top, #fbfbfb 0%,#dedede 100%);
+	background: -o-linear-gradient(top, #fbfbfb 0%,#dedede 100%);
+	background: -ms-linear-gradient(top, #fbfbfb 0%,#dedede 100%);
+	background: linear-gradient(to bottom, #fbfbfb 0%,#dedede 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfb', endColorstr='#dedede',GradientType=0 );
+	
+	border: 1px solid #CCC;
+	border-radius: 5px;
+}
+
+.form-control {
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	border-radius: 4px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+	color: #555555;
+	font-size: 14px;
+	height: 34px;
+	line-height: 1.42857;
+	padding: 6px 12px;
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+.form-control:focus {
+	border-color: #66AFE9;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+	outline: 0 none;
+}
+
+.btn-primary, .btn-default {
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 1px rgba(0, 0, 0, 0.075);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+	font-weight: bold;
+}
+.btn-primary {
+	background-image: linear-gradient(to bottom, #428BCA 0px, #3071A9 100%);
+	background-repeat: repeat-x;
+	border-color: #2D6CA2;
+	color: #FFF;
+	padding: 5px 20px;
+}
+.btn-default {
+	background-image: linear-gradient(to bottom, #FFFFFF 0px, #E6E6E6 100%);
+	background-repeat: repeat-x;
+	border-color: #CCCCCC;
+	text-shadow: 0 1px 0 #FFFFFF;
+	padding: 5px 15px;
+}
+
+
+#advlink_insert {
+	float:right;
+	margin-right:20px;
+	cursor:pointer;
+}
+#advlink_cancel {
+	float:right;
+	margin-right:20px;
+	cursor:pointer;
+}
+
+
+.ui-button-text {
+   padding: 2px 10px !important;
+   font-size: .8em;
+} 
+
+table#adv_link_table {
+	width:100%;
+}
+#advlink_link {
+	width:100%;
+}

@@ -1,0 +1,631 @@
+/*
+ * Dashicons mixin
+ * use: @include dashicons( '\f140' );
+ */
+/*
+ * Button mixin- creates 3d-ish button effect with correct
+ * highlights/shadows, based on a base color.
+ */
+/* line 5, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+html {
+  background: #f1f1f1;
+}
+
+/* Links */
+/* line 12, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+a {
+  color: #0073aa;
+}
+
+/* line 15, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+a:hover, a:active, a:focus {
+  color: #0096dd;
+}
+
+/* line 22, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#media-upload a.del-link:hover,
+div.dashboard-widget-submit input:hover,
+.subsubsub a:hover,
+.subsubsub a.current:hover {
+  color: #0096dd;
+}
+
+/* Forms */
+/* line 32, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+input[type=checkbox]:checked:before {
+  color: #adf060;
+}
+
+/* line 36, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+input[type=radio]:checked:before {
+  background: #adf060;
+}
+
+/* line 40, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+.wp-core-ui input[type="reset"]:hover,
+.wp-core-ui input[type="reset"]:active {
+  color: #0096dd;
+}
+
+/* Core UI */
+/* line 49, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+.wp-core-ui .button-primary {
+  background: #adf060;
+  border-color: #95ec31 #89e91a #89e91a;
+  color: white;
+  box-shadow: 0 1px 0 #89e91a;
+  text-shadow: 0 -1px 1px #89e91a, 1px 0 1px #89e91a, 0 1px 1px #89e91a, -1px 0 1px #89e91a;
+}
+
+/* line 33, /Users/PLM/Documents/admin-color-schemes/_mixins.scss */
+.wp-core-ui .button-primary:hover, .wp-core-ui .button-primary:focus {
+  background: #b4f16e;
+  border-color: #89e91a;
+  color: white;
+  box-shadow: 0 1px 0 #89e91a;
+}
+
+/* line 41, /Users/PLM/Documents/admin-color-schemes/_mixins.scss */
+.wp-core-ui .button-primary:focus {
+  box-shadow: inset 0 1px 0 #95ec31, 0 0 2px 1px #33b3db;
+}
+
+/* line 46, /Users/PLM/Documents/admin-color-schemes/_mixins.scss */
+.wp-core-ui .button-primary:active {
+  background: #95ec31;
+  border-color: #89e91a;
+  box-shadow: inset 0 2px 0 #89e91a;
+}
+
+/* line 52, /Users/PLM/Documents/admin-color-schemes/_mixins.scss */
+.wp-core-ui .button-primary[disabled], .wp-core-ui .button-primary:disabled, .wp-core-ui .button-primary.button-primary-disabled, .wp-core-ui .button-primary.disabled {
+  color: #ccd1c7 !important;
+  background: #9aec3b !important;
+  border-color: #89e91a !important;
+  text-shadow: none !important;
+}
+
+/* line 62, /Users/PLM/Documents/admin-color-schemes/_mixins.scss */
+.wp-core-ui .button-primary.button-hero {
+  box-shadow: 0 2px 0 #89e91a !important;
+}
+
+/* line 64, /Users/PLM/Documents/admin-color-schemes/_mixins.scss */
+.wp-core-ui .button-primary.button-hero:active {
+  box-shadow: inset 0 3px 0 #89e91a !important;
+}
+
+/* line 53, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+.wp-core-ui .wp-ui-primary {
+  color: #fff;
+  background-color: #87bc4b;
+}
+
+/* line 57, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+.wp-core-ui .wp-ui-text-primary {
+  color: #87bc4b;
+}
+
+/* line 61, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+.wp-core-ui .wp-ui-highlight {
+  color: #fff;
+  background-color: #adf060;
+}
+
+/* line 65, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+.wp-core-ui .wp-ui-text-highlight {
+  color: #adf060;
+}
+
+/* line 69, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+.wp-core-ui .wp-ui-notification {
+  color: #fff;
+  background-color: #fff380;
+}
+
+/* line 73, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+.wp-core-ui .wp-ui-text-notification {
+  color: #fff380;
+}
+
+/* line 77, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+.wp-core-ui .wp-ui-text-icon {
+  color: #f2f3f1;
+}
+
+/* List tables */
+/* line 85, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+.wrap .add-new-h2:hover,
+.wrap .page-title-action:hover,
+.tablenav .tablenav-pages a:hover,
+.tablenav .tablenav-pages a:focus {
+  color: #fff;
+  background-color: #87bc4b;
+}
+
+/* line 93, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+.view-switch a.current:before {
+  color: #87bc4b;
+}
+
+/* line 97, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+.view-switch a:hover:before {
+  color: #fff380;
+}
+
+/* Admin Menu */
+/* line 104, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#adminmenuback,
+#adminmenuwrap,
+#adminmenu {
+  background: #87bc4b;
+}
+
+/* line 110, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#adminmenu a {
+  color: #fff;
+}
+
+/* line 114, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#adminmenu div.wp-menu-image:before {
+  color: #f2f3f1;
+}
+
+/* line 118, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#adminmenu a:hover,
+#adminmenu li.menu-top:hover,
+#adminmenu li.opensub > a.menu-top,
+#adminmenu li > a.menu-top:focus {
+  color: #fff;
+  background-color: #adf060;
+}
+
+/* line 126, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#adminmenu li.menu-top:hover div.wp-menu-image:before,
+#adminmenu li.opensub > a.menu-top div.wp-menu-image:before {
+  color: #fff;
+}
+
+/* Active tabs use a bottom border color that matches the page background color. */
+/* line 134, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+.about-wrap h2 .nav-tab-active,
+.nav-tab-active,
+.nav-tab-active:hover {
+  background-color: #f1f1f1;
+  border-bottom-color: #f1f1f1;
+}
+
+/* Admin Menu: submenu */
+/* line 144, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#adminmenu .wp-submenu,
+#adminmenu .wp-has-current-submenu .wp-submenu,
+#adminmenu .wp-has-current-submenu.opensub .wp-submenu,
+.folded #adminmenu .wp-has-current-submenu .wp-submenu,
+#adminmenu a.wp-has-current-submenu:focus + .wp-submenu {
+  background: #75a63e;
+}
+
+/* line 152, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#adminmenu li.wp-has-submenu.wp-not-current-submenu.opensub:hover:after {
+  border-right-color: #75a63e;
+}
+
+/* line 156, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#adminmenu .wp-submenu .wp-submenu-head {
+  color: #dbebc9;
+}
+
+/* line 160, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#adminmenu .wp-submenu a,
+#adminmenu .wp-has-current-submenu .wp-submenu a,
+.folded #adminmenu .wp-has-current-submenu .wp-submenu a,
+#adminmenu a.wp-has-current-submenu:focus + .wp-submenu a,
+#adminmenu .wp-has-current-submenu.opensub .wp-submenu a {
+  color: #dbebc9;
+}
+
+/* line 167, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#adminmenu .wp-submenu a:focus, #adminmenu .wp-submenu a:hover,
+#adminmenu .wp-has-current-submenu .wp-submenu a:focus,
+#adminmenu .wp-has-current-submenu .wp-submenu a:hover,
+.folded #adminmenu .wp-has-current-submenu .wp-submenu a:focus,
+.folded #adminmenu .wp-has-current-submenu .wp-submenu a:hover,
+#adminmenu a.wp-has-current-submenu:focus + .wp-submenu a:focus,
+#adminmenu a.wp-has-current-submenu:focus + .wp-submenu a:hover,
+#adminmenu .wp-has-current-submenu.opensub .wp-submenu a:focus,
+#adminmenu .wp-has-current-submenu.opensub .wp-submenu a:hover {
+  color: #adf060;
+}
+
+/* Admin Menu: current */
+/* line 175, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#adminmenu .wp-submenu li.current a,
+#adminmenu a.wp-has-current-submenu:focus + .wp-submenu li.current a,
+#adminmenu .wp-has-current-submenu.opensub .wp-submenu li.current a {
+  color: #fff;
+}
+
+/* line 180, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#adminmenu .wp-submenu li.current a:hover, #adminmenu .wp-submenu li.current a:focus,
+#adminmenu a.wp-has-current-submenu:focus + .wp-submenu li.current a:hover,
+#adminmenu a.wp-has-current-submenu:focus + .wp-submenu li.current a:focus,
+#adminmenu .wp-has-current-submenu.opensub .wp-submenu li.current a:hover,
+#adminmenu .wp-has-current-submenu.opensub .wp-submenu li.current a:focus {
+  color: #adf060;
+}
+
+/* line 185, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+ul#adminmenu a.wp-has-current-submenu:after,
+ul#adminmenu > li.current > a.current:after {
+  border-right-color: #f1f1f1;
+}
+
+/* line 190, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#adminmenu li.current a.menu-top,
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu,
+#adminmenu li.wp-has-current-submenu .wp-submenu .wp-submenu-head,
+.folded #adminmenu li.current.menu-top {
+  color: #fff;
+  background: #adf060;
+}
+
+/* line 198, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#adminmenu li.wp-has-current-submenu div.wp-menu-image:before,
+#adminmenu a.current:hover div.wp-menu-image:before,
+#adminmenu li.wp-has-current-submenu a:focus div.wp-menu-image:before,
+#adminmenu li.wp-has-current-submenu.opensub div.wp-menu-image:before,
+#adminmenu li:hover div.wp-menu-image:before,
+#adminmenu li a:focus div.wp-menu-image:before,
+#adminmenu li.opensub div.wp-menu-image:before,
+.ie8 #adminmenu li.opensub div.wp-menu-image:before {
+  color: #fff;
+}
+
+/* Admin Menu: bubble */
+/* line 212, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#adminmenu .awaiting-mod,
+#adminmenu .update-plugins {
+  color: #fff;
+  background: #fff380;
+}
+
+/* line 218, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#adminmenu li.current a .awaiting-mod,
+#adminmenu li a.wp-has-current-submenu .update-plugins,
+#adminmenu li:hover a .awaiting-mod,
+#adminmenu li.menu-top:hover > a .update-plugins {
+  color: #fff;
+  background: #75a63e;
+}
+
+/* Admin Menu: collapse button */
+/* line 229, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#collapse-menu {
+  color: #f2f3f1;
+}
+
+/* line 233, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#collapse-menu:hover {
+  color: #fff;
+}
+
+/* line 237, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#collapse-button div:after {
+  color: #f2f3f1;
+}
+
+/* line 241, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#collapse-menu:hover #collapse-button div:after {
+  color: #fff;
+}
+
+/* Admin Bar */
+/* line 248, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#wpadminbar {
+  color: #fff;
+  background: #87bc4b;
+}
+
+/* line 253, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#wpadminbar .ab-item,
+#wpadminbar a.ab-item,
+#wpadminbar > #wp-toolbar span.ab-label,
+#wpadminbar > #wp-toolbar span.noticon {
+  color: #fff;
+}
+
+/* line 260, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#wpadminbar .ab-icon,
+#wpadminbar .ab-icon:before,
+#wpadminbar .ab-item:before,
+#wpadminbar .ab-item:after {
+  color: #f2f3f1;
+}
+
+/* line 267, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#wpadminbar:not(.mobile) .ab-top-menu > li:hover > .ab-item,
+#wpadminbar:not(.mobile) .ab-top-menu > li > .ab-item:focus,
+#wpadminbar.nojq .quicklinks .ab-top-menu > li > .ab-item:focus,
+#wpadminbar.nojs .ab-top-menu > li.menupop:hover > .ab-item,
+#wpadminbar .ab-top-menu > li.menupop.hover > .ab-item {
+  color: #adf060;
+  background: #75a63e;
+}
+
+/* line 276, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#wpadminbar:not(.mobile) > #wp-toolbar li:hover span.ab-label,
+#wpadminbar:not(.mobile) > #wp-toolbar li.hover span.ab-label,
+#wpadminbar:not(.mobile) > #wp-toolbar a:focus span.ab-label {
+  color: #adf060;
+}
+
+/* line 282, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#wpadminbar:not(.mobile) li:hover .ab-icon:before,
+#wpadminbar:not(.mobile) li:hover .ab-item:before,
+#wpadminbar:not(.mobile) li:hover .ab-item:after,
+#wpadminbar:not(.mobile) li:hover #adminbarsearch:before {
+  color: #fff;
+}
+
+/* Admin Bar: submenu */
+/* line 292, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#wpadminbar .menupop .ab-sub-wrapper {
+  background: #75a63e;
+}
+
+/* line 296, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#wpadminbar .quicklinks .menupop ul.ab-sub-secondary,
+#wpadminbar .quicklinks .menupop ul.ab-sub-secondary .ab-submenu {
+  background: #98be6c;
+}
+
+/* line 301, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#wpadminbar .ab-submenu .ab-item,
+#wpadminbar .quicklinks .menupop ul li a,
+#wpadminbar .quicklinks .menupop.hover ul li a,
+#wpadminbar.nojs .quicklinks .menupop:hover ul li a {
+  color: #dbebc9;
+}
+
+/* line 308, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#wpadminbar .quicklinks li .blavatar,
+#wpadminbar .menupop .menupop > .ab-item:before {
+  color: #f2f3f1;
+}
+
+/* line 313, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#wpadminbar .quicklinks .menupop ul li a:hover,
+#wpadminbar .quicklinks .menupop ul li a:focus,
+#wpadminbar .quicklinks .menupop ul li a:hover strong,
+#wpadminbar .quicklinks .menupop ul li a:focus strong,
+#wpadminbar .quicklinks .ab-sub-wrapper .menupop.hover > a,
+#wpadminbar .quicklinks .menupop.hover ul li a:hover,
+#wpadminbar .quicklinks .menupop.hover ul li a:focus,
+#wpadminbar.nojs .quicklinks .menupop:hover ul li a:hover,
+#wpadminbar.nojs .quicklinks .menupop:hover ul li a:focus,
+#wpadminbar li:hover .ab-icon:before,
+#wpadminbar li:hover .ab-item:before,
+#wpadminbar li a:focus .ab-icon:before,
+#wpadminbar li .ab-item:focus:before,
+#wpadminbar li.hover .ab-icon:before,
+#wpadminbar li.hover .ab-item:before,
+#wpadminbar li:hover #adminbarsearch:before,
+#wpadminbar li #adminbarsearch.adminbar-focused:before {
+  color: #adf060;
+}
+
+/* line 333, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#wpadminbar .quicklinks li a:hover .blavatar,
+#wpadminbar .quicklinks li a:focus .blavatar,
+#wpadminbar .quicklinks .ab-sub-wrapper .menupop.hover > a .blavatar,
+#wpadminbar .menupop .menupop > .ab-item:hover:before,
+#wpadminbar.mobile .quicklinks .ab-icon:before,
+#wpadminbar.mobile .quicklinks .ab-item:before {
+  color: #adf060;
+}
+
+/* line 342, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#wpadminbar.mobile .quicklinks .hover .ab-icon:before,
+#wpadminbar.mobile .quicklinks .hover .ab-item:before {
+  color: #f2f3f1;
+}
+
+/* Admin Bar: search */
+/* line 350, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#wpadminbar #adminbarsearch:before {
+  color: #f2f3f1;
+}
+
+/* line 354, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#wpadminbar > #wp-toolbar > #wp-admin-bar-top-secondary > #wp-admin-bar-search #adminbarsearch input.adminbar-input:focus {
+  color: #fff;
+  background: #98c665;
+}
+
+/* line 359, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#wpadminbar #adminbarsearch .adminbar-input::-webkit-input-placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+
+/* line 360, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#wpadminbar #adminbarsearch .adminbar-input:-moz-placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+
+/* line 361, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#wpadminbar #adminbarsearch .adminbar-input::-moz-placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+
+/* line 362, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#wpadminbar #adminbarsearch .adminbar-input:-ms-input-placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+
+/* Admin Bar: my account */
+/* line 367, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img {
+  border-color: #98c665;
+  background-color: #98c665;
+}
+
+/* line 372, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#wpadminbar #wp-admin-bar-user-info .display-name {
+  color: #fff;
+}
+
+/* line 376, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#wpadminbar #wp-admin-bar-user-info a:hover .display-name {
+  color: #adf060;
+}
+
+/* line 380, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#wpadminbar #wp-admin-bar-user-info .username {
+  color: #dbebc9;
+}
+
+/* Pointers */
+/* line 387, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+.wp-pointer .wp-pointer-content h3 {
+  background-color: #adf060;
+  border-color: #a1ee49;
+}
+
+/* line 392, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+.wp-pointer .wp-pointer-content h3:before {
+  color: #adf060;
+}
+
+/* line 396, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+.wp-pointer.wp-pointer-top .wp-pointer-arrow,
+.wp-pointer.wp-pointer-top .wp-pointer-arrow-inner,
+.wp-pointer.wp-pointer-undefined .wp-pointer-arrow,
+.wp-pointer.wp-pointer-undefined .wp-pointer-arrow-inner {
+  border-bottom-color: #adf060;
+}
+
+/* Media */
+/* line 406, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+.media-item .bar,
+.media-progress-bar div {
+  background-color: #adf060;
+}
+
+/* line 411, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+.details.attachment {
+  box-shadow: inset 0 0 0 3px #fff, inset 0 0 0 7px #adf060;
+}
+
+/* line 417, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+.attachment.details .check {
+  background-color: #adf060;
+  box-shadow: 0 0 0 1px #fff, 0 0 0 2px #adf060;
+}
+
+/* line 422, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+.media-selection .attachment.selection.details .thumbnail {
+  -webkit-box-shadow: 0px 0px 0px 1px #fff, 0px 0px 0px 3px #adf060;
+  box-shadow: 0px 0px 0px 1px #fff, 0px 0px 0px 3px #adf060;
+}
+
+/* Themes */
+/* line 434, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+.theme-browser .theme.active .theme-name,
+.theme-browser .theme.add-new-theme a:hover:after,
+.theme-browser .theme.add-new-theme a:focus:after {
+  background: #adf060;
+}
+
+/* line 440, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+.theme-browser .theme.add-new-theme a:hover span:after,
+.theme-browser .theme.add-new-theme a:focus span:after {
+  color: #adf060;
+}
+
+/* line 445, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+.theme-section.current,
+.theme-filter.current {
+  border-bottom-color: #87bc4b;
+}
+
+/* line 450, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+body.more-filters-opened .more-filters {
+  color: #fff;
+  background-color: #87bc4b;
+}
+
+/* line 455, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+body.more-filters-opened .more-filters:before {
+  color: #fff;
+}
+
+/* line 459, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+body.more-filters-opened .more-filters:hover,
+body.more-filters-opened .more-filters:focus {
+  background-color: #adf060;
+  color: #fff;
+}
+
+/* line 465, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+body.more-filters-opened .more-filters:hover:before,
+body.more-filters-opened .more-filters:focus:before {
+  color: #fff;
+}
+
+/* Widgets */
+/* line 472, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+.widgets-chooser li.widgets-chooser-selected {
+  background-color: #adf060;
+  color: #fff;
+}
+
+/* line 477, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+.widgets-chooser li.widgets-chooser-selected:before,
+.widgets-chooser li.widgets-chooser-selected:focus:before {
+  color: #fff;
+}
+
+/* Customize */
+/* line 484, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+#customize-theme-controls .widget-area-select .selected {
+  background-color: #adf060;
+  color: #fff;
+}
+
+/* Responsive Component */
+/* line 491, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+div#wp-responsive-toggle a:before {
+  color: #f2f3f1;
+}
+
+/* line 495, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+.wp-responsive-open div#wp-responsive-toggle a {
+  border-color: transparent;
+  background: #adf060;
+}
+
+/* line 501, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+.wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle a {
+  background: #75a63e;
+}
+
+/* line 505, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+.wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before {
+  color: #f2f3f1;
+}
+
+/* TinyMCE */
+/* line 511, /Users/PLM/Documents/admin-color-schemes/_admin.scss */
+.mce-container.mce-menu .mce-menu-item:hover,
+.mce-container.mce-menu .mce-menu-item.mce-selected,
+.mce-container.mce-menu .mce-menu-item:focus,
+.mce-container.mce-menu .mce-menu-item-normal.mce-active,
+.mce-container.mce-menu .mce-menu-item-preview.mce-active {
+  background: #adf060;
+}
+
+/*# sourceMappingURL=../GreenPelico-out/colors.map */

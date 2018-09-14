@@ -1,0 +1,1098 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Democracy\n"
+"POT-Creation-Date: 2017-03-12 15:38+0500\n"
+"PO-Revision-Date: 2017-03-12 15:40+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/DemLogs_List_Table.php:40
+msgid "Nothing was selected."
+msgstr "Semmi sincs kiválasztva"
+
+#: admin/DemLogs_List_Table.php:100
+msgid "IP info"
+msgstr "IP info"
+
+#: admin/DemLogs_List_Table.php:101 widget_democracy.php:46
+msgid "Poll"
+msgstr "Szavazás"
+
+#: admin/DemLogs_List_Table.php:102
+msgid "Answer"
+msgstr "Válasz"
+
+#: admin/DemLogs_List_Table.php:103
+msgid "User"
+msgstr "Felhasználó"
+
+#: admin/DemLogs_List_Table.php:104
+msgid "Date"
+msgstr "Dátum"
+
+#: admin/DemLogs_List_Table.php:129
+msgid "Delete logs only"
+msgstr "Csak a naplózás törlése"
+
+#: admin/DemLogs_List_Table.php:130
+msgid "Delete logs and votes"
+msgstr "Naplózás és szavazatok törlése"
+
+#: admin/DemLogs_List_Table.php:139
+msgid "Poll's logs: "
+msgstr "Szavazatok naplója:"
+
+#: admin/DemLogs_List_Table.php:139 admin/DemLogs_List_Table.php:211
+#: class.DemPoll.php:120
+msgid "Edit poll"
+msgstr "Szavazás szerkesztése"
+
+#: admin/DemLogs_List_Table.php:152
+msgid "NEW answers logs"
+msgstr "Új válaszok a szavazáshoz"
+
+#: admin/DemLogs_List_Table.php:177
+msgid "Search by IP"
+msgstr "Keresés IP cím alapján"
+
+#: admin/DemLogs_List_Table.php:212 admin/admin_page.php:89
+msgid "Poll logs"
+msgstr "Szavazás naplók"
+
+#: admin/DemPolls_List_Table.php:60
+msgid "ID"
+msgstr "ID"
+
+#: admin/DemPolls_List_Table.php:61
+msgid "Question"
+msgstr "Kérdés"
+
+#: admin/DemPolls_List_Table.php:62 admin/class.Democracy_Poll_Admin.php:317
+msgid "Poll Opened"
+msgstr "Nyitott szavazás"
+
+#: admin/DemPolls_List_Table.php:63
+msgid "Active polls"
+msgstr "aktív szavazások"
+
+#: admin/DemPolls_List_Table.php:64
+msgid "Users vote"
+msgstr "Felhasználók szavazata"
+
+#: admin/DemPolls_List_Table.php:65
+msgid "Answers"
+msgstr "Válaszok"
+
+#: admin/DemPolls_List_Table.php:66
+msgid "In posts"
+msgstr "Bejegyzésekben"
+
+#: admin/DemPolls_List_Table.php:67
+msgid "Added"
+msgstr "Hozzáadott"
+
+#: admin/DemPolls_List_Table.php:118
+msgid "Users can add answers (democracy)."
+msgstr "A felhasználók hozzáadhatnak válaszokat."
+
+#: admin/DemPolls_List_Table.php:119
+msgid "Users can revote"
+msgstr "A felhasználók újra szavazhatnak"
+
+#: admin/DemPolls_List_Table.php:120
+msgid "Only for registered user."
+msgstr "Csak regisztrált felhasználóknak."
+
+#: admin/DemPolls_List_Table.php:121
+msgid "Users can choose many answers (multiple)."
+msgstr ""
+"A felhasználók több választ is megjelölhetnek (több válasz lehetséges)."
+
+#: admin/DemPolls_List_Table.php:122 admin/admin_page.php:246
+msgid "Allow to watch the results of the poll."
+msgstr "Eredmények megjelenítésének engedélyezése."
+
+#: admin/DemPolls_List_Table.php:130
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#: admin/DemPolls_List_Table.php:134 admin/admin_page.php:1118
+#: class.Democracy_Poll.php:98
+msgid "Logs"
+msgstr "Bejelentkezések"
+
+#: admin/DemPolls_List_Table.php:137 admin/admin_page.php:291
+#: admin/admin_page.php:347 admin/admin_page.php:350 admin/admin_page.php:1071
+msgid "Are you sure?"
+msgstr "Biztos vagy benne?"
+
+#: admin/DemPolls_List_Table.php:137 admin/admin_page.php:291
+msgid "Delete"
+msgstr "Cancella"
+
+#: admin/DemPolls_List_Table.php:147
+msgid "voters / votes"
+msgstr "szavazók / szavazat"
+
+#: admin/Dem_Tinymce.php:28
+msgid "Insert Poll of Democracy"
+msgstr "Szavazás beillesztése"
+
+#: admin/Dem_Tinymce.php:29
+msgid "Insert Poll ID"
+msgstr "Szavazás ID (azonosító) beillesztése"
+
+#: admin/Dem_Tinymce.php:30
+msgid "Error: ID is a integer. Enter ID again, please."
+msgstr "Hiba: ID egész szám. Kérlek, írd be újra."
+
+#: admin/admin_page.php:63
+msgid "Search"
+msgstr "Keresés"
+
+#: admin/admin_page.php:92
+msgid "shortcode for use in post content"
+msgstr "Rövid kód a bejegyzésben történő használathoz"
+
+#: admin/admin_page.php:112
+msgid "Question:"
+msgstr "Kérdés:"
+
+#: admin/admin_page.php:118
+msgid "Answers:"
+msgstr "Válaszok:"
+
+#: admin/admin_page.php:157
+msgid "reset order"
+msgstr "Újraindítás"
+
+#: admin/admin_page.php:164
+msgid "Sum of votes:"
+msgstr "Összes szavazat:"
+
+#: admin/admin_page.php:165
+msgid "Users vote:"
+msgstr "Felhasználók szavazata:"
+
+#: admin/admin_page.php:167
+msgid "leave blank to update from logs"
+msgstr "hagyd üresen a napló frissítéséhez"
+
+#: admin/admin_page.php:167
+msgid "Voices"
+msgstr "Szavazatok"
+
+#: admin/admin_page.php:179
+msgid "Allow users to add answers (democracy)."
+msgstr "Válasz lehetővé tétele a felhasználó számára."
+
+#: admin/admin_page.php:195
+msgid "Activate this poll."
+msgstr "Aktiválja ezt a szavazást."
+
+#: admin/admin_page.php:206
+msgid "Allow to choose multiple answers."
+msgstr "Több válasz lehetőségének engedélyezése."
+
+#: admin/admin_page.php:214
+msgid "Date, when poll was/will be closed. Format: dd-mm-yyyy."
+msgstr "Szavazat lezárásának időpontja. Formátum: nn-hh-éééé"
+
+#: admin/admin_page.php:224
+msgid "Allow to change mind (revote)."
+msgstr "Újra szavazás lehetséges."
+
+#: admin/admin_page.php:235
+msgid "Only registered users allowed to vote."
+msgstr "Csak regisztrált felhasználók szavazhatnak."
+
+#: admin/admin_page.php:255
+msgid "as in settings"
+msgstr "mint a beállítások"
+
+#: admin/admin_page.php:258
+msgid "How to sort the answers during the vote?"
+msgstr "Hogyan lehet rendezni a választ a szavazás során?"
+
+#: admin/admin_page.php:263
+msgid "Note: This text will be added under poll."
+msgstr "Megjegyzés: Ez a szöveg a szavazás alatt jelenik meg."
+
+#: admin/admin_page.php:273
+msgid "Create date."
+msgstr "Dátum létrehozása."
+
+#: admin/admin_page.php:281
+msgid "Save Changes"
+msgstr "Vátoztatások mentése"
+
+#: admin/admin_page.php:281 class.Democracy_Poll.php:97
+msgid "Add Poll"
+msgstr "Szavazás hozzáadása"
+
+#: admin/admin_page.php:300
+msgid "Posts where the poll shortcode used:"
+msgstr "Bejegyzések, ahol a szavazások szerepelnek:"
+
+#: admin/admin_page.php:316
+msgid "As it was added (by ID)"
+msgstr "A nyertesek felül"
+
+#: admin/admin_page.php:317
+msgid "Winners at the top"
+msgstr "A nyertesek alul"
+
+#: admin/admin_page.php:318
+msgid "Mix"
+msgstr "Keverés"
+
+#: admin/admin_page.php:330
+msgid "Logs records turned off in the settings - logs are not recorded."
+msgstr ""
+"Napló feljegyzések kikapcsolhatók a beállításokban - szavaztok nem kerülnek "
+"rögzítésre."
+
+#: admin/admin_page.php:344
+msgid "Delete all NEW marks"
+msgstr "Minden új jelölés törlése"
+
+#: admin/admin_page.php:348
+#, php-format
+msgid "Delete logs of closed pols - %d"
+msgstr "Bezárt szavazás szavazatainak törlése - %d"
+
+#: admin/admin_page.php:351
+msgid "Delete all logs"
+msgstr "Összes napló törlése"
+
+#: admin/admin_page.php:378
+msgid "Log data & take visitor IP into consideration? (recommended)"
+msgstr "Adatok naplózása és látogató IP címének figyelés? (ajánlott)"
+
+#: admin/admin_page.php:380
+msgid ""
+"Saves data into Data Base. Forbids to vote several times from a single IP or "
+"to same WordPress user. If a user is logged in, then his voting is checked "
+"by WP account. If a user is not logged in, then checks the IP address. The "
+"negative side of IP checks is that a site may be visited from an enterprise "
+"network (with a common IP), so all users from this network are allowed to "
+"vote only once. If this option is disabled the voting is checked by Cookies "
+"only. Default enabled."
+msgstr ""
+"Menti az adatokat az adatbázisba. Többszörös szavazatok tiltása azonos IP "
+"címről vagy azonos felhasználónévről. Ha a szavazó be van jelentkezve, akkor "
+"a bejelentkezett WP azonosítóját veszi alapul az azonosításra. Ha nincs "
+"bejelentkezve  a szavazó, akkor az IP címét veszi alapul a felhasználó "
+"azonosítására. Ha egy IP címről (pl. vállalati IP cím) több felhasználó "
+"szeretne szavazni, az nem lehetséges, mivel azonos IP címről csak egyszer "
+"engedélyezett a szavazás. Ha ez az opció ki van kapcsolva, akkor a "
+"felhasználók ellenőrzés a cookie-k alapján történik. Alapértelmezésben "
+"engedélyezve van ez a funkció. "
+
+#: admin/admin_page.php:386
+msgid "How many days to keep Cookies alive?"
+msgstr "Hány napig legyenek érvényben a cookie-k?"
+
+#: admin/admin_page.php:388
+msgid ""
+"How many days the user's browser remembers the votes. Default: 365. "
+"<strong>Note:</strong> works together with IP log."
+msgstr ""
+"Hány napig legyen érvényes egy cookie a felhasználó számítógépén? "
+"alapértelmezett: 365 nap. <stronge>Megjegyzés:</strong> az IP címek "
+"naplózásával együttműködik."
+
+#: admin/admin_page.php:392
+msgid "HTML tags to wrap the poll title."
+msgstr "HTML tag-ek a szavazás címének formázásához."
+
+#: admin/admin_page.php:394
+msgid "poll's question"
+msgstr "szavazás kérdése"
+
+#: admin/admin_page.php:396
+msgid ""
+"Example: <code>&lt;h2&gt;</code> и <code>&lt;/h2&gt;</code>. Default: "
+"<code>&lt;strong class=&quot;dem-poll-title&quot;&gt;</code> & <code>&lt;/"
+"strong&gt;</code>."
+msgstr ""
+"Például: <code>&lt;h2&gt;</code> и <code>&lt;/h2&gt;</code>. "
+"Alapértelmezett: <code>&lt;strong class=&quot;dem-poll-title&quot;&gt;</"
+"code> & <code>&lt;/strong&gt;</code>."
+
+#: admin/admin_page.php:403
+msgid "Polls archive page ID."
+msgstr "Szavazatok archív oldalának azonosítója (ID)."
+
+#: admin/admin_page.php:407
+msgid "Go to archive page"
+msgstr "Ugrás az archív oldalra"
+
+#: admin/admin_page.php:409
+msgid "Create/find archive page"
+msgstr "Archív oldal létrehozása/keresése"
+
+#: admin/admin_page.php:411
+msgid ""
+"Specify the poll archive link to be in the poll legend. Example: <code>25</"
+"code>"
+msgstr "Adja meg a szavazás archív linkjét. Például: <code>25</code>"
+
+#: admin/admin_page.php:414
+msgid "Global Polls options"
+msgstr "Általános szavazási beállítások"
+
+#: admin/admin_page.php:420
+msgid ""
+"How to sort the answers during voting, if they don't have order? (default "
+"option)"
+msgstr ""
+"Hogyan lehet rendezni a szavazást menet közben, ha nincs rendezve? "
+"(alapértelmezett beállítás)"
+
+#: admin/admin_page.php:421
+msgid ""
+"This is the default value. Option can be changed for each poll separately."
+msgstr ""
+"Ez az alapértelmezett érték. Ezt az opciót meg lehet változtatni az egyes "
+"szavazásoknál."
+
+#: admin/admin_page.php:427
+msgid "Only registered users allowed to vote (global option)"
+msgstr "Csak regisztrált felhasználók szavazhatnak (általános beállítás)"
+
+#: admin/admin_page.php:429
+msgid ""
+"This option  is available for each poll separately, but if you heed you can "
+"turn ON the option for all polls at once, just tick."
+msgstr ""
+"Ez a lehetőség minden szavazásnál külön-külön beállítható, de itt "
+"bekapcsolhatja az összes szavazáshoz ezt az opciót."
+
+#: admin/admin_page.php:435
+msgid "Prohibit users to add new answers (global Democracy option)."
+msgstr ""
+"Megtiltja a felhasználóknak új válaszok hozzáadását (általános beállítás)"
+
+#: admin/admin_page.php:437 admin/admin_page.php:445
+msgid ""
+"This option  is available for each poll separately, but if you heed you can "
+"turn OFF the option for all polls at once, just tick."
+msgstr ""
+"Ez az opció külön-külön változtatható a szavazásoknál, de ha figyelmen kívül "
+"szeretné hagyni ezt az opciót, itt kikapcsolhatja az összes szavazásra "
+"vonatkozóan."
+
+#: admin/admin_page.php:443
+msgid "Remove the Revote possibility (global option)."
+msgstr "Újra szavazás lehetőségének kikapcsolása (általános beállítás)."
+
+#: admin/admin_page.php:451
+msgid "Don't show poll results (global option)."
+msgstr ""
+"Szavazások eredményének megjelenítése kikapcsolva (általános beállítás)."
+
+#: admin/admin_page.php:453
+msgid "If checked, user can't see poll results if voting is open."
+msgstr ""
+"Ha be van kapcsolva, a felhasználó nem láthatja a szavazás eredményét, ha "
+"még tart a szavazás."
+
+#: admin/admin_page.php:459
+msgid "Don't show poll results link (global option)."
+msgstr "Ne mutassa a szavazás eredményére mutató linket (általános beállítás)."
+
+#: admin/admin_page.php:461
+msgid "Users can see results after vote."
+msgstr "A felhasználók lássák az eredményt a szavazás után."
+
+#: admin/admin_page.php:467
+msgid "Hide vote button."
+msgstr "Szavazás gomb elrejtése."
+
+#: admin/admin_page.php:469
+msgid ""
+"Hide vote button if it is NOT multiple poll with revote option. User will "
+"vote by clicking on answer itself."
+msgstr ""
+"Szavazógomb elrejtése, ha NEM  több válaszos (multiple) szavazásról van "
+"szó.  A szavazó így nem a gombra, hanem magára a válaszra kattintva adja le "
+"szavazatát."
+
+#: admin/admin_page.php:472 admin/admin_page.php:566
+msgid "Others"
+msgstr "Egyebek"
+
+#: admin/admin_page.php:477
+msgid "ON"
+msgstr "BE"
+
+#: admin/admin_page.php:477
+msgid "OFF"
+msgstr "KI"
+
+#: admin/admin_page.php:478
+#, php-format
+msgid "Force enable gear to working with cache plugins. The condition: %s"
+msgstr "Plugin ceche-elésének erőltetése. Feltétel: %s"
+
+#: admin/admin_page.php:483
+msgid ""
+"Democracy has smart mechanism for working with page cache plugins like \"WP "
+"Total Cache\". It is ON automatically if such plugin is enabled on your "
+"site. But if you use unusual page caching plugin you can force enable this "
+"option."
+msgstr ""
+"Gyorsító tárazás engedélyezése alapértelmezetten be van kapcsolva, mint a "
+"legtöbb WP oldalon. Ha más oldalon kívánja használni, itt adhatja meg, hogy "
+"használja ezt más oldalak esetén is."
+
+#: admin/admin_page.php:489
+msgid "Add styles and scripts directly in the HTML code (recommended)"
+msgstr "Stílusok és script-ek hozzáadása közvetlenül a HTML kódhoz (ajánlott)."
+
+#: admin/admin_page.php:491
+msgid ""
+"Check to make the plugin's styles and scripts include directly into HTML "
+"code, but not as links to .css and .js files. So you will save 2 requests to "
+"the server - it speeds up page download."
+msgstr ""
+"Ellenőrizze, hogy a stílusok és script-ek közvetlenül a HTML kódhoz adódtak "
+"hozzá és nem külön .css és .js script-ként. Így megtakarítható két külön "
+"szerver kérés, ami meggyorsíthatja az oldal letöltését."
+
+#: admin/admin_page.php:497
+msgid "Add plugin menu on the toolbar?"
+msgstr "Hozzáadja a plugin menüjét az eszköztárhoz?"
+
+#: admin/admin_page.php:499
+msgid "Uncheck to remove the plugin menu from the toolbar."
+msgstr "Az eltávolításhoz szüntesse meg a plugin menüjét az eszköztárban."
+
+#: admin/admin_page.php:505
+msgid "Add fast Poll insert button to WordPress visual editor (TinyMCE)?"
+msgstr "Hozzáadja a szavazás gombot a vizuális szerkesztő menüjéhez (TinyMCE)?"
+
+#: admin/admin_page.php:507
+msgid "Uncheck to disable button in visual editor."
+msgstr "Szüntesse meg a kijelölést a vizuális szerkesztőnél az eltávolításhoz."
+
+#: admin/admin_page.php:513
+msgid ""
+"Check if you see something like \"no_IP__123\" in IP column on logs page. "
+"(not recommended)"
+msgstr ""
+
+#: admin/admin_page.php:515
+msgid ""
+"Useful when your server does not work correctly with server variable "
+"REMOTE_ADDR. NOTE: this option give possibility to cheat voice."
+msgstr ""
+
+#: admin/admin_page.php:538
+msgid ""
+"Role names, except 'administrator' which will have access to manage plugin."
+msgstr ""
+"Szerepkörök, melyek hozzáférhetnek a szavazás modul kezeléséhez a "
+"rendszergazdákon kívül."
+
+#: admin/admin_page.php:546
+msgid "Migration"
+msgstr "Eltávolítás"
+
+#: admin/admin_page.php:550
+msgid "Migrate from WP Polls plugin"
+msgstr "Szavazás plugin eltávolítása a WP-ből."
+
+#: admin/admin_page.php:552
+msgid "All polls, answers and logs of WP Polls will be added to Democracy Poll"
+msgstr "Minden szavazás, válasz és naplózás bekerül a Democracy Poll-ba"
+
+#: admin/admin_page.php:560
+msgid "Save Options"
+msgstr "Beállítások mentése"
+
+#: admin/admin_page.php:561 admin/admin_page.php:892 admin/admin_page.php:981
+msgid "Reset Options"
+msgstr "Beállítások visszaállítása"
+
+#: admin/admin_page.php:573
+msgid "Don't connect JS files. (Debag)"
+msgstr "Ne csatlakoztassa a JS fájlokat. (Debug)"
+
+#: admin/admin_page.php:575
+msgid ""
+"If checked, the plugin's .js file will NOT be connected to front end. Enable "
+"this option to test the plugin's work without JavaScript."
+msgstr ""
+"Ha be van jelölve ez az opció, nincsenek csatlakoztatva a JS fájlok. "
+"Engedélyezze ezt az opciót, ha tesztelni szeretné a működést JavaScript "
+"nélkül."
+
+#: admin/admin_page.php:581
+msgid "Show copyright"
+msgstr "Szerzői jog megjelenítése"
+
+#: admin/admin_page.php:583
+msgid ""
+"Link to plugin page is shown on front page only as a &copy; icon. It helps "
+"visitors to learn about the plugin and install it for themselves. Please "
+"don't disable this option without urgent needs. Thanks!"
+msgstr ""
+"Link a plugin-hoz, ahonnan a látogatók letölthetik saját maguknak is. "
+"kérjük, ne kapcsolja ki ezt a lehetőséget!"
+
+#: admin/admin_page.php:589
+msgid "Widget"
+msgstr "Modul (widget)"
+
+#: admin/admin_page.php:591
+msgid "Check to activate the widget."
+msgstr "Jelölje be a modul aktiválásához."
+
+#: admin/admin_page.php:597
+msgid "Force plugin versions update (debug)"
+msgstr "Plugin frissítésének kényszerítése (debug)"
+
+#: admin/admin_page.php:629
+msgid "Choose Theme"
+msgstr "Válassz témát"
+
+#: admin/admin_page.php:649
+msgid "Other settings"
+msgstr "Egyéb beállítások"
+
+#: admin/admin_page.php:652
+msgid ""
+"Max height of the poll in px. When poll has very many answers, it's better "
+"to collapse it. Set '-1', in order to disable this option. Default 500."
+msgstr ""
+"A szavazás magasságának maximális mérete pixelben (px). Ha nagyon sok válasz "
+"van, akkor jobb, ha kikapcsolja ezt. LEtiltáshoz írjon be \"-1\"-et. "
+"Alapértelmezett: 500."
+
+#: admin/admin_page.php:656
+msgid "Animation speed in milliseconds."
+msgstr "Animáció sebessége milliszekundumban."
+
+#: admin/admin_page.php:664
+msgid "Progress line"
+msgstr "Haladás vonal."
+
+#: admin/admin_page.php:667
+msgid "winner - 100%, others as % of the winner"
+msgstr "Győztes - 100%, egyebek százaléka a győzteshez képest"
+
+#: admin/admin_page.php:668
+msgid "as persent of all votes"
+msgstr "szavaztok százalékában"
+
+#: admin/admin_page.php:670
+msgid "How to fill (paint) the progress of each answer?"
+msgstr "Hogyan kell kitölteni (kifesteni) a haladást az egyes válaszoknál?"
+
+#: admin/admin_page.php:673
+msgid "Line Color:"
+msgstr "Vonal színe:"
+
+#: admin/admin_page.php:674
+msgid "Line color (for voted user):"
+msgstr "Vonal színe (szavazott felhasználók):"
+
+#: admin/admin_page.php:675
+msgid "Background color:"
+msgstr "Háttér színe:"
+
+#: admin/admin_page.php:676
+msgid "Line height:"
+msgstr "Vonal magassága:"
+
+#: admin/admin_page.php:687 admin/admin_page.php:750 admin/admin_page.php:835
+msgid "No"
+msgstr "Nem"
+
+#: admin/admin_page.php:745
+msgid "Button"
+msgstr "Gomb"
+
+#: admin/admin_page.php:793
+msgid "Default:"
+msgstr "Alapértelmezett:"
+
+#: admin/admin_page.php:794 admin/admin_page.php:800
+msgid "Bg color:"
+msgstr "Szín:"
+
+#: admin/admin_page.php:795 admin/admin_page.php:801
+msgid "Text Color:"
+msgstr "Szöveg színe:"
+
+#: admin/admin_page.php:796 admin/admin_page.php:802
+msgid "Border Color:"
+msgstr "Keret színe:"
+
+#: admin/admin_page.php:799
+msgid "On Hover:"
+msgstr "Felette:"
+
+#: admin/admin_page.php:808
+msgid ""
+"The colors correctly affects NOT for all buttons. You can change styles "
+"completely in \"additional styles\" field bellow."
+msgstr ""
+"A színek hangsúlyozzák az összes gombot. Ezt meg lehet változtatni az "
+"\"további stílusok\" mezőben."
+
+#: admin/admin_page.php:817
+msgid ""
+"An additional css class for all buttons in the poll. When the template has a "
+"special class for buttons, for example <code>btn btn-info</code>"
+msgstr ""
+"Egy további css osztály az összes gombra a szavazásokban. Amikor egy "
+"speciális stílust szeretnénk alkalmazni egy gombon. Pl.: <code>btn btn-info</"
+"code>"
+
+#: admin/admin_page.php:827
+msgid "AJAX loader"
+msgstr "AJAX betöltő"
+
+#: admin/admin_page.php:830
+msgid ""
+"AJAX Loader. If choose \"NO\", loader replaces by dots \"...\" which appends "
+"to a link/button text. SVG images animation don't work in IE 11 or lower, "
+"other browsers are supported at  90% (according to caniuse.com statistics)."
+msgstr ""
+"AJAX betöltés. Ha NEM van kiválasztva, egy pontsor helyettesíti az animációt "
+"és egy link, melyet hozzáfűzi egy link/gomb szövegét. Az SVG kép animációk "
+"nem működnek IE11 vagy annál régebbi böngészők alatt, más böngészők "
+"támogatottsága 90%. (caniuse.com felmérés alapján)"
+
+#: admin/admin_page.php:880
+msgid "Custom/Additional CSS styles"
+msgstr "Egyedi/kiegészítő CSS stílusok"
+
+#: admin/admin_page.php:883
+msgid "Don't use theme!"
+msgstr "Ne használja a témát!"
+
+#: admin/admin_page.php:884
+msgid ""
+"In this field you can add some additional css properties or completely "
+"replace current css theme. Write here css and it will be added at the bottom "
+"of current Democracy css. To complete replace styles, check \"Don't use "
+"theme!\" and describe all styles for Democracy. <br> This field cleaned "
+"manually, if you reset options of this page or change/set another theme, the "
+"field will not be touched."
+msgstr ""
+"Ebben a mezőben adhatunk hozzá egyéb CSS tulajdonságokat vagy teljesen "
+"lecserélhetjük a jelenlegit. Írja ide az új tulajdonságokat és adja hozzá a "
+"jelenlegihez. Ha teljesen le akarja cserélnia jelenlegi stílust, jelölje be "
+"a \"Ne használja a témát!\" opciót. Visszaállításhoz törölje az összes "
+"bejegyzést ebből a mezőből."
+
+#: admin/admin_page.php:896
+msgid "All CSS styles that uses now"
+msgstr "Összes jelenleg használt CSS stílus"
+
+#: admin/admin_page.php:900
+msgid ""
+"It's all collected css styles: theme, button, options. You can copy this "
+"styles to the \"Custom/Additional CSS styles:\" field, disable theme and "
+"change copied styles by itself."
+msgstr ""
+"Az összes CSS stílus, ami jelenleg használatban van. Másold az \"Egyedi/"
+"kiegészítő CSS stílusok\" mezőbe. Téma tiltása és módosítása."
+
+#: admin/admin_page.php:903
+msgid "Minified version (uses to include in HTML)"
+msgstr "Csökkentett verzió (használata HTML-ben)"
+
+#: admin/admin_page.php:930
+msgid "Original"
+msgstr "Eredeti"
+
+#: admin/admin_page.php:931
+msgid "Your variant"
+msgstr "Te változatod"
+
+#: admin/admin_page.php:980
+msgid "Save Text"
+msgstr "Szöveg mentése"
+
+#: admin/admin_page.php:1024
+#, php-format
+msgid "Shortcodes replaced: %s"
+msgstr "Lecserélt rövid kód: %s"
+
+#: admin/admin_page.php:1031
+msgid "Data of migration deleted"
+msgstr "Eltávolítás dátuma"
+
+#: admin/admin_page.php:1063
+msgid "Migration from WP Polls done"
+msgstr "Eltávolítás a WP szavazásokból"
+
+#: admin/admin_page.php:1064
+#, php-format
+msgid "Polls copied: %d. Answers copied %d. Logs copied %d"
+msgstr "Szavazások másolata: %d. Válaszok másolata %d. Naplók másolata %d"
+
+#: admin/admin_page.php:1066
+msgid "Replace WP Polls shortcodes in posts"
+msgstr "WP szavazás rövid kódjának áthelyezése a bejegyzésben"
+
+#: admin/admin_page.php:1067
+msgid "Cancel the shortcode replace and reset changes"
+msgstr "Rövid kód áthelyezésének törlése, változások visszaállítása."
+
+#: admin/admin_page.php:1071
+msgid "Delete all data about WP Polls migration"
+msgstr "Össze adat törlése a WP szavazás eltávolításakor."
+
+#: admin/admin_page.php:1115
+msgid "Back"
+msgstr "Vissza"
+
+#: admin/admin_page.php:1116 class.Democracy_Poll.php:96
+msgid "Polls List"
+msgstr "Szavazások listája"
+
+#: admin/admin_page.php:1117
+msgid "Add new poll"
+msgstr "Új szavazás hozzáadása"
+
+#: admin/admin_page.php:1120 admin/class.Democracy_Poll_Admin.php:671
+#: class.Democracy_Poll.php:99
+msgid "Settings"
+msgstr "Beállítások"
+
+#: admin/admin_page.php:1121 class.Democracy_Poll.php:100
+msgid "Theme Settings"
+msgstr "Téma beállítások"
+
+#: admin/admin_page.php:1122 class.Democracy_Poll.php:101
+msgid "Texts changes"
+msgstr "Szöveg módosítás"
+
+#: admin/admin_page.php:1171
+msgid "Deactivate"
+msgstr "Deaktivál"
+
+#: admin/admin_page.php:1173
+msgid "Activate"
+msgstr "Aktivál"
+
+#: admin/admin_page.php:1186
+msgid "Close voting"
+msgstr "Szavazás zárása"
+
+#: admin/admin_page.php:1188
+msgid "Open voting"
+msgstr "Szavazás nyitása"
+
+#: admin/admin_page.php:1209
+msgid "Results view:"
+msgstr "Eredmények nézet:"
+
+#: admin/admin_page.php:1211
+msgid "Vote view:"
+msgstr "Szavazás nézet:"
+
+#: admin/admin_page.php:1213
+msgid "AJAX loader view:"
+msgstr "AJAX betöltés nézet:"
+
+#: admin/admin_page.php:1226
+msgid "Save All Changes"
+msgstr "Minden változás mentése"
+
+#: admin/class.Democracy_Poll_Admin.php:36 widget_democracy.php:13
+msgid "Democracy Poll"
+msgstr "Democracy Poll"
+
+#: admin/class.Democracy_Poll_Admin.php:46
+msgid "New Poll Added"
+msgstr "Új szavazás hozzáadása"
+
+#: admin/class.Democracy_Poll_Admin.php:244
+msgid "Updated"
+msgstr "Frissítve"
+
+#: admin/class.Democracy_Poll_Admin.php:245
+msgid "Nothing was updated"
+msgstr "Semmi sem frissült"
+
+#: admin/class.Democracy_Poll_Admin.php:290
+msgid "Poll Deleted"
+msgstr "Szavazás törölve"
+
+#: admin/class.Democracy_Poll_Admin.php:317
+msgid "Voting is closed"
+msgstr "Szavazás zárva"
+
+#: admin/class.Democracy_Poll_Admin.php:333
+msgid "You can not activate closed poll..."
+msgstr "Nem lehet aktiválni zárt közvélemény-kutatás..."
+
+#: admin/class.Democracy_Poll_Admin.php:340
+msgid "Poll Activated"
+msgstr "Aktív szavazás"
+
+#: admin/class.Democracy_Poll_Admin.php:340
+msgid "Poll Deactivated"
+msgstr "Kikapcsolt szavazás"
+
+#: admin/class.Democracy_Poll_Admin.php:465
+msgid "Poll Updated"
+msgstr "Frissített szavazás"
+
+#: admin/class.Democracy_Poll_Admin.php:689
+msgid "Polls Archive"
+msgstr "Archív szavazások"
+
+#: admin/class.Democracy_Poll_Admin.php:752
+#, php-format
+msgid "Lines deleted:%s"
+msgstr "Vonalak törölve: %s"
+
+#: admin/class.Democracy_Poll_Admin.php:752
+#: admin/class.Democracy_Poll_Admin.php:813
+msgid "Failed to delete"
+msgstr "Nem törölt"
+
+#: admin/class.Democracy_Poll_Admin.php:812
+#, php-format
+msgid "Removed logs:%d. Taken away answers:%d. Taken away users %d."
+msgstr ""
+"Eltávolított naplók: %d. Elvetett válaszok: %d. Elvetett felhasználók %d."
+
+#: admin/upgrade_activate_funcs.php:46
+msgid "What does \"money\" mean to you?"
+msgstr "Mit jelent a \"pénz\" számodra?"
+
+#: admin/upgrade_activate_funcs.php:58
+msgid " It is a universal product for exchange."
+msgstr "Ez egy univerzális termékcsere."
+
+#: admin/upgrade_activate_funcs.php:59
+msgid "Money - is paper... Money is not the key to happiness..."
+msgstr "Pénz - csak papír... A pénz nem boldogít..."
+
+#: admin/upgrade_activate_funcs.php:60
+msgid "Source to achieve the goal. "
+msgstr "A pénz egy eszköz  terveim megvalósításához."
+
+#: admin/upgrade_activate_funcs.php:61
+msgid "Pieces of Evil :)"
+msgstr "A pénz maga az ördög! :)"
+
+#: admin/upgrade_activate_funcs.php:62
+msgid "The authority, the  \"power\", the happiness..."
+msgstr "A mindenható. A hatalom a boldogság záloga."
+
+#: class.DemPoll.php:124
+msgid "Download the Democracy Poll"
+msgstr "Democracy Poll letöltése"
+
+#: class.DemPoll.php:236
+msgctxt "front"
+msgid "Add your answer"
+msgstr "Add le a szavazatod ..."
+
+#: class.DemPoll.php:244
+msgctxt "front"
+msgid "Already voted..."
+msgstr "Már szavaztál ..."
+
+#: class.DemPoll.php:245 class.DemPoll.php:383
+msgctxt "front"
+msgid "Vote"
+msgstr "Szavazás"
+
+#: class.DemPoll.php:280
+msgctxt "front"
+msgid "Results"
+msgstr "Eredmény"
+
+#: class.DemPoll.php:312
+msgctxt "front"
+msgid "This is Your vote."
+msgstr "Ez a te szavazatod."
+
+#: class.DemPoll.php:330
+msgctxt "front"
+msgid "The answer was added by a visitor"
+msgstr "A választ egy látogató adta le"
+
+#: class.DemPoll.php:333
+#, php-format
+msgctxt "front"
+msgid "%s - %s%% of all votes"
+msgstr "%s - %s%% az összes szavazat"
+
+#: class.DemPoll.php:333 class.DemPoll.php:337
+msgctxt "front"
+msgid "vote,votes,votes"
+msgstr "szavazás, szavazat, szavazat"
+
+#: class.DemPoll.php:365
+#, php-format
+msgctxt "front"
+msgid "Total Votes: %s"
+msgstr "Összes szavazat: %s"
+
+#: class.DemPoll.php:366
+#, php-format
+msgctxt "front"
+msgid "Voters: %s"
+msgstr "Szavazók: %s"
+
+#: class.DemPoll.php:368
+msgctxt "front"
+msgid "Begin"
+msgstr "Kezdődik"
+
+#: class.DemPoll.php:370
+msgctxt "front"
+msgid "End"
+msgstr "Vége"
+
+#: class.DemPoll.php:372
+msgctxt "front"
+msgid " - added by visitor"
+msgstr "- látogató által leadva"
+
+#: class.DemPoll.php:373
+msgctxt "front"
+msgid "Voting is closed"
+msgstr "Szavazás zárva"
+
+#: class.DemPoll.php:375
+msgctxt "front"
+msgid "Polls Archive"
+msgstr "Archív szavazások"
+
+#: class.DemPoll.php:421
+#, php-format
+msgctxt "front"
+msgid ""
+"Only registered users can vote. <a href=\"%s\" rel=\"nofollow\">Login</a> to "
+"vote."
+msgstr ""
+"Csak regisztrált felhasználók szavazhatnak. <a href=\"%s\" rel=\"nofollow"
+"\">Belépés</a> to vote."
+
+#: class.DemPoll.php:430
+msgctxt "front"
+msgid "Revote"
+msgstr "Újra szavazás"
+
+#: class.DemPoll.php:430
+msgctxt "front"
+msgid "Are you sure you want cancel the votes?"
+msgstr "Valóban törölni szeretnéd a szavazatodat?"
+
+#: class.DemPoll.php:443
+msgctxt "front"
+msgid "You or your IP had already vote."
+msgstr "A te IP címedről már érkezett be szavazat."
+
+#: democracy.php:19
+msgid ""
+"Allows to create democratic polls. Visitors can vote for more than one "
+"answer & add their own answers."
+msgstr ""
+"Lehetővé teszed, hogy létrehozz egy olyan szavazást, hol a látogatók több "
+"választ is megjelölhetnek és saját válaszokat is létrehozhatnak. "
+
+#: widget_democracy.php:13
+msgid "Democracy Poll Widget"
+msgstr "Democracy Pool modul (widget)"
+
+#: widget_democracy.php:54
+msgid "Poll question = widget title?"
+msgstr "Szavazás kérdése = modul címe?"
+
+#: widget_democracy.php:59
+msgid "Poll title:"
+msgstr "Szavazás címe: "
+
+#: widget_democracy.php:69
+msgid "- Active (random all active)"
+msgstr "- Aktív szavazások (véletlen az aktívak közül)"
+
+#: widget_democracy.php:70
+msgid "- Last open poll"
+msgstr " - Legutóbb megnyitott szavazás"
+
+#: widget_democracy.php:81
+msgid "Which poll to show?"
+msgstr "Melyik szavazást mutassam?"
+
+#~ msgid "poll editing"
+#~ msgstr "szavazás szerkesztése"
+
+#~ msgid "Add your answer"
+#~ msgstr "Add le a szavazatod ..."
+
+#~ msgid "Already voted..."
+#~ msgstr "Már szavaztál ..."
+
+#~ msgid "Vote"
+#~ msgstr "Szavazás"
+
+#~ msgid "Results"
+#~ msgstr "Eredmény"
+
+#~ msgid "This is Your vote."
+#~ msgstr "Ez a te szavazatod."
+
+#~ msgid "The answer was added by a visitor"
+#~ msgstr "A választ egy látogató adta le"
+
+#~ msgid "%s - %s%% of all votes"
+#~ msgstr "%s - %s%% az összes szavazat"
+
+#~ msgid "vote,votes,votes"
+#~ msgstr "szavazás, szavazat, szavazat"
+
+#~ msgid "Total Votes: %s"
+#~ msgstr "Összes szavazat: %s"
+
+#~ msgid "Voters:%s"
+#~ msgstr "Szavazók: %s"
+
+#~ msgid "Begin"
+#~ msgstr "Kezdődik"
+
+#~ msgid "End"
+#~ msgstr "Vége"
+
+#~ msgid " - added by visitor"
+#~ msgstr "- látogató által leadva"
+
+#~ msgid ""
+#~ "Only registered users can vote. <a href=\"%s\" rel=\"nofollow\">Login</a> "
+#~ "to vote."
+#~ msgstr ""
+#~ "Csak regisztrált felhasználók szavazhatnak. <a href=\"%s\" rel=\"nofollow"
+#~ "\">Belépés</a> to vote."
+
+#~ msgid "Revote"
+#~ msgstr "Újra szavazás"
+
+#~ msgid "Are you sure you want cancel the votes?"
+#~ msgstr "Valóban törölni szeretnéd a szavazatodat?"
+
+#~ msgid "You or your IP had already vote."
+#~ msgstr "A te IP címedről már érkezett be szavazat."

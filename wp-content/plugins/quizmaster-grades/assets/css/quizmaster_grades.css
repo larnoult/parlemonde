@@ -1,0 +1,29 @@
+.qm-grades-box {
+	margin: 25px 0;
+	border: solid 2px #d5d5d5;
+	padding: 8px;
+}
+
+.qm-grades-passed {
+	background-color: #DEF0A5;
+	border-color: #8DBC00;
+}
+
+.qm-grades-failed {
+	background-color: #FFD4CC;
+	border-color: #EC0B1B;
+}
+
+.qm-grades-pass-message {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 20px 0;
+}
+
+.qm-grades-title {
+	margin: 20px 0;
+}
+
+.qm-grades-achievement-message {
+	margin: 20px 0;
+}

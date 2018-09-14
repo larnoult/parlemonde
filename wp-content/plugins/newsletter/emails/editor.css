@@ -1,0 +1,15 @@
+/* The CSS used for the WP editor on administration panels */
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.mce-content-body p, table, ul, ol {
+    margin-bottom: 15px;
+    line-height: 24px;
+}
+
+img {
+    max-width: 100%;
+}

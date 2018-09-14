@@ -1,0 +1,35 @@
+#leaflet-maps-marker {
+	background: #FFFFE0; /* Old browsers */
+	background: -moz-linear-gradient(top,  #FFFFFF 0%, #FFFFE0 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#FFFFE0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #FFFFFF 0%,#FFFFE0 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #FFFFFF 0%,#FFFFE0 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #FFFFFF 0%,#FFFFE0 100%); /* IE10+ */
+	background: linear-gradient(top,  #FFFFFF 0%,#FFFFE0 100%); /* W3C */
+}
+#leaflet-maps-marker .plugin-version-author-uri {
+    background-color: #EAEAEA;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 8px 6px -6px black;
+    color: #111111;
+    font-weight: bold;
+    margin-bottom: 10px;
+    min-height: 16px;
+    padding: 5px;
+}
+#leaflet-maps-marker .plugin-version-author-uri a,
+#leaflet-maps-marker .plugin-version-author-uri a:link,
+#leaflet-maps-marker .plugin-version-author-uri a:hover,
+#leaflet-maps-marker .plugin-version-author-uri a:active,
+#leaflet-maps-marker .plugin-version-author-uri a:visited{
+	color: #111111;
+	text-decoration: none;
+}
+#leaflet-maps-marker .plugin-version-author-uri a:hover{
+	color:#14AD47;
+}
+#leaflet-maps-marker .plugin-title{
+background-repeat: no-repeat;
+background-position: left  bottom;
+height: 70px;
+}

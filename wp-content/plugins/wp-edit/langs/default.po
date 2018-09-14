@@ -1,0 +1,856 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Edit\n"
+"POT-Creation-Date: 2014-12-27 23:36-0500\n"
+"PO-Revision-Date: 2014-12-27 23:36-0500\n"
+"Last-Translator: \n"
+"Language-Team: Josh Lobe <support@wpeditpro.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../main.php:176
+msgid "Settings"
+msgstr ""
+
+#: ../main.php:177
+msgid "Go Pro!"
+msgstr ""
+
+#: ../main.php:314 ../includes/functions.php:29
+msgid "WP Edit"
+msgstr ""
+
+#: ../main.php:362
+msgid "WP Edit Settings"
+msgstr ""
+
+#: ../main.php:370 ../includes/functions.php:37 ../includes/functions.php:40
+msgid "Buttons"
+msgstr ""
+
+#: ../main.php:371 ../includes/functions.php:46 ../includes/functions.php:49
+msgid "Global"
+msgstr ""
+
+#: ../main.php:372 ../includes/functions.php:55 ../includes/functions.php:58
+msgid "General"
+msgstr ""
+
+#: ../main.php:373 ../includes/functions.php:64 ../includes/functions.php:67
+msgid "Posts/Pages"
+msgstr ""
+
+#: ../main.php:374 ../includes/functions.php:73 ../includes/functions.php:76
+msgid "Editor"
+msgstr ""
+
+#: ../main.php:375 ../includes/functions.php:82 ../includes/functions.php:85
+msgid "Extras"
+msgstr ""
+
+#: ../main.php:376 ../includes/functions.php:91 ../includes/functions.php:94
+msgid "User Specific"
+msgstr ""
+
+#: ../main.php:377 ../includes/functions.php:100 ../includes/functions.php:103
+msgid "Database"
+msgstr ""
+
+#: ../main.php:378 ../includes/functions.php:109 ../includes/functions.php:112
+msgid "About"
+msgstr ""
+
+#: ../main.php:396
+msgid "WP Edit Buttons"
+msgstr ""
+
+#: ../main.php:404
+msgid "Button Rows"
+msgstr ""
+
+#: ../main.php:419
+msgid "Button Container"
+msgstr ""
+
+#: ../main.php:856
+msgid "Save Buttons"
+msgstr ""
+
+#: ../main.php:860
+msgid "Reset Buttons"
+msgstr ""
+
+#: ../main.php:869
+msgid "Buttons Tips"
+msgstr ""
+
+#: ../main.php:880
+msgid "Drag/Drop"
+msgstr ""
+
+#: ../main.php:881
+msgid "Multi Select"
+msgstr ""
+
+#: ../main.php:882 ../main.php:1452
+msgid "Reset"
+msgstr ""
+
+#: ../main.php:886
+msgid "Buttons can be dragged and dropped into desired button rows."
+msgstr ""
+
+#: ../main.php:887
+msgid ""
+"The \"Button Container\" is a placeholder for buttons not used in the "
+"editor; these buttons will not appear when editing a post or page."
+msgstr ""
+
+#: ../main.php:890
+msgid ""
+"Buttons may also be selected in quantities; or multiple selections, before "
+"being moved."
+msgstr ""
+
+#: ../main.php:891
+msgid ""
+"Clicking a button will set it as \"active\"; a yellowish highlight color. "
+"Multiple buttons can be clicked and set as \"active\"."
+msgstr ""
+
+#: ../main.php:892
+msgid ""
+"Clicking and dragging one of the \"active\" buttons will move the entire "
+"\"active\" selection."
+msgstr ""
+
+#: ../main.php:893
+msgid ""
+"Clicking outside the button area will remove all currently active button "
+"selections."
+msgstr ""
+
+#: ../main.php:896
+msgid ""
+"Clicking \"Reset Buttons\" will restore the editor buttons to their original "
+"default values."
+msgstr ""
+
+#: ../main.php:897
+msgid ""
+"All button rows will get the default WordPress button arrangements; and the "
+"extra buttons will be added to the \"Button Container\"."
+msgstr ""
+
+#: ../main.php:916
+msgid "Global Options"
+msgstr ""
+
+#: ../main.php:931
+msgid "jQuery Theme"
+msgstr ""
+
+#: ../main.php:944
+msgid "Selects the jQuery theme for plugin alerts and notices."
+msgstr ""
+
+#: ../main.php:947
+msgid "Disable Admin Links"
+msgstr ""
+
+#: ../main.php:950
+msgid "Disables the WP Edit top admin bar links."
+msgstr ""
+
+#: ../main.php:953
+msgid "Disable Fancy Tooltips"
+msgstr ""
+
+#: ../main.php:956
+msgid "Disables the fancy tooltips used on button hover."
+msgstr ""
+
+#: ../main.php:964
+msgid "Save Global Options"
+msgstr ""
+
+#: ../main.php:979
+msgid "General Options"
+msgstr ""
+
+#: ../main.php:998
+msgid "Linebreak Shortcode"
+msgstr ""
+
+#: ../main.php:1001
+msgid "Use the [break] shortcode to insert linebreaks in the editor."
+msgstr ""
+
+#: ../main.php:1004
+msgid "Shortcodes in Widgets"
+msgstr ""
+
+#: ../main.php:1007
+msgid "Use shortcodes in widget areas."
+msgstr ""
+
+#: ../main.php:1010
+msgid "Shortcodes in Excerpts"
+msgstr ""
+
+#: ../main.php:1013
+msgid "Use shortcodes in excerpt areas."
+msgstr ""
+
+#: ../main.php:1016
+msgid "WP Edit Post Excerpt"
+msgstr ""
+
+#: ../main.php:1019
+msgid "Add the WP Edit editor to the Post Excerpt area."
+msgstr ""
+
+#: ../main.php:1022
+msgid "WP Edit Page Excerpt"
+msgstr ""
+
+#: ../main.php:1025
+msgid "Add the WP Edit editor to the Page Excerpt area."
+msgstr ""
+
+#: ../main.php:1028
+msgid "Profile Editor"
+msgstr ""
+
+#: ../main.php:1031
+msgid "Use modified editor in profile biography field."
+msgstr ""
+
+#: ../main.php:1034
+msgid "PHP Widgets"
+msgstr ""
+
+#: ../main.php:1037
+msgid "Adds a new widget for PHP code."
+msgstr ""
+
+#: ../main.php:1046
+msgid "Save General Options"
+msgstr ""
+
+#: ../main.php:1073
+msgid "Posts/pages Options"
+msgstr ""
+
+#: ../main.php:1080
+msgid "Post/Page Default Title"
+msgstr ""
+
+#: ../main.php:1083
+msgid "Change the default \"add new\" post/page title field."
+msgstr ""
+
+#: ../main.php:1086
+msgid "Column Shortcodes"
+msgstr ""
+
+#: ../main.php:1089
+msgid "Enable the column shortcodes functionality."
+msgstr ""
+
+#: ../main.php:1092
+msgid "Disable wpautop()"
+msgstr ""
+
+#: ../main.php:1095
+msgid "Disable the filter responsible for removing p and br tags."
+msgstr ""
+
+#: ../main.php:1104
+msgid "Page Revisions"
+msgstr ""
+
+#: ../main.php:1110
+msgid "Max Post Revisions"
+msgstr ""
+
+#: ../main.php:1113
+msgid ""
+"Set max number of Post Revisions to store in database. (empty = unlimited)"
+msgstr ""
+
+#: ../main.php:1116
+msgid "Max Page Revisions"
+msgstr ""
+
+#: ../main.php:1119
+msgid ""
+"Set max number of Page Revisions to store in database. (empty = unlimited)"
+msgstr ""
+
+#: ../main.php:1122
+msgid "Delete Revisions"
+msgstr ""
+
+#: ../main.php:1125
+msgid "Delete all database revisions."
+msgstr ""
+
+#: ../main.php:1128
+msgid "Revisions DB Size"
+msgstr ""
+
+#: ../main.php:1137
+msgid "Current size of revisions stored in database:"
+msgstr ""
+
+#: ../main.php:1148
+msgid "Hide Posts and Pages"
+msgstr ""
+
+#: ../main.php:1154
+msgid "Hide Admin Posts"
+msgstr ""
+
+#: ../main.php:1157
+msgid "Hide selected posts from admin view. ID comma separated (1,5,14,256)"
+msgstr ""
+
+#: ../main.php:1160
+msgid "Hide Admin Pages"
+msgstr ""
+
+#: ../main.php:1163
+msgid "Hide selected pages from admin view. ID comma separated (1,5,14,256)"
+msgstr ""
+
+#: ../main.php:1171
+msgid "Save Posts/Pages Options"
+msgstr ""
+
+#: ../main.php:1187
+msgid "Styles Options"
+msgstr ""
+
+#: ../main.php:1191
+msgid "Adds predefined styles; which can be applied to editor content."
+msgstr ""
+
+#: ../main.php:1192
+msgid "Please be sure the \"Formats\" button is active in the editor."
+msgstr ""
+
+#: ../main.php:1202
+msgid "Add Pre-defined Styles"
+msgstr ""
+
+#: ../main.php:1205
+msgid "Adds predefined styles to the \"Formats\" dropdown button."
+msgstr ""
+
+#: ../main.php:1214
+msgid "TinyMCE Options"
+msgstr ""
+
+#: ../main.php:1218
+msgid ""
+"These options will adjust various parts of the TinyMCE initialization "
+"process."
+msgstr ""
+
+#: ../main.php:1222
+msgid "Change Font to \"px\""
+msgstr ""
+
+#: ../main.php:1225
+msgid ""
+"Switches the default font size in the dropdown list from \"pt\" to \"px\"."
+msgstr ""
+
+#: ../main.php:1233
+msgid "Save Editor Options"
+msgstr ""
+
+#: ../main.php:1249
+msgid "Extra Options"
+msgstr ""
+
+#: ../main.php:1255
+msgid "Signoff Text"
+msgstr ""
+
+#: ../main.php:1256
+msgid ""
+"Use the editor below to create a content chunk that can be inserted anywhere "
+"using the"
+msgstr ""
+
+#: ../main.php:1256
+msgid "shortcode."
+msgstr ""
+
+#: ../main.php:1307
+msgid "User Specific Options"
+msgstr ""
+
+#: ../main.php:1312
+msgid ""
+"These options are stored in individual user meta; meaning each user can set "
+"these options independlently from one another."
+msgstr ""
+
+#: ../main.php:1316
+msgid "ID Column"
+msgstr ""
+
+#: ../main.php:1319
+msgid "Adds a column to post/page list view for displaying the post/page ID."
+msgstr ""
+
+#: ../main.php:1322
+msgid "Thumbnail Column"
+msgstr ""
+
+#: ../main.php:1325
+msgid "Adds a column to post/page list view for displaying thumbnails."
+msgstr ""
+
+#: ../main.php:1328
+msgid "Hide TEXT Tab"
+msgstr ""
+
+#: ../main.php:1331
+msgid "Hide the editor TEXT tab from view."
+msgstr ""
+
+#: ../main.php:1334
+msgid "Default VISUAL Tab"
+msgstr ""
+
+#: ../main.php:1337
+msgid "Always display VISUAL tab when editor loads."
+msgstr ""
+
+#: ../main.php:1340
+msgid "Disable Dashboard Widget"
+msgstr ""
+
+#: ../main.php:1343
+msgid "Disables WP Edit Pro News Feed dashboard widget."
+msgstr ""
+
+#: ../main.php:1352
+msgid "Post/Page Highlight Colors"
+msgstr ""
+
+#: ../main.php:1357
+msgid ""
+"These options will allow each user to customize highlight colors for each "
+"post/page status."
+msgstr ""
+
+#: ../main.php:1358
+msgid "Meaning.. saved posts can be yellow, published posts can be blue, etc."
+msgstr ""
+
+#: ../main.php:1362
+msgid "Enable Highlights"
+msgstr ""
+
+#: ../main.php:1365
+msgid "Enable the Highlight Options below."
+msgstr ""
+
+#: ../main.php:1368
+msgid "Draft Highlight"
+msgstr ""
+
+#: ../main.php:1373
+msgid "Pending Highlight"
+msgstr ""
+
+#: ../main.php:1378
+msgid "Published Highlight"
+msgstr ""
+
+#: ../main.php:1383
+msgid "Future Highlight"
+msgstr ""
+
+#: ../main.php:1388
+msgid "Private Highlight"
+msgstr ""
+
+#: ../main.php:1399
+msgid "Save User Specific Options"
+msgstr ""
+
+#: ../main.php:1412
+msgid "Database Options"
+msgstr ""
+
+#: ../main.php:1417
+msgid "Export WP Edit Options"
+msgstr ""
+
+#: ../main.php:1419
+msgid ""
+"Export the plugin settings for this site as a .json file. This allows you to "
+"easily import the configuration into another site."
+msgstr ""
+
+#: ../main.php:1424
+msgid "Export"
+msgstr ""
+
+#: ../main.php:1431
+msgid "Import WP Edit Options"
+msgstr ""
+
+#: ../main.php:1433
+msgid ""
+"Import the plugin settings from a .json file. This file can be obtained by "
+"exporting the settings on another site using the form above."
+msgstr ""
+
+#: ../main.php:1439
+msgid "Import"
+msgstr ""
+
+#: ../main.php:1446
+msgid "Reset WP Edit Options"
+msgstr ""
+
+#: ../main.php:1448
+msgid "Reset all plugin settings to their original default states."
+msgstr ""
+
+#: ../main.php:1459
+msgid "Uninstall WP Edit (Completely)"
+msgstr ""
+
+#: ../main.php:1461
+msgid ""
+"Designed by intention, this plugin will not delete the associated database "
+"tables when activating and deactivating."
+msgstr ""
+
+#: ../main.php:1462
+msgid ""
+"This ensures the data is kept safe when troubleshooting other WordPress "
+"conflicts."
+msgstr ""
+
+#: ../main.php:1463
+msgid ""
+"In order to completely uninstall the plugin, AND remove all associated "
+"database tables, please use the option below."
+msgstr ""
+
+#: ../main.php:1468
+msgid "Please confirm before proceeding"
+msgstr ""
+
+#: ../main.php:1469
+msgid "Uninstall"
+msgstr ""
+
+#: ../main.php:1503
+msgid "Information"
+msgstr ""
+
+#: ../main.php:1509
+msgid "Plugin and server version information."
+msgstr ""
+
+#: ../main.php:1513
+msgid "WP Edit Pro Version:"
+msgstr ""
+
+#: ../main.php:1518
+msgid "WordPress Version:"
+msgstr ""
+
+#: ../main.php:1523
+msgid "PHP Version:"
+msgstr ""
+
+#: ../main.php:1528
+msgid "HTML Version:"
+msgstr ""
+
+#: ../main.php:1533
+msgid "MySql Version:"
+msgstr ""
+
+#: ../main.php:1538
+msgid "jQuery Version:"
+msgstr ""
+
+#: ../main.php:1549
+msgid "Support"
+msgstr ""
+
+#: ../main.php:1554
+msgid "Please use the following helpful links for plugin support."
+msgstr ""
+
+#: ../main.php:1558
+msgid "Support Forum:"
+msgstr ""
+
+#: ../main.php:1560
+msgid "Support Forum"
+msgstr ""
+
+#: ../main.php:1563
+msgid "Knowledge Base:"
+msgstr ""
+
+#: ../main.php:1565
+msgid "Knowledge Base"
+msgstr ""
+
+#: ../main.php:1574
+msgid "Documentation"
+msgstr ""
+
+#: ../main.php:1579
+msgid ""
+"Remember, complete plugin documentation can be found on our <a target="
+"\"_blank\" href=\"http://learn.wpeditpro.com\">Knowledge Base</a>."
+msgstr ""
+
+#: ../main.php:1580
+msgid ""
+"Visit the <a target=\"_blank\" href=\"http://learn.wpeditpro.com/category/"
+"plugin-options/\">Knowledge Base Plugin Options</a> page to get started."
+msgstr ""
+
+#: ../main.php:1593 ../main.php:1605
+msgid "WP Edit Pro"
+msgstr ""
+
+#: ../main.php:1598
+msgid "Upgrade to WP Edit Pro today; and enjoy additional options such as:"
+msgstr ""
+
+#: ../main.php:1600
+msgid "4 customizable buttons rows instead of only 2."
+msgstr ""
+
+#: ../main.php:1601
+msgid "Over a dozen additional editor buttons."
+msgstr ""
+
+#: ../main.php:1602
+msgid "More control and flexibility."
+msgstr ""
+
+#: ../main.php:1603
+msgid ""
+"Create multiple button arrangements and assign them to individual users."
+msgstr ""
+
+#: ../main.php:1612
+msgid "Like this Plugin?"
+msgstr ""
+
+#: ../main.php:1617
+msgid ""
+"Please take a moment to rate and review this plugin on the WordPress Plugin "
+"Repository."
+msgstr ""
+
+#: ../main.php:1618
+msgid "Rate Plugin"
+msgstr ""
+
+#: ../main.php:1645
+msgid "Plugin settings have been successfully imported."
+msgstr ""
+
+#: ../main.php:1667
+msgid "Buttons have been reset successfully."
+msgstr ""
+
+#: ../main.php:1711
+msgid "Buttons have been saved successfully."
+msgstr ""
+
+#: ../main.php:1792
+msgid ""
+"New buttons were discovered. The following buttons have been added to the "
+"Button Container:"
+msgstr ""
+
+#: ../main.php:1855
+msgid "The following buttons have been removed from WP Edit Pro:"
+msgstr ""
+
+#: ../main.php:1884
+msgid "Global options successfully saved."
+msgstr ""
+
+#: ../main.php:1911
+msgid "General options successfully saved."
+msgstr ""
+
+#: ../main.php:1944
+msgid "Revisions successfully deleted"
+msgstr ""
+
+#: ../main.php:1946
+msgid "No POST revisions were found to delete"
+msgstr ""
+
+#: ../main.php:1959
+msgid "Message: "
+msgstr ""
+
+#: ../main.php:1961
+msgid "Database size before deletions: "
+msgstr ""
+
+#: ../main.php:1963 ../main.php:1967
+msgid "megabytes."
+msgstr ""
+
+#: ../main.php:1965
+msgid "Database Size after deletions: "
+msgstr ""
+
+#: ../main.php:1990
+msgid "Posts/Pages options successfully saved."
+msgstr ""
+
+#: ../main.php:2013
+msgid "Editor options successfully saved."
+msgstr ""
+
+#: ../main.php:2034
+msgid "Extra options saved."
+msgstr ""
+
+#: ../main.php:2071
+msgid "User specific options saved."
+msgstr ""
+
+#: ../main.php:2086 ../main.php:2126
+msgid "Sorry, your nonce did not verify."
+msgstr ""
+
+#: ../main.php:2104
+msgid "Plugin settings have been restored to defaults."
+msgstr ""
+
+#: ../main.php:2118
+msgid ""
+"You must also check the confirm box before options will be uninstalled and "
+"deleted."
+msgstr ""
+
+#: ../main.php:2237
+msgid "Please upload a valid .json file"
+msgstr ""
+
+#: ../main.php:2243
+msgid "Please upload a file to import"
+msgstr ""
+
+#: ../main.php:2527
+msgid "Stay Informed"
+msgstr ""
+
+#: ../main.php:2529
+msgid ""
+"Please signup to our free <a target=\"_blank\" href=\"http://www.feedblitz."
+"com/f/?Sub=950320\">Feedblitz</a> service; to receive important plugin news, "
+"updates and free offers."
+msgstr ""
+
+#: ../main.php:2536
+msgid "Other Plugin News"
+msgstr ""
+
+#: ../main.php:2538
+msgid ""
+"* A stable version of WP Edit will soon be available on our <a target="
+"\"_blank\" href=\"https://wpeditpro.com\">Website</a>. The stable version "
+"will contain some options not available in the free version."
+msgstr ""
+
+#: ../main.php:2540
+msgid ""
+"* Plugin documentation is being added to our <a target=\"_blank\" href="
+"\"http://learn.wpeditpro.com\">Knowledge Base</a>. Check back frequently for "
+"more tutorial articles."
+msgstr ""
+
+#: ../includes/functions.php:151
+msgid "WP Edit Excerpt"
+msgstr ""
+
+#: ../includes/functions.php:183
+msgid "Wp Edit Excerpt"
+msgstr ""
+
+#: ../includes/functions.php:214
+msgid "Biographical Info"
+msgstr ""
+
+#: ../includes/functions.php:221
+msgid ""
+"Share a little biographical information to fill out your profile. This may "
+"be shown publicly."
+msgstr ""
+
+#: ../includes/functions.php:258
+msgid "Arbitrary text, HTML, or PHP Code"
+msgstr ""
+
+#: ../includes/functions.php:260
+msgid "WP Edit PHP Widget"
+msgstr ""
+
+#: ../includes/functions.php:295
+msgid "Title:"
+msgstr ""
+
+#: ../includes/functions.php:300
+msgid "Automatically add paragraphs."
+msgstr ""
+
+#: ../includes/functions.php:435
+msgid "Toggle wpautop"
+msgstr ""
+
+#: ../includes/functions.php:453
+msgid "Select which post types have the option to disable the wpautop filter."
+msgstr ""
+
+#: ../includes/functions.php:660
+msgid "ID"
+msgstr ""
+
+#: ../includes/functions.php:694
+msgid "Thumbnail"
+msgstr ""
+
+#: ../includes/functions.php:705
+msgid "None"
+msgstr ""
+
+#: ../includes/functions.php:743
+msgid "WP Edit Pro RSS Feed"
+msgstr ""
+
+#: ../includes/functions.php:785
+msgid "Number of posts to show:"
+msgstr ""

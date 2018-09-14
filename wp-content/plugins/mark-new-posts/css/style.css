@@ -1,0 +1,51 @@
+.mnp-title-wrapper {
+	white-space: nowrap;
+}
+
+.mnp-title-text {
+	white-space: normal;
+}
+
+.mnp-circle-before,
+.mnp-circle-after {
+	position: relative;
+	left: 0;
+	top: -9px;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background-color: #f50;
+}
+
+.mnp-circle-before {
+	margin-right: 7px;
+}
+
+.mnp-circle-after {
+	margin-left: 7px;
+}
+
+.mnp-text-before,
+.mnp-text-after {
+	font-size: 0.3em;
+	color: #a00;
+	vertical-align: top;
+}
+
+.mnp-image-before,
+.mnp-image-after {
+	position: relative;
+	left: 0;
+	top: -4px;
+}
+
+.mnp-image-before {
+	margin-right: 5px;
+}
+
+.mnp-image-after {
+	margin-left: 5px;
+}

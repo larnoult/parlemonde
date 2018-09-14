@@ -1,0 +1,2885 @@
+/*
+Theme Name: VP-multi-pelico-18-19
+Theme URI: http://themes.kadencethemes.com/virtue-premium/
+Description: pelico.parlemonde.org 2018-19
+Author: Kadence Themes
+Author URI: http://www.kadencethemes.com/
+Template: virtue_premium
+Version: 1.0.0
+*/
+
+
+/* Version multisite pelico.parlemonde.org*/
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*  Importation des polices | faire du tri.. | si incompatibilité avec navigateur, générer le format otf (voir la police PLMoon) */
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'ange';
+    src: url('cheveuxdange-webfont.eot');
+    src: url('cheveuxdange-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cheveuxdange-webfont.woff') format('woff'),
+         url('cheveuxdange-webfont.ttf') format('truetype'),
+         url('cheveuxdange-webfont.svg#cheveuxdangemedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Luckiest Guy';
+    src: url('LuckiestGuy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'exception';
+    src: url('theonlyexception-webfont.eot');
+    src: url('theonlyexception-webfont.eot?#iefix') format('embedded-opentype'),
+         url('theonlyexception-webfont.woff') format('woff'),
+         url('theonlyexception-webfont.ttf') format('truetype'),
+         url('theonlyexception-webfont.svg#the_only_exceptionregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'amandine';
+    src: url('amandine-webfont.eot');
+    src: url('amandine-webfont.eot?#iefix') format('embedded-opentype'),
+         url('amandine-webfont.woff') format('woff'),
+         url('amandine-webfont.ttf') format('truetype'),
+         url('amandine-webfont.svg#amandinehandwriting') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'moon';
+    src: url('plmoon-webfont.eot');
+    src: url('plmoon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('plmoon-webfont.woff') format('woff'),
+         url('plmoon-webfont.ttf') format('truetype'),
+         url('plmoon-webfont.svg#pwflymetothemoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'littledays';
+    src: url('plm-littledays-webfont.eot');
+    src: url('plm-littledays-webfont.eot?#iefix') format('embedded-opentype'),
+         url('plm-littledays-webfont.woff') format('woff'),
+         url('plm-littledays-webfont.ttf') format('truetype'),
+         url('plm-littledays-webfont.svg#little_daysregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+  font-family: 'LoveYa';
+  src: url('LoveYaLikeASister.eot?#iefix') format('embedded-opentype'),  url('LoveYaLikeASister.woff') format('woff'), url('LoveYaLikeASister.ttf')  format('truetype'), url('LoveYaLikeASister.svg#LoveYaLikeASister') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* les couleurs 
+
+orange : 219, 198, 183  
+bleu : 77, 94, 188 et 145, 149, 198
+rouge : c74721 = 199, 71, 33
+
+*/
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* modification du style du menu mobile */
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*
+.nav-trigger-case:hover .kad-menu-name, .nav-trigger-case:hover .kad-navbtn {
+font-family:'moon'!important;
+}
+
+.kad-mnav > li {
+font-family:'moon'!important;
+}
+.kad-mnav > li .sf-description, .kad-mnav > li > ul > li{
+font-family:'littledays'!important;
+} */
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* modification du style générale du site, via  */
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*ul li {
+	list-style: none;
+}
+
+ul li:before:not(#menu-plm-menu){
+	content:'\2022  ';
+	color:grey;
+	position:relative;
+	
+}*/
+
+.child {
+/*	font-family: 'ange';
+	font-size: 15px !important;*/
+/*	font-weight:bold !important;*/
+	font-weight:600 !important;
+	
+	display:inline !important;
+/*	background: url("http://www.parlemonde.org/wp-content/uploads/2014/05/gribouille.png") repeat !important;	*/
+	width:auto !important;
+	
+} 
+
+/* Modification de la Home Page */
+
+#HomePelico{
+		position: absolute;
+	    margin-top: -50px;
+	    margin-left: 250px;
+	    font-size: 40px !important;
+		font-size: 2.3vw!important;
+	    font-family: "littledays";
+	    border-left: rgba(252, 0, 255, 0.49) 2px solid;
+	    padding-left: 20px;
+	    line-height: 120%;
+	    white-space: -moz-pre-wrap;
+	    white-space: -o-pre-wrap;
+	    white-space: pre-wrap;
+	    word-wrap: break-word;
+	}
+
+.infobanner{
+	background-size: 60%!important;
+}
+
+.belowlogo-text::before{
+	content:"";
+	background: rgba(0, 0, 0, .05); 
+	position: absolute;
+	 top: -5px; 
+	left:10%; height: 1px; width: 90% !important;
+	
+}
+
+
+/* pour corriger l'absence de couleur dans le lien des footers */
+#containerfooter a{
+	color: #002b75!important;
+	}
+#containerfooter a:hover{color: #1e73be
+!important;}
+
+
+.homeLine{
+width:40% !important;
+margin-right:0px!important	;
+}
+
+/* class de partage de l'article */
+.jwsharethis {
+	font-family: 'littledays';
+	color: rgba(199, 71, 33,1) ;
+	font-size: 22px;
+	margin-top: 55px !important;
+	border-bottom: 1px solid rgba(199, 71, 33, 0.1) ;
+} 
+
+/*
+.topbarmenu ul li a {
+font-size: 24px;
+}
+
+.sf-menu li {font-family:'amandine' !important;}
+*/
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* modification du style de la side bar... ne pas oublier !important */
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.widget-inner h3 {
+	border-top: 1px solid rgba(0, 0, 0, .05) !important;
+}
+
+.sidebar{
+/*border-left: thick solid #ff0000!important;*/
+
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* modification du style du footer... ne pas oublier !important */
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.footer-widget h3{
+	border-top: 1px solid rgba(0, 0, 0, .05) !important;
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* modification de class déjà existantes dans virtue.css du thème parent... ne pas oublier !important */
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+ 
+/*hr { 
+	background: rgba(199, 71, 33,1) !important;
+	color: rgba(199, 71, 33,1) !important;
+	height: 1.5px !important;
+	width: 80%;
+}*/
+
+p .subtitle{ /* pour modifier les sous titres de chaque partie*/
+	 
+	margin-top:10px !important;
+}
+
+
+.low-width{ /* pour changer la largeur de la page d'acceuil */
+	width:80%!important;
+	margin:0px auto!important;
+	border-right: 0px solid rgba(204, 114, 181, .3)!important;
+	
+}
+.low-width-2{ /* pour changer la largeur du header la page d'acceuil */
+	width:70%!important;
+	margin:0px auto!important;
+	padding-top:50px;
+}
+#pelicoHomeFr{
+	position:absolute;
+	left:-1%;
+	top:30%;
+	display:inline;
+	width:17%;
+}
+
+#pelicoTravels{
+float:right;
+width: 20%;
+margin-top:65px;
+padding-left:30px;
+}
+/*.col-md-12.kad-header-right{
+background-image:url('http://www.parlemonde.fr/wp-content/uploads/2014/08/Pelico-ou2.png') !important;
+background-position:0% 80% !important;
+background-repeat: no-repeat !important;
+}*/
+/*
+.low-width-2:before{
+content:url('http://www.parlemonde.fr/wp-content/uploads/2014/08/Pelico-ou2.png');
+position:absolute;
+left:-10px;
+top:140px;
+z-index:1;
+}*/
+/* pour ajouter la bannière où sommes-nous*/
+#whereBan{ 
+position:absolute !important;
+left:790px!important;
+top:90px !important;
+z-index:1!important;
+color: rgb(4, 17, 191);
+/*color: rgb(191, 4, 4);
+-webkit-transform:rotate(-90deg)!important;
+-moz-transform:rotate(-90deg)!important;
+-ms-transform:rotate(-90deg)!important;
+-o-transform:rotate(-90deg)!important;
+transform:rotate(-90deg)!important;*/
+font-size:20px !important;
+border-bottom: 2px solid rgba(0, 0, 0, .05) !important;
+font-weight:bolder !important;
+/*font-family:'ange' !important;
+text-transform:uppercase!important;*/
+
+/*background:grey !important;*/
+-webkit-box-shadow: 0 8px 40px -8px rgba(0, 0, 0, .05);
+   -moz-box-shadow: 0 8px 40px -8px rgba(0, 0, 0, .05);
+        box-shadow: 0 8px 40px -8px rgba(0, 0, 0, .05);
+}
+
+
+.kad-standard-logo{
+	width:450px !important;
+	height: auto!important;
+	margin-top:10px;
+}
+
+.belowlogo-text{
+z-index:1 !important;
+margin-top:-10px;
+padding: 20px 40px 20px 40px;
+/*box-sizing: border-box;
+box-shadow: none;
+border: none;
+color: white;
+border: solid 5px ;
+border-image: linear-gradient(45deg, #feffef, #8cdcfd);
+    border-image-slice: 1;
+    background: linear-gradient(45deg, pink, skyblue);
+-webkit-background-clip: text;
+background-clip: text;
+text-fill-color: transparent;
+
+/*-webkit-transform:rotate(45deg)!important;
+-moz-transform:rotate(45deg)!important;
+-ms-transform:rotate(45deg)!important;
+-o-transform:rotate(45deg)!important;
+transform:rotate(45deg)!important;
+font-size:30px !important;
+border-bottom: 2px solid rgba(0, 0, 0, .05) !important;
+font-weight:bolder !important;
+/*font-family:'ange' !important;
+text-transform:uppercase!important;*/
+
+/*background:grey !important;
+-webkit-box-shadow: 0 8px 40px -8px rgba(0, 0, 0, .05);
+   -moz-box-shadow: 0 8px 40px -8px rgba(0, 0, 0, .05);
+        box-shadow: 0 8px 40px -8px rgba(0, 0, 0, .05);*/
+}
+/*
+.belowlogo-text:after{
+	content:""; ;background: rgba(0, 0, 0, .05); position: absolute; top: -5px; left:10%; height: 1px; width: 90% !important;
+	}*/
+	/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/	
+	/* Styler le testimonal */	
+	/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+	
+.author{
+	font-style:italic !important;
+}
+
+.testimonials-widget blockquote{
+	font-size:25px !important;
+}
+
+.testimonials-widget{
+	/*width:80%!important;
+	margin:0px auto!important;*/
+	padding-top:50px !important;
+	padding-bottom:0px !important;
+}
+
+
+
+.pullquote-left{
+    position: relative;
+    padding: 10px 0 10px 90px;
+    margin: 10px 40px 5px 0;
+    float: left;
+    max-width: 4450px;
+    font-size: 16px;
+    line-height: 24px;
+	width:100%;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/	
+/* Les plus et moins de l'accordéon */	
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.icon-plus-sign:before {
+    content: "\f055";
+}
+
+.icon-minus-sign:before {
+    content: "\f056";
+}
+
+.icon-plus:before {
+    content: "\f067"
+}
+
+.icon-minus:before {
+    content: "\f068"
+}
+
+/*
+.panel-heading {
+	background-image:url("http://www.parlemonde.org/wp-content/uploads/2014/05/fond-13.jpg") !important;
+	
+} /*
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/	
+/* Les bulles explicatives */	
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+a.menu-bulle span{
+/*	font-family:ange!important;*/
+	font-color:white !important;
+	display:none;
+}
+
+a.menu-bulle:hover {
+    position: relative
+}
+
+a.menu-bulle:hover #bulle-quoi{
+	    display: block;
+	    background: url(http://www.parlemonde.org/wp-content/uploads/2014/05/bulle1-gif-rouge.png) no-repeat ;
+		background-size: 100%;
+	    left: 125px;
+	    margin: 10px;
+	    width: 105px;
+	    height: 105px;
+	    position: absolute;
+	    top: -89px;
+		padding: 27px 5px 5px 32px;
+		color:white;
+		font-weight:bold;
+}
+
+a.menu-bulle:hover #bulle-qui{
+	    display: block;
+	    background: url(http://www.parlemonde.org/wp-content/uploads/2014/05/bulle1-gif-bleu.png) no-repeat ;
+		background-size: 100%;
+	    left: 120px;
+	    margin: 10px;
+	    width: 100px;
+	    height: 100px;
+	    position: absolute;
+	    top: 0px;
+		padding: 27px 5px 5px 32px;
+		color:white;
+		font-weight:bold;
+}
+
+a.menu-bulle:hover #bulle-quand{
+	    display: block;
+	    background: url(http://www.parlemonde.org/wp-content/uploads/2014/05/bulle1-gif-vert.png) no-repeat ;
+		background-size: 100%;
+	    left: 75px;
+	    margin: 10px;
+	    width: 120px;
+	    height: 120px;
+	    position: absolute;
+	    top: -90px;
+		padding: 37px 5px 5px 32px;
+		color:green;
+		font-weight:bold;
+}
+
+a.menu-bulle:hover #bulle-ou{
+	    display: block;
+	    background: url(http://www.parlemonde.org/wp-content/uploads/2014/05/bulle1-gif-jaune.png) no-repeat ;
+		background-size: 100%;
+	    left: 105px;
+	    margin: 10px;
+	    width: 95px;
+	    height: 95px;
+	    position: absolute;
+	    top: -75px;
+		padding: 27px 5px 5px 32px;
+		color:white;
+		font-weight:bold;
+}
+
+a.menu-bulle:hover #bulle-1901{
+	    display: block;
+	    background: url(http://www.parlemonde.org/wp-content/uploads/2014/05/bulle1-gif-marron-T.png) no-repeat ;
+		background-size: 100%;
+	    left: 90px;
+	    margin: 10px;
+	    width: 110px;
+	    height: 110px;
+	    position: absolute;
+	    top: -0px;
+		padding: 27px 5px 5px 32px;
+		color:white;
+		font-weight:bold;
+}
+
+
+
+a.menu-bulle:hover #bulle-comment{
+	    display: block;
+	    background: url(http://www.parlemonde.org/wp-content/uploads/2014/05/1-bulle1-gif-violet-T.png) no-repeat ;
+		background-size: 90%;
+	    left: 135px;
+	    margin: 10px;
+	    width: 160px;
+	    height: 140px;
+	    position: absolute;
+	    top: 3px;
+		padding: 47px 5px 5px 42px;
+		color:white;
+		font-weight:bold;
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/	
+/* pour changer le style du menu */	
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*
+
+
+
+#menuEssai span{
+    display:inline-block !important
+}
+
+
+#menu-plm-menu li a { /* pour changer le style du menu déroulant 
+	font-family: roboto !important;
+	font-size:	15px!important;
+	height:120px;
+	display:table-cell!important;
+	vertical-align:middle!important;
+}*/
+
+/*
+li.menu-par-le-monde ul.sf-dropdown-menu{
+	font-family: roboto !important; 
+}*/
+
+#menu-plm-child:after { /* pour rajouter une barre au dessus du menu */	
+	content:""; 
+	background: rgba(0, 0, 0, .1);
+	position: absolute; 
+	top: -7px; 
+	left:10%; 
+	height: 1px; 
+	width: 80% !important;
+/*	border-bottom: 1px solid #eee !important;  */
+}	
+
+/*li.menu-par-le-monde a, li.menu-le-projet-educatif a, li.menu-en-route a, li.menu-tableau-de-bord a {	
+	font-family:ecolier!important; 
+	font-size:10px; 
+	font-weight:bold!important;
+	height:120px;
+	}*/
+	
+
+
+#nav-main > ul > li > a { /* pour changer le style du menu principal */	
+	font-family:moon!important; 
+	font-size: 32px!important;
+	display:table-cell!important;
+	vertical-align:middle!important;
+} 	
+
+
+#menu1 span, #menu2 span, #menu3 span, #menu4 span{
+    display:inline-block !important;
+}
+
+
+
+li.menu-laventure li a, li.menu-lecoindesclasses li a, li.menu-enroute li a, li.menu-tableau-de-bord li a, li.menu-maclasse li a {
+	height:auto!important;
+	font-family: littledays !important; 
+	font-size:23px !important;
+
+}
+
+
+.menu-laventure:after, .menu-enroute:after, .menu-lecoindesclasses:after, .menu-maclasse:after{
+	content:""; ;background: rgba(0, 0, 0, .1); position: absolute; top: 45px; left:7%; height: 1px; width: 85% !important;
+	}
+	
+.sf-menu ul { /* pour choisir la transparence du menu */
+	background: rgba(255,255,255,0.98) !important;
+	z-index:999999!important;
+	} 
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/	
+/* pour rapprocher le menu principal du logo | finalement non utilisé */ 
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/	
+/*
+.col-md-4, .span4 {
+        width: 13.33333333333333%!important;
+    }
+.col-md-8, .span8 {
+        width: 86.66666666666666%!important;
+    }	
+
+#nav-main ul.sf-menu {
+	float: left!important;
+	}
+	
+	*/
+/*li.menu-par-le-monde ul.sf-dropdown-menu{
+	font-family: roboto !important; 
+}*/
+
+
+/* Pour modifier la largeur du menu*/
+.sf-menu ul, .sf-menu li:hover ul, .sf-menu li.sfHover ul {
+	width: 200px !important;
+	} 
+
+/*	
+.sf-menu li a .sf-description:hover {
+	visibility:visible!important;
+	font-family: ange!important;
+	font-size:14px!important;
+	
+}*/
+
+/* Pour modifier 1) le sous-menu sélectionné , 2) le menu sélectionné */
+
+#nav-main ul.sf-menu li.current-menu-item > a, #nav-main ul.sf-menu > li.current-menu-parent > a {
+	color:rgba(199, 71, 33,1) ;
+}
+/* 
+#nav-main ul.sf-menu > li.current-menu-item > a, #nav-main ul.sf-menu > li.current-menu-parent > a {
+	background: url('http://www.parlemonde.org/wp-content/uploads/2014/05/paper1-tache.png') no-repeat left top!important;
+	background-size:100% 100% !important;
+}*/
+	
+.soutien {
+	visibility:hidden !important;
+}
+
+
+
+.headerclass {background:rgba(255,255,255,0.90);}
+.footerclass {background:rgba(255,255,255,0.90);}
+.contentclass {background:rgba(255,255,255,0.95);}
+
+#wp-admin-bar-wp-logo{
+	display:none; !important;
+}
+
+.flexslider{ /* to get an hand on ALL sliders   class imghoverclass quand on met une image*/
+	max-width:960px !important;
+	margin-left: auto !important;
+	margin-right:auto !important;
+}  
+/*
+.imghoverclass {
+	margin:0 auto!important;
+	height:auto !important;
+	max-width:1000px !important;
+	width:90% !important;
+	border:1px solid !important;
+	color:black !important;
+/*	display:table-cell!important;
+	vertical-align:middle!important;*/
+}
+
+.imghoverclass  img {
+	width: 100%;
+  height : auto;
+  max-height: 100%;
+  max-width: 100%;
+  /*cursor:pointer !important;*/
+}
+
+/*
+.imghoverclass  {
+    opacity: 1!important;
+    -webkit-transition: opacity .2s ease-in-out!important;
+    -moz-transition: opacity .2s ease-in-out!important;
+    -ms-transition: opacity .2s ease-in-out!important;
+    -o-transition: opacity .2s ease-in-out!important;
+    transition: opacity .2s ease-in-out!important;
+    -webkit-transform: translateZ(0) scale(1, 1)!important;
+}
+
+.imghoverclass:hover {
+    opacity: .8!important;
+}
+*/
+  /*  width: 100% !important;
+	display:block !important;
+	margin:auto !important;
+	left:0px !important;
+	right:0px !important;
+	margin-right: 0px !important;
+    margin-left: 0px !important;
+} */
+
+.img-margin-center {
+/*	margin:auto !important;*/
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* les images du qui */
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.pelico-peluche{
+	padding-bottom:40px;
+}
+.pelico-peluche img{
+	width:10%;
+	float:right;
+	top:0px;
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* pour la partie En route  Et Sri Lanka year map */ 
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#monde-map, #new-year-map{
+	position: relative; 
+	top: 10px;
+	width:100%;
+}
+
+#monde-map img, #new-year-map img {
+	display:block !important; 
+	width:100%;
+	}
+	
+#monde-map .hotspots, #new-year-map .new-year-hotspots {
+	width:100%; 
+	height:100%; 
+	position:absolute; 
+	left:0; 
+	top:0; 	
+	}
+
+#monde-map .hotspots span{
+	display:block; 
+/*	border:1px solid black; */
+	position:absolute;
+	width:6%; 
+	height:8%;
+}
+
+#new-year-map .new-year-hotspots span {
+	display:block; 
+	position:absolute;
+}
+
+
+#monde-map .hotspots span#france-drop-in {
+	left:45%; 
+	top:25%; 
+}
+#monde-map .hotspots span#tunisie-drop-in {
+	left:45%; 
+	top:34%; 
+}
+#monde-map .hotspots span#liban-drop-in {
+	left:52%; 
+	top:34%; 
+}
+
+#monde-map .hotspots span#ouganda-drop-in {
+	left:53%; 
+	top:50%; 
+}
+
+#monde-map .hotspots span#namibie-drop-in {
+	left:47%; 
+	top:58%; 
+}
+
+#monde-map .hotspots span#chili-drop-in {
+	left:24%; 
+	top:71%; 
+}
+
+#monde-map .hotspots span#colombie-drop-in {
+	left:24%; 
+	top:48%; 
+}
+
+#monde-map .hotspots span#salvador-drop-in {
+	left:17%; 
+	top:38%; 
+}
+
+#monde-map .hotspots span#canada-drop-in {
+	left:23%; 
+	top:22%; 
+}
+
+#monde-map .hotspots span#mongolie-drop-in {
+	left:69%; 
+	top:25%; 
+}
+/*
+#monde-map .hotspots span#nepal-drop-in {
+	left:69%; 
+	top:35%; 
+}*/
+
+#monde-map .hotspots span#sri-lanka-drop-in {	
+	left:69%; 
+	top:45%;
+}
+
+#monde-map .hotspots span#malaisie-drop-in {
+	left:76%; 
+	top:45%;
+}
+
+#monde-map .hotspots span#japon-drop-in {
+	left:82%; 
+	top:26%; 
+}
+
+#monde-map .hotspots span#australie-drop-in {
+	left:82%; 
+	top:68%; 
+}
+
+#monde-map .hotspots span#bolivie-drop-in {
+	left:23%; 
+		top:58%;
+}
+
+
+#monde-map .hotspots span#birmanie-drop-in {
+left:69.5%; 
+	top:38%; 
+}
+#monde-map .hotspots span#madagascar-drop-in {
+	left:58%; 
+	top:57%;
+}
+#monde-map .hotspots span#oman-drop-in {
+	left:58%; 
+	top:36%;
+}
+#monde-map .hotspots span#nigeria-drop-in {
+	left:45%; 
+	top:44%;
+}
+#monde-map .hotspots span#mozambique-drop-in {
+	left:51%; 
+	top:57%;
+}
+#monde-map .hotspots span#russie-drop-in {
+	left:55%; 
+	top:15%;
+}
+
+/*
+.monde {
+	margin: 0 auto;
+	max-width:900px;
+    width: 100%; 
+	text-align:middle;
+}*/
+
+
+#France,#Liban, #Ouganda, #Namibie, #Sri-Lanka, #Japon, #Colombie, #Bolivie, #Canada, #Birmanie, #Oman, #Madagascar, .mystere2015 {
+	z-index:1;
+	width: 85%;
+	position: relative; 
+	top: 0px;
+	left:0px;
+	cursor:move;
+}
+
+.mini-puzzle{
+	width: 82%;
+	height: auto; 
+}
+
+.puzzle-piece td{
+	font-family: "littledays";
+	font-size:20px;
+	text-align:center;
+	vertical-align:center;
+}
+
+
+#monde-map {
+	position: relative; 
+	top: 10px;
+}
+
+ul.list-bulle {
+	margin-top: 5px;
+	margin-left: 10px;
+	}
+	
+/* Pour styler le slider cyclone */
+.cycloneslider-caption {
+	margin-bottom: 15px!important;
+}
+
+#map_ou_actuellement{
+	visibility:hidden !important;
+}
+
+/* Contact form */
+
+#form td{
+	padding-right:30px !important;
+	vertical-align:middle!important;
+}
+
+
+/*Pour la barre faussement admin*/
+#admin-like{
+	font: 400 13px/32px "Open Sans",sans-serif;
+	height: 32px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-width: 600px;
+	color: #fff;
+	background: #cf4944;
+	padding-left:50px;
+	z-index:9999;
+	display:block;	
+	padding-left:25px!important;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+#admin-like, img#grand-Header, #wrapEDF, #menu-fixed{
+display:none;
+}
+}
+
+button#bbp_reply_submit.button.submit, input.newsletter-submit, #subscription-toggle, input.wysija-submit.wysija-submit-field,input#members_search_submit, #buddypress input[type=submit], #buddypress input[type=submit]:hover,input#members_search_submit:hover{
+	-webkit-appearance: none;
+	-webkit-background-clip: border-box;
+	-webkit-background-origin: padding-box;
+	-webkit-background-size: auto;
+	-webkit-box-shadow: rgba(120, 200, 230, 0.498039) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.14902) 0px 1px 0px 0px;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgb(46, 162, 204);
+	background-image: none;
+	background-origin: padding-box;
+	background-size: auto;
+	border-bottom-color: rgb(0, 116, 162);
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: rgb(0, 116, 162);
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: rgb(0, 116, 162);
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: rgb(0, 116, 162);
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	box-shadow: rgba(120, 200, 230, 0.498039) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.14902) 0px 1px 0px 0px;
+	box-sizing: border-box;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	display: inline;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	height: 30px;
+	line-height: 28px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 25px;
+	margin-top: 0px;
+	padding-bottom: 2px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 0px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: baseline;
+	white-space: nowrap;
+	width: auto;
+}
+input.wysija-submit.wysija-submit-field{
+	width: 120px!important;
+}
+input#members_search_submit, #buddypress input[type=submit]{
+	width:auto!important;
+}
+#connect-Home{ 
+	padding-left:300px
+	}
+	
+	
+	
+ input.newsletter-submit > a, #subscription-toggle a {
+	color: #fff;
+	background-color: rgb(46, 162, 204);
+	
+}
+
+.wp-polls .Buttons, .wpProQuiz_button, input.content-protector-form-submit, #ug_submit_button{
+	background: #002b75!important;
+	padding: 12px 18px!important;
+	font-size: 14px!important;
+	border: none!important;
+	display: inline-block!important;
+	color: #fff!important;
+	transition: background .6s ease-out!important;
+	-webkit-transition: background .6s ease-out!important;
+	-moz-transition: background .6s ease-out!important;
+	-o-transition: background .6s ease-out!important;
+	width:auto
+	height: auto!important;
+	border-radius: 5px!important;
+	max-width: 570px!important;
+	cursor: pointer!important;
+	display: inline-block!important;
+}
+
+.wp-polls .Buttons:hover, .wpProQuiz_button:hover, input.content-protector-form-submit:hover, #ug_submit_button:hover{
+background: #007cba!important;
+padding: 12px 18px!important;
+font-size: 14px!important;
+border: none!important;
+display: inline-block!important;
+color: #fff!important;
+transition: background .6s ease-out!important;
+-webkit-transition: background .6s ease-out!important;
+-moz-transition: background .6s ease-out!important;
+-o-transition: background .6s ease-out!important;
+width:auto
+height: auto!important;
+border-radius: 5px!important;
+max-width: 570px!important;
+cursor: pointer!important;
+display: inline-block!important;
+
+}
+.wp-polls .Buttons:hover >a{
+color: #fff;
+}
+
+/* WP-pro-quiz customisation: remove unecessary button */
+div.wpProQuiz_quiz > ol > li > input:nth-child(5){
+display:none!important
+}
+
+
+div.wpProQuiz_quiz > ol > li > input:nth-child(6){
+    position: absolute;
+    display: none!important;
+}
+
+#PLM_org{
+	float:right;
+	background-color: rgb(34, 34, 34);
+/*	background-image: repeating-linear-gradient(45deg, rgb(34, 34, 34,1), rgb(34, 34, 34,1) 35px, rgba(207, 73, 68, 1) 35px, rgba(207, 73, 68, 1) 70px);*/
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#PLM_org> a {
+	color: #fff;	
+}
+
+
+/* pour styler la side bar */
+
+.sidebar .widget-inner li{
+	line-height: 20px !important;
+}
+
+}
+.sidebar .widget-inner li{
+	border-color: rgba(0,0,0,.1)!important;
+}
+
+#ktsidebar h2{
+	font-family: "Open Sans";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+}
+
+/*To fix the overlapping video issue*/
+
+iframe {
+	max-width:100%!important;
+	margin: 0 auto;
+	display: block;
+	}
+	
+/* to have the captions not only on hover in galleries*/
+.kad_caption {
+	ms-filter: "alpha(Opacity=90)"!important;
+	filter: alpha(opacity=90)!important;
+	-moz-opacity: 0.9!important;
+	-khtml-opacity: 0.9!important;
+	opacity: 0.9!important;
+}	
+
+/* to have the gallery navigation disappear in the footer */
+.footer-widget .flex-control-nav {
+	display:none!important;
+}
+
+
+/* To get slider pagination less visible */
+.kad-slider ul.kad-slider-pagination {
+	opacity:0.5!important;
+}
+
+/* styler les listes de chapitre pour les écoles */
+
+ol.chapitre li{
+	font-family: "littledays";
+	font-size: 20px;
+	text-decoration:underline;
+	text-decoration-color:rgba(0, 0, 0, .05) !important;;
+	 line-height:200%;
+}
+ol.chapitre {
+	margin-left:30px;
+}
+
+/* to style counter widget */
+.cpd-l{
+list-style-type: none!important;
+margin-left: -10px!important;
+}
+
+.cpd{
+	margin-top:-30px!important;
+}
+.cpd-r {
+	float: left!important;
+	text-align: left!important;
+	font-weight:bold!important;
+	
+}
+
+/* to style Support us sticker */
+div#supportPLM{
+	position: absolute;
+	left:-5%;
+	top:10%;
+}
+
+.anim750{
+  transition: all 750ms ease-in-out;
+}
+
+#Awesome{
+	position: relative;
+	width: 180px;
+	height: 180px;
+	margin: 0 auto;
+  
+  backface-visibility: hidden;
+}
+
+#Awesome .sticky{
+	transform: rotate(45deg);
+}
+
+#Awesome:hover .sticky{
+	transform: rotate(10deg);
+}
+
+#Awesome .sticky{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width:180px;
+	height: 180px;
+}
+
+#Awesome .reveal .circle{
+	box-shadow: 0 1px 0px rgba(0,0,0,.15);
+  
+  font-family: 'helvetica neue', arial;
+  font-weight: 200;
+  line-height: 20px;
+  text-align: center;
+  padding-top:30px;
+  cursor: pointer;
+}
+
+#Awesome .reveal .circle{
+	background: #fafafa;
+}
+
+#Awesome .circle_wrapper{
+	position: absolute;
+	width: 180px;
+	height: 180px;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+}
+
+#Awesome .circle{
+	position: absolute;
+	width: 140px;
+	height:  140px;
+	margin: 20px;
+	
+	border-radius: 999px;
+}
+
+#Awesome .back{
+	height: 10px;
+	top: 30px;
+}
+
+#Awesome:hover .back{
+	height: 90px;
+	top: 110px;
+}
+
+#Awesome .back .circle{
+	margin-top: -130px;
+	background-color: #fbec3f;
+
+	background-image: -webkit-linear-gradient(bottom, rgba(251,236,63,.0), rgba(255,255,255,.8));
+}
+
+#Awesome:hover .back .circle{
+	margin-top: -50px;
+}
+
+#Awesome .front{
+	height: 150px;
+	bottom: 0;
+	top: auto;
+	
+	-webkit-box-shadow: 0 -140px 20px -140px rgba(0,0,0,.3);
+}
+
+#Awesome:hover .front{
+	height: 70px;
+	
+	-webkit-box-shadow: 0 -60px 10px -60px rgba(0,0,0,.1);
+}
+
+#Awesome .front .circle{
+	margin-top: -10px;
+	background: #fbec3f;
+
+	background-image: -webkit-linear-gradient(bottom, rgba(251,236,63,.0) 75%, #f7bb37 95%);
+  background-image: -moz-linear-gradient(bottom, rgba(251,236,63,.0) 75%, #f7bb37 95%);
+  background-image: linear-gradient(bottom, rgba(251,236,63,.0) 75%, #f7bb37 95%);
+}
+
+#Awesome #SupportFrench{
+	font-family: 'helvetica neue', arial;
+	 font-weight: 300;
+	 text-align: center;
+	position: relative;
+	left:0%;
+	top:45%;
+	width: 180px;
+	height:180px;
+	 line-height: 20px;
+	transition: opacity 50ms linear 400ms;
+}
+
+#Awesome:hover #SupportFrench{
+	opacity: 0;	
+	transition: opacity 50ms linear 300ms;
+}
+
+#Awesome:hover .front .circle{
+	margin-top: -90px;
+	background-color: #e2d439;
+	background-position: 0 100px;
+}
+
+/* To have school lists as "Chapitres" */
+
+ol.chapitre {list-style: none; counter-reset: chapter 1;}
+ol.chapitre li+li {counter-increment: chapter 1; list-style: none;}
+ol.chapitre li:before {content: "Chapitre " counter(chapter) " : "}
+
+
+/* To hide the main video in vimeography 
+
+div.vimeography-main {
+	display:none;
+}*/
+
+/* To center map makers Maps -> add the new id whenever adding a map */
+div#lmm_0729eb9c{
+	display:block;
+	margin:0 auto;
+}
+
+/* to style le where are we? Ou sommes-nous ? */
+img#grand-Header{
+	position:absolute;
+	top:40px;
+	right:11%;
+	width:200px;
+}
+
+/* to style hr delimiting tweets */
+hr.twitter-hr{
+	width: 80%;
+	height: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#FF0066;
+	color:#FF0066;
+	border: 0 none;
+	margin-top: 30px;
+	margin-bottom:30px;
+}
+
+/* to embed tweets in center rather than left. Use a container div with class 'centered-tweet */
+
+.centered-tweet iframe{
+	margin-right: auto !important;
+	margin-left: auto !important;
+}
+/* to style Kasese name game */
+.names-written, .faces{
+	width:100%;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.names-written td {
+		font-size:20px;
+		text-align:center;
+		vertical-align:center;
+}
+
+.names-written td img{
+	width:90%;
+}
+	
+.noms {
+	z-index:1;
+	width: 25%;
+	position: relative; 
+	top: 0px;
+	left:0px;
+	cursor:move;
+}
+
+
+.names-written td img{
+	width:100%;
+}
+
+table.faces td, table.faces td figure{
+	text-align:center;
+	padding-left:5%;
+	padding-right:5%;
+}
+
+.legende{
+	opacity: 0;
+	background-color:black;
+	color:white;
+	font-size: 19px;
+	font-family: littledays;
+	padding-top:10px
+	}
+	
+/* les captions de WP sont trop petites */
+.wp-caption-text{
+	font-size:15px;
+	margin-top: 5px;
+}
+
+/* Pour le trophée EDF */
+
+#wrapEDF{
+	width:231;
+	height:164,5;
+	float:left;
+	position:absolute;
+	left:-110px;
+}
+
+#EDF{
+	border: none;
+	overflow: hidden;
+	 ms-zoom: 0.7;
+	    -moz-transform: scale(0.7);
+	    -moz-transform-origin: 0 0;
+	    -o-transform: scale(0.7);
+	    -o-transform-origin: 0 0;
+	    -webkit-transform: scale(0.7);
+	    -webkit-transform-origin: 0 0;
+}
+
+#EDF-vote img{
+position:relative;
+z-index: 99999;
+}
+
+
+div#EDF-vote{
+text-align: left;
+margin-top: -100px;
+margin-left: -30px
+}
+
+
+div#actionBar.action-bar{
+border-left:2px solid #cf4944!important;
+border-top:2px solid #cf4944!important;
+}
+
+
+
+/* Pour Pelico dans quelle aventure */
+
+/* Pour cacher Pelico et les nuages de la page d'acceuil si l'écran est trop petit */ 
+@media screen and (max-width: 900px) {
+  #home-page-container, #homeheader { 
+	display: none !important; 
+	visibility: hidden;}  /* hide it on small screens */
+}
+
+
+#dragPelico{
+	display:inline !important;
+	z-index:1;
+	cursor:move;
+}
+
+#home-page-container{
+	position:relative;
+	max-width:1300px;
+	height:700px;
+    width: 120%;
+	margin-bottom: 200px;
+}
+
+/*
+#home-page-container div{
+	position:absolute;
+	vertical-align: middle;
+	padding: 13px;
+	display: table-cell;
+}*/
+
+#home-page-container div img{
+	height:auto;
+/*	opacity:0.4;*/
+}
+#home-page-container div{
+	position:absolute;
+}
+
+#home-page-container div .question {
+	position:absolute;
+	display:block;
+	font-family:"littledays";
+	font-size:80px;
+	left:70%;
+	top:40%;
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg);
+	-o-transform: rotate(-20deg);
+	text-shadow: 1px 1px 1px #7a7979;
+	z-index:0;
+	color:white;
+}
+
+#home-page-container div .attractP {
+	position:absolute;
+	display:block;
+	left:70%;
+	top:0%;
+	color:white;
+	border:solid 1px black;
+	width:50px;
+	height:100px;
+}
+
+
+
+#home-page-container > div > div {
+	visibility:hidden;
+}
+
+
+#nuage-quoi{
+	top:13%;
+	left:1%;
+}
+
+#nuage-quoi div{
+	position:absolute;
+	top:-20%;
+	left:+89%;
+	width:330px ;
+	height:auto;
+	padding-right: 2px;
+	padding-left: 2px;
+	text-align:left;
+}
+
+#nuage-qui{
+	top:-1%;
+	left:56%;
+}
+
+#nuage-qui div{
+	position:absolute;
+	top:95%;
+	left:-60%;
+	width:470px ;
+	height:auto;
+	padding-right: 2px;
+	padding-left: 2px;
+	text-align:right;
+
+}
+
+#nuage-quand{
+	top:65%;
+	left:-5%;
+}
+
+#nuage-quand div {
+	position:absolute;
+	width:280px ;
+	height:auto;
+	padding-right: 2px;
+	padding-left: 2px;	
+	top:5%;
+	left:90%;	
+	text-align:left;
+}
+
+#nuage-ou{
+	top:62%;
+	left:67%;
+}
+
+#nuage-ou div{
+	position:absolute;
+	width:300px ;
+	height:auto;
+	padding-right: 2px;
+	padding-left: 2px;	
+	top:20%;
+	left:-90%;	
+	text-align:right;
+}
+
+
+#nuage-comment{
+	top:90%;
+	left:22%;
+}
+
+#nuage-comment div{
+	position:absolute;
+	width:380px ;
+	height:auto;
+	padding-right: 2px;
+	padding-left: 2px;	
+	top:20%;
+	left:+98%;
+	text-align:left;
+}
+
+#PelicoAventure{ /* pour modifier le titre de la page d'accueil*/
+	position:relative !important;
+	top:350px !important;
+	width:95% !important;
+	padding-right:0px!important;
+	display: inline;
+	font-family: littledays;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: normal;
+	height: auto;
+	line-height: 40px;
+}
+
+#PLM-home-title-1, #PLM-home-title-2{
+	font-size:26px !important;
+	display:inline !important;
+	
+}
+
+#PLM-home-title-2{
+	padding-left:0px!important;	
+}
+
+
+
+
+/* Style de la pastille de notification nouvel article */
+
+#post-counter{
+	height: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 36px;
+	width: 25px;
+	/* padding: px; */
+	display: inline-block;
+	color: #fff;
+	text-shadow: 0px 1px 1px #707070;
+	font-weight: bold;
+	font-family: helvetica;
+	text-align: center;
+	font-size: 12px;
+	top: 24px;
+	right: 87px;
+	position: absolute;
+	background-color: #91daf6;
+ 	line-height: 1.7;
+	border: 1px solid #7cb7cd;
+	background: -webkit-linear-gradient(top, #c2ecfa 0%, #71cef3 100%);
+	background: -moz-linear-gradient(top, #c2ecfa 0%, #71cef3 100%);
+	background: -ms-linear-gradient(top, #c2ecfa 0%, #71cef3 100%);
+	background: -o-linear-gradient(top, #c2ecfa 0%, #71cef3 100%);
+	background: linear-gradient(top, #c2ecfa 0%, #71cef3 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#c2ecfa', endColorstr='#71cef3', GradientType=0 );
+}
+
+#new-post-alert{
+	position: absolute;
+	    right: -56px;
+	    top: -30px;	
+		transition: all 0.2s ease;
+	
+}
+
+.menu-france:hover ~ #new-post-alert{
+	right: -86px;
+}
+
+/*#menu-fixed div#img_namibie{
+background:url(http://www.parlemonde.fr/wp-content/uploads/2015/04/namibie.png) no-repeat center 0;
+}
+
+#menu-fixed div#img_ouganda{
+background:url(http://www.parlemonde.fr/wp-content/uploads/2015/04/ouganda.png) no-repeat center 0;
+}
+
+#menu-fixed div#img_liban{
+background:url(http://www.parlemonde.fr/wp-content/uploads/2015/04/liban.png) no-repeat center 0;
+}
+
+#menu-fixed div#img_france{
+background:url(http://www.parlemonde.fr/wp-content/uploads/2015/04/france.png) no-repeat center 0;
+}
+
+#menu-fixed div#img_sri-lanka{
+background:url(http://www.parlemonde.fr/wp-content/uploads/2015/05/sri-lanka.png) no-repeat center 0;
+}
+
+#menu-fixed div#img_japon{
+background:url(http://www.parlemonde.fr/wp-content/uploads/2015/06/japon.png) no-repeat center 0;
+}
+
+#menu-fixed div#img_enigme, {
+background:url(http://www.parlemonde.fr/wp-content/uploads/2015/04/enigme.png) no-repeat center 0;
+}
+
+#menu-fixed div#img_prof{
+background:url(http://www.parlemonde.fr/wp-content/uploads/2015/05/prof-r.png) no-repeat center 0;
+margin-top:-4px;
+}
+
+#menu-fixed div#img_journal{
+background:url(http://www.parlemonde.fr/wp-content/uploads/2015/08/journal.png) no-repeat center 0;
+}
+
+#menu-fixed div#img_bolivie{
+background:url(http://www.parlemonde.fr/wp-content/uploads/2015/11/bolivie1.png) no-repeat center 0;
+}
+
+#menu-fixed div#img_prof > div, #menu-fixed div#img_mystere > div {
+	margin-top:-3px;	
+}
+
+
+#menu-fixed div#img_mystere{
+background:url(http://www.parlemonde.fr/wp-content/uploads/2016/01/pays-mystere-2.png) no-repeat center 0;
+}
+
+#menu-fixed div#img_madagascar{
+background:url(http://www.parlemonde.fr/wp-content/uploads/2015/11/madagascar1.png) no-repeat center 0;
+}
+
+#menu-fixed div#img_oman{
+background:url(http://www.parlemonde.fr/wp-content/uploads/2015/11/oman1.png) no-repeat center 0;
+}
+
+#menu-fixed div#img_espagne{
+background:url(http://www.parlemonde.fr/wp-content/uploads/2016/06/espagne-small.png) no-repeat center 0;
+}
+
+#menu-fixed div.icone {
+height: 40px;
+margin-bottom: 5px;
+margin-top: 5px;
+}
+*/
+
+
+
+/* To add a ressource type of list */
+
+ol.ressource li{
+	font-family: "littledays";
+	font-size: 20px;
+/*	text-decoration:underline;*/
+	line-height:200%;
+}
+ol.ressource {
+	margin-left:30px;
+}
+	
+	ol.ressource {list-style: none; counter-reset: chapter 1;}
+	ol.ressource li+li {counter-increment: chapter 1; list-style: none;}
+	ol.ressource li:before {content: "Ressource " counter(chapter) " : "}
+	
+/* For ressource game */ 
+span#coco1{
+width:75%!important;
+height:5%!important;
+top:42%!important;
+}
+span#coco2{
+	width:20%!important;
+	height:5%!important;
+	top:42%!important;
+	left:80%
+}
+
+span#peche{
+	width:65%!important;
+	height:20%!important;
+	top:48%!important;
+	left:32%
+}
+
+span#tourisme{
+	width:22%!important;
+	height:22%!important;
+	top:48%!important;
+	left:1%
+}
+
+span#eole1{
+	width:5%!important;
+	height:12%!important;
+	bottom:58.2%!important;
+	left:27%
+}
+
+span#eole2{
+	width:5%!important;
+	height:8%!important;
+	bottom:58.2%!important;
+	left:64%
+}
+
+span#eole3{
+	width:4.8%!important;
+	height:18%!important;
+	bottom:54%!important;
+	left:75.1%
+}
+span#coco1:hover, span#coco2:hover, span#eole1:hover, span#eole2:hover, span#tourisme:hover, span#eole3:hover, span#peche:hover{
+	cursor:pointer;
+}
+	
+span#peche:hover + span#peche-explained, span#coco1:hover + span#coco-explained, span#coco2:hover + span#coco-explained2, span#tourisme:hover + span#tourisme-explained, span#eole1:hover + span#eole-explained, span#eole2:hover + span#eole-explained2, span#eole3:hover + span#eole-explained3{
+	opacity:1;
+}
+
+
+.explanation {
+	transition: all 0.5s ease;
+	text-align: center;
+	padding:20px 20px 20px 20px;
+	font-size: 30px;
+	line-height: 32px;
+	position: absolute;
+	top:78%;
+	color: rgb(183, 183, 183);
+	width:100%!important;
+	opacity:0;
+	height:15%!important;
+	}
+	
+	
+.pullquote-left::before{
+	color: rgba(0, 0, 0, 0.53)!important;	
+}
+
+pullquote-lb::before{
+	color: rgba(0, 0, 0, 0.53)!important;	
+}
+
+/* to get vimeo video fluid */
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 10px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* pour l'article nouvel an cingalais */
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+span#SRL1-food{
+	width:26%;
+	height:35%;
+	left:8%;
+	bottom:1%;	
+}
+
+span#SRL2-stick{
+	width:50%;
+	height:35%;
+	top:0;
+}
+span#SRL3-pillow{
+width:30%;
+height:35%;
+top:5%;
+left:55%;
+}
+
+span#SRL4-elephant{
+	width:35%;
+	height:35%;
+	bottom:5%;
+	left:58%;
+}
+
+div#SRL-explained{
+	position:relative;
+	padding-bottom:400px;
+}
+div#SRL-explained span {
+	position:absolute;
+	width: 100%;
+	display:none!important;	
+	opacity:0;
+	transition:all 1s ease;
+}
+
+#new-year-map .new-year-hotspots span:hover{
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.45) 0%, rgba(255,255,255,0) 62%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.45)), color-stop(62%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.45) 0%,rgba(255,255,255,0) 62%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.45) 0%,rgba(255,255,255,0) 62%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.45) 0%,rgba(255,255,255,0) 62%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  rgba(255,255,255,0.45) 0%,rgba(255,255,255,0) 62%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+ /* IE6-9 fallback on horizontal gradient */
+}
+
+#SRL-explained span:target{
+	display:inline!important;
+	opacity:1;
+}
+
+
+/* Pour styler les champs de recherche */
+.VS-interface{
+padding-left: 3px !important;
+}
+
+.VS-interface.ui-autocomplete{
+line-height: 20px !important;
+min-width: 150px!important;
+max-width: 520px!important;
+width:auto!important;
+}
+
+/* Pour résoudre le bug des tabs */
+.tab-content >.tab-pane {
+    display: block!important;
+    visibility: hidden!important;
+    overflow: hidden!important;
+    height: 0px!important;
+    padding: 0!important;
+}
+.tab-content >.active {
+display: block!important;
+visibility: visible!important;
+height: auto!important;
+padding: 10px 0!important;
+}
+
+/* To adjust position of back-to-top */
+
+div#topcontrol{
+	bottom: 5px!important;
+}
+
+
+input#wpbdmsearchsubmit.submit{
+-webkit-appearance: none;
+-webkit-background-clip: border-box;
+-webkit-background-origin: padding-box;
+-webkit-background-size: auto;
+-webkit-box-shadow: rgba(120, 200, 230, 0.498039) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.14902) 0px 1px 0px 0px;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: rgb(46, 162, 204);
+background-image: none;
+background-origin: padding-box;
+background-size: auto;
+border-bottom-color: rgb(0, 116, 162);
+border-bottom-left-radius: 3px;
+border-bottom-right-radius: 3px;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+border-left-color: rgb(0, 116, 162);
+border-left-style: solid;
+border-left-width: 1px;
+border-right-color: rgb(0, 116, 162);
+border-right-style: solid;
+border-right-width: 1px;
+border-top-color: rgb(0, 116, 162);
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+border-top-style: solid;
+border-top-width: 1px;
+box-shadow: rgba(120, 200, 230, 0.498039) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.14902) 0px 1px 0px 0px;
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: pointer;
+display: inline;
+float: right;
+font-family: 'Open Sans', sans-serif;
+font-size: 13px;
+font-weight: normal;
+height: 30px;
+line-height: 28px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-top: 0px;
+padding-bottom: 2px;
+padding-left: 12px;
+padding-right: 12px;
+padding-top: 0px;
+text-align: center;
+text-decoration: none;
+vertical-align: baseline;
+white-space: nowrap;
+width: 191px;
+}
+
+
+/* To style lists */
+ul.listeRouge {
+list-style: none;
+}
+
+ul.listeRouge li:before {
+		 content: "\00BB \0020";
+		 color: #cf4944;
+		font-size:20px;
+		font-weight: bold;
+	     }
+
+ul.listeRouge li{
+	padding-bottom:6px;
+	margin-left:35px;
+}
+
+
+.pullquote-lb{
+    position: relative;
+    padding: 10px 90px 10px 90px;
+    margin: 30px 40px 30px 0 !important;
+    float: left;
+    max-width: 4950px;
+    font-size: 23px;
+    line-height: 29px;
+	width:100%;
+}
+
+.pullquote-lb::before{
+position: absolute;
+left: 0;
+top: 20%;
+font-size: 34px;
+color: rgba(0, 0, 0, 0.53)!important;	
+font-family: virtue_icons;
+font-style: normal;
+speak: none;
+font-weight: 400;
+content: "\e19f";
+-webkit-font-smoothing: antialiased;
+}
+
+
+
+
+
+.audioLevel .mejs-container{
+	margin-top:15px;
+}
+
+
+#csp_form input[name="csp_submit"]{
+	-webkit-appearance: none;
+	-webkit-background-clip: border-box;
+	-webkit-background-origin: padding-box;
+	-webkit-background-size: auto;
+	-webkit-box-shadow: rgba(120, 200, 230, 0.498039) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.14902) 0px 1px 0px 0px;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgb(46, 162, 204);
+	background-image: none;
+	background-origin: padding-box;
+	background-size: auto;
+	border-bottom-color: rgb(0, 116, 162);
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: rgb(0, 116, 162);
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: rgb(0, 116, 162);
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: rgb(0, 116, 162);
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	box-shadow: rgba(120, 200, 230, 0.498039) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.14902) 0px 1px 0px 0px;
+	box-sizing: border-box;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	display: inline;
+	float: right;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	height: 30px;
+	line-height: 28px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 25px;
+	margin-top: 0px;
+	padding-bottom: 2px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 0px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: baseline;
+	white-space: nowrap;
+	width: 191px;
+}
+
+#csp_form input[name="csp_input"]{
+	margin-left: 50px;
+	margin-top:1px;
+}
+
+#japon-france .wp-audio-shortcode{
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+/* BuddyPress */
+
+/* BuddyPress: removes forum tab, and activity tabs*/
+li#forums-personal-li, #wp-admin-bar-my-account-forums, li#activity-mentions-personal-li, li#wp-admin-bar-my-account-activity-mentions {
+	display:none!important;
+}
+
+/* to hide Bbpress from the buddypress stream */
+
+#buddypress .bbpress{
+	display:none;
+}
+
+/* MediaPress shortcut */
+
+#wp-admin-bar-my-account-mediapress{
+	display:none;
+}
+
+
+
+/* BbPress */
+.bbp-breadcrumb-home{
+display:none;	
+}
+
+
+#subscription-toggle {
+	margin-left:20px!important;
+	margin-bottom:20px!important;
+	width:121px!important;
+	color: rgb(255, 255, 255) !important;
+}
+
+#custom_html-4 > h3{
+	color:black;
+}
+
+
+/*For getting proper case of 'Classe'*/
+.entry-title::first-letter, tr.field_1 > td.data p::first-letter{
+	text-transform: uppercase;
+}
+
+
+
+
+#subjectless-kit .bbp-topic-form{
+	display:none;
+}
+#subjectless-kit{
+	margin-top:30px
+}
+.bbp_topic_create{
+	display:none!important;
+}
+
+#bbpress-forums .bbp-forums-list li { 
+	display: list-item ; 
+	font-size: 12px; 
+}
+	
+/* To display Who's on line avatars on a grid instead of vertical line*/
+
+.avatar-block .item-avatar img.avatar {
+float: left;
+margin: 0 10px 10px 0;
+width: 40px;
+height: auto;
+}
+
+/* To remove forms from GeoMyWP and contact form */
+
+#add_gmw_form{
+	display:none !important;
+}
+
+/* To style buddypress members page */
+
+#buddypress div.dir-search, #buddypress div.item-list-tabs#subnav ul li.last{
+	margin-right: 40px;
+}
+
+input#members_search{
+	width: 200px;
+}
+ 
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: opacity 0.1s 0.1s ease; 
+  opacity: 0;
+}
+
+/* To block access to password change through Buddypress */
+#general-personal-li{
+	display:none;
+}
+
+/* To remove title from leaderboard */
+.wpProQuiz_toplist h2{
+	display:none;
+}
+
+/* To style vimeo download links */
+.vimeoLink{
+	position:relative;
+	width:940px;
+	margin:0 auto;
+	font-weight:bolder;	
+}
+
+/* To signal incomplete help sections */
+#page-5323, #page-5556, #page-5145, #page-5187, #page-5188, #page-5191{
+background-color: rgb(255, 200, 55)!important;
+}
+
+/* to style "new" label in bbpress */
+
+.mycustom_new_label {
+	display: inline;
+	padding: .2em .6em .3em;
+	font-size: 11px;
+	line-height: 1;
+	color: #ffffff;
+	background-color: #d9534f;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: .25em;
+}
+
+#wp-admin-bar-comments{
+	display:none;
+}
+
+
+/* only for special message*/
+#content > div > div > div > div > div.home_blog.kad-animation > div > div {
+    width: 75% 	!important;
+}
+
+.pis-intro a, .pis-excerpt a {
+	color: #1e73be;
+}
+.pis-intro a:hover, .pis-excerpt a:hover {
+color:rgb(85, 161, 237);
+}
+
+/* to style jetpack slider gallery */
+
+.portfolio .slideshow-window, #gallery-7416-1-slideshow{
+background-color:transparent!important;	
+border:none!important;	
+}
+.portfolio .slideshow-slide-caption{
+	font-size: 24px!important
+	background-color: #cecece!important!;
+    line-height: 40px!important!;
+}
+
+/* to correct slider button position */
+mfp-arrow-right {
+    right: 60px!important;
+}
+
+
+
+
+/* To style homePage */
+
+
+.videofit{
+	max-width: 660px!important;
+	    margin-left: 20px!important;
+	    margin-right: auto!important;
+}
+
+#nav-main{
+	margin-top:2px!important;
+	margin-bottom:2px!important;
+	
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*  Modification du menu de navigation entre sous-sites
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.topbarmenu{
+    padding-top: 5px;
+}
+
+#menu-global > li > a > span:nth-child(1){
+	font-family: 'littledays';
+	font-size: 23px !important;
+	text-transform: capitalize;
+}
+
+
+#menu-global > li{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#welcome-plm{
+    color: white;
+    text-align: right;
+    padding-top: 7px;
+}
+
+
+/* current menu de navigation */
+.topbarmenu ul li .sf-dropdown-menu li.current-menu-parent > a{
+	color: #c16666;
+}
+
+#tobpar{
+	background-color:#87bc4b!important;
+}
+
+/* To change footer style */
+
+#text-3 input.wysija-submit.wysija-submit-field {
+    width: 120px!important;
+    float: right!important;
+    margin-top: -38px!important;
+}
+
+.footer-widget h3 {
+    border-top: 0px solid rgba(0, 0, 0, .05) !important;
+    border-top-width: 0px;
+    border-top-style: solid;
+    border-top-color: rgba(0, 0, 0, 0.05);
+	color:white!important;
+	margin-bottom: 25px!important;
+
+	    font-family: Alegreya;
+	    line-height: 40px;
+	    font-weight: 400;
+	    font-style: normal;
+	    font-size: 24px;
+
+}
+
+#containerfooter {
+     padding-top: 0px!important;
+    height: auto;
+    background-image: linear-gradient( to top, #87bc4b, #87bc4b 15%, rgb(255, 255, 255) 15%, #ffffff 85%, #87bc4b 85% )
+}
+
+.footercredits p {
+    color: white;
+}
+
+/* To change Home Page */
+
+.home-margin a:hover{
+	color:yellow!important;
+}
+
+.home-margin {
+    margin-top: 80px!important;
+margin-bottom: 60px!important;
+}
+
+.image_menu_message h4 {
+    position: absolute;
+    margin-top: -70px!important;
+	text-align: center!important;
+    color: #444;
+    background-color: none!important;
+background:none!important;
+    padding: 6px;
+    display: block;
+	font-family: "Alegreya";
+	    line-height: 30px;
+	    font-weight: 400;
+	    font-style: normal;
+	    font-size: 24px;
+}
+
+#content > div > div > div > div > div > div.tcol-lg-3.tcol-md-3.tcol-sm-4.tcol-xs-6.tcol-ss-12.kad-animation.image-menu-image-size.homeitemcount2 > a > img {
+    margin-top: -40px;
+}
+#content > div > div > div > div > div > div.tcol-lg-3.tcol-md-3.tcol-sm-4.tcol-xs-6.tcol-ss-12.kad-animation.image-menu-image-size.homeitemcount3 > a > img {
+    width: 90%;
+}
+
+.image_menu_message h5 {
+    position: absolute!important;
+    bottom: 10px!important;
+    text-align: center!important;
+    right: 0px!important;
+    color: #555;
+    margin: 0;
+    text-align: left!important;
+    padding: 4px 6px;
+    line-height: normal;
+	background: none!important;
+	background-color: none!important;
+}
+
+
+
+.homeitemcount1 h4, .homeitemcount2 h4{
+	left: 50px!important;	
+}
+
+.homeitemcount4 h4{
+	left: 30px!important;	
+}
+
+.homeitemcount1 h5 {
+	margin-bottom:-60px!important;
+}
+
+.homeitemcount2 h5, .homeitemcount3 h5, .homeitemcount4 h5 {
+    left: 17px!important;
+}
+
+.homeitemcount3 h5{
+	margin-bottom:-50px!important;
+}
+
+.homeitemcount4 h5{
+	margin-bottom:-50px!important;
+	
+}
+
+.home-margin h5{
+	color:white!important;
+	transition:all 0.1s ease;
+}
+
+.homeitemcount1:hover h5, .homeitemcount2:hover h5, .homeitemcount3:hover h5, .homeitemcount4:hover h5 {
+	color:black!important;
+}
+
+.image_menu_hover_class{
+	background:transparent!important;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------  */  
+/* Style du menu latéral
+/* ------------------------------------------------------------------------------------------------------------------------------------------------  */  
+#menu-fixed{
+	display:none;
+}
+
+#menu-fixed, #nav-second
+{
+position:fixed;
+top:15%;
+left: 11px;
+width: 99px;
+z-index: 99999;
+}
+
+#menu-fixed ul, #nav-second ul{
+list-style:none;
+padding-left: 0px!important;
+}
+
+#nav-second ul li{
+	display:list-item!important;
+}
+
+#menu-fixed ul li, #nav-second ul li a span{
+right:110px;
+position: relative;
+margin-bottom: 1px;
+background-color: #87ff00!important;
+border-radius: 7px;
+-webkit-border-radius: 7px;
+-moz-border-radius: 7px;
+border : 1px solid rgb(70, 99, 38);
+margin-right: -5px;
+height:70px ;
+width: 165px;
+-webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
+filter: grayscale(80%);
+transition: all 0.2s ease;
+}
+#nav-second ul li a{
+	padding:3px!important;
+}
+#nav-second ul.sf-menu>li.current-menu-item, #nav-second ul.sf-menu>li:hover{
+	background:none;
+	filter:none;
+	-webkit-filter:none;
+}
+
+#menu-fixed ul li:hover, #nav-second ul li a span:hover, #nav-second ul.sf-menu>li.current-menu-item a span:hover{
+background-color: white!important;		
+border: 1px solid #87bc4b;
+margin-left:30px;
+filter:none;
+-webkit-filter:none;
+}
+
+#nav-second ul.sf-menu>li.current-menu-item a span{
+	background-color: white!important;		
+	border: 1px solid #87bc4b;
+	filter:none;
+	-webkit-filter:none;	
+}
+
+#menu-fixed ul li div, #nav-second ul li a span{
+color: #4D4D4D;
+font-size: 100%;
+font-family: "littledays";
+/*margin-bottom: 10px;*/
+text-align: right;
+line-height: 115px;
+padding-right: 10px;
+}
+
+#nav-second ul li a span{
+	display : inline-block;
+}
+#nav-second ul li {
+	display : block;
+ 	width: 100%!important;
+}
+
+#menu-plm > li:first-child a span, #menu-plm-1 > li:first-child a span{
+	background:url(http://pelico.parlemonde.org/wp-content/uploads/sites/3/2017/06/France.png) no-repeat 110px 10px;
+	background-size: 35px 24px;
+	
+}
+
+/*
+#menu-plm > li:nth-child(2) a span, #menu-plm-1 > li:nth-child(2) a span{
+	background:url(http://pelico.parlemonde.org/wp-content/uploads/sites/3/2017/06/Morocco.png) no-repeat 110px 10px;
+	background-size: 35px 24px;
+	
+}*/
+
+#menu-plm > li:nth-child(2) a span, #menu-plm-1 > li:nth-child(2) a span, #menu-plm > li:nth-child(3) a span, #menu-plm-1 > li:nth-child(3) a span, #menu-plm > li:nth-child(4) a span, #menu-plm-1 > li:nth-child(4) a span,#menu-plm > li:nth-child(6) a span, #menu-plm-1 > li:nth-child(6) a span {
+	background:url(http://pelico.parlemonde.org/wp-content/uploads/sites/7/2018/08/lock-flag-2.png) no-repeat 110px 10px;
+	background-size: 35px 24px;
+}
+
+#menu-plm > li:nth-child(7) a span:before, #menu-plm-1 > li:nth-child(7) a span:before{
+	content: "?";
+    font-family: littledays;
+    font-size: 39px;
+    position: absolute;
+    top: -25px;
+    color: red;
+    left: 125px;
+}
+/*
+#menu-plm > li:nth-child(3) a span, #menu-plm-1 > li:nth-child(3) a span {
+	background:url(http://pelico.parlemonde.org/wp-content/uploads/sites/3/2017/06/Vietnam.png) no-repeat 110px 10px;
+	background-size: 35px 24px;
+	
+}
+
+
+#menu-plm > li:nth-child(4) a span, #menu-plm-1 > li:nth-child(4) a span{
+	background:url(http://pelico.parlemonde.org/wp-content/uploads/sites/3/2017/06/Mexico.png) no-repeat 110px 10px;
+	background-size: 35px 24px;
+	
+}*/
+
+
+#menu-plm > li:nth-child(5) a span, #menu-plm-1 > li:nth-child(5) a span {
+	background:url(http://pelico.parlemonde.org/wp-content/uploads/sites/3/2018/03/ICONE-TdF.png) no-repeat 110px 10px;
+	background-size: 38px 27px;
+	
+}
+/*
+#menu-plm > li:nth-child(6) a span, #menu-plm-1 > li:nth-child(6) a span {
+	background:url(http://pelico.parlemonde.org/wp-content/uploads/sites/3/2017/06/Brazil.png) no-repeat 110px 10px;
+	background-size: 38px 27px;
+	
+}*/
+/*
+#menu-plm > li:nth-child(6) a span:after{
+	content: "?";
+	    font-family: littledays;
+	    font-size: 39px;
+	    position: absolute;
+	    top: -25px;
+	    color: red;
+	    left: 125px;
+}*/
+/*
+#menu-plm > li:last-child a span{
+	background:url(http://pelico.parlemonde.org/wp-content/uploads/sites/3/2017/07/Twitter_Bird_logo.png) no-repeat 120px 10px;
+	background-size: 35px 30px;
+}*/
+
+#menu-global #new-post-alert {
+    display: none;
+}
+
+/* End of styling menu latéral */
+
+
+/* To style the admin bar */
+/*Admin bar en vert*/
+#wpadminbar{
+background: #87bc4b!important;
+}
+
+#wpadminbar .ab-top-menu > li > .ab-item:focus, #wpadminbar.nojq .quicklinks .ab-top-menu > li > .ab-item:focus, #wpadminbar .ab-top-menu > li:hover > .ab-item, #wpadminbar .ab-top-menu > li.hover > .ab-item, .ab-sub-wrapper{
+background: #87bc4b !important
+}
+
+
+#wpadminbar .quicklinks a, #wpadminbar .shortlink-input {
+color:#f3f1f1!important;
+}
+
+#wpadminbar .quicklinks a:hover, #wpadminbar .shortlink-input:hover {
+color:#FFF!important;
+}
+
+#wpadminbar .quicklinks .ab-sub-wrapper .menupop.hover>a, #wpadminbar .quicklinks .menupop ul li a:focus, #wpadminbar .quicklinks .menupop ul li a:focus strong, #wpadminbar .quicklinks .menupop ul li a:hover, #wpadminbar .quicklinks .menupop ul li a:hover strong, #wpadminbar .quicklinks .menupop.hover ul li a:focus, #wpadminbar .quicklinks .menupop.hover ul li a:hover, #wpadminbar .quicklinks .menupop.hover ul li div[tabindex]:focus, #wpadminbar .quicklinks .menupop.hover ul li div[tabindex]:hover, #wpadminbar li #adminbarsearch.adminbar-focused:before, #wpadminbar li .ab-item:focus .ab-icon:before, #wpadminbar li .ab-item:focus:before, #wpadminbar li a:focus .ab-icon:before, #wpadminbar li.hover .ab-icon:before, #wpadminbar li.hover .ab-item:before, #wpadminbar li:hover #adminbarsearch:before, #wpadminbar li:hover .ab-icon:before, #wpadminbar li:hover .ab-item:before, #wpadminbar.nojs .quicklinks .menupop:hover ul li a:focus, #wpadminbar.nojs .quicklinks .menupop:hover ul li a:hover, #wpadminbar .quicklinks .ab-sub-wrapper .menupop.hover>a, #wpadminbar .quicklinks .menupop ul li a:focus, #wpadminbar .quicklinks .menupop ul li a:focus strong, #wpadminbar .quicklinks .menupop ul li a:hover, #wpadminbar .quicklinks .menupop ul li a:hover strong, #wpadminbar .quicklinks .menupop.hover ul li a:focus, #wpadminbar .quicklinks .menupop.hover ul li a:hover, #wpadminbar .quicklinks .menupop.hover ul li div[tabindex]:focus, #wpadminbar .quicklinks .menupop.hover ul li div[tabindex]:hover, #wpadminbar li #adminbarsearch.adminbar-focused:before, #wpadminbar li .ab-item:focus .ab-icon:before, #wpadminbar li .ab-item:focus:before, #wpadminbar li a:focus .ab-icon:before, #wpadminbar li.hover .ab-icon:before, #wpadminbar li.hover .ab-item:before, #wpadminbar li:hover #adminbarsearch:before, #wpadminbar li:hover .ab-icon:before, #wpadminbar li:hover .ab-item:before, #wpadminbar.nojs .quicklinks .menupop:hover ul li a:focus, #wpadminbar.nojs .quicklinks .menupop:hover ul li a:hover, #wpadminbar .quicklinks .ab-sub-wrapper .menupop.hover>a .blavatar, #wpadminbar .quicklinks li a:focus .blavatar, #wpadminbar .quicklinks li a:hover .blavatar {
+    color: #ffffff!important;
+}
+
+/* Indice */ 
+
+ol.indice {
+	margin-left:30px!important;
+}
+
+ol.indice li{
+	font-family: "littledays"!important;
+	font-size: 20px!important;
+	text-decoration:underline!important;
+	text-decoration-color:rgba(0, 0, 0, .05) !important;
+	 line-height:200%!important;
+}
+
+ol.indice {list-style: none; counter-reset: chapter 1!important;}
+
+ol.indice li+li {counter-increment: chapter 1!important; list-style: none!important;}
+
+ol.indice li:before {content: "Indice " counter(chapter) " : "}
+
+
+/* Favorite */
+.simplefavorite-button {
+	float:right!important;
+}
+
+/* Video¨*/
+.videofit{
+	max-width: 700px!important;
+	margin: 0 auto!important;
+	margin-top: 30px!important;
+	margin-bottom: 30px!important;
+}
+
+/* Familly enigma */
+
+/* Password content */
+.content-protector-password {
+    width: 300px;
+    margin-right: 50px;
+}
+
+/* Attachment gallery */
+.gallery-image{
+	float: left;
+    margin: 10px 2%;
+}
+
+.postid-1534 .simplefavorite-button{
+	display:none;
+}
+
+/* To style new posts */
+.mnp-circle-after{
+	background-color: #91daf6;
+    
+}
+
+#post-1909 .content-protector-form-instructions > p, #post-1909 .content-protector-access-form .simplefavorite-button{
+	display:none!important;
+}
+
+
+/* To style enigme des familles #2 */
+
+#EF-button {
+    display: flex; 
+    justify-content: space-between; 
+}
+
+#EF-button img{
+  width:30%;
+  min-height: 0;
+  min-width:150px;
+  max-width:300px;
+  height:auto;
+  overflow: auto;
+filter: drop-shadow(5px 5px 5px rgba(117,117,117,1));
+cursor:help;
+transition: all 0.2s ease;
+}
+
+#EF-button img:hover{
+	filter:drop-shadow(5px 5px 5px black);
+/*	filter:brightness(90%);*/
+}	
+
+.hover-EF-indice1{
+	background:rgba(154,180,183,1);
+}
+.hover-EF-indice2{
+	background:#b3b3b3;
+}
+.hover-EF-indice3{
+	background:#f7be44;
+}
+
+div.wpProQuiz_results > p:nth-child(2){
+	display:none;
+}
+
+.wpProQuiz_resultsList .videofit{
+margin-top:140px!important;
+}
+	
+}
+/* To customize Findmypair plugin */
+#enigmePaire > div:nth-child(2) > div:nth-child(2){
+display:none!important;
+}
+
+div#enigmePaire {
+    position: absolute;
+    bottom: -180px;
+}
+
+#enigmePaire #mem-grid, #enigmePaire .memCard.empty{
+	background-color: transparent;
+    border-color: transparent
+}
+#enigmeHolder{
+	width:800px;
+	margin:0 auto;
+	padding-top: 90px;
+}
+
+#enigmeHolder > img{
+opacity: 0.1;
+}
+
+#imgWrapTemplate:hover{
+	background-color:#658c38
+}
+
+#custom_html-3 > div > form > div > ul > li:nth-child(2) > ul > li:nth-child(1) > label > input[type="radio"]{
+	display:none;
+}
+
+
+
+.activity-shortcode-title{
+	display:none;
+}
+
+
+/* NEW twitter like buttons  TO BE MOVED LIVE*/
+/* NEW twitter like buttons  TO BE MOVED LIVE*/
+/* NEW twitter like buttons  TO BE MOVED LIVE*/
+div#question-GE, div#comment-EH {
+	    position: fixed;
+		right: 5%;
+		bottom: 21%;
+	    font-family: littledays;
+	    color: #87bc4b;
+	    font-size: 65px;
+	    background-color: white;
+	    border-radius: 50%;
+	    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+		transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	
+}
+div#comment-EH {
+	padding: 18px 11px 33px 16px;
+	
+}
+div#question-GE{
+	padding: 38px 21px 14px 25px;
+	-webkit-transform: rotateZ(30deg);
+	          transform: rotateZ(30deg);
+	  -webkit-animation: ask 0.3s linear infinite;
+	          animation: ask 0.3s linear infinite;
+	  -webkit-animation-direction: alternate;
+	          animation-direction: alternate;
+	animation-play-state: paused; 
+}
+
+@keyframes ask {
+  0% {
+    -webkit-transform: rotateZ(0);
+	-moz-transform:rotateZ(0);
+	-o-transform: rotateZ(0);
+   	-ms-transform: rotateZ(0);
+            transform: rotateZ(0);
+  }
+  100% {
+  -webkit-transform: rotateZ(30);
+	-moz-transform:rotateZ(30);
+	-o-transform: rotateZ(30);
+  	-ms-transform: rotateZ(30);
+           transform: rotateZ(30);
+  }
+}
+
+
+div#question-GE:after{
+            color:#e9e6e4;
+            content: "";
+            display: block;
+            font-size: 30px;
+            height: 30px;
+            text-decoration: none;
+            text-shadow: 0px -1px 1px #bdb5b4, 1px 1px 1px white;
+            position: absolute;
+            width: 30px;
+        }
+
+div#question-GE:hover, div#comment-EH:hover {
+box-shadow: 0 14px 20px rgba(0,0,0,0.2), 0 10px 10px rgba(0,0,0,0.21);
+animation-play-state: running; 
+cursor:pointer;
+}
+
+
+/* To change BP look BP activity shortcode*/
+#buddypress ul.item-list li {
+    padding: 15px 0;
+    margin: 0;
+    position: relative;
+    list-style: none;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    margin-bottom: 12px;
+}
+
+iv.activity-limit {
+    margin: 1px 10px 0 0!important;
+    line-height: 28px;
+}
+
+.atwho-view, .username strong {
+	color: #87bc4b !important;
+}
+
+#mpp-activity-upload-buttons:after{
+	content:"Rajouter une photo !";
+	color:#444;
+}
+
+#mediapress-personal-li{
+	display:none;
+}
+
+#wp-admin-bar-my-account-mediapress{
+	display:none;
+}
+

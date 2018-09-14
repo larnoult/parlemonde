@@ -1,0 +1,489 @@
+# Translation of Plugins - Flamingo - Stable (latest release) in Arabic
+# This file is distributed under the same license as the Plugins - Flamingo - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-08-08 13:02:59+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ar\n"
+"Project-Id-Version: Plugins - Flamingo - Stable (latest release)\n"
+
+#. translators: date format, see https://php.net/date
+#: includes/class-inbound-message.php:161
+msgid "M j, Y @ H:i"
+msgstr "j F، Y @ H:i"
+
+#: admin/includes/privacy.php:80
+msgid "Flamingo Inbound Messages: You are not allowed to delete inbound messages."
+msgstr "رسائل Flamingo الواردة: غير مسموح لك حذف الرسائل الواردة."
+
+#: admin/includes/privacy.php:38
+msgid "Flamingo Address Book: You are not allowed to delete contact data."
+msgstr "دفتر عناوين Flamingo: غير مسموح لك حذف بيانات جهة الاتصال."
+
+#: admin/includes/meta-boxes.php:170
+msgid "Update"
+msgstr "تحديث"
+
+#. translators: %s: message submission date
+#: admin/includes/meta-boxes.php:128
+msgid "Submitted on: %s"
+msgstr "أرسل في: %s"
+
+#: admin/includes/meta-boxes.php:118
+msgid "Inbound message status"
+msgstr "حالة الرسالة الواردة"
+
+#: admin/includes/class-inbound-messages-list-table.php:292
+msgid "View"
+msgstr "عرض"
+
+#: admin/admin.php:700
+msgid "Consent"
+msgstr "موافقة"
+
+#: admin/admin.php:691
+msgid "Status"
+msgstr "الحالة"
+
+#. Description of the plugin/theme
+msgid "A trustworthy message storage plugin for Contact Form 7."
+msgstr "إضافة لتخزين الرسائل جديرة بالثقة لإضافة Contact Form 7."
+
+#: admin/admin.php:705
+msgid "Meta"
+msgstr "بيانات تعريفية"
+
+#. Author of the plugin/theme
+msgid "Takayuki Miyoshi"
+msgstr "Takayuki Miyoshi"
+
+#: includes/class-outbound-message.php:21
+msgid "Flamingo Outbound Message"
+msgstr "رسالة صادرة"
+
+#: includes/class-outbound-message.php:20
+msgid "Flamingo Outbound Messages"
+msgstr "رسائل صادرة"
+
+#: includes/class-inbound-message.php:201
+#: includes/class-outbound-message.php:98
+msgid "(No Title)"
+msgstr "(بدون عنوان)"
+
+#: includes/class-inbound-message.php:45
+msgid "Flamingo Inbound Message Channel"
+msgstr "قناة رسالة Flamingo الواردة"
+
+#: includes/class-inbound-message.php:44
+msgid "Flamingo Inbound Message Channels"
+msgstr "قنوات رسائل Flamingo الواردة"
+
+#: includes/class-inbound-message.php:28
+msgid "Flamingo Inbound Message"
+msgstr "رسالة Flamingo واردة"
+
+#: includes/class-contact.php:30
+msgid "Flamingo Contact Tag"
+msgstr "وسم جهة اتصال Flamingo"
+
+#: includes/class-contact.php:29
+msgid "Flamingo Contact Tags"
+msgstr "وسوم جهات اتصال Flamingo"
+
+#: includes/class-contact.php:21
+msgid "Flamingo Contact"
+msgstr "جهة إتصال Flamingo"
+
+#: includes/class-contact.php:20
+msgid "Flamingo Contacts"
+msgstr "جهات إتصال Flamingo"
+
+#: admin/includes/meta-boxes.php:315
+msgid "Send Message"
+msgstr "إرسال الرسالة"
+
+#: admin/includes/meta-boxes.php:273
+msgid "Save Draft"
+msgstr "حفظ المسودة"
+
+#: admin/includes/meta-boxes.php:81
+msgid "Choose from the most used tags"
+msgstr "اختر من الوسوم الأكثر استخداماً"
+
+#: admin/includes/meta-boxes.php:78
+msgid "Separate tags with commas"
+msgstr "فصل الوسوم بفواصل"
+
+#: admin/includes/meta-boxes.php:31
+msgid "Add Contact"
+msgstr "إضافة جهة اتصال"
+
+#: admin/includes/meta-boxes.php:29
+msgid "Update Contact"
+msgstr "تحديث جهة الاتصال"
+
+#: admin/includes/meta-boxes.php:23
+msgid ""
+"You are about to delete this contact '%s'\n"
+" 'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"أنت على وشك حذف جهة الاتصال هذه '%s' \n"
+"انقر على 'Cancel' للإلغاء أو على 'OK' لتأكيد الحذف."
+
+#: admin/includes/class-inbound-messages-list-table.php:312
+#: admin/includes/meta-boxes.php:119 includes/class-inbound-message.php:35
+msgid "Spam"
+msgstr "رسالة غير مرغوب فيها"
+
+#: admin/includes/class-inbound-messages-list-table.php:253
+#: admin/includes/class-outbound-messages-list-table.php:177
+msgid "Empty Trash"
+msgstr "إفراغ سلة المهملات"
+
+#: admin/includes/class-inbound-messages-list-table.php:234
+msgid "View all channels"
+msgstr "شاهد جميع القنوات"
+
+#: admin/includes/class-inbound-messages-list-table.php:200
+msgid "Mark as Spam"
+msgstr "وضع علامة مزعج"
+
+#: admin/includes/class-inbound-messages-list-table.php:198
+#: admin/includes/class-inbound-messages-list-table.php:302
+#: admin/includes/meta-boxes.php:120
+msgid "Not Spam"
+msgstr "ليست رسالة غير مرغوب فيها"
+
+#: admin/includes/class-inbound-messages-list-table.php:194
+#: admin/includes/class-outbound-messages-list-table.php:159
+#: admin/includes/meta-boxes.php:146 admin/includes/meta-boxes.php:295
+msgid "Move to Trash"
+msgstr "نقل إلى سلة المهملات"
+
+#: admin/includes/class-inbound-messages-list-table.php:192
+#: admin/includes/class-outbound-messages-list-table.php:157
+#: admin/includes/meta-boxes.php:144 admin/includes/meta-boxes.php:293
+msgid "Delete Permanently"
+msgstr "الحذف بشكل نهائي"
+
+#: admin/includes/class-inbound-messages-list-table.php:188
+#: admin/includes/class-outbound-messages-list-table.php:153
+msgid "Restore"
+msgstr "استعادة"
+
+#: admin/includes/class-inbound-messages-list-table.php:152
+#: admin/includes/class-outbound-messages-list-table.php:117
+msgctxt "posts"
+msgid "Trash <span class=\"count\">(%s)</span>"
+msgid_plural "Trash <span class=\"count\">(%s)</span>"
+msgstr[0] "سلة المهملات <span class=\"count\">(%s)</span>"
+msgstr[1] "سلة المهملات <span class=\"count\">(%s)</span>"
+msgstr[2] "سلة المهملات <span class=\"count\">(%s)</span>"
+msgstr[3] "سلة المهملات <span class=\"count\">(%s)</span>"
+msgstr[4] "سلة المهملات <span class=\"count\">(%s)</span>"
+msgstr[5] "سلة المهملات <span class=\"count\">(%s)</span>"
+
+#: admin/includes/class-inbound-messages-list-table.php:127
+msgctxt "posts"
+msgid "Spam <span class=\"count\">(%s)</span>"
+msgid_plural "Spam <span class=\"count\">(%s)</span>"
+msgstr[0] "مزعج <span class=\"count\">(%s)</span>"
+msgstr[1] "مزعج <span class=\"count\">(%s)</span>"
+msgstr[2] "مزعج <span class=\"count\">(%s)</span>"
+msgstr[3] "مزعج <span class=\"count\">(%s)</span>"
+msgstr[4] "مزعج <span class=\"count\">(%s)</span>"
+msgstr[5] "مزعج <span class=\"count\">(%s)</span>"
+
+#: admin/includes/class-inbound-messages-list-table.php:111
+#: admin/includes/class-outbound-messages-list-table.php:98
+msgctxt "posts"
+msgid "Inbox <span class=\"count\">(%s)</span>"
+msgid_plural "Inbox <span class=\"count\">(%s)</span>"
+msgstr[0] "صندوق الوارد <span class=\"count\">(%s)</span>"
+msgstr[1] "صندوق الوارد <span class=\"count\">(%s)</span>"
+msgstr[2] "صندوق الوارد <span class=\"count\">(%s)</span>"
+msgstr[3] "صندوق الوارد <span class=\"count\">(%s)</span>"
+msgstr[4] "صندوق الوارد <span class=\"count\">(%s)</span>"
+msgstr[5] "صندوق الوارد <span class=\"count\">(%s)</span>"
+
+#: admin/includes/class-inbound-messages-list-table.php:17
+msgid "Channel"
+msgstr "القناة"
+
+#: admin/includes/class-contacts-list-table.php:302
+#: admin/includes/class-inbound-messages-list-table.php:402
+#: admin/includes/class-outbound-messages-list-table.php:251
+msgid "Y/m/d"
+msgstr "Y/m/d"
+
+#: admin/includes/class-contacts-list-table.php:300
+#: admin/includes/class-inbound-messages-list-table.php:400
+#: admin/includes/class-outbound-messages-list-table.php:249
+msgid "%s ago"
+msgstr "منذ %s"
+
+#: admin/includes/class-contacts-list-table.php:293
+#: admin/includes/class-inbound-messages-list-table.php:393
+#: admin/includes/class-outbound-messages-list-table.php:242
+#: includes/class-outbound-message.php:86
+msgid "Y/m/d g:i:s A"
+msgstr "Y/m/d g:i:s A"
+
+#. translators: 1: contact channel name, 2: contact count
+#: admin/includes/class-contacts-list-table.php:270
+msgctxt "contact history"
+msgid "%1$s (%2$d)"
+msgstr "%1$s (%2$d)"
+
+#: admin/includes/class-contacts-list-table.php:241
+msgid "Comment (%d)"
+msgstr "تعليق (%d)"
+
+#: admin/includes/class-contacts-list-table.php:227
+msgid "User"
+msgstr "مستخدم"
+
+#: admin/includes/class-contacts-list-table.php:187
+msgid "No Tags"
+msgstr "لا توجد وسوم"
+
+#: admin/includes/class-contacts-list-table.php:171
+#: admin/includes/class-inbound-messages-list-table.php:318
+#: admin/includes/class-outbound-messages-list-table.php:221
+msgid "Edit &#8220;%s&#8221;"
+msgstr "تحرير &#8220;%s&#8221;"
+
+#: admin/includes/class-contacts-list-table.php:165
+#: admin/includes/class-outbound-messages-list-table.php:215
+msgid "Edit"
+msgstr "تحرير"
+
+#: admin/includes/class-contacts-list-table.php:132
+#: admin/includes/class-inbound-messages-list-table.php:247
+msgid "Export"
+msgstr "تصدير"
+
+#: admin/includes/class-contacts-list-table.php:129
+#: admin/includes/class-inbound-messages-list-table.php:243
+#: admin/includes/class-outbound-messages-list-table.php:172
+msgid "Filter"
+msgstr "تصفية"
+
+#: admin/includes/class-contacts-list-table.php:122
+msgid "View all tags"
+msgstr "مشاهدة جميع الوسوم"
+
+#: admin/includes/class-contacts-list-table.php:96
+#: admin/includes/meta-boxes.php:11
+msgid "Delete"
+msgstr "حذف"
+
+#: admin/includes/class-contacts-list-table.php:16
+msgid "Last Contact"
+msgstr "الاتصال الأخير"
+
+#: admin/includes/class-contacts-list-table.php:15
+msgid "History"
+msgstr "السجّل"
+
+#: admin/edit-outbound-form.php:60
+msgid "Body"
+msgstr "المحتوى"
+
+#: admin/edit-outbound-form.php:42
+msgid "To"
+msgstr "إلى"
+
+#: admin/edit-outbound-form.php:21
+msgid "Outbound Message"
+msgstr "رسالة صادرة"
+
+#: admin/edit-outbound-form.php:19
+msgid "Compose a Message"
+msgstr "إنشاء رسالة"
+
+#: admin/edit-inbound-form.php:41 admin/edit-outbound-form.php:50
+#: admin/includes/class-inbound-messages-list-table.php:16
+#: admin/includes/class-outbound-messages-list-table.php:15
+msgid "From"
+msgstr "من"
+
+#: admin/edit-inbound-form.php:36 admin/edit-outbound-form.php:55
+#: admin/includes/class-inbound-messages-list-table.php:15
+#: admin/includes/class-outbound-messages-list-table.php:14
+msgid "Subject"
+msgstr "الموضوع"
+
+#: admin/edit-inbound-form.php:17
+msgid "Inbound Message"
+msgstr "رسالة واردة"
+
+#: admin/edit-contact-form.php:37
+msgid "Enter email here"
+msgstr "ادخل البريد الإلكتروني هنا"
+
+#: admin/edit-contact-form.php:17
+msgid "Edit Contact"
+msgstr "تحرير جهة الاتصال"
+
+#: admin/admin.php:855
+msgid "Outbound Messages"
+msgstr "رسائل صادرة"
+
+#: admin/admin.php:823
+msgid "Send"
+msgstr "إرسال"
+
+#: admin/admin.php:757 admin/admin.php:874
+msgid "Search Messages"
+msgstr "البحث في الرسائل"
+
+#: admin/admin.php:719 admin/admin.php:836
+msgid "Messages"
+msgstr "الرسائل"
+
+#: admin/admin.php:695
+msgid "Fields"
+msgstr "الحقول"
+
+#: admin/admin.php:651 admin/includes/class-inbound-messages-list-table.php:18
+#: admin/includes/class-outbound-messages-list-table.php:16
+msgid "Date"
+msgstr "التاريخ"
+
+#: admin/admin.php:576
+msgid "You are not allowed to unspam this item."
+msgstr "لا يسمح لك إزالة علامة غير مرغوب من هذه الرسالة."
+
+#: admin/admin.php:540
+msgid "You are not allowed to spam this item."
+msgstr "لا يسمح لك وضع علامة غير مرغوب على هذه الرسالة."
+
+#: admin/admin.php:460
+msgid "Error in restoring from Trash."
+msgstr "حصل خطأ في الاستعادة من سلة المهملات."
+
+#: admin/admin.php:456
+msgid "You are not allowed to restore this item from the Trash."
+msgstr "لا يسمح لك استعادة هذه الرسالة من سلة المهملات."
+
+#: admin/admin.php:422
+msgid "Error in moving to Trash."
+msgstr "حصل خطأ في النقل إلى سلة المهملات."
+
+#: admin/admin.php:418
+msgid "You are not allowed to move this item to the Trash."
+msgstr "لا يسمح لك نقل هذا العنصر إلى سلة المهملات."
+
+#: admin/admin.php:340
+msgid "Search Contacts"
+msgstr "البحث في جهات الاتصال"
+
+#: admin/admin.php:329 admin/admin.php:744 admin/admin.php:861
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "نتائج البحث لـ &#8220;%s&#8221;"
+
+#: admin/admin.php:304
+msgid "Contacts"
+msgstr "جهات الاتصال"
+
+#: admin/admin.php:289 admin/includes/class-contacts-list-table.php:13
+msgid "Name"
+msgstr "الاسم"
+
+#: admin/admin.php:286 admin/includes/class-contacts-list-table.php:14
+msgid "Tags"
+msgstr "وسوم"
+
+#: admin/admin.php:283 admin/includes/meta-boxes.php:268
+msgid "Save"
+msgstr "حفظ"
+
+#: admin/admin.php:207 admin/includes/meta-boxes.php:196
+msgid "Last name"
+msgstr "الاسم الأخير"
+
+#: admin/admin.php:206 admin/includes/meta-boxes.php:191
+msgid "First name"
+msgstr "الاسم الأول"
+
+#: admin/admin.php:205 admin/includes/meta-boxes.php:186
+msgid "Full name"
+msgstr "الاسم الكامل"
+
+#: admin/admin.php:204 admin/includes/class-contacts-list-table.php:12
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: admin/admin.php:176 admin/admin.php:507
+msgid "Error in deleting."
+msgstr "خطأ في الحذف."
+
+#: admin/admin.php:172 admin/admin.php:503
+msgid "You are not allowed to delete this item."
+msgstr "لا يسمح لك حذف هذا العنصر."
+
+#: admin/admin.php:127 admin/admin.php:280 admin/admin.php:372
+#: admin/admin.php:686 admin/admin.php:800
+msgid "You are not allowed to edit this item."
+msgstr "لا يسمح لك تحرير هذا العنصر."
+
+#: admin/admin.php:95 admin/admin.php:107
+msgid "Messages updated."
+msgstr "تم تحديث الرسالة."
+
+#: admin/admin.php:105
+msgid "Messages got marked as not spam."
+msgstr "تم إزالة علامة غير مرغوب من الرسائل."
+
+#: admin/admin.php:103
+msgid "Messages got marked as spam."
+msgstr "تم وضع علامة غير مرغوب على الرسائل."
+
+#: admin/admin.php:101
+msgid "Messages deleted."
+msgstr "تم حذف الرسائل."
+
+#: admin/admin.php:99
+msgid "Messages restored."
+msgstr "تم استعادة الرسائل."
+
+#: admin/admin.php:97
+msgid "Messages trashed."
+msgstr "تم حذف الرسائل."
+
+#: admin/admin.php:93
+msgid "Contact deleted."
+msgstr "تم حذف جهة الاتصال."
+
+#: admin/admin.php:91
+msgid "Contact updated."
+msgstr "تم تحديث جهة الاتصال."
+
+#: admin/admin.php:30 admin/admin.php:738
+msgid "Inbound Messages"
+msgstr "رسائل واردة"
+
+#: admin/admin.php:29 admin/includes/privacy.php:13
+#: includes/class-inbound-message.php:27
+msgid "Flamingo Inbound Messages"
+msgstr "رسائل Flamingo الواردة"
+
+#: admin/admin.php:22
+msgid "Address Book"
+msgstr "دفتر العناوين"
+
+#. #-#-#-#-#  flamingo-code.pot (Flamingo 1.9)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin/admin.php:15
+msgid "Flamingo"
+msgstr "Flamingo"
+
+#: admin/admin.php:14 admin/admin.php:21 admin/admin.php:323
+#: admin/includes/privacy.php:9
+msgid "Flamingo Address Book"
+msgstr "دفتر عناوين Flamingo"

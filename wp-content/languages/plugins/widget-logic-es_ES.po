@@ -1,0 +1,132 @@
+# Translation of Plugins - Widget Logic - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Widget Logic - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-01-08 08:42:56+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Widget Logic - Stable (latest release)\n"
+
+#: widget_logic.php:334
+msgid "This is a \"wp register sidebar widget\" and is different from regular widgets. Hence it can only be edited from the %s page."
+msgstr "Esto es un \"wp register sidebar widget\" y es diferente a los widgets normales. Solo puede editarse desde la página %s."
+
+#: widget_logic.php:334
+msgid "widgets"
+msgstr "widgets"
+
+#: widget_logic.php:346
+msgid "Charity Donation"
+msgstr "Donativo de caridad"
+
+#. Author of the plugin/theme
+msgid "wpchefgadget, alanft"
+msgstr "wpchefgadget, alanft"
+
+#: widget_logic.php:244
+msgid "Display logic errors to admin"
+msgstr "Muestra errores de lógica al administrador"
+
+#: widget_logic.php:226
+msgid "when plugin starts"
+msgstr "cuando se inicia el plugin"
+
+#: widget_logic.php:225
+msgid "after query variables set (default)"
+msgstr "después de establecer las variables de petición (por defecto)"
+
+#. Description of the plugin/theme
+msgid "Control widgets with WP's conditional tags is_home etc"
+msgstr "Controla widgets con las etiquetas condicionales de WP is_home, etc"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/extend/plugins/widget-logic/"
+msgstr "https://es.wordpress.org/extend/plugins/widget-logic/"
+
+#. Plugin Name of the plugin/theme
+msgid "Widget Logic"
+msgstr "Widget Logic"
+
+#: widget_logic.php:296 widget_logic.php:329
+msgid "Widget logic:"
+msgstr "Condiciones del widget:"
+
+#: widget_logic.php:253
+msgid "Select file for importing"
+msgstr "Seleccionar fichero para importar"
+
+#: widget_logic.php:252
+msgid "Load all WL options from a plain text config file"
+msgstr "Permite cargar todas las opciones del plugin Widget Logic desde un fichero de configuración en texto plano"
+
+#: widget_logic.php:252
+msgid "Import options"
+msgstr "Importar opciones"
+
+#: widget_logic.php:251
+msgid "Export options"
+msgstr "Exportar opciones"
+
+#: widget_logic.php:251
+msgid "Save all WL options to a plain text config file"
+msgstr "Permite guardar todas las opciones del plugin Widget Logic en un fichero de configuración en texto plano"
+
+#: widget_logic.php:247
+msgid "Save WL options"
+msgstr "Guardar opciones de Widget Logic"
+
+#: widget_logic.php:222
+msgid "Load logic"
+msgstr "Cargar las condiciones"
+
+#: widget_logic.php:222
+msgid "Delays widget logic code being evaluated til various points in the WP loading process"
+msgstr "Retarda la evaluación del código de Widget Logic hasta determinados puntos del proceso de carga de WordPress"
+
+#: widget_logic.php:219
+msgid "Use 'wp_reset_query' fix"
+msgstr "Utilizar 'wp_reset_query'"
+
+#: widget_logic.php:217
+msgid "Resets a theme's custom queries before your Widget Logic is checked"
+msgstr "Reinicia las consultas personalizadas de un tema antes de que se verifique la lógica del widget."
+
+#: widget_logic.php:214
+msgid "Add 'widget_content' filter"
+msgstr "Añadir el filtro 'widget_content'"
+
+#: widget_logic.php:212
+msgid "Adds a new WP filter you can use in your own code. Not needed for main Widget Logic functionality."
+msgstr "Añade un nuevo filtro de WordPress que puedes utilizar en tu propio código. No es necesario para conseguir la funcionalidad básica de Widget Logic."
+
+#: widget_logic.php:209
+msgid "Widget Logic options"
+msgstr "Opciones de Widget Logic"
+
+#: widget_logic.php:165
+msgid "No options file provided"
+msgstr "No se ha proporcionado un fichero de opciones"
+
+#: widget_logic.php:160
+msgid "Invalid options file"
+msgstr "Fichero de opciones no válido"
+
+#: widget_logic.php:157
+msgid "Success! Options file imported"
+msgstr "El fichero de opciones se ha importado con éxito"
+
+#: widget_logic.php:229
+msgid "during page header"
+msgstr "Durante la carga de la cabecera de la página"
+
+#: widget_logic.php:228
+msgid "when all PHP loaded"
+msgstr "Cuando se ha cargado todo el código PHP"
+
+#: widget_logic.php:227
+msgid "after theme loads"
+msgstr "Cuando se carga el tema"

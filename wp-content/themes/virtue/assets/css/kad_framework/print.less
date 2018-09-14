@@ -1,0 +1,137 @@
+//
+// Basic print styles
+// --------------------------------------------------
+// Source: https://github.com/h5bp/html5-boilerplate/blob/master/css/main.css
+
+@media print {
+  * {
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+
+  // Don't show links for images, or javascript/internal links
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group; // h5bp.com/t
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 2cm .5cm;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+  .tcol-md-1,
+  .tcol-md-2,
+  .tcol-md-3,
+  .tcol-md-4,
+  .tcol-md-5,
+  .tcol-md-6,
+  .tcol-md-7,
+  .tcol-md-8,
+  .tcol-md-9,
+  .tcol-md-10,
+  .tcol-md-11,
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11 {
+  float: left !important;
+  }
+  .col-md-12, .tcol-md-12 {
+    width: 100% !important;
+  }
+  .col-md-11, .tcol-md-11 {
+    width: 91.66666666666666% !important;
+  }
+  .col-md-10, .tcol-md-10 {
+    width: 83.33333333333334% !important;
+  }
+  .col-md-9, .tcol-md-9 {
+    width: 75% !important;
+  }
+  .col-md-8, .tcol-md-8 {
+    width: 66.66666666666666% !important;
+  }
+  .col-md-7, .tcol-md-7 {
+    width: 58.333333333333336% !important;
+  }
+  .col-md-6, .tcol-md-6 {
+    width: 50% !important;
+  }
+  .col-md-5, .tcol-md-5 {
+    width: 41.66666666666667% !important;
+  }
+  .col-md-4, .tcol-md-4 {
+    width: 33.33333333333333% !important;
+   }
+   .col-md-3, .tcol-md-3 {
+     width: 25% !important;
+   }
+   .col-md-25, .tcol-md-25 {
+     width: 20% !important;
+   }
+   .col-md-2, .tcol-md-2 {
+     width: 16.666666666666664% !important;
+   }
+   .col-md-1, .tcol-md-1 {
+    width: 8.333333333333332% !important;
+   }
+
+  // Bootstrap components
+  .navbar {
+    display: none;
+  }
+  .table {
+    td,
+    th {
+      background-color: #fff !important;
+    }
+  }
+  .btn,
+  .dropup > .btn {
+    > .caret {
+      border-top-color: #000 !important;
+    }
+  }
+  .label {
+    border: 1px solid #000;
+  }
+
+  .table {
+    border-collapse: collapse !important;
+  }
+  .table-bordered {
+    th,
+    td {
+      border: 1px solid #ddd !important;
+    }
+  }
+
+}

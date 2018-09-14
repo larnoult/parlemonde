@@ -1,0 +1,7 @@
+/* Hide Data Fields */
+[data-name="qmqe_sorting_choice_answer_id"] {
+	display: none;
+}
+[data-name="qmqe_sorting_choice_answer"] {
+	width: 100%;
+}

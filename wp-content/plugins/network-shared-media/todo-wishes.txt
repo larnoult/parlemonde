@@ -1,0 +1,11 @@
+== Issues ==
+http://wordpress.org/support/topic/some-libraries-show-broken-images
+
+== In random order ==
+
+- insert media does not work for "main" blog (blog_id=1) quickpress
+- add option to replace "media" tab altogether
+- make above option cross-network?!?
+- add "featured image" link (or don't remove it and make it work)
+- make gallery shortcode work with networked images (see gallery_shortcode function)
+- WP3.9 edit image returns wrong image, see https://wordpress.org/support/topic/using-wordpress-39-editing-an-image-shows-the-wrong-information

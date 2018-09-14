@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-gallery-custom-links\n"
+"POT-Creation-Date: 2013-08-09 16:41+0100\n"
+"PO-Revision-Date: 2013-08-09 16:41+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wp-gallery-custom-links.php:68
+msgid "Gallery Link URL"
+msgstr "URL odnośnika"
+
+#: wp-gallery-custom-links.php:71
+msgid ""
+"Will replace \"Image File\" or \"Attachment Page\" link for this image in "
+"galleries. Use [none] to remove the link from this image in galleries."
+msgstr "Podaj adres odnośnika. Wpisanie [none] daje brak odnośnika."
+
+#: wp-gallery-custom-links.php:76
+msgid "Gallery Link Target"
+msgstr "Okno docelowe"
+
+#: wp-gallery-custom-links.php:80
+msgid "Same Window"
+msgstr "To samo okno"
+
+#: wp-gallery-custom-links.php:81
+msgid "New Window"
+msgstr "Nowe okno"
+
+#: wp-gallery-custom-links.php:83
+msgid ""
+"This setting will be applied to this image in galleries regardless of "
+"whether or not a Gallery Link URL has been specified."
+msgstr " "
+
+#: wp-gallery-custom-links.php:88
+msgid "Gallery Link OnClick Effect"
+msgstr "Efekt po kliknięciu"
+
+#: wp-gallery-custom-links.php:92
+msgid "Remove"
+msgstr "Usuń"
+
+#: wp-gallery-custom-links.php:93
+msgid "Keep"
+msgstr "Utrzymaj"
+
+#: wp-gallery-custom-links.php:95
+msgid ""
+"Lightbox and other OnClick events are removed by default from this image in "
+"galleries. This setting will only be applied to this image in galleries if "
+"this image has a Gallery Link URL specified."
+msgstr "Domyślnie brak"

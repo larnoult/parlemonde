@@ -1,0 +1,109 @@
+<wpml-config>                                
+    <admin-texts>
+        <key name="virtue">
+            <key name="logo_below_text" />
+            <key name="home_slider">
+                <key name="0">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                </key>
+                <key name="1">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                </key>
+                <key name="2">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                </key>
+                <key name="3">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                </key>
+                <key name="4">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                </key>
+                <key name="5">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                </key>
+            </key>
+            <key name="home_mobile_slider">
+                <key name="0">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                </key>
+                <key name="1">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                </key>
+                <key name="2">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                </key>
+                <key name="3">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                </key>
+                <key name="4">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                </key>
+                <key name="5">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                </key>
+            </key>
+            <key name="blog_title" />
+            <key name="home_post_type" />
+            <key name="portfolio_title" />
+            <key name="portfolio_type" />
+            <key name="icon_menu">
+                <key name="0">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                </key>
+                <key name="1">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                </key>
+                <key name="2">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                </key>
+                <key name="3">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                </key>
+                <key name="4">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                </key>
+                <key name="5">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                </key>
+            </key>
+            <key name="portfolio_link" />
+            <key name="footer_text" />
+        </key>
+    </admin-texts>    
+</wpml-config>

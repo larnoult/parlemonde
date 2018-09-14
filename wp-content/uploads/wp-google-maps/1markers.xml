@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<markers>
+  <marker>
+    <marker_id>2</marker_id>
+    <map_id>1</map_id>
+    <title></title>
+    <address>Tulum, Mexico</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd></linkd>
+    <lat>20.2119444</lat>
+    <lng>-87.46583329999999</lng>
+    <anim>0</anim>
+    <category>0</category>
+    <infoopen>0</infoopen>
+  </marker>
+</markers>

@@ -1,0 +1,3092 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Virtue\n"
+"POT-Creation-Date: 2015-02-24 15:24-0700\n"
+"PO-Revision-Date: 2016-02-04 14:57-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:11
+msgid "Sorry, but the page you were trying to view does not exist."
+msgstr "Η διεύθυνση email που έχετε εισάγει είναι άκυρη."
+
+#: ../404.php:14
+msgid "It looks like this was the result of either:"
+msgstr "Φαίνεται οτι αυτό οφείλεται είτε:"
+
+#: ../404.php:16
+msgid "a mistyped address"
+msgstr "σε λάθος στην πληκτρολόγηση της διεύθυνσης"
+
+#: ../404.php:17
+msgid "an out-of-date link"
+msgstr "στο οτι ο σύνδεσμος έχει καταργηθεί"
+
+#: ../archive.php:22 ../home.php:22 ../index.php:13
+#: ../taxonomy-portfolio-type.php:13
+msgid "Sorry, no results were found."
+msgstr "Λυπούμαστε, δεν βρέθηκαν αποτελέσματα."
+
+#: ../lib/authorbox.php:5
+msgid "About Author"
+msgstr "Σχετικά με τον συγγραφέα"
+
+#: ../lib/authorbox.php:6 ../lib/utils.php:60
+msgid "Latest Posts"
+msgstr "Τελευταία άρθρα"
+
+#: ../lib/authorbox.php:13 ../lib/authorbox.php:16 ../lib/authorbox.php:20
+#: ../lib/authorbox.php:24 ../lib/authorbox.php:28 ../lib/authorbox.php:32
+#: ../lib/authorbox.php:36 ../lib/authorbox.php:40 ../lib/authorbox.php:44
+#: ../lib/authorbox.php:48
+msgid "Follow"
+msgstr "Ακολουθήστε με"
+
+#: ../lib/authorbox.php:16
+msgid "on Facebook"
+msgstr "στο Facebook"
+
+#: ../lib/authorbox.php:20
+msgid "on Twitter"
+msgstr "στο Twitter"
+
+#: ../lib/authorbox.php:24
+msgid "on Google Plus"
+msgstr "στο Google Plus"
+
+#: ../lib/authorbox.php:28
+msgid "on Flickr"
+msgstr "στο Flickr"
+
+#: ../lib/authorbox.php:32
+msgid "on Vimeo"
+msgstr "στο Vimeo"
+
+#: ../lib/authorbox.php:36
+msgid "on linkedin"
+msgstr "στο Linkedin"
+
+#: ../lib/authorbox.php:40
+msgid "on Dribbble"
+msgstr "στο Dribble"
+
+#: ../lib/authorbox.php:44
+msgid "on Pinterest"
+msgstr "στο Pinterest"
+
+#: ../lib/authorbox.php:48
+msgid "on Instagram"
+msgstr "στο Instagram"
+
+#: ../lib/authorbox.php:65
+msgid "Latest posts from"
+msgstr "Τελευταία άρθρα από"
+
+#: ../lib/class-tgm-plugin-activation.php:155
+#: ../lib/virtuetoolkit-activate.php:34
+msgid "Install Required Plugins"
+msgstr "Εγκαταστήστε τα απαιτούμενα πρόσθετα"
+
+#: ../lib/class-tgm-plugin-activation.php:156
+#: ../lib/virtuetoolkit-activate.php:35
+msgid "Install Plugins"
+msgstr "Εγκαταστήστε τα πρόσθετα"
+
+#: ../lib/class-tgm-plugin-activation.php:157
+#: ../lib/virtuetoolkit-activate.php:36
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Εγκατάσταση πρόσθετου: %s"
+
+#: ../lib/class-tgm-plugin-activation.php:158
+msgid "Something went wrong."
+msgstr "Κάτι δεν πήγε καλά."
+
+#: ../lib/class-tgm-plugin-activation.php:169
+#: ../lib/virtuetoolkit-activate.php:48
+msgid "Return to Required Plugins Installer"
+msgstr "Επιστροφή στο πρόγραμμα εγκατάστασης των απαραίτητων πρόσθετων"
+
+#: ../lib/class-tgm-plugin-activation.php:170
+msgid "Return to the dashboard"
+msgstr "Επιστροφή στον πίνακα ελέγχου"
+
+#: ../lib/class-tgm-plugin-activation.php:171
+#: ../lib/class-tgm-plugin-activation.php:1838
+#: ../lib/virtuetoolkit-activate.php:49
+msgid "Plugin activated successfully."
+msgstr "Το Πρόσθετο εγκαταστάθηκε επιτυχώς."
+
+#: ../lib/class-tgm-plugin-activation.php:172
+#: ../lib/class-tgm-plugin-activation.php:1536
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Το παρακάτω πρόσθετο εγκαταστάθηκε επιτυχώς:"
+msgstr[1] "Τα παρακάτω πρόσθετα εγκαταστάθηκαν επιτυχώς:"
+
+#: ../lib/class-tgm-plugin-activation.php:173
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Όλα τα πρόσθετα εγκαταστάθηκαν και ενεργοποιήθηκαν επιτυχώς. %1$s"
+
+#: ../lib/class-tgm-plugin-activation.php:174
+msgid "Dismiss this notice"
+msgstr "Αγνοήστε αυτή την ειδοποίηση"
+
+#: ../lib/class-tgm-plugin-activation.php:1084
+msgid "External Link"
+msgstr "Εξωτερικός σύνδεσμος"
+
+#: ../lib/class-tgm-plugin-activation.php:1089
+msgid "Private Repository"
+msgstr "Ιδιωτικό αποθετήριο δεδομένων"
+
+#: ../lib/class-tgm-plugin-activation.php:1092
+msgid "Pre-Packaged"
+msgstr "Προσυσκευασμένα"
+
+#: ../lib/class-tgm-plugin-activation.php:1096
+msgid "WordPress Repository"
+msgstr "Αποθετήριο δεδομένων του Wordpress"
+
+#: ../lib/class-tgm-plugin-activation.php:1099
+msgid "Required"
+msgstr "Απαιτούμενα"
+
+#: ../lib/class-tgm-plugin-activation.php:1099
+msgid "Recommended"
+msgstr "Προτεινόμενα"
+
+#: ../lib/class-tgm-plugin-activation.php:1102
+msgid "Not Installed"
+msgstr "Μη εγκατεστημένα"
+
+#: ../lib/class-tgm-plugin-activation.php:1104
+msgid "Installed But Not Activated"
+msgstr "Εγκατεστημένα αλλά μη ενεργοποιημένα"
+
+#: ../lib/class-tgm-plugin-activation.php:1274
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"Δεν υπάρχουν πρόσθετα για εγκατάσταση ή ενεργοποίηση. <a href=\"%1$s\" title="
+"\"Επιστροφή στον πίνακα ελέγχου\">Επιστροφή στον πίνακα ελέγχου</a>"
+
+#: ../lib/class-tgm-plugin-activation.php:1290
+msgid "Plugin"
+msgstr "Πρόσθετο"
+
+#: ../lib/class-tgm-plugin-activation.php:1291
+msgid "Source"
+msgstr "Πηγή"
+
+#: ../lib/class-tgm-plugin-activation.php:1292
+msgid "Type"
+msgstr "Τύπος"
+
+#: ../lib/class-tgm-plugin-activation.php:1293
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: ../lib/class-tgm-plugin-activation.php:1311
+msgid "Install"
+msgstr "Εγκατάσταση"
+
+#: ../lib/class-tgm-plugin-activation.php:1312
+msgid "Activate"
+msgstr "Ενεργοποίηση"
+
+#: ../lib/class-tgm-plugin-activation.php:1821
+msgid "Install package not available."
+msgstr "Πακέτο εγκατάστασης μη διαθέσιμο."
+
+#: ../lib/class-tgm-plugin-activation.php:1822
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Λήψη πακέτου εγκατάστασης απο <span class=\"code\">%s</span>&#8230;"
+
+#: ../lib/class-tgm-plugin-activation.php:1823
+msgid "Unpacking the package&#8230;"
+msgstr "Αποσυμπίεση πακέτου&#8230;"
+
+#: ../lib/class-tgm-plugin-activation.php:1824
+msgid "Installing the plugin&#8230;"
+msgstr "Εγκατάσταση του πρόσθετου&#8230;"
+
+#: ../lib/class-tgm-plugin-activation.php:1825
+msgid "Plugin install failed."
+msgstr "Η εγκατάσταση του πρόσθετου  απέτυχε."
+
+#: ../lib/class-tgm-plugin-activation.php:1826
+msgid "Plugin installed successfully."
+msgstr "Το πρόσθετο εγκαταστάθηκε επιτυχώς."
+
+#: ../lib/class-tgm-plugin-activation.php:1837
+msgid "Plugin activation failed."
+msgstr "Η ενεργοποίηση του πρόσθετου απέτυχε."
+
+#: ../lib/class-tgm-plugin-activation.php:1947
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Η διαδικασία εγκατάστασης και ενεργοποίησης αρχίζει. Αυτή η διαδικασία "
+"πιθανόν να διαρκέσει σε ορισμένους εξυπηρετητές, γι' αυτό παρακαλούμε να "
+"έχετε υπομονή."
+
+#: ../lib/class-tgm-plugin-activation.php:1948
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s εγκαταστάθηκε και ενεργοποιήθηκε επιτυχώς."
+
+#: ../lib/class-tgm-plugin-activation.php:1948
+#: ../lib/class-tgm-plugin-activation.php:1957
+msgid "Show Details"
+msgstr "Εμφάνιση λεπτομερειών"
+
+#: ../lib/class-tgm-plugin-activation.php:1948
+#: ../lib/class-tgm-plugin-activation.php:1957
+msgid "Hide Details"
+msgstr "Απόκρυψη λεπτομερειών"
+
+#: ../lib/class-tgm-plugin-activation.php:1949
+msgid "All installations and activations have been completed."
+msgstr "Όλες οι εγκαταστάσεις και ενεργοποιήσεις έχουν ολοκληρωθεί."
+
+#: ../lib/class-tgm-plugin-activation.php:1950
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Διαδικασία εγκατάστασης και ενεργοποίσης πρόσθετου %1$s (%2$d/%3$d)"
+
+#: ../lib/class-tgm-plugin-activation.php:1954
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Η διαδικασία εγκατάστασης αρχίζει. Αυτή η διαδικασία πιθανόν να διαρκέσει σε "
+"ορισμένους εξυπηρετητές, γι' αυτό παρακαλούμε να έχετε υπομονή."
+
+#: ../lib/class-tgm-plugin-activation.php:1955
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+"Ένα σφάλμα παρουσιάστηκε κατά την εγκατάσταση του %1$s: <strong>%2$s</"
+"strong>."
+
+#: ../lib/class-tgm-plugin-activation.php:1956
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Η εγκατάσταση του %1$s απέτυχε."
+
+#: ../lib/class-tgm-plugin-activation.php:1957
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "Το %1$s εγκαταστάθηκε επιτυχώς."
+
+#: ../lib/class-tgm-plugin-activation.php:1958
+msgid "All installations have been completed."
+msgstr "Όλες οι εγκαταστάσεις έχουν ολοκληρωθεί."
+
+#: ../lib/class-tgm-plugin-activation.php:1959
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Διαδικασία εγκατάστασης πρόσθετου %1$s (%2$d/%3$d)"
+
+#: ../lib/class-tgm-plugin-activation.php:2050
+msgid "Return to the Dashboard"
+msgstr "Επιστροφή στον πίνακα ελέγχου"
+
+#: ../lib/cleanup.php:104 ../templates/content-fullpost.php:74
+#: ../templates/content-fullpostfull.php:75
+msgid "Continued"
+msgstr "Συνεχίζεται"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_ajax.php:47
+msgid "Please Try Again"
+msgstr "Παρακαλούμε προσπαθήστε ξανά"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_ajax.php:131
+msgid "Remove Embed"
+msgstr "Αφαίρεση ένθετου"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_ajax.php:134
+#, php-format
+msgid "No oEmbed Results Found for %s. View more info at"
+msgstr ""
+"Δεν βρέθηκαν αποτελέσματα ένθετου για %s. Δείτε περισσότερες πληροφορίες εδώ"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:150
+msgid "Add Row"
+msgstr "Προσθήκη σειράς"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:178
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:547
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:590
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:523
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:563
+msgid "Add or Upload File"
+msgstr "Προσθήκη ή μεταφόρτωση αρχείου"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:536
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:582
+msgid "Remove Image"
+msgstr "Αφαίρεση εικόνας"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:547
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:590
+msgid "File:"
+msgstr "Αρχείο:"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:547
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:590
+msgid "Download"
+msgstr "Λήψη"
+
+#: ../lib/cmb/init.php:243
+msgid "Clear"
+msgstr "Καθαρισμός"
+
+#: ../lib/cmb/init.php:244 ../lib/metaboxes.php:98 ../lib/metaboxes.php:123
+#: ../themeoptions/framework.php:2153
+msgid "Default"
+msgstr "Προεπιλογή"
+
+#: ../lib/cmb/init.php:245
+msgid "Select Color"
+msgstr "Επιλογή χρώματος"
+
+#: ../lib/cmb/init.php:246
+msgid "Current Color"
+msgstr "Ισχύον χρώμα"
+
+#: ../lib/cmb/init.php:1185
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: ../lib/comments.php:38 ../templates/comment.php:5
+#, php-format
+msgid "%1$s"
+msgstr "%1$s"
+
+#: ../lib/comments.php:43
+msgid "| (Edit)"
+msgstr "| (Επεξεργασία)"
+
+#: ../lib/comments.php:49 ../templates/comment.php:11
+msgid "Your comment is awaiting moderation."
+msgstr "Το σχόλιό σας βρίσκεται σε αναμονή πρός έγκριση."
+
+#: ../lib/custom-woocommerce.php:95 ../templates/header.php:39
+msgid "View your shopping cart"
+msgstr "Προβολή του καλαθιού αγορών σας"
+
+#: ../lib/custom-woocommerce.php:96 ../templates/header.php:40
+msgid "Your Cart"
+msgstr "Καλάθι"
+
+#: ../lib/custom.php:404 ../templates/entry-post-links.php:3
+msgid "Previous Post"
+msgstr "Προηγούμενο άρθρο"
+
+#: ../lib/custom.php:404 ../templates/entry-post-links.php:6
+msgid "Next Post"
+msgstr "Επόμενο άρθρο"
+
+#: ../lib/custom.php:496
+msgid "Occupation"
+msgstr "Επάγγελμα"
+
+#: ../lib/custom.php:499
+msgid "Please enter your Occupation."
+msgstr "Παρακαλούμε εισάγετε το επάγγελμά σας."
+
+#: ../lib/custom.php:506
+msgid "Please enter your Twitter username."
+msgstr "Παρακαλούμε εισάγετε το username σας στο Twitter."
+
+#: ../lib/custom.php:513
+msgid "Please enter your Facebook url. (be sure to include http://)"
+msgstr ""
+"Παρακαλούμε εισάγετε την url διεύθυνσή σας στο Facebook. (σιγουρευτείτε οτι "
+"συμπεριλάβατε το http://)"
+
+#: ../lib/custom.php:520
+msgid "Please enter your Google Plus url. (be sure to include http://)"
+msgstr ""
+"Παρακαλούμε εισάγετε την url διεύθυνσή σας στο Google Plus. (σιγουρευτείτε "
+"οτι συμπεριλάβατε το http://)"
+
+#: ../lib/custom.php:527
+msgid "Please enter your Flickr url. (be sure to include http://)"
+msgstr ""
+"Παρακαλούμε εισάγετε την url διεύθυνσή σας στο Flickr. (σιγουρευτείτε οτι "
+"συμπεριλάβατε το http://)"
+
+#: ../lib/custom.php:534
+msgid "Please enter your Linkedin url. (be sure to include http://)"
+msgstr ""
+"Παρακαλούμε εισάγετε την url διεύθυνσή σας στο Linkedin. (σιγουρευτείτε οτι "
+"συμπεριλάβατε το http://)"
+
+#: ../lib/custom.php:541
+msgid "Please enter your Dribbble url. (be sure to include http://)"
+msgstr ""
+"Παρακαλούμε εισάγετε την url διεύθυνσή σας στο Dribble. (σιγουρευτείτε οτι "
+"συμπεριλάβατε το http://)"
+
+#: ../lib/custom.php:548
+msgid "Please enter your Pinterest url. (be sure to include http://)"
+msgstr ""
+"Παρακαλούμε εισάγετε την url διεύθυνσή σας στο Pinterest. (σιγουρευτείτε οτι "
+"συμπεριλάβατε το http://)"
+
+#: ../lib/custom.php:555
+msgid "Please enter your Instagram url. (be sure to include http://)"
+msgstr ""
+"Παρακαλούμε εισάγετε την url διεύθυνσή σας στο Instagram. (σιγουρευτείτε οτι "
+"συμπεριλάβατε το http://)"
+
+#: ../lib/init.php:9
+msgid "Primary Navigation"
+msgstr "Κύρια πλοήγηση"
+
+#: ../lib/init.php:10
+msgid "Secondary Navigation"
+msgstr "Δευτερεύουσα πλοήγηση"
+
+#: ../lib/init.php:11
+msgid "Mobile Navigation"
+msgstr "Πλοήγηση κινητών συσκευών"
+
+#: ../lib/init.php:12
+msgid "Topbar Navigation"
+msgstr "Πλοήγηση επικεφαλίδας"
+
+#: ../lib/init.php:13
+msgid "Footer Navigation"
+msgstr "Πλοήγηση υποσέλιδου"
+
+#: ../lib/metaboxes.php:21 ../lib/metaboxes.php:203
+msgid "All"
+msgstr "Όλα"
+
+#: ../lib/metaboxes.php:36
+msgid "All Blog Posts"
+msgstr "Όλα τα άρθρα του ιστολόγιου"
+
+#: ../lib/metaboxes.php:68
+msgid "Page Title and Subtitle"
+msgstr "Τίτλος και υπότιτλος σελίδας"
+
+#: ../lib/metaboxes.php:75
+msgid "Subtitle"
+msgstr "Υπότιτλος"
+
+#: ../lib/metaboxes.php:76
+msgid "Subtitle will go below page title"
+msgstr "Ο υπότιτλος θα εμφανιστεί κάτω απο τον τίτλο της σελίδας"
+
+#: ../lib/metaboxes.php:85
+msgid "Post Options"
+msgstr "Επιλογές άρθρου"
+
+#: ../lib/metaboxes.php:93
+msgid "Head Content"
+msgstr "Περιεχόμενο"
+
+#: ../lib/metaboxes.php:99 ../themeoptions/options.php:1540
+msgid "None"
+msgstr "Κανένα"
+
+#: ../lib/metaboxes.php:100 ../themeoptions/options.php:1540
+msgid "Image Slider"
+msgstr "Προβολέας εικόνων"
+
+#: ../lib/metaboxes.php:101 ../lib/metaboxes.php:129
+#: ../themeoptions/options.php:1540
+msgid "Video"
+msgstr "Video"
+
+#: ../lib/metaboxes.php:102 ../themeoptions/options.php:1540
+msgid "Image"
+msgstr "Εικόνα"
+
+#: ../lib/metaboxes.php:106
+msgid "Max Image/Slider Height"
+msgstr "Μέγιστο ύψος εικόνας/προβολέα"
+
+#: ../lib/metaboxes.php:107
+msgid "Default is: 400 <b>(Note: just input number, example: 350)</b>"
+msgstr ""
+"Προεπιλογή: 400 <b>(Σημείωση: εισάγετε μόνο τον αριθμό, παράδειγμα: 350)</b>"
+
+#: ../lib/metaboxes.php:112
+msgid "Max Image/Slider Width"
+msgstr "Μέγιστο πλάτος εικόνας/προβολέα"
+
+#: ../lib/metaboxes.php:113
+msgid ""
+"Default is: 770 or 1140 on fullwidth posts <b>(Note: just input number, "
+"example: 650, does not apply to carousel slider)</b>"
+msgstr ""
+"Προεπιλογή: 770 ή 1140 σε άρθρα πλήρους εύρους <b>(Σημείωση: εισάγετε μόνο "
+"τον αριθμό, παράδειγμα: 650, δεν εφαρμόζεται στον προβολέα Carousel)</b>"
+
+#: ../lib/metaboxes.php:118
+msgid "Post Summary"
+msgstr "Σύνοψη άρθρου"
+
+#: ../lib/metaboxes.php:124
+msgid "Text"
+msgstr "Κείμενο"
+
+#: ../lib/metaboxes.php:125
+msgid "Portrait Image"
+msgstr "Κατακόρυφη εικόνα "
+
+#: ../lib/metaboxes.php:126
+msgid "Landscape Image"
+msgstr "Οριζόντια εικόνα"
+
+#: ../lib/metaboxes.php:127
+msgid "Portrait Image Slider"
+msgstr "Προβολέας κατακόρυφων εικόνων"
+
+#: ../lib/metaboxes.php:128
+msgid "Landscape Image Slider"
+msgstr "Προβολέας οριζόντιων εικόνων"
+
+#: ../lib/metaboxes.php:133 ../lib/metaboxes.php:232
+msgid "Display Sidebar?"
+msgstr "Εμφάνιση πλαϊνού μενού;"
+
+#: ../lib/metaboxes.php:134 ../lib/metaboxes.php:233
+msgid "Choose if layout is fullwidth or sidebar"
+msgstr "Επιλέξτε διάταξη πλήρους εύρους ή διάταξη με πλαϊνό μενού"
+
+#: ../lib/metaboxes.php:138 ../lib/metaboxes.php:155 ../lib/metaboxes.php:237
+msgid "Yes"
+msgstr "Ναί"
+
+#: ../lib/metaboxes.php:139 ../lib/metaboxes.php:154 ../lib/metaboxes.php:164
+#: ../lib/metaboxes.php:238
+msgid "No"
+msgstr "Όχι"
+
+#: ../lib/metaboxes.php:143 ../lib/metaboxes.php:242 ../lib/metaboxes.php:261
+msgid "Choose Sidebar"
+msgstr "Επιλέξτε πλαϊνό μενού"
+
+#: ../lib/metaboxes.php:149
+msgid "Author Info"
+msgstr "Πληροφορίες για το συγγραφέα"
+
+#: ../lib/metaboxes.php:150
+msgid "Display an author info box?"
+msgstr "Εμφάνιση πλαισίου με πληροφορίες για το συγγραφέα;"
+
+#: ../lib/metaboxes.php:159
+msgid "Posts Carousel"
+msgstr "Carousel με άρθρα"
+
+#: ../lib/metaboxes.php:160
+msgid "Display a carousel with similar or recent posts?"
+msgstr "Εμφάνιση carousel σχετικών ή πρόσφατων άρθρων"
+
+#: ../lib/metaboxes.php:165
+msgid "Yes - Display Recent Posts"
+msgstr "Ναι - Να εμφανίζονται πρόσφατα άρθρα"
+
+#: ../lib/metaboxes.php:166
+msgid "Yes - Display Similar Posts"
+msgstr "Ναι - Να εμφανίζονται σχετικά άρθρα"
+
+#: ../lib/metaboxes.php:171
+msgid "Carousel Title"
+msgstr "Τίτλος carousel"
+
+#: ../lib/metaboxes.php:172
+msgid "ex. Similar Posts"
+msgstr "π.χ. σχετικά άρθρα"
+
+#: ../lib/metaboxes.php:182
+msgid "Blog List Options"
+msgstr "Επιλογές λίστας ιστολόγιου"
+
+#: ../lib/metaboxes.php:191
+msgid "Blog Category"
+msgstr "Κατηγορία ιστολόγιου"
+
+#: ../lib/metaboxes.php:192
+msgid "Select all blog posts or a specific category to show"
+msgstr ""
+"Επιλέξτε αν εμφανίζονται όλα τα άρθρα του ιστολογίου ή μια συγκεκριμένη "
+"κατηγορία"
+
+#: ../lib/metaboxes.php:198
+msgid "How Many Posts Per Page"
+msgstr "Πόσα άρθρα ανά σελίδα"
+
+#: ../lib/metaboxes.php:222
+msgid "Display Post Content as:"
+msgstr "Εμφάνιση περιεχομένου ανάρτησης:"
+
+#: ../lib/metaboxes.php:227
+msgid "Summary"
+msgstr "Σύνοψη"
+
+#: ../lib/metaboxes.php:228
+msgid "Full"
+msgstr "Ολόκληρη"
+
+#: ../lib/metaboxes.php:252
+msgid "Sidebar Options"
+msgstr "Επιλογές πλαϊνού μενού"
+
+#: ../lib/scripts.php:33
+msgid ""
+"Sorry, no products matched your selection. Please choose a different "
+"combination."
+msgstr ""
+"Λυπούμαστε, κανένα προϊόν δεν ταίριαξε στην επιλογή σας. Παρακαλούμε "
+"επιλέξτε ένα διαφορετικό συνδυασμό."
+
+#: ../lib/scripts.php:34
+msgid ""
+"Sorry, this product is unavailable. Please choose a different combination."
+msgstr ""
+"Λτπούμαστε, αυτό το προϊόν δεν είναι διαθέσιμο. Παρακαλούμε επιλέξτε ένα "
+"διαφορετικό συνδυασμό."
+
+#: ../lib/utils.php:69
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Αρχείο ανά ημέρα: %s"
+
+#: ../lib/utils.php:71
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Αρχείο ανά μήνα: %s"
+
+#: ../lib/utils.php:73
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Αρχείο ανά έτος: %s"
+
+#: ../lib/utils.php:75
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Αρχείο συγγραφέα: %s"
+
+#: ../lib/utils.php:81
+#, php-format
+msgid "Search Results for %s"
+msgstr "Αποτελέσματα αναζήτησης για %s"
+
+#: ../lib/utils.php:84
+msgid "Not Found"
+msgstr "Δεν βρέθηκε"
+
+#: ../lib/virtuetoolkit-activate.php:37
+msgid "Something went wrong with the plugin API."
+msgstr "Κάτι δεν πήγε καλά με την API του πρόσθετου."
+
+#: ../lib/virtuetoolkit-activate.php:50
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Όλα τα πρόσθετα εγκαταστάθηκαν και ενεργοποιήθηκαν επιτυχώς. %s"
+
+#: ../lib/widgets.php:6 ../lib/widgets.php:59
+msgid "Primary Sidebar"
+msgstr "Κύριο πλάγιο μενού"
+
+#: ../lib/widgets.php:49
+msgid "Topbar Widget"
+msgstr "Εργαλεία μπάρας  επικεφαλίδας"
+
+#: ../lib/widgets.php:71 ../lib/widgets.php:112 ../lib/widgets.php:143
+msgid "Footer Column 1"
+msgstr "Στήλη 1 υποσέλιδου"
+
+#: ../lib/widgets.php:81 ../lib/widgets.php:122 ../lib/widgets.php:153
+msgid "Footer Column 2"
+msgstr "Στήλη 2 υποσέλιδου"
+
+#: ../lib/widgets.php:91 ../lib/widgets.php:132
+msgid "Footer Column 3"
+msgstr "Στήλη 3 υποσέλιδου"
+
+#: ../lib/widgets.php:101
+msgid "Footer Column 4"
+msgstr "Στήλη 4 υποσέλιδου"
+
+#: ../lib/widgets.php:177
+msgid "Use this widget to add a Vcard to your site"
+msgstr ""
+"Χρησιμοποιείστε αυτό το Εργαλείο για να προσθέσετε μια Vcard στην ιστσελίδα "
+"σας"
+
+#: ../lib/widgets.php:178
+msgid "Virtue: Contact/Vcard"
+msgstr "Virtue: Επικοινωνία/Vcard"
+
+#: ../lib/widgets.php:205
+msgid "vCard"
+msgstr "vCard"
+
+#: ../lib/widgets.php:281 ../lib/widgets.php:448 ../lib/widgets.php:608
+#: ../lib/widgets.php:746
+msgid "Title:"
+msgstr "Τίτλος:"
+
+#: ../lib/widgets.php:285
+msgid "Company Name:"
+msgstr "'Ονομα Εταιρείας:"
+
+#: ../lib/widgets.php:289
+msgid "Name:"
+msgstr "Όνομα:"
+
+#: ../lib/widgets.php:293
+msgid "Street Address:"
+msgstr "Διεύθυνση:"
+
+#: ../lib/widgets.php:297
+msgid "City/Locality:"
+msgstr "Πόλη/Τοποθεσία:"
+
+#: ../lib/widgets.php:301
+msgid "State/Region:"
+msgstr "Πολιτεία/Χώρα:"
+
+#: ../lib/widgets.php:305
+msgid "Zipcode/Postal Code:"
+msgstr "Zipcode/Ταχυδρομικός Κώδικας:"
+
+#: ../lib/widgets.php:309
+msgid "Mobile Telephone:"
+msgstr "Κινητό τηλέφωνο:"
+
+#: ../lib/widgets.php:313
+msgid "Fixed Telephone:"
+msgstr "Σταθερό τηλέφωνο:"
+
+#: ../lib/widgets.php:317
+msgid "Email:"
+msgstr "Email:"
+
+#: ../lib/widgets.php:328
+msgid "Simple way to add Social Icons"
+msgstr "'Ενας απλός τρόπος για να προσθέσετε εικονίδια Κοινωνικών Δικτύων"
+
+#: ../lib/widgets.php:329
+msgid "Virtue: Social Links"
+msgstr "Virtue: σύνδεσμοι κοινωνικών δικτύων"
+
+#: ../lib/widgets.php:452
+msgid "Facebook:"
+msgstr "Facebook:"
+
+#: ../lib/widgets.php:456
+msgid "Twitter:"
+msgstr "Twitter:"
+
+#: ../lib/widgets.php:460
+msgid "Instagram:"
+msgstr "Instagram:"
+
+#: ../lib/widgets.php:464
+msgid "GooglePlus:"
+msgstr "GooglePlus:"
+
+#: ../lib/widgets.php:468
+msgid "Flickr:"
+msgstr "Flickr:"
+
+#: ../lib/widgets.php:472
+msgid "Vimeo:"
+msgstr "Vimeo:"
+
+#: ../lib/widgets.php:476
+msgid "Youtube:"
+msgstr "Youtube:"
+
+#: ../lib/widgets.php:480
+msgid "Pinterest:"
+msgstr "Pinterest:"
+
+#: ../lib/widgets.php:484
+msgid "Dribbble:"
+msgstr "Dribbble:"
+
+#: ../lib/widgets.php:488
+msgid "Linkedin:"
+msgstr "Linkedin:"
+
+#: ../lib/widgets.php:492
+msgid "Tumblr:"
+msgstr "Tumblr:"
+
+#: ../lib/widgets.php:496
+msgid "VK:"
+msgstr "VK:"
+
+#: ../lib/widgets.php:500
+msgid "RSS:"
+msgstr "RSS:"
+
+#: ../lib/widgets.php:514
+msgid "This shows the most recent posts on your site with a thumbnail"
+msgstr "Εμφανίζει τα πιο πρόσφατα άρθρα της ιστοσελίδας με εικονίδιο"
+
+#: ../lib/widgets.php:515
+msgid "Virtue: Recent Posts"
+msgstr "Virtue: Πρόσφατα άρθρα"
+
+#: ../lib/widgets.php:540 ../templates/recentblog-carousel.php:7
+msgid "Recent Posts"
+msgstr "Πρόσφατα άρθρα"
+
+#: ../lib/widgets.php:611
+msgid "Number of posts to show:"
+msgstr "Αριθμός άρθρων που θα εμφανίζονται:"
+
+#: ../lib/widgets.php:614
+msgid "Limit to Catagory (Optional):"
+msgstr "Περιορισμός σε κατηγορία (προεραιτικά):"
+
+#: ../lib/widgets.php:625
+msgid ""
+"This shows a grid of featured images from recent posts or portfolio items"
+msgstr ""
+"Εμφανίζει ένα πλέγμα απο προεπιλεγμένες εικόνες πρόσφατων άρθρων ή στοιχείων "
+"portfolio"
+
+#: ../lib/widgets.php:626
+msgid "Virtue: Image Grid"
+msgstr "Virtue: Πλέγμα εικόνων"
+
+#: ../lib/widgets.php:651
+msgid "Post Gallery"
+msgstr "Gallery άρθρου"
+
+#: ../lib/widgets.php:749
+msgid "Grid Choice:"
+msgstr "Επιλογή πλέγματος:"
+
+#: ../lib/widgets.php:751
+msgid "Blog Posts"
+msgstr "'Αρθρα ιστολόγιου"
+
+#: ../lib/widgets.php:752
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: ../lib/widgets.php:755
+msgid "If Post - Choose Category (Optional):"
+msgstr "Για άρθρο - Επιλέξτε κατηγορία (προεραιτικά):"
+
+#: ../lib/widgets.php:758
+msgid "If Portfolio - Choose Type (Optional):"
+msgstr "Για portfolio - Επιλέξτε τύπο (προεραιτικά):"
+
+#: ../lib/widgets.php:761
+msgid "Number of images to show:"
+msgstr "Αριθμός εικόνων που θα εμφανίζονται:"
+
+#: ../lib/widgets.php:788
+msgid "This allows for an image and a simple about text."
+msgstr "Επιτρέπει μια εικόνα και ένα απλό κείμενο περιγραφής."
+
+#: ../lib/widgets.php:789
+msgid "Virtue: Image"
+msgstr "Virtue: Εικόνα"
+
+#: ../lib/widgets.php:843
+msgid "Lightbox"
+msgstr "Lightbox"
+
+#: ../lib/widgets.php:844
+msgid "New Window"
+msgstr "Νέο παράθυρο"
+
+#: ../lib/widgets.php:845
+msgid "Same Window"
+msgstr "'Ιδιο παράθυρο"
+
+#: ../lib/widgets.php:846
+msgid "No Link"
+msgstr "Χωρίς σύνδεσμο"
+
+#: ../lib/widgets.php:858
+msgid "Image URL"
+msgstr "URL Εικόνας"
+
+#: ../lib/widgets.php:860
+msgid "Upload"
+msgstr "Μεταφόρτωση"
+
+#: ../lib/widgets.php:863
+msgid "Image opens in"
+msgstr "Η εικόνα ανοίγει σε"
+
+#: ../lib/widgets.php:867
+msgid "Image Link (optional)"
+msgstr "Σύνδεσμος εικόνας (προεραιτικά)"
+
+#: ../lib/widgets.php:871
+msgid "Text/Caption (optional)"
+msgstr "Κείμενο/Λεζάντα (προεραιτικά)"
+
+#: ../page-blog.php:70 ../templates/home/blog-home.php:136
+#: ../templates/home/latest-slider.php:58
+#: ../templates/recentblog-carousel.php:71
+#: ../templates/similarblog-carousel.php:77
+msgid "Sorry, no blog entries found."
+msgstr "Λυπούμαστε, δεν βρέθηκαν εγγραφές."
+
+#: ../page-portfolio.php:130 ../templates/home/portfolio-carousel.php:86
+#: ../templates/recentportfolio-carousel.php:54
+msgid "Sorry, no portfolio entries found."
+msgstr "Λυπούμαστε, δεν βρέθηκαν εγγραφές portfolio."
+
+#: ../searchform.php:2
+msgid "Search for:"
+msgstr "Αναζήτηση για:"
+
+#: ../searchform.php:3
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: ../templates/account-sidebar.php:18
+msgid "Edit Account"
+msgstr "Τροποποίηση λογαριασμού"
+
+#: ../templates/account-sidebar.php:21
+msgid "Logout"
+msgstr "Αποσύνδεση"
+
+#: ../templates/comment.php:7
+msgid "(Edit)"
+msgstr "(Τροποποίηση)"
+
+#: ../templates/comments.php:8
+#, php-format
+msgid "One Response "
+msgid_plural "%1$s Responses "
+msgstr[0] "Μια απάντηση"
+msgstr[1] "%1$s απαντήσεις"
+
+#: ../templates/comments.php:18
+msgid "&larr; Older comments"
+msgstr "&larr; Παλαιότερα σχόλια"
+
+#: ../templates/comments.php:21
+msgid "Newer comments &rarr;"
+msgstr "Νεότερα σχόλια &rarr;"
+
+#: ../templates/comments.php:31 ../templates/comments.php:43
+msgid "Comments are closed."
+msgstr "Τα σχόλια έχουν απενεργοποιηθεί."
+
+#: ../templates/comments.php:54 ../templates/content-fullpost.php:85
+#: ../templates/content-fullpostfull.php:86
+msgid "Leave a Reply"
+msgstr "Αφήστε μια απάντηση"
+
+#: ../templates/comments.php:54
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Αφήστε μια απάντηση σε %s"
+
+#: ../templates/comments.php:57
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+"Θα πρέπει να είστε <a href=\"%s\">συνδεμένος</a> για να δημοσιεύσετε σχόλιο."
+
+#: ../templates/comments.php:62
+#, php-format
+msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
+msgstr "Συνδεμένος ώς <a href=\"%s/wp-admin/profile.php\">%s</a>."
+
+#: ../templates/comments.php:63
+msgid "Log out of this account"
+msgstr "Log out of this account"
+
+#: ../templates/comments.php:63
+msgid "Log out &raquo;"
+msgstr "Αποσύνδεση &raquo;"
+
+#: ../templates/comments.php:68
+msgid "Name"
+msgstr "'Ονομα"
+
+#: ../templates/comments.php:70
+msgid "Email (will not be published)"
+msgstr "Email (δεν θα δημοσιευτεί)"
+
+#: ../templates/comments.php:72
+msgid "Website"
+msgstr "Ιστότοπος"
+
+#: ../templates/comments.php:83
+msgid "Comment"
+msgstr "Σχόλιο"
+
+#: ../templates/comments.php:85
+msgid "Submit Comment"
+msgstr "Υποβολή σχολίου"
+
+#: ../templates/content-fullpost.php:80
+#: ../templates/content-fullpostfull.php:81 ../templates/content-single.php:96
+#: ../templates/content-singleportfolio.php:181
+msgid "Pages:"
+msgstr "Σελίδες:"
+
+#: ../templates/content-fullpost.php:86
+#: ../templates/content-fullpostfull.php:87
+msgid "1 Comment"
+msgstr ""
+
+#: ../templates/content-fullpost.php:87
+#: ../templates/content-fullpostfull.php:88
+msgid "% Comments"
+msgstr ""
+
+#: ../templates/content-fullpost.php:89
+#: ../templates/content-fullpostfull.php:90
+msgid "Comments are Closed"
+msgstr ""
+
+#: ../templates/entry-meta-subhead.php:3
+msgid "by"
+msgstr "από"
+
+#: ../templates/entry-meta-subhead.php:5
+msgid "posted in:"
+msgstr "αναρτήθηκε σε:"
+
+#: ../templates/entry-meta.php:2
+msgid "By"
+msgstr "Από"
+
+#: ../templates/header.php:95
+msgid "Menu"
+msgstr "Μενού"
+
+#: ../templates/home/blog-home.php:15
+msgid "Latest from the Blog"
+msgstr "Νεότερα στο ιστολόγιο"
+
+#: ../templates/home/blog-home.php:126
+msgid "READ MORE"
+msgstr "ΔΙΑΒΑΣΤΕ ΠΕΡΙΣΣΟΤΕΡΑ"
+
+#: ../templates/home/portfolio-carousel.php:6
+msgid "Featured Projects"
+msgstr "Ποεπιλεγμένα έργα"
+
+#: ../templates/recentportfolio-carousel.php:7
+msgid "Recent Projects"
+msgstr "Πρόσφατα έργα"
+
+#: ../templates/similarblog-carousel.php:7
+msgid "Similar Posts"
+msgstr "Σχετικά άρθρα"
+
+#: ../themeoptions/extensions/customizer/extension_customizer.php:531
+#: ../themeoptions/framework.php:1850
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+"Έχετε κάνει αλλαγές που δεν έχουν αποθηκευτεί. Θα θέλατε να τις αποθηκεύσετε "
+"τώρα;"
+
+#: ../themeoptions/extensions/customizer/extension_customizer.php:532
+#: ../themeoptions/framework.php:1858
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+"Είστε σίγουροι; Η επαναφορά θα αναιρέσει όλες τις μορφοποιημένες τιμές."
+
+#: ../themeoptions/extensions/customizer/extension_customizer.php:533
+#: ../themeoptions/framework.php:1874
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+"Οι τρέχουσες επιλογές σας θα αντικατασταθούν με τις προεπιλεγμένες τιμές. Θα "
+"θέλατε να συνεχίσετε;"
+
+#: ../themeoptions/extensions/customizer/extension_customizer.php:566
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+"Έχετε κάνει αλλαγές που δεν έχουν αποθηκευτεί. Θα θέλατε να τις αποθηκεύσετε "
+"τώρα;"
+
+#: ../themeoptions/extensions/customizer/extension_customizer.php:567
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+"Είστε σίγουροι; Η επαναφορά θα αναιρέσει όλες τις μορφοποιημένες τιμές."
+
+#: ../themeoptions/extensions/customizer/extension_customizer.php:568
+msgid ""
+"Your current options will be replaced with the values of this preset.  Would "
+"you like to proceed?"
+msgstr ""
+"Οι τρέχουσες επιλογές σας θα αντικατασταθούν με τις προεπιλεγμένες τιμές. Θα "
+"θέλατε να συνεχίσετε;"
+
+#: ../themeoptions/framework.php:209
+#, php-format
+msgid "Options panel created using %1$s"
+msgstr "Ο πίνακας επιλογών δημιουργήθηκε με χρήση του %1$s"
+
+#: ../themeoptions/framework.php:209
+msgid "Redux Framework"
+msgstr "Redux Framework"
+
+#: ../themeoptions/framework.php:213 ../themeoptions/framework.php:217
+msgid "Options"
+msgstr "Επιλογές"
+
+#: ../themeoptions/framework.php:1866
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+"Είστε βέβαιοι; Η επαναφορά θα αναιρέσει όλες τις τροποποιημένες τιμές σε "
+"αυτό τμήμα."
+
+#: ../themeoptions/framework.php:1881
+msgid "Please Wait"
+msgstr "Παρακαλούμε περιμένετε"
+
+#: ../themeoptions/framework.php:2006
+msgid "Enable"
+msgstr ""
+
+#: ../themeoptions/framework.php:2011
+msgid "Disable"
+msgstr ""
+
+#: ../themeoptions/framework.php:2017
+msgid "moving the mouse over"
+msgstr ""
+
+#: ../themeoptions/framework.php:2019
+msgid "clicking"
+msgstr ""
+
+#: ../themeoptions/framework.php:2023
+#, php-format
+msgid ""
+"Hints are tooltips that popup when %d the hint icon, offering addition "
+"information about the field in which they appear.  They can be %d d by using "
+"the link below."
+msgstr ""
+
+#: ../themeoptions/framework.php:2028
+msgid "Hints"
+msgstr "Συμβουλές"
+
+#: ../themeoptions/framework.php:3256
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+"Προειδοποίηση- Αυτός ο πίνακας επιλογών δεν θα λειτουργήσει σωστά χωρίς "
+"πρόγραμμα μικροεντολών javascript!"
+
+#: ../themeoptions/framework.php:3307
+msgid "Developer Mode Enabled"
+msgstr "Ενεργοποίηση λειτουργιας προγραμματιστών"
+
+#: ../themeoptions/framework.php:3336
+msgid "Expand"
+msgstr "Επέκταση"
+
+#: ../themeoptions/framework.php:3338 ../themeoptions/framework.php:3648
+msgid "Save Changes"
+msgstr "Αποθήκευση αλλαγών"
+
+#: ../themeoptions/framework.php:3342 ../themeoptions/framework.php:3652
+msgid "Reset Section"
+msgstr "Επαναφορά τομέα"
+
+#: ../themeoptions/framework.php:3344 ../themeoptions/framework.php:3654
+msgid "Reset All"
+msgstr "Επαναφορά όλων"
+
+#: ../themeoptions/framework.php:3349 ../themeoptions/framework.php:3659
+msgid "Working..."
+msgstr "Επεξεργασία..."
+
+#: ../themeoptions/framework.php:3369
+msgid "Settings Imported!"
+msgstr "Οι Ρυθμίσεις έχουν εισαχθεί!"
+
+#: ../themeoptions/framework.php:3384
+msgid "All Defaults Restored!"
+msgstr "'Ολες οι προεπιλογές έχουν επαναφερθεί!"
+
+#: ../themeoptions/framework.php:3398
+msgid "Section Defaults Restored!"
+msgstr "Οι προεπιλογές του τομέα επαναφέρθηκαν!"
+
+#: ../themeoptions/framework.php:3412
+msgid "Settings Saved!"
+msgstr "Οι ρυθμίσεις αποθηκεύτηκαν!"
+
+#: ../themeoptions/framework.php:3432
+msgid "Settings have changed, you should save them!"
+msgstr "Οι ρυθμίσεις έχουν αλλάξει, θα πρέπει να τις αποθηκεύσετε!"
+
+#: ../themeoptions/framework.php:3440
+msgid "error(s) were found!"
+msgstr "βρέθηκε λάθος(η)!"
+
+#: ../themeoptions/framework.php:3448
+msgid "warning(s) were found!"
+msgstr "Βρέθηκε Προειδοποίηση(εις)!"
+
+#: ../themeoptions/framework.php:3512 ../themeoptions/framework.php:3591
+msgid "System Info"
+msgstr "Πληροφορίες συστήματος"
+
+#: ../themeoptions/options.php:56
+msgid "Main Settings"
+msgstr "Κύριες ρυθμίσεις"
+
+#: ../themeoptions/options.php:58
+msgid "Welcome to Virtue Theme Options"
+msgstr "Καλωσήλθατε στις επιλογές του θέματος Virtue"
+
+#: ../themeoptions/options.php:59
+msgid "This theme was developed by"
+msgstr "Αυτό το θέμα αναπτύχθηκε απο την"
+
+#: ../themeoptions/options.php:60
+msgid "For theme documentation visit"
+msgstr "Για τις προδιάγραφες του θέματος επισκεφθείτε"
+
+#: ../themeoptions/options.php:62
+msgid "For support please visit"
+msgstr "Για τεχνική υποστήριξη παρακαλούμε επισκεφθείτε"
+
+#: ../themeoptions/options.php:70
+msgid "Site Layout Style"
+msgstr "Τρόπος διάταξης ιστοσελίδας"
+
+#: ../themeoptions/options.php:71
+msgid "Select Boxed or Wide Site Layout Style"
+msgstr "Επιλέξτε διάταξη με πλάισια ή διάταξη μεγάλου εύρους"
+
+#: ../themeoptions/options.php:82
+msgid "Footer Widget Layout"
+msgstr "Διάταξη εργαλείων υποσέλιδου"
+
+#: ../themeoptions/options.php:83
+msgid "Select how many columns for footer widgets"
+msgstr "Επιλέξτε αριθμό στηλών για τα εργαλεία του υποσέλιδου"
+
+#: ../themeoptions/options.php:94
+msgid "Logo Options"
+msgstr "Επιλογές λογότυπου"
+
+#: ../themeoptions/options.php:100
+msgid "Logo Layout"
+msgstr "Διάταξη λογότυπου"
+
+#: ../themeoptions/options.php:101
+msgid "Choose how you want your logo to be laid out"
+msgstr "Επιλέξτε τη διάταξη του λογότυπου σας"
+
+#: ../themeoptions/options.php:113
+msgid "Logo"
+msgstr "Λογότυπο"
+
+#: ../themeoptions/options.php:115
+msgid "Upload your Logo. If left blank theme will use site name."
+msgstr ""
+"Μεταφόρτωση Λογότυπου. Αν αφαιθεί κενό το θέμα θα χρησιμοποιήσει το όνομα "
+"του ιστοχώρου."
+
+#: ../themeoptions/options.php:121
+msgid "Upload Your @2x Logo for Retina Screens"
+msgstr "Μεταφόρτωση του @2x Λογότυπου για οθόνες Retina"
+
+#: ../themeoptions/options.php:123
+msgid "Should be twice the pixel size of your normal logo."
+msgstr ""
+"Θα πρέπει να έχει το διπλάσιο αριθμό pixel απο το κανονικό σας λογότυπο."
+
+#: ../themeoptions/options.php:128
+msgid "Sitename Logo Font"
+msgstr "Γραμματοσειρά λογότυπου ιστοσελίδας"
+
+#: ../themeoptions/options.php:143
+msgid "Choose size and style your sitename, if you don't use an image logo."
+msgstr ""
+"Αν δεν χρησιμοποιείτε εικόνα για λογότυπο, επιλέξτε το μέγεθος και "
+"μορφοποιήστε το όνομα της ιστοσελίδας."
+
+#: ../themeoptions/options.php:154
+msgid "Site Tagline - Below Logo\""
+msgstr "Υπότιτλος ιστοσελίδας - Κάτω απο το Λογότυπο\""
+
+#: ../themeoptions/options.php:155
+msgid "An optional line of text below your logo"
+msgstr "Μια προεραιτική σειρά κειμένου κάτω απο το λογότυπό σας"
+
+#: ../themeoptions/options.php:163
+msgid "Site Tagline Font"
+msgstr "Γραμματοσειρά υπότιτλου ιστοσελίδας"
+
+#: ../themeoptions/options.php:176
+msgid "Choose size and style your site tagline"
+msgstr "Επιλέξτε μέγεθος και μορφοποιήστε τον υπότιτλο της ιστοσελίδας σας"
+
+#: ../themeoptions/options.php:187 ../themeoptions/options.php:197
+#: ../themeoptions/options.php:207 ../themeoptions/options.php:217
+msgid "Logo Spacing"
+msgstr "Απόσταση λογότυπου"
+
+#: ../themeoptions/options.php:188 ../themeoptions/options.php:228
+msgid "Top Spacing"
+msgstr "Απόσταση επάνω"
+
+#: ../themeoptions/options.php:198 ../themeoptions/options.php:238
+msgid "Bottom Spacing"
+msgstr "Απόσταση κάτω"
+
+#: ../themeoptions/options.php:208
+msgid "Left Spacing"
+msgstr "Απόσταση αριστερά"
+
+#: ../themeoptions/options.php:218
+msgid "Right Spacing"
+msgstr "Απόσταση δεξιά"
+
+#: ../themeoptions/options.php:227 ../themeoptions/options.php:237
+msgid "Primary Menu Spacing"
+msgstr "Απόσταση κύριου μενού"
+
+#: ../themeoptions/options.php:248
+msgid "Sitewide Banner"
+msgstr "Banner που εμφανίζεται σε όλες τις σελίδες του ιστοχώρου"
+
+#: ../themeoptions/options.php:250
+msgid "Upload a banner for bottom of header."
+msgstr "Μεταφορτώστε ένα banner για το κάτω μέρος της κεφαλίδας"
+
+#: ../themeoptions/options.php:257
+msgid "Topbar Settings"
+msgstr "Ρυθμίσεις μπάρας επικεφαλίδας"
+
+#: ../themeoptions/options.php:262
+msgid "Use Topbar?"
+msgstr "Χρήση μπάρας επικεφαλίδας;"
+
+#: ../themeoptions/options.php:263
+msgid "Choose to show or hide topbar"
+msgstr "Επιλογή εμφάνισης ή απόκρυψης της μπάρας επικεφαλίδας"
+
+#: ../themeoptions/options.php:269
+msgid "Use Topbar Icon Menu?"
+msgstr "Χρήση μενού εικονιδίων στην μπάρα επικεφαλίδας;"
+
+#: ../themeoptions/options.php:270
+msgid "Choose to show or hide topbar icon Menu"
+msgstr ""
+"Επιλογή εμφάνισης ή απόκρυψης του Μενού εικονιδίων της μπάρας επικεφαλίδας"
+
+#: ../themeoptions/options.php:276
+msgid "Topbar Icon Menu"
+msgstr "Μενού εικονιδίων μπάρας επικεφαλίδας"
+
+#: ../themeoptions/options.php:277
+msgid "Choose your icons for the topbar icon menu."
+msgstr "Επιλέξτε τα εικονίδια σας για το μενού της μπάρας επικεφαλίδας."
+
+#: ../themeoptions/options.php:283
+msgid "Show Cart total in topbar?"
+msgstr "Εμφάνιση συνολικής αξίας καλαθιού στην μπάρα επικεφαλίδας;"
+
+#: ../themeoptions/options.php:284
+msgid "This only works if using woocommerce"
+msgstr "Λειτουργεί μόνο άν χρησιμοποιείτε woocommerce"
+
+#: ../themeoptions/options.php:290
+msgid "Display Search in Topbar?"
+msgstr "Εμφάνιση πεδίου αναζήτησης στην μπάρα επικεφαλίδας;"
+
+#: ../themeoptions/options.php:291
+msgid "Choose to show or hide search in topbar"
+msgstr ""
+"Επιλογή εμφάνισης ή απόκρυψης του πεδίου αναζήτησης στην μπάρα επικεφαλίδας"
+
+#: ../themeoptions/options.php:297
+msgid "Enable widget area in right of Topbar?"
+msgstr "Ενεργοποίηση περιοχής Εργαλείων στα δεξιά της μπάρας επικεφαλίδας;"
+
+#: ../themeoptions/options.php:298
+msgid ""
+"Note this will hide remove search (you can re-enable it by adding it to the "
+"widget area)"
+msgstr ""
+
+#: ../themeoptions/options.php:304
+msgid "Topbar Layout Switch"
+msgstr "Κουμπί αλλαγής διάταξης στη μπάρα επικεφαλίδας"
+
+#: ../themeoptions/options.php:305
+msgid "This moves the left items to the right and right items to the left."
+msgstr ""
+"Αυτό θα μεταφέρει τα αριστερά στοιχεία στα δεξιά και τα δεξιά στοιχεία στα "
+"αριστερά."
+
+#: ../themeoptions/options.php:313
+msgid "Slider Settings"
+msgstr "Ρυθμίσεις προβολέα"
+
+#: ../themeoptions/options.php:314
+msgid "Home Page Slider Options"
+msgstr "Επιλογές του προβολέα της αρχικής σελίδας"
+
+#: ../themeoptions/options.php:319
+msgid "Choose a Home Image Slider"
+msgstr "Επιλέξτε ένα προβολέα για την αρχική σελίδα"
+
+#: ../themeoptions/options.php:320
+msgid "If you don't want an image slider on your home page choose none."
+msgstr "Αν δεν θέλετε προβολέα εικόνων στη αρχική σελίδα επιλέξτε κανένα."
+
+#: ../themeoptions/options.php:329 ../themeoptions/options.php:432
+msgid "Slider Images"
+msgstr "Εικόνες προβολέα"
+
+#: ../themeoptions/options.php:330 ../themeoptions/options.php:433
+msgid "Use large images for best results."
+msgstr "Χρησιμοποιείστε μεγάλες εικόνες για καλύτερα αποτελέσματα."
+
+#: ../themeoptions/options.php:336 ../themeoptions/options.php:440
+msgid "Slider Max Height"
+msgstr "Μέγιστο ύψος προβολέα"
+
+#: ../themeoptions/options.php:337 ../themeoptions/options.php:347
+#: ../themeoptions/options.php:441 ../themeoptions/options.php:452
+msgid "Note: does not work if images are smaller than max."
+msgstr ""
+"Σημείωση: δεν λειτουργεί άν οι εικόνες είναι μικρότερες απο τις μέγιστες."
+
+#: ../themeoptions/options.php:346 ../themeoptions/options.php:451
+msgid "Slider Max Width"
+msgstr "Μέγιστο πλάτος προβολέα"
+
+#: ../themeoptions/options.php:356 ../themeoptions/options.php:462
+msgid "Auto Play?"
+msgstr "Αυτόματη εκκίνηση;"
+
+#: ../themeoptions/options.php:357 ../themeoptions/options.php:463
+msgid "This determines if a slider automatically scrolls"
+msgstr "Προσδιορίζει αν ο προβολέας κυλά αυτόματα"
+
+#: ../themeoptions/options.php:363 ../themeoptions/options.php:470
+msgid "Slider Pause Time"
+msgstr "Χρόνος παύσης του προβολέα"
+
+#: ../themeoptions/options.php:364 ../themeoptions/options.php:471
+msgid "How long to pause on each slide, in milliseconds."
+msgstr "Για πόσο να γίνεται παύση σε κάθε διαφάνεια, σε milliseconds."
+
+#: ../themeoptions/options.php:373 ../themeoptions/options.php:481
+msgid "Transition Type"
+msgstr "Τρόπος Μετάβασης"
+
+#: ../themeoptions/options.php:374 ../themeoptions/options.php:482
+msgid "Choose a transition type"
+msgstr "Επιλογή τρόπου μετάβασης"
+
+#: ../themeoptions/options.php:381 ../themeoptions/options.php:490
+msgid "Slider Transition Time"
+msgstr "Χρόνος μετάβασης προβολέα"
+
+#: ../themeoptions/options.php:382 ../themeoptions/options.php:491
+msgid "How long for slide transitions, in milliseconds."
+msgstr "Διάρκεια μετάβασης μεταξύ των διαφανειών, σε milliseconds"
+
+#: ../themeoptions/options.php:391 ../themeoptions/options.php:501
+msgid "Show Captions?"
+msgstr "Εμφάνιση λεζάντων;"
+
+#: ../themeoptions/options.php:392 ../themeoptions/options.php:502
+msgid "Choose to show or hide captions"
+msgstr "Επιλέξτε εμφάνιση ή απόκρυψη λεζάντων"
+
+#: ../themeoptions/options.php:398 ../themeoptions/options.php:509
+msgid "Video Embed Code"
+msgstr "Κώδικας ένθετου Video"
+
+#: ../themeoptions/options.php:399 ../themeoptions/options.php:510
+msgid "If your using a video on the home page place video embed code here."
+msgstr ""
+"Αν χρησιμοποιείτε video στην αρχική σελίδα, εισάγετε τον κώδικα ενσωμάτωσης "
+"εδώ."
+
+#: ../themeoptions/options.php:408
+msgid "Mobile Slider"
+msgstr "Προβολέας κινητών συσκευών"
+
+#: ../themeoptions/options.php:409
+msgid "Create a more lightweight home slider for your mobile visitors."
+msgstr "Create a more lightweight home slider for your mobile visitors."
+
+#: ../themeoptions/options.php:414
+msgid "Would you like to use this feature?"
+msgstr "Θέλετε να χρησιμοποιήσετε αυτό το χαρακτηριστικό;"
+
+#: ../themeoptions/options.php:415
+msgid ""
+"Choose if you would like to show a different slider on your home page for "
+"your mobile visitors."
+msgstr ""
+"Επιλέξτε άν θα θέλατε να εμφανίζεται ένας διαφορετικός προβολέας στη αρχική "
+"σελίδα για τους επισκέπτες μέσω κινητών συσκευών."
+
+#: ../themeoptions/options.php:421
+msgid "Choose a Slider for Mobile"
+msgstr "Επιλογή προβολέα για κινητές συσκευές"
+
+#: ../themeoptions/options.php:422
+msgid "Choose which slider you would like to show for mobile viewers."
+msgstr ""
+"Επιλέξτε ποιός προβολέας θέλετε να εμφανίζεται στους επισκέπτες μέσω κινητών "
+"συσκευών."
+
+#: ../themeoptions/options.php:519
+msgid "Home Layout"
+msgstr "Διάταξη αρχικής σελίδας"
+
+#: ../themeoptions/options.php:526
+msgid "Display a sidebar on the Home Page?"
+msgstr "Εμφάνιση πλαϊνού μενού στην αρχική σελίδα;"
+
+#: ../themeoptions/options.php:527
+msgid "This determines if there is a sidebar on the home page."
+msgstr "Προσδιορίζει άν υπάρχει πλαϊνό μενού στην αρχική σελίδα."
+
+#: ../themeoptions/options.php:537
+msgid "Choose a Sidebar for your Home Page"
+msgstr "Επιλέξτε ένα πλαϊνό μενού για την αρχική σελιδα"
+
+#: ../themeoptions/options.php:547
+msgid "Homepage Layout Manager"
+msgstr "Διαχειριστής διάταξης της αρχικής σελίδας"
+
+#: ../themeoptions/options.php:548
+msgid "Organize how you want the layout to appear on the homepage"
+msgstr "Προσδιορίστε πως θέλετε να εμφανίζεται η διάταξη στην αρχική σελίδα"
+
+#: ../themeoptions/options.php:553
+msgid "Latest Blog Posts"
+msgstr "Πρόσφατα άρθρα ιστολόγιου"
+
+#: ../themeoptions/options.php:554
+msgid "Portfolio Carousel"
+msgstr "Carousel του portfolio"
+
+#: ../themeoptions/options.php:555 ../themeoptions/options.php:648
+msgid "Icon Menu"
+msgstr "Μενού εικονιδίων"
+
+#: ../themeoptions/options.php:559
+msgid "Page Title"
+msgstr "Τίτλος σελίδας"
+
+#: ../themeoptions/options.php:560
+msgid "Page Content"
+msgstr "Περιεχόμενο σελίδας"
+
+#: ../themeoptions/options.php:568
+msgid "Home Blog Settings"
+msgstr "Ρυθμίσεις αρχικής σελίδας ιστολόγιου"
+
+#: ../themeoptions/options.php:573
+msgid "Home Blog Title"
+msgstr "Τίτλος αρχικής σελίδας ιστολόγιου"
+
+#: ../themeoptions/options.php:574
+msgid "ex: Latest from the blog"
+msgstr "π.χ. Νεότερα στο ιστολόγιο"
+
+#: ../themeoptions/options.php:579
+msgid "Choose How many posts on Homepage"
+msgstr "Επιλέξτε πόσα άρθρα εμφανίζονται στην αρχική σελίδα"
+
+#: ../themeoptions/options.php:590
+msgid "Limit posts to a Category"
+msgstr "Περιορίστε τα άρθρα σε μια κατηγορία"
+
+#: ../themeoptions/options.php:591
+msgid "Leave blank to select all"
+msgstr "Αφήστε κενό για να τις επιλέξετε όλες"
+
+#: ../themeoptions/options.php:598
+msgid "Home Portfolio Carousel Settings"
+msgstr "Ρυθμίσεις του Portfolio Carousel της αρχικής σελίδας"
+
+#: ../themeoptions/options.php:603
+msgid "Home Portfolio Carousel title"
+msgstr "Τίτλος του Portfolio Carousel της αρχικής σελίδας"
+
+#: ../themeoptions/options.php:604
+msgid "ex: Portfolio Carousel title"
+msgstr "π.χ.: τίτλος του Portfolio Carousel"
+
+#: ../themeoptions/options.php:611
+msgid "Portfolio Carousel Category Type"
+msgstr "Τύπος κατηγορίας του Portfolio Carousel"
+
+#: ../themeoptions/options.php:612
+msgid "Leave blank to select all types"
+msgstr "Αφήστε κενό για να τις επιλέξετε όλους τους τύπους"
+
+#: ../themeoptions/options.php:619
+msgid "Choose how many portfolio items are in carousel"
+msgstr "Επιλέξτε πόσα στοιχεία portfolio περιλαμβάνει το carousel"
+
+#: ../themeoptions/options.php:628
+msgid "Portfolio Carousel Order by"
+msgstr "Ταξινόμηση στο Portfolio Carousel ανά"
+
+#: ../themeoptions/options.php:629
+msgid "Choose how the portfolio items should be ordered in the carousel."
+msgstr ""
+"Επιλέξτε πως θα πρέπει να γίνει η ταξινόμηση των στοιχείων στο carousel"
+
+#: ../themeoptions/options.php:637
+msgid "Display Portfolio Types under Title"
+msgstr "Εμφάνιση τύπου portfolio κάτω απο τον τίτλο"
+
+#: ../themeoptions/options.php:643
+msgid "Home Icon Menu"
+msgstr "Μενού εικονιδίων αρχικής σελίδας"
+
+#: ../themeoptions/options.php:649
+msgid "Choose your icons for the icon menu."
+msgstr "Επιλέξτε τα εικονίδια σας για το μενού εικονιδίων"
+
+#: ../themeoptions/options.php:655
+msgid "Choose how many columns in each row"
+msgstr "Επιλέξτε πόσες στήλες σε κάθε σειρά"
+
+#: ../themeoptions/options.php:664
+msgid "Page Content Options"
+msgstr "Επιλογές περιεχομένου σελίδας"
+
+#: ../themeoptions/options.php:669
+msgid "Latest Post Display"
+msgstr "Εμφάνιση του πιο πρόσφατου άρθρου"
+
+#: ../themeoptions/options.php:670
+msgid ""
+"If Latest Post page is font page. Choose to show full post or post excerpt."
+msgstr ""
+"Αν η σελίδα του πιο πρόσφατου άρθρου είναι η πρώτη σελίδα. Επιλέξτε άν "
+"εμφανίζεται ολόκληρο το άρθρο ή η σύνοψη."
+
+#: ../themeoptions/options.php:682
+msgid "Shop Settings"
+msgstr "Ρυθμίσεις καταστήματος"
+
+#: ../themeoptions/options.php:683
+msgid "Shop Archive Page Settings"
+msgstr "Ρυθμίσεις σελίδας αρχείου καταστήματος"
+
+#: ../themeoptions/options.php:689
+msgid "Display the sidebar on shop archives?"
+msgstr "Εμφάνιση του πλαϊνού μενού στο αρχείο καταστήματος;"
+
+#: ../themeoptions/options.php:690
+msgid "This determines if there is a sidebar on the shop and category pages."
+msgstr ""
+"Προσδιορίζει αν υπάρχει πλαϊνό μενού στην σελίδες καταστήματος και "
+"κατηγοριών."
+
+#: ../themeoptions/options.php:700
+msgid "Choose a Sidebar for your shop page"
+msgstr "Επιλέξτε πλαϊνό μενού για τη σελίδα του καταστήματος σας"
+
+#: ../themeoptions/options.php:708
+msgid "How many products per page"
+msgstr "Πόσα προϊόντα ανά σελίδα"
+
+#: ../themeoptions/options.php:717
+msgid "Show Ratings in Shop and Category Pages"
+msgstr "Εμφάνιση αξιολογήσεων στις σελίδες καταστήματος και κατηγοριών"
+
+#: ../themeoptions/options.php:718
+msgid "This determines if the rating is displayed in the product archive pages"
+msgstr ""
+"Προσδιορίζει αν η αξιολόγηση εμφανίζεται στις σελίδες αρχείου των προϊόντων"
+
+#: ../themeoptions/options.php:724
+msgid "Quantity Box plus and minus"
+msgstr ""
+
+#: ../themeoptions/options.php:725
+msgid ""
+"Turn this off if you would like to use browser added plus and minus for "
+"number boxes"
+msgstr ""
+
+#: ../themeoptions/options.php:731
+msgid "Shop Product Title Settings"
+msgstr "Ρυθμίσεις τίτλου προϊόντων του καταστήματος"
+
+#: ../themeoptions/options.php:736
+msgid "Shop & archive Product title Font"
+msgstr "Γραμματοσειρά τίτλου αρχείου καταστήματος και προϊόντων"
+
+#: ../themeoptions/options.php:751
+msgid "Choose Size and Style for product titles on category and archive pages."
+msgstr ""
+"Επιλέξτε μέγεθος και στύλ για τον τίτλο των προϊόντων στις σελίδες "
+"κατηγορίας και αρχείου."
+
+#: ../themeoptions/options.php:762
+msgid "Set Product Title to Uppercase?"
+msgstr "Εμφάνιση του τίτλου προϊόντος με κεφαλαία;"
+
+#: ../themeoptions/options.php:763
+msgid "This makes your product titles uppercase on Category pages"
+msgstr "Εμφανίζει τους τίτλους προϊόντων με κεφαλαία στις σελίδες κατηγορίας"
+
+#: ../themeoptions/options.php:769
+msgid "Product title Min Height"
+msgstr "Ελάχιστο ύψος τίτλου προϊόντος"
+
+#: ../themeoptions/options.php:770
+msgid ""
+"If your titles are long increase this to help align your products height."
+msgstr ""
+"Αν οι τίτλοι σας έχουν μεγάλο μήκος, αυξήστε το για καλύτερη στοίχιση του "
+"ύψους των προϊόντων."
+
+#: ../themeoptions/options.php:779
+msgid "Product Image Sizes"
+msgstr "Μέγεθος εικόνων προϊόντων"
+
+#: ../themeoptions/options.php:784
+msgid "Enable Product Image Crop on Catalog pages"
+msgstr "Ενεργοποίηση κοπής εικόνας στις σελίδες καταλόγου"
+
+#: ../themeoptions/options.php:785
+msgid ""
+"If turned off image dimensions are set by woocommerce settings - recommended "
+"width: 270px for Catalog Images"
+msgstr ""
+"Αν απανεργοποιηθεί οι διαστάσεις της εικόνας προσδιορίζονται απο τις "
+"ρυθμίσεις του woocommerce - συνίσταται πλάτος: 270 για τις Εικόνες Καταλόγου"
+
+#: ../themeoptions/options.php:791
+msgid "Enable Product Image Crop on product Page"
+msgstr "Ενεργοποίηση κοπής εικόνας προϊόντος στη σελίδα του προϊόντος"
+
+#: ../themeoptions/options.php:792
+msgid ""
+"If turned off image dimensions are set by woocommerce settings - recommended "
+"width: 468px for Single Product Image"
+msgstr ""
+"Αν απανεργοποιηθεί οι διαστάσεις της εικόνας προσδιορίζονται απο τις "
+"ρυθμίσεις του woocommerce - συνίσταται πλάτος: 468 για μια Εικόνα Προϊόντος"
+
+#: ../themeoptions/options.php:798
+msgid "Product Page Settings"
+msgstr "Ρυθμίσεις σελίδας προϊόντος"
+
+#: ../themeoptions/options.php:803
+msgid "Display product tabs?"
+msgstr "Εμφανιση σελιδοδείκτων προϊόντων;"
+
+#: ../themeoptions/options.php:804
+msgid "This determines if product tabs are displayed"
+msgstr "Προσδιορίζει αν εμφανίζονται σελιδοδείκτες για τα προϊόντα"
+
+#: ../themeoptions/options.php:810
+msgid "Display related products?"
+msgstr "Εμφάνιση σχετικών προϊόντων;"
+
+#: ../themeoptions/options.php:811
+msgid "This determines related products are displayed"
+msgstr "Προσδιορίζει αν θα εμφανίζονται σχετικά προϊόντα"
+
+#: ../themeoptions/options.php:819
+msgid "Basic Styling"
+msgstr "Βασική μορφοποίηση"
+
+#: ../themeoptions/options.php:820
+msgid "Basic Stylng"
+msgstr "Βασική μορφοποίηση"
+
+#: ../themeoptions/options.php:825
+msgid "Theme Skin Stylesheet"
+msgstr "Φύλλο μορφοποίησης θέματος"
+
+#: ../themeoptions/options.php:826
+msgid ""
+"Note* changes made in options panel will override this stylesheet. Example: "
+"Colors set in typography."
+msgstr ""
+"Σημείωση* οι αλλαγές που γίνονται στον πίνακα επιλογών θα αντικαταστήσουν "
+"αυτό το φύλλο μορφοποίησης. Παράδειγμα: Τα χρώματα που καθορίστηκαν για την "
+"τυπογραφία."
+
+#: ../themeoptions/options.php:835
+msgid "Primary Color"
+msgstr "Κύριο χρώμα"
+
+#: ../themeoptions/options.php:836
+msgid "Choose the default Highlight color for your site."
+msgstr "Επιλέξτε το προεπιλεγμένο χρώμα υπογράμμισης για την ιστοσελίδα σας."
+
+#: ../themeoptions/options.php:845
+msgid "20% lighter than Primary Color"
+msgstr "20% πιο ανοικτό απο το κύριο χρώμα"
+
+#: ../themeoptions/options.php:846
+msgid "This is used for hover effects"
+msgstr "Χρησιμοποιείται όταν ο κέρσορας βρίσκεται απο πάνω"
+
+#: ../themeoptions/options.php:855
+msgid "Sitewide Gray Fonts"
+msgstr "Γκρί γραμματοσειρές που εμφανίζονται σε όλες τις σελίδες του ιστοχώρου"
+
+#: ../themeoptions/options.php:865
+msgid "Footer Font Color"
+msgstr "Χρώμα γραμματοσειράς υποσέλιδου"
+
+#: ../themeoptions/options.php:877
+msgid "Advanced Styling"
+msgstr "Προχωρημένη μορφοποίηση"
+
+#: ../themeoptions/options.php:878
+msgid "Main Content Background"
+msgstr "Φόντο κύριου περεχομένου"
+
+#: ../themeoptions/options.php:883
+msgid "Content Background Color"
+msgstr ""
+
+#: ../themeoptions/options.php:892 ../themeoptions/options.php:932
+#: ../themeoptions/options.php:972 ../themeoptions/options.php:1012
+#: ../themeoptions/options.php:1052 ../themeoptions/options.php:1092
+#: ../themeoptions/options.php:1132
+msgid "Upload background image or texture"
+msgstr "Μεταφόρτωση Εικόνας Φόντου"
+
+#: ../themeoptions/options.php:897 ../themeoptions/options.php:937
+#: ../themeoptions/options.php:977 ../themeoptions/options.php:1017
+#: ../themeoptions/options.php:1057 ../themeoptions/options.php:1097
+#: ../themeoptions/options.php:1137
+msgid "Image repeat options"
+msgstr "Επιλογές επανάληψης εικόνας"
+
+#: ../themeoptions/options.php:904 ../themeoptions/options.php:944
+#: ../themeoptions/options.php:984 ../themeoptions/options.php:1024
+#: ../themeoptions/options.php:1064 ../themeoptions/options.php:1104
+#: ../themeoptions/options.php:1144
+msgid "X image placement options"
+msgstr "Επιλογές τοποθέτησης εικόνας κατά Χ"
+
+#: ../themeoptions/options.php:911 ../themeoptions/options.php:951
+#: ../themeoptions/options.php:991 ../themeoptions/options.php:1031
+#: ../themeoptions/options.php:1071 ../themeoptions/options.php:1111
+#: ../themeoptions/options.php:1151
+msgid "Y image placement options"
+msgstr "Επιλογές τοποθέτησης εικόνας κατά Υ"
+
+#: ../themeoptions/options.php:918
+msgid "Topbar Background"
+msgstr "Φόντο μπάρας επικεφαλίδας"
+
+#: ../themeoptions/options.php:923
+msgid "Topbar Background Color"
+msgstr ""
+
+#: ../themeoptions/options.php:958
+msgid "Header Background"
+msgstr "Φόντο κεφαλίδας"
+
+#: ../themeoptions/options.php:963
+msgid "Header Background Color"
+msgstr ""
+
+#: ../themeoptions/options.php:998
+msgid "Secondary Menu Background"
+msgstr "Φόντο δευτερεύοντος μενού"
+
+#: ../themeoptions/options.php:1003
+msgid "Secondary menu Background Color"
+msgstr ""
+
+#: ../themeoptions/options.php:1038
+msgid "Mobile Menu Background"
+msgstr "Φόντο μενού κινητών συσκευών"
+
+#: ../themeoptions/options.php:1043
+msgid "Mobile Background Color"
+msgstr ""
+
+#: ../themeoptions/options.php:1078
+msgid "Footer Background"
+msgstr "Φόντο υποσέλιδου"
+
+#: ../themeoptions/options.php:1083
+msgid "Footer Background Color"
+msgstr ""
+
+#: ../themeoptions/options.php:1118
+msgid "Body Background"
+msgstr "Φόντο σώματος"
+
+#: ../themeoptions/options.php:1123
+msgid "Body Background Color"
+msgstr ""
+
+#: ../themeoptions/options.php:1158
+msgid "Fixed or Scroll"
+msgstr "Σταθερό ή κυλιόμενο"
+
+#: ../themeoptions/options.php:1167
+msgid "Typography"
+msgstr "Τυπογραφία"
+
+#: ../themeoptions/options.php:1168
+msgid "Header Font Options"
+msgstr "Επιλογές γραμματοσειράς κεφαλίδας"
+
+#: ../themeoptions/options.php:1173
+msgid "H1 Headings"
+msgstr "Τίτλοι H1"
+
+#: ../themeoptions/options.php:1188
+msgid "Choose Size and Style for h1 (This Styles Your Page Titles)"
+msgstr ""
+"Επιλέξτε μέγεθος και στύλ για τους τίτλους h1 (Διαμορφώνει τους τίτλους των "
+"σελίδων)"
+
+#: ../themeoptions/options.php:1199
+msgid "H2 Headings"
+msgstr "Τίτλοι H2"
+
+#: ../themeoptions/options.php:1214
+msgid "Choose Size and Style for h2"
+msgstr "Επιλέξτε μέγεθος και στύλ για τους τίτλους h2"
+
+#: ../themeoptions/options.php:1225
+msgid "H3 Headings"
+msgstr "Τίτλοι H3"
+
+#: ../themeoptions/options.php:1240
+msgid "Choose Size and Style for h3"
+msgstr "Επιλέξτε μέγεθος και στύλ για τους τίτλους h3"
+
+#: ../themeoptions/options.php:1251
+msgid "H4 Headings"
+msgstr "Τίτλοι H4"
+
+#: ../themeoptions/options.php:1266
+msgid "Choose Size and Style for h4"
+msgstr "Επιλέξτε μέγεθος και στύλ για τους τίτλους h4"
+
+#: ../themeoptions/options.php:1277
+msgid "H5 Headings"
+msgstr "Τίτλοι H5"
+
+#: ../themeoptions/options.php:1292
+msgid "Choose Size and Style for h5"
+msgstr "Επιλέξτε μέγεθος και στύλ για τους τίτλους h5"
+
+#: ../themeoptions/options.php:1303
+msgid "Body Font Options"
+msgstr "Επιλογές γραμματοσειράς σώματος"
+
+#: ../themeoptions/options.php:1308
+msgid "Body Font"
+msgstr "Γραμματοσειρά σώματος"
+
+#: ../themeoptions/options.php:1323
+msgid "Choose Size and Style for paragraphs"
+msgstr "Επιλέξτε μέγεθος και στύλ για τις παραγράφους"
+
+#: ../themeoptions/options.php:1336
+msgid "Menu Settings"
+msgstr "Ρυθμίσεις μενού"
+
+#: ../themeoptions/options.php:1337
+msgid "Primary Menu Options"
+msgstr "Επιλογές κύριου μενού"
+
+#: ../themeoptions/options.php:1342
+msgid "Primary Menu Font"
+msgstr "Γραμματοσειρά κύριου μενού"
+
+#: ../themeoptions/options.php:1357
+msgid "Choose Size and Style for primary menu"
+msgstr "Επιλέξτε Μέγεθος και Στύλ για το Κύριο Μενού"
+
+#: ../themeoptions/options.php:1368
+msgid "Secondary Menu Options"
+msgstr "Επιλογές δευτερεύοντος μενού"
+
+#: ../themeoptions/options.php:1373
+msgid "Secondary Menu Font"
+msgstr "Γραμματοσειρά δευτερεύοντος μενού"
+
+#: ../themeoptions/options.php:1388
+msgid "Choose Size and Style for secondary menu"
+msgstr "Επιλέξτε Μέγεθος και Στύλ για το Δευτερεύον Μενού"
+
+#: ../themeoptions/options.php:1399
+msgid "Mobile Menu Options"
+msgstr "Επιλογές μενού κινητών συσκευών"
+
+#: ../themeoptions/options.php:1404
+msgid "Mobile Menu Font"
+msgstr "Γραμματοσειρά μενού κινητών συσκευών"
+
+#: ../themeoptions/options.php:1419
+msgid "Choose Size and Style for Mobile Menu"
+msgstr "Επιλέξτε μέγεθος και στύλ για το μενού κινητών συσκευών"
+
+#: ../themeoptions/options.php:1433 ../themeoptions/options.php:1434
+msgid "Misc Settings"
+msgstr "Διάφορες ρυθμίσεις"
+
+#: ../themeoptions/options.php:1441
+msgid "All Projects Portfolio Page"
+msgstr "Σελίδα portfolio όλων των έργων"
+
+#: ../themeoptions/options.php:1442
+msgid ""
+"This sets the link in every single portfolio page. *note: You still have to "
+"set the page template to portfolio."
+msgstr ""
+"Προσδιορίζει το σύνδεσμο σε κάθε σελίδα portfolio. *σημείωση: χρειάζεται να "
+"έχετε επιλέξει πρότυπο σελίδας portfolio."
+
+#: ../themeoptions/options.php:1447
+msgid "Allow Comments on Pages"
+msgstr ""
+
+#: ../themeoptions/options.php:1448
+msgid "Turn on to allow comments on pages"
+msgstr ""
+
+#: ../themeoptions/options.php:1454
+msgid "Allow Comments on Portfolio Posts"
+msgstr "Επιτρέψτε σχόλια στα άρθρα τύπου Portfolio"
+
+#: ../themeoptions/options.php:1455
+msgid "Turn on to allow comments on Portfolio posts"
+msgstr ""
+
+#: ../themeoptions/options.php:1461
+msgid "Hide Image Border"
+msgstr "Απόκρυψη περιγράμματος εικόνας"
+
+#: ../themeoptions/options.php:1462
+msgid "Choose to show or hide image border for images added in pages or posts"
+msgstr ""
+
+#: ../themeoptions/options.php:1468
+msgid "Blog Archive"
+msgstr "Αρχείο ιστολόγιου"
+
+#: ../themeoptions/options.php:1469
+msgid "Choose to show full post or post excerpt."
+msgstr "Επιλογή εμφάνισης ολόκληρης της ανάρτησης ή σύνοψη της ανάρτησης."
+
+#: ../themeoptions/options.php:1477
+msgid "Show Comments Closed Text?"
+msgstr "Εμφάνιση κειμένου όταν τα σχόλια έχουν απενεργοποιηθεί;"
+
+#: ../themeoptions/options.php:1478
+msgid "Choose to show or hide comments closed alert below posts."
+msgstr ""
+"Επιλογή εμφάνισης ή απόκρυψης προειδοποίησης κάτω απο τα άρθρα όταν τα "
+"σχόλια έχουν απενεργοποιηθεί."
+
+#: ../themeoptions/options.php:1484
+msgid "Show Author Icon with posts?"
+msgstr "Εμφάνιση εικονίδιου του συγγραφέα στα άρθρα;"
+
+#: ../themeoptions/options.php:1485
+msgid "Choose to show or hide author icon under post title."
+msgstr ""
+"Επιλογή εμφάνισης ή απόκρυψης του εικονίδιου του συγγραφέα κάτω απο το τίτλο "
+"της ανάρτησης."
+
+#: ../themeoptions/options.php:1491
+msgid "Show Previous and Next posts links?"
+msgstr "Εμφάνιση συνδέσμων προηγούμεα  και επόμενα άρθρα;"
+
+#: ../themeoptions/options.php:1492
+msgid ""
+"Choose to show or hide previous and next post links in the footer of a "
+"single post."
+msgstr ""
+"Επιλογή εμφάνισης ή απόκρυψης των συνδέσμων προηγούμενης και επόμενης "
+"ανάρτησης στο κάτω μέρος της κάθε ανάρτησης."
+
+#: ../themeoptions/options.php:1499
+msgid "Custom Favicon"
+msgstr "Μορφοποιημένο Favicon"
+
+#: ../themeoptions/options.php:1500
+msgid ""
+"Upload a 16px x 16px png/gif/ico image that will represent your website "
+"favicon."
+msgstr ""
+"Μεταφορτώστε μια εικόνα png/gif/ico μεγέθους 16px x 16px που θα "
+"αντιπροσωπεύει το favicon του ιστοχώρου σας."
+
+#: ../themeoptions/options.php:1505
+msgid "Contact Form Email"
+msgstr "Email φόρμας επικοινωνίας"
+
+#: ../themeoptions/options.php:1506
+msgid "Sets the email for the contact page email form."
+msgstr "Προσδιορίζει το email της φόρμας email στη σελίδα επικοινωνίας."
+
+#: ../themeoptions/options.php:1512
+msgid "Footer Copyright Text"
+msgstr "Κείμενο πνευματικών δικαιωμάτων υποσέλιδου"
+
+#: ../themeoptions/options.php:1513
+msgid ""
+"Write your own copyright text here. You can use the following shortcodes in "
+"your footer text: [copyright] [site-name] [the-year]"
+msgstr ""
+"Πληκτρολογήστε εδώ το δικό σας κείμενο για τα πνευματικά δικαιώματα. "
+"Μπορείτε να χρησιμοποιήσετε τις ακόλουθες συντομεύσεις στο κείμενο του "
+"υποσέλιδου: [copyright] [όνομα ιστοχώρου] [έτος]"
+
+#: ../themeoptions/options.php:1519
+msgid "Blog Post Defaults"
+msgstr "Προεπιλογές για τα άρθρα ιστολόγιου"
+
+#: ../themeoptions/options.php:1524
+msgid "Blog Post Summary Default"
+msgstr "Προεπιλογή για τη σύνοψη των άρθρων του ιστολόγιου"
+
+#: ../themeoptions/options.php:1533
+msgid "Default post summary feature Image"
+msgstr ""
+
+#: ../themeoptions/options.php:1534
+msgid "Replace theme default feature image for posts without a featured image"
+msgstr ""
+
+#: ../themeoptions/options.php:1539
+msgid "Blog Post Head Content Default"
+msgstr "Προεπιλογή για το περιεχόμενο του τίτλου των άρθρων του ιστολόγιου"
+
+#: ../themeoptions/options.php:1547
+msgid "Create Sidebars"
+msgstr "Δημιουργία πλαϊνων μενού"
+
+#: ../themeoptions/options.php:1552
+msgid "Create Custom Sidebars"
+msgstr "Δημιουργία προσωποποιημένων πλαϊνών μενού"
+
+#: ../themeoptions/options.php:1553
+msgid "Type new sidebar name into textbox"
+msgstr "Πληκτρολογήστε το όνομα του νέου πλαϊνού μενού στο πλαίσιο κειμένου"
+
+#: ../themeoptions/options.php:1554
+msgid "Extra Sidebar"
+msgstr "Πρόσθετο πλαϊνό  μενού"
+
+#: ../themeoptions/options.php:1559
+msgid "Wordpress Galleries"
+msgstr "Galleries του Wordpress"
+
+#: ../themeoptions/options.php:1564
+msgid "Enable Virtue Galleries to override Wordpress"
+msgstr ""
+"Ενεργοποίηση της επιλογής να αντικαθιστούν οι Galleries του Virtue τις "
+"Galleries του Wordpress"
+
+#: ../themeoptions/options.php:1565
+msgid ""
+"Disable this if using a plugin to customize galleries, for example jetpack "
+"tiled gallery."
+msgstr ""
+"Απενεργοποιήστε άν χρησιμοποιείτε κάποιο plugin για να μορφοποιήσετε τις "
+"gallery, για παράδειγμα jetback tiled gallery."
+
+#: ../themeoptions/options.php:1573
+msgid "Advanced Settings"
+msgstr "Προχωρημένες ρυθμίσεις"
+
+#: ../themeoptions/options.php:1574
+msgid "Custom CSS Box"
+msgstr "Προσωποποιημένο CSS Box"
+
+#: ../themeoptions/options.php:1579
+msgid "Custom CSS"
+msgstr "Προσωποποιημένο CSS"
+
+#: ../themeoptions/options.php:1580
+msgid "Quickly add some CSS to your theme by adding it to this block."
+msgstr ""
+"Προσθέστε γρήγορα μορφοποίηση CSS στο θέμα σας επικολλώντας τη σε αυτό το "
+"πλαίσιο."
+
+#: ../themeoptions/options.php:1599 ../themeoptions/options.php:1600
+msgid "Theme Options"
+msgstr "Επιλογές θέματος"
+
+#: ../themeoptions/options.php:1607
+msgid ""
+"Thank you for using the Virtue Theme by <a href=\"http://kadencethemes.com/"
+"\" target=\"_blank\">Kadence Themes</a>."
+msgstr ""
+"Ευχαριστούμε που χρησιμοποιήσατε το Theme Virtue απο την <a href=\"http://"
+"kadencethemes.com/\" target=\"_blank\">Kadence Themes</a>."
+
+#: ../woocommerce/loop/sale-flash.php:16
+#: ../woocommerce/single-product/sale-flash.php:16
+msgid "Sale!"
+msgstr "Εκπτώσεις!"
+
+#: ../woocommerce/order/form-tracking.php:17
+msgid ""
+"To track your order please enter your Order ID in the box below and press "
+"return. This was given to you on your receipt and in the confirmation email "
+"you should have received."
+msgstr ""
+"Για να παρακολουθήσετε την παραγγελία σας παρακαλούμε εισάγετε τον αριθμό "
+"παραγγελίας και πατήστε εισαγωγή. Αυτός σας δόθηκε επάνω στην απόδειξη "
+"αγοράς και στο email επιβεβαίωσης που θα πρέπει να έχετε λάβει."
+
+#: ../woocommerce/order/form-tracking.php:19
+msgid "Order ID"
+msgstr "Αριθμός παραγγελίας"
+
+#: ../woocommerce/order/form-tracking.php:19
+msgid "Found in your order confirmation email."
+msgstr "Βρίσκεται στο email επιβεβαίωσης της παραγγελίας σας."
+
+#: ../woocommerce/order/form-tracking.php:20
+msgid "Billing Email"
+msgstr "Email χρέωσης"
+
+#: ../woocommerce/order/form-tracking.php:20
+msgid "Email you used during checkout."
+msgstr "Το email που χρησιμοποιήσατε στο ταμείο."
+
+#: ../woocommerce/order/form-tracking.php:23
+msgid "Track"
+msgstr "Παρακολούθηση"
+
+#: ../woocommerce/single-product.php:27 ../woocommerce/single-product.php:29
+msgid "Back to"
+msgstr "Επιστροφή σε"
+
+#: ../woocommerce/single-product.php:29
+msgid "Shop"
+msgstr "Κατάστημα"
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:27
+msgid "Choose an option"
+msgstr "Επιλέξτε"
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:62
+msgid "Clear selection"
+msgstr "Καθαρισμός επιλογής"
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:94
+msgid "This product is currently out of stock and unavailable."
+msgstr "Αυτό το προϊόν προς το παρόν έχει εξαντληθεί και δεν είναι διαθέσιμο."
+
+#: ../woocommerce/single-product/review.php:26
+#, php-format
+msgid "Rated %d out of 5"
+msgstr "Αξιολογήθηκε με %d απο 5"
+
+#: ../woocommerce/single-product/review.php:27
+msgid "out of 5"
+msgstr "απο 5"
+
+#: ../woocommerce/single-product/review.php:34
+msgid "Your comment is awaiting approval"
+msgstr "Το σχόλιό σας βρίσκεται σε αναμονή πρός έγκριση"
+
+#: ../woocommerce/single-product/review.php:43
+msgid "verified owner"
+msgstr "πιστοποιημένος αγοραστής"
+
+#~ msgid "Please enter your name."
+#~ msgstr "Παρακαλούμε εισάγετε το όνομά σας."
+
+#~ msgid "Please enter your email address."
+#~ msgstr "Παρακαλούμε εισάγετε το email σας."
+
+#~ msgid "You entered an invalid email address."
+#~ msgstr "Η διεύθυνση email που έχετε εισάγει είναι άκυρη."
+
+#~ msgid "Please enter a message."
+#~ msgstr "Παρακαλούμε εισάγετε ένα μήνυμα."
+
+#~ msgid " Contact"
+#~ msgstr " Επικοινωνία"
+
+#~ msgid "From "
+#~ msgstr "Από"
+
+#~ msgid "From"
+#~ msgstr "Από"
+
+#~ msgid "Thanks, your email was sent successfully."
+#~ msgstr "Ευχαριστούμε, το email σας εστάλη επιτυχώς."
+
+#~ msgid "Sorry, an error occured."
+#~ msgstr "Λυπούμαστε, παρουσιάστηκε ένα σφάλμα."
+
+#~ msgid "Email: "
+#~ msgstr "Email:"
+
+#~ msgid "Message: "
+#~ msgstr "Μήνυμα:"
+
+#~ msgid "Send Email"
+#~ msgstr "Αποστολή Email"
+
+#~ msgid "&larr; Older posts"
+#~ msgstr "&larr; Παλαιότερα άρθρα"
+
+#~ msgid "Newer posts &rarr;"
+#~ msgstr "Νεότερα άρθρα &rarr;"
+
+#~ msgid "Post Slider Images"
+#~ msgstr "Eικόνες προβολέα του άρθρου"
+
+#~ msgid "Portfolio Slider Images"
+#~ msgstr "Εικόνες προβολέα Portfolio"
+
+#~ msgid "Feature Page Slider Images"
+#~ msgstr "Εικόνες προβολέα προεπιλεγμένης σελίδας"
+
+#~ msgid "Remove image"
+#~ msgstr "Αφαίρεση εικόνας"
+
+#~ msgid "Add images"
+#~ msgstr "Προσθήκη εικόνων"
+
+#~ msgid "Add Images to Gallery"
+#~ msgstr "Προσθήκη εικόνων στην gallery"
+
+#~ msgid "Add to gallery"
+#~ msgstr "Προσθήκη στην gallery"
+
+#~ msgid "Post Video Box"
+#~ msgstr "'Αρθρο τύπου Video"
+
+#~ msgid "If Video Post"
+#~ msgstr "Για ανάρτηση Video"
+
+#~ msgid "Place Embed Code Here, works with youtube, vimeo..."
+#~ msgstr "Εισάγετε εδώ τον κώδικα ένθετου, λειτουργεί με youtube, vimeo..."
+
+#~ msgid "Portfolio Post Options"
+#~ msgstr "Επιλογές δημοσίευσης τύπου Portfolio"
+
+#~ msgid "Project Layout"
+#~ msgstr "Διάταξη έργου"
+
+#~ msgid "Beside"
+#~ msgstr "Πλάι"
+
+#~ msgid "Above"
+#~ msgstr "Επάνω"
+
+#~ msgid "Three Rows"
+#~ msgstr "Τρείς στήλες"
+
+#~ msgid "Project Options"
+#~ msgstr "Επιλογές έργου"
+
+#~ msgid "Carousel Slider"
+#~ msgstr "Προβολέας carousel"
+
+#~ msgid "Default is: 450 <b>(Note: just input number, example: 350)</b>"
+#~ msgstr ""
+#~ "Προεπιλογή: 450 <b>(Σημείωση: εισάγετε μόνο τον αριθμό, παράδειγμα: 350)</"
+#~ "b>"
+
+#~ msgid ""
+#~ "Default is: 670 or 1140 on <b>above</b> or <b>three row</b> layouts "
+#~ "(Note: just input number, example: 650)</b>"
+#~ msgstr ""
+#~ "Προεπιλογή: 670 ή 1140 για διάταξη<b>επάνω</b> ή <b>για διάταξη με τρείς "
+#~ "στήλες</b> (Σημείωση: εισάγετε μόνο τον αριθμό, παράδειγμα: 650)</b>"
+
+#~ msgid "Auto Play Slider?"
+#~ msgstr "Αυτόματη εκκίνηση του προβολέα;"
+
+#~ msgid "Value 01 Title"
+#~ msgstr "Τιμή 01 Τίτλος"
+
+#~ msgid "ex. Project Type:"
+#~ msgstr "π.χ. τύπος έργου:"
+
+#~ msgid "Value 01 Description"
+#~ msgstr "Τιμή 01 Περιγραφή"
+
+#~ msgid "ex. Character Illustration"
+#~ msgstr "π.χ. εικονογράφηση χαρακτήρα"
+
+#~ msgid "Value 02 Title"
+#~ msgstr "Τιμή 02 Τίτλος"
+
+#~ msgid "ex. Skills Needed:"
+#~ msgstr "π.χ. απαιτούμενα προσόντα:"
+
+#~ msgid "Value 02 Description"
+#~ msgstr "Τιμή 02 Περιγραφή"
+
+#~ msgid "ex. Photoshop, Illustrator"
+#~ msgstr "π.χ. Photoshop, Illustrator"
+
+#~ msgid "Value 03 Title"
+#~ msgstr "Τιμή 03 Τίτλος"
+
+#~ msgid "ex. Customer:"
+#~ msgstr "π.χ. Πελάτης:"
+
+#~ msgid "Value 03 Description"
+#~ msgstr "Τιμή 031 Περιγραφή"
+
+#~ msgid "ex. Example Inc"
+#~ msgstr "π.χ. Παράδειγμα Inc"
+
+#~ msgid "Value 04 Title"
+#~ msgstr "Τιμή 04 Τίτλος"
+
+#~ msgid "ex. Project Year:"
+#~ msgstr "π.χ. 'Ετος έργου:"
+
+#~ msgid "Value 04 Description"
+#~ msgstr "Τιμή 04 Περιγραφή"
+
+#~ msgid "ex. 2013"
+#~ msgstr "π.χ. 2013"
+
+#~ msgid "External Website"
+#~ msgstr "Εξωτερικός ιστότοπος"
+
+#~ msgid "ex. Website:"
+#~ msgstr "π.χ. Ιστότοπος:"
+
+#~ msgid "Website Address"
+#~ msgstr "Διεύθυνση ιστότοπου"
+
+#~ msgid "ex. http://www.example.com"
+#~ msgstr "π.χ. http://www.example.com"
+
+#~ msgid "If Video Project"
+#~ msgstr "Για έργο τύπου Video"
+
+#~ msgid "Similar Portfolio Item Carousel"
+#~ msgstr "Carousel με σχετικά στοιχεία portfolio"
+
+#~ msgid "Display a carousel with similar portfolio items below project?"
+#~ msgstr "Προβολή carousel με σχετικά στοιχεία portfolio κάτω απο το έργο;"
+
+#~ msgid "Yes - Display Recent Projects"
+#~ msgstr "Ναι - Να προβάλλονται pρόσφατα έργα"
+
+#~ msgid "ex. Similar Projects"
+#~ msgstr "π.χ. Σχετικά  έργα"
+
+#~ msgid "Portfolio Page Options"
+#~ msgstr "Επιλογές σελίδας portfolio"
+
+#~ msgid "Columns"
+#~ msgstr "Στήλες"
+
+#~ msgid "Four Column"
+#~ msgstr "Τέσσερις Στήλες"
+
+#~ msgid "Three Column"
+#~ msgstr "Τρείς στήλες"
+
+#~ msgid "Two Column"
+#~ msgstr "Δύο στήλες"
+
+#~ msgid "Portfolio Work Types"
+#~ msgstr "Τύπος εργασιών του portfolio"
+
+#~ msgid "Order Items By"
+#~ msgstr "Ταξινόμηση στοιχείων σύμφωνα με"
+
+#~ msgid "Menu Order"
+#~ msgstr "Δάταξη μενού"
+
+#~ msgid "Title"
+#~ msgstr "Τίτλο"
+
+#~ msgid "Date"
+#~ msgstr "Ημερομηνία"
+
+#~ msgid "Random"
+#~ msgstr "Τυχαία"
+
+#~ msgid "Items per Page"
+#~ msgstr "Στοιχεία ανά σελίδα"
+
+#~ msgid "How many portfolio items per page"
+#~ msgstr "Πόσα στοιχεία portfolio ανά σελίδα"
+
+#~ msgid "Set image height"
+#~ msgstr "Καθορίστε ύψος εικόνας"
+
+#~ msgid "Default is 1:1 ratio <b>(Note: just input number, example: 350)</b>"
+#~ msgstr ""
+#~ "Προεπιλεγμένη αναλογία 1:1 <b>(Σημείωση: εισάγετε μόνο τον αριθμό, "
+#~ "παράδειγμα: 350)</b>"
+
+#~ msgid "Display Item Work Types"
+#~ msgstr "Εμφάνιση τύπου εργασιών του στοιχείου"
+
+#~ msgid "Display Item Excerpt"
+#~ msgstr "Εμφάνιση σύνοψης στοιχείου"
+
+#~ msgid "Add Lightbox link in the top right of each item"
+#~ msgstr "Προσθήκη συνδέσμου Lightbox πάνω δεξιά σε κάθε στοιχείο"
+
+#~ msgid "Feature Page Options"
+#~ msgstr "Επιλογές προεπιλεγμένης σελίδας"
+
+#~ msgid "Feature Options"
+#~ msgstr "Επιλογές χαρακτηριστικών"
+
+#~ msgid "If image slider make sure images uploaded are at least 1140px wide."
+#~ msgstr ""
+#~ "Για προβολέα σιγουρευτείτε οτι οι μεταφορτωμένες εικόνες έχουν πλάτος "
+#~ "τουλάχιστον 1140px."
+
+#~ msgid ""
+#~ "Default is: 1140 <b>(Note: just input number, example: 650, does not "
+#~ "apply to Carousel slider)</b>"
+#~ msgstr ""
+#~ "Προεπιλογή: 1140 <b>(Σημείωση: εισάγετε μόνο τον αριθμό, παράδειγμα: 650, "
+#~ "δεν εφαρμόζεται σε Προβολέα Carousel)</b>"
+
+#~ msgid "Use Lightbox for Feature Image"
+#~ msgstr "Χρήση Lightbox για την προεπιλεγμένη εικόνα"
+
+#~ msgid ""
+#~ "If feature option is set to image, choose to use lightbox link with image."
+#~ msgstr ""
+#~ "Αν έχει καθοριστεί χαρακτηριστικό για την εικόνα, επιλέξτε τη χρήση "
+#~ "συνδέσμου Lightbox με την εικόνα."
+
+#~ msgid "Contact Page Options"
+#~ msgstr "Επιλογές σελίδας επικοινωνίας"
+
+#~ msgid "Use Contact Form"
+#~ msgstr "Χρήση φόρμας επικοινωνίας"
+
+#~ msgid "Contact Form Title"
+#~ msgstr "Τίτλος φόρμας επικοινωνίας"
+
+#~ msgid "ex. Send us an Email"
+#~ msgstr "π.χ. Στείλτε μας email"
+
+#~ msgid "Use Map"
+#~ msgstr "Χρήση χάρτη"
+
+#~ msgid "Address"
+#~ msgstr "Διεύθυνση"
+
+#~ msgid "Enter your Location"
+#~ msgstr "Εισάγετε την τοποθεσία σας"
+
+#~ msgid "Map Type"
+#~ msgstr "Τύπος χάρτη"
+
+#~ msgid "ROADMAP"
+#~ msgstr "ΟΔΙΚΟΣ ΧΑΡΤΗΣ"
+
+#~ msgid "HYBRID"
+#~ msgstr "ΥΒΡΙΔΙΚΟΣ"
+
+#~ msgid "TERRAIN"
+#~ msgstr "ΤΟΠΟΓΡΑΦΙΚΟΣ"
+
+#~ msgid "SATELLITE"
+#~ msgstr "ΔΟΡΥΦΟΡΙΚΟΣ"
+
+#~ msgid "Map Zoom Level"
+#~ msgstr "Επίπεδο Μεγένθυσης Χάρτη"
+
+#~ msgid "A good place to start is 15"
+#~ msgstr "Μια καλή αρχή είναι το 15"
+
+#~ msgid "1 (World View)"
+#~ msgstr "1 (Προβολή παγκόσμιου χάρτη)"
+
+#~ msgid "21 (Street View)"
+#~ msgstr "21 (Προβολή δρόμων)"
+
+#~ msgid "Map Height"
+#~ msgstr "Υψόμετρο χάρτη"
+
+#~ msgid "Default is 300"
+#~ msgstr "Προεπιλογή 300"
+
+#, fuzzy
+#~ msgid "There are no previous options"
+#~ msgstr "Δεν υπάρχουν ακόμη αξιολογήσεις."
+
+#~ msgid ""
+#~ "Note this will hide remove search (you can re-enable it my adding it to "
+#~ "the widget area)"
+#~ msgstr ""
+#~ "'Εχετε υπόψη οτι αυτό θα κρύψει/αφαιρέσει το πεδίο αναζήτησης (μπορείτε "
+#~ "να το επανενεργοποιήσετε προσθέτοντάς το στην περιοχή Εργαλείων)"
+
+#~ msgid "Background Color"
+#~ msgstr "Χρώμα φόντου"
+
+#~ msgid "Turn on to allow Comments on Portfolio posts"
+#~ msgstr "Ενεργοποιήστε για να επιτρέψετε τα σχόλια στα άρθρα τύπου Portfolio"
+
+#~ msgid "Choose to show or hide image border"
+#~ msgstr "Επιλογή εμφάνισης ή απόκρυψης του περιγράμματος της εικόνας"
+
+#, fuzzy
+#~ msgid "Theme Update Import"
+#~ msgstr "Ενημέρωση καλαθιού"
+
+#~ msgid "Icon"
+#~ msgstr "Εικονίδιο"
+
+#~ msgid "New %s"
+#~ msgstr "Νέο %s"
+
+#~ msgid "Upload Icon"
+#~ msgstr "Μεταφόρτωση εικονιδίου"
+
+#~ msgid "Select an Icon"
+#~ msgstr "Επιλογή εικονιδίου"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Description"
+#~ msgstr "Περιγραφή"
+
+#~ msgid "Icon Link"
+#~ msgstr "Σύνδεσμος εικονιδίου"
+
+#~ msgid "Open Link in New Tab/Window"
+#~ msgstr "'Ανοιγμα συνδέσμου σε νέο Σελιδοδείκτη/Παράθυρο"
+
+#~ msgid "Delete Icon"
+#~ msgstr "Διαγραφή εικονιδίου"
+
+#~ msgid "Add Icon"
+#~ msgstr "Προσθήκη εικονιδίου"
+
+#~ msgid "Slide"
+#~ msgstr "Προβολή"
+
+#~ msgid "Slide Link"
+#~ msgstr "Σύνδεσμος προβολής"
+
+#~ msgid "Delete Slide"
+#~ msgstr "Διαγραφή προβολής"
+
+#~ msgid "Add %s"
+#~ msgstr "Προσθήκη %s"
+
+#~ msgid "Use Simple Math Question"
+#~ msgstr "Χρήση απλής μαθηματικής ερώτησης"
+
+#~ msgid "Check your math."
+#~ msgstr "Ελέγξτε την πράξη σας."
+
+#~ msgid "<p>"
+#~ msgstr "<p>"
+
+#~ msgid "Unable to create a required directory. Please ensure that"
+#~ msgstr ""
+#~ "Δεν μπόρεσε να δημιουργηθεί ο απαιτούμενος κατάλογος αρχείων. Παρακαλούμε "
+#~ "βεβαιωθείτε οτι"
+
+#~ msgid ""
+#~ "has the proper read/write permissions or enter your FTP information below."
+#~ msgstr ""
+#~ "υπάρχουν οι σωστές άδειες ανάγνωσης/εγγραφής αρχείου ή εισάγετε τα "
+#~ "στοιχεία FTP παρακάτω"
+
+#~ msgid "Dismiss"
+#~ msgstr "Απόρριψη"
+
+#~ msgid "Transparent"
+#~ msgstr "Διαφανές"
+
+#~ msgid "Background Repeat"
+#~ msgstr "Επανάληψη φόντου"
+
+#~ msgid "Background Clip"
+#~ msgstr "Περικοπή φόντου"
+
+#~ msgid "Background Origin"
+#~ msgstr "Σημείο αναφοράς φόντου"
+
+#~ msgid "Background Size"
+#~ msgstr "Μέγεθος φόντου"
+
+#~ msgid "Background Attachment"
+#~ msgstr "Επισύναψη φόντου"
+
+#~ msgid "Background Position"
+#~ msgstr "Τοποθέτηση φόντου"
+
+#~ msgid "No media selected"
+#~ msgstr "Δέν έχουν επιλεγεί πολυμέσα"
+
+#~ msgid "Add More"
+#~ msgstr "Προσθέστε περισσότερα"
+
+#~ msgid "Select an item"
+#~ msgstr "Επιλέξτε ένα αντικείμενο"
+
+#~ msgid "No items of this type were found."
+#~ msgstr "Δεν βρέθηκαν αντικείμενα αυτού του τύπου"
+
+#~ msgid "On"
+#~ msgstr "On"
+
+#~ msgid "Off"
+#~ msgstr "Off"
+
+#~ msgid "Font Family"
+#~ msgstr "Οικογένεια γραμματοσειράς"
+
+#~ msgid "Font family"
+#~ msgstr "Οικογένεια γραμματοσειράς"
+
+#~ msgid "Backup Font Family"
+#~ msgstr "Αντίγραφο οικογένειας γραμματοσειράς"
+
+#~ msgid "Font style"
+#~ msgstr "Μορφοποίηση γραμματοσειράς"
+
+#~ msgid "Font Weight &amp; Style"
+#~ msgstr "Πάχος γραμματοσειράς &amp; Μορφοποίηση"
+
+#~ msgid "Style"
+#~ msgstr "Μορφοποίηση"
+
+#~ msgid "Font subsets"
+#~ msgstr "Υποοικογένειες γραμματοσειράς"
+
+#~ msgid "Font Subsets"
+#~ msgstr "Υποοικογένειες Γραμματοσειράς"
+
+#~ msgid "Subsets"
+#~ msgstr "Υποοικογένειες"
+
+#~ msgid "Font script"
+#~ msgstr "Πρωτότυπο γραμματοσειράς"
+
+#~ msgid "Text Align"
+#~ msgstr "Στοίχιση  κειμένου"
+
+#~ msgid "Text Transform"
+#~ msgstr "Μετατροπή κειμένου"
+
+#~ msgid "Font Variant"
+#~ msgstr "Παραλλαγές γραμματοσειράς"
+
+#~ msgid "Text Decoration"
+#~ msgstr "Διακόσμηση κειμένου"
+
+#~ msgid "Font Size"
+#~ msgstr "Μέγεθος γραμματοσειράς"
+
+#~ msgid "Size"
+#~ msgstr "Μέγεθος"
+
+#~ msgid "Line Height"
+#~ msgstr "'Υψος σειράς"
+
+#~ msgid "Height"
+#~ msgstr "Ύψος"
+
+#~ msgid "Word Spacing"
+#~ msgstr "Απόσταση λέξεων"
+
+#~ msgid "Letter Spacing"
+#~ msgstr "Απόσταση χαρακτήρων"
+
+#~ msgid "Font Color"
+#~ msgstr "Χρώμα γραμματοσειράς"
+
+#~ msgid "Font color"
+#~ msgstr "Χρώμα γραμματοσειράς"
+
+#~ msgid "Standard Fonts"
+#~ msgstr "Προεπιλεγμένες γραμματοσειρές"
+
+#~ msgid "Google Webfonts"
+#~ msgstr "Γραμματοσειρές Google"
+
+#~ msgid "Import / Export Options"
+#~ msgstr "Επιλογές Εισαγωγής / Εξαγωγής"
+
+#~ msgid "Import Options"
+#~ msgstr "Επιλογές εισαγωγής"
+
+#~ msgid "Import from file"
+#~ msgstr "Εισαγωγή απο αρχείο"
+
+#~ msgid "Import from URL"
+#~ msgstr "Εισαγωγή απο URL"
+
+#~ msgid ""
+#~ "Input your backup file below and hit Import to restore your sites options "
+#~ "from a backup."
+#~ msgstr ""
+#~ "Εισάγετε το αντίγραφο του αρχείου παρακάτω και επιλέξτε Εισαγωγή για να "
+#~ "επαναφέρετε τις επιλογές των ιστοσελίδων σας απο ένα αντίγραφο."
+
+#~ msgid ""
+#~ "Input the URL to another sites options set and hit Import to load the "
+#~ "options from that site."
+#~ msgstr ""
+#~ "Εισάγετε το URL της ομάδας επιλογών μιας άλλης ιστοσελίδας και επιλέξτε "
+#~ "Εισαγωγή για να φορτώσετε τις επιλογές απο αυτή την ιστοσελίδα."
+
+#~ msgid "Import"
+#~ msgstr "Εισαγωγή"
+
+#~ msgid ""
+#~ "WARNING! This will overwrite all existing option values, please proceed "
+#~ "with caution!"
+#~ msgstr ""
+#~ "ΠΡΟΕΙΔΟΠΟΙΗΣΗ! Αυτό θα επικαλύψει όλες τις υπάρχουσες τιμές επιλογών, "
+#~ "παρακαλούμε συνεχίστε με προσοχή!"
+
+#~ msgid "Export Options"
+#~ msgstr "Επιλογές εξαγωγής"
+
+#~ msgid ""
+#~ "Here you can copy/download your current option settings. Keep this safe "
+#~ "as you can use it as a backup should anything go wrong, or you can use it "
+#~ "to restore your settings on this site (or any other site)."
+#~ msgstr ""
+#~ "Εδώ μπορείτε να κάνετε αντιγραφή/λήψη της τρέχουσας μορφοποίησης των "
+#~ "επιλογών σας. Αποθηκεύστε τις καθώς μπορούν να χρησιμοποιηθούν σαν "
+#~ "αντίγραφο σε περίπτωση που κάτι πάει στραβά, ή μπορούν να χρησιμοποιηθούν "
+#~ "για... "
+
+#~ msgid "Copy"
+#~ msgstr "Αντιγραφή"
+
+#~ msgid "Copy Link"
+#~ msgstr "Αντιγραφή σύνδεσμου"
+
+#~ msgid "Import / Export"
+#~ msgstr "Εισαγωγή / Εξαγωγή"
+
+#~ msgid "This field must be a valid color value."
+#~ msgstr "Αυτό το πεδίο πρέπει να περιέχει έναν έγκυρο κώδικα χρώματος."
+
+#~ msgid ""
+#~ "You must provide a comma separated list of numerical values for this "
+#~ "option."
+#~ msgstr ""
+#~ "Για αυτή την επιλογή, θα πρέπει να παρέχετε μια λίστα αριθμητικών τιμών, "
+#~ "διαχωρισμένων με κόμμα."
+
+#~ msgid "This field must be a valid date."
+#~ msgstr "Αυτό το πεδίο πρέπει να είναι μαι έγκυρη ημερομηνία."
+
+#~ msgid "You must provide a valid email for this option."
+#~ msgstr "Για αυτή την επιλογή, θα πρέπει να παρέχετε ένα έγκυρο email."
+
+#~ msgid ""
+#~ "You must not enter any HTML in this field, all HTML tags have been "
+#~ "removed."
+#~ msgstr ""
+#~ "Σε αυτό το πεδίο δεν πρέπει να εισάγετε HTML, όλες οι ετικέτες HTML έχουν "
+#~ "αφαιρεθεί."
+
+#~ msgid ""
+#~ "You must not enter any special characters in this field, all special "
+#~ "characters have been removed."
+#~ msgstr ""
+#~ "Σε αυτό το πεδίο δεν πρέπει να εισάγετε ειδικούς χαρακτήρες, όλοι οι "
+#~ "ειδικοί χαρακτήρες έχουν αφαιρεθεί."
+
+#~ msgid "This field cannot be empty. Please provide a value."
+#~ msgstr ""
+#~ "Αυτό το πεδίο δεν μπορεί να παραμείνει κενό. Παρακαλούμε εισάγετε μια "
+#~ "τιμή."
+
+#~ msgid "You must provide a numerical value for this option."
+#~ msgstr "Για αυτή την επιλογή θα πρέπει να παρέχετε μια αριθμητική τιμή."
+
+#~ msgid "You must provide a valid URL for this option."
+#~ msgstr "Για αυτή την επιλογή θα πρέπει να παρέχετε ένα έγκυρο URL."
+
+#~ msgid "Cart Totals"
+#~ msgstr "Σύνολο καλαθιού"
+
+#~ msgid "Cart Subtotal"
+#~ msgstr "Υποσύνολο καλαθιού"
+
+#~ msgid "Order Total"
+#~ msgstr "Σύνολο παραγγελίας"
+
+#~ msgid " (taxes estimated for %s)"
+#~ msgstr "(υπολογισμός φόρου %s)"
+
+#~ msgid ""
+#~ "Note: Shipping and taxes are estimated%s and will be updated during "
+#~ "checkout based on your billing and shipping information."
+#~ msgstr ""
+#~ "Σημείωση: Το κόστος αποστολής και οι φόροι έχουν εκτιμηθεί%s και θα "
+#~ "ενημερωθούν κατά την πληρωμή σύμφωνα με τις πληροφορίες χρέωσης και "
+#~ "αποστολής που έχετε δώσει."
+
+#~ msgid "Product"
+#~ msgstr "Προϊόν"
+
+#~ msgid "Price"
+#~ msgstr "Τιμή"
+
+#~ msgid "Quantity"
+#~ msgstr "Ποσότητα"
+
+#~ msgid "Total"
+#~ msgstr "Σύνολο"
+
+#~ msgid "Remove this item"
+#~ msgstr "Αφαίρεση συτού του προϊόντος"
+
+#~ msgid "Available on backorder"
+#~ msgstr "Διαθέσιμο για προπαραγγελία"
+
+#~ msgid "Coupon"
+#~ msgstr "Κουπόνι"
+
+#~ msgid "Coupon code"
+#~ msgstr "Κωδικός κουπονιού"
+
+#~ msgid "Apply Coupon"
+#~ msgstr "Εφαρμογή κουπονιού"
+
+#~ msgid "Proceed to Checkout"
+#~ msgstr "Ταμείο"
+
+#~ msgid "You may be interested in&hellip;"
+#~ msgstr "Ίσως να σας ενδιαφέρει&hellip;"
+
+#~ msgid "Calculate Shipping"
+#~ msgstr "Υπολογισμός κόστους αποστολής"
+
+#~ msgid "Select a country&hellip;"
+#~ msgstr "Επιλέξτε χώρα&hellip;"
+
+#~ msgid "State / county"
+#~ msgstr "Πολιτεία / Κομητεία"
+
+#~ msgid "Select a state&hellip;"
+#~ msgstr "Επιλέξτε πολιτεία&hellip;"
+
+#~ msgid "City"
+#~ msgstr "Πόλη"
+
+#~ msgid "Postcode / Zip"
+#~ msgstr "Ταχυδρομικός Κώδικας / ZIP"
+
+#~ msgid "Update Totals"
+#~ msgstr "Ενημέρωση συνόλου"
+
+#~ msgid "%s review for %s"
+#~ msgid_plural "%s reviews for %s"
+#~ msgstr[0] "%s αξιολόγηση για %s"
+#~ msgstr[1] "%s αξιολογήσεις για %s"
+
+#~ msgid "Reviews"
+#~ msgstr "Αξιολογήσεις"
+
+#~ msgid "Add a review"
+#~ msgstr "Προσθέστε αξιολόγηση"
+
+#~ msgid "Be the first to review"
+#~ msgstr "Κάνετε την πρώτη αξιολόγηση"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "Submit"
+#~ msgstr "Υποβολή"
+
+#~ msgid "Your Rating"
+#~ msgstr "Η αξιολόγησή σας"
+
+#~ msgid "Rate&hellip;"
+#~ msgstr "Βαθμός&hellip;"
+
+#~ msgid "Perfect"
+#~ msgstr "Τέλειο"
+
+#~ msgid "Good"
+#~ msgstr "Καλό"
+
+#~ msgid "Average"
+#~ msgstr "Μέτριο"
+
+#~ msgid "Not that bad"
+#~ msgstr "'Οχι κακό"
+
+#~ msgid "Very Poor"
+#~ msgstr "Πολύ κακό"
+
+#~ msgid "Your Review"
+#~ msgstr "Η αξιολόγησή σας"
+
+#~ msgid ""
+#~ "Only logged in customers who have purchased this product may leave a "
+#~ "review."
+#~ msgstr ""
+#~ "Μόνο οι συνδεμένοι πελάτες που έχουν αγοράσει αυτό το προϊόν μπορούν να "
+#~ "κάνουν αξιολόγηση."
+
+#~ msgid "Rated %s out of 5"
+#~ msgstr "Αξιολογήθηκε με %s απο 5"
+
+#~ msgid "%s customer review"
+#~ msgid_plural "%s customer reviews"
+#~ msgstr[0] "%s αξιολόγηση πελάτη"
+#~ msgstr[1] "%s αξιολογήσεις πελάτων"

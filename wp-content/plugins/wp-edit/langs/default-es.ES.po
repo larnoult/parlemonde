@@ -1,0 +1,1392 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Edit\n"
+"POT-Creation-Date: 2014-03-22 12:44-0500\n"
+"PO-Revision-Date: 2014-06-05 10:29+0100\n"
+"Last-Translator: jelena kovacevic <jecajeca260@gmail.com>\n"
+"Language-Team: Josh Lobe <joshlobe@joshlobe.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../functions.php:41 ../main.php:201 ../main.php:926 ../main.php:2307
+msgid "WP Edit"
+msgstr "WP Edit"
+
+#: ../functions.php:49 ../functions.php:52 ../main.php:934
+msgid "Buttons"
+msgstr "Botones"
+
+#: ../functions.php:58 ../functions.php:61 ../main.php:935
+msgid "Global"
+msgstr "Global"
+
+#: ../functions.php:67 ../functions.php:70 ../main.php:936
+msgid "General"
+msgstr "General"
+
+#: ../functions.php:76 ../functions.php:79 ../main.php:937
+msgid "Posts/Pages"
+msgstr "Post/Páginas"
+
+#: ../functions.php:85 ../functions.php:88 ../main.php:938
+msgid "Editor"
+msgstr "Editor"
+
+#: ../functions.php:94 ../functions.php:97 ../main.php:939 ../main.php:1642
+msgid "Fonts"
+msgstr "Fuentes"
+
+#: ../functions.php:103 ../functions.php:106 ../main.php:940
+msgid "Widgets"
+msgstr "Widgets"
+
+#: ../functions.php:112 ../functions.php:115 ../main.php:941
+msgid "User Specific"
+msgstr "Especificaciones de Usuario"
+
+#: ../functions.php:121 ../functions.php:124 ../main.php:942
+msgid "Extras"
+msgstr "Extras"
+
+#: ../functions.php:130 ../functions.php:133 ../main.php:943
+msgid "Database"
+msgstr "Base de Datos"
+
+#: ../functions.php:172
+msgid "WP Edit Excerpt"
+msgstr "Extracto de WP Edit"
+
+#: ../functions.php:204
+msgid "Wp Edit Excerpt"
+msgstr "Extracto de Wp Edit"
+
+#: ../functions.php:235
+msgid "Biographical Info"
+msgstr "Información biográfica"
+
+#: ../functions.php:242
+msgid ""
+"Share a little biographical information to fill out your profile. This may "
+"be shown publicly."
+msgstr ""
+"Comparta un poco de información biográfica para completar su perfil. Esto se "
+"mostrará públicamente."
+
+#: ../functions.php:279
+msgid "Arbitrary text, HTML, or PHP Code"
+msgstr "Texto arbitrario, HTML o Código PHP "
+
+#: ../functions.php:281
+msgid "WP Edit PHP Widget"
+msgstr "Widget PHP de WP Edit "
+
+#: ../functions.php:316
+msgid "Title:"
+msgstr "Título:"
+
+#: ../functions.php:321
+msgid "Automatically add paragraphs."
+msgstr "Adicionar automáticamente los párrafos."
+
+#: ../functions.php:487
+msgid "Select which post types have the option to disable the wpautop filter."
+msgstr ""
+"Seleccione cuáles tipos de post tienen la opción de deshabilitar el filtro "
+"wpautop. "
+
+#: ../functions.php:542
+msgid "Disable wpautop:"
+msgstr "Desabilitar wpautop:"
+
+#: ../main.php:294
+msgid "User specific options saved."
+msgstr "Opciones específicas de usuario guardadas."
+
+#: ../main.php:314
+msgid "Additional options saved."
+msgstr "Opciones adicionales guardadas."
+
+#: ../main.php:335
+msgid "Tinymce options saved."
+msgstr "Opciones Tinymce guardadas."
+
+#: ../main.php:356
+msgid "Global options successfully saved."
+msgstr "Opciones globales guardadas satisfactoriamente."
+
+#: ../main.php:382
+msgid "General options successfully saved."
+msgstr "Opciones generales guardadas satisfactoriamente."
+
+#: ../main.php:415
+msgid "Revisions successfully deleted"
+msgstr "Revisiones eliminadas satisfactoriamente"
+
+#: ../main.php:417
+msgid "No POST revisions were found to delete"
+msgstr "No se encontraron revisiones de POST para borrar"
+
+#: ../main.php:430
+msgid "Message: "
+msgstr "Mensaje:"
+
+#: ../main.php:432
+msgid "Database size before deletions: "
+msgstr "Tamaño de base de datos antes de eliminar:"
+
+#: ../main.php:434 ../main.php:438
+msgid "megabytes."
+msgstr "megabytes."
+
+#: ../main.php:436
+msgid "Database Size after deletions: "
+msgstr "Tamaño de base de datos después de eliminar:"
+
+#: ../main.php:460
+msgid "Posts/Pages options successfully saved."
+msgstr "Opciones de Post/Páginas guardadas satisfactoriamente."
+
+#: ../main.php:490
+msgid "Editor options successfully saved."
+msgstr "Opciones de editor guardadas satisfactoriamente."
+
+#: ../main.php:512
+msgid "Font options successfully saved."
+msgstr "Opciones de fuente guardadas satisfactoriamente."
+
+#: ../main.php:542
+msgid "Extra options saved."
+msgstr "Opciones extras guardadas."
+
+#: ../main.php:569
+msgid "Editor Rows configuration saved."
+msgstr "Configuración de las Filas de editor salvadas."
+
+#: ../main.php:585
+msgid ""
+"You must also check the confirm box before options will be uninstalled and "
+"deleted."
+msgstr ""
+"También debe marcar la casilla de confirmación antes de que se puedan "
+"desinstalar y eliminar las opciones."
+
+#: ../main.php:593 ../main.php:860
+msgid "Sorry, your nonce did not verify."
+msgstr "Lo sentimos, no hay nada que verificar."
+
+#: ../main.php:791
+msgid "Plugin settings have successfully attempted to convert."
+msgstr "Los ajustes del plugin tuvieron éxito en la conversión."
+
+#: ../main.php:797
+msgid "Unfortunately, no settings were found to convert."
+msgstr "Por desgracia, no se encontraron valores para convertir."
+
+#: ../main.php:803
+msgid " buttons added to row 1 in \"Buttons\" tab."
+msgstr "botones agregados a la fila 1 en la pestaña \"Botones\"."
+
+#: ../main.php:806
+msgid " options updated in \"Global\" tab."
+msgstr "opciones actualizadas en la pestaña \"Global\"."
+
+#: ../main.php:809
+msgid " options updated in \"General\" tab."
+msgstr "opciones actualizadas en la pestaña \"General\"."
+
+#: ../main.php:812
+msgid " options updated in \"Posts/Pages\" tab."
+msgstr "opciones actualizadas en la pestaña \"Posts/Páginas\"."
+
+#: ../main.php:815
+msgid " options updated in \"User Specific\" tab."
+msgstr "opciones actualizadas en la pestaña \"Especificación de Usuario\"."
+
+#: ../main.php:818
+msgid " options updated in \"Extras\" tab."
+msgstr "opciones actualizadas en la pestaña \"Extras\"."
+
+#: ../main.php:820
+msgid ""
+"Delete old Ultimate Tinymce database options? (Irreversible; but results in "
+"a cleaner database)"
+msgstr ""
+"¿Eliminar viejas opciones de la  base de datos Tinymce? (Irreversible, pero "
+"limpia los resultados en la base de datos)"
+
+#: ../main.php:825
+msgid "Delete"
+msgstr "Eliminar"
+
+#: ../main.php:826
+msgid "No Thanks"
+msgstr "No Gracias"
+
+#: ../main.php:846
+msgid "Ultimate Tinymce database options successfully deleted."
+msgstr "Opciones de base de datos de TinyMCE eliminadas correctamente."
+
+#: ../main.php:848
+msgid "Congratulations! You are now running solid with WP Edit."
+msgstr "¡Felicitaciones! Ahora está ejecutando sólidamente con WP Edit."
+
+#: ../main.php:881
+msgid "Plugin settings have been restored to defaults."
+msgstr ""
+"Los ajustes de plugin han sido restaurados a los valores predeterminados."
+
+#: ../main.php:895
+msgid "Plugin settings have been successfully imported."
+msgstr "Los ajustes de plugin se han importado correctamente."
+
+#: ../main.php:957
+msgid "Drag and Drop Panel"
+msgstr "Panel de Arrastrar y Soltar"
+
+#: ../main.php:958
+msgid "Editor Rows"
+msgstr "Filas de Editor "
+
+#: ../main.php:986 ../main.php:1082
+msgid "Bold"
+msgstr "Negrita"
+
+#: ../main.php:987 ../main.php:1083
+msgid "Italic"
+msgstr "Itálica"
+
+#: ../main.php:988 ../main.php:1084
+msgid "Strikethrough"
+msgstr "Tachado"
+
+#: ../main.php:989 ../main.php:1085
+msgid "Bullet List"
+msgstr "Lista con viñetas"
+
+#: ../main.php:990 ../main.php:1086
+msgid "Numbered List"
+msgstr "Lista numerada"
+
+#: ../main.php:991 ../main.php:1087
+msgid "Blockquote"
+msgstr "Bloque entre comillas"
+
+#: ../main.php:992 ../main.php:1088
+msgid "Align Left"
+msgstr "Alinear a la Izquierda"
+
+#: ../main.php:993 ../main.php:1089
+msgid "Align Center"
+msgstr "Alinear al Centro"
+
+#: ../main.php:994 ../main.php:1090
+msgid "Align Right"
+msgstr "Alinear a la Derecha"
+
+#: ../main.php:995 ../main.php:1091
+msgid "Link"
+msgstr "Enlazar"
+
+#: ../main.php:996 ../main.php:1092
+msgid "Unlink"
+msgstr "Desenlazar"
+
+#: ../main.php:997 ../main.php:1093
+msgid "More"
+msgstr "Más"
+
+#: ../main.php:998 ../main.php:1094
+msgid "Distraction Free"
+msgstr "Libre de Distracción "
+
+#: ../main.php:1001 ../main.php:1097
+msgid "Format Select"
+msgstr "Seleccione el Formato"
+
+#: ../main.php:1002 ../main.php:1098
+msgid "Underline"
+msgstr "Subrayar"
+
+#: ../main.php:1003 ../main.php:1099
+msgid "Align Full"
+msgstr "Alineación Completa"
+
+#: ../main.php:1004 ../main.php:1100
+msgid "Foreground Color"
+msgstr "Colores del Primer Plano"
+
+#: ../main.php:1005 ../main.php:1101
+msgid "Paste Text"
+msgstr "Pegar Texto"
+
+#: ../main.php:1006 ../main.php:1102
+msgid "Remove Format"
+msgstr "Eliminar Formato"
+
+#: ../main.php:1007 ../main.php:1103
+msgid "Character Map"
+msgstr "Mapa de caracteres"
+
+#: ../main.php:1008 ../main.php:1104
+msgid "Outdent"
+msgstr "Anular Sangría"
+
+#: ../main.php:1009 ../main.php:1105
+msgid "Indent"
+msgstr "Sangría"
+
+#: ../main.php:1010 ../main.php:1106
+msgid "Undo"
+msgstr "Deshacer"
+
+#: ../main.php:1011 ../main.php:1107
+msgid "Redo"
+msgstr "Rehacer"
+
+#: ../main.php:1012 ../main.php:1108
+msgid "Help"
+msgstr "Ayuda"
+
+#: ../main.php:1015 ../main.php:1111
+msgid "Font Select"
+msgstr "Seleccionar Fuente"
+
+#: ../main.php:1016 ../main.php:1112
+msgid "Font Size Select"
+msgstr "Seleccionar Tamaño de la Fuente"
+
+#: ../main.php:1017 ../main.php:1113
+msgid "Formats"
+msgstr "Formato"
+
+#: ../main.php:1018 ../main.php:1114
+msgid "Background Color Picker"
+msgstr "Selector de color de fondo"
+
+#: ../main.php:1019 ../main.php:1115
+msgid "Media"
+msgstr "Media"
+
+#: ../main.php:1020 ../main.php:1116
+msgid "Text Direction Right to Left"
+msgstr "Dirección del texto de Derecha a Izquierda"
+
+#: ../main.php:1021 ../main.php:1117
+msgid "Text Direction Left to Right"
+msgstr "Dirección del texto de Izquierda a Derecha"
+
+#: ../main.php:1022 ../main.php:1118
+msgid "Anchor"
+msgstr "Ancho"
+
+#: ../main.php:1023 ../main.php:1119
+msgid "HTML Code"
+msgstr "Código HTML"
+
+#: ../main.php:1024 ../main.php:1120
+msgid "Emoticons"
+msgstr "Emociones"
+
+#: ../main.php:1025 ../main.php:1121
+msgid "Horizontal Rule"
+msgstr "Regla Horizontal"
+
+#: ../main.php:1026 ../main.php:1122
+msgid "Image"
+msgstr "Imagen"
+
+#: ../main.php:1027 ../main.php:1123
+msgid "Insert Date Time"
+msgstr "Insertar Fecha y Hora"
+
+#: ../main.php:1028 ../main.php:1124
+msgid "Page Break"
+msgstr "Salto de Página"
+
+#: ../main.php:1029 ../main.php:1125
+msgid "Preview"
+msgstr "Vista Previa"
+
+#: ../main.php:1030 ../main.php:1126
+msgid "Print"
+msgstr "Imprimir"
+
+#: ../main.php:1031 ../main.php:1127
+msgid "Search and Replace"
+msgstr "Buscar y Reemplazar"
+
+#: ../main.php:1032 ../main.php:1128
+msgid "Show Blocks"
+msgstr "Mostrar Bloqueados"
+
+#: ../main.php:1033 ../main.php:1129
+msgid "Subscript"
+msgstr "Suscribirse"
+
+#: ../main.php:1034 ../main.php:1130
+msgid "Superscript"
+msgstr "Superscript"
+
+#: ../main.php:1035 ../main.php:1131
+msgid "Paragraph Tag"
+msgstr "Etiqueta de Párrafo"
+
+#: ../main.php:1036 ../main.php:1132
+msgid "Line Break"
+msgstr "Salto de Línea"
+
+#: ../main.php:1037 ../main.php:1133
+msgid "MailTo Link"
+msgstr "Enlace al MailTo"
+
+#: ../main.php:1038 ../main.php:1134
+msgid "Lorem Ipsum"
+msgstr "Lorem Ipsum"
+
+#: ../main.php:1039 ../main.php:1135
+msgid "Color Picker"
+msgstr "Selector de Color"
+
+#: ../main.php:1040 ../main.php:1136
+msgid "Shortcodes"
+msgstr "Códigos Cortos"
+
+#: ../main.php:1041 ../main.php:1137
+msgid "YouTube Video"
+msgstr "Video YouTube"
+
+#: ../main.php:1042 ../main.php:1138
+msgid "Clker Images"
+msgstr "Imagenes Clker"
+
+#: ../main.php:1043 ../main.php:1139
+msgid "Clear Div"
+msgstr "Limpiar Div"
+
+#: ../main.php:1044 ../main.php:1140
+msgid "Code Magic"
+msgstr "Magia de Código "
+
+#: ../main.php:1045 ../main.php:1141
+msgid "Accessibility Checker"
+msgstr "Comprobador de accesibilidad"
+
+#: ../main.php:1067
+msgid "Icon Placeholder Container"
+msgstr "Contenedor de Placeholder de Icono "
+
+#: ../main.php:1157
+msgid ""
+"Buttons may be dragged to Row 1 (enabling them); or to the Placeholder "
+"Container (removing them from the editor)."
+msgstr ""
+"Los botones pueden ser arrastrados a la Fila 1 (activándolos); o al "
+"Contenedor de Placeholder (eliminándolos del editor)."
+
+#: ../main.php:1159
+msgid "Buttons may also be sorted within Row 1."
+msgstr "Los botones también pueden organizarse en la Fila 1."
+
+#: ../main.php:1161
+msgid ""
+"Each time a button is dropped, an ajax call is made which updates all rows. "
+"This feature can be disabled with the additional option."
+msgstr ""
+"Cada vez que se suelta un botón, una llamada AJAX se hace que actualiza "
+"todas las filas. Esta característica se puede desactivar en las opciones "
+"adicionales."
+
+#: ../main.php:1163
+msgid ""
+"Drag and Drop ability for all four rows of the editor is available in WP "
+"Edit Pro."
+msgstr ""
+"La capacidad de arrastrar y soltar  para las cuatro filas del editor está "
+"disponible en WP Edit Pro."
+
+#: ../main.php:1170
+msgid "Icons available in Pro"
+msgstr "Iconos disponibles en Pro"
+
+#: ../main.php:1198
+msgid "Developer Note"
+msgstr "Nota de Desarrollador"
+
+#: ../main.php:1203
+msgid ""
+"This plugin is the culmination of two years experience; many, many hours of "
+"hard work and dedication; and a vast presence in the WordPress community."
+msgstr ""
+"Este plugin es la culminación de dos años de experiencia; muchas, muchas "
+"horas de duro trabajo y dedicación; y una amplia presencia en la comunidad "
+"de WordPress."
+
+#: ../main.php:1205
+msgid "If you enjoy this plugin, please show your appreciation via a "
+msgstr ""
+"Si le gusta este plugin, por favor, muestre su agradecimiento a través de una"
+
+#: ../main.php:1207
+msgid "PayPal Donation"
+msgstr "Donación PayPal"
+
+#: ../main.php:1209
+msgid "Alternatively, the purchase of the "
+msgstr "Alternativamente, la compra de la "
+
+#: ../main.php:1211
+msgid "PRO Version"
+msgstr "Versión PRO"
+
+#: ../main.php:1213
+msgid ""
+"offers additional features and extended functionality; while also supporting "
+"the developer."
+msgstr ""
+"ofrece funciones adicionales y funcionalidad ampliada; mientras que también "
+"apoya al  desarrollador."
+
+#: ../main.php:1222
+msgid "Additional Options"
+msgstr "Opciones Adicionales"
+
+#: ../main.php:1229
+msgid "Restore all buttons to default."
+msgstr "Restaurar todos los botones a por defecto"
+
+#: ../main.php:1231
+msgid "Reset Buttons"
+msgstr "Restaurar Botones"
+
+#: ../main.php:1235
+msgid "Disable ajax saving of buttons."
+msgstr "Deshabilitar salvar con ajax en los botones."
+
+#: ../main.php:1241
+msgid "Save Button Options"
+msgstr "Opciones de Botón de Guardado "
+
+#: ../main.php:1257
+msgid "TinyMCE Options"
+msgstr "Opciones TinyMCE "
+
+#: ../main.php:1266
+msgid "Enable editor menu bar."
+msgstr "Habilitar la barra menú del editor."
+
+#: ../main.php:1273
+msgid "Enable editor context menu."
+msgstr "Habilitar el menú contextual del editor"
+
+#: ../main.php:1280
+msgid "Save TinyMCE Options"
+msgstr "Guardar Opciones TinyMCE"
+
+#: ../main.php:1303
+msgid "Global Options"
+msgstr "Opciones Globales"
+
+#: ../main.php:1305
+msgid "These options control various items used throughout the plugin."
+msgstr "Estas opciones controlan varios elementos utilizados en el plugin."
+
+#: ../main.php:1317
+msgid "jQuery Theme"
+msgstr "Tema jQuery"
+
+#: ../main.php:1330
+msgid "Selects the jQuery theme for plugin alerts and notices."
+msgstr "Seleccione el tema de jQuery para las alertas y avisos del plugin."
+
+#: ../main.php:1333
+msgid "Disable Admin Links"
+msgstr "Deshabilitar los Enlaces de Admin"
+
+#: ../main.php:1336
+msgid "Disables the WP Edit top admin bar links."
+msgstr ""
+"Deshabilitar los enlaces de la barra de administración superior de  WP Edit "
+
+#: ../main.php:1342
+msgid "Save Global Options"
+msgstr "Guardar Opciones Globales"
+
+#: ../main.php:1354
+msgid "General Options"
+msgstr "Opciones Generales"
+
+#: ../main.php:1355
+msgid "General plugin options."
+msgstr "Opciones Generales del Plugin"
+
+#: ../main.php:1370
+msgid "Linebreak Shortcode"
+msgstr "Código corto de salto de línea "
+
+#: ../main.php:1373
+msgid "Use the [break] shortcode to insert linebreaks in the editor."
+msgstr ""
+"Utilice el código corto [pausa] para insertar saltos de línea en el editor."
+
+#: ../main.php:1376
+msgid "Shortcodes in Widgets"
+msgstr "Códigos Cortos en Widgets"
+
+#: ../main.php:1379
+msgid "Use shortcodes in widget areas."
+msgstr "Utilice códigos cortos en las áreas de widget"
+
+#: ../main.php:1382
+msgid "Shortcodes in Excerpts"
+msgstr "Extractos de código corto"
+
+#: ../main.php:1385
+msgid "Use shortcodes in excerpt areas."
+msgstr "Utilice códigos cortos en áreas de extracto."
+
+#: ../main.php:1388
+msgid "WP Edit Post Excerpt"
+msgstr "Extracto de Post de WP Edit "
+
+#: ../main.php:1391
+msgid "Add the WP Edit editor to the Post Excerpt area."
+msgstr "Añadir el editor de WP Edit  al área de Extracto de Post."
+
+#: ../main.php:1394
+msgid "WP Edit Page Excerpt"
+msgstr "Extracto de Página de WP Edit "
+
+#: ../main.php:1397
+msgid "Add the WP Edit editor to the Page Excerpt area."
+msgstr "Adicione el editor de WP Edit al área de Extracto de Página."
+
+#: ../main.php:1400
+msgid "Profile Editor"
+msgstr "Editor del Perfil"
+
+#: ../main.php:1403
+msgid "Use modified editor in profile biography field."
+msgstr "Utilice el editor modificado en el campo biografía del perfil."
+
+#: ../main.php:1406
+msgid "PHP Widgets"
+msgstr "Widgets PHP "
+
+#: ../main.php:1409
+msgid "Adds a new widget for PHP code."
+msgstr "Añada un nuevo widget para el código PHP."
+
+#: ../main.php:1415
+msgid "Save General Options"
+msgstr "Guardar Opciones Generales"
+
+#: ../main.php:1428
+msgid "Posts/pages Options"
+msgstr "Opciones de Post/Páginas"
+
+#: ../main.php:1429
+msgid "These options apply specifically to posts and pages."
+msgstr "Estas opciones se aplican específicamente a los posts y las páginas."
+
+#: ../main.php:1449
+msgid "Post/Page Default Title"
+msgstr "Título por Defecto del Post/Página"
+
+#: ../main.php:1452
+msgid "Change the default \"add new\" post/page title field."
+msgstr ""
+"Cambie el valor predeterminado \"Añadir nuevo\" del campo del título de la "
+"página/post."
+
+#: ../main.php:1455
+msgid "Column Shortcodes"
+msgstr "Códigos Cortos de Columna"
+
+#: ../main.php:1458
+msgid "Enable the column shortcodes functionality."
+msgstr "Habilitar la funcionalidad de códigos cortos de columna."
+
+#: ../main.php:1461
+msgid "Disable wpautop()"
+msgstr "Deshabilitar wpautop()"
+
+#: ../main.php:1464
+msgid "Disable the filter responsible for removing p and br tags."
+msgstr ""
+"Desactivar el filtro responsable de la eliminación de las etiquetas p y br."
+
+#: ../main.php:1470
+msgid "Page Revisions"
+msgstr "Revisiones de Páginas"
+
+#: ../main.php:1473
+msgid "Max Post Revisions"
+msgstr "Revisiones de Post Máx"
+
+#: ../main.php:1476
+msgid "Set max number of Post Revisions to store in database."
+msgstr ""
+"Establecer el número máximo de Revisiones de Posts a almacenar en la base de "
+"datos."
+
+#: ../main.php:1479
+msgid "Max Page Revisions"
+msgstr "Revisiones de Páginas Máximas "
+
+#: ../main.php:1482
+msgid "Set max number of Page Revisions to store in database."
+msgstr ""
+"Establecer el número máximo de revisiones de la página para almacenar la "
+"base de datos."
+
+#: ../main.php:1485
+msgid "Delete Revisions"
+msgstr "Eliminar Revisiones"
+
+#: ../main.php:1488
+msgid "Delete all database revisions."
+msgstr "Eliminar todas las revisiones de la base de datos"
+
+#: ../main.php:1491
+msgid "Revisions DB Size"
+msgstr "Tamaño de las Revisiones de la BD"
+
+#: ../main.php:1500
+msgid "Current size of revisions stored in database:"
+msgstr "Tamaño actual de las revisiones almacenadas en la base de datos:"
+
+#: ../main.php:1508
+msgid "Hide Posts and Pages"
+msgstr "Ocultar Posts y Páginas"
+
+#: ../main.php:1511
+msgid "Hide Admin Posts"
+msgstr "Ocultar los Posts del Admin "
+
+#: ../main.php:1514
+msgid "Hide selected posts from admin view."
+msgstr "Ocultar los post seleccionados desde la vista de administración."
+
+#: ../main.php:1517
+msgid "Hide Admin Pages"
+msgstr "Ocultar Páginas de Administración"
+
+#: ../main.php:1520
+msgid "Hide selected pages from admin view."
+msgstr "Ocultar páginas seleccionadas de la vista administrativa."
+
+#: ../main.php:1526
+msgid "Save Posts/Pages Options"
+msgstr "Guardar Opciones de Posts/Páginas"
+
+#: ../main.php:1538
+msgid "Editor Options"
+msgstr "Opciones del Editor"
+
+#: ../main.php:1539
+msgid ""
+"These options will override the initial editor defaults, which will load the "
+"editor using the values below."
+msgstr ""
+"Estas opciones tienen prioridad sobre los valores por defecto del editor "
+"inicial y se cargarán en el editor utilizando los valores de abajo."
+
+#: ../main.php:1559
+msgid "Enable Editor Settings"
+msgstr "Habilitar los Ajustes del Editor"
+
+#: ../main.php:1562
+msgid "Executes the values set below when initiating the content editor."
+msgstr ""
+"Ejecuta los valores establecidos a continuación al iniciar el editor de "
+"contenidos."
+
+#: ../main.php:1571
+msgid "Editor Font"
+msgstr "Fuente del Editor"
+
+#: ../main.php:1574
+msgid "Font Family (ex. Verdana, Arial, Helvetica, sans-serif)"
+msgstr "Familia de la Fuente (e.j. Verdana, Arial, Helvetica, sans-serif)"
+
+#: ../main.php:1577
+msgid "Editor Font Color"
+msgstr "Color de la Fuente del Editor"
+
+#: ../main.php:1580
+msgid "Hex Number (ex. 000000)"
+msgstr "Número Hex (e.j. 000000)"
+
+#: ../main.php:1583
+msgid "Editor Font Size"
+msgstr "Tamaño de la Fuente del Editor"
+
+#: ../main.php:1586
+msgid "Size (ex. 13px)"
+msgstr "Tamaño (e.j. 13px)"
+
+#: ../main.php:1589
+msgid "Editor Background Color"
+msgstr "Modificar Color de Fondo"
+
+#: ../main.php:1592
+msgid "Hex Number (ex. FFFFFF)"
+msgstr "Número Hex (e.j. FFFFFF)"
+
+#: ../main.php:1595
+msgid "Line Height"
+msgstr "Altura de la Línea"
+
+#: ../main.php:1598
+msgid "Size (ex. 19px)"
+msgstr "Tamaño (e.j. 19px)"
+
+#: ../main.php:1601
+msgid "Body Padding"
+msgstr "Espaciado del Cuerpo"
+
+#: ../main.php:1604
+msgid "Size (ex. 14px)"
+msgstr "Tamaño (e.j. 14px)"
+
+#: ../main.php:1607
+msgid "Body Margin"
+msgstr "Margen del Cuerpo"
+
+#: ../main.php:1610
+msgid "Size (ex. 10px)"
+msgstr "Tamaño (e.j. 10px)"
+
+#: ../main.php:1613
+msgid "Text Indent"
+msgstr "Sangría"
+
+#: ../main.php:1616
+msgid "Size (ex. 20px)"
+msgstr "Tamaño (e.j. 20px)"
+
+#: ../main.php:1619
+msgid "Text Direction"
+msgstr "Dirección del Texto"
+
+#: ../main.php:1622
+msgid "Direction (ex. ltr)"
+msgstr "Dirección (e.j. Itr)"
+
+#: ../main.php:1629
+msgid "Save Editor Options"
+msgstr "Guardar las Opciones del Editor"
+
+#: ../main.php:1630
+msgid "Restore Settings"
+msgstr "Restaurar Ajustes "
+
+#: ../main.php:1643
+msgid "These settings will enable various fonts in the editor."
+msgstr "Estos ajustes permitirán diversas fuentes en el editor."
+
+#: ../main.php:1656
+msgid "Activate Google Fonts"
+msgstr "Fuentes de Google Activas"
+
+#: ../main.php:1659
+msgid "Turns on/off Google Webfonts."
+msgstr "Activar/desactivar Google Webfonts."
+
+#: ../main.php:1668
+msgid "Build Font List"
+msgstr "Construir Lista de Fuentes"
+
+#: ../main.php:1673
+msgid "Step 1:"
+msgstr "Paso 1:"
+
+#: ../main.php:1675
+msgid "Visit "
+msgstr "Visitar"
+
+#: ../main.php:1677
+msgid "Google Webfonts"
+msgstr "Google Webfonts"
+
+#: ../main.php:1679
+msgid "to see how fonts are displayed in the browser."
+msgstr "para ver cómo se muestran los tipos de letra en el navegador."
+
+#: ../main.php:1682
+msgid "Step 2:"
+msgstr "Paso 2:"
+
+#: ../main.php:1684
+msgid ""
+"Once desired fonts are selected, choose them (one at a time) from the "
+"dropdown list below (sorted alphabetically)."
+msgstr ""
+"Una vez seleccionadas las fuentes que desee, elíjalas (una a la vez) en la "
+"lista desplegable a continuación (ordenados alfabéticamente)."
+
+#: ../main.php:1693
+msgid "Something went wrong!"
+msgstr "¡Algo fue mal!"
+
+#: ../main.php:1714
+msgid ""
+"As fonts are selected, they will appear in the \"Active Fonts\" section "
+"below."
+msgstr ""
+"Mientras se seleccionan las fuentes, estas aparecerán en la sección "
+"\"Fuentes Activas\" de abajo."
+
+#: ../main.php:1724
+msgid "Active Fonts"
+msgstr "Fuentes Activas"
+
+#: ../main.php:1734
+msgid "Current Font List"
+msgstr "Lista de Fuentes Corrientes"
+
+#: ../main.php:1753
+msgid "Trash Bin"
+msgstr "Papelera"
+
+#: ../main.php:1757
+msgid "Drag fonts here to delete..."
+msgstr "Arrastrar las fuentes aquí para eliminar..."
+
+#: ../main.php:1764
+msgid "Save Font Options"
+msgstr "Guardar Opciones de Fuente"
+
+#: ../main.php:1769
+msgid "Remember to save the options when finished."
+msgstr "Recuerde guardar las opciones cuando haya terminado."
+
+#: ../main.php:1787
+msgid "Widget Options"
+msgstr "Opciones de Widget"
+
+#: ../main.php:1788
+msgid "These options specifically affect how widgets are handled."
+msgstr "Estas opciones afectan específicamente cómo se manejan los widgets."
+
+#: ../main.php:1799
+msgid "Widget Builder"
+msgstr "Constructor de Widget"
+
+#: ../main.php:1802
+msgid "Enables the powerful widget builder."
+msgstr "Habilitar el poderoso constructor de widget."
+
+#: ../main.php:1811
+msgid "Save Widget Options"
+msgstr "Guardar Opciones de Widget"
+
+#: ../main.php:1823
+msgid "User Specific Options"
+msgstr "Opciones Específicas del Usuario"
+
+#: ../main.php:1824
+msgid ""
+"These options are stored in individual user meta; meaning each user can set "
+"these options independlently from one another."
+msgstr ""
+"Estas opciones se almacenan en un meta usuario individual; significa que "
+"cada usuario puede configurar estas opciones independientemente de otros."
+
+#: ../main.php:1846
+msgid "Save Scrollbar"
+msgstr "Guardar Scrollbar"
+
+#: ../main.php:1849
+msgid "Saves the editor srollbar position when editing long posts (TEXT mode)."
+msgstr ""
+"Guarda la posición del scrollbar del editor al editar posts largos (modo de "
+"texto)."
+
+#: ../main.php:1852
+msgid "ID Column"
+msgstr "ID de Columna"
+
+#: ../main.php:1855
+msgid "Adds a column to post/page list view for displaying the post/page ID."
+msgstr ""
+"Adiciona una columna a la vista de la lista de post/página para mostrar el "
+"ID de post/página."
+
+#: ../main.php:1858
+msgid "Thumbnail Column"
+msgstr "Columna en Miniatura"
+
+#: ../main.php:1861
+msgid "Adds a column to post/page list view for displaying thumbnails."
+msgstr ""
+"Adiciona una columna a la vista de lista de post/página para mostrar las "
+"miniaturas."
+
+#: ../main.php:1864
+msgid "Hide TEXT Tab"
+msgstr "Ocultar la pestaña TEXTO"
+
+#: ../main.php:1867
+msgid "Hide the editor TEXT tab from view."
+msgstr "Oculta la pestaña del editor de TEXTO de la vista."
+
+#: ../main.php:1870
+msgid "Default VISUAL Tab"
+msgstr "Pestaña VISUAL Por Defecto "
+
+#: ../main.php:1873
+msgid "Always display VISUAL tab when editor loads."
+msgstr "Mostrar siempre la pestaña VISUAL cuando se carga el editor."
+
+#: ../main.php:1876
+msgid "Disable Dashboard Widget"
+msgstr "Deshabilitar Widget del Dashboard"
+
+#: ../main.php:1879
+msgid "Disables Ultimate Tinymce Pro News Feed dashboard widget."
+msgstr "Deshabilita el widget del dashboard de Ultimate Tinymce Pro News Feed"
+
+#: ../main.php:1885
+msgid "Post/Page Highlight Colors"
+msgstr "Colores Resaltados de Post/Página "
+
+#: ../main.php:1886
+msgid ""
+"These options will allow each user to customize highlight colors for each "
+"post/page status."
+msgstr ""
+"Estas opciones permitirán a cada usuario personalizar los colores claros "
+"para cada estado del post/página."
+
+#: ../main.php:1887
+msgid "Meaning.. saved posts can be yellow, published posts can be blue, etc."
+msgstr ""
+"Significa…que los posts salvados pueden ser amarillos, los post publicados "
+"pueden ser azules, etc."
+
+#: ../main.php:1891
+msgid "Enable Highlights"
+msgstr "Habilitar Destacados"
+
+#: ../main.php:1894
+msgid "Enable the Highlight Options below."
+msgstr "Habilitar las Opciones de Destacado siguientes."
+
+#: ../main.php:1897
+msgid "Draft Highlight"
+msgstr "Destacado en Borrador"
+
+#: ../main.php:1902
+msgid "Pending Highlight"
+msgstr "Destacado Pendiente"
+
+#: ../main.php:1907
+msgid "Published Highlight"
+msgstr "Destacado Publicado"
+
+#: ../main.php:1912
+msgid "Future Highlight"
+msgstr "Destacado Futuro"
+
+#: ../main.php:1917
+msgid "Private Highlight"
+msgstr "Destacado Privado"
+
+#: ../main.php:1948
+msgid "Extra Options"
+msgstr "Opciones Extras"
+
+#: ../main.php:1950
+msgid "Signoff Text"
+msgstr "Texto de Deslogueo"
+
+#: ../main.php:1951
+msgid ""
+"Use the editor below to create a content chunk that can be inserted anywhere "
+"using the"
+msgstr ""
+"Utilice el editor a continuación para crear un fragmento de contenido que se "
+"puede insertar en cualquier lugar con el"
+
+#: ../main.php:1951
+msgid "shortcode."
+msgstr "código corto."
+
+#: ../main.php:1966
+msgid "QR Codes"
+msgstr "Códigos QR"
+
+#: ../main.php:1968
+msgid "Please use the options below to setup your personalized QR Code."
+msgstr ""
+"Utilice las siguientes opciones para configurar su código QR ​​personalizado."
+
+#: ../main.php:1975
+msgid "Enable QR Codes"
+msgstr "Habilitar Códigos QR"
+
+#: ../main.php:1978
+msgid "A global option which enables all QR Code functionality."
+msgstr "Una opción global que habilita toda la funcionalidad de Código QR."
+
+#: ../main.php:1981
+msgid "Enable QR Widgets"
+msgstr "Habilitar Widgets QR"
+
+#: ../main.php:1984
+msgid "Adds new widget for creating QR codes."
+msgstr "Añade nuevo widget para la creación de códigos QR."
+
+#: ../main.php:1993
+msgid "Design QR Code"
+msgstr "Diseñar Código QR"
+
+#: ../main.php:2001
+msgid "Title Background"
+msgstr "Fondo del Título "
+
+#: ../main.php:2006
+msgid "Content Background"
+msgstr "Fondo del Contenido "
+
+#: ../main.php:2011
+msgid "Text Color"
+msgstr "Color del Texto"
+
+#: ../main.php:2016
+msgid "QR Foreground Color"
+msgstr "Color de Primer Plano de QR"
+
+#: ../main.php:2021
+msgid "QR Background Color"
+msgstr "Color de Fondo de QR"
+
+#: ../main.php:2031
+msgid ""
+"This is a preview area.  Changes will not be written to the database until "
+"the \"Save Changes\" button is clicked."
+msgstr ""
+"Esto es un área de vista previa. Los cambios no se escriben en la base de "
+"datos hasta que se haga clic en el botón \"Guardar cambios\"."
+
+#: ../main.php:2033
+msgid "Preview! (<em>Click \"Save Changes\" to update</em>)"
+msgstr "¡Vista previa! (<em>Clic en \"Guardar Cambios\" para actualizar</em>)"
+
+#: ../main.php:2043
+msgid ""
+"This is preview text. Use the editor below to create custom text for your "
+"posts/pages."
+msgstr ""
+"Este es el texto de la vista previa. Utilice el editor a continuación para "
+"crear un texto personalizado para sus posts/páginas."
+
+#: ../main.php:2044
+msgid ""
+"It is strongly suggested to use highly contrasting colors for the background "
+"and foreground QR colors."
+msgstr ""
+"Es muy recomendable utilizar colores altamente contrastantes para el fondo y "
+"los colores QR de primer plano."
+
+#: ../main.php:2056
+msgid "Title Text"
+msgstr "Texto del Título"
+
+#: ../main.php:2061
+msgid "Content"
+msgstr "Contenido"
+
+#: ../main.php:2084
+msgid "Database Options"
+msgstr "Opciones de Base de Datos"
+
+#: ../main.php:2089
+msgid "Convert Options from Ultimate Tinymce"
+msgstr "Opciones de Convertir desde Ultimate Tinymce"
+
+#: ../main.php:2092
+msgid "Convert any options used by Ultimate Tinymce to WP Edit."
+msgstr ""
+"Convertir cualquiera de las opciones utilizadas por Ultimate Tinymce a WP "
+"Edit."
+
+#: ../main.php:2094
+msgid "Since so much has changed, not all options may convert successfully."
+msgstr ""
+"Dado que muchas cosas han cambiado, no todas las opciones se pueden "
+"convertir con éxito."
+
+#: ../main.php:2096
+msgid "There will be no harm done to any other plugin or theme options."
+msgstr "No afectará otras opciones del plugin o temas."
+
+#: ../main.php:2100
+msgid "Convert Options"
+msgstr "Opciones de Conversión"
+
+#: ../main.php:2106
+msgid "Export WP Edit Options"
+msgstr "Export  Opciones de WP Edit"
+
+#: ../main.php:2108
+msgid ""
+"Export the plugin settings for this site as a .json file. This allows you to "
+"easily import the configuration into another site."
+msgstr ""
+"Exportar la configuración del plugin de este sitio como un archivo .json. "
+"Esto le permite importar fácilmente la configuración en otro sitio."
+
+#: ../main.php:2113
+msgid "Export"
+msgstr "Exportar"
+
+#: ../main.php:2120
+msgid "Import WP Edit Options"
+msgstr "Importar las Opciones de WP Edit"
+
+#: ../main.php:2122
+msgid ""
+"Import the plugin settings from a .json file. This file can be obtained by "
+"exporting the settings on another site using the form above."
+msgstr ""
+"Importar la configuración del plugin desde un archivo .json. Este archivo se "
+"puede obtener mediante la exportación de la configuración de otro sitio "
+"utilizando el formulario de arriba."
+
+#: ../main.php:2128
+msgid "Import"
+msgstr "Importar"
+
+#: ../main.php:2135
+msgid "Reset WP Edit Options"
+msgstr "Restablecer las Opciones de WP Edit "
+
+#: ../main.php:2137
+msgid "Reset all plugin settings to their original default states."
+msgstr ""
+"Restablecer todas las configuraciones del plugin a sus estados "
+"predeterminados originalmente"
+
+#: ../main.php:2140
+msgid "Reset Settings"
+msgstr "Resetear Ajustes"
+
+#: ../main.php:2147
+msgid "Uninstall WP Edit (Completely)"
+msgstr "Desinstalar WP Edit (Completo)"
+
+#: ../main.php:2149
+msgid ""
+"Designed by intention, this plugin will not delete the associated database "
+"tables when activating and deactivating."
+msgstr ""
+"Diseñado intencionalmente, este plugin no eliminará las tablas de la base de "
+"datos asociadas al activar y desactivar."
+
+#: ../main.php:2150
+msgid ""
+"This ensures the data is kept safe when troubleshooting other WordPress "
+"conflicts."
+msgstr ""
+"Esto asegura que los datos se mantengan seguros al solucionar otros "
+"conflictos de WordPress."
+
+#: ../main.php:2151
+msgid ""
+"In order to completely uninstall the plugin, AND remove all associated "
+"database tables, please use the option below."
+msgstr ""
+"Para desinstalar completamente el plugin y eliminar todas las tablas de la "
+"base de datos asociada, por favor, utilice la opción de abajo."
+
+#: ../main.php:2156
+msgid "Please confirm before proceeding"
+msgstr "Por favor confirme el procedimiento "
+
+#: ../main.php:2157
+msgid "Uninstall"
+msgstr "Desinstalar"
+
+#: ../main.php:2254
+msgid "Please upload a valid .json file"
+msgstr "Por favor, suba un archivo .json válido"
+
+#: ../main.php:2260
+msgid "Please upload a file to import"
+msgstr "Por favor, suba un archivo para importar "
+
+#: ../main.php:2313
+msgid "Disable QR for this post/page:"
+msgstr "Desactivar QR para este post/página:"
+
+#: ../main.php:2316
+msgid "Disables QR only for this post/page."
+msgstr "Desabilitar QR solo para este post/página."
+
+#: ../main.php:2319
+msgid "QR Title:"
+msgstr "Título QR:"
+
+#: ../main.php:2324
+msgid "QR Content:"
+msgstr "Contenido QR:"
+
+#: ../main.php:2347
+msgid "QR Code Options:"
+msgstr "Opciones de Código QR:"
+
+#: ../main.php:2348
+msgid "These options are post/page specific."
+msgstr "Estas opciones son específicas para cada post/página."
+
+#: ../main.php:2349
+msgid ""
+"They will override corresponding global options set on the admin WP Edit "
+"settings page."
+msgstr ""
+"Se anularán las opciones globales correspondientes fijadas en la página de "
+"configuración de WP Edit del admin."
+
+#: ../main.php:2386
+#, php-format
+msgid ""
+"Deactivated. If required, please activate via the <a href=\"%1$s\">admin "
+"settings page</a>."
+msgstr ""
+"Desactivado. Si es necesario, por favor, active a través de la página de "
+"configuración de administración <a href=\"%1$s\">."
+
+#: ../main.php:2437
+msgid "Ajax is working... but having trouble connecting with the database."
+msgstr ""
+"Ajax está trabajando... pero tiene problemas para conectarse con la base de "
+"datos."
+
+#: ../user_functions.php:125
+msgid "ID"
+msgstr "ID"
+
+#: ../user_functions.php:147
+msgid "Thumbnail"
+msgstr "Miniatura"
+
+#: ../user_functions.php:169
+msgid "None"
+msgstr "Ninguno"
+
+#: ../user_functions.php:214
+msgid "WP Edit RSS Feed"
+msgstr "WP Edit RSS Feed"
+
+#: ../user_functions.php:256
+msgid "Number of posts to show:"
+msgstr "Número de posts a mostrar:"

@@ -1,0 +1,33 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.add-user-to-blog-wrapper {
+	margin-top: 12px;
+}
+
+a.button.remove-site {
+	float: right;
+}
+
+a.button.confirm-user-blog-removal {
+	float: right;
+}
+
+a.button.cancel-user-blog-removal {
+	float: right;
+	margin-left: 6px;
+}
+.confirm-remove {
+	background-color: lightcyan;
+}
+
+.wpmuurm-wrapper .editable-buttons {
+	display: block;
+	margin-left: 0px;
+	margin-top: 5px;
+}
+
+.wpmuurm-wrapper .editable-buttons button.ui-button-icon-only {
+	width: auto;
+}

@@ -1,0 +1,18 @@
+<?php 
+/**
+* 
+*/
+
+// Disallow direct access.
+defined('ABSPATH') or die('Restricted Access');
+
+// Block viee object.
+$blockView = $this->getBlockView();
+
+if ($this->isLoading || !$blockView->isClosed) {
+	// Get assignment panel template
+	echo $this->structuredContent['assignPanel'] = $this->getTemplate('default', array('block' => $blockView->getBlock()), 'tmpl/templates/assign-panel');
+}
+
+// Put the Objects Panel at the begning of the block content.
+echo $this->structuredContent['content'] = $blockView->getTemplate($this->isLoading ? 'content' : $blockView->templateName);

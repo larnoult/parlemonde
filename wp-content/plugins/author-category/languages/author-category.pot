@@ -1,0 +1,142 @@
+# Copyright (C) 2014 Author Category
+# This file is distributed under the same license as the Author Category package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Author Category 0.7\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/author-category\n"
+"POT-Creation-Date: 2014-03-19 12:19:28+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: author-category.php:198 inc/author_category_Panel_class.php:142
+msgid "Author category"
+msgstr ""
+
+#: author-category.php:224
+msgid "this will be posted in: <strong>"
+msgstr ""
+
+#: author-category.php:224
+msgid "</strong> Category"
+msgstr ""
+
+#: author-category.php:227
+msgid "Make Sure you select only the categories you want: <strong>"
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (Author Category 0.7)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: author-category.php:265 inc/author_category_Panel_class.php:167
+#: inc/author_category_Panel_class.php:169
+msgid "Author Category"
+msgstr ""
+
+#: author-category.php:268
+msgid "Category"
+msgstr ""
+
+#: author-category.php:272
+msgid ""
+"select a category to limit an author to post just in that category (use Crtl "
+"to select more then one)."
+msgstr ""
+
+#: author-category.php:276
+msgid "Clear Category"
+msgstr ""
+
+#: author-category.php:280
+msgid "Check if you want to clear the limitation for this user."
+msgstr ""
+
+#: author-category.php:345
+msgid "Other Plugins by this author"
+msgstr ""
+
+#: author-category.php:346 inc/author_category_Panel_class.php:171
+msgid "Plugin Support"
+msgstr ""
+
+#: author-category.php:347 inc/author_category_Panel_class.php:172
+msgid "Donate"
+msgstr ""
+
+#: inc/Simple_Panel_class.php:633 inc/Simple_Panel_class.php:641
+msgid "Sorry, you cannot upload this file type for this field."
+msgstr ""
+
+#: inc/author_category_Panel_class.php:30
+msgid "Save changes"
+msgstr ""
+
+#: inc/author_category_Panel_class.php:31
+msgid "Credits"
+msgstr ""
+
+#: inc/author_category_Panel_class.php:32
+msgid "Latest From Bainternet"
+msgstr ""
+
+#: inc/author_category_Panel_class.php:33
+#: inc/author_category_Panel_class.php:141
+msgid "Author category settings"
+msgstr ""
+
+#: inc/author_category_Panel_class.php:80
+msgid ""
+"Want to help make this plugin even better? All donations are used to improve "
+"and support, so donate $20, $50 or $100 now!"
+msgstr ""
+
+#: inc/author_category_Panel_class.php:82
+msgid "Or you could:"
+msgstr ""
+
+#: inc/author_category_Panel_class.php:84
+msgid "Rate the plugin 5&#9733; on WordPress.org"
+msgstr ""
+
+#: inc/author_category_Panel_class.php:85
+msgid "Blog about it &amp; link to the plugin page"
+msgstr ""
+
+#: inc/author_category_Panel_class.php:152
+msgid "Author Category settings"
+msgstr ""
+
+#: inc/author_category_Panel_class.php:157
+msgid "Check none by default"
+msgstr ""
+
+#: inc/author_category_Panel_class.php:162
+msgid ""
+"When using multiple categories they are all checked by default, check this "
+"box to disable that."
+msgstr ""
+
+#: inc/author_category_Panel_class.php:171
+msgid "If you have any questions or problems head over to"
+msgstr ""
+
+#: inc/author_category_Panel_class.php:172
+msgid "If you like my wrok then please "
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (Author Category 0.7)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  plugin.pot (Author Category 0.7)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://en.bainternet.info"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "simple plugin limit authors to post just in one category."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Bainternet"
+msgstr ""

@@ -1,0 +1,131 @@
+/* reset --------------------------------------------------------------------- */
+.democracy:after{ content:'';display:table; clear:both; }
+.democracy ul li,
+.democracy ul{ background:none; padding:0;margin:0; }
+.democracy ul li:before{ display:none; } /* li reset */
+
+.democracy input[type='radio'],
+.democracy input[type='checkbox']{
+	margin:0; vertical-align:middle;
+}
+.democracy input[type='radio']:focus,
+.democracy input[type='checkbox']:focus{
+	outline:none;
+}
+.democracy ul{ list-style:none !important; border:none !important; }
+.democracy ul li{ list-style:none !important; }
+
+input[type="submit"].dem-button,
+a.dem-button,
+.dem-button{
+	position:relative; display:inline-block; text-decoration:none; line-height:1; border:0; margin:0; padding:0; cursor:pointer; white-space:nowrap;
+	-webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none;
+}
+input[type="submit"].dem-button:focus,
+a.dem-button:focus,
+.dem-button:focus{
+	outline:none;
+}
+input[type="submit"].dem-button:disabled,
+a.dem-button:disabled,
+.dem-button:disabled{
+	opacity:.6;
+	cursor:not-allowed;
+}
+a.dem-button:hover{ text-decoration:none !important; }
+
+
+/* common presets ------------------------------------ */
+.democracy{ position:relative; margin:0 auto; }
+
+.democracy input[type='radio'],
+.democracy input[type='checkbox']{ margin-right:.2em; }
+
+.dem-screen{ position:relative; line-height:1.3; }
+
+.democracy ul.dem-vote{ margin-bottom:1em; }
+.democracy ul.dem-vote li{ padding-bottom:0; margin-bottom:0; }
+.democracy ul.dem-vote li > *{ margin-bottom:.6em; } /* for comfort hover */
+.democracy ul.dem-answers li{ padding-bottom:1em; }
+.dem-answers .dem-label{ margin-bottom:.2em; line-height:1.2; }
+
+/* result screen */
+.dem-graph{ position:relative; color:#555; color:rgba(0,0,0,.6); box-sizing:content-box; width:100%; display:table; height:1.2em; line-height:1.2em; /* because display:table; */ }
+.dem-fill{ position:absolute; top:0; left:0; height:100%; background-color:#7cb4dd; }
+.dem-voted-this .dem-fill{ background-color:#FFC45A; }
+
+.dem-votes-txt,
+.dem-percent-txt{ position:relative; display:table-cell; padding-left:.3em; vertical-align:middle; font-size:90%; }
+
+/* dem-result-bottom */
+.dem-poll-info{ padding-bottom:1em; }
+.dem-poll-info:after{ content:''; display:table; clear:both; }
+.dem-poll-info > *{ font-size:85%; display:block; float:right; clear:both; text-align:right; opacity:0.7; line-height:1.3; }
+
+/* vote screen */
+.dem-vote label{ float:none; display:block; }
+.dem-results-link{ display:inline-block; line-height:1; margin:.8em 1em; }
+.dem-vote .dem-disabled{ opacity:.5; }
+
+/* dem-bottom */
+.democracy .dem-bottom{ padding-bottom:1em; } /* stronger property */
+.dem-bottom{ text-align:center; }
+.dem-bottom:after{ content:''; display:table; clear:both; }
+
+/* typically don't change -- */
+.dem-poll-title{ display:block; margin-bottom:1.5em; margin-top:1.2em; font-size:120%; }
+
+.dem-notice{ z-index:10; position:absolute; top:0%; border-radius:2px; width:100%; padding:1.5em 2em; text-align:center; background:rgba(247, 241, 212, 0.8); color:#6D6214; }
+.dem-notice-close{ position:absolute; top:0; right:0; padding:5px; cursor:pointer; line-height:.6; font-size:150%; }
+.dem-notice-close:hover{ color:#D26616 }
+
+.dem-star{ font-size:90%; vertical-align:baseline; padding-left:0.3em; color:#ff4e00; }
+
+.dem-poll-note{ font-size:90%; padding:0.5em; opacity:0.8; line-height:1.3; }
+
+.democracy .dem-copyright{ position:absolute; bottom:-1em; right:0; text-decoration:none; border-bottom:0; color:#b2b2b2; opacity:0.5; line-height:1; }
+.democracy .dem-copyright:hover{ opacity:1; }
+
+.dem-add-answer{ position:relative; }
+.dem-add-answer > *{ display:block; }
+.dem-add-answer a{ display:inline-block; }
+input.dem-add-answer-txt{ width:100%; box-sizing:border-box; }
+.dem-add-answer-close{ position:absolute; right:0; padding:0 .7em; cursor:pointer; color:#333; }
+.dem-add-answer-close:hover{ color:#ff2700; }
+
+.dem-edit-link{ display:block; position:absolute; top:0; right:0; line-height:1; text-decoration:none !important; border:none !important; }
+.dem-edit-link svg{ width:1.2em!important; fill:#5a5a5a; fill:rgba(0,0,0,.6); }
+.dem-edit-link:hover svg{ fill:#35A91D;  }
+
+.dem-loader{ display:none; position:absolute; top:0; left:0; width:100%; height:100%; }
+.dem-loader > *{ display:table-cell; vertical-align:middle; text-align:center; }
+.dem-loader svg{ width:20%; max-width:100px; min-width:80px; margin-bottom:15%; }
+.dem-loader [class^="dem-"]{ margin-bottom:15%!important; }
+
+.dem__collapser{ display:block; cursor:pointer; text-align:center; font-size:150%; line-height:1; }
+.dem__collapser:hover{ color:#FF3311; background:rgba(255, 255, 255, 0.3); }
+.dem__collapser.expanded{ position:relative; height:1em; }
+.dem__collapser.collapsed{ position:absolute; top:0; bottom:0; right:0; left:0; }
+.dem__collapser .arr{ display:block; position:absolute; bottom:0; width:100%;  }
+.dem__collapser.collapsed .arr:before{ content:"▾"; }
+.dem__collapser.expanded  .arr:before{ content:"▴"; }
+
+/* / typically do't change */
+
+/* shortcode */
+.dem-poll-shortcode{ margin-bottom:1.5em; }
+
+/* archive page */
+.dem-archives .dem-elem-wrap{ margin-bottom:2em; padding-bottom:20px; border-bottom:1px dashed #ccc; }
+.dem-archives .dem-archive-link{ display:none; }
+
+.dem-paging{ text-align:center; margin:1.5em auto; }
+.dem-paging > *{ display:inline-block; padding:.2em .7em; border-radius:.2em; background:#e2e2e2; color:#333; text-decoration:none; text-transform:lowercase; }
+.dem-paging > a{ color:#333; }
+.dem-paging > a:hover{ background:#ccc; color:#333; }
+.dem-paging .current{ background:#656565; color:#fff; }
+.dem-paging .dots{ background:none; }
+.dem-paging .prev{  }
+.dem-paging .next{  }
+
+/*  / common presets --------------------------------- */

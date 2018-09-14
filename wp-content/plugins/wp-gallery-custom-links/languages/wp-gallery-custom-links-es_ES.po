@@ -1,0 +1,108 @@
+# Copyright (C) 2014 WP Gallery Custom Links
+# This file is distributed under the same license as the WP Gallery Custom Links package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Gallery Custom Links 1.10.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-gallery-custom-links\n"
+"POT-Creation-Date: 2014-05-22 16:39:23+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-05-28 11:59+0100\n"
+"Last-Translator: jelena kovacevic <jecajeca260@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#: wp-gallery-custom-links.php:79
+msgid "Gallery Link URL"
+msgstr "URL de enlace a Galería"
+
+#: wp-gallery-custom-links.php:82
+msgid ""
+"Will replace \"Image File\" or \"Attachment Page\" link for this image in "
+"galleries. Use [none] to remove the link from this image in galleries."
+msgstr ""
+"Remplazará el enlace\"Image File\"   o \"Attachment Page\" para esta imagen "
+"en las galerías. Use [ninguno] para eliminar el enlace de esta imagen en "
+"galerías."
+
+#: wp-gallery-custom-links.php:91
+msgid "Gallery Link Target"
+msgstr "Objetivo de enlace a Galería"
+
+#: wp-gallery-custom-links.php:94
+msgid ""
+"This setting will be applied to this image in galleries regardless of "
+"whether or not a Gallery Link URL has been specified."
+msgstr ""
+"Esta opción se aplicaráa a esta imagen en galerías a pesar de si se "
+"especificó URL de Galería."
+
+#: wp-gallery-custom-links.php:100
+msgid "Same Window"
+msgstr "Misma ventana "
+
+#: wp-gallery-custom-links.php:101
+msgid "New Window"
+msgstr "Nueva ventana "
+
+#: wp-gallery-custom-links.php:107
+msgid "Gallery Link OnClick Effect"
+msgstr "Efecto OnClick enlace de Galería"
+
+#: wp-gallery-custom-links.php:110
+msgid ""
+"Lightbox and other OnClick events are removed by default from this image in "
+"galleries. This setting will only be applied to this image in galleries if "
+"this image has a Gallery Link URL specified."
+msgstr ""
+"Lightbox y otros eventos OnClick se eliminan por defecto de esta imagen en "
+"Galerías. Esta opción se aplicará a esta imagen en galerías si esta imagen "
+"tiene especificada una URL de Galería."
+
+#: wp-gallery-custom-links.php:116
+msgid "Remove"
+msgstr "Eliminar "
+
+#: wp-gallery-custom-links.php:117
+msgid "Keep"
+msgstr "Conservar "
+
+#: wp-gallery-custom-links.php:122
+msgid "Gallery Link Additional CSS Classes"
+msgstr "Clases CSS adicionales de Galería "
+
+#: wp-gallery-custom-links.php:125
+msgid ""
+"Additional CSS classes specified here will be applied to the "
+"<strong><em>link</em></strong> around this image in galleries regardless of "
+"whether or not a Gallery Link URL has been specified."
+msgstr ""
+"Clases CSS adicionales se especifican aquí y serán aplicadas al "
+"<strong><em>enlace</em></strong> alrededor de esta imagen en galerías a "
+"pesar de si se especificó o no un enlace a galerías."
+
+#. Plugin Name of the plugin/theme
+msgid "WP Gallery Custom Links"
+msgstr "Enlaces Personalizados a Galerías WP"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.fourlightsweb.com/wordpress-plugins/wp-gallery-custom-links/"
+msgstr ""
+"http://www.fourlightsweb.com/wordpress-plugins/wp-gallery-custom-links/"
+
+#. Description of the plugin/theme
+msgid ""
+"Specify custom links for WordPress gallery images (instead of attachment or "
+"file only)."
+msgstr ""
+"Especificar enlaces personalizados para imágenes de galerías WordPress (en "
+"lugar de sólo adjunto o archivo)"
+
+#. Author of the plugin/theme
+msgid "Four Lights Web Development"
+msgstr "Desarrollo Web Four Lights "
+
+#. Author URI of the plugin/theme
+msgid "http://www.fourlightsweb.com"
+msgstr "http://www.fourlightsweb.com"

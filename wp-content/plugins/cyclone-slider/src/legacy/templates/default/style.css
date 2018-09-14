@@ -1,0 +1,74 @@
+/*** Template Default ***/
+.cycloneslider-template-default img{
+    display:block;
+}
+.cycloneslider-template-default .cycloneslider-prev,
+.cycloneslider-template-default .cycloneslider-next{
+    display:none;
+    opacity:0;
+    position:absolute;
+    top:50%;
+    margin-top:-22px;
+    z-index:102;
+    width:26px;
+    height:44px;
+    text-indent:-99999px;
+    background: url($tpl/images/sprite-arrows.png) no-repeat;
+}
+.cycloneslider-template-default:hover .cycloneslider-prev,
+.cycloneslider-template-default:hover .cycloneslider-next{
+    display:block;
+    opacity:0.4;
+}
+.cycloneslider-template-default .cycloneslider-prev{
+    left:10px;
+    background-position:0 0;
+}
+.cycloneslider-template-default .cycloneslider-next{
+    right:10px;
+    background-position:-29px 0;
+}
+.cycloneslider-template-default .cycloneslider-prev:hover,
+.cycloneslider-template-default .cycloneslider-next:hover{
+    opacity:1;
+}
+.cycloneslider-template-default .cycloneslider-pager{
+    position:absolute;
+    z-index:99;
+    top:20px;
+    right:20px;
+}
+.cycloneslider-template-default .cycloneslider-pager a {
+    background: url($tpl/images/sprite-nav.png) no-repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    line-height: 0;
+    margin-right: 6px;
+    text-indent: -99999px;
+}
+.cycloneslider-template-default .cycloneslider-pager a.activeSlide {
+    background-position: left bottom;
+}
+.cycloneslider-template-default .cycloneslider-caption{
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    z-index:99;
+    background: url($tpl/images/bg-caption.png);
+    color:#fff;
+}
+.cycloneslider-template-default .cycloneslider-caption-title{
+    padding:10px 20px 5px 20px;
+    font-size:22px;
+    line-height:1;
+    margin-bottom:0;
+}
+.cycloneslider-template-default .cycloneslider-caption-description{
+    padding:0 20px 15px 20px;
+    line-height:1.5;
+    font-size:12px;
+}

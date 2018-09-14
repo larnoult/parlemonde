@@ -1,0 +1,949 @@
+/*
+Theme Name: VP-multi-prof
+Theme URI: http://themes.kadencethemes.com/virtue-premium/
+Description: Child theme for Virtue – Premium theme
+Author: Kadence Themes
+Author URI: http://www.kadencethemes.com/
+Template: virtue_premium
+Version: 1.0.0
+*/
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*  Importation des polices | faire du tri.. | si incompatibilité avec navigateur, générer le format otf (voir la police PLMoon) */
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'ange';
+    src: url('cheveuxdange-webfont.eot');
+    src: url('cheveuxdange-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cheveuxdange-webfont.woff') format('woff'),
+         url('cheveuxdange-webfont.ttf') format('truetype'),
+         url('cheveuxdange-webfont.svg#cheveuxdangemedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Luckiest Guy';
+    src: url('LuckiestGuy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'exception';
+    src: url('theonlyexception-webfont.eot');
+    src: url('theonlyexception-webfont.eot?#iefix') format('embedded-opentype'),
+         url('theonlyexception-webfont.woff') format('woff'),
+         url('theonlyexception-webfont.ttf') format('truetype'),
+         url('theonlyexception-webfont.svg#the_only_exceptionregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'amandine';
+    src: url('amandine-webfont.eot');
+    src: url('amandine-webfont.eot?#iefix') format('embedded-opentype'),
+         url('amandine-webfont.woff') format('woff'),
+         url('amandine-webfont.ttf') format('truetype'),
+         url('amandine-webfont.svg#amandinehandwriting') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'moon';
+    src: url('plmoon-webfont.eot');
+    src: url('plmoon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('plmoon-webfont.woff') format('woff'),
+         url('plmoon-webfont.ttf') format('truetype'),
+         url('plmoon-webfont.svg#pwflymetothemoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'littledays';
+    src: url('plm-littledays-webfont.eot');
+    src: url('plm-littledays-webfont.eot?#iefix') format('embedded-opentype'),
+         url('plm-littledays-webfont.woff') format('woff'),
+         url('plm-littledays-webfont.ttf') format('truetype'),
+         url('plm-littledays-webfont.svg#little_daysregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+  font-family: 'LoveYa';
+  src: url('LoveYaLikeASister.eot?#iefix') format('embedded-opentype'),  url('LoveYaLikeASister.woff') format('woff'), url('LoveYaLikeASister.ttf')  format('truetype'), url('LoveYaLikeASister.svg#LoveYaLikeASister') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.plm {
+	font-family: 'littledays';
+	font-size: 23px !important;
+	text-transform: capitalize;
+
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*  Modification du menu principal
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#nav-main{
+    margin-top: 127px!important;
+}
+
+.sf-menu ul, .sf-menu li:hover ul, .sf-menu li.sfHover ul {
+    width: 90%;
+}
+
+
+
+
+/* To style the sliding menu - adapted from https://codepad.co/snippet/FQaiCzbb*/
+#nav-main > ul > li > a::first-letter{
+	color: #8689f0;
+}
+
+#nav-main > ul > li > a:hover, #nav-main > ul > li > a:focus, #nav-main > ul > li > a:active, #nav-main > ul li.sfHover > a {
+    color: #8689f0!important;
+    text-decoration: none;
+}
+
+#nav-main > ul > li > a {
+    text-decoration: none;
+    transition: color 0.1s, background-color 0.1s;
+}
+#nav-main > ul > li > a {
+    position: relative;
+    display: block;
+    transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
+}
+#nav-main > ul > li > a::before  {
+ 		content: '';
+	    display: block;
+	    position: absolute;
+	    bottom: 1px;
+	    left: 7%;
+	    height: 3px;
+	    width: 88%;
+	    background-color: #8689f0;
+	    transform-origin: left top;
+	    transform: scale(0.15, 1);
+	    transition: color 0.1s,transform 0.2s ease-out;
+}
+#nav-main > ul > li > a:active::before {
+    background-color: #8689f0;
+}
+#nav-main > ul > li > a:hover::before, a:focus::before {
+    transform-origin: left top;
+    transform: scale(1, 1);
+}
+
+#nav-main ul.sf-menu li.current-menu-item > a, #nav-main ul.sf-menu > li.current-menu-parent > a {
+	color:#8689f0 ;
+}
+	
+#nav-main > ul > li :hover > a{
+	color:#8689f0!important ;	
+}
+
+
+
+#nav-main > ul > li > a { /* pour changer le style du menu principal */	
+	font-family:"alegreya sans sc"!important; 
+	font-size: 25px!important;
+	vertical-align:middle!important;
+} 	
+/*
+#nav-main > ul > li:after, #nav-main > ul > li:before{
+	content:""; 
+	background: rgba(0, 0, 0, .05); position: absolute;
+	 height: 2px; 
+	width: 80% !important
+}
+
+#nav-main > ul > li:before{
+	content:""; 
+    top: -5px;
+    left: 10%;
+}
+
+#nav-main > ul > li:after{
+	content:""; 
+	top: 45px; 
+	left: 10%;
+}*/
+
+#menu1 span, #menu2 span, #menu3 span, #menu4 span{
+    display:inline-block !important;
+}
+
+
+#nav-main > ul > li > ul > li > a { /* pour changer le style du sous-menu */
+	height:auto!important;
+	font-family: littledays !important; 
+	font-size:23px !important;	
+}
+
+.sf-menu ul { /* pour choisir la transparence du menu */
+	background: rgba(255,255,255,0.98) !important;
+	} 
+
+
+
+
+
+
+/* To set background opacity */
+
+.headerclass {background:rgba(255,255,255,0.97);}
+.footerclass {background:rgba(255,255,255,0.97);}
+.contentclass {background:rgba(255,255,255,0.97);}
+
+
+
+/* To style BP registration form */
+
+/* To remove visibility toogle */
+.field-visibility-settings-toggle, .field-visibility-settings-notoggle{
+	display:none;
+}
+
+/*To homogenize BP fields */
+#signup_email, #signup_username, #field_169, #field_170, #field_4{
+	width: 35%!important;
+}
+
+/* to homogenize labels */
+#buddypress .standard-form label, legend{
+	    font-size:16px!important;
+	border-bottom: 0px solid #e5e5e5!important;
+}
+
+/* Vertical alignement of sections */
+#basic-details-section{
+	margin-bottom: 40px;
+}
+
+#profile-details-section {
+    float: none!important
+}
+
+.register-section{
+	width:70%!important;
+	margin-left:5%!important;
+	margin-top:40px;
+}
+
+/* to style */
+#basic-details-section > label:nth-child(2):after{
+content:"l'identifiant ne doit contenir que des miniscules (a-z) sans accent et des chiffres";
+font-weight: normal;
+margin-left: 5px;
+}
+#profile-details-section > div.editfield.field_83.field_selectionnez-votre-formule.required-field.visibility-public.alt.field_type_membertype > div > label:nth-child(1) {
+    font-weight: bold;
+    color: black;
+}
+
+/* centering of the input*/
+#buddypress .standard-form#signup_form div.submit {
+    float: none;
+}
+
+#buddypress .standard-form#signup_form div.submit #signup_submit{
+		display: block;
+	    margin: 0 30%;
+		box-shadow: rgba(120, 200, 230, 0.498) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.15) 0px 1px 0px 0px;
+		box-sizing: border-box;
+		color: rgb(255, 255, 255);
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none solid rgb(255, 255, 255);
+		width: auto;
+		background: rgb(46, 162, 204) none repeat scroll 0% 0% / auto padding-box border-box;
+		border: 1px solid rgb(0, 116, 162);
+		border-radius: 3px 3px 3px 3px;
+		transition: all 0.5s;
+}
+
+#buddypress .standard-form#signup_form div.submit #signup_submit:hover{
+		background: rgb(0, 116, 162);
+}
+
+
+/* Widget Footer */
+#widget-social p{
+	display:inline;
+}
+
+#text-3 input.wysija-submit.wysija-submit-field {
+    width: 120px!important;
+    float: right!important;
+    margin-top: -38px!important;
+}
+
+input.wysija-submit.wysija-submit-field{
+	-webkit-appearance: none;
+	    -webkit-background-clip: border-box;
+	    -webkit-background-origin: padding-box;
+	    -webkit-background-size: auto;
+	    -webkit-box-shadow: rgba(120, 200, 230, 0.498039) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.14902) 0px 1px 0px 0px;
+	    background-attachment: scroll;
+	    background-clip: border-box;
+	    background-color: rgb(46, 162, 204);
+	    background-image: none;
+	    background-origin: padding-box;
+	    background-size: auto;
+	    border-bottom-color: rgb(0, 116, 162);
+	    border-bottom-left-radius: 3px;
+	    border-bottom-right-radius: 3px;
+	    border-bottom-style: solid;
+	    border-bottom-width: 1px;
+	    border-left-color: rgb(0, 116, 162);
+	    border-left-style: solid;
+	    border-left-width: 1px;
+	    border-right-color: rgb(0, 116, 162);
+	    border-right-style: solid;
+	    border-right-width: 1px;
+	    border-top-color: rgb(0, 116, 162);
+	    border-top-left-radius: 3px;
+	    border-top-right-radius: 3px;
+	    border-top-style: solid;
+	    border-top-width: 1px;
+	    box-shadow: rgba(120, 200, 230, 0.498039) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.14902) 0px 1px 0px 0px;
+	    box-sizing: border-box;
+	    color: rgb(255, 255, 255);
+	    cursor: pointer;
+	    display: inline;
+	    float: left;
+	    font-family: 'Open Sans', sans-serif;
+	    font-size: 13px;
+	    font-weight: normal;
+	    height: 30px;
+	    line-height: 28px;
+	    margin-bottom: 0px;
+	    margin-left: 0px;
+	    margin-right: 25px;
+	    margin-top: 0px;
+	    padding-bottom: 2px;
+	    padding-left: 12px;
+	    padding-right: 12px;
+	    padding-top: 0px;
+	    text-align: center;
+	    text-decoration: none;
+	    vertical-align: baseline;
+	    white-space: nowrap;
+	    width: auto;
+}
+
+
+/* Footer Look */
+
+.footer-widget h3 {
+    border-top: 0px solid rgba(0, 0, 0, .05) !important;
+    border-top-width: 0px;
+    border-top-style: solid;
+    border-top-color: rgba(0, 0, 0, 0.05);
+	color:white!important;
+	margin-bottom: 25px!important;
+
+	font-family: Alegreya;
+    line-height: 40px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+
+}
+
+#containerfooter {
+     padding-top: 0px!important;
+    height: auto;
+    background-image: linear-gradient( to top, #8689f0, #8689f0 15%, rgb(255, 255, 255) 15%, #ffffff 85%, #8689f0 85% )
+}
+
+.footercredits p {
+    color: white;
+}
+
+
+/* Top bar */ 
+#topbar {
+    background: #8689f0!important;
+}
+#welcome-plm{
+	color:white!important;
+}
+
+
+#basic-details-section:before{
+	content:""; 
+	background: rgba(0, 0, 0, .05); 
+	position: absolute;
+	    margin-top: -10px;
+	 height: 2px; 
+	width: 80% !important    
+}
+
+
+#select2-results-3 > li:nth-child(4) {
+    display: none!important;
+}
+
+
+#profile-details-section > div.editfield.field_204.field_comment-jugez-vous-votre-maitrise-de-la-tenue-dun-blog-de-classe-a-fin-pedagogique.required-field.visibility-adminsonly.field_type_radio > fieldset > legend:after,
+#profile-details-section > div.editfield.field_160.field_comment-jugez-vous-votre-maitrise-de-twitter-a-fin-pedagogique.required-field.visibility-adminsonly.alt.field_type_radio > fieldset > legend:after,
+ #profile-details-section > div.editfield.field_205.field_comment-jugez-vous-votre-maitrise-de-realisation-video-a-fin-pedagogique.required-field.visibility-adminsonly.field_type_radio > fieldset > legend:after
+{
+
+content: "Connaissances préalables non requises pour le projet";
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+
+/* To style table from two formulas */
+
+
+.imp-wrap{
+	margin:0 auto!important;
+}
+
+
+/* To style the admin bar */
+/*Admin bar en vert*/
+#wpadminbar{
+background: #8689f0!important;
+}
+
+#wpadminbar .ab-top-menu > li > .ab-item:focus, #wpadminbar.nojq .quicklinks .ab-top-menu > li > .ab-item:focus, #wpadminbar .ab-top-menu > li:hover > .ab-item, #wpadminbar .ab-top-menu > li.hover > .ab-item, .ab-sub-wrapper{
+background: #8689f0 !important
+}
+
+
+#wpadminbar .quicklinks a, #wpadminbar .shortlink-input {
+color:#f3f1f1!important;
+}
+
+#wpadminbar .quicklinks a:hover, #wpadminbar .shortlink-input:hover {
+color:#FFF!important;
+}
+
+#wpadminbar .quicklinks .ab-sub-wrapper .menupop.hover>a, #wpadminbar .quicklinks .menupop ul li a:focus, #wpadminbar .quicklinks .menupop ul li a:focus strong, #wpadminbar .quicklinks .menupop ul li a:hover, #wpadminbar .quicklinks .menupop ul li a:hover strong, #wpadminbar .quicklinks .menupop.hover ul li a:focus, #wpadminbar .quicklinks .menupop.hover ul li a:hover, #wpadminbar .quicklinks .menupop.hover ul li div[tabindex]:focus, #wpadminbar .quicklinks .menupop.hover ul li div[tabindex]:hover, #wpadminbar li #adminbarsearch.adminbar-focused:before, #wpadminbar li .ab-item:focus .ab-icon:before, #wpadminbar li .ab-item:focus:before, #wpadminbar li a:focus .ab-icon:before, #wpadminbar li.hover .ab-icon:before, #wpadminbar li.hover .ab-item:before, #wpadminbar li:hover #adminbarsearch:before, #wpadminbar li:hover .ab-icon:before, #wpadminbar li:hover .ab-item:before, #wpadminbar.nojs .quicklinks .menupop:hover ul li a:focus, #wpadminbar.nojs .quicklinks .menupop:hover ul li a:hover, #wpadminbar .quicklinks .ab-sub-wrapper .menupop.hover>a, #wpadminbar .quicklinks .menupop ul li a:focus, #wpadminbar .quicklinks .menupop ul li a:focus strong, #wpadminbar .quicklinks .menupop ul li a:hover, #wpadminbar .quicklinks .menupop ul li a:hover strong, #wpadminbar .quicklinks .menupop.hover ul li a:focus, #wpadminbar .quicklinks .menupop.hover ul li a:hover, #wpadminbar .quicklinks .menupop.hover ul li div[tabindex]:focus, #wpadminbar .quicklinks .menupop.hover ul li div[tabindex]:hover, #wpadminbar li #adminbarsearch.adminbar-focused:before, #wpadminbar li .ab-item:focus .ab-icon:before, #wpadminbar li .ab-item:focus:before, #wpadminbar li a:focus .ab-icon:before, #wpadminbar li.hover .ab-icon:before, #wpadminbar li.hover .ab-item:before, #wpadminbar li:hover #adminbarsearch:before, #wpadminbar li:hover .ab-icon:before, #wpadminbar li:hover .ab-item:before, #wpadminbar.nojs .quicklinks .menupop:hover ul li a:focus, #wpadminbar.nojs .quicklinks .menupop:hover ul li a:hover, #wpadminbar .quicklinks .ab-sub-wrapper .menupop.hover>a .blavatar, #wpadminbar .quicklinks li a:focus .blavatar, #wpadminbar .quicklinks li a:hover .blavatar {
+    color: #ffffff!important;
+}
+
+
+/* To style LMS */
+
+.course .llms-meta-info {
+    margin: 0 auto!important;
+    background: rgba(0, 0, 0, 0.01);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    width: 70%;
+    border: 5px solid #8689f0;
+}
+
+.llms-lesson-preview .llms-lesson-link {
+	background: rgba(134, 137, 240, 0.13)!important;
+}
+
+.llms-bbp-widget-course-forums li:before{
+content: "\f536";
+}
+
+.llms-icon-free {
+    display: none!important;
+}
+
+p.llms-parent-course-link {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    border: 3px solid #8689f0;
+    background: rgba(0, 0, 0, 0.01);
+    margin-right: 0px;
+}
+
+.Qcours {
+    color: #8689f0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+	font-size: 16px;
+}
+
+.Qcours:before{
+	content: "?";
+	    font-size: 23px;
+	    color: #8689f0;
+	    font-family: littledays;
+	    border: 2px solid;
+	    padding: 8px 15px 5px 15px;
+	    border-radius: 50px;
+	    margin-right: 10px;
+}
+
+.gallery-caption {
+    font-size: 16px!important;
+    font-weight: bold!important;
+}
+
+/* To style bbpress */
+#bbpress-forums .bbp-forums-list li { 
+	display: list-item ; 
+	font-size: 12px; 
+}
+
+.mycustom_new_label {
+	display: inline;
+	padding: .2em .6em .3em;
+	font-size: 11px;
+	line-height: 1;
+	color: #ffffff;
+	background-color: #d9534f;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: .25em;
+}
+
+.forum-titles{
+	font-family:Alegreya;
+	font-size:23px;
+}
+
+
+#bbpress-forums ul.bbp-lead-topic, #bbpress-forums ul.bbp-topics, #bbpress-forums ul.bbp-forums, #bbpress-forums ul.bbp-replies, #bbpress-forums ul.bbp-search-results {
+    font-size: 16px!important;
+    overflow: hidden;
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+#bbpress-forums .bbp-forum-info .bbp-forum-content, #bbpress-forums p.bbp-topic-meta {
+    font-size: 14px;
+    margin: 16px 0 10px;
+    padding: 0;
+    word-wrap: break-word;
+}
+
+/*styling to move 'Subscribe' to right hand side */
+.single-forum .subscription-toggle  {
+    float:right !important ;
+}
+
+#bbpress-forums div.bbp-forum-content {
+  clear: both !important;
+  margin-left: 0 !important;
+  padding: 0  !important;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------  */  
+/* Style du menu latéral prof.parlemonde.org
+/* ------------------------------------------------------------------------------------------------------------------------------------------------  */  
+
+
+#nav-second
+{
+position:fixed;
+top:15%;
+left: 0;
+width: 80px;
+z-index: 99999;
+}
+
+#nav-second ul{
+list-style:none;
+padding-left: 0px!important;
+}
+
+#nav-second ul li{
+	display:list-item!important;
+}
+
+#nav-second ul li a span{
+right:110px;
+position: relative;
+margin-bottom: 1px;
+background-color: #c1c3ff!important;
+border-radius: 7px;
+-webkit-border-radius: 7px;
+-moz-border-radius: 7px;
+border : 1px solid #666aec;
+margin-right: -5px;
+height:70px ;
+width: 165px;
+-webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
+filter: grayscale(80%);
+transition: all 0.2s ease;
+}
+#nav-second ul li a{
+	padding:3px!important;
+}
+#nav-second ul.sf-menu>li.current-menu-item, #nav-second ul.sf-menu>li:hover{
+	background:none;
+	filter:none;
+	-webkit-filter:none;
+}
+
+#nav-second ul li a span:hover, #nav-second ul.sf-menu>li.current-menu-item a span:hover{
+background-color: white!important;		
+border: 1px solid #666aec;
+margin-left:30px;
+filter:none;
+-webkit-filter:none;
+}
+
+#nav-second ul.sf-menu>li.current-menu-item a span{
+	background-color: white!important;		
+	border: 1px solid #666aec;
+	filter:none;
+	-webkit-filter:none;	
+}
+
+#nav-second ul li a span{
+color: #4D4D4D;
+font-size: 100%;
+font-family: "littledays";
+/*margin-bottom: 10px;*/
+text-align: right;
+line-height: 115px;
+padding-right: 10px;
+}
+
+#nav-second ul li a span{
+	display : inline-block;
+}
+#nav-second ul li {
+	display : block;
+ 	width: 100%!important;
+}
+
+#menu-ressources-plm li {
+	transition: all 2s ease-in-out;
+}
+#menu-ressources-plm > li:first-child a span{
+    background: url(http://prof.parlemonde.org/wp-content/uploads/sites/5/2018/07/start.png) no-repeat 119px 3px;
+    background-size: 30px 30px;	
+}
+
+#menu-ressources-plm > li:nth-child(2) a span{
+    background: url(http://prof.parlemonde.org/wp-content/uploads/sites/5/2018/07/cours.png) no-repeat 110px 3px;
+    background-size: 40px 40px!important;	
+}
+
+#menu-ressources-plm > li:nth-child(3) a span{
+    background: url(http://prof.parlemonde.org/wp-content/uploads/sites/5/2018/07/ressource.png) no-repeat 110px 3px;
+    background-size: 40px 40px!important;	
+}
+
+#menu-ressources-plm > li:nth-child(4) a span{
+    background: url(http://prof.parlemonde.org/wp-content/uploads/sites/5/2018/07/journal.png) no-repeat 110px 3px;
+    background-size: 40px 40px!important;	
+}
+
+#menu-ressources-plm > li:nth-child(5) a span{
+    background: url(http://prof.parlemonde.org/wp-content/uploads/sites/5/2017/09/Forum-150x150.png) no-repeat 110px 3px;
+    background-size: 40px 40px!important;	
+}
+
+
+/* To style facture */
+#facture {
+    width: 80%;
+    margin: 0 auto;
+    padding: 11px 50px 31px 50px;
+    border: 1px solid grey;
+}
+
+.dkpdf-button-container {
+    width: 100%;
+    float: none!important;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+ul.widgetCours li {
+    color: #1e73be;
+    list-style: none;
+	font-size: 21px;
+	font-family: littledays;
+	padding-bottom: 20px;
+	}
+	
+ul.widgetCours li:hover {
+	color:#55a1ed;
+}
+
+ul.widgetCours li img {
+
+    margin-right: 15px;
+}
+
+
+/* To customize Sozi presentation - Based http://sozi.baierouge.fr/pages/tutorial-embedding.html */ 
+iframe.sozi, object.sozi, embed.sozi {
+    box-shadow: rgb(230, 230, 230) 0px 5px 10px 3px;
+    border: 1px solid rgb(230, 230, 230);
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#arrowContainer{
+margin:0 auto;
+margin-top:10px;
+width:80%;
+text-align: center
+}
+
+span#frame-title {
+    font-family: Alegreya;
+    line-height: 40px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*
+.arrow { 
+	position: absolute;
+	top: 50%;
+	width: 5vmin;
+	height: 5vmin;
+	background: transparent;
+	border-top: 1vmin solid #cf4944;
+	border-right: 1vmin solid #cf4944;
+	box-shadow: 0 0 0 lightgray;
+	transition: all 200ms ease;
+}	
+.arrow.left {
+		left: 0;
+		transform: translate3d(0,-50%,0) rotate(-135deg);
+	}
+
+.arrow.right {
+		right: 0;
+		transform: translate3d(0,-50%,0) rotate(45deg);
+	}
+	
+.arrow:hover {
+		border-color: orange;
+		box-shadow: 0.5vmin -0.5vmin 0 #cf4944;
+	}
+	
+.arrow:before { 
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-40%,-60%) rotate(45deg);
+		width: 200%;
+		height: 200%;
+	}
+/* from https://codepen.io/varystrategic/pen/zGrMQK */
+
+
+input#btn-next {
+    float: right;
+    margin-right: 70px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+input#btn-prev {
+    float: left;
+    margin-left: 70px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+div#image-map-pro-9687 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.highlightP {
+    background-color: rgba(134, 136, 240, 0.22);
+}
+
+.footerclass a {
+    color: #1e73be;
+}
+
+.footerclass a:hover {
+    color: #55a1ed;
+}
+
+
+.wq_resultTitle{
+	position: relative!important;
+    padding: 10px 90px 10px 90px!important;
+    margin: 30px 40px 30px 0 !important;
+    max-width: 4950px!important;
+    font-size: 23px!important;
+    line-height: 29px!important;
+    width: 100%!important;
+}
+
+.wq_resultTitle::before{
+position: absolute!important;
+left: 0!important;
+top: 20%!important;
+font-size: 34px!important;
+color: rgba(0, 0, 0, 0.53)!important;	
+font-family: virtue_icons!important;
+font-style: normal!important;
+speak: none!important;
+font-weight: 400!important;
+content: "\e19f"!important;
+-webkit-font-smoothing: antialiased!important;
+}
+
+
+/* To invite teacher to add comments to lesson */
+.profpar {
+    position: relative!important;
+    padding: 10px 90px 10px 90px!important;
+    margin: 30px 40px 30px 0 !important;
+    max-width: 4950px!important;
+    font-size: 16px!important;
+    line-height: 29px!important;
+    width: 100%!important;
+}
+
+.profpar:after{
+		position: absolute!important;
+	    top: 20%!important;
+	    right: 20px;
+
+	    font-size: 20px!important;
+/*	    color: rgba(0, 0, 0, 0.53)!important;*/
+	    font-family: virtue_icons!important;
+	    font-style: normal!important;
+	    speak: none!important;
+	    font-weight: 400!important;
+	    content: "\25bc"!important;
+	    -webkit-font-smoothing: antialiased!important;
+	
+}
+
+/* To change attachment comments display */
+
+small.attachmentRules {
+    display: none;
+}
+
+#attachmentForm .comment-form-attachment{
+	width:50%;
+	padding-left: 0px; 
+	float:none;
+}
+
+#attachmentForm #comment{
+	width:100%;
+}
+
+#attachmentForm #submit{
+	margin-top: 20px;
+color: #fff;
+background: #1e73be;
+    height: auto;
+border-radius: 0;
+padding: 12px 18px;
+    font-size: 12px;
+    border: none;
+    display: inline-block;
+	transition: background .6s ease-out,border .6s ease-out;
+	}
+
+#attachmentForm #submit:hover{
+	background: #55a1ed;
+}
+
+
+.download-box h1 {
+    margin: .5em 0!important;
+    font-family: open-sans!important;
+    font-size: 12px!important;
+}
+
+.thumb-course img{
+	border: 2px solid #8689f0;
+}
+
+.thumb-course  .llms-parent-course-link {
+    width: 100%;
+    text-align: center;
+}
+
+.widget .listeCours{
+	list-style: none;
+	    margin: 0 0 10px 15px;
+	    padding: 0;
+}
+widget .listeCours li{
+	line-height: 30px;
+    border-bottom: solid 1px #e5e5e5;
+    border-color: rgba(0,0,0,.05);
+}
+	
+
+#adviceAmazon iframe{
+	display: block;
+	margin: 0 auto;
+}	
+
+
+/* Style of collecte pages */
+
+.objectifTitle {
+    text-align: center;
+    color: #525fa8;
+    font-weight: bold;
+}
+
+.objectifCollecte {
+    padding: 15px 15px 15px 15px;
+    background-color: #8689f0a3;
+    border: 3px solid #525fa8;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    display: table;
+    margin: 0 auto;
+    vertical-align: middle;
+}

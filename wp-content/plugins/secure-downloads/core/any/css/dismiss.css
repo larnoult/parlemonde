@@ -1,0 +1,61 @@
+/** 
+ * @version 1.0
+ * @desciption Dismiss Button  and System Notices
+ * @usage Admin panel
+ * @author wpdevelop
+ *
+ * @web-site http://oplugins.com/
+ * @email info@oplugins.com 
+ * 
+ * @modified 2017-04-23
+ */
+
+/* System Notice */
+.opsd_page .opsd_system_notice {    
+    -moz-box-sizing: border-box;        
+    -webkit-box-sizing: border-box;        
+    box-sizing: border-box;    
+    min-height:1em;    
+    height:auto;   
+    padding: 1em;
+    margin: 5px 0 15px !important;
+    position: relative;
+    display: block;
+    width:100%
+}
+.opsd_page .opsd_internal_notice {
+    box-sizing: border-box;
+    min-height: 1em;
+    height: auto;
+    position: relative;
+    display: block;
+    width: 100%;
+    
+    background: #fff;
+    border-left-style: solid;
+    border-left-width: 4px;
+    -moz-box-shadow: 0 0 2px 0 rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 0 2px 0 rgba(0,0,0,.2);
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.2);
+    margin: 5px 15px 2px;    
+}
+.opsd_page .opsd_system_notice a,
+.opsd_page .opsd_system_notice a:hover,
+.opsd_page .opsd_system_notice a:focus, 
+.opsd_page .opsd_internal_notice a,
+.opsd_page .opsd_internal_notice a:hover,
+.opsd_page .opsd_internal_notice a:focus {
+    text-decoration: none; 
+}
+
+/* Dismiss X button */
+.opsd_page .opsd_dismiss,
+.opsd_page a.opsd_dismiss:hover,
+.opsd_page a.opsd_dismiss:focus{
+    font-size: 18px;
+    float: right;
+    text-decoration: none;
+    padding: 5px 10px 10px;
+    margin: -7px;    
+    outline: none;
+}			 

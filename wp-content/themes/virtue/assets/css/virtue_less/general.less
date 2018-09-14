@@ -1,0 +1,203 @@
+.primary-color {
+	color: @primary;
+}
+ul, ol {
+padding:0;
+padding-left: 20px
+}
+img {
+max-width: 100%;
+height: auto;
+vertical-align: middle;
+border: 0;
+-ms-interpolation-mode: bicubic;
+}
+select {
+width: 220px;
+border: 1px solid #ccc;
+background-color: #fff;
+}
+select, input[type="file"] {
+height: 30px;
+line-height: 30px;
+}
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+.pageheader {
+padding: 20px 0 5px;
+border-bottom: 1px solid #eee;
+margin-bottom: 20px;
+} 
+
+.light-dropshaddow {
+-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+.lightboxhover {
+	opacity: 1;
+	-webkit-transition: opacity 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out;
+	-ms-transition: opacity 0.2s ease-in-out;
+	-o-transition: opacity 0.2s ease-in-out;
+	transition: opacity 0.2s ease-in-out;
+}
+.lightboxhover:hover {
+	opacity: .8;
+}
+.infoclass {
+font-size: 11px;
+margin-top: 20px;
+margin-bottom: 0;
+color: #888;
+}
+//Page navi
+.wp-pagenavi {
+       text-align:center;
+   }
+.wp-pagenavi a, .wp-pagenavi span {
+	padding:4px 10px;
+	font-size:12px;
+	font-weight:bold;
+	margin:5px;
+	display: inline-block;
+	border: solid 2px #eee;
+	border-color: rgba(0,0,0,0.05); 
+	-webkit-transition: border 0.2s ease-in-out;
+	-moz-transition: border 0.2s ease-in-out;
+	-ms-transition: border 0.2s ease-in-out;
+	-o-transition: border 0.2s ease-in-out;
+	transition: border 0.2s ease-in-out;
+}
+.wp-pagenavi a:hover {
+	border-color:@primary;
+	background: url("../img/20black.png");
+	background: rgba(0,0,0,0.05);
+}
+.wp-pagenavi .current {
+	background: url("../img/20black.png");
+	background: rgba(0,0,0,0.05);
+}
+.img-margin-center {
+  text-align: center
+}
+//top control
+#topcontrol > div {
+-webkit-transition: all 0.3s linear;
+-moz-transition: all 0.3s linear;
+-o-transition: all 0.3s linear;
+transition: all 0.3s linear;
+bottom: 40px;
+cursor: pointer;
+height: 38px;
+position: absolute;
+right: 15px;
+width: 38px;
+z-index: 5;
+text-align: center;
+background: url("../img/20black.png");
+background: rgba(0,0,0,0.1);
+}
+#topcontrol > div:hover {
+	background: url("../img/20black.png");
+	background: rgba(0,0,0,0.2);
+	}
+#topcontrol .to_the_top > div {
+	color: #fff;
+font-size: 16px;
+line-height: 20px;
+padding-top: 10px;
+}
+// Multi Language 
+.qtrans_language_chooser {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.qtrans_language_chooser li {
+float: left;
+margin: 5px;
+}
+.topbar-widget .qtrans_language_chooser a {
+	color: #fff;
+}
+.videofit iframe {
+max-width: 100%;
+}
+#supersized {
+margin:0;
+padding: 0;
+}
+#kt-skip-link a { 
+position:absolute; 
+left:-10000px; 
+top:auto; 
+width:1px; 
+height:1px; 
+overflow:hidden;
+} 
+ 
+#kt-skip-link a:focus { 
+position:static; 
+width:auto; 
+height:auto; 
+} 
+
+body
+{
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0.1s;
+}
+
+@-webkit-keyframes fontfix{
+    from{   opacity: 1; }
+    to{ opacity: 1; }
+}
+body {
+max-width: 100%;
+overflow-x: hidden;
+}
+body.media {
+margin: 0;
+overflow: visible;
+}
+.media {
+	margin-top: 0;
+}
+.kt_hidden {
+	display:none;
+	visibility: hidden;
+}
+body[class^="icon-"], body[class*=" icon-"] {
+	font-family: inherit;
+	speak: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+	font-variant: inherit;
+	text-transform: inherit;
+	line-height: 20px;
+}
+img#wpstats {
+display: block;
+margin-top: -10px;
+}
+.entry-content table, .modal-body table{
+    width: 100%;
+    margin-bottom:10px;
+}
+.entry-content table td, table td, .entry-content table th, table th{
+    padding: 10px;
+}
+.entry-content table tr:nth-child(even), .modal-body table tr:nth-child(even) {
+	background: #f9f9f9;
+	background: rgba(0,0,0,0.03);
+}
+.entry-content table thead, .modal-body table thead {
+	background: #f2f2f2;
+	background: rgba(0,0,0,0.06);
+}

@@ -1,0 +1,24 @@
+/* button */
+input[type="submit"].dem-button,
+a.dem-button,
+.dem-button{    
+  font-weight: 700;
+  color: #fff;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: rgb(64,199,129);
+  box-shadow: 0 -3px rgb(53,167,110) inset;
+  transition: background .2s;
+} 
+
+input[type="submit"].dem-button:hover,
+a.dem-button:hover,
+.dem-button:hover { background: rgb(53, 167, 110); }
+
+input[type="submit"].dem-button:active,
+a.dem-button:active,
+.dem-button:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
+a.dem-button:visited{ color:#fff; }

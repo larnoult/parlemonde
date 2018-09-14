@@ -1,0 +1,1441 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Edit\n"
+"POT-Creation-Date: 2014-07-08 12:06-0500\n"
+"PO-Revision-Date: 2014-07-20 18:21+0100\n"
+"Last-Translator: Borisa Djuraskovic <borisad@webhostinghub.com>\n"
+"Language-Team: Josh Lobe <joshlobe@joshlobe.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../functions.php:41 ../main.php:203 ../main.php:1007
+msgid "WP Edit"
+msgstr "WP Edit"
+
+#: ../functions.php:49 ../functions.php:52 ../main.php:1015
+msgid "Buttons"
+msgstr "Tasteri"
+
+#: ../functions.php:58 ../functions.php:61 ../main.php:1016
+msgid "Global"
+msgstr "Globalno"
+
+#: ../functions.php:67 ../functions.php:70 ../main.php:1017
+msgid "General"
+msgstr "Opšte"
+
+#: ../functions.php:76 ../functions.php:79 ../main.php:1018
+msgid "Posts/Pages"
+msgstr "Postovi/Stranice"
+
+#: ../functions.php:85 ../functions.php:88 ../main.php:1019
+msgid "Editor"
+msgstr "Uređivač"
+
+#: ../functions.php:94 ../functions.php:97 ../main.php:1020 ../main.php:1765
+msgid "Fonts"
+msgstr "Fontovi"
+
+#: ../functions.php:103 ../functions.php:106
+msgid "Widgets"
+msgstr "Widget-i"
+
+#: ../functions.php:112 ../functions.php:115 ../main.php:1022
+msgid "User Specific"
+msgstr "Specifičan korisnik"
+
+#: ../functions.php:121 ../functions.php:124 ../main.php:1023
+msgid "Extras"
+msgstr "Dodaci"
+
+#: ../functions.php:130 ../functions.php:133 ../main.php:1024
+msgid "Database"
+msgstr "Baza podataka"
+
+#: ../functions.php:172
+msgid "WP Edit Excerpt"
+msgstr "Odlomak WP Uređivača"
+
+#: ../functions.php:204
+msgid "Wp Edit Excerpt"
+msgstr "Odlomak Wp Uređivača"
+
+#: ../functions.php:235
+msgid "Biographical Info"
+msgstr "Biografski podaci"
+
+#: ../functions.php:242
+msgid ""
+"Share a little biographical information to fill out your profile. This may "
+"be shown publicly."
+msgstr ""
+"Podelite neke biografske podatke da biste popunili svoj profil. Može biti "
+"javno prikazan."
+
+#: ../functions.php:279
+msgid "Arbitrary text, HTML, or PHP Code"
+msgstr "Poizvoljan tekst, HTML ili PHP kod"
+
+#: ../functions.php:281
+msgid "WP Edit PHP Widget"
+msgstr "WP Edit PHP Widget"
+
+#: ../functions.php:316
+msgid "Title:"
+msgstr "Naziv"
+
+#: ../functions.php:321
+msgid "Automatically add paragraphs."
+msgstr "Automatski dodaj paragrafe"
+
+#: ../functions.php:487
+msgid "Select which post types have the option to disable the wpautop filter."
+msgstr ""
+"Odaberi koje vrste post-ova imaju opciju deaktiviranja wpautop filtera."
+
+#: ../functions.php:542
+msgid "Disable wpautop:"
+msgstr "Deaktiviraj wpautop:"
+
+#: ../functions_user.php:125
+msgid "ID"
+msgstr "ID"
+
+#: ../functions_user.php:147
+msgid "Thumbnail"
+msgstr "Sličica"
+
+#: ../functions_user.php:169
+msgid "None"
+msgstr "Nijedna"
+
+#: ../functions_user.php:214
+msgid "WP Edit Pro RSS Feed"
+msgstr "WP Edit Pro RSS Feed"
+
+#: ../functions_user.php:257
+msgid "Number of posts to show:"
+msgstr "Broj post-ova za prikazivanje:"
+
+#: ../main.php:296
+msgid "User specific options saved."
+msgstr "Specifične opcije korisnika sačuvane"
+
+#: ../main.php:316
+msgid "Additional options saved."
+msgstr "Dodatne opcije sačuvane"
+
+#: ../main.php:337
+msgid "Tinymce options saved."
+msgstr "Tinymce opcije sačuvane"
+
+#: ../main.php:358
+msgid "Global options successfully saved."
+msgstr "Globalne opcije uspešno sačuvane."
+
+#: ../main.php:384
+msgid "General options successfully saved."
+msgstr "Opšte opcije uspešno sačuvane."
+
+#: ../main.php:417
+msgid "Revisions successfully deleted"
+msgstr "Revizije uspešno obrisane"
+
+#: ../main.php:419
+msgid "No POST revisions were found to delete"
+msgstr "Nisu pronađene revizije POST-a za brisanje."
+
+#: ../main.php:432
+msgid "Message: "
+msgstr "Poruka"
+
+#: ../main.php:434
+msgid "Database size before deletions: "
+msgstr "Veličina baze podataka pre brisanja"
+
+#: ../main.php:436 ../main.php:440
+msgid "megabytes."
+msgstr "megabajta"
+
+#: ../main.php:438
+msgid "Database Size after deletions: "
+msgstr "Veličina baze podataka posle brisanja"
+
+#: ../main.php:462
+msgid "Posts/Pages options successfully saved."
+msgstr "Opcije post-ova/stranica uspešno sačuvane"
+
+#: ../main.php:494
+msgid "Editor options successfully saved."
+msgstr "Opcije uređivača uspešno sačuvane."
+
+#: ../main.php:516
+msgid "Font options successfully saved."
+msgstr "Opcije fonta uspešno sačuvane."
+
+#: ../main.php:546
+msgid "Extra options saved."
+msgstr "Dodatne opcije sačuvane."
+
+#: ../main.php:573
+msgid "Editor Rows configuration saved."
+msgstr "Konfiguracija reda urednika sačuvana."
+
+#: ../main.php:589
+msgid ""
+"You must also check the confirm box before options will be uninstalled and "
+"deleted."
+msgstr ""
+"Morate štiklirati polje za potvrdu pre nego što deinstalirate i obrišete "
+"opcije."
+
+#: ../main.php:597 ../main.php:864
+msgid "Sorry, your nonce did not verify."
+msgstr "Žao nam je, vaš nonce nije verifikovan."
+
+#: ../main.php:795
+msgid "Plugin settings have successfully attempted to convert."
+msgstr "Pokušaj da se konvertuju postavke plugin-a bio je uspešan. "
+
+#: ../main.php:801
+msgid "Unfortunately, no settings were found to convert."
+msgstr "Nažalost, nisu nađene postavke za konvertovanje."
+
+#: ../main.php:807
+msgid " buttons added to row 1 in \"Buttons\" tab."
+msgstr "tasteri dodati 1. redu na tabulatoru \"Buttons\""
+
+#: ../main.php:810
+msgid " options updated in \"Global\" tab."
+msgstr "opcije ažurirane na tabulatoru \"Global\""
+
+#: ../main.php:813
+msgid " options updated in \"General\" tab."
+msgstr "opcije ažurirane na tabulatoru \"General\""
+
+#: ../main.php:816
+msgid " options updated in \"Posts/Pages\" tab."
+msgstr "opcije ažurirane na tabulatoru \"Posts/Pages\""
+
+#: ../main.php:819
+msgid " options updated in \"User Specific\" tab."
+msgstr "opcije ažurirane na tabulatoru \"User Specific\""
+
+#: ../main.php:822
+msgid " options updated in \"Extras\" tab."
+msgstr "opcije ažurirane na tabulatoru  \"Extras\" "
+
+#: ../main.php:824
+msgid ""
+"Delete old Ultimate Tinymce database options? (Irreversible; but results in "
+"a cleaner database)"
+msgstr ""
+"Obriši stare ultimativne opcije Tinymce baze podataka? (Nepovratna "
+"aktivnost, ali rezultira čistijom bazom podataka)"
+
+#: ../main.php:829
+msgid "Delete"
+msgstr "Obriši"
+
+#: ../main.php:830
+msgid "No Thanks"
+msgstr "Ne, hvala"
+
+#: ../main.php:850
+msgid "Ultimate Tinymce database options successfully deleted."
+msgstr "Ultimativne opcije Tinymce baze podataka uspešno obrisane."
+
+#: ../main.php:852
+msgid "Congratulations! You are now running solid with WP Edit."
+msgstr "Čestitamo! Sada se dobro snalazite sa WP uređivačem."
+
+#: ../main.php:885
+msgid "Plugin settings have been restored to defaults."
+msgstr "Postavke za plugin vraćene su na podrazumevane vrednosti."
+
+#: ../main.php:899
+msgid "Plugin settings have been successfully imported."
+msgstr "Postavke za plugin uspešno su uvezene."
+
+#: ../main.php:951
+msgid "Check successful.  No new buttons were discovered."
+msgstr "Provera je bila uspešna. Nisu otkriveni novi tasteri."
+
+#: ../main.php:973
+msgid ""
+"Check successful.  New buttons have been added to the \"Icon Placeholder "
+"Container\""
+msgstr "Provera uspešna. Novi tasteri dodati na \"Icon Placeholder Container\""
+
+#: ../main.php:1021
+msgid "Snidgets"
+msgstr "Snidget-i"
+
+#: ../main.php:1038
+msgid "Drag and Drop Panel"
+msgstr "Prevuci i pusti panel"
+
+#: ../main.php:1039
+msgid "Editor Rows"
+msgstr "Redovi urednika"
+
+#: ../main.php:1067 ../main.php:1165
+msgid "Bold"
+msgstr "Masna slova"
+
+#: ../main.php:1068 ../main.php:1166
+msgid "Italic"
+msgstr "Kurziv"
+
+#: ../main.php:1069 ../main.php:1167
+msgid "Strikethrough"
+msgstr "Precrtana slova"
+
+#: ../main.php:1070 ../main.php:1168
+msgid "Bullet List"
+msgstr "Lista znakova za nabrajanje "
+
+#: ../main.php:1071 ../main.php:1169
+msgid "Numbered List"
+msgstr "Lista brojeva za nabrajanje"
+
+#: ../main.php:1072 ../main.php:1170
+msgid "Blockquote"
+msgstr "Citat"
+
+#: ../main.php:1073 ../main.php:1171
+msgid "Align Left"
+msgstr "Poravnaj levo"
+
+#: ../main.php:1074 ../main.php:1172
+msgid "Align Center"
+msgstr "Poravnaj u sredini"
+
+#: ../main.php:1075 ../main.php:1173
+msgid "Align Right"
+msgstr "Poravnaj desno"
+
+#: ../main.php:1076 ../main.php:1174
+msgid "Link"
+msgstr "Link"
+
+#: ../main.php:1077 ../main.php:1175
+msgid "Unlink"
+msgstr "Odvoji"
+
+#: ../main.php:1078 ../main.php:1176
+msgid "More"
+msgstr "Više"
+
+#: ../main.php:1079 ../main.php:1177
+msgid "Distraction Free"
+msgstr "Bez ometanja"
+
+#: ../main.php:1081 ../main.php:1180
+msgid "Format Select"
+msgstr "Odabir formata"
+
+#: ../main.php:1082 ../main.php:1181
+msgid "Underline"
+msgstr "Podvuci"
+
+#: ../main.php:1083 ../main.php:1182
+msgid "Align Full"
+msgstr "Poravnaj sve"
+
+#: ../main.php:1084 ../main.php:1183
+msgid "Foreground Color"
+msgstr "Boja prednjeg plana"
+
+#: ../main.php:1085 ../main.php:1184
+msgid "Paste Text"
+msgstr "Nalepi tekst "
+
+#: ../main.php:1086 ../main.php:1185
+msgid "Remove Format"
+msgstr "Ukloni format"
+
+#: ../main.php:1087 ../main.php:1186
+msgid "Character Map"
+msgstr "Mapa karaktera"
+
+#: ../main.php:1088 ../main.php:1187
+msgid "Outdent"
+msgstr "Izvuci tekst "
+
+#: ../main.php:1089 ../main.php:1188
+msgid "Indent"
+msgstr "Uvuci tekst"
+
+#: ../main.php:1090 ../main.php:1189
+msgid "Undo"
+msgstr "Poništi poslednju komandu"
+
+#: ../main.php:1091 ../main.php:1190
+msgid "Redo"
+msgstr "Vrati poslednju komandu"
+
+#: ../main.php:1092 ../main.php:1191
+msgid "Help"
+msgstr "Pomoć"
+
+#: ../main.php:1095 ../main.php:1194
+msgid "Font Select"
+msgstr "Odabir fonta"
+
+#: ../main.php:1096 ../main.php:1195
+msgid "Font Size Select"
+msgstr "Odabir veličine fonta"
+
+#: ../main.php:1097 ../main.php:1196
+msgid "Formats"
+msgstr "Formati"
+
+#: ../main.php:1098 ../main.php:1197
+msgid "Background Color Picker"
+msgstr "Birač boje pozadine"
+
+#: ../main.php:1099 ../main.php:1198
+msgid "Media"
+msgstr "Mediji"
+
+#: ../main.php:1100 ../main.php:1199
+msgid "Text Direction Right to Left"
+msgstr "smer teksta s desna na levo"
+
+#: ../main.php:1101 ../main.php:1200
+msgid "Text Direction Left to Right"
+msgstr "smer teksta s leva na desno"
+
+#: ../main.php:1102 ../main.php:1201
+msgid "Tables"
+msgstr "Tabele"
+
+#: ../main.php:1103 ../main.php:1202
+msgid "Anchor"
+msgstr "Anker"
+
+#: ../main.php:1104 ../main.php:1203
+msgid "HTML Code"
+msgstr "HTML kod"
+
+#: ../main.php:1105 ../main.php:1204
+msgid "Emoticons"
+msgstr "Emotikoni"
+
+#: ../main.php:1106 ../main.php:1205
+msgid "Horizontal Rule"
+msgstr "Vodoravno pravilo"
+
+#: ../main.php:1107 ../main.php:1206
+msgid "Insert Date Time"
+msgstr "Unesite vreme i datum"
+
+#: ../main.php:1108 ../main.php:1207
+msgid "Page Break"
+msgstr "Prelom"
+
+#: ../main.php:1109 ../main.php:1208
+msgid "Preview"
+msgstr "Pregled"
+
+#: ../main.php:1110 ../main.php:1209
+msgid "Print"
+msgstr "Štampaj"
+
+#: ../main.php:1111 ../main.php:1210
+msgid "Search and Replace"
+msgstr "Pretraži i zameni"
+
+#: ../main.php:1112 ../main.php:1211
+msgid "Show Blocks"
+msgstr "Prikaži blokade"
+
+#: ../main.php:1113 ../main.php:1212
+msgid "Subscript"
+msgstr "Indeks"
+
+#: ../main.php:1114 ../main.php:1213
+msgid "Superscript"
+msgstr "Eksponent"
+
+#: ../main.php:1115 ../main.php:1214
+msgid "Paragraph Tag"
+msgstr "Oznaka za paragraf"
+
+#: ../main.php:1116 ../main.php:1215
+msgid "Line Break"
+msgstr "Novi red"
+
+#: ../main.php:1117 ../main.php:1216
+msgid "MailTo Link"
+msgstr "Mail na link"
+
+#: ../main.php:1118 ../main.php:1217
+msgid "Lorem Ipsum"
+msgstr "Lorem Ipsum"
+
+#: ../main.php:1119 ../main.php:1218
+msgid "Color Picker"
+msgstr "Birač boje"
+
+#: ../main.php:1120 ../main.php:1219
+msgid "Shortcodes"
+msgstr "Shortcode-ovi"
+
+#: ../main.php:1121 ../main.php:1220
+msgid "YouTube Video"
+msgstr "YouTube Video"
+
+#: ../main.php:1122 ../main.php:1221
+msgid "Clker Images"
+msgstr "Clker slike"
+
+#: ../main.php:1123 ../main.php:1222
+msgid "Clear Div"
+msgstr "Obriši Div"
+
+#: ../main.php:1124 ../main.php:1223
+msgid "Code Magic"
+msgstr "Magic kod"
+
+#: ../main.php:1125 ../main.php:1224
+msgid "Accessibility Checker"
+msgstr "Kontrolor pristupačnosti"
+
+#: ../main.php:1126 ../main.php:1225
+msgid "Image"
+msgstr "Slika"
+
+#: ../main.php:1127 ../main.php:1226
+msgid "Insert/Edit Advanced Link"
+msgstr "Ubaci/Uredi napredni link"
+
+#: ../main.php:1128 ../main.php:1227
+msgid "Accessibility Check"
+msgstr "Kontrola pristupačnosti"
+
+#: ../main.php:1150
+msgid "Button Placeholder Container"
+msgstr "Taster za čuvanje mesta kontejnera"
+
+#: ../main.php:1243
+msgid ""
+"Buttons may be dragged to Row 1 (enabling them); or to the Placeholder "
+"Container (removing them from the editor)."
+msgstr ""
+"Tasteri se mogu prevući u 1. red (i aktivirati) ili do kontejnera nosioca "
+"položaja (uklanjajući ih sa uređivača)"
+
+#: ../main.php:1245
+msgid "Buttons may also be sorted within Row 1."
+msgstr "Tasteri se, takođe, mogu sortirati u 1. redu"
+
+#: ../main.php:1247
+msgid ""
+"Each time a button is dropped, an ajax call is made which updates all rows. "
+"This feature can be disabled with the additional option."
+msgstr ""
+"Svaki put kad se spusti taster, obavi se ajax poziv koji ažurira sve redove. "
+"Ova funkcija može se deaktivirati dodatnom opcijom."
+
+#: ../main.php:1249
+msgid ""
+"Drag and Drop ability for all four rows of the editor is available in WP "
+"Edit Pro."
+msgstr ""
+"Opcija “prevuci i pusti” je na raspolaganju za sve četiri reda u okviru "
+"uređivanja u WP Edit Pro."
+
+#: ../main.php:1256
+msgid "Buttons available in Pro"
+msgstr "Tasteri raspoloživi u Pro verziji"
+
+#: ../main.php:1286
+msgid "Developer Note"
+msgstr "Napomena programera"
+
+#: ../main.php:1291
+msgid ""
+"This plugin is the culmination of two years experience; many, many hours of "
+"hard work and dedication; and a vast presence in the WordPress community."
+msgstr ""
+"Ovaj plugin je kulminacija dve godine iskustva, mnogo, mnogo sati napornog "
+"rada i posvećenosti, kao i  prisustva u WordPress zajednici."
+
+#: ../main.php:1293
+msgid "If you enjoy this plugin, please show your appreciation via a "
+msgstr ""
+"Ako vam se dopada ovaj plugin, molimo vas da svoju zahvalnost iskažete putem"
+
+#: ../main.php:1295
+msgid "PayPal Donation"
+msgstr "PayPal donacije"
+
+#: ../main.php:1297
+msgid "Alternatively, the purchase of the "
+msgstr "Ili na drugi način - tako što ćete kupiti "
+
+#: ../main.php:1299
+msgid "PRO Version"
+msgstr "PRO verziju"
+
+#: ../main.php:1301
+msgid ""
+"offers additional features and extended functionality; while also supporting "
+"the developer."
+msgstr ""
+"koja nudi dodatne mogućnosti i proširenu funkcionalnost; a i podržava "
+"programera."
+
+#: ../main.php:1310
+msgid "Additional Options"
+msgstr "Dodatne opcije"
+
+#: ../main.php:1317
+msgid "Restore all buttons to default."
+msgstr "Vrati vrednosti svih tastera na podrazumevane"
+
+#: ../main.php:1319
+msgid "Reset Buttons"
+msgstr "Vrati tastere na početne vrednosti"
+
+#: ../main.php:1323
+msgid "Disable ajax saving of buttons."
+msgstr "Deaktiviraj ajax i uštedi tastere"
+
+#: ../main.php:1329
+msgid "Save Button Options"
+msgstr "Opcije sačuvaj taster"
+
+#: ../main.php:1345 ../main.php:1739
+msgid "TinyMCE Options"
+msgstr "TinyMCE opcije"
+
+#: ../main.php:1354
+msgid "Enable editor menu bar."
+msgstr "Aktiviraj traku sa menijem urednika"
+
+#: ../main.php:1361
+msgid "Enable editor context menu."
+msgstr "Aktiviraj kontekst meni urednika"
+
+#: ../main.php:1368
+msgid "Save TinyMCE Options"
+msgstr "Sačuvaj TinyMCE opcije"
+
+#: ../main.php:1391
+msgid "Global Options"
+msgstr "Globalne opcije"
+
+#: ../main.php:1393
+msgid "These options control various items used throughout the plugin."
+msgstr "Ove opcije kontrolišu različite stavke koje se koriste u plugin-u."
+
+#: ../main.php:1405
+msgid "jQuery Theme"
+msgstr "jQuery tema"
+
+#: ../main.php:1418
+msgid "Selects the jQuery theme for plugin alerts and notices."
+msgstr "Bira jQuery temu za upozorenja i obaveštenja plugin-a."
+
+#: ../main.php:1421
+msgid "Disable Admin Links"
+msgstr "Deaktiviraj linkove administratora"
+
+#: ../main.php:1424
+msgid "Disables the WP Edit top admin bar links."
+msgstr ""
+"Deaktivira linkove za traku sa menijem za glavnog administratora WP uređivača"
+
+#: ../main.php:1430
+msgid "Save Global Options"
+msgstr "Sačuvaj globalne opcije"
+
+#: ../main.php:1442
+msgid "General Options"
+msgstr "Opšte opcije"
+
+#: ../main.php:1443
+msgid "General plugin options."
+msgstr "Opšte opcije plugin-a"
+
+#: ../main.php:1458
+msgid "Linebreak Shortcode"
+msgstr "Shortcode za novi red"
+
+#: ../main.php:1461
+msgid "Use the [break] shortcode to insert linebreaks in the editor."
+msgstr "Koristite [break] shortcode da biste ubacili nove redove u uređivač."
+
+#: ../main.php:1464
+msgid "Shortcodes in Widgets"
+msgstr "Shortcode-ovi u widget-ima"
+
+#: ../main.php:1467
+msgid "Use shortcodes in widget areas."
+msgstr "Koristi shortcode-ove u oblastima widget-a"
+
+#: ../main.php:1470
+msgid "Shortcodes in Excerpts"
+msgstr "Shortcode-ovi u odlomcima"
+
+#: ../main.php:1473
+msgid "Use shortcodes in excerpt areas."
+msgstr "Koristi shortcode-ove u oblastima odlomaka"
+
+#: ../main.php:1476
+msgid "WP Edit Post Excerpt"
+msgstr "WP Edit Post Excerpt"
+
+#: ../main.php:1479
+msgid "Add the WP Edit editor to the Post Excerpt area."
+msgstr "Dodaj WP Edit Post Excerpt području uređivača. "
+
+#: ../main.php:1482
+msgid "WP Edit Page Excerpt"
+msgstr "WP Edit Page Excerpt"
+
+#: ../main.php:1485
+msgid "Add the WP Edit editor to the Page Excerpt area."
+msgstr "Dodaj WP Edit uređivač odlomcima stranica."
+
+#: ../main.php:1488
+msgid "Profile Editor"
+msgstr "Uređivač profila"
+
+#: ../main.php:1491
+msgid "Use modified editor in profile biography field."
+msgstr "Koristite izmenjeni uređivač u polju biografije profila."
+
+#: ../main.php:1494
+msgid "PHP Widgets"
+msgstr "PHP Widget-i"
+
+#: ../main.php:1497
+msgid "Adds a new widget for PHP code."
+msgstr "Dodaje novi widget za PHP kod."
+
+#: ../main.php:1503
+msgid "Save General Options"
+msgstr "Sačuvaj opšte opcije"
+
+#: ../main.php:1516
+msgid "Posts/pages Options"
+msgstr "Opcije za post-ove/stranice"
+
+#: ../main.php:1517
+msgid "These options apply specifically to posts and pages."
+msgstr "Ove opcije posebno se primenjuju na post-ovima i stranicama."
+
+#: ../main.php:1537
+msgid "Post/Page Default Title"
+msgstr "Podrazumevani naslov post-a/stranice"
+
+#: ../main.php:1540
+msgid "Change the default \"add new\" post/page title field."
+msgstr "Promeni podrazumevano polje \"dodaj novi\" post/stranicu "
+
+#: ../main.php:1543
+msgid "Column Shortcodes"
+msgstr "Shortcode-ovi kolone"
+
+#: ../main.php:1546
+msgid "Enable the column shortcodes functionality."
+msgstr "Aktiviraj funkciju shortcode-ova kolone"
+
+#: ../main.php:1549
+msgid "Disable wpautop()"
+msgstr "Deaktiviraj wpautop()"
+
+#: ../main.php:1552
+msgid "Disable the filter responsible for removing p and br tags."
+msgstr "Deaktiviraj filter za uklanjanje paragrafa i oznaka redova"
+
+#: ../main.php:1558
+msgid "Page Revisions"
+msgstr "Revizije stranice"
+
+#: ../main.php:1561
+msgid "Max Post Revisions"
+msgstr "Maksimalan broj revizija po postu"
+
+#: ../main.php:1564
+msgid ""
+"Set max number of Post Revisions to store in database. (empty = unlimited)"
+msgstr ""
+"Podesite maksimalan broj revizija posta za čuvanje u bazi podataka (prazno = "
+"neograničen)"
+
+#: ../main.php:1567
+msgid "Max Page Revisions"
+msgstr "Maksimalan broj revizija stranice"
+
+#: ../main.php:1570
+msgid ""
+"Set max number of Page Revisions to store in database. (empty = unlimited)"
+msgstr ""
+"Podesite maksimalan broj revizija stranica za čuvanje u bazi podataka "
+"(prazno = neograničen)"
+
+#: ../main.php:1573
+msgid "Delete Revisions"
+msgstr "Obriši revizije"
+
+#: ../main.php:1576
+msgid "Delete all database revisions."
+msgstr "Obriši sve revizije u bazi podataka"
+
+#: ../main.php:1579
+msgid "Revisions DB Size"
+msgstr "Veličina revizija u bazi podataka"
+
+#: ../main.php:1588
+msgid "Current size of revisions stored in database:"
+msgstr "Trenutna veličina revizija koje se čuvaju u bazi podataka:"
+
+#: ../main.php:1596
+msgid "Hide Posts and Pages"
+msgstr "Sakrij postove i stranice"
+
+#: ../main.php:1599
+msgid "Hide Admin Posts"
+msgstr "Sakrij postove administratora"
+
+#: ../main.php:1602
+msgid "Hide selected posts from admin view. ID comma separated (1,5,14,256)"
+msgstr ""
+"Sakrij odabrane postove od administratora. ID odvojeni zarezima (1,5,14,256)"
+
+#: ../main.php:1605
+msgid "Hide Admin Pages"
+msgstr "Sakrij stranice administratora"
+
+#: ../main.php:1608
+msgid "Hide selected pages from admin view. ID comma separated (1,5,14,256)"
+msgstr ""
+"Sakrij odabrane stranice od administratora. ID odvojeni zarezima (1,5,14,256)"
+
+#: ../main.php:1614
+msgid "Save Posts/Pages Options"
+msgstr "Sačuvaj postove/Opcije stranica"
+
+#: ../main.php:1627
+msgid "Styles Options"
+msgstr "Opcije stilova"
+
+#: ../main.php:1628
+msgid "Adds predefined styles; which can be applied to editor content."
+msgstr ""
+"Dodaje unapred definisane stilove koji se mogu primeniti na sadržaj "
+"uređivača."
+
+#: ../main.php:1629
+msgid "Please be sure the \"Formats\" button is active in the editor."
+msgstr "Proverite da li je taster \"Formati\" aktiviran u uređivaču."
+
+#: ../main.php:1630
+msgid "(More styles coming soon in the Pro version)"
+msgstr "(Uskoro će u Pro verziji biti više raspoloživih stilova)"
+
+#: ../main.php:1638
+msgid "Add Pre-defined Styles"
+msgstr "Dodaj unapred definisane stilove"
+
+#: ../main.php:1641
+msgid "Adds predefined styles to the \"Formats\" dropdown button."
+msgstr "Dodaje unapred definisane stilove opadajućem tasteru \"Formati\" "
+
+#: ../main.php:1648
+msgid "Editor Options"
+msgstr "Opcije za uređivač"
+
+#: ../main.php:1649
+msgid ""
+"These options will override the initial editor defaults, which will load the "
+"editor using the values below."
+msgstr ""
+"Ove opcije će poništiti početne podrazumevane vrednosti za uređivač "
+"koristeći sledeće vrednosti:"
+
+#: ../main.php:1671
+msgid "Enable Editor Settings"
+msgstr "Aktiviraj postavke za uređivač"
+
+#: ../main.php:1674
+msgid "Executes the values set below when initiating the content editor."
+msgstr "Izvršava postavljene vrednosti pri pokretanju uređivača sadržaja."
+
+#: ../main.php:1678
+msgid "Editor Font"
+msgstr "Font uređivača"
+
+#: ../main.php:1681
+msgid "Font Family (ex. Verdana, Arial, Helvetica, sans-serif)"
+msgstr "Porodica fontova (npr. Verdana, Arial, Helvetica, sans-serif)"
+
+#: ../main.php:1684
+msgid "Editor Font Color"
+msgstr "Boja fonta uređivača"
+
+#: ../main.php:1687
+msgid "Hex Number (ex. 000000)"
+msgstr "Hex broj (npr. 000000)"
+
+#: ../main.php:1690
+msgid "Editor Font Size"
+msgstr "Veličina fonta uređivača"
+
+#: ../main.php:1693
+msgid "Size (ex. 13px)"
+msgstr "Veličina  (npr. 13px)"
+
+#: ../main.php:1696
+msgid "Editor Background Color"
+msgstr "Boja pozadine uređivača"
+
+#: ../main.php:1699
+msgid "Hex Number (ex. FFFFFF)"
+msgstr "Hex broj (npr. FFFFFF)"
+
+#: ../main.php:1702
+msgid "Line Height"
+msgstr "Visina reda"
+
+#: ../main.php:1705
+msgid "Size (ex. 19px)"
+msgstr "Veličina (npr. 19px)"
+
+#: ../main.php:1708
+msgid "Body Padding"
+msgstr "Postava teksta"
+
+#: ../main.php:1711
+msgid "Size (ex. 14px)"
+msgstr "Veličina (npr. 14px)"
+
+#: ../main.php:1714
+msgid "Body Margin"
+msgstr "Margina teksta"
+
+#: ../main.php:1717
+msgid "Size (ex. 10px)"
+msgstr "Veličina (npr. 10px)"
+
+#: ../main.php:1720
+msgid "Text Indent"
+msgstr "Uvlačenje teksta"
+
+#: ../main.php:1723
+msgid "Size (ex. 20px)"
+msgstr "Veličina (npr. 20px)"
+
+#: ../main.php:1726
+msgid "Text Direction"
+msgstr "Smer teksta"
+
+#: ../main.php:1729
+msgid "Direction (ex. ltr)"
+msgstr "Smet (npr. od levog ka desnom)"
+
+#: ../main.php:1733
+msgid "Restore Settings"
+msgstr "Vrati postavke na početne vrednosti"
+
+#: ../main.php:1740
+msgid ""
+"These options will adjust various parts of the TinyMCE initialization "
+"process."
+msgstr ""
+"Ove opcije će podesiti različite delove  inicijalizacije TinyMCE procesa."
+
+#: ../main.php:1744
+msgid "Change Font to \"px\""
+msgstr "Promeni Font u \"px\""
+
+#: ../main.php:1747
+msgid ""
+"Switches the default font size in the dropdown list from \"pt\" to \"px\"."
+msgstr ""
+"Menja podrazumevanu veličinu fonta u opadajućoj listi iz \"pt\" u \"px\"."
+
+#: ../main.php:1753
+msgid "Save Editor Options"
+msgstr "Sačuvaj opcije uređivača"
+
+#: ../main.php:1766
+msgid "These settings will enable various fonts in the editor."
+msgstr "Ove postavke će aktivirati različite fontove u uređivaču."
+
+#: ../main.php:1779
+msgid "Activate Google Fonts"
+msgstr "Aktiviraj Google fontove"
+
+#: ../main.php:1782
+msgid "Turns on/off Google Webfonts."
+msgstr "Uključuje/Isključuje Google web fontove"
+
+#: ../main.php:1791
+msgid "Build Font List"
+msgstr "Napravi listu fontova"
+
+#: ../main.php:1796
+msgid "Step 1:"
+msgstr "Korak: 1"
+
+#: ../main.php:1798
+msgid "Visit "
+msgstr "Poseti"
+
+#: ../main.php:1800
+msgid "Google Webfonts"
+msgstr "Google web fontovi"
+
+#: ../main.php:1802
+msgid "to see how fonts are displayed in the browser."
+msgstr "Da biste videli kako su fontovi prikazani u pretraživaču."
+
+#: ../main.php:1805
+msgid "Step 2:"
+msgstr "Korak 2"
+
+#: ../main.php:1807
+msgid ""
+"Once desired fonts are selected, choose them (one at a time) from the "
+"dropdown list below (sorted alphabetically)."
+msgstr ""
+"Kad selektujete željene fontove, odaberite ih (jedan po jedan) sa opadajuće "
+"liste (po abecednom redu) "
+
+#: ../main.php:1816
+msgid "Something went wrong!"
+msgstr "Nešto nije u redu!"
+
+#: ../main.php:1837
+msgid ""
+"As fonts are selected, they will appear in the \"Active Fonts\" section "
+"below."
+msgstr "Kad odaberete fontove, oni će se pojaviti u delu \"Active Fonts\"."
+
+#: ../main.php:1847
+msgid "Active Fonts"
+msgstr "Aktivni fontovi"
+
+#: ../main.php:1857
+msgid "Current Font List"
+msgstr "Trenutna lista fontova"
+
+#: ../main.php:1876
+msgid "Trash Bin"
+msgstr "Korpa za otpatke"
+
+#: ../main.php:1880
+msgid "Drag fonts here to delete..."
+msgstr "Ovde dovucite fontove za brisanje"
+
+#: ../main.php:1887
+msgid "Save Font Options"
+msgstr "Sačuvaj opcije fonta"
+
+#: ../main.php:1892
+msgid "Remember to save the options when finished."
+msgstr "Ne zaboravite da sačuvate opcije kad završite"
+
+#: ../main.php:1910
+msgid "Snidget Options"
+msgstr "Snidget Opcije"
+
+#: ../main.php:1911
+msgid "These options specifically affect how snidgets are handled."
+msgstr "Ove opcije odnose se na upravljanje snidget-ima"
+
+#: ../main.php:1922
+msgid "Snidget Builder"
+msgstr "Snidget graditelj"
+
+#: ../main.php:1925
+msgid "Enables the powerful snidget builder."
+msgstr "Aktivira moćni graditelj snidget-a."
+
+#: ../main.php:1934
+msgid "Save Widget Options"
+msgstr "Sačuvaj opcije widget-a"
+
+#: ../main.php:1946
+msgid "User Specific Options"
+msgstr "Specifične opcije korisnika"
+
+#: ../main.php:1947
+msgid ""
+"These options are stored in individual user meta; meaning each user can set "
+"these options independlently from one another."
+msgstr ""
+"Ove opcije čuvaju se u individualnom korisničkom meta; što znači da svaki "
+"korisnik može podesiti ove opcije nezavisno jednu od druge."
+
+#: ../main.php:1969
+msgid "Save Scrollbar"
+msgstr "Sačuvaj traku za skrolovanje"
+
+#: ../main.php:1972
+msgid "Saves the editor srollbar position when editing long posts (TEXT mode)."
+msgstr ""
+"Čuva poziciju trake za skrolovanje uređivača kad se uređuju dugački post-ovi "
+"(tekstualni režim)"
+
+#: ../main.php:1975
+msgid "ID Column"
+msgstr "ID kolone"
+
+#: ../main.php:1978
+msgid "Adds a column to post/page list view for displaying the post/page ID."
+msgstr ""
+"Dodaje kolonu listi post/stranica za prikazivanje ID-ja post-a/stranice"
+
+#: ../main.php:1981
+msgid "Thumbnail Column"
+msgstr "Kolona sličice"
+
+#: ../main.php:1984
+msgid "Adds a column to post/page list view for displaying thumbnails."
+msgstr "Dodaje kolonu listi post/stranica za prikazivanje sličica"
+
+#: ../main.php:1987
+msgid "Hide TEXT Tab"
+msgstr "Sakrij tekstualni tabulator"
+
+#: ../main.php:1990
+msgid "Hide the editor TEXT tab from view."
+msgstr "Sakrij tekstualni tabulator uređivača iz vida"
+
+#: ../main.php:1993
+msgid "Default VISUAL Tab"
+msgstr "Podrazumevani VIZUELNI tabulator"
+
+#: ../main.php:1996
+msgid "Always display VISUAL tab when editor loads."
+msgstr "Uveč prikaži VIZUELNI tabulator kad se učita uređivač"
+
+#: ../main.php:1999
+msgid "Disable Dashboard Widget"
+msgstr "Deaktiviraj widget komandne table"
+
+#: ../main.php:2002
+msgid "Disables WP Edit Pro News Feed dashboard widget."
+msgstr "Deaktivira WP Edit Pro News Feed widget komandne table"
+
+#: ../main.php:2008
+msgid "Post/Page Highlight Colors"
+msgstr "Boje markera post-a/stranice"
+
+#: ../main.php:2009
+msgid ""
+"These options will allow each user to customize highlight colors for each "
+"post/page status."
+msgstr ""
+"Ove opcije će omogućiti svakom korisniku da podesi boje markera za svaki "
+"status post-a/stranice"
+
+#: ../main.php:2010
+msgid "Meaning.. saved posts can be yellow, published posts can be blue, etc."
+msgstr ""
+"Znači… Sačuvani post-ovi mogu biti žuti, objavljeni post-ovi mogu biti plavi "
+"itd."
+
+#: ../main.php:2014
+msgid "Enable Highlights"
+msgstr "Aktiviraj markiranje"
+
+#: ../main.php:2017
+msgid "Enable the Highlight Options below."
+msgstr "Aktiviraj sledeće opcije markiranja"
+
+#: ../main.php:2020
+msgid "Draft Highlight"
+msgstr "Markiranje skice"
+
+#: ../main.php:2025
+msgid "Pending Highlight"
+msgstr "Markiranje na čekanju"
+
+#: ../main.php:2030
+msgid "Published Highlight"
+msgstr "Objavljeno markiranje"
+
+#: ../main.php:2035
+msgid "Future Highlight"
+msgstr "Buduće markiranje"
+
+#: ../main.php:2040
+msgid "Private Highlight"
+msgstr "Tajno markiranje"
+
+#: ../main.php:2071
+msgid "Extra Options"
+msgstr "Dodatne opcije"
+
+#: ../main.php:2073
+msgid "Signoff Text"
+msgstr "Završni tekst"
+
+#: ../main.php:2074
+msgid ""
+"Use the editor below to create a content chunk that can be inserted anywhere "
+"using the"
+msgstr ""
+"Koristite uređivač da kreirate deo sadržaja koji se može ubaciti bilo gde uz"
+
+#: ../main.php:2074
+msgid "shortcode."
+msgstr "shortcode"
+
+#: ../main.php:2089
+msgid "QR Codes"
+msgstr "QR Codes"
+
+#: ../main.php:2091
+msgid "Please use the options below to setup your personalized QR Code."
+msgstr ""
+"Koristite sledeće opcije da biste postavili svoj personalizovani QR kod"
+
+#: ../main.php:2098
+msgid "Enable QR Codes"
+msgstr "Aktiviraj QR kodove"
+
+#: ../main.php:2101
+msgid "A global option which enables all QR Code functionality."
+msgstr "Globalna opcija koja aktivira funkcionalnost QR koda"
+
+#: ../main.php:2104
+msgid "Enable QR Widgets"
+msgstr "Aktiviraj QR widget-e"
+
+#: ../main.php:2107
+msgid "Adds new widget for creating QR codes."
+msgstr "Dodaje nove widget-e za kreiranje QR kodova"
+
+#: ../main.php:2116
+msgid "Design QR Code"
+msgstr "Dizajn QR koda"
+
+#: ../main.php:2124
+msgid "Title Background"
+msgstr "Naziv pozadine"
+
+#: ../main.php:2129
+msgid "Content Background"
+msgstr "Sadržaj pozadina"
+
+#: ../main.php:2134
+msgid "Text Color"
+msgstr "Boja teksta"
+
+#: ../main.php:2139
+msgid "QR Foreground Color"
+msgstr "QR boja prvog plana"
+
+#: ../main.php:2144
+msgid "QR Background Color"
+msgstr "QR boja pozadine"
+
+#: ../main.php:2154
+msgid ""
+"This is a preview area.  Changes will not be written to the database until "
+"the \"Save Changes\" button is clicked."
+msgstr ""
+"Ovo je područje pregleda. Promene neće biti upisane u bazu podataka sve dok "
+"ne kliknete na taster  \"Sačuvaj izmene\""
+
+#: ../main.php:2156
+msgid "Preview! (<em>Click \"Save Changes\" to update</em>)"
+msgstr "Pregled  (<em>Click \"Sačuvaj izmene\" da biste ih ažurirali</em>)"
+
+#: ../main.php:2166
+msgid ""
+"This is preview text. Use the editor below to create custom text for your "
+"posts/pages."
+msgstr ""
+"Ovo je tekst pregleda. Koristite uređivač da biste kreirali podrazumevani "
+"tekst za svoje post-ove/stranice."
+
+#: ../main.php:2167
+msgid ""
+"It is strongly suggested to use highly contrasting colors for the background "
+"and foreground QR colors."
+msgstr ""
+"Preporučujemo vam da koristite boje visokog kontrasta za QR boje pozadine i "
+"prvog plana."
+
+#: ../main.php:2179
+msgid "Title Text"
+msgstr "Tekst naslova"
+
+#: ../main.php:2184
+msgid "Content"
+msgstr "Sadržaj"
+
+#: ../main.php:2207
+msgid "Database Options"
+msgstr "Opcije baze podataka"
+
+#: ../main.php:2212
+msgid "Convert Options from Ultimate Tinymce"
+msgstr "Konvertujte opcije iz Ultimate Tinymce-a"
+
+#: ../main.php:2215
+msgid "Convert any options used by Ultimate Tinymce to WP Edit."
+msgstr "Konvertujte opcije koje je koristio Ultimate Tinymce za WP uređivanje."
+
+#: ../main.php:2217
+msgid "Since so much has changed, not all options may convert successfully."
+msgstr ""
+"Pošto je previše opcija promenjeno, možda se neće sve opcije uspešno "
+"konvertovati."
+
+#: ../main.php:2219
+msgid "There will be no harm done to any other plugin or theme options."
+msgstr "Nijedan drugi plugin, niti opcije teme neće pretrpeti oštećenja."
+
+#: ../main.php:2223
+msgid "Convert Options"
+msgstr "Konvertuj opcije"
+
+#: ../main.php:2229
+msgid "Export WP Edit Options"
+msgstr "Izvezi opcije WP uređivača"
+
+#: ../main.php:2231
+msgid ""
+"Export the plugin settings for this site as a .json file. This allows you to "
+"easily import the configuration into another site."
+msgstr ""
+"Izvezi postavke plugin-a za ovaj site kao .json datoteku. To vam omogućava "
+"da lako uvezete konfiguraciju na drugi site. "
+
+#: ../main.php:2236
+msgid "Export"
+msgstr "Izvezi"
+
+#: ../main.php:2243
+msgid "Import WP Edit Options"
+msgstr "Uvezi WP Edit Opcije"
+
+#: ../main.php:2245
+msgid ""
+"Import the plugin settings from a .json file. This file can be obtained by "
+"exporting the settings on another site using the form above."
+msgstr ""
+"Uvezi plugin postavke iz .json datoteke. Ova datoteka može se dobiti izvozom "
+"postavki na drugi site uz pomoć gornjeg obrasca. "
+
+#: ../main.php:2251
+msgid "Import"
+msgstr "Uvezi"
+
+#: ../main.php:2258
+msgid "Reset WP Edit Options"
+msgstr "Ponovo podesi opcije WP uređivača"
+
+#: ../main.php:2260
+msgid "Reset all plugin settings to their original default states."
+msgstr ""
+"Ponovo podesi sve postavke plugin-a na njihove originalne, podrazumevane "
+"vrednosti."
+
+#: ../main.php:2263
+msgid "Reset Settings"
+msgstr "Ponovo podesi postavke"
+
+#: ../main.php:2270
+msgid "Uninstall WP Edit (Completely)"
+msgstr "Deinstaliraj WP uređivač (potpuno)"
+
+#: ../main.php:2272
+msgid ""
+"Designed by intention, this plugin will not delete the associated database "
+"tables when activating and deactivating."
+msgstr ""
+"Ovaj plugin namerno je dizajniran tako da neće obrisati tabele pridruženih "
+"baza podataka prilikom aktiviranja i deaktiviranja."
+
+#: ../main.php:2273
+msgid ""
+"This ensures the data is kept safe when troubleshooting other WordPress "
+"conflicts."
+msgstr ""
+"Na ovaj način, podaci se čuvaju na sigirnom kad se rešavanje problema suoči "
+"sa WordPress-om."
+
+#: ../main.php:2274
+msgid ""
+"In order to completely uninstall the plugin, AND remove all associated "
+"database tables, please use the option below."
+msgstr ""
+"Da biste potpuno deinstalirali plugin I uklonili sve prateće baze podataka, "
+"koristite sledeću opciju."
+
+#: ../main.php:2279
+msgid "Please confirm before proceeding"
+msgstr "Potvrdite pre nego što se operacija nastavi"
+
+#: ../main.php:2280
+msgid "Uninstall"
+msgstr "Deinstaliraj"
+
+#: ../main.php:2377
+msgid "Please upload a valid .json file"
+msgstr "Molimo vas, otpremite validnu .json datoteku "
+
+#: ../main.php:2383
+msgid "Please upload a file to import"
+msgstr "Otpremite datoteku za uvoz"
+
+#: ../main.php:2430
+msgid "Ajax is working... but having trouble connecting with the database."
+msgstr "Ajax radi… ali ima problema pri povezivanju sa bazom podataka."
+
+#: ../main.php:2634
+msgid "Stay Informed"
+msgstr "Budite u toku"
+
+#: ../main.php:2636
+msgid ""
+"Please signup to our free <a target=\"_blank\" href=\"http://www.feedblitz."
+"com/f/?Sub=950320\">Feedblitz</a> service; to receive important plugin news, "
+"updates and free offers."
+msgstr ""
+"Pretplatite se na besplatnu<a target=\"_blank\" href=\"http://www.feedblitz."
+"com/f/?Sub=950320\"> Feedblitz</a> uslugu da biste dobijali važne novosti o "
+"plugin-u, ažuriranju i besplatnim ponudama."
+
+#: ../main.php:2643
+msgid "Other Plugin News"
+msgstr "Novosti o ostalim plugin-ovima"
+
+#: ../main.php:2645
+msgid ""
+"* A stable version of WP Edit will soon be available on our <a target="
+"\"_blank\" href=\"http://wpeditpro.com\">website</a>. The stable version "
+"will contain some options not available in the free version."
+msgstr ""
+"*Stabilna WP Edit verzija uskoro će biti raspoloživa na našem<a target="
+"\"_blank\" href=\"http://wpeditpro.com\"> web site-u</a>. Stabilna verzija "
+"sadržaće neke opcije kojih nema u besplatnoj verziji."
+
+#: ../main.php:2647
+msgid ""
+"* Plugin documentation is being added to our <a target=\"_blank\" href="
+"\"http://learn.wpeditpro.com\">Knowledge Base</a>. Check back frequently for "
+"more tutorial articles."
+msgstr ""
+"* Dokumentacija o plugin-u dodata je našoj<a target=\"_blank\" href=\"http://"
+"learn.wpeditpro.com\"> bazi znanja</a>. Često je proveravajte jer će se na "
+"njoj pojavljivati uputstva za rad."

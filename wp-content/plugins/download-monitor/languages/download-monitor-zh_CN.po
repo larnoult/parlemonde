@@ -1,0 +1,1218 @@
+# Copyright (C) 2017 Never5
+# This file is distributed under the GPL v3.
+# Translators:
+# andyzou <andy.xy.zou@gmail.com>, 2014
+# Barry Kooij <mail@barrykooij.nl>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: Download Monitor\n"
+"Report-Msgid-Bugs-To: https://github.com/download-monitor/download-monitor/issues\n"
+"POT-Creation-Date: 2017-12-19 12:47:52+00:00\n"
+"PO-Revision-Date: 2017-12-19 12:48+0000\n"
+"Last-Translator: Barry Kooij <mail@barrykooij.nl>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/barrykooijplugins/download-monitor/language/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: grunt-wp-i18n 0.4.9\n"
+
+#: assets/views/meta-box/version.php:8
+msgid "Remove"
+msgstr "移除"
+
+#: assets/views/meta-box/version.php:9
+msgid "Click to toggle"
+msgstr "单击切换"
+
+#: assets/views/meta-box/version.php:10
+msgid "Version <span class=\"version\">%s</span> (%s)"
+msgstr "版本 <span class=\"version\">%s</span> (%s)"
+
+#: assets/views/meta-box/version.php:10 assets/views/meta-box/version.php:24
+msgid "n/a"
+msgstr "未知"
+
+#: assets/views/meta-box/version.php:10
+msgid "Downloaded %s time"
+msgid_plural "Downloaded %s times"
+msgstr[0] "已下载%s次"
+
+#: assets/views/meta-box/version.php:22 src/Admin/CustomColumns.php:28
+#: src/Admin/MediaInsert.php:241
+msgid "Version"
+msgstr "版本"
+
+#: assets/views/meta-box/version.php:28
+msgid "File URL(s)"
+msgstr "文件URL"
+
+#: assets/views/meta-box/version.php:31
+msgid ""
+"Enter one file path/URL per line - multiple files will be used as mirrors "
+"(chosen at random)."
+msgstr "每行输入一个文件路径/URL - 多个文件将被作为镜像(随机选择)"
+
+#: assets/views/meta-box/version.php:37
+msgid "Upload file"
+msgstr "上传文件"
+
+#: assets/views/meta-box/version.php:39
+msgid "Choose a file"
+msgstr "选择文件"
+
+#: assets/views/meta-box/version.php:40
+msgid "Insert file URL"
+msgstr "插入文件URL"
+
+#: assets/views/meta-box/version.php:44
+msgid "Browse for file"
+msgstr "浏览文件"
+
+#: assets/views/meta-box/version.php:64 src/Admin/CustomColumns.php:31
+#: src/Admin/Dashboard.php:65 src/Widgets/class-dlm-widget-downloads.php:205
+msgid "Download count"
+msgstr "下载次数"
+
+#: assets/views/meta-box/version.php:71
+msgid "File Date"
+msgstr "文件日期"
+
+#: assets/views/meta-box/version.php:74
+msgid "h"
+msgstr "h"
+
+#: assets/views/meta-box/version.php:77
+msgid "m"
+msgstr "m"
+
+#: assets/views/notice-lu-upgrade.php:7
+msgid ""
+"It looks like you upgraded to the latest version of Download Monitor from a "
+"legacy version (3.x)"
+msgstr ""
+
+#: assets/views/notice-lu-upgrade.php:8
+msgid ""
+"Currently your downloads don't work like they should, we need to %s before "
+"they'll work again."
+msgstr ""
+
+#: assets/views/notice-lu-upgrade.php:8
+msgid "upgrade your downloads"
+msgstr ""
+
+#: assets/views/notice-lu-upgrade.php:9
+msgid ""
+"We've created an upgrading tool that will do all the work for you. You can "
+"read more about this tool on %sour website (click here)%s or start the "
+"upgrade now."
+msgstr ""
+
+#: assets/views/notice-lu-upgrade.php:10
+msgid "Take me to the Upgrade Tool"
+msgstr ""
+
+#: assets/views/notice-lu-upgrade.php:11
+msgid "hide notice"
+msgstr ""
+
+#: src/Admin/Admin.php:224 src/Admin/Extensions.php:45
+msgid "Download Monitor Extensions"
+msgstr ""
+
+#: src/Admin/Admin.php:224 src/DLM.php:225
+msgid "Extensions"
+msgstr ""
+
+#: src/Admin/Admin.php:274
+msgid ""
+"If you like %sDownload Monitor%s please leave us a %s★★★★★%s rating. A huge "
+"thank you from us in advance!"
+msgstr ""
+
+#: src/Admin/AdminScripts.php:167 src/Admin/MediaInsert.php:36
+#: src/Admin/MediaInsert.php:55
+msgid "Insert Download"
+msgstr "插入下载"
+
+#: src/Admin/AdminScripts.php:172
+msgid "Are you sure you want to delete this file ? "
+msgstr ""
+
+#: src/Admin/AdminScripts.php:173 src/Admin/MediaBrowser.php:34
+msgid "Browse for a file"
+msgstr "浏览文件"
+
+#: src/Admin/CustomActions.php:61
+msgid "Select a category"
+msgstr "选择一个分类"
+
+#: src/Admin/CustomActions.php:207
+msgid "Download Monitor Data"
+msgstr ""
+
+#: src/Admin/CustomActions.php:209 src/Admin/WritePanels.php:126
+msgid "Featured download"
+msgstr "特色下载"
+
+#: src/Admin/CustomActions.php:211 src/Admin/CustomColumns.php:33
+#: src/Admin/WritePanels.php:132
+msgid "Members only"
+msgstr "仅会员"
+
+#: src/Admin/CustomActions.php:213 src/Admin/WritePanels.php:138
+msgid "Redirect to file"
+msgstr "重定向至文件"
+
+#: src/Admin/CustomColumns.php:24
+msgid "Image"
+msgstr "图像"
+
+#: src/Admin/CustomColumns.php:25
+#: src/Widgets/class-dlm-widget-downloads.php:169
+#: src/Widgets/class-dlm-widget-downloads.php:195
+msgid "Title"
+msgstr "标题"
+
+#: src/Admin/CustomColumns.php:26 src/Admin/WritePanels.php:79
+#: src/Widgets/class-dlm-widget-downloads.php:199
+msgid "ID"
+msgstr "ID"
+
+#: src/Admin/CustomColumns.php:27 src/Logs/LoggingListTable.php:196
+msgid "File"
+msgstr "文件"
+
+#: src/Admin/CustomColumns.php:29 src/TaxonomyManager.php:27
+#: src/TaxonomyManager.php:30
+msgid "Categories"
+msgstr "分类"
+
+#: src/Admin/CustomColumns.php:30 src/TaxonomyManager.php:59
+#: src/TaxonomyManager.php:62
+msgid "Tags"
+msgstr "标签"
+
+#: src/Admin/CustomColumns.php:32
+msgid "Featured"
+msgstr "特色"
+
+#: src/Admin/CustomColumns.php:34
+msgid "Redirect only"
+msgstr "仅重定向"
+
+#: src/Admin/CustomColumns.php:35
+msgid "Date posted"
+msgstr "发布日期"
+
+#: src/Admin/CustomColumns.php:81 src/Admin/CustomColumns.php:88
+#: src/Admin/CustomColumns.php:95
+msgid "Yes"
+msgstr "是"
+
+#: src/Admin/CustomLabels.php:24
+msgid "Download title"
+msgstr "下载标题"
+
+#: src/Admin/CustomLabels.php:44 src/Admin/CustomLabels.php:47
+msgid "Download updated."
+msgstr "下载已经更新"
+
+#: src/Admin/CustomLabels.php:45
+msgid "Custom field updated."
+msgstr "自定义字段已更新"
+
+#: src/Admin/CustomLabels.php:46
+msgid "Custom field deleted."
+msgstr "自定义字段已删除"
+
+#: src/Admin/CustomLabels.php:48
+msgid "Download restored to revision from %s"
+msgstr " 从%s下载恢复修正"
+
+#: src/Admin/CustomLabels.php:49
+msgid "Download published."
+msgstr "下载已发布"
+
+#: src/Admin/CustomLabels.php:50
+msgid "Download saved."
+msgstr "下载已保存"
+
+#: src/Admin/CustomLabels.php:51
+msgid "Download submitted."
+msgstr "下载已提交"
+
+#: src/Admin/CustomLabels.php:52
+msgid "Download scheduled for: <strong>%1$s</strong>."
+msgstr "已经为<strong>%1$s</strong>安排下载。"
+
+#: src/Admin/CustomLabels.php:53
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: src/Admin/CustomLabels.php:54
+msgid "Download draft updated."
+msgstr "下载草稿已更新"
+
+#: src/Admin/Dashboard.php:23
+msgid "Popular Downloads"
+msgstr "热门下载"
+
+#: src/Admin/Dashboard.php:54
+msgid "There are no stats available yet!"
+msgstr "目前未统计"
+
+#: src/Admin/Dashboard.php:64 src/Logs/LoggingListTable.php:195
+#: src/PostTypeManager.php:23
+msgid "Download"
+msgstr "下载"
+
+#: src/Admin/Extensions.php:76
+msgid ""
+"Extend Download Monitor with its powerful free and paid extensions. %sClick "
+"here to browse all extensions%s"
+msgstr ""
+
+#: src/Admin/MediaBrowser.php:108
+msgid "No files found"
+msgstr "未找到文件"
+
+#: src/Admin/MediaInsert.php:66 src/Admin/MediaInsert.php:204
+msgid "Insert Shortcode"
+msgstr "插入快捷码"
+
+#: src/Admin/MediaInsert.php:67
+msgid "Quick-add download"
+msgstr "快速添加下载"
+
+#: src/Admin/MediaInsert.php:114
+msgid "Error: File was not created."
+msgstr "错误：未能创建文件。"
+
+#: src/Admin/MediaInsert.php:134
+msgid "Download successfully created."
+msgstr "已成功创建下载。"
+
+#: src/Admin/MediaInsert.php:137
+msgid "Error: Download was not created."
+msgstr "错误： 未能创建下载。"
+
+#: src/Admin/MediaInsert.php:161
+msgid "Search download"
+msgstr ""
+
+#: src/Admin/MediaInsert.php:169
+msgid "Choose a download"
+msgstr "选择下载"
+
+#: src/Admin/MediaInsert.php:194
+msgid "Template"
+msgstr "模板"
+
+#: src/Admin/MediaInsert.php:196
+msgid "Template Name"
+msgstr "模板名称"
+
+#: src/Admin/MediaInsert.php:198
+msgid ""
+"Leaving this blank will use the default <code>content-download.php</code> "
+"template file. If you enter, for example, <code>image</code>, the <code"
+">content-download-image.php</code> template will be used instead."
+msgstr "留空将使用 <code>content-download.php</code>模板文件。如果输入了，例如 <code>image</code>，那么将使用 <code>content-download-image.php</code>模板文件。"
+
+#: src/Admin/MediaInsert.php:215
+msgid "Drop file here"
+msgstr "把文件拖至这里"
+
+#: src/Admin/MediaInsert.php:220
+msgid "Select File"
+msgstr "选择文件"
+
+#: src/Admin/MediaInsert.php:224
+msgid "Enter URL manually"
+msgstr "手工输入URL"
+
+#: src/Admin/MediaInsert.php:229
+msgid "Download URL"
+msgstr "下载URL"
+
+#: src/Admin/MediaInsert.php:231
+msgid "Required URL"
+msgstr "必选URL"
+
+#: src/Admin/MediaInsert.php:235 src/Logs/LogExportCSV.php:68
+msgid "Download Title"
+msgstr "下载标题"
+
+#: src/Admin/MediaInsert.php:237
+msgid "Required title"
+msgstr "标题必选"
+
+#: src/Admin/MediaInsert.php:243
+msgid "Optional version number"
+msgstr "可选版本号"
+
+#: src/Admin/MediaInsert.php:248
+msgid "Save Download"
+msgstr "保存下载"
+
+#: src/Admin/MediaInsert.php:304
+msgid "Allowed Files"
+msgstr "允许的文件"
+
+#: src/Admin/MediaInsert.php:354
+msgid "Please wait..."
+msgstr "请稍等 ..."
+
+#: src/Admin/Reports/Page.php:23
+msgid "Reports"
+msgstr ""
+
+#: src/Admin/Reports/Page.php:115
+msgid "Switch to %s"
+msgstr ""
+
+#: src/Admin/Reports/Page.php:140
+msgid "Per Day"
+msgstr ""
+
+#: src/Admin/Reports/Page.php:141
+msgid "Month"
+msgstr ""
+
+#: src/Admin/Reports/Page.php:184
+msgid "Download Reports"
+msgstr ""
+
+#: src/Admin/Settings/Fields/LazySelect.php:41
+msgid "Loading"
+msgstr ""
+
+#: src/Admin/Settings/Page.php:22 src/DLM.php:224
+msgid "Settings"
+msgstr "设置"
+
+#: src/Admin/Settings/Page.php:45
+msgid ""
+"Because your server is running on nginx, our .htaccess file can't protect "
+"your downloads."
+msgstr ""
+
+#: src/Admin/Settings/Page.php:46
+msgid ""
+"Please add the following rules to your nginx config to disable direct file "
+"access: %s"
+msgstr ""
+
+#: src/Admin/Settings/Page.php:92
+msgid "Download Monitor Transients successfully cleared!"
+msgstr ""
+
+#: src/Admin/Settings/Page.php:135
+msgid "Settings successfully saved"
+msgstr "已经成功保存设置"
+
+#: src/Admin/Settings/Page.php:178
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: src/Admin/Settings/Settings.php:51
+msgid "General"
+msgstr "通用"
+
+#: src/Admin/Settings/Settings.php:56
+msgid "Default Template"
+msgstr "默认模板"
+
+#: src/Admin/Settings/Settings.php:57
+msgid ""
+"Choose which template is used for <code>[download]</code> shortcodes by "
+"default (this can be overridden by the <code>format</code> argument)."
+msgstr "为快捷码 <code>[download]</code> 选择默认模板（<code>format</code>参数覆盖可以此项）。"
+
+#: src/Admin/Settings/Settings.php:60
+msgid "Default - Title and count"
+msgstr "默认 - 标题和数目"
+
+#: src/Admin/Settings/Settings.php:61
+msgid "Button - CSS styled button showing title and count"
+msgstr "按钮 - 显示标题和数目的CSS形式按钮"
+
+#: src/Admin/Settings/Settings.php:62
+msgid "Box - Box showing thumbnail, title, count, filename and filesize."
+msgstr "方框 - 显示缩略图，标题，数目，文件名和文件大小的方框"
+
+#: src/Admin/Settings/Settings.php:63
+msgid "Filename - Filename and download count"
+msgstr "文件名 - 文件名和下载次数"
+
+#: src/Admin/Settings/Settings.php:64
+msgid "Title - Shows download title only"
+msgstr "标题 - 仅显示下载标题"
+
+#: src/Admin/Settings/Settings.php:65
+msgid "Version list - Lists all download versions in an unordered list"
+msgstr "版本列表 - 列出所有下载版本的无序列表"
+
+#: src/Admin/Settings/Settings.php:66
+msgid "Custom template"
+msgstr "自定义模板"
+
+#: src/Admin/Settings/Settings.php:73
+msgid "Custom Template"
+msgstr "自定义模板"
+
+#: src/Admin/Settings/Settings.php:74
+msgid ""
+"Leaving this blank will use the default <code>content-download.php</code> "
+"template file. If you enter, for example, <code>button</code>, the <code"
+">content-download-button.php</code> template will be used instead. You can "
+"add custom templates inside your theme folder."
+msgstr ""
+
+#: src/Admin/Settings/Settings.php:79
+msgid "X-Accel-Redirect / X-Sendfile"
+msgstr "X-Accel-Redirect / X-Sendfile"
+
+#: src/Admin/Settings/Settings.php:80 src/Admin/Settings/Settings.php:88
+#: src/Admin/Settings/Settings.php:96 src/Admin/Settings/Settings.php:168
+#: src/Admin/Settings/Settings.php:178 src/Admin/Settings/Settings.php:228
+msgid "Enable"
+msgstr "启用"
+
+#: src/Admin/Settings/Settings.php:81
+msgid ""
+"If supported, <code>X-Accel-Redirect</code> / <code>X-Sendfile</code> can be"
+" used to serve downloads instead of PHP (server requires "
+"<code>mod_xsendfile</code>)."
+msgstr "如果支持， 可以使用<code>X-Accel-Redirect</code> / <code>X-Sendfile</code>供下载， 而不是使用PHP (服务器需要启用<code>mod_xsendfile</code>模块)。"
+
+#: src/Admin/Settings/Settings.php:87
+msgid "Prevent hotlinking"
+msgstr "阻止热链"
+
+#: src/Admin/Settings/Settings.php:89
+msgid ""
+"If enabled, the download handler will check the PHP referer to see if it "
+"originated from your site and if not, redirect them to the homepage."
+msgstr "如果启用，下载处理器将检查referer查看请求是不是从你的网站发起。如果不是，将请求重定向到首页。"
+
+#: src/Admin/Settings/Settings.php:95
+msgid "Allow Proxy IP Override"
+msgstr ""
+
+#: src/Admin/Settings/Settings.php:97
+msgid ""
+"If enabled, Download Monitor will use the X_FORWARDED_FOR HTTP header set by"
+" proxies as the IP address. Note that anyone can set this header, making it "
+"less secure."
+msgstr ""
+
+#: src/Admin/Settings/Settings.php:103
+msgid "Endpoint"
+msgstr "Endpoint"
+
+#: src/Admin/Settings/Settings.php:109
+msgid "download"
+msgstr "下载"
+
+#: src/Admin/Settings/Settings.php:110
+msgid "Download Endpoint"
+msgstr "下载的Endpoint"
+
+#: src/Admin/Settings/Settings.php:111
+msgid ""
+"Define what endpoint should be used for download links. By default this will"
+" be <code>%s</code>."
+msgstr "定义用于下载链接的endpoint。默认为 <code>%s</code>。"
+
+#: src/Admin/Settings/Settings.php:116
+msgid "Endpoint Value"
+msgstr "Endpoint值"
+
+#: src/Admin/Settings/Settings.php:117
+msgid ""
+"Define what unique value should be used on the end of your endpoint to "
+"identify the downloadable file. e.g. ID would give a link like "
+"<code>%s</code>"
+msgstr "定义独一无二值放在endpoint之后用来标识下载文件。例如使用 ID 将给出像<code>%s</code>的链接。"
+
+#: src/Admin/Settings/Settings.php:120 src/Logs/LogExportCSV.php:67
+msgid "Download ID"
+msgstr "下载ID"
+
+#: src/Admin/Settings/Settings.php:121
+msgid "Download slug"
+msgstr "下载别名"
+
+#: src/Admin/Settings/Settings.php:127
+msgid "Hashes"
+msgstr ""
+
+#: src/Admin/Settings/Settings.php:132
+msgid "MD5 hashes"
+msgstr "MD5哈希"
+
+#: src/Admin/Settings/Settings.php:133
+msgid "Generate MD5 hash for uploaded files"
+msgstr "为上传的文件生成MD5哈希"
+
+#: src/Admin/Settings/Settings.php:140
+msgid "SHA1 hashes"
+msgstr "SHA1哈希"
+
+#: src/Admin/Settings/Settings.php:141
+msgid "Generate SHA1 hash for uploaded files"
+msgstr "为上传的文件生成SHA1哈希"
+
+#: src/Admin/Settings/Settings.php:148
+msgid "SHA256 hashes"
+msgstr ""
+
+#: src/Admin/Settings/Settings.php:149
+msgid "Generate SHA256 hash for uploaded files"
+msgstr ""
+
+#: src/Admin/Settings/Settings.php:150 src/Admin/Settings/Settings.php:158
+msgid ""
+"Hashes can optionally be output via shortcodes, but may cause performance "
+"issues with large files."
+msgstr "哈希可以通过快捷码输出，但大文件可能会引起性能问题。"
+
+#: src/Admin/Settings/Settings.php:156
+msgid "CRC32B hashes"
+msgstr "CRC32B哈希"
+
+#: src/Admin/Settings/Settings.php:157
+msgid "Generate CRC32B hash for uploaded files"
+msgstr "为上传的文件生成CRC32B哈希"
+
+#: src/Admin/Settings/Settings.php:164
+msgid "Logging"
+msgstr "记录日志"
+
+#: src/Admin/Settings/Settings.php:170
+msgid "Download Log"
+msgstr "下载日志"
+
+#: src/Admin/Settings/Settings.php:171
+msgid "Log download attempts, IP addresses and more."
+msgstr "记录下载尝试，IP地址等。"
+
+#: src/Admin/Settings/Settings.php:177
+msgid "Count unique IPs only"
+msgstr ""
+
+#: src/Admin/Settings/Settings.php:179
+msgid ""
+"If enabled, the counter for each download will only increment and create a "
+"log entry once per IP address."
+msgstr ""
+
+#: src/Admin/Settings/Settings.php:185
+msgid "Access"
+msgstr ""
+
+#: src/Admin/Settings/Settings.php:190
+msgid "No Access Page"
+msgstr ""
+
+#: src/Admin/Settings/Settings.php:191
+msgid ""
+"Choose what page is displayed when the user has no access to a file. Don't "
+"forget to add the <code>[dlm_no_access]</code> shortcode to the page."
+msgstr ""
+
+#: src/Admin/Settings/Settings.php:197 src/Installer.php:38
+#: src/UpgradeManager.php:55
+msgid "You do not have permission to access this download. %sGo to homepage%s"
+msgstr ""
+
+#: src/Admin/Settings/Settings.php:199
+msgid "No access message"
+msgstr ""
+
+#: src/Admin/Settings/Settings.php:200
+msgid ""
+"The message that will be displayed to visitors when they don't have access "
+"to a file."
+msgstr ""
+
+#: src/Admin/Settings/Settings.php:206
+msgid "Blacklist IPs"
+msgstr "IP黑名单"
+
+#: src/Admin/Settings/Settings.php:207
+msgid ""
+"List IP Addresses to blacklist, 1 per line. Use IP/CIDR netmask format for "
+"ranges. IPv4 examples: <code>198.51.100.1</code> or "
+"<code>198.51.100.0/24</code>. IPv6 examples: <code>2001:db8::1</code> or "
+"<code>2001:db8::/32</code>."
+msgstr ""
+
+#: src/Admin/Settings/Settings.php:214
+msgid "Blacklist user agents"
+msgstr "浏览器User-Agent黑名单"
+
+#: src/Admin/Settings/Settings.php:215
+msgid ""
+"List browser user agents to blacklist, 1 per line.  Partial matches are "
+"sufficient. Regex matching is allowed by surrounding the pattern with "
+"forward slashes, e.g. <code>/^Mozilla.+Googlebot/</code>"
+msgstr ""
+
+#: src/Admin/Settings/Settings.php:222
+msgid "Misc"
+msgstr ""
+
+#: src/Admin/Settings/Settings.php:227
+msgid "Remove Data on Uninstall?"
+msgstr ""
+
+#: src/Admin/Settings/Settings.php:229
+msgid ""
+"Check this box if you would like to completely remove all Download Monitor "
+"data when the plugin is deleted."
+msgstr ""
+
+#: src/Admin/Settings/Settings.php:235
+msgid "Clear all transients"
+msgstr ""
+
+#: src/Admin/Settings/Settings.php:236
+msgid ""
+"Remove all Download Monitor transients, this can solve version caching "
+"issues."
+msgstr ""
+
+#: src/Admin/Settings/Settings.php:272
+msgid "Select Page"
+msgstr ""
+
+#: src/Admin/WritePanels.php:32
+msgid "Download Information"
+msgstr ""
+
+#: src/Admin/WritePanels.php:38
+msgid "Download Options"
+msgstr "下载选项"
+
+#: src/Admin/WritePanels.php:44
+msgid "Downloadable Files/Versions"
+msgstr "可供下载的 文件/版本"
+
+#: src/Admin/WritePanels.php:52
+msgid "Short Description"
+msgstr "简洁描述"
+
+#: src/Admin/WritePanels.php:84
+msgid "URL"
+msgstr ""
+
+#: src/Admin/WritePanels.php:89
+msgid "Shortcode"
+msgstr ""
+
+#: src/Admin/WritePanels.php:96
+msgid "No download information for new downloads."
+msgstr ""
+
+#: src/Admin/WritePanels.php:127
+msgid "Mark this download as featured. Used by shortcodes and widgets."
+msgstr "标记为特色下载。快捷码和小工具可以使用。"
+
+#: src/Admin/WritePanels.php:133
+msgid ""
+"Only logged in users will be able to access the file via a download link if "
+"this is enabled."
+msgstr "如果启用此选项，仅登录用户可以通过下载链接访问文件。"
+
+#: src/Admin/WritePanels.php:139
+msgid ""
+"Don't force download. If the <code>dlm_uploads</code> folder is protected "
+"you may need to move your file."
+msgstr ""
+
+#: src/Admin/WritePanels.php:175
+msgid "Add file"
+msgstr "添加文件"
+
+#: src/Admin/WritePanels.php:176
+msgid "Close all"
+msgstr "关闭所有 "
+
+#: src/Admin/WritePanels.php:177
+msgid "Expand all"
+msgstr "展开所有"
+
+#: src/DLM.php:226
+msgid "Documentation"
+msgstr ""
+
+#: src/DownloadHandler.php:309
+msgid "Password Required"
+msgstr "需要密码"
+
+#: src/DownloadHandler.php:315
+msgid "Download does not exist."
+msgstr "下载不存在"
+
+#: src/DownloadHandler.php:315 src/DownloadHandler.php:392
+#: src/DownloadHandler.php:400 src/DownloadHandler.php:549
+msgid "Go to homepage &rarr;"
+msgstr "转向主页 &rarr;"
+
+#: src/DownloadHandler.php:315 src/DownloadHandler.php:392
+#: src/DownloadHandler.php:400 src/DownloadHandler.php:436
+#: src/DownloadHandler.php:549
+msgid "Download Error"
+msgstr "下载错误"
+
+#: src/DownloadHandler.php:392 src/DownloadHandler.php:400
+msgid "No file paths defined."
+msgstr "没有定义文件路径"
+
+#: src/DownloadHandler.php:472 src/DownloadHandler.php:489
+#: src/DownloadHandler.php:496 src/DownloadHandler.php:503
+msgid "Redirected to file"
+msgstr "重定向到文件"
+
+#: src/DownloadHandler.php:542
+msgid "Redirected to remote file."
+msgstr "重定向到远程文件"
+
+#: src/DownloadHandler.php:547 src/DownloadHandler.php:549
+msgid "File not found."
+msgstr "文件没有找到"
+
+#: src/Installer.php:172 src/Installer.php:181
+msgid "No Access"
+msgstr ""
+
+#: src/LegacyUpgrader/Page.php:17
+msgid "Legacy Upgrader"
+msgstr ""
+
+#: src/LegacyUpgrader/Page.php:29
+msgid "Download Monitor - Legacy Upgrade"
+msgstr ""
+
+#: src/LegacyUpgrader/Page.php:30
+msgid ""
+"Welcome to the Download Monitor Legacy Upgrader. On this page we will "
+"upgrade your old Download Monitor (legacy) data so it will work with the "
+"latest version. If you're on this page, it should mean that you updated to "
+"this version from Download Monitor %s. If you're unsure if this is correct, "
+"or you want to read more about the legacy upgrade, we've setup a page that "
+"will explain this process in a lot more detail. %sClick here%s if to view "
+"that page."
+msgstr ""
+
+#: src/Logs/LogExportCSV.php:69
+msgid "Version ID"
+msgstr "版本ID"
+
+#: src/Logs/LogExportCSV.php:70
+msgid "Filename"
+msgstr "文件名"
+
+#: src/Logs/LogExportCSV.php:71
+msgid "User ID"
+msgstr "用户ID"
+
+#: src/Logs/LogExportCSV.php:72
+msgid "User Login"
+msgstr "用户登录名"
+
+#: src/Logs/LogExportCSV.php:73
+msgid "User Email"
+msgstr "用户Email"
+
+#: src/Logs/LogExportCSV.php:74
+msgid "User IP"
+msgstr "用户IP"
+
+#: src/Logs/LogExportCSV.php:75 src/Logs/LoggingListTable.php:199
+msgid "User Agent"
+msgstr "浏览器User-Agent"
+
+#: src/Logs/LogExportCSV.php:76 src/Logs/LoggingListTable.php:200
+msgid "Date"
+msgstr "日期"
+
+#: src/Logs/LogExportCSV.php:77
+msgid "Status"
+msgstr "状态"
+
+#: src/Logs/LogExportCSV.php:78
+msgid "Meta Data"
+msgstr ""
+
+#: src/Logs/LogPage.php:23
+msgid "Logs"
+msgstr "日志"
+
+#: src/Logs/LogPage.php:80
+msgid "Download Logs"
+msgstr "下载日志"
+
+#: src/Logs/LogPage.php:82
+msgid "Export CSV"
+msgstr "导出为CSV"
+
+#: src/Logs/LogPage.php:83
+msgid "Are you sure you want to delete ALL log items?"
+msgstr ""
+
+#: src/Logs/LogPage.php:84
+msgid "Delete Logs"
+msgstr "删除日志"
+
+#: src/Logs/LoggingListTable.php:67
+msgid "Delete"
+msgstr ""
+
+#: src/Logs/LoggingListTable.php:94
+msgid "Download Complete"
+msgstr "下载完成"
+
+#: src/Logs/LoggingListTable.php:102
+msgid "%s ago"
+msgstr "%s 前"
+
+#: src/Logs/LoggingListTable.php:123
+msgid " (v%s)"
+msgstr ""
+
+#: src/Logs/LoggingListTable.php:125
+msgid " (v%s no longer exists)"
+msgstr ""
+
+#: src/Logs/LoggingListTable.php:129
+msgid "Download #%d (no longer exists)"
+msgstr "下载 #%d (已经不存在)"
+
+#: src/Logs/LoggingListTable.php:163
+msgid "Non-member"
+msgstr "非会员"
+
+#: src/Logs/LoggingListTable.php:197
+msgid "User"
+msgstr "用户"
+
+#: src/Logs/LoggingListTable.php:198
+msgid "IP Address"
+msgstr "IP地址"
+
+#: src/Logs/LoggingListTable.php:236
+msgid "Log entries deleted"
+msgstr ""
+
+#: src/Logs/LoggingListTable.php:253
+msgid "Any status"
+msgstr "任何状态"
+
+#: src/Logs/LoggingListTable.php:255
+msgid "Failed"
+msgstr "失败"
+
+#: src/Logs/LoggingListTable.php:257
+msgid "Redirected"
+msgstr "已重定向"
+
+#: src/Logs/LoggingListTable.php:259
+msgid "Completed"
+msgstr "已经完成"
+
+#: src/Logs/LoggingListTable.php:277
+msgid "Show all dates"
+msgstr "显示所有日期"
+
+#: src/Logs/LoggingListTable.php:291
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: src/Logs/LoggingListTable.php:298
+msgid "Select a User"
+msgstr ""
+
+#: src/Logs/LoggingListTable.php:317
+msgid "25 per page"
+msgstr "每页25条"
+
+#: src/Logs/LoggingListTable.php:319
+msgid "50 per page"
+msgstr "每页50条"
+
+#: src/Logs/LoggingListTable.php:321
+msgid "100 per page"
+msgstr "每页100条"
+
+#: src/Logs/LoggingListTable.php:323
+msgid "200 per page"
+msgstr "每页200条"
+
+#: src/Logs/LoggingListTable.php:325
+msgid "Show All"
+msgstr "显示所有"
+
+#: src/Logs/LoggingListTable.php:329
+msgid "Filter"
+msgstr "过滤"
+
+#: src/PostTypeManager.php:21
+msgid "All Downloads"
+msgstr "所有下载"
+
+#: src/PostTypeManager.php:22
+msgid "Downloads"
+msgstr "下载"
+
+#: src/PostTypeManager.php:24
+msgid "Add New"
+msgstr "新添加"
+
+#: src/PostTypeManager.php:25
+msgid "Add Download"
+msgstr "添加下载"
+
+#: src/PostTypeManager.php:26
+msgid "Edit"
+msgstr "编辑"
+
+#: src/PostTypeManager.php:27
+msgid "Edit Download"
+msgstr "编辑下载"
+
+#: src/PostTypeManager.php:28
+msgid "New Download"
+msgstr "新建下载"
+
+#: src/PostTypeManager.php:29 src/PostTypeManager.php:30
+msgid "View Download"
+msgstr "浏览下载"
+
+#: src/PostTypeManager.php:31
+msgid "Search Downloads"
+msgstr "查找下载"
+
+#: src/PostTypeManager.php:32
+msgid "No Downloads found"
+msgstr "没有找到下载"
+
+#: src/PostTypeManager.php:33
+msgid "No Downloads found in trash"
+msgstr "在垃圾篓没有找到下载"
+
+#: src/PostTypeManager.php:34
+msgid "Parent Download"
+msgstr "父下载"
+
+#: src/PostTypeManager.php:36
+msgid "This is where you can create and manage downloads for your site."
+msgstr "在这儿您可以为您的站点创建和管理下载"
+
+#: src/Product/Product.php:188
+msgid "License successfully activated."
+msgstr ""
+
+#: src/Product/Product.php:430
+msgid ""
+"<a href=\"%s\">Register your copy</a> of the <strong>%s</strong> extension "
+"to receive access to automatic upgrades and support. Need a license key? <a "
+"href=\"%s\" target=\"_blank\">Purchase one now</a>."
+msgstr ""
+
+#: src/Shortcodes.php:141 src/Shortcodes.php:260
+msgid "Download not found"
+msgstr "下载没有找到"
+
+#: src/TaxonomyManager.php:29
+msgid "Download Categories"
+msgstr ""
+
+#: src/TaxonomyManager.php:31
+msgid "Download Category"
+msgstr "下载分类"
+
+#: src/TaxonomyManager.php:32
+msgid "Search Download Categories"
+msgstr "查找下载分类"
+
+#: src/TaxonomyManager.php:33
+msgid "All Download Categories"
+msgstr "所有下载分类"
+
+#: src/TaxonomyManager.php:34 src/TaxonomyManager.php:35
+msgid "Parent Download Category"
+msgstr "父下载分类"
+
+#: src/TaxonomyManager.php:36
+msgid "Edit Download Category"
+msgstr "编辑下载分类"
+
+#: src/TaxonomyManager.php:37
+msgid "Update Download Category"
+msgstr "更新下载分类"
+
+#: src/TaxonomyManager.php:38
+msgid "Add New Download Category"
+msgstr "添加新下载分类"
+
+#: src/TaxonomyManager.php:39
+msgid "New Download Category Name"
+msgstr "新下载分类名称"
+
+#: src/TaxonomyManager.php:61
+msgid "Download Tags"
+msgstr ""
+
+#: src/TaxonomyManager.php:63
+msgid "Download Tag"
+msgstr "下载标签"
+
+#: src/TaxonomyManager.php:64
+msgid "Search Download Tags"
+msgstr "查找下载标签"
+
+#: src/TaxonomyManager.php:65
+msgid "All Download Tags"
+msgstr "所有下载标签"
+
+#: src/TaxonomyManager.php:66 src/TaxonomyManager.php:67
+msgid "Parent Download Tag"
+msgstr "父下载标签"
+
+#: src/TaxonomyManager.php:68
+msgid "Edit Download Tag"
+msgstr "编辑下载标签"
+
+#: src/TaxonomyManager.php:69
+msgid "Update Download Tag"
+msgstr "更新下载标签"
+
+#: src/TaxonomyManager.php:70
+msgid "Add New Download Tag"
+msgstr "添加新下载标签"
+
+#: src/TaxonomyManager.php:71
+msgid "New Download Tag Name"
+msgstr "新下载标签名称"
+
+#: src/Widgets/class-dlm-widget-downloads.php:28
+msgid "Display a list of your downloads."
+msgstr "显示您的下载列表"
+
+#: src/Widgets/class-dlm-widget-downloads.php:30
+msgid "Downloads List"
+msgstr "下载列表"
+
+#: src/Widgets/class-dlm-widget-downloads.php:55
+#: src/Widgets/class-dlm-widget-downloads.php:159
+msgid "Featured Downloads"
+msgstr "特色下载"
+
+#: src/Widgets/class-dlm-widget-downloads.php:176
+msgid "Limit"
+msgstr ""
+
+#: src/Widgets/class-dlm-widget-downloads.php:183
+msgid "Output template"
+msgstr ""
+
+#: src/Widgets/class-dlm-widget-downloads.php:187
+msgid "Default template"
+msgstr "默认模板"
+
+#: src/Widgets/class-dlm-widget-downloads.php:191
+msgid "Order by"
+msgstr ""
+
+#: src/Widgets/class-dlm-widget-downloads.php:197
+msgid "Random"
+msgstr "随机"
+
+#: src/Widgets/class-dlm-widget-downloads.php:201
+msgid "Date added"
+msgstr "添加日期"
+
+#: src/Widgets/class-dlm-widget-downloads.php:203
+msgid "Date modified"
+msgstr "修改日期"
+
+#: src/Widgets/class-dlm-widget-downloads.php:210
+msgid "Order"
+msgstr ""
+
+#: src/Widgets/class-dlm-widget-downloads.php:214
+msgid "ASC"
+msgstr "升序"
+
+#: src/Widgets/class-dlm-widget-downloads.php:216
+msgid "DESC"
+msgstr "降序"
+
+#: src/Widgets/class-dlm-widget-downloads.php:224
+msgid "Show only featured downloads"
+msgstr "仅显示特色下载"
+
+#: src/Widgets/class-dlm-widget-downloads.php:231
+msgid "Show only members only downloads"
+msgstr "仅显示会员下载"
+
+#: templates/content-download-box.php:18
+#: templates/content-download-filename.php:17
+#: templates/content-download.php:16
+msgid "1 download"
+msgid_plural "%d downloads"
+msgstr[0] "下载%d"
+
+#: templates/content-download-box.php:27
+#: templates/content-download-filename.php:14
+#: templates/content-download-title.php:13 templates/content-download.php:13
+msgid "Version %s"
+msgstr "版本 %s"
+
+#: templates/content-download-box.php:29
+msgid "Download File"
+msgstr "下载文件"
+
+#: templates/content-download-button.php:13
+msgid "Download &ldquo;%s&rdquo;"
+msgstr "下载 &ldquo;%s&rdquo;"
+
+#: templates/content-download-button.php:14
+#: templates/content-download-version-list.php:21
+msgid "Downloaded 1 time"
+msgid_plural "Downloaded %d times"
+msgstr[0] "已下载%s次"
+
+#. Plugin Name of the plugin/theme
+msgid "Download Monitor"
+msgstr "Download Monitor"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.download-monitor.com"
+msgstr "http://www.download-monitor.com"
+
+#. Description of the plugin/theme
+msgid ""
+"A full solution for managing downloadable files, monitoring downloads and "
+"outputting download links and file information on your WordPress powered "
+"site."
+msgstr "这是一个在你的WordPress站点管理下载文件，监控下载以及输出下载链接和文件信息的全方位解决方案。"
+
+#. Author of the plugin/theme
+msgid "Never5"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.never5.com"
+msgstr ""
+
+#: src/Admin/MediaInsert.php:217
+msgctxt "Drop file here *or* select file"
+msgid "or"
+msgstr "或"

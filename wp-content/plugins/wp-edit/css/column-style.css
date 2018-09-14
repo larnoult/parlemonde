@@ -1,0 +1,36 @@
+/* ------- Fluid Columns ------- */
+.jwl_one_half{width:48%;}
+.jwl_one_third{width:30.66%;}
+.jwl_two_third{width:65.33%;}
+.jwl_one_fourth{width:22%;}
+.jwl_three_fourth{width:74%;}
+.jwl_one_fifth{width:16.8%;}
+.jwl_two_fifth{width:37.6%;}
+.jwl_three_fifth{width:58.4%;}
+.jwl_four_fifth{width:67.2%;}
+.jwl_one_sixth{width:13.33%;}
+.jwl_five_sixth{width:82.67%;}
+
+.jwl_one_half, .jwl_one_third, .jwl_two_third, .jwl_three_fourth, .jwl_one_fourth, .jwl_one_fifth, .jwl_two_fifth,
+.jwl_three_fifth, .jwl_four_fifth, .jwl_one_sixth, .jwl_five_sixth {
+	position:relative;
+	margin-right:4%; 
+	float:left; 
+}
+
+.last{ margin-right:0 !important; clear:right; }
+.clearboth {clear:both;display:block;font-size:0;height:0;line-height:0;width:100%;}
+
+/* ------- Added for Right to Left language support ------- */
+.rtl .jwl_one_half, .rtl .jwl_one_third, .rtl .jwl_two_third, .rtl .jwl_three_fourth, .rtl .jwl_one_fourth,
+.rtl .jwl_one_fifth, .rtl .jwl_two_fifth, .rtl .jwl_three_fifth, .rtl .jwl_four_fifth, .rtl .jwl_one_sixth, .rtl .jwl_five_sixth {
+	float: right;
+	margin-right: inherit;
+	margin-left: 4%;
+}
+
+.rtl .last {
+	clear: left;
+	margin-left: 0 !important;
+	margin-right: inherit;
+}

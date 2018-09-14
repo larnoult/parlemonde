@@ -1,0 +1,180 @@
+/* Main column width */
+body.gutenberg-editor-page .editor-post-title__block,
+body.gutenberg-editor-page .editor-default-block-appender,
+body.gutenberg-editor-page .editor-block-list__block {
+    max-width: 800px;
+}
+
+/* Width of "wide" blocks */
+body.gutenberg-editor-page .editor-block-list__block[data-align="wide"] {
+    max-width: 1400px;
+}
+@media (min-width: 1100px) {
+	body.gutenberg-editor-page .editor-block-list__block[data-align="wide"] {
+	    width: 92%;
+	}
+}
+@media (min-width: 1550px) {
+	body.gutenberg-editor-page .editor-block-list__block[data-align="wide"] {
+	    width: 84%;
+	}
+}
+@media (min-width: 1900px) {
+	body.gutenberg-editor-page .editor-block-list__block[data-align="wide"] {
+	    width: 72%;
+	}
+}
+
+/* Width of "full-wide" blocks */
+body.gutenberg-editor-page .editor-block-list__block[data-align="full"] {
+    max-width: none;
+}
+.editor-rich-text__tinymce.mce-content-body {
+	line-height: 1.6;
+}
+body.gutenberg-editor-page {
+	p.has-drop-cap:not(:focus):first-letter {
+		font-weight: inherit;
+	}
+	.wp-block-separator:not(.is-style-dots) {
+	    border-bottom: 2px solid #eee;
+	}
+	.wp-block-separator.is-style-dots:before {
+		content: "\00b7 \00b7 \00b7";
+		color: #32373c;
+		font-size: 30px;
+		letter-spacing: 2em;
+		padding-left: 2em;
+		font-family: serif;
+	}
+	// Auto
+	figure.wp-block-audio {
+		margin: 1.6em auto;
+		min-width: 240px;
+	}
+	// BlockQuote
+	.wp-block-quote:not(.is-large):not(.is-style-large) {
+		border-color: #aaa;
+	}
+	.wp-block-quote.is-large, .wp-block-quote.is-style-large {
+		margin-bottom: 24px;
+		border: 0;
+		p {
+		    font-size: 24px;
+		    font-style: italic;
+		    line-height: 1.6;
+		    font-weight: 300;
+		}
+	}
+	.wp-block-quote cite {
+	    display: block;
+	    font-size: 90%;
+	    margin-top: 16px;
+	}
+	// Lists
+	.core-blocks-list .editor-rich-text__tinymce {
+	    padding-left: 20px;
+	    margin-left: 0;
+		li {
+		    margin-bottom: 5px;
+		}
+	}
+	.wp-block-preformatted pre {
+	    padding: 10px;
+	    margin: 0;
+	    font-size: 13px;
+	    line-height: 20px;
+	    word-break: break-all;
+	    word-wrap: break-word;
+	    color: #444;
+	    background-color: #f5f5f5;
+	    border: 1px solid #ccc;
+	    border-radius: 6px;
+	}
+	.wp-block-verse pre {
+	    border: 0;
+	    margin: 1.65em 0;
+	    padding: 20px;
+	    background-color: #f5f5f5;
+	    font-family: inherit;
+	    font-size: inherit;
+	    border-radius: 6px;
+	    line-height: inherit;
+	}
+	// Table
+	.wp-block-table {
+		table {
+		    border-collapse: collapse;
+		    border-spacing: 0;
+		    td, th {
+		    	padding: 10px;
+		    	border:0;
+		    }
+		    tr:nth-child(even) {
+				background: rgba(0,0,0,0.03);
+			}
+			thead {
+				background: rgba(0,0,0,0.06);
+			}
+			p {
+				margin-bottom: 0;
+			}
+		}
+	}
+	// Pullquote
+	.wp-block-pullquote {
+		padding: 24px 45px 24px 45px;
+		border: 0;
+		p {
+			font-size: 24px;
+			line-height: 1.6;
+			font-weight: inherit;
+		}
+		cite, footer {
+			margin-top: 16px;
+			display: block;
+			font-size: 90%;
+		}
+		&:before {
+			line-height: 1;
+			font-family: dashicons;
+			text-decoration: inherit;
+			font-weight: 400;
+			font-style: normal;
+			vertical-align: top;
+			text-align: center;
+			transition: color .1s ease-in;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			color: #aaa;
+			content: "\f122";
+			position: absolute;
+			left: 15px;
+			font-size: 18px;
+			top:15px;
+		}
+		&:after {
+			line-height: 1;
+			font-family: dashicons;
+			text-decoration: inherit;
+			font-weight: 400;
+			font-style: normal;
+			vertical-align: top;
+			text-align: center;
+			transition: color .1s ease-in;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			color: #aaa;
+			content: "\f122";
+			  -webkit-transform: rotate(180deg);     /* Chrome and other webkit browsers */
+			-moz-transform: rotate(180deg);        /* FF */
+			-o-transform: rotate(180deg);          /* Opera */
+			-ms-transform: rotate(180deg);         /* IE9 */
+			transform: rotate(180deg); 
+			position: absolute;
+			right: 15px;
+			font-size: 18px;
+			bottom:15px;
+		}
+	}
+}

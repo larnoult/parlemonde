@@ -1,0 +1,180 @@
+.postbox .inside { margin-right: 6px !important; }
+/** reserve Objects Panel space */
+.cjcodeblock {margin-right:310px;}
+
+/*  Pages Panel */
+.cjpageblock {width: 315px; height: 100%; position: absolute; right: 3px;}
+
+.cjpageblock .ui-tabs-panel {color: #7c7c7c !important;}
+
+.pagelist {
+	padding:10px;
+	height: 278px; 
+	overflow:auto;
+	border:1px solid #bbb; 
+	margin-bottom: 0px;
+	margin-top: 8px;
+}
+/* Wrap long text */
+input[type="checkbox"].select-childs {
+	position: relative;
+	left: -1px;
+	top: -1px;
+	margin-left: -12px !important;
+	margin-right: 1px !important;
+	margin-top: 0px !important;
+	display: none;
+}
+.select-childs-checkbox-overlay {
+	background-color: #bb5300;
+	position: relative;
+	width: 16px;
+	height: 16px;
+	display: none;
+	opacity: 0.3;
+	filter: alpha(opacity = 30);
+	top: 4px;
+	z-index: 1;
+	left: 3px;
+}
+.select-childs-checkbox-overlay:hover {opacity: 0.5; filter: alpha(opacity = 50);}
+
+.pagelist input[type=checkbox] {background-color: transparent;}
+.pagelist>li>span {width: 203px;overflow: hidden; display: inline-block; height: 21px; vertical-align: middle;}
+.pagelist li span>a {margin-left: 4px;}
+.pagelist li { line-height:19px; word-wrap:break-word; margin:0; padding:0; }
+.pagelist li .sub-list {font-weight: bold; font-size: 13px;text-decoration: underline;}
+.list-error {font-size: 12px;text-align: center;margin-top: 41px;text-decoration: underline;}
+.list-error .message{font-weight: bold;}
+.pagelist ul { margin-left:15px; }
+a.l_ext { position: relative; top: 3px; background:url(../images/pages-panel/external_link.png) no-repeat; width:18px; height:13px; display:inline-block; }
+/** Fullscreen mode */
+.postbox.fullscreen .cjpageblock {z-index: 31; right: 10px;}
+
+.listing-options {top: -28px; left: 1px; position: relative;}
+
+.info-panel {
+	display: none;
+	margin-top: 3px;
+	margin-right: 2px;
+	text-align: right;
+	height: 26px;
+	margin-left: 88px;
+}
+.info-panel .optional-actions {display: inline-block; height: 100%;}
+.info-panel .counter {font-size: 14px; float: right;}
+.info-panel .counter .info-panel-loaded-count {color: #A5581B;}
+.info-panel .optional-actions .pagination-list {
+	background-image: url('../images/pages-panel/pagination.png');
+	width: 16px;
+	height: 16px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	position: absolute;
+	margin-top: 3px;
+	margin-left: -27px;
+}
+.info-panel .optional-actions .pagination-options-list {
+	display: none;
+	z-index: 1;
+	width: 61px;
+	height: 198px !important;
+	position: absolute;
+	color: #A5581B;
+	font-size: 13px;
+	margin-left: -88px;
+	margin-top: -182px;
+}
+
+/**
+* jQuery Accordions
+*/
+a.acc-header, .custom-posts-container a.custom-post-item-header {display: block;}
+a.acc-header,
+a.acc-header:hover,
+a.acc-header:visited,
+.custom-posts-container a.custom-post-item-header,
+.custom-posts-container a.custom-post-item-header:hover,
+.custom-posts-container a.custom-post-item-header:visited {
+	text-decoration: none;
+	font-family: Helvetica;
+	color: #A5581B;
+	font-weight: bold;
+}
+a.acc-header.ui-accordion-header-active {color: #652200 !important;}
+
+/**
+* Custom Posts jQuery Accordion
+*/
+.custom-posts-container {
+	border: 1px solid #bbb;
+	margin-top: 9px;
+	height: 286px;
+	padding: 6px;
+	overflow: auto;
+}
+.custom-posts-container .custom-post-list {display: none; padding-bottom: 8px;}
+.custom-posts-container .ui-accordion-content {height: 258px;}
+.custom-posts-container .pagelist {height: 191px; margin-top: 2px; margin-left: 5px; border: none; padding-top: 0px;}
+.custom-posts-container a.custom-post-item-header {
+	text-decoration: underline;
+	margin-bottom: 2px;
+	padding-left: 5px;
+}
+/**
+* Advanced Tab jQuery Accordion
+*/
+.advanced-accordion {border: 1px solid #ccc; height: 298px;}
+.advanced-accordion .ui-accordion-content {height: 230px; padding: 0px !important; background: none !important; border: none !important}}
+.advanced-accordion .ui-accordion-header-active {color: #a5581b !important;}
+.advanced-accordion textarea {
+	height: 210px;
+	width: 300px;
+	max-width: 300px;
+	margin-top: 4px;
+	overflow: auto;
+	white-space: nowrap;
+	text-decoration: underline;
+	margin-left: 7px;
+	background-color: transparent;
+	color: #7c7c7c;
+}
+.advanced-accordion a.acc-header {padding: 7px 4px; background: none !important; border: none !important}
+
+.advanced-accordion a.acc-header {color: #a5581b !important;}
+
+.advanced-accordion a.acc-header:hover {color:  #c8671b !important;}
+
+.ui-accordion .ui-accordion-header .ui-icon {background: none !important;}
+
+/*
+ * jQuery UI Tabs 1.8.16
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Tabs#theming
+ */
+
+.cjpageblock .ui-tabs .ui-tabs-nav li.ui-tabs-active a {color: #a5581b !important; border-color: #a5581b;}
+
+.cjpageblock .ui-tabs .ui-tabs-nav li.ui-tabs-active a.prog-colored {color: transparent !important;}
+
+.cjpageblock .ui-tabs { background: none !important; border: none !important; padding: 0px !important; position: relative; zoom: 1; height: 100%; } /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+
+.ui-helper-clearfix:after {content: initial !important;}
+
+.cjpageblock .ui-tabs .ui-tabs-nav { background: none !important; border: none !important; padding: 0px !important; max-width: 315px; max-height: 80px; margin: 11px 0 0 0;}
+
+.cjpageblock .ui-tabs .ui-tabs-nav li { border: none !important; position: static !important; float: none !important; list-style: none; top: 1px; margin: 0 .2em 1px 0; padding: 0; white-space: nowrap; }
+
+/*-moz-border-radius:3px 3px 0 0;-webkit-border-top-right-radius:3px;-webkit-border-top-left-radius:3px;-khtml-border-top-right-radius:3px;-khtml-border-top-left-radius:3px;border-top-right-radius:3px;border-top-left-radius:3px;*/
+.cjpageblock .ui-tabs .ui-tabs-nav li a {font-family: "Open Sans",sans-serif; height:18px;margin:1px 1px 0 0;float:right;cursor:pointer;border: 1px solid #bbb;border-bottom: 0 !important;  font-size: 12px; float: left; padding: 8px; text-decoration: none;}
+.cjpageblock .ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+
+.cjpageblock .ui-tabs .ui-tabs-nav li.ui-tabs-selected { margin-bottom: 0; padding-bottom: 1px; }
+.cjpageblock .ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; background:#E9E9E9; border-color:#CCCCCC #CCCCCC #E9E9E9; color:#333333; }
+
+.cjpageblock .ui-tabs .ui-tabs-panel {height: 330px; display: block; clear:both; padding: 0px !important;}
+.cjpageblock .ui-tabs .ui-tabs-hide { display: none !important; }

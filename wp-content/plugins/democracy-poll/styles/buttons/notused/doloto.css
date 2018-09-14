@@ -1,0 +1,29 @@
+/* button */
+input[type="submit"].dem-button,
+a.dem-button,
+.dem-button{
+    padding:1em 1em;
+  border-radius:100%;
+  background: rgb(28,107,114) radial-gradient(150% 100% at 50% 5px, rgba(255,255,255,.2), rgba(0,0,0,0));
+  box-shadow: inset rgba(0,0,0,.6) 0 -2px 5px, inset rgba(252,255,255,.7) 0 2px 5px, rgba(0,0,0,.8) 0 2px 5px -1px;
+  text-shadow: 0 1px rgba(255,255,255,.2), 0 -1px rgba(0,0,0,.8);
+  color: rgb(0,79,86);
+  user-select: none;
+} 
+
+input[type="submit"].dem-button:hover,
+a.dem-button:hover,
+.dem-button:hover {
+  color: rgb(0,59,66);
+}
+
+input[type="submit"].dem-button:active,
+a.dem-button:active,
+.dem-button:active {
+  box-shadow:
+   inset rgba(0,0,0,1) 0 1px 3px,
+   inset rgba(0,0,0,.6) 0 -2px 5px,
+   inset rgba(252,255,255,.7) 0 2px 5px,
+   0 1px rgba(255,255,255,.08);
+  top:.1em;
+}

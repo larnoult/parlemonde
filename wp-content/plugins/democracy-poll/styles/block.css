@@ -1,0 +1,26 @@
+@import '_preset.css';
+
+/* block theme -------------------------------------------------------------- */
+.democracy{ 
+	border-color:#ccc; border: 1px solid rgba(0,0,0,.1); background-color:#eee; background-color:rgba(0,0,0,.1);
+	background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,.05), transparent);background-image: linear-gradient(to top, rgba(0,0,0,.05), transparent);
+	padding:1em; padding-bottom:.5em; margin-bottom:1em;
+}
+
+.dem-poll-title{ margin:0; font-size:115%; margin:-.9em; margin-bottom:1em; text-align: center; padding:1em; border-bottom: 1px solid rgba(0,0,0,.1); }
+
+.dem-percent-txt,
+.dem-label-percent-txt{ display: none; }
+
+.dem-votes-txt-percent:before{ content:'- '; display:inline; }
+
+.dem-revote-button:before{ content:'◂ '; }
+
+.dem-graph{ background-color: rgba(255,255,255,.8); }
+
+.dem-results-link{ margin-bottom: 0; }
+
+/* / block theme -------------------------------------------------------------- */
+
+
+

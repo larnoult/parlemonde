@@ -1,0 +1,365 @@
+// Nav
+
+//logo center
+.col-md-12 > #nav-main .sf-menu li {
+	display: inline-block;
+	float: none;
+}
+.col-md-12 > #nav-main ul.sf-menu {
+float: none;
+text-align: center;
+}
+#nav-main{
+position: relative;
+z-index: 699;
+}
+   #nav-main select{display:none;}
+	#nav-main .mobilenav-button {display: none;}
+   #nav-main ul.sf-menu {float: right;}
+   #nav-second ul.sf-menu {float: left; margin:0; padding:0; width: 100%}
+   #nav-second ul.sf-menu > a {text-transform: uppercase;}
+   #nav-second ul.sf-menu li {
+   	background: transparent;
+   	transition: background .3s ease-out;
+	-webkit-transition: background .3s ease-out;
+	-moz-transition: background .3s ease-out;
+	-o-transition: background .3s ease-out;
+}
+   #nav-second ul.sf-menu > li:hover, #nav-second ul.sf-menu > li.active {
+   	background: #e2e2e2;
+   	background: rgba(0,0,0,0.02);
+   }
+
+   #nav-second ul.sf-menu > li {
+   	width: 16.5%;
+   }
+   #nav-second ul.sf-menu > li > a {
+   	width: 100%;
+   	padding: 10px 0;
+   }
+
+.sf-menu a { /* visited pseudo selector so IE6 applies text colour*/
+	color:#444;
+    text-align:center;
+    font-weight: 400;
+    display: block;
+	position: relative;
+	text-decoration:none;
+    padding:10px 20px;
+    transition: all .3s ease-out;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+} 
+	.sf-menu li a i {
+		font-size: 28px;
+		display: block;
+		}
+   .sf-menu li a .sf-description{
+    	font-size:10px;
+		text-transform:none;
+		display:block;
+		line-height:normal;
+		margin-top:0px; 
+		}
+.sf-menu, .sf-menu * {
+	list-style:		none;
+}
+.sf-menu {
+	line-height:	1.0;
+	margin: 0;
+	padding: 0;
+}
+.sf-menu ul {
+	position:		absolute;
+	top:			-999em;
+	width:auto; /* left offset of submenus need to match (see below) */
+	z-index: 599;
+	display: none;
+	top: 100%;
+	left: 0;
+	background: #fff;
+	border-bottom: 0;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	border-left: 1px solid #f2f2f2;
+	border-right: 1px solid #f2f2f2;
+	border-top: 1px solid #f2f2f2;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.1);
+	box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.1);
+}
+#nav-main .sf-menu > li:last-child > ul, #nav-second .sf-menu > li:last-child > ul{
+	left: auto;
+	right: 0;
+}
+.sf-menu ul ul {
+	margin-top: -1px; 
+	}
+.sf-menu ul li {
+	width:			100%;
+	padding: 0;
+	text-align: left;
+	font-size: 12px;
+	border-bottom: 1px solid #f2f2f2;
+}
+.sf-menu ul li i {
+	font-size: 12px;
+	display: inline-block;
+	padding-right: 5px;
+}
+.sf-menu ul li:hover {border-bottom-color:#e3e3e3; }
+ #nav-main ul.sf-menu ul li a, #nav-second ul.sf-menu ul li a {
+	width:auto;
+	display: block;
+	padding: 10px;
+	color: #555555;
+	text-align: left;
+	font-size: 12px;
+}
+.sf-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+	float:			left;
+	position:		relative;
+	background:		none;
+    border-bottom:0;
+    padding:0;
+    line-height:normal;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			0;
+	top:			100%; /* match top ul list item height */
+    width: 			200px;
+	z-index:		599;
+	display: block;
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left:			100%; /* match ul width */
+	top:			0;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	left:			100%; /* match ul width */
+	top:			0;
+}
+
+.sf-menu li:hover, .sf-menu li.sfHover, .sf-menu .dropdown .active:hover {
+	background-color:transparent;
+}
+
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+    outline:    	0;
+}
+
+/*** arrows **/
+.sf-menu a.sf-with-ul {
+	min-width:		1px; /* trigger IE7 hasLayout so spans position accurately */
+}
+ 
+.sf-sub-indicator {
+	position:		absolute;
+	display:		none;
+	width:			10px;
+	height:			10px;
+	padding: 0;
+	text-indent: 	-999em;
+	overflow:		hidden;
+}
+#nav-second a > .sf-sub-indicator { 
+	top: 60%;
+	right: 6px;
+	background-position: 0 -100px; 
+}
+#nav-main a > .sf-sub-indicator { 
+	top: 60%;
+	right: 2px;
+	background-position: 0 -100px; 
+}
+#nav-main .sf-dropdown-submenu a > .sf-sub-indicator, #nav-second .sf-dropdown-submenu a > .sf-sub-indicator{  
+	right: 6px;
+	top: 30%;
+	}
+
+/* apply hovers to modern browsers */
+a:focus > .sf-sub-indicator,
+a:hover > .sf-sub-indicator,
+a:active > .sf-sub-indicator,
+#nav-second .active a > .sf-sub-indicator,
+#nav-second li:hover > a > .sf-sub-indicator,
+#nav-main  .active a > .sf-sub-indicator,
+#nav-main li:hover > a > .sf-sub-indicator,
+li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px -100px; /* arrow hovers for modern browsers*/
+}
+
+/* point right for anchors in subs */
+.sf-menu ul .sf-sub-indicator { background-position:  -10px 0; }
+.sf-menu ul a > .sf-sub-indicator { background-position:  0 0; }
+/* apply hovers to modern browsers */
+.sf-menu ul a:focus > .sf-sub-indicator,
+.sf-menu ul a:hover > .sf-sub-indicator,
+.sf-menu ul a:active > .sf-sub-indicator,
+.sf-menu ul li:hover > a > .sf-sub-indicator,
+.sf-menu ul li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px 0; /* arrow hovers for modern browsers*/
+}
+
+/*** shadows for all but IE6 ***/
+.sf-shadow ul {
+	background:#444;
+        opacity:0.98;
+        -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+        filter:alpha(opacity=90);
+}
+.sf-shadow ul.sf-shadow-off {
+	background: transparent;
+}
+// Mobile Nav
+#mobile-nav-trigger {
+	display: none;
+}
+.kad-nav-inner .kad-mnav, .kad-mobile-nav .kad-nav-inner li a, .nav-trigger-case {
+	color:#444;
+	color:rgba(0,0,0,0.8);
+}
+.nav-trigger-case {
+	width: 30%;
+	position: absolute;
+	top: -50px;
+	right: 0;
+}
+.nav-trigger .nav-trigger-case {
+border: 0;
+padding: 0;
+}
+.nav-trigger-case .kad-navbtn {
+display: block;
+float: right;
+padding: 0 15px;
+margin-left: 0px;
+margin-right: 0px;
+font-size: 20px;
+line-height: 50px;
+-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+}
+.nav-trigger-case .kad-menu-name {
+display: block;
+text-align: left;
+padding: 0 50px 0 15px;
+margin-left: 0;
+margin-right: 0;
+font-size: 20px;
+line-height: 50px;
+-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+}
+.kad-mobile-nav {
+	overflow: visible;
+}
+.kad-mobile-nav .kad-nav-inner li a {
+	float: none;
+	text-decoration: none;
+	display: block;
+	font-size: 16px;
+	padding: 10px 15px;
+	border-bottom: 1px solid;
+	border-bottom-color: #eee;
+	border-bottom-color: rgba(0,0,0,0.02);
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+}
+.kad-mobile-nav .kad-nav-inner li.current-menu-item > a {
+	background: rgba(0,0,0,0.05);
+	}
+.kad-mobile-nav .kad-nav-inner li a:hover{
+	background: rgba(0,0,0,0.05);
+	}
+.kad-mobile-nav .kad-nav-inner li ul.sf-dropdown-menu {
+	list-style:none;
+	margin: 0 0 0 15px;
+	padding: 0;
+}
+.kad-mobile-nav .kad-nav-inner li ul.sf-dropdown-menu a {
+	padding: 10px 15px 10px 15px;
+	list-style: disc;
+    display: list-item;
+    list-style-position: inside;
+}
+.kad-mobile-nav .kad-nav-inner li a .sf-description {
+	font-size: 10px;
+	display: block;
+}
+.nav-trigger {
+	position: relative;
+	  z-index: 10000;
+}
+.kad-nav-inner {
+	
+}
+.kad-nav-collapse {
+	overflow: hidden;
+	height: 0;
+	clear: both;
+}
+.kad-nav-inner .kad-mnav {
+	position: relative;
+	left: 0;
+	display: block;
+	margin: 0;
+	padding: 20px;
+	list-style: none;
+	float: none;
+	margin: 0 0 10px;
+}
+#kad-mobile-nav {
+	display: none;
+	width: 100%;
+}
+.kad-nav-inner .kad-mnav i {padding-right: 10px;}
+.kad-mobile-nav .kad-nav-inner li .kad-submenu-accordion {
+position: absolute;
+right: 0;
+top: 0;
+width: auto;
+text-align: center;
+height: auto;
+padding: 10px 15px;
+}
+.kad-mobile-nav .kad-nav-inner li .kad-submenu-accordion.toggle-active {
+	background: rgba(0,0,0,.07);
+}
+.kad-nav-inner .kad-mnav .kad-submenu-accordion i.icon-chevron-up, .kad-nav-inner .kad-top-mnav .kad-submenu-accordion i.icon-chevron-up {
+display: none;
+}
+.kad-nav-inner .kad-mnav .kad-submenu-accordion.toggle-active i.icon-chevron-down, .kad-nav-inner .kad-top-mnav .kad-submenu-accordion.toggle-active i.icon-chevron-down {
+display: none;
+}
+.kad-nav-inner .kad-mnav .kad-submenu-accordion.toggle-active i.icon-chevron-up, .kad-nav-inner .kad-top-mnav .kad-submenu-accordion.toggle-active i.icon-chevron-up {
+display: block;
+line-height: inherit;
+}
+ .kad-mobile-nav .kad-nav-inner li {
+ 	position: relative;
+ }
+ .kad-nav-inner .kad-mnav .kad-submenu-accordion i {
+padding-right: 0px;
+}
+.kad-nav-collapse.in {
+    height: auto;
+}

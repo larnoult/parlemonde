@@ -1,0 +1,67 @@
+/*---------------------------------------------------------------------------------------------
+*
+*	Flexible Content
+*	
+*---------------------------------------------------------------------------------------------*/
+.fieldmaster-fc-meta {
+  margin: 0 0 10px;
+  padding: 0;
+}
+.fieldmaster-fc-meta li {
+  margin: 0 0 10px;
+  padding: 0;
+}
+.fieldmaster-fc-meta .fieldmaster-fc-meta-key {
+  display: none;
+}
+.fieldmaster-fc-meta .fieldmaster-fc-meta-display,
+.fieldmaster-fc-meta .fieldmaster-fc-meta-min {
+  float: left;
+  width: 33%;
+  padding-right: 10px;
+}
+.fieldmaster-input-wrap.select {
+  border-radius: 0 3px 3px 0 !important;
+  border: #DFDFDF solid 1px;
+}
+.fieldmaster-input-wrap.select select {
+  margin: 0;
+  border: 0 none;
+  padding: 3px;
+  height: 26px;
+}
+.fieldmaster-fc-meta-label .fieldmaster-input-prepend,
+.fieldmaster-fc-meta-name .fieldmaster-input-prepend,
+.fieldmaster-fc-meta-display .fieldmaster-input-prepend {
+  min-width: 45px;
+}
+.fieldmaster-fl-actions {
+  visibility: hidden;
+}
+.fm-field:hover .fieldmaster-fl-actions {
+  visibility: visible;
+}
+.fieldmaster-fl-actions a {
+  display: block;
+  line-height: 20px;
+  padding: 1px 0;
+  font-size: 13px;
+}
+.fieldmaster-fl-actions a.ui-sortable-handle {
+  cursor: move;
+}
+/*---------------------------------------------------------------------------------------------
+*
+*	Clone
+*	
+*---------------------------------------------------------------------------------------------*/
+.fm-field-object-clone {
+  /* group */
+  /* seamless */
+}
+.fm-field-object-clone[data-display="seamless"] .fm-field-setting-instructions,
+.fm-field-object-clone[data-display="seamless"] .fm-field-setting-layout,
+.fm-field-object-clone[data-display="seamless"] .fm-field-setting-wrapper,
+.fm-field-object-clone[data-display="seamless"] .fm-field-setting-conditional_logic {
+  display: none;
+}

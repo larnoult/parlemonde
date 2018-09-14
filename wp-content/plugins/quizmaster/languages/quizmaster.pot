@@ -1,0 +1,679 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR GoldHat Group
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QuizMaster 0.6.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-15 00:38-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: quizmaster.php:84
+msgid ""
+"QuizMaster requires either FieldMaster (Free Fields Plugin, download latest "
+"release at"
+msgstr ""
+
+#: quizmaster.php:86
+msgid "or ACF (Advanced Custom Fields) Pro! Visit "
+msgstr ""
+
+#: quizmaster.php:88
+msgid "to purchase or return to "
+msgstr ""
+
+#: quizmaster.php:90
+msgid "Manage Plugins"
+msgstr ""
+
+#: quizmaster.php:424
+msgid "Quizzes"
+msgstr ""
+
+#: quizmaster.php:425 lib/view/QuizMaster_View_QuestionOverallTable.php:29
+#: lib/view/QuizMaster_View_QuestionOverallTable.php:30
+#: lib/view/QuizMaster_View_QuizOverallTable.php:30
+#: lib/view/QuizMaster_View_QuizOverallTable.php:31
+msgid "Quiz"
+msgstr ""
+
+#: quizmaster.php:426 quizmaster.php:427
+msgid "Add New Quiz"
+msgstr ""
+
+#: quizmaster.php:455 lib/view/QuizMaster_View_QuizOverallTable.php:70
+#: templates/quiz/check.php:9
+msgid "Questions"
+msgstr ""
+
+#: quizmaster.php:456 templates/quiz/question-item.php:18
+msgid "Question"
+msgstr ""
+
+#: quizmaster.php:457 quizmaster.php:458
+msgid "Add New Question"
+msgstr ""
+
+#: quizmaster.php:486
+msgid "Emails"
+msgstr ""
+
+#: quizmaster.php:487
+msgid "Email"
+msgstr ""
+
+#: quizmaster.php:513
+msgid "Scores"
+msgstr ""
+
+#: quizmaster.php:514
+msgid "Score"
+msgstr ""
+
+#: quizmaster.php:546
+msgid "Quiz Category"
+msgstr ""
+
+#: quizmaster.php:555
+msgid "Quiz Tag"
+msgstr ""
+
+#: quizmaster.php:564
+msgid "Question Category"
+msgstr ""
+
+#: quizmaster.php:573
+msgid "Question Tag"
+msgstr ""
+
+#: quizmaster.php:716
+msgid "anonymous"
+msgstr ""
+
+#: lib/controller/QuizMaster_Controller_Admin.php:82
+#: lib/controller/QuizMaster_Controller_Admin.php:83
+#: lib/controller/QuizMaster_Controller_Quiz.php:104
+#: templates/quiz/results-box.php:51
+msgid "Categories"
+msgstr ""
+
+#: lib/controller/QuizMaster_Controller_Admin.php:93
+#: lib/controller/QuizMaster_Controller_Admin.php:94
+msgid "Help"
+msgstr ""
+
+#: lib/controller/QuizMaster_Controller_Front.php:112
+#: lib/view/QuizMaster_View_QuestionOverall.php:362
+#: templates/reports/score-history.php:69 templates/reports/score-modal.php:12
+#: templates/reports/score-tab.php:40 templates/reports/scores.php:80
+msgid "Loading"
+msgstr ""
+
+#: lib/controller/QuizMaster_Controller_Front.php:113
+msgid "You must answer this question."
+msgstr ""
+
+#: lib/controller/QuizMaster_Controller_Front.php:114
+msgid "You must answer all questions before you can completed the quiz."
+msgstr ""
+
+#: lib/controller/QuizMaster_Controller_Front.php:115
+msgid "All fields have to be filled."
+msgstr ""
+
+#: lib/controller/QuizMaster_Controller_Quiz.php:98
+msgid "Not categorized"
+msgstr ""
+
+#: lib/model/QuizMaster_Model_Score.php:185
+#, php-format
+msgid "Score for Quiz #%s taken by anonymous user"
+msgstr ""
+
+#: lib/model/QuizMaster_Model_Score.php:187
+#, php-format
+msgid "Score for Quiz #%1$s taken by User #%2s quizmaster"
+msgstr ""
+
+#: lib/view/QuizMaster_View_FrontQuiz.php:25
+msgid "Start quiz"
+msgstr ""
+
+#: lib/view/QuizMaster_View_FrontQuiz.php:26
+msgid "Restart quiz"
+msgstr ""
+
+#: lib/view/QuizMaster_View_FrontQuiz.php:27
+msgid "Quiz Summary"
+msgstr ""
+
+#: lib/view/QuizMaster_View_FrontQuiz.php:28
+msgid "Finish quiz"
+msgstr ""
+
+#: lib/view/QuizMaster_View_FrontQuiz.php:29
+msgid "Quiz is loading..."
+msgstr ""
+
+#: lib/view/QuizMaster_View_FrontQuiz.php:30
+msgid ""
+"You have already completed the quiz before and only 1 attempt is allowed."
+msgstr ""
+
+#: lib/view/QuizMaster_View_FrontQuiz.php:31
+msgid "You must sign in or sign up to start the quiz."
+msgstr ""
+
+#: lib/view/QuizMaster_View_GlobalHelperTabs.php:32
+#: lib/view/QuizMaster_View_QuizOverall.php:328
+msgid "QuizMaster"
+msgstr ""
+
+#: lib/view/QuizMaster_View_GlobalHelperTabs.php:52
+msgid "Donate"
+msgstr ""
+
+#: lib/view/QuizMaster_View_GlobalHelperTabs.php:63
+msgid "For more information:"
+msgstr ""
+
+#: lib/view/QuizMaster_View_GlobalHelperTabs.php:66
+msgid "Support"
+msgstr ""
+
+#: lib/view/QuizMaster_View_GlobalHelperTabs.php:72
+msgid "Wiki"
+msgstr ""
+
+#: lib/view/QuizMaster_View_InfoAdaptation.php:10
+msgid "QuizMaster Professional Custom Development"
+msgstr ""
+
+#: lib/view/QuizMaster_View_InfoAdaptation.php:12
+msgid ""
+"Do you require development help integrating QuizMaster into your website, or "
+"want to extend QuizMaster with a custom addon?"
+msgstr ""
+
+#: lib/view/QuizMaster_View_InfoAdaptation.php:14
+msgid ""
+"GoldHat Group (goldhat.ca) is the official developer of QuizMaster. We can "
+"provide you with the following services:"
+msgstr ""
+
+#: lib/view/QuizMaster_View_InfoAdaptation.php:16
+msgid "Theme integration and custom theming"
+msgstr ""
+
+#: lib/view/QuizMaster_View_InfoAdaptation.php:17
+msgid "Development of custom addons"
+msgstr ""
+
+#: lib/view/QuizMaster_View_InfoAdaptation.php:18
+msgid "Support for your QuizMaster powered site"
+msgstr ""
+
+#: lib/view/QuizMaster_View_InfoAdaptation.php:21
+msgid "Contact us:"
+msgstr ""
+
+#: lib/view/QuizMaster_View_InfoAdaptation.php:23
+msgid "Contact us via email"
+msgstr ""
+
+#: lib/view/QuizMaster_View_InfoAdaptation.php:25
+msgid ""
+"The more clear your requirements the easier it will be to evaluate time and "
+"cost"
+msgstr ""
+
+#: lib/view/QuizMaster_View_InfoAdaptation.php:27
+msgid ""
+"Our rates vary between $50/hour to $80/hour (USD) based on the type of work "
+"and whether the code produced can be repurposed to make QuizMaster better "
+"for all."
+msgstr ""
+
+#: lib/view/QuizMaster_View_InfoAdaptation.php:31
+msgid ""
+"We strive to reply to your email within 24-hours. If you do not hear a reply "
+"after 2 business days or more it is likely because of a delivery issue, in "
+"that even please try resending or get our attention on GitHub (open an "
+"issue) or visit https://goldhat.ca and open a live chat."
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuestionOverall.php:301
+#, php-format
+msgid "Quiz: %s"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuestionOverall.php:304
+msgid "Add question"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuestionOverall.php:309
+#: lib/view/QuizMaster_View_StyleManager.php:14
+#: templates/reports/scores.php:56
+msgid "back to overview"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuestionOverall.php:314
+msgid "Edit quiz"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuestionOverall.php:315
+msgid "Sort Question"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuestionOverall.php:316
+#: lib/view/QuizMaster_View_QuestionOverall.php:357
+msgid "Copy questions from another Quiz"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuestionOverall.php:340
+#: lib/view/QuizMaster_View_QuizOverall.php:366
+msgid "Search"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuestionOverall.php:358
+msgid ""
+"Here you can copy questions from another quiz into this quiz. (Multiple "
+"selection enabled)"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuestionOverall.php:370
+msgid "Copy questions"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuestionOverall.php:384
+msgid "Set Question Categories"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuestionOverall.php:385
+msgid "Sets multiple question categories"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuestionOverall.php:394
+msgid "You can assign classify category for a question."
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuestionOverall.php:397
+#: lib/view/QuizMaster_View_QuizOverall.php:479
+msgid "You can manage categories in global settings."
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuestionOverall.php:401
+#: lib/view/QuizMaster_View_QuestionOverall.php:411
+#: lib/view/QuizMaster_View_QuizOverall.php:484
+#: lib/view/QuizMaster_View_QuizOverall.php:496
+msgid "Create new category"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuestionOverall.php:402
+#: lib/view/QuizMaster_View_QuizOverall.php:485
+msgid "No category"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuestionOverall.php:413
+#: lib/view/QuizMaster_View_QuizOverall.php:499
+msgid "Create"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuestionOverall.php:420
+#: lib/view/QuizMaster_View_QuestionOverall.php:436
+#: lib/view/QuizMaster_View_QuestionOverall.php:443
+#: lib/view/QuizMaster_View_QuizOverall.php:508
+msgid "Save"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuestionOverallTable.php:18
+#: lib/view/QuizMaster_View_QuizOverallTable.php:18
+msgid "Name"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuestionOverallTable.php:19
+#: lib/view/QuizMaster_View_QuizOverallTable.php:19
+msgid "Category"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuestionOverallTable.php:20
+msgid "Points"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuestionOverallTable.php:43
+#: lib/view/QuizMaster_View_QuizOverallTable.php:44
+msgid "No data available"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuestionOverallTable.php:71
+#: lib/view/QuizMaster_View_QuizOverallTable.php:75
+msgid "Edit"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuestionOverallTable.php:77
+#: lib/view/QuizMaster_View_QuestionOverallTable.php:96
+#: lib/view/QuizMaster_View_QuizOverallTable.php:80
+#: lib/view/QuizMaster_View_QuizOverallTable.php:101
+msgid "Delete"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuestionOverallTable.php:100
+#: lib/view/QuizMaster_View_QuizOverallTable.php:109
+msgid "Set Category"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuestionOverallTable.php:114
+#: lib/view/QuizMaster_View_QuizOverallTable.php:123
+msgid "Filter by category"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuestionOverallTable.php:116
+#: lib/view/QuizMaster_View_QuizOverallTable.php:125
+msgid "All categories"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuestionOverallTable.php:125
+#: lib/view/QuizMaster_View_QuizOverallTable.php:134
+#: templates/reports/score-history.php:6
+#: templates/reports/score-history.php:57 templates/reports/score-tab.php:4
+#: templates/reports/score-tab.php:28
+msgid "Filter"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuizOverall.php:302
+msgid "Quiz overview"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuizOverall.php:304
+#: lib/view/QuizMaster_View_QuizOverall.php:349
+msgid "Add quiz"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuizOverall.php:308
+#: lib/view/QuizMaster_View_QuizOverall.php:353
+#: lib/view/QuizMaster_View_QuizOverall.php:402
+msgid "Import"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuizOverall.php:320
+msgid "You need special QuizMaster modification for your website?"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuizOverall.php:323
+msgid "Learn more"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuizOverall.php:404
+msgid "Import only *.wpq or *.xml files from known and trusted sources."
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuizOverall.php:415
+#, php-format
+msgid "Maximal %d MiB"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuizOverall.php:418
+msgid "Start import"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuizOverall.php:433
+#: lib/view/QuizMaster_View_QuizOverallTable.php:105
+msgid "Export"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuizOverall.php:435
+msgid ""
+"Choose the respective question, which you would like to export and press on "
+"\"Start export\""
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuizOverall.php:441
+msgid "Format:"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuizOverall.php:443
+msgid "*.wpq"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuizOverall.php:444
+msgid "or"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuizOverall.php:445
+msgid "*.xml"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuizOverall.php:448
+msgid "Start export"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuizOverall.php:463
+msgid "Set Quiz Categories"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuizOverall.php:465
+msgid "Sets multiple quiz categories "
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuizOverall.php:475
+msgid "You can assign classify category for a quiz."
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuizOverallTable.php:20
+msgid "Shortcode"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuizOverallTable.php:21
+msgid "Shortcode-Leaderboard"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuizOverallTable.php:84
+msgid "Preview"
+msgstr ""
+
+#: lib/view/QuizMaster_View_QuizOverallTable.php:88
+msgid "Statistics"
+msgstr ""
+
+#: lib/view/QuizMaster_View_StyleManager.php:20
+msgid "Front"
+msgstr ""
+
+#: lib/view/QuizMaster_View_Support.php:21
+msgid "QuizMaster Custom Development"
+msgstr ""
+
+#: lib/view/QuizMaster_View_Support.php:22
+msgid ""
+"Do you require professional development help integrating or extending "
+"QuizMaster?"
+msgstr ""
+
+#: lib/view/QuizMaster_View_Support.php:24
+msgid "Hire QuizMaster Developers"
+msgstr ""
+
+#: templates/question/single.php:1 templates/quiz/question-points.php:5
+#, php-format
+msgid "%d points"
+msgstr ""
+
+#: templates/quiz/button-back.php:1
+msgid "Back"
+msgstr ""
+
+#: templates/quiz/button-check.php:1
+msgid "Check"
+msgstr ""
+
+#: templates/quiz/button-hint.php:1 templates/quiz/question-buttons.php:4
+msgid "Hint"
+msgstr ""
+
+#: templates/quiz/button-next.php:1
+msgid "Next"
+msgstr ""
+
+#: templates/quiz/button-skip.php:1
+msgid "Skip"
+msgstr ""
+
+#: templates/quiz/category.php:3
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: templates/quiz/check.php:6
+#, php-format
+msgid "%s of %s questions completed"
+msgstr ""
+
+#: templates/quiz/check.php:25 templates/quiz/info.php:3
+msgid "Information"
+msgstr ""
+
+#: templates/quiz/question-item.php:13
+#, php-format
+msgid "Question %s of %s"
+msgstr ""
+
+#: templates/quiz/results-box.php:7
+msgid "Quiz Results"
+msgstr ""
+
+#: templates/quiz/results-box.php:10
+#, php-format
+msgid "%s of %s questions answered correctly"
+msgstr ""
+
+#: templates/quiz/results-box.php:16
+msgid "Your time: <span></span>"
+msgstr ""
+
+#: templates/quiz/results-box.php:20
+msgid "Time has elapsed"
+msgstr ""
+
+#: templates/quiz/results-box.php:24
+#, php-format
+msgid "You have reached %s of %s points, (%s)"
+msgstr ""
+
+#: templates/quiz/results-box.php:33
+msgid "Average score"
+msgstr ""
+
+#: templates/quiz/results-box.php:40
+msgid "Your score"
+msgstr ""
+
+#: templates/quiz/results-box.php:57
+msgid "Uncategorized"
+msgstr ""
+
+#: templates/quiz/results-box.php:94
+msgid "View questions"
+msgstr ""
+
+#: templates/quiz/review.php:19
+msgid "Answered"
+msgstr ""
+
+#: templates/quiz/review.php:23
+msgid "Review"
+msgstr ""
+
+#: templates/quiz/review.php:31
+msgid "Review question"
+msgstr ""
+
+#: templates/quiz/time.php:2
+msgid "Time Limit"
+msgstr ""
+
+#: templates/reports/score-history.php:12
+msgid "Which users should be displayed:"
+msgstr ""
+
+#: templates/reports/score-history.php:14
+msgid "special filter"
+msgstr ""
+
+#: templates/reports/score-history.php:15
+msgid "all users"
+msgstr ""
+
+#: templates/reports/score-history.php:17
+msgid "only registered users"
+msgstr ""
+
+#: templates/reports/score-history.php:19
+msgid "only anonymous users"
+msgstr ""
+
+#: templates/reports/score-history.php:23
+msgid "User"
+msgstr ""
+
+#: templates/reports/score-history.php:37 templates/reports/score-tab.php:16
+msgid "How many entries should be shown on one page:"
+msgstr ""
+
+#: templates/reports/score-history.php:53
+#, php-format
+msgid "Search to date limit from %s to %s"
+msgstr ""
+
+#: templates/reports/score-history.php:87 templates/reports/score-tab.php:58
+msgid "Refresh"
+msgstr ""
+
+#: templates/reports/score-history.php:89 templates/reports/score-tab.php:60
+msgid "Reset entire statistic"
+msgstr ""
+
+#: templates/reports/score-modal.php:3
+msgid "Close"
+msgstr ""
+
+#: templates/reports/score-question-table.php:57
+msgid "Subtotal"
+msgstr ""
+
+#: templates/reports/score-question-table.php:71
+msgid "Total"
+msgstr ""
+
+#: templates/reports/score-tab.php:10
+msgid "Show only users, who solved the quiz:"
+msgstr ""
+
+#: templates/reports/scores.php:54
+#, php-format
+msgid "Quiz: %s - Statistics"
+msgstr ""
+
+#: templates/reports/scores.php:61
+msgid "Stats not enabled"
+msgstr ""
+
+#: templates/reports/scores.php:64
+msgid "Activate statistics"
+msgstr ""
+
+#: templates/reports/scores.php:71
+msgid "History"
+msgstr ""
+
+#: templates/reports/scores.php:73
+msgid "Overview"
+msgstr ""

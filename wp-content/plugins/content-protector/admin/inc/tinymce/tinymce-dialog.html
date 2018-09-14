@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Disable browser caching of dialog window -->
+    <meta http-equiv="cache-control" content="no-cache"/>
+    <meta http-equiv="expires" content="0"/>
+    <meta http-equiv="pragma" content="no-cache"/>
+    <style type='text/css'>
+        body {
+            font-family: sans-serif;
+            font-size: 1.1em;
+            background-color: #F1F1F1;
+            color: #222;
+        }
+
+        #content_protector_php_version {
+            font-size: 1.3em;
+        }
+
+        input[type="text"] {
+            padding: 4px 6px;
+        }
+
+        input[type="submit"] {
+            padding: 4px;
+            font-size: 1.2em;
+        }
+
+        div#content_protector_dialog_wrapper {
+            background: white;
+            padding: 20px;
+        }
+
+        small {
+            font-size: 12px;
+        }
+
+        input[type="submit"] {
+            background: #0085ba;
+            border-color: #0073aa #006799 #006799;
+            box-shadow: 0 1px 0 #006799;
+            color: #fff;
+            text-decoration: none;
+            text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+            width: 100%;
+            margin-top: 10px;
+            font-weight: normal;
+            text-transform: uppercase;
+            padding: 10px 15px;
+        }
+
+    </style>
+</head>
+<body>
+<div id="content_protector_dialog_wrapper">
+    <form>
+
+        <fieldset>
+            <legend>Properties</legend>
+            <p>
+                <label for="password">Set password:</label>
+                <input id="password" name="password" type="text" class="text"/></br>
+                <span id="use_captcha"><small>Protect with CAPTCHA</small></span>
+            </p>
+            <p>
+                <label for="identifier">Set identifier:</label>
+                <input id="identifier" name="identifier" type="text" class="text"/></br>
+                <small>Optional - Set an identifier if you want to use custom CSS on this form.</small>
+            </p>
+            <!--<p>
+                <label for="ajax">Use AJAX</label>
+                <select id="ajax" name="ajax">
+                    <option value="no">No</option>
+                    <option value="yes">Yes</option>
+                </select>
+
+            </p>-->
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Set Cookie For Unlocked Content</legend>
+            <small>Although optional, you should also set an identifier if you want to set a cookie; otherwise,
+                editing the protected content in the future will require your users to re-enter the password.
+            </small>
+            <br>
+            <br>
+
+            <small>Cookie Expires Type:</small>
+            <select id="cookie_type" name="cookie_type">
+                <option value="no">No Cookie</option>
+                <option value="window">Expires on browser close</option>
+                <option value="time_frame">Expires after X</option>
+                <!--<option value="date">Expires on specific date</option>-->
+            </select>
+            <br>
+            <small>Cookie expires after:</small>&nbsp;
+            <input id="expiry_duration_quantity" name="expiry_duration_quantity" type="number" size="2"
+                   style="max-width:40px;">
+            <select id="expiry_duration_unit" name="expiry_duration_unit">
+                <option value="minutes">minutes</option>
+                <option value="hours">hours</option>
+                <option value="days">days</option>
+                <option value="weeks">weeks</option>
+                <option value="months">months</option>
+                <option value="years">years</option>
+            </select>
+            <br>
+            <!-- <small>Cookie expires at:</small>&nbsp;
+             <small><label for="expiry_date">Date:</label></small>
+             <input name="expiry_date" type="date" class="text" id="expiry_date"
+                    style="width: 150px;"/>
+             <small><label for="expiry_time">Time:</label></small>
+             <input name="expiry_time" type="time" class="text" id="expiry_time"
+                    style="width: 125px;"/>
+                    -->
+        </fieldset>
+
+
+        <input type="submit" value="Insert Shortcode"/>
+    </form>
+</div>
+
+<script type="text/javascript">
+
+    //  Step 1: Get arguments passed to dialog.
+    var passed_arguments = top.tinymce.activeEditor.windowManager.getParams();
+
+    //  Step 1a: Setup jQuery. More Info: http://johnmorris.me/computers/using-jquery-and-jquery-ui-in-tinymce-dialog-iframe/
+    /**
+     * To use jQuery, use the $ variable and pass jq_context as the second parameter.
+     * e.g. $("#content_protector_dialog_wrapper", jq_context)
+     */
+    var $ = passed_arguments.jquery;
+    var jq_context = document.getElementsByTagName("body")[0];
+
+
+    var cookie_expires;
+
+    //  Step 2: Insert the shortcode when submit is clicked.
+    $("form", jq_context).submit(function (event) {
+        event.preventDefault();
+
+        //  Step 2a: Construct the shortcode
+        //  Get the input text
+
+        var password = $("input[name='password']", jq_context).val();
+        var cookie_type = $("select[name='cookie_type']", jq_context).val();
+        var identifier = $("input[name='identifier']", jq_context).val();
+        var ajax = $("select[name='ajax']", jq_context).val();
+
+        var ex_qty = $("input[name='expiry_duration_quantity']", jq_context).val();
+        var ex_unit = $("select[name='expiry_duration_unit']", jq_context).val();
+
+
+        //  Construct the shortcode
+        var shortcode = '[content_protector';
+
+        //  Do we have a value in the input?
+        if (password != "") {
+            shortcode += ' password="' + password + '"';
+        }
+
+        if (cookie_type == 'time_frame') {
+            shortcode += ' cookie_expires="' + ex_qty + ' ' + ex_unit + '"';
+
+        } else if (cookie_type == 'date') {
+            shortcode += ' cookie_expires="' + cookie_type + '"';
+
+        } else if (cookie_type == 'window') {
+            shortcode += ' cookie_expires="0"';
+        }
+        if (identifier != "") {
+            shortcode += ' identifier="' + identifier + '"';
+        }
+
+        //  Close the shortcode
+        shortcode += ']';
+        shortcode += '[/content_protector]';
+
+
+        //  Step 2b: Insert the shortcode into the editor
+        passed_arguments.editor.selection.setContent(shortcode);
+        passed_arguments.editor.windowManager.close();
+    });
+
+
+    //  Step 3: Use the passed PHP version to prove that passing data
+    //  from PHP can work.
+    $("#content_protector_php_version", jq_context).text("PHP Version: " + passed_arguments.php_version);
+</script>
+</body>
+</html>

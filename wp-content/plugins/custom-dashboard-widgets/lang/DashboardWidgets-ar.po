@@ -1,0 +1,450 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DashboardWidgets\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-13 13:23+0200\n"
+"PO-Revision-Date: 2017-04-13 13:23+0200\n"
+"Last-Translator: Urban Sanden <hej@urre.me>\n"
+"Language-Team: AboZain <eng.banna1@gmail.com>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.6.4\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../custom-dashboard-widgets.php:21 ../custom-dashboard-widgets.php:488
+msgid "Dashboard Widgets"
+msgstr "ودجات الرئيسية"
+
+#: ../custom-dashboard-widgets.php:46 ../custom-dashboard-widgets.php:553
+msgid "Title"
+msgstr "العنوان"
+
+#: ../custom-dashboard-widgets.php:47 ../custom-dashboard-widgets.php:554
+msgid "icon"
+msgstr "الأيقونة"
+
+#: ../custom-dashboard-widgets.php:48
+msgid "preview"
+msgstr "معاينة"
+
+#: ../custom-dashboard-widgets.php:51
+msgid "Testimonials"
+msgstr "قالوا عنا"
+
+#: ../custom-dashboard-widgets.php:56
+msgid "Products"
+msgstr "المنتجات"
+
+#: ../custom-dashboard-widgets.php:61
+msgid "Clients"
+msgstr "العملاء"
+
+#: ../custom-dashboard-widgets.php:66
+msgid "Slider"
+msgstr "السلآيدر"
+
+#: ../custom-dashboard-widgets.php:71
+msgid "Videos"
+msgstr "الفيديو"
+
+#: ../custom-dashboard-widgets.php:76
+msgid "Gallery"
+msgstr "ألبوم الصور"
+
+#: ../custom-dashboard-widgets.php:81
+msgid "Services"
+msgstr "خدماتنا"
+
+#: ../custom-dashboard-widgets.php:86
+msgid "FAQ"
+msgstr "سؤال وجواب"
+
+#: ../custom-dashboard-widgets.php:91
+msgid "Team"
+msgstr "فريق العمل"
+
+#: ../custom-dashboard-widgets.php:490
+msgid ""
+"Customize Your Dashboard Main Page, New Layouts, you can simplisity "
+"customize your dashboard links to access quickly to your dashboard pages. "
+"You can add new row (access link), edit rows and delete row. "
+msgstr ""
+"تخصيص لوحة التحكم بتخطيط جديد, يمكنك بسهولة تخصيص الصفحة الرئيسية للوحة "
+"التحكم واضافة روابط للوصول السريع الي صفحات إدارة الموقع و اللوحة, يمكنك "
+"إضافة و حذف صفوف جديدة بكل سهولة."
+
+#: ../custom-dashboard-widgets.php:493
+msgid "You can Choose the icons from Wordpress dashicons on this link "
+msgstr "يمكنك الاختيار من الايقونات الافتراضية للوردبرس من خلال هذا الرابط"
+
+#: ../custom-dashboard-widgets.php:494
+msgid "Or from this popup"
+msgstr "أو من خلال هذه النافذة"
+
+#: ../custom-dashboard-widgets.php:498
+msgid "Or You can Choose from Font-Awesome icons on this link "
+msgstr "او يمكنك الاختيار من ايقونات Font-Awesome  من خلال هذا الرابط"
+
+#: ../custom-dashboard-widgets.php:500
+msgid ""
+"We have collected the most common wordpress post types and their icons to "
+"make it easy for you to choose the right icon for it,"
+msgstr ""
+"قمنا بجمع الروابط الأكثر شهرة في الووردبريس مع الأيقونة المناسبة لكل واحد "
+"للتسهيل في عملية اختيار الأيقونة,"
+
+#: ../custom-dashboard-widgets.php:500
+msgid "Click Here"
+msgstr "إضغط هنا"
+
+#: ../custom-dashboard-widgets.php:500
+msgid "to open the window"
+msgstr "لفتح النافذة"
+
+#: ../custom-dashboard-widgets.php:501
+msgid "You Must enter the link after"
+msgstr "يجب عليك ادخال الرابط بعد "
+
+#: ../custom-dashboard-widgets.php:501
+msgid " For Example: "
+msgstr "مثال: "
+
+#: ../custom-dashboard-widgets.php:501
+msgid " Copy the highlight text "
+msgstr "انسخ النص المظلل"
+
+#: ../custom-dashboard-widgets.php:523
+msgid "Saved Successfully"
+msgstr "تم الحفظ بنجاح"
+
+#: ../custom-dashboard-widgets.php:555
+msgid "link"
+msgstr "الرابط"
+
+#: ../custom-dashboard-widgets.php:556
+msgid "Active"
+msgstr "تفعيل"
+
+#: ../custom-dashboard-widgets.php:562
+msgid "Order"
+msgstr "الترتيب"
+
+#: ../custom-dashboard-widgets.php:563
+msgid "Remove"
+msgstr "حذف"
+
+#: ../custom-dashboard-widgets.php:581
+msgid "Add Row"
+msgstr "أضف صف"
+
+#: ../custom-dashboard-widgets.php:585
+msgid "Don't hide another Wordpress default dashboard Widgets"
+msgstr "لا أريد إخفاء باقي الودجات الافتراضية التي تظهر في الصفحة الرئيسية"
+
+#: ../custom-dashboard-widgets.php:589
+msgid "ReSet to Defaults"
+msgstr "استعادة الافتراضية"
+
+#: ../custom-dashboard-widgets.php:671
+msgid "View Site"
+msgstr "مشاهدة الموقع"
+
+#: ../custom-dashboard-widgets.php:682
+msgid "Profile"
+msgstr "الملف الشخصي"
+
+#: ../custom-dashboard-widgets.php:693
+msgid "Posts"
+msgstr "المقالات"
+
+#: ../custom-dashboard-widgets.php:704
+msgid "Media"
+msgstr "الوسائط"
+
+#: ../custom-dashboard-widgets.php:715
+msgid "Users"
+msgstr "الأعضاء"
+
+#: ../custom-dashboard-widgets.php:726
+msgid "Pages"
+msgstr "الصفحات"
+
+#: ../custom-dashboard-widgets.php:737
+msgid "Plugins"
+msgstr "الإضافات"
+
+#: ../custom-dashboard-widgets.php:748
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: ../custom-dashboard-widgets.php:818
+msgid "Dashboard"
+msgstr "لوحة التحكم الرئيسية"
+
+#~ msgid "Welcome To your Dashboard"
+#~ msgstr "مرحبا بك في لوحة التحكم"
+
+#~ msgid "Administrator"
+#~ msgstr "مدير"
+
+#~ msgid "Editor"
+#~ msgstr "محرر"
+
+#~ msgid "Author"
+#~ msgstr "كاتب"
+
+#~ msgid "Contributor"
+#~ msgstr "مساهم"
+
+#~ msgid ""
+#~ "Customize Your Dashboard Main Page, New Layouts, you can simplisity "
+#~ "customize your dashboard links to access quickly to your dashboard "
+#~ "pages.\n"
+#~ "You can add new row (access link), edit rows and delete row. "
+#~ msgstr ""
+#~ "تخصيص الصفحة الرئيسية للوحة التحكم, والتي تحتوي على تخطيط مخصص للروابط "
+#~ "السريعة في اللوحة, يمكنك بسهولة تعديل وتخصيص هذه الروابط.\n"
+#~ "يمكنك إضافة روابط جديدة وتعديل روابط موجودة مسبقا, ويمكنك حذف روابط."
+
+#~ msgid ""
+#~ "Customize Your Dashboard Main Page, New Layouts, you can simplisity "
+#~ "customize your dashboard links to access quickly to your sittings, pages, "
+#~ "posts and plugins. "
+#~ msgstr ""
+#~ "تخصيص الصفحة الرئيسية للوحة التحكم, والتي تحتوي على تخطيط مخصص للروابط "
+#~ "السريعة في اللوحة, يمكنك بسهولة تعديل وتخصيص هذه الروابط."
+
+#~ msgid "Forms"
+#~ msgstr "النماذج"
+
+#~ msgid "Advices"
+#~ msgstr "نصائح طبية"
+
+#~ msgid "Questions"
+#~ msgstr "أسئلة طبية"
+
+#~ msgid "Options"
+#~ msgstr "الخيارات"
+
+#~ msgid "Jobs"
+#~ msgstr "الوظائف"
+
+#~ msgid "E Learning"
+#~ msgstr "التعليم الإلكتروني"
+
+#~ msgid "Clients Stories"
+#~ msgstr "قصص العملاء"
+
+#~ msgid "Courses"
+#~ msgstr "الدورات"
+
+#~ msgid "Work Team"
+#~ msgstr "فريق العمل"
+
+#~ msgid "Fatawa"
+#~ msgstr "الفتاوى"
+
+#~ msgid "Knowledge Center"
+#~ msgstr "مركز المعرفة"
+
+#~ msgid "Comments"
+#~ msgstr "التعليقات"
+
+#~ msgid "Brand In Content"
+#~ msgstr "الشعار في المحتوى"
+
+#~ msgid ""
+#~ "Replace your Brand name with Image Logo or custom style in WordPress "
+#~ "Content"
+#~ msgstr "استبدل نص علامتك التجارية داخل محتوى المواضيع بصورة الشعار"
+
+#~ msgid "Find Text"
+#~ msgstr "النص المستبدل"
+
+#~ msgid "Upload Image"
+#~ msgstr "رفع الشعار"
+
+#~ msgid "Height"
+#~ msgstr "الطول"
+
+#~ msgid "Width"
+#~ msgstr "العرض"
+
+#~ msgid "Alt"
+#~ msgstr "النص البديل"
+
+#~ msgid "Position from top"
+#~ msgstr "محاذاة الصورة من اعلى"
+
+#~ msgid "Preview Image"
+#~ msgstr "معاينة الصورة"
+
+#~ msgid "This is preview"
+#~ msgstr "هذه هي المعاينة"
+
+#~ msgid "how the image will apear in your site"
+#~ msgstr "كيف تبدو الصورة في المحتوى داخل الموقع"
+
+#~ msgid "Customize Login Page"
+#~ msgstr "تخصيص صفحة الدخول"
+
+#~ msgid "Customize your Login Page with your Logo"
+#~ msgstr "تخصيص صفحة الدخول بالشعار الخاص بك"
+
+#~ msgid "Prevent Deleting"
+#~ msgstr "منع الحذف"
+
+#~ msgid "Prevent Pages From Deleteing"
+#~ msgstr "منع الصفحات من الحذف"
+
+#~ msgid "Select %s To Disable From Deleteing"
+#~ msgstr "اختار  %s  التي تريد منع حذفها"
+
+#~ msgid "The page you were trying to delete is protected."
+#~ msgstr "لا يمكنك حذف هذه الصفحة لانها محمية من المدير"
+
+#~ msgid "Rename Default Post"
+#~ msgstr "اعادة تسمية المقالات"
+
+#~ msgid "News"
+#~ msgstr "الأخبار"
+
+#~ msgid "Add News"
+#~ msgstr "اضافة خبر جديد"
+
+#~ msgid "Edit News"
+#~ msgstr "تعديل الخبر"
+
+#~ msgid "View News"
+#~ msgstr "معاينة الخبر"
+
+#~ msgid "Search News"
+#~ msgstr "البحث في الأخبار"
+
+#~ msgid "No News found"
+#~ msgstr "لا توجد أخبار"
+
+#~ msgid "No News found in Trash"
+#~ msgstr "لا توجد أخبار في سلة المهملات"
+
+#~ msgid "Rename your Default Post name to custom name in admin menu"
+#~ msgstr ""
+#~ "إعادة تسمية الافتراضي المسميات الافتراضية للمقالات باسم مخصص من عندك"
+
+#~ msgid "Post"
+#~ msgstr "مقالة"
+
+#~ msgid "Add New"
+#~ msgstr "اضافة جديد"
+
+#~ msgid "Add New Post"
+#~ msgstr "أضف مقالة جديدة"
+
+#~ msgid "Edit Post"
+#~ msgstr "تحرير المقالة"
+
+#~ msgid "New Post"
+#~ msgstr "مقالة جديدة"
+
+#~ msgid "View Post"
+#~ msgstr "مشاهدة المقالة"
+
+#~ msgid "Search Posts"
+#~ msgstr "بحث في المقالات"
+
+#~ msgid "No posts found."
+#~ msgstr "لا توجد أخبار"
+
+#~ msgid "No posts found in Trash."
+#~ msgstr "لا توجد أخبار في سلة المهملات"
+
+#~ msgid "Not found Posts"
+#~ msgstr "لا توجد مقالات في سلة المهملات."
+
+#~ msgid "Not found in trash"
+#~ msgstr "لا توجد أخبار في سلة المهملات"
+
+#~ msgid "Name"
+#~ msgstr "الاسم"
+
+#~ msgid "Singular Name"
+#~ msgstr "الاسم المفرد"
+
+#~ msgid "Add new item"
+#~ msgstr "اضافة عنصر جديد"
+
+#~ msgid "Edit item"
+#~ msgstr "تعديل "
+
+#~ msgid "View item"
+#~ msgstr "معاينة"
+
+#~ msgid "Search item"
+#~ msgstr "بحث"
+
+#~ msgid "Publish"
+#~ msgstr "Publicera"
+
+#~ msgid "Update"
+#~ msgstr "Uppdatera"
+
+#~ msgid "Are you sure you want to publish this?"
+#~ msgstr "Är du säker på att du vill publicera?"
+
+#~ msgid "testing"
+#~ msgstr "TESTAR"
+
+#~ msgid "Hide"
+#~ msgstr "Göm"
+
+#~ msgid "Set featured image"
+#~ msgstr "Ange utvald bild"
+
+#~ msgid "Remove attachment"
+#~ msgstr "Ta bort bilaga"
+
+#~ msgid "files attached"
+#~ msgstr "bilagor"
+
+#~ msgid "Searching..."
+#~ msgstr "Söker…"
+
+#~ msgid "No album cover(s) were found"
+#~ msgstr "Inga omslag hittades"
+
+#~ msgid "Try again"
+#~ msgstr "Försök igen"
+
+#~ msgid "Save post to change/remove featured image"
+#~ msgstr "Spara för att ändra/ta bort utvald bild"
+
+#~ msgid "Album cover finder"
+#~ msgstr "Sök skivomslag"
+
+#~ msgid "Search album covers"
+#~ msgstr "Sök skivomslag"
+
+#~ msgid "Artist"
+#~ msgstr "Artist"
+
+#~ msgid "Album"
+#~ msgstr "Album"
+
+#~ msgid "Clear"
+#~ msgstr "Rensa"
+
+#~ msgid "Add as attachment"
+#~ msgstr "Lägg som bilaga"
+
+#~ msgid "Insert in editor"
+#~ msgstr "Infoga i innehåll"
+
+#~ msgid "Attachments"
+#~ msgstr "Bilagor"

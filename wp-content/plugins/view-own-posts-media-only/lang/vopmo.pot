@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: User Role Editor 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-09 22:45+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Vladimir Garagulya <vladimir@shinephp.com>\n"
+"Language-Team: ShinePHP.com <vladimir@shinephp.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/settings-template.php:15
+msgid "View Own Post and Media Only - Options"
+msgstr "Вижу только свои статьи и медиа - Настройки"
+
+#: ../includes/settings-template.php:21
+msgid "Select \"Uploaded to this post\" by default:"
+msgstr "Выбрать по-умолчанию \"Загружены в эту статью\" :"
+
+#: ../includes/settings-template.php:26
+msgid "Hide Attachments Type menu:"
+msgstr "Спрятать меню типов вложений"
+
+#: ../includes/settings-template.php:32
+msgid "Hide comments from others posts:"
+msgstr "Скрыть комментраии к статьям других авторов:"
+
+#: ../includes/settings-template.php:42
+msgid "Exclude Custom Post Types:"
+msgstr "Исключить пользовательские типы статей:"
+
+#: ../includes/settings-template.php:66
+msgid "Update"
+msgstr "Сохранить"
+
+#: ../includes/class-view-own-posts-media-only.php:90
+msgid "Settings"
+msgstr "Настройки"
+
+#: ../includes/class-view-own-posts-media-only.php:103
+msgid "Changelog"
+msgstr "Протокол изменений"
+
+#: ../includes/class-view-own-posts-media-only.php:117
+msgid "View Own Posts..."
+msgstr "Вижу свои статьи..."
+
+#: ../includes/class-view-own-posts-media-only.php:247
+msgid "All"
+msgstr "Все"
+
+#: ../includes/class-view-own-posts-media-only.php:250
+msgid "Published"
+msgstr "Опубликованы"
+
+#: ../includes/class-view-own-posts-media-only.php:253
+msgid "Drafts"
+msgstr "Черновики"
+
+#: ../includes/class-view-own-posts-media-only.php:256
+msgid "Pending"
+msgstr "На утверждение"
+
+#: ../includes/class-view-own-posts-media-only.php:259
+msgid "Trash"
+msgstr "Мусор"
+
+#: ../includes/class-view-own-posts-media-only.php:301
+#, php-format
+msgid "All <span class=\"count\">(%s)</span>"
+msgstr "Все <span class=\"count\">(%s)</span>"
+
+#: ../includes/class-view-own-posts-media-only.php:311
+#, php-format
+msgid "Unattached <span class=\"count\">(%s)</span>"
+msgstr "Не прикреплен <span class=\"count\">(%s)</span>"
+

@@ -1,0 +1,34 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BP Limit Activity Length\n"
+"POT-Creation-Date: 2013-04-07 14:41+0200\n"
+"PO-Revision-Date: 2013-04-07 15:14+0100\n"
+"Last-Translator: Luca Camellini <luccame@gmail.com>\n"
+"Language-Team: luccame <luccame@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: /opt/lampp/htdocs/buddypress/wp-content/plugins/bp-limit-activity-length/\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: bp-limit-activity-length.php:95
+msgid "Activity Length"
+msgstr "Lunghezza Attività"
+
+#: bp-limit-activity-length.php:103
+msgid "Characters"
+msgstr "Caratteri"
+
+#: bp-limit-activity-length.php:104
+msgid "Words"
+msgstr "Parole"
+
+#: bp-limit-activity-length.php:106
+msgid "Allowed length for activity updates. Only applies to new updates."
+msgstr "Lunghezza consentita per gli aggiornamenti di attività. Si applica solo ai nuovi aggiornamenti."
+

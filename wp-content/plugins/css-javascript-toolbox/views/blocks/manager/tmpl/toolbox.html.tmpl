@@ -1,0 +1,29 @@
+<div class="cjt-toolbox cjt-toolbox-blocks cjtb-position-<?php echo $location ?> widgets-holder-wrap">
+	<div class="icons-group left-bar">
+		<a class="cjt-tb-link l-127x23 textButton cjttbl-add-block" title="<?php echo cssJSToolbox::getText('Add new code block') ?>"><?php echo cssJSToolbox::getText('New Code Block') ?></a>
+		<a class="cjt-tb-link l-127x23 textButton cjttbl-save-changes" title="<?php echo cssJSToolbox::getText('Save changes to all code blocks') ?>"><?php echo cssJSToolbox::getText('Save All Changes') ?></a>
+		<a class="cjt-tb-link l-127x23 textButton cjttbl-cancel-restore" title="<?php echo cssJSToolbox::getText('Cancel backup restoring') ?>"><?php echo cssJSToolbox::getText('Cancel Restore') ?></a>
+		<a class="cjt-tb-link l-127x23 textButton cjttbl-restore" title="<?php echo cssJSToolbox::getText('Save restored Backup') ?>"><?php echo cssJSToolbox::getText('Restore') ?></a>
+	</div>
+	<div class="icons-group tools-menu">
+	
+<?php do_action( CJTPluggableHelper::ACTION_BLOCKS_MANAGER_TOOLBOX_LEFT_BUTTONS ); ?>
+
+		<div class="divider"></div>
+		<a class="cjt-tb-link cjttbl-templates-manager" title="<?php echo cssJSToolbox::getText('Code Template Manager') ?>"></a>
+		
+		<div class="divider"></div>
+		<a class="cjt-tb-link cjttbl-admin-tools" title="<?php echo cssJSToolbox::getText('Tools for block cleanup and backup') ?>"></a>
+		<div class="popup-menu admin-tools" style="display:none">
+		
+<?php do_action( CJTPluggableHelper::ACTION_BLOCKS_MANAGER_TOOLBOX_ADMIN_TOOLS_TOP ); ?>
+
+			<a class="cjt-tb-link cjt-tb-text-link cjttbl-manage-backups" title="<?php echo cssJSToolbox::getText('Backup Manager - Create, restore, or delete backups') ?>"><?php echo cssJSToolbox::getText('Backups') ?></a>
+			
+		</div>
+		
+		<a class="cjt-tb-link cjttbl-global-settings" title="<?php echo cssJSToolbox::getText('General plugin settings') ?>"></a>
+<?php do_action( CJTPluggableHelper::ACTION_BLOCKS_MANAGER_TOOLBOX_RIGHT_BUTTONS ); ?>
+
+	</div>
+</div>

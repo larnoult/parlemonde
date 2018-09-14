@@ -1,0 +1,1205 @@
+# Translation of Plugins - Download Monitor - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Download Monitor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-01-29 16:06:33+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Download Monitor - Stable (latest release)\n"
+
+#: src/LegacyUpgrader/Page.php:48
+msgid "I'm sure I want to run the upgrader anyway"
+msgstr "Estoy seguro de que quiero ejecutar el actualizador de todos modos"
+
+#: src/LegacyUpgrader/Page.php:46
+msgid "WARNING: We don't think your database needs upgrading. Only continue if you're 100% sure what you're doing!"
+msgstr "ADVERTENCIA: No creemos que tu base de datos necesite actualizarse. ¡Continúa únicamente si estás 100% seguro de lo que estás haciendo!"
+
+#: templates/content-download-no-version.php:13
+msgid "has no version set!"
+msgstr "no tiene establecida ninguna versión!"
+
+#: templates/content-download-no-version.php:12
+msgid "Please set a version in your WordPress admin"
+msgstr "Por favor, configura una nueva versión en la administración de tu WordPress"
+
+#: src/TaxonomyManager.php:61
+msgid "Download Tags"
+msgstr "Etiquetas de descargas"
+
+#: src/TaxonomyManager.php:29
+msgid "Download Categories"
+msgstr "Categorías de descargas"
+
+#: src/PostTypeManager.php:85
+msgid "Parent Download Version"
+msgstr "Versión de descarga superior"
+
+#: src/PostTypeManager.php:84
+msgid "No Download Versions found in trash"
+msgstr "No se han encontrado versiones de descarga en la papelera"
+
+#: src/PostTypeManager.php:83
+msgid "No Download Versions found"
+msgstr "No se han encontrado versiones de descargas"
+
+#: src/PostTypeManager.php:82
+msgid "Search Download Versions"
+msgstr "Buscar versiones de descargas"
+
+#: src/PostTypeManager.php:80 src/PostTypeManager.php:81
+msgid "View Download Version"
+msgstr "Ver versión de la descarga"
+
+#: src/PostTypeManager.php:79
+msgid "New Download Version"
+msgstr "Nueva versión de la descarga"
+
+#: src/PostTypeManager.php:78
+msgid "Edit Download Version"
+msgstr "Editar versión de la descarga"
+
+#: src/PostTypeManager.php:76
+msgid "Add Download Version"
+msgstr "Añadir versión de la descarga"
+
+#: src/PostTypeManager.php:74
+msgid "Download Version"
+msgstr "Versión de la descarga"
+
+#: src/PostTypeManager.php:73
+msgid "Download Versions"
+msgstr "Versiones de la descarga"
+
+#: src/PostTypeManager.php:72
+msgid "All Download Versions"
+msgstr "Todas las versiones de la descarga"
+
+#: src/Logs/LoggingListTable.php:298
+msgid "Select a User"
+msgstr "Elige un usuario"
+
+#: src/Logs/LogPage.php:83
+msgid "Are you sure you want to delete ALL log items?"
+msgstr "¿Estás seguro de querer borra TODOS los elementos del registro?"
+
+#: src/Logs/LogExportCSV.php:78
+msgid "Meta Data"
+msgstr "Metadatos"
+
+#: src/LegacyUpgrader/Page.php:42
+msgid "Welcome to the Download Monitor Legacy Upgrader. On this page we will upgrade your old Download Monitor (legacy) data so it will work with the latest version. If you're on this page, it should mean that you updated to this version from Download Monitor %s. If you're unsure if this is correct, or you want to read more about the legacy upgrade, we've setup a page that will explain this process in a lot more detail. %sClick here%s if to view that page."
+msgstr "Bienvenido al actualizador de versiones antiguas de Download Monitor. En esta página actualizaremos los datos (antiguos) de tu viejo Download Monitor para que funcionen con la última versión. Si estás en esta página debería significar que has actualizado a esta versión desde Download Monitor %s. Si no estás seguro de que esto sea asi, o si quieres leer más sobre las actualizaciones desde versiones anteriores, hemos creado una página que explica este proceso con mucho más detalle. %sHaz clic aquí%s si quieres ver esa página."
+
+#: src/LegacyUpgrader/Page.php:41
+msgid "Download Monitor - Legacy Upgrade"
+msgstr "Download Monitor - Actualización de versiones anteriores"
+
+#: src/LegacyUpgrader/Page.php:17
+msgid "Legacy Upgrader"
+msgstr "Actualizador de versiones antiguas"
+
+#: src/DLM.php:236
+msgid "Documentation"
+msgstr "Documentación"
+
+#: src/Admin/WritePanels.php:96
+msgid "No download information for new downloads."
+msgstr "No hay información de descarga para las nuevas descargas."
+
+#: src/Admin/Settings/Settings.php:268
+msgid "Remove all Download Monitor transients, this can solve version caching issues."
+msgstr "Borra todos los datos transitorios de Download Monitor, esto puede resolver problemas de caché."
+
+#: src/Admin/Settings/Settings.php:267
+msgid "Clear all transients"
+msgstr "Limpiar todos los datos transitorios"
+
+#: src/Admin/Settings/Settings.php:261
+msgid "Check this box if you would like to completely remove all Download Monitor data when the plugin is deleted."
+msgstr "Marca esta casilla si te gustaría borrar completamente todos los datos de Download Monitor cuando se borre el plugin."
+
+#: src/Admin/Settings/Settings.php:259
+msgid "Remove Data on Uninstall?"
+msgstr "¿Borrar datos al desinstalar?"
+
+#: src/Admin/Settings/Settings.php:254
+msgid "Misc"
+msgstr "Varios"
+
+#: src/Admin/Settings/Settings.php:247
+msgid "List browser user agents to blacklist, 1 per line.  Partial matches are sufficient. Regex matching is allowed by surrounding the pattern with forward slashes, e.g. <code>/^Mozilla.+Googlebot/</code>"
+msgstr "Lista de agentes de usuario para añadir a la lista negra, 1 por línea. Vale con coincidencias parciales. Se permite la coincidencia por regex envolviendo el patrón con barras, p.ej: <code>/^Mozilla.+Googlebot/</code>"
+
+#: src/Admin/Settings/Settings.php:161
+msgid "Generate SHA256 hash for uploaded files"
+msgstr "Genera hashes SHA256 de los archivos subidos"
+
+#: src/Admin/Settings/Settings.php:160
+msgid "SHA256 hashes"
+msgstr "Hashes SHA256"
+
+#: src/Admin/Settings/Settings.php:138
+msgid "Hashes can optionally be output via shortcodes, but may cause performance issues with large files. %sYou can read more about hashes here%s"
+msgstr "Opcionalmente, se pueden hacer hashes mediante shortcodes, pero pueden provocar problemas de rendimiento con los archivos grandes. %sAquí puedes leer más sobre los hashes%s"
+
+#: src/Admin/Settings/Settings.php:104
+msgid "If enabled, downloads will be included in the site's internal search results."
+msgstr "Si se activa se incluirán las descargas en los resultados de búsqueda internos del sitio."
+
+#: src/Admin/Settings/Settings.php:102
+msgid "Include in Search"
+msgstr "Incluir en la búsqueda"
+
+#: src/Admin/Settings/Page.php:92
+msgid "Download Monitor Transients successfully cleared!"
+msgstr "¡Datos transitorios de Download Monitor limpiados con éxito!"
+
+#: src/Admin/Reports/Page.php:180
+msgid "Download Reports"
+msgstr "Informes de descargas"
+
+#: src/Admin/Reports/Page.php:141
+msgid "Month"
+msgstr "Mes"
+
+#: src/Admin/Reports/Page.php:140
+msgid "Per Day"
+msgstr "Por día"
+
+#: src/Admin/Reports/Page.php:115
+msgid "Switch to %s"
+msgstr "Cambiar a %s"
+
+#: src/Admin/Reports/Page.php:23
+msgid "Reports"
+msgstr "Informes"
+
+#: src/Admin/MediaInsert.php:161
+msgid "Search download"
+msgstr "Buscar descarga"
+
+#: assets/views/notice-lu-upgrade.php:11
+msgid "hide notice"
+msgstr "ocultar aviso"
+
+#: assets/views/notice-lu-upgrade.php:10
+msgid "Take me to the Upgrade Tool"
+msgstr "Llévame a la herramienta de actualización"
+
+#: assets/views/notice-lu-upgrade.php:9
+msgid "We've created an upgrading tool that will do all the work for you. You can read more about this tool on %sour website (click here)%s or start the upgrade now."
+msgstr "Hemos creado una herramienta de actualizaciones que hará todo el trabajo por ti. Puedes leer más acerca de esta herramienta en %snuestra web (clic aquí)%s o empezar a actualizar ahora."
+
+#: assets/views/notice-lu-upgrade.php:8
+msgid "upgrade your downloads"
+msgstr "actualiza tus descargas"
+
+#: assets/views/notice-lu-upgrade.php:8
+msgid "Currently your downloads don't work like they should, we need to %s before they'll work again."
+msgstr "Actualmente tus descargas no funcionan como deberían, necesitamos antes %s para que vuelvan a funcionar."
+
+#: assets/views/notice-lu-upgrade.php:7
+msgid "It looks like you upgraded to the latest version of Download Monitor from a legacy version (3.x)"
+msgstr "Parece ser que has actualizado a la última versión de Download Monitor desde una versión anterior (3.x)"
+
+#: src/Admin/Settings/Fields/LazySelect.php:41
+msgid "Loading"
+msgstr "Cargando"
+
+#: src/Admin/Settings/Settings.php:96
+msgid "If enabled, Download Monitor will use the X_FORWARDED_FOR HTTP header set by proxies as the IP address. Note that anyone can set this header, making it less secure."
+msgstr "Si se activa, Download Monitor usará la cabecera HTTP X_FORWARDED_FOR definida por los proxies como dirección IP. Date cuenta de que cualquiera puede definir esta cabecera, haciéndola menos segura."
+
+#: src/Admin/Settings/Settings.php:94
+msgid "Allow Proxy IP Override"
+msgstr "Permitir escritura de proxy IP"
+
+#: src/Product/Product.php:430
+msgid "<a href=\"%s\">Register your copy</a> of the <strong>%s</strong> extension to receive access to automatic upgrades and support. Need a license key? <a href=\"%s\" target=\"_blank\">Purchase one now</a>."
+msgstr "<a href=\"%s\">Registra tu copia</a> del <strong>%s</strong> plugin para recibir acceso a actualizaciones automáticas y soporte. ¿Necesitas una clave de licencia? <a href=\"%s\" target=\"_blank\">Compra una ahora</a>."
+
+#: src/Logs/LoggingListTable.php:125
+msgid " (v%s no longer exists)"
+msgstr " (v%s ya no existe)"
+
+#: src/Logs/LoggingListTable.php:123
+msgid " (v%s)"
+msgstr " (v%s)"
+
+#. Author URI of the plugin/theme
+msgid "https://www.never5.com"
+msgstr "https://www.never5.com"
+
+#. Author of the plugin/theme
+msgid "Never5"
+msgstr "Never5"
+
+#. Description of the plugin/theme
+msgid "A full solution for managing downloadable files, monitoring downloads and outputting download links and file information on your WordPress powered site."
+msgstr "Una solución completa para gestionar archivos descargables, monitorizar descargas y exportar enlaces de descarga e información de archivos en tu web WordPress."
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.download-monitor.com"
+msgstr "https://www.download-monitor.com"
+
+#. Plugin Name of the plugin/theme
+msgid "Download Monitor"
+msgstr "Download Monitor"
+
+#: templates/content-download-button.php:14
+#: templates/content-download-version-list.php:24
+msgid "Downloaded 1 time"
+msgid_plural "Downloaded %d times"
+msgstr[0] "Descargado 1 vez"
+msgstr[1] "Descargado %d veces"
+
+#: templates/content-download-button.php:13
+msgid "Download &ldquo;%s&rdquo;"
+msgstr "Descargar &ldquo;%s&rdquo;"
+
+#: templates/content-download-box.php:29
+msgid "Download File"
+msgstr "Descargar archivo"
+
+#: templates/content-download-box.php:27
+#: templates/content-download-filename.php:14
+#: templates/content-download-title.php:13 templates/content-download.php:13
+msgid "Version %s"
+msgstr "Versión %s"
+
+#: templates/content-download-box.php:18
+#: templates/content-download-filename.php:17 templates/content-download.php:16
+msgid "1 download"
+msgid_plural "%d downloads"
+msgstr[0] "1 descarga"
+msgstr[1] "%d descargas"
+
+#: src/Widgets/Downloads.php:239
+msgid "Show only members only downloads"
+msgstr "Solo mostrar las descargas a los miembros"
+
+#: src/Widgets/Downloads.php:232
+msgid "Show only featured downloads"
+msgstr "Solo mostrar las descargas destacadas"
+
+#: src/Widgets/Downloads.php:224
+msgid "DESC"
+msgstr "DESCENDENTE"
+
+#: src/Widgets/Downloads.php:222
+msgid "ASC"
+msgstr "ASCENDENTE"
+
+#: src/Widgets/Downloads.php:217
+msgid "Order"
+msgstr "Ordenar"
+
+#: src/Widgets/Downloads.php:210
+msgid "Date modified"
+msgstr "Fecha de modificación"
+
+#: src/Widgets/Downloads.php:208
+msgid "Date added"
+msgstr "Fecha de creación"
+
+#: src/Widgets/Downloads.php:204
+msgid "Random"
+msgstr "Al azar"
+
+#: src/Widgets/Downloads.php:197
+msgid "Order by"
+msgstr "Ordenar por"
+
+#: src/Widgets/Downloads.php:193
+msgid "Default template"
+msgstr "Plantilla predeterminada"
+
+#: src/Widgets/Downloads.php:188
+msgid "Output template"
+msgstr "Plantilla de salida"
+
+#: src/Widgets/Downloads.php:180
+msgid "Limit"
+msgstr "Límite"
+
+#: src/Widgets/Downloads.php:55 src/Widgets/Downloads.php:162
+msgid "Featured Downloads"
+msgstr "Descargas destacadas"
+
+#: src/Widgets/Downloads.php:30
+msgid "Downloads List"
+msgstr "Lista de descargas"
+
+#: src/Widgets/Downloads.php:28
+msgid "Display a list of your downloads."
+msgstr "Muestra una lista de tus descargas."
+
+#: src/Product/Product.php:188
+msgid "License successfully activated."
+msgstr "Licencia activada con éxito."
+
+#: src/TaxonomyManager.php:71
+msgid "New Download Tag Name"
+msgstr "Nombre de la nueva etiqueta de descarga"
+
+#: src/TaxonomyManager.php:70
+msgid "Add New Download Tag"
+msgstr "Añadir una etiqueta de descarga nueva"
+
+#: src/TaxonomyManager.php:69
+msgid "Update Download Tag"
+msgstr "Actualizar etiqueta de descarga"
+
+#: src/TaxonomyManager.php:68
+msgid "Edit Download Tag"
+msgstr "Editar etiqueta de descarga"
+
+#: src/TaxonomyManager.php:66 src/TaxonomyManager.php:67
+msgid "Parent Download Tag"
+msgstr "Etiqueta de descarga superior"
+
+#: src/TaxonomyManager.php:65
+msgid "All Download Tags"
+msgstr "Todas las etiquetas de descarga"
+
+#: src/TaxonomyManager.php:64
+msgid "Search Download Tags"
+msgstr "Buscar etiquetas de descarga"
+
+#: src/TaxonomyManager.php:63
+msgid "Download Tag"
+msgstr "Etiqueta de descarga"
+
+#: src/TaxonomyManager.php:39
+msgid "New Download Category Name"
+msgstr "Nombre de la nueva categoría de descarga"
+
+#: src/TaxonomyManager.php:38
+msgid "Add New Download Category"
+msgstr "Añadir una categoría de descarga nueva"
+
+#: src/TaxonomyManager.php:37
+msgid "Update Download Category"
+msgstr "Actualizar categoría de descarga"
+
+#: src/TaxonomyManager.php:36
+msgid "Edit Download Category"
+msgstr "Editar categoría de descarga"
+
+#: src/TaxonomyManager.php:34 src/TaxonomyManager.php:35
+msgid "Parent Download Category"
+msgstr "Categoría de descarga superior"
+
+#: src/TaxonomyManager.php:33
+msgid "All Download Categories"
+msgstr "Todas las categorías de descarga"
+
+#: src/TaxonomyManager.php:32
+msgid "Search Download Categories"
+msgstr "Buscar categorías de descarga"
+
+#: src/TaxonomyManager.php:31
+msgid "Download Category"
+msgstr "Categoría de descarga"
+
+#: src/Shortcodes.php:142 src/Shortcodes.php:261
+msgid "Download not found"
+msgstr "Descarga no encontrada"
+
+#: src/PostTypeManager.php:36
+msgid "This is where you can create and manage downloads for your site."
+msgstr "Aquí puedes crear y gestionar las descargas de tu página web."
+
+#: src/PostTypeManager.php:34
+msgid "Parent Download"
+msgstr "Descarga superior"
+
+#: src/PostTypeManager.php:33
+msgid "No Downloads found in trash"
+msgstr "No se han encontrado descargas en la papelera"
+
+#: src/PostTypeManager.php:32
+msgid "No Downloads found"
+msgstr "No se han encontrado descargas"
+
+#: src/PostTypeManager.php:31
+msgid "Search Downloads"
+msgstr "Buscar descargas"
+
+#: src/PostTypeManager.php:29 src/PostTypeManager.php:30
+msgid "View Download"
+msgstr "Ver descarga"
+
+#: src/PostTypeManager.php:28
+msgid "New Download"
+msgstr "Descarga nueva"
+
+#: src/PostTypeManager.php:27
+msgid "Edit Download"
+msgstr "Editar descarga"
+
+#: src/PostTypeManager.php:26 src/PostTypeManager.php:77
+msgid "Edit"
+msgstr "Editar"
+
+#: src/PostTypeManager.php:25
+msgid "Add Download"
+msgstr "Añadir descarga"
+
+#: src/PostTypeManager.php:24 src/PostTypeManager.php:75
+msgid "Add New"
+msgstr "Añadir nueva"
+
+#: src/PostTypeManager.php:22
+msgid "Downloads"
+msgstr "Descargas"
+
+#: src/PostTypeManager.php:21
+msgid "All Downloads"
+msgstr "Todas las descargas"
+
+#: src/Installer.php:172 src/Installer.php:181
+msgid "No Access"
+msgstr "Sin acceso"
+
+#: src/DownloadHandler.php:553 src/DownloadHandler.php:555
+msgid "File not found."
+msgstr "Archivo no encontrado."
+
+#: src/DownloadHandler.php:548
+msgid "Redirected to remote file."
+msgstr "Redirigido al archivo remoto."
+
+#: src/DownloadHandler.php:477 src/DownloadHandler.php:495
+#: src/DownloadHandler.php:502 src/DownloadHandler.php:509
+msgid "Redirected to file"
+msgstr "Redirigido al archivo"
+
+#: src/DownloadHandler.php:397 src/DownloadHandler.php:405
+msgid "No file paths defined."
+msgstr "No se ha definido una dirección de archivo."
+
+#: src/DownloadHandler.php:320 src/DownloadHandler.php:397
+#: src/DownloadHandler.php:405 src/DownloadHandler.php:441
+#: src/DownloadHandler.php:555
+msgid "Download Error"
+msgstr "Error en la descarga"
+
+#: src/DownloadHandler.php:320 src/DownloadHandler.php:397
+#: src/DownloadHandler.php:405 src/DownloadHandler.php:555
+msgid "Go to homepage &rarr;"
+msgstr "Ir a la página web &rarr;"
+
+#: src/DownloadHandler.php:320
+msgid "Download does not exist."
+msgstr "La descarga no existe."
+
+#: src/DownloadHandler.php:314
+msgid "Password Required"
+msgstr "Necesaria contraseña"
+
+#: assets/views/meta-box/version.php:77
+msgid "m"
+msgstr "m"
+
+#: assets/views/meta-box/version.php:74
+msgid "h"
+msgstr "h"
+
+#: assets/views/meta-box/version.php:71
+msgid "File Date"
+msgstr "Fecha del archivo"
+
+#: assets/views/meta-box/version.php:44
+msgid "Browse for file"
+msgstr "Buscar archivo"
+
+#: assets/views/meta-box/version.php:40
+msgid "Insert file URL"
+msgstr "Introduce la dirección URL del archivo"
+
+#: assets/views/meta-box/version.php:39
+msgid "Choose a file"
+msgstr "Selecciona un archivo"
+
+#: assets/views/meta-box/version.php:37
+msgid "Upload file"
+msgstr "Subir archivo"
+
+#: assets/views/meta-box/version.php:31
+msgid "Enter one file path/URL per line - multiple files will be used as mirrors (chosen at random)."
+msgstr "Introduce una dirección a archivo/dirección URL por línea; si hay varios archivos se utilizarán como descargas alternativas (elegidas al azar)."
+
+#: assets/views/meta-box/version.php:28
+msgid "File URL(s)"
+msgstr "Dirección(es) URL del archivo"
+
+#: assets/views/meta-box/version.php:10
+msgid "Downloaded %s time"
+msgid_plural "Downloaded %s times"
+msgstr[0] "Descargado %s vez"
+msgstr[1] "Descargado %s veces"
+
+#: assets/views/meta-box/version.php:10 assets/views/meta-box/version.php:24
+msgid "n/a"
+msgstr "No disponible"
+
+#: assets/views/meta-box/version.php:10
+msgid "Version <span class=\"version\">%s</span> (%s)"
+msgstr "Versión <span class=\"version\">%s</span> (%s)"
+
+#: assets/views/meta-box/version.php:9
+msgid "Click to toggle"
+msgstr "Pulsa para alternar"
+
+#: assets/views/meta-box/version.php:8
+msgid "Remove"
+msgstr "Eliminar"
+
+#: src/Logs/LoggingListTable.php:329
+msgid "Filter"
+msgstr "Filtro"
+
+#: src/Logs/LoggingListTable.php:325
+msgid "Show All"
+msgstr "Mostrar todo"
+
+#: src/Logs/LoggingListTable.php:323
+msgid "200 per page"
+msgstr "200 por página"
+
+#: src/Logs/LoggingListTable.php:321
+msgid "100 per page"
+msgstr "100 por página"
+
+#: src/Logs/LoggingListTable.php:319
+msgid "50 per page"
+msgstr "50 por página"
+
+#: src/Logs/LoggingListTable.php:317
+msgid "25 per page"
+msgstr "25 por página"
+
+#: src/Logs/LoggingListTable.php:291
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: src/Logs/LoggingListTable.php:277
+msgid "Show all dates"
+msgstr "Mostrar todas las fechas"
+
+#: src/Logs/LoggingListTable.php:259
+msgid "Completed"
+msgstr "Completada"
+
+#: src/Logs/LoggingListTable.php:257
+msgid "Redirected"
+msgstr "Redirigido"
+
+#: src/Logs/LoggingListTable.php:255
+msgid "Failed"
+msgstr "Fallido"
+
+#: src/Logs/LoggingListTable.php:253
+msgid "Any status"
+msgstr "Cualquier estado"
+
+#: src/Logs/LoggingListTable.php:236
+msgid "Log entries deleted"
+msgstr "Entradas del registro borradas"
+
+#: src/Logs/LoggingListTable.php:198
+msgid "IP Address"
+msgstr "Dirección IP"
+
+#: src/Logs/LoggingListTable.php:197
+msgid "User"
+msgstr "Usuario"
+
+#: src/Logs/LoggingListTable.php:163
+msgid "Non-member"
+msgstr "Externo"
+
+#: src/Logs/LoggingListTable.php:129
+msgid "Download #%d (no longer exists)"
+msgstr "Descarga #%d (ya no existe)"
+
+#: src/Logs/LoggingListTable.php:102
+msgid "%s ago"
+msgstr "Hace %s"
+
+#: src/Logs/LoggingListTable.php:94
+msgid "Download Complete"
+msgstr "Descarga completada"
+
+#: src/Logs/LoggingListTable.php:67
+msgid "Delete"
+msgstr "Borrar"
+
+#: src/Admin/Admin.php:275
+msgid "If you like %sDownload Monitor%s please leave us a %s★★★★★%s rating. A huge thank you from us in advance!"
+msgstr "Si te gusta %sDownload Monitor%s, por favor, déjanos una puntuación de %s★★★★★%s. ¡Nuestro más enorme agradecimiento por adelantado!"
+
+#: src/Logs/LogExportCSV.php:77
+msgid "Status"
+msgstr "Estado"
+
+#: src/Logs/LogExportCSV.php:76 src/Logs/LoggingListTable.php:200
+msgid "Date"
+msgstr "Fecha"
+
+#: src/Logs/LogExportCSV.php:75 src/Logs/LoggingListTable.php:199
+msgid "User Agent"
+msgstr "Agente del usuario"
+
+#: src/Logs/LogExportCSV.php:74
+msgid "User IP"
+msgstr "IP del usuario"
+
+#: src/Logs/LogExportCSV.php:73
+msgid "User Email"
+msgstr "Email del usuario"
+
+#: src/Logs/LogExportCSV.php:72
+msgid "User Login"
+msgstr "Nombre del usuario"
+
+#: src/Logs/LogExportCSV.php:71
+msgid "User ID"
+msgstr "ID del usuario"
+
+#: src/Logs/LogExportCSV.php:70
+msgid "Filename"
+msgstr "Nombre del archivo"
+
+#: src/Logs/LogExportCSV.php:69
+msgid "Version ID"
+msgstr "ID de la versión"
+
+#: src/Logs/LogPage.php:84
+msgid "Delete Logs"
+msgstr "Borrar registros"
+
+#: src/Logs/LogPage.php:82
+msgid "Export CSV"
+msgstr "Exportar CSV"
+
+#: src/Logs/LogPage.php:80
+msgid "Download Logs"
+msgstr "Registros de descarga"
+
+#: src/Admin/Settings/Page.php:188
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: src/Admin/Settings/Page.php:135
+msgid "Settings successfully saved"
+msgstr "Los ajustes se han guardado correctamente"
+
+#: src/Admin/Settings/Page.php:46
+msgid "Please add the following rules to your nginx config to disable direct file access: %s"
+msgstr "Por favor, añade las siguientes reglas al archivo de configuración de nginx para desactivar el acceso directo a archivos: %s"
+
+#: src/Admin/Settings/Page.php:45
+msgid "Because your server is running on nginx, our .htaccess file can't protect your downloads."
+msgstr "Como tu servidor se ejecuta en nginx nuestro archivo .htaccess no puede proteger tus descargas."
+
+#: src/Admin/Admin.php:225 src/DLM.php:235
+msgid "Extensions"
+msgstr "Extensiones"
+
+#: src/Admin/Settings/Page.php:22 src/DLM.php:234
+msgid "Settings"
+msgstr "Ajustes"
+
+#: src/Logs/LogPage.php:23
+msgid "Logs"
+msgstr "Registros"
+
+#: src/Admin/Settings/Settings.php:246
+msgid "Blacklist user agents"
+msgstr "Agentes de usuario en lista negra"
+
+#: src/Admin/Settings/Settings.php:239
+msgid "List IP Addresses to blacklist, 1 per line. Use IP/CIDR netmask format for ranges. IPv4 examples: <code>198.51.100.1</code> or <code>198.51.100.0/24</code>. IPv6 examples: <code>2001:db8::1</code> or <code>2001:db8::/32</code>."
+msgstr "Lista de direcciones IP para añadir a la lista negra, 1 por línea. Usa el formato de máscara de red IP/CIDR para aplicar a rangos. Ejemplos IPv4: <code>198.51.100.1</code> o <code>198.51.100.0/24</code>. Ejemplos IPv6: <code>2001:db8::1</code> o <code>2001:db8::/32</code>."
+
+#: src/Admin/Settings/Settings.php:238
+msgid "Blacklist IPs"
+msgstr "IPs en lista negra"
+
+#: src/Admin/Settings/Settings.php:232
+msgid "The message that will be displayed to visitors when they don't have access to a file."
+msgstr "El mensaje que se mostrará a los visitantes cuando no tengan acceso a un archivo."
+
+#: src/Admin/Settings/Settings.php:231
+msgid "No access message"
+msgstr "Mensaje de no acceso"
+
+#: src/Admin/Settings/Settings.php:229 src/Installer.php:38
+#: src/UpgradeManager.php:55
+msgid "You do not have permission to access this download. %sGo to homepage%s"
+msgstr "No tienes suficientes permisos para acceder a esta descarga. %sVe a la portada%s"
+
+#: src/Admin/Settings/Settings.php:223
+msgid "Choose what page is displayed when the user has no access to a file. Don't forget to add the <code>[dlm_no_access]</code> shortcode to the page."
+msgstr "Elige qué página se mostrará cuando el usuario no tenga acceso a un archivo. No olvides añadr el shortcode <code>[dlm_no_access]</code> a la página."
+
+#: src/Admin/Settings/Settings.php:222
+msgid "No Access Page"
+msgstr "Página de no acceso"
+
+#: src/Admin/Settings/Settings.php:217
+msgid "Access"
+msgstr "Acceso"
+
+#: src/Admin/Settings/Settings.php:209
+msgid "Count unique IPs only"
+msgstr "Contar solamente las IPs únicas"
+
+#: src/Admin/Settings/Settings.php:183
+msgid "Log download attempts, IP addresses and more."
+msgstr "Registrar los intentos de descargas, las direcciones IP y más."
+
+#: src/Admin/Settings/Settings.php:182
+msgid "Download Log"
+msgstr "Registro de descargas"
+
+#: src/Admin/Settings/Settings.php:176
+msgid "Logging"
+msgstr "Registros"
+
+#: src/Admin/Settings/Settings.php:162 src/Admin/Settings/Settings.php:170
+msgid "Hashes can optionally be output via shortcodes, but may cause performance issues with large files."
+msgstr "Los hashes pueden exportarse de forma opcional a través de shortcodes, pero podrían provocar problemas de rendimiento con archivos grandes."
+
+#: src/Admin/Settings/Settings.php:169
+msgid "Generate CRC32B hash for uploaded files"
+msgstr "Genera un hash CRC32B para los archivos guardados"
+
+#: src/Admin/Settings/Settings.php:168
+msgid "CRC32B hashes"
+msgstr "Hash CRC32B"
+
+#: src/Admin/Settings/Settings.php:153
+msgid "Generate SHA1 hash for uploaded files"
+msgstr "Genera un hash SHA1 para los archivos guardados"
+
+#: src/Admin/Settings/Settings.php:152
+msgid "SHA1 hashes"
+msgstr "Hash SHA1"
+
+#: src/Admin/Settings/Settings.php:145
+msgid "Generate MD5 hash for uploaded files"
+msgstr "Genera un hash MD5 para los archivos guardados"
+
+#: src/Admin/Settings/Settings.php:144
+msgid "MD5 hashes"
+msgstr "Hash MD5"
+
+#: src/Admin/Settings/Settings.php:134
+msgid "Hashes"
+msgstr "Hashes"
+
+#: src/Admin/Settings/Settings.php:128
+msgid "Download slug"
+msgstr "Slug de descarga"
+
+#: src/Admin/Settings/Settings.php:127 src/Logs/LogExportCSV.php:67
+msgid "Download ID"
+msgstr "ID de descarga"
+
+#: src/Admin/Settings/Settings.php:124
+msgid "Define what unique value should be used on the end of your endpoint to identify the downloadable file. e.g. ID would give a link like <code>%s</code>"
+msgstr "Define qué valor único debería utilizarse al final de tu variable para identificar el archivo descargable. Por ejemplo, una ID mostraría un enlace similar a <code>%s</code>."
+
+#: src/Admin/Settings/Settings.php:123
+msgid "Endpoint Value"
+msgstr "Valor de la variable"
+
+#: src/Admin/Settings/Settings.php:118
+msgid "Define what endpoint should be used for download links. By default this will be <code>%s</code>."
+msgstr "Define qué variable se utilizará para los enlaces de descarga. Por defecto se utilizará <code>%s</code>."
+
+#: src/Admin/Settings/Settings.php:117
+msgid "Download Endpoint"
+msgstr "Variable de la descarga"
+
+#: src/Admin/Settings/Settings.php:116
+msgid "download"
+msgstr "descarga"
+
+#: src/Admin/Settings/Settings.php:110
+msgid "Endpoint"
+msgstr "Variable"
+
+#: src/Admin/Settings/Settings.php:88
+msgid "If enabled, the download handler will check the PHP referer to see if it originated from your site and if not, redirect them to the homepage."
+msgstr "Si activas esta opción, el gestor de descargas comprobará si la referencia PHP se ha originado desde tu página web, y en caso contrario la redirigirá a la misma."
+
+#: src/Admin/Settings/Settings.php:86
+msgid "Prevent hotlinking"
+msgstr "Evitar hotlinking"
+
+#: src/Admin/Settings/Settings.php:80
+msgid "If supported, <code>X-Accel-Redirect</code> / <code>X-Sendfile</code> can be used to serve downloads instead of PHP (server requires <code>mod_xsendfile</code>)."
+msgstr "Si el servidor lo permite, se pueden distribuir las descargas a través de <code>X-Accel-Redirect</code> / <code>X-Sendfile</code> en vez de usar PHP (el servidor necesita <code>mod_xsendfile</code>)."
+
+#: src/Admin/Settings/Settings.php:79 src/Admin/Settings/Settings.php:87
+#: src/Admin/Settings/Settings.php:95 src/Admin/Settings/Settings.php:103
+#: src/Admin/Settings/Settings.php:180 src/Admin/Settings/Settings.php:202
+#: src/Admin/Settings/Settings.php:210 src/Admin/Settings/Settings.php:260
+msgid "Enable"
+msgstr "Activar"
+
+#: src/Admin/Settings/Settings.php:78
+msgid "X-Accel-Redirect / X-Sendfile"
+msgstr "X-Accel-Redirect / X-Sendfile"
+
+#: src/Admin/Settings/Settings.php:73
+msgid "Leaving this blank will use the default <code>content-download.php</code> template file. If you enter, for example, <code>button</code>, the <code>content-download-button.php</code> template will be used instead. You can add custom templates inside your theme folder."
+msgstr "Si dejas este cuadro en blanco, se utilizará el archivo de plantilla predeterminado <code>content-download.php</code>. Si, por ejemplo, escribes <code>button</code>, se utilizará en su lugar la plantilla <code>content-download-button.php</code>. Puedes añadir plantillas personalizadas dentro de la carpeta de tu tema."
+
+#: src/Admin/Settings/Settings.php:72
+msgid "Custom Template"
+msgstr "Plantilla personalizada"
+
+#: src/Admin/Settings/Settings.php:65
+msgid "Custom template"
+msgstr "Plantilla personalizada"
+
+#: src/Admin/Settings/Settings.php:64
+msgid "Version list - Lists all download versions in an unordered list"
+msgstr "Lista de versiones: Muestra todas las versiones de descarga en una lista sin ordenar."
+
+#: src/Admin/Settings/Settings.php:63
+msgid "Title - Shows download title only"
+msgstr "Título: Solo muestra el título de la descarga."
+
+#: src/Admin/Settings/Settings.php:62
+msgid "Filename - Filename and download count"
+msgstr "Nombre de archivo: Nombre de archivo y cantidad de descargas."
+
+#: src/Admin/Settings/Settings.php:61
+msgid "Box - Box showing thumbnail, title, count, filename and filesize."
+msgstr "Caja: Caja que muestra una miniatura, el título, la cantidad de descargas, el nombre del archivo y su tamaño."
+
+#: src/Admin/Settings/Settings.php:60
+msgid "Button - CSS styled button showing title and count"
+msgstr "Botón: Botón con estilo CSS que muestra el título y la cantidad de descargas."
+
+#: src/Admin/Settings/Settings.php:59
+msgid "Default - Title and count"
+msgstr "Predeterminado: Título y cantidad de descargas"
+
+#: src/Admin/Settings/Settings.php:56
+msgid "Choose which template is used for <code>[download]</code> shortcodes by default (this can be overridden by the <code>format</code> argument)."
+msgstr "Selecciona que plantilla utilizarán los códigos rápidos <code>[download]</code> de forma predeterminada (puede anularse con la cadena <code>format</code>)."
+
+#: src/Admin/Settings/Settings.php:55
+msgid "Default Template"
+msgstr "Plantilla predeterminada"
+
+#: src/Admin/Settings/Settings.php:50
+msgid "General"
+msgstr "General"
+
+#: src/Admin/Settings/Settings.php:304
+msgid "Select Page"
+msgstr "Seleccionar página"
+
+#: src/Admin/WritePanels.php:182
+msgid "Expand all"
+msgstr "Abrir todo"
+
+#: src/Admin/WritePanels.php:181
+msgid "Close all"
+msgstr "Cerrar todo"
+
+#: src/Admin/WritePanels.php:180
+msgid "Add file"
+msgstr "Añadir archivo"
+
+#: src/Admin/WritePanels.php:139
+msgid "Don't force download. If the <code>dlm_uploads</code> folder is protected you may need to move your file."
+msgstr "No fuerces la descarga. Si la carpeta <code>dlm_uploads</code> está protegida puede que tengas que mover el archivo."
+
+#: src/Admin/WritePanels.php:133
+msgid "Only logged in users will be able to access the file via a download link if this is enabled."
+msgstr "Al activar esta opción solo podrán acceder al archivo los usuarios que hayan iniciado sesión y tengan acceso al enlace de descarga."
+
+#: src/Admin/WritePanels.php:127
+msgid "Mark this download as featured. Used by shortcodes and widgets."
+msgstr "Marcar esta descarga como destacada. Utilizado por los códigos rápidos y los widgets."
+
+#: src/Admin/WritePanels.php:89
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: src/Admin/WritePanels.php:84
+msgid "URL"
+msgstr "URL"
+
+#: src/Admin/WritePanels.php:52
+msgid "Short Description"
+msgstr "Descripción breve"
+
+#: src/Admin/WritePanels.php:44
+msgid "Downloadable Files/Versions"
+msgstr "Archivos descargables/Versiones"
+
+#: src/Admin/WritePanels.php:38
+msgid "Download Options"
+msgstr "Opciones de descarga"
+
+#: src/Admin/WritePanels.php:32
+msgid "Download Information"
+msgstr "Información de la descarga"
+
+#: src/Admin/AdminScripts.php:173
+msgid "Are you sure you want to delete this file ? "
+msgstr "¿Estás seguro de querer borrar este archivo?"
+
+#: src/Admin/MediaInsert.php:354
+msgid "Please wait..."
+msgstr "Espera, por favor..."
+
+#: src/Admin/MediaInsert.php:304
+msgid "Allowed Files"
+msgstr "Archivos permitidos"
+
+#: src/Admin/MediaInsert.php:248
+msgid "Save Download"
+msgstr "Guardar descarga"
+
+#: src/Admin/MediaInsert.php:243
+msgid "Optional version number"
+msgstr "Número de versión opcional"
+
+#: src/Admin/MediaInsert.php:237
+msgid "Required title"
+msgstr "Título necesario"
+
+#: src/Admin/MediaInsert.php:235 src/Logs/LogExportCSV.php:68
+msgid "Download Title"
+msgstr "Título de la descarga"
+
+#: src/Admin/MediaInsert.php:231
+msgid "Required URL"
+msgstr "URL necesaria"
+
+#: src/Admin/MediaInsert.php:229
+msgid "Download URL"
+msgstr "URL de descarga"
+
+#: src/Admin/MediaInsert.php:224
+msgid "Enter URL manually"
+msgstr "Introducir la dirección URL manualmente"
+
+#: src/Admin/MediaInsert.php:220
+msgid "Select File"
+msgstr "Seleccionar archivo"
+
+#: src/Admin/MediaInsert.php:217
+msgctxt "Drop file here *or* select file"
+msgid "or"
+msgstr "o"
+
+#: src/Admin/MediaInsert.php:215
+msgid "Drop file here"
+msgstr "suelta aquí el archivo"
+
+#: src/Admin/MediaInsert.php:198
+msgid "Leaving this blank will use the default <code>content-download.php</code> template file. If you enter, for example, <code>image</code>, the <code>content-download-image.php</code> template will be used instead."
+msgstr "Si dejas este cuadro en blanco, se utilizará el archivo de plantilla predeterminado <code>content-download.php</code>. Si, por ejemplo, escribes <code>image</code>, se utilizará en su lugar la plantilla <code>content-download-image.php</code>."
+
+#: src/Admin/MediaInsert.php:196
+msgid "Template Name"
+msgstr "Nombre de la plantilla"
+
+#: src/Admin/MediaInsert.php:194
+msgid "Template"
+msgstr "Plantilla"
+
+#: src/Admin/MediaInsert.php:169
+msgid "Choose a download"
+msgstr "Selecciona una descarga"
+
+#: src/Admin/MediaInsert.php:137
+msgid "Error: Download was not created."
+msgstr "Error: No se ha creado la descarga."
+
+#: src/Admin/MediaInsert.php:134
+msgid "Download successfully created."
+msgstr "Descarga creada correctamente."
+
+#: src/Admin/MediaInsert.php:114
+msgid "Error: File was not created."
+msgstr "Error: No se ha creado el archivo."
+
+#: src/Admin/MediaInsert.php:67
+msgid "Quick-add download"
+msgstr "Añadir descarga rápidamente"
+
+#: src/Admin/MediaInsert.php:66 src/Admin/MediaInsert.php:204
+msgid "Insert Shortcode"
+msgstr "Insertar código rápido"
+
+#: src/Admin/AdminScripts.php:168 src/Admin/MediaInsert.php:36
+#: src/Admin/MediaInsert.php:55
+msgid "Insert Download"
+msgstr "Insertar descarga"
+
+#: src/Admin/MediaBrowser.php:108
+msgid "No files found"
+msgstr "No se han encontrado archivos"
+
+#: src/Admin/AdminScripts.php:174 src/Admin/MediaBrowser.php:34
+msgid "Browse for a file"
+msgstr "Buscar un archivo"
+
+#: src/Admin/Extensions.php:76
+msgid "Extend Download Monitor with its powerful free and paid extensions. %sClick here to browse all extensions%s"
+msgstr "Extiende Download Monitor con sus potentes extensiones de pago y gratuitas. %sHaz clic aquí para ver todas las extensiones%s"
+
+#: src/Admin/Admin.php:225 src/Admin/Extensions.php:45
+msgid "Download Monitor Extensions"
+msgstr "Extensiones de Download Monitor"
+
+#: src/Admin/Dashboard.php:73 src/Logs/LoggingListTable.php:195
+#: src/PostTypeManager.php:23
+msgid "Download"
+msgstr "Descarga"
+
+#: src/Admin/Dashboard.php:60
+msgid "There are no stats available yet!"
+msgstr "¡Aún no hay estadísticas disponibles!"
+
+#: src/Admin/Dashboard.php:23
+msgid "Popular Downloads"
+msgstr "Descargas más populares"
+
+#: src/Admin/CustomActions.php:213 src/Admin/WritePanels.php:138
+msgid "Redirect to file"
+msgstr "Redirigir al archivo"
+
+#: src/Admin/CustomActions.php:209 src/Admin/WritePanels.php:126
+msgid "Featured download"
+msgstr "Descarga destacada"
+
+#: src/Admin/CustomActions.php:207
+msgid "Download Monitor Data"
+msgstr "Datos de Download Monitor"
+
+#: src/Admin/CustomColumns.php:90 src/Admin/CustomColumns.php:97
+#: src/Admin/CustomColumns.php:104
+msgid "Yes"
+msgstr "Sí"
+
+#: src/Admin/CustomColumns.php:35
+msgid "Date posted"
+msgstr "Publicación"
+
+#: src/Admin/CustomColumns.php:34
+msgid "Redirect only"
+msgstr "Solo redirigir"
+
+#: src/Admin/CustomActions.php:211 src/Admin/CustomColumns.php:33
+#: src/Admin/WritePanels.php:132
+msgid "Members only"
+msgstr "Solo para miembros"
+
+#: src/Admin/CustomColumns.php:32
+msgid "Featured"
+msgstr "Destacado"
+
+#: assets/views/meta-box/version.php:64 src/Admin/CustomColumns.php:31
+#: src/Admin/Dashboard.php:74 src/Widgets/Downloads.php:212
+msgid "Download count"
+msgstr "Cantidad de descargas"
+
+#: src/Admin/CustomColumns.php:30 src/TaxonomyManager.php:59
+#: src/TaxonomyManager.php:62
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: src/Admin/CustomColumns.php:29 src/TaxonomyManager.php:27
+#: src/TaxonomyManager.php:30
+msgid "Categories"
+msgstr "Categorías"
+
+#: assets/views/meta-box/version.php:22 src/Admin/CustomColumns.php:28
+#: src/Admin/MediaInsert.php:241
+msgid "Version"
+msgstr "Versión"
+
+#: src/Admin/CustomColumns.php:27 src/Logs/LoggingListTable.php:196
+msgid "File"
+msgstr "Archivo"
+
+#: src/Admin/CustomColumns.php:26 src/Admin/WritePanels.php:79
+#: src/Widgets/Downloads.php:206
+msgid "ID"
+msgstr "ID"
+
+#: src/Admin/CustomColumns.php:25 src/Widgets/Downloads.php:172
+#: src/Widgets/Downloads.php:202
+msgid "Title"
+msgstr "Título"
+
+#: src/Admin/CustomColumns.php:24
+msgid "Image"
+msgstr "Imagen"
+
+#: src/Admin/CustomLabels.php:54
+msgid "Download draft updated."
+msgstr "Borrador de descarga actualizado."
+
+#: src/Admin/CustomLabels.php:53
+msgid "M j, Y @ G:i"
+msgstr "j \"\"d\"\"e F \"\"d\"\"e Y, G:i"
+
+#: src/Admin/CustomLabels.php:52
+msgid "Download scheduled for: <strong>%1$s</strong>."
+msgstr "Descarga prevista para: <strong>%1$s</strong>."
+
+#: src/Admin/CustomLabels.php:51
+msgid "Download submitted."
+msgstr "Descarga enviada."
+
+#: src/Admin/CustomLabels.php:50
+msgid "Download saved."
+msgstr "Descarga guardada."
+
+#: src/Admin/CustomLabels.php:49
+msgid "Download published."
+msgstr "Descarga publicada."
+
+#: src/Admin/CustomLabels.php:48
+msgid "Download restored to revision from %s"
+msgstr "Descarga recuperada desde la revisión %s"
+
+#: src/Admin/CustomLabels.php:46
+msgid "Custom field deleted."
+msgstr "Apartado personalizado eliminado."
+
+#: src/Admin/CustomLabels.php:45
+msgid "Custom field updated."
+msgstr "Apartado personalizado actualizado."
+
+#: src/Admin/CustomLabels.php:44 src/Admin/CustomLabels.php:47
+msgid "Download updated."
+msgstr "Descarga actualizada."
+
+#: src/Admin/CustomLabels.php:24
+msgid "Download title"
+msgstr "Título de la descarga"
+
+#: src/Admin/CustomActions.php:61
+msgid "Select a category"
+msgstr "Selecciona una categoría"

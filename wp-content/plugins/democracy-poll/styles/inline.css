@@ -1,0 +1,34 @@
+@import '_preset.css';
+
+/* flat theme -------------------------------------------------------------- */
+.dem-poll-title{ text-align:center; }
+
+.dem-link{ display:inline-block; margin:0.8em 0; }
+.dem-link{ font-size:90%; }
+
+
+/* vote screen */
+.dem-vote-link:before{ content:'◂ '; }
+
+.dem-vote label{ opacity:0.9; }
+.dem-vote label:hover{ opacity:1; }
+
+.dem-results-link{ display:block; }
+
+
+/* results screen */
+.dem-graph{ background-color: #f2f2f2; background-color: rgba(0,0,0,.1); height:.4em; line-height:.4em; }
+
+.dem-voted-this{ font-weight: bold; }
+
+.dem-label-percent-txt{ display:inline; font-size:80%; opacity:0.8; }
+.dem-label-percent-txt:before{ content:'('; }
+.dem-label-percent-txt:after{ content:')'; }
+
+.dem-votes-txt,
+.dem-percent-txt{ display:none; }
+
+/* / flat theme -------------------------------------------------------------- */
+
+
+

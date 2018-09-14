@@ -1,0 +1,571 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+
+#: include/traits/admin_menu.php:158
+#, php-format
+msgid "A list of custom post types that have broadcasting enabled. The default value is %s."
+msgstr "Lista prilagođenih vrsta posta koji imaju aktivirano emitovanje. Podrazumevana vrednost je %s."
+
+#: include/traits/admin_menu.php:328
+msgid "Action to take when attachments with the same filename already exist on the child blog."
+msgstr "Aktivnost koju treba preduzeti kad prilozi sa istim nazivom datoteke već postoje u podređenom blogu. "
+
+#: include/traits/admin_menu.php:313
+msgid "Blogs to hide"
+msgstr "Blogovi koje treba sakriti"
+
+#: include/traits/admin_menu.php:208 include/traits/admin_menu.php:519
+#: include/traits/meta_boxes.php:29 include/traits/post_actions.php:60
+msgid "Broadcast"
+msgstr "Emituj"
+
+#: include/traits/admin_menu.php:262
+msgid "Broadcast all fields, including those beginning with underscores."
+msgstr "Emituj sva polja, uključujući i ona koja počinju donjim crtama."
+
+#: include/traits/admin_menu.php:232
+msgid "Broadcast as draft"
+msgstr "Emituj kao skicu"
+
+#: include/traits/admin_menu.php:220
+msgid "Broadcast custom fields"
+msgstr "Emituj prilagođena polja"
+
+#: include/traits/admin_menu.php:470
+msgid "Broadcast information"
+msgstr "Emituj podatke"
+
+#: include/traits/admin_menu.php:263
+msgid "Broadcast internal custom fields"
+msgstr "Emituj interna prilagođena polja"
+
+#: include/traits/meta_boxes.php:99
+msgid "Broadcast is in debug mode. More information than usual will be shown."
+msgstr "Emitovanje je u režimu otklanjanja grešaka. Biće prikazano više podataka nego obično."
+
+#: include/traits/meta_boxes.php:104
+msgid "Broadcast is not preparing the meta box because it has already been applied."
+msgstr "Emitovanje ne priprema meta-okvir jer je već primenjen."
+
+#: include/ThreeWP_Broadcast.php:90
+msgid "Broadcast requires a Wordpress network to function."
+msgstr "Da bi emitovanje funkcionisalo, potrebna je Wordpress mreža."
+
+#: include/traits/admin_menu.php:238
+msgid "Broadcast scheduled posts"
+msgstr "Emituj planirane postove"
+
+#: include/traits/admin_menu.php:226
+msgid "Broadcast taxonomies"
+msgstr "Emituj taksonomije"
+
+#: include/traits/meta_boxes.php:191
+msgid "Broadcast to"
+msgstr "Emituj na"
+
+#: include/traits/post_actions.php:70
+msgid "Broadcasted"
+msgstr "Emitovano"
+
+#: include/traits/admin_menu.php:252
+msgid "Canonical URL"
+msgstr "Kanonski URL"
+
+#: include/traits/admin_menu.php:251
+msgid "Child posts have their canonical URLs pointed to the URL of the parent post. This automatically disables the canonical URL from Yoast's Wordpress SEO plugin."
+msgstr "Podređeni postovi imaju svoje kanonske URL-e koji pokazuju URL nadređenog posta. Time se automatski deaktivira kanonski URL sa Yoast-ovog Wordpress SEO plugin-a."
+
+#: include/traits/admin_menu.php:300
+msgid "Clear POST"
+msgstr "Obriši POST"
+
+#: include/traits/post_actions.php:149
+msgid "Click to modify the post's linkage"
+msgstr "Kliknite da biste izmenili linkovanje posta"
+
+#: vendor/plainview/sdk/form.php:910
+msgid "Could not parse date"
+msgstr "Datum nije mogao biti parsiran"
+
+#: include/traits/meta_boxes.php:146
+msgid "Create a link to the children, which will be updated when this post is updated, trashed when this post is trashed, etc."
+msgstr "Kreirajte link za podređene postove koji će biti ažurirani kad se ažurira ovaj post, uklonjeni kad se ukloni ovaj post itd."
+
+#: include/traits/admin_menu.php:255
+msgid "Custom field handling"
+msgstr "Upravljanje prilagođenim poljem"
+
+#: include/traits/meta_boxes.php:159
+msgid "Custom fields"
+msgstr "Prilagođena polja"
+
+#: include/traits/admin_menu.php:398
+msgid "Custom post types"
+msgstr "Vrste prilagođenih polja"
+
+#: include/traits/admin_menu.php:173
+msgid "Custom post types must be specified using their internal Wordpress names on a new line each. It is not possible to automatically make a list of available post types on the whole network because of a limitation within Wordpress (the current blog knows only of its own custom post types)."
+msgstr "Vrste prilagođenih postova moraju biti navedene prema svojim internim Wordpress nazivima, svaka u novom redu. Nije moguće automatski napraviti listu raspoloživih vrsta posta na celoj mreži, zbog ograničenja u Wordpress-u (tekući blog zna samo za svoje prilagođene vrste posta)."
+
+#: include/traits/admin_menu.php:170
+msgid "Custom post types saved!"
+msgstr "Prilagođene vrste posta sačuvane!"
+
+#: include/traits/admin_menu.php:156
+msgid "Custom post types to broadcast"
+msgstr "Prilagođene vrste posta za emitovanje"
+
+#: vendor/plainview/sdk/form.php:397
+msgid "DD"
+msgstr "DD"
+
+#: vendor/plainview/sdk/form.php:402
+msgid "Date format"
+msgstr "Format datuma"
+
+#: include/traits/admin_menu.php:428
+msgid "Delete all child posts"
+msgstr "Obriši sve podređene postove"
+
+#: include/traits/admin_menu.php:429
+msgid "Delete all children"
+msgstr "Obriši sve podređene"
+
+#: include/traits/admin_menu.php:424
+msgid "Delete child"
+msgstr "Obriši podređeni"
+
+#: include/traits/post_actions.php:127
+msgid "Delete children"
+msgstr "Obriši podređene"
+
+#: include/traits/admin_menu.php:423
+msgid "Delete the child post"
+msgstr "Obriši podređeni post"
+
+#: vendor/plainview/sdk/form.php:369
+msgid "Description"
+msgstr "Opis"
+
+#: include/traits/admin_menu.php:321
+msgid "Display in overview"
+msgstr "Prikaži u pregledu"
+
+#: include/traits/admin_menu.php:329
+msgid "Existing attachments"
+msgstr "Postojeći prilozi"
+
+#: include/traits/admin_menu.php:433 include/traits/admin_menu.php:434
+msgid "Find orphans"
+msgstr "Nađi siročiće"
+
+#: include/traits/post_actions.php:128
+msgid "Find unlinked children"
+msgstr "Nađi nepovezane podređene"
+
+#: vendor/plainview/sdk/form.php:398
+msgid "HH"
+msgstr "HH"
+
+#: include/traits/admin_menu.php:320
+msgid "How many children to display in the overview before making the list into a summary."
+msgstr "Koliko podređenih postova treba prikazati u pregledu pre nego što se lista pretvori u sadržaj. "
+
+#: include/traits/admin_menu.php:312
+msgid "In the broadcast meta box, after how many blogs the list should be auto-hidden."
+msgstr "U meta-okviru za emitovanje - posle koliko blogova lista treba da se automatski sakrije?"
+
+#: include/traits/admin_menu.php:270
+msgid "Internal field blacklist"
+msgstr "Crna lista internih polja"
+
+#: include/traits/admin_menu.php:279
+msgid "Internal field protectlist"
+msgstr "Lista zaštićenih internih polja"
+
+#: include/traits/admin_menu.php:288
+msgid "Internal field whitelist"
+msgstr "Bela lista internih polja"
+
+#: vendor/plainview/sdk/form.php:917
+msgid "Invalid date"
+msgstr "Nevažeći datum"
+
+#: vendor/plainview/sdk/form.php:900
+msgid "Invalid email address"
+msgstr "Nevažeća mail adresa"
+
+#: include/traits/meta_boxes.php:179
+msgid "Invert selection"
+msgstr "Obrni selekciju"
+
+#: vendor/plainview/sdk/form.php:405
+msgid "Latest valid date"
+msgstr "Najnoviji validan datum"
+
+#: include/traits/meta_boxes.php:145
+msgid "Link this post to its children"
+msgstr "Poveži ovaj post sa podređenim postovima"
+
+#: include/traits/admin_menu.php:214
+msgid "Link to child posts"
+msgstr "Poveži sa podređenim postom"
+
+#: vendor/plainview/sdk/form.php:396 vendor/plainview/sdk/form.php:399
+msgid "MM"
+msgstr "MM"
+
+#: include/traits/admin_menu.php:399
+msgid "Maintenance"
+msgstr "Održavanje"
+
+#: vendor/plainview/sdk/form.php:391
+msgid "Minimum length"
+msgstr "Najmanja dužina"
+
+#: include/traits/admin_menu.php:296
+msgid "Miscellaneous"
+msgstr "Razno"
+
+#: include/traits/post_actions.php:466
+msgid "No change"
+msgstr "Bez promene"
+
+#: vendor/plainview/sdk/form2/inputs/radios.php:59
+#: vendor/plainview/sdk/form2/inputs/traits/validation.php:182
+#, php-format
+msgid "Please fill in %s."
+msgstr "Molimo vas da popunite %s"
+
+#: include/traits/meta_boxes.php:259
+msgid "Plugins that have hooked into save_post:"
+msgstr "Dodaci koji su zakačeni na sačuvaj_post:"
+
+#: include/traits/post_actions.php:61
+msgid "Post actions"
+msgstr "Aktivnosti posta"
+
+#: include/traits/admin_menu.php:490
+msgid "Premium Pack"
+msgstr "Premium paket"
+
+#: include/traits/admin_menu.php:489
+msgid "Premium Pack info"
+msgstr "Informacije o Premium paketu"
+
+#: vendor/plainview/sdk/form.php:326
+msgid "Required field"
+msgstr "Obavezno polje"
+
+#: include/traits/admin_menu.php:444
+msgid "Restore all"
+msgstr "Vrati sve"
+
+#: include/traits/admin_menu.php:443
+msgid "Restore all of the child posts from the trash"
+msgstr "Vrati sve podređene postove iz korpe za otpatke"
+
+#: include/traits/admin_menu.php:439
+msgid "Restore child"
+msgstr "Vrati podređeni"
+
+#: include/traits/post_actions.php:129
+msgid "Restore children"
+msgstr "Vrati podređene"
+
+#: include/traits/admin_menu.php:438
+msgid "Restore the child post from the trash"
+msgstr "Vrati podređene postove iz korpe za otpatke"
+
+#: include/traits/admin_menu.php:203
+msgid "Roles"
+msgstr "Uloge"
+
+#: include/traits/admin_menu.php:242
+msgid "SEO"
+msgstr "SEO"
+
+#: vendor/plainview/sdk/form.php:400
+msgid "SS"
+msgstr "SS"
+
+#: include/traits/admin_menu.php:339
+msgid "Save settings"
+msgstr "Sačuvaj izmene"
+
+#: include/traits/admin_menu.php:162
+msgid "Save the broadcastable custom post types"
+msgstr "Sačuvaj prilagođene vrste postova koji se mogu emitovati"
+
+#: include/traits/meta_boxes.php:180
+msgid "Select / deselect all"
+msgstr "Odaberi sve/Poništi odabir svega"
+
+#: include/traits/admin_menu.php:397
+msgid "Settings"
+msgstr "Podešavanja"
+
+#: include/traits/post_actions.php:70
+msgid "Shows which blogs have posts linked to this one"
+msgstr "Pokazuje koji blogovi imaju postove povezane sa ovim"
+
+#: include/traits/admin_menu.php:258
+msgid "Some custom fields start with underscores. They are generally Wordpress internal fields and therefore not broadcasted. Some plugins store their information as underscored custom fields. If you wish them, or some of them, to be broadcasted, use either of the options below."
+msgstr "Neka prilagođena polja počinju donjim crtama. Obično su to Wordpress interna polja i zato se ne emituju. Neki dodaci čuvaju svoje podatke kao prilagođena polja sa donjim crtama. Ako želite da se ta polja, ili bar neka od njih, emituju, koristite bilo koju od navedenih opcija."
+
+#: vendor/plainview/sdk/wordpress/base.php:541
+msgid "Super admin"
+msgstr "Super admin"
+
+#: include/traits/meta_boxes.php:169
+msgid "Taxonomies"
+msgstr "Taksonomije"
+
+#: include/traits/admin_menu.php:299
+msgid "The POST PHP variable is data sent when updating posts. Most plugins are fine if the POST is cleared before broadcasting, while others require that the data remains intact. Uncheck this setting if you notice that child posts are not being treated the same on the child blogs as they are on the parent blog."
+msgstr "POST PHP varijabla predstavlja podatke poslate prilikom ažuriranja postova. Za većinu dodataka u redu je ako se POST obriše pre emitovanja, dok ostali zahtevaju da podaci ostanu netaknuti. Deaktivirajte ovo podešavanje ako primetite da podređeni postovi nisu tretirani na isti način na podređenim blogovima kao na nadređenom blogu."
+
+#: include/traits/admin_menu.php:207
+msgid "The broadcast access role is the user role required to use the broadcast function at all."
+msgstr "Uloga pristupa emitovanju predstavlja korisničku ulogu neophodnu da bi emitovanje uopšte funkcionisalo. "
+
+#: include/traits/admin_menu.php:176
+#, php-format
+msgid "The custom post types registered on <em>this</em> blog are: <code>%s</code>"
+msgstr "Vrste prilagođenih postova registrovanih na <em>ovom</em> blogu su: <code>%s</code>"
+
+#: include/traits/admin_menu.php:293
+#, php-format
+msgid "The default whitelist is: %s"
+msgstr "Podrazumevana bela lista je: %s"
+
+#: vendor/plainview/sdk/form2/inputs/email.php:29
+#, php-format
+msgid "The e-mail address in %s is not valid!"
+msgstr "Mail adresa na %s nije važeća!"
+
+#: vendor/plainview/sdk/wordpress/base.php:368
+#, php-format
+msgid "The plugin and all associated settings and database tables have been removed. Please %sfollow this link to complete the uninstallation procedure%s."
+msgstr "Plugin, sve odgovarajuće postavke i tabele baze podataka su uklonjene. Pratite %s ovaj link da biste dovršili instalaciju."
+
+#: include/traits/admin_menu.php:304
+msgid "The priority for the save_post hook. Should be after all other plugins have finished modifying the post. Default is 640."
+msgstr "Prioritet za udicu sačuvaj_post. Treba da dođe na red tek kad svi ostali dodaci završe menjanje posta. Podrazumevani je 640."
+
+#: vendor/plainview/sdk/form2/inputs/traits/maxlength.php:31
+#, php-format
+msgid "The text in %s is too long!"
+msgstr "Tekst u %s je predugačak!"
+
+#: vendor/plainview/sdk/form2/inputs/traits/minlength.php:42
+#, php-format
+msgid "The text in %s is too short!"
+msgstr "Tekst u %s je prekratak!"
+
+#: vendor/plainview/sdk/form2/inputs/traits/max.php:34
+#, php-format
+msgid "The value in %s (%s) is larger than the allowed maximum of %s."
+msgstr "Vrednost u %s (%s) premašuje dozvoljeni maksimum od %s."
+
+#: vendor/plainview/sdk/form2/inputs/traits/min.php:34
+#, php-format
+msgid "The value in %s (%s) is smaller than the allowed minimum of %s."
+msgstr "Vrednost u %s (%s) manja je od dozvoljenog minimuma od %s."
+
+#: vendor/plainview/sdk/form.php:385
+msgid "The value must be larger than or equal to"
+msgstr "Vrednost mora biti veća od ili jednaka"
+
+#: vendor/plainview/sdk/form.php:387
+msgid "The value must be smaller or equal to"
+msgstr "Vrednost mora biti manja od ili jednaka"
+
+#: vendor/plainview/sdk/wordpress/base.php:369
+msgid "This link will take you to the index page"
+msgstr "Ovaj link će vas odvesti do početne stranice"
+
+#: vendor/plainview/sdk/wordpress/base.php:344
+msgid "This page will remove all the plugin tables and settings from the database and then deactivate the plugin."
+msgstr "Ova stranica će ukloniti sve tabele plugin-a i podešavanja iz baze podataka, a zatim će deaktivirati plugin."
+
+#: include/traits/post_actions.php:492
+msgid "This post has no broadcast links."
+msgstr "Ovaj post nema linkove za emitovanje."
+
+#: include/traits/meta_boxes.php:111
+msgid "This post is a broadcasted child post. It cannot be broadcasted further."
+msgstr "Ovaj post je emitovani podređeni post. Ne može se dalje emitovati."
+
+#: include/traits/admin_menu.php:518
+msgid "ThreeWP Broadcast"
+msgstr "ThreeWP Broadcast"
+
+#: include/traits/admin_menu.php:189
+msgid "ThreeWP Broadcast Premium Pack info"
+msgstr "ThreeWP Broadcast Premium Pack info"
+
+#: include/traits/admin_menu.php:453
+msgid "Trash all child posts"
+msgstr "Ukloni sve podređene postove"
+
+#: include/traits/admin_menu.php:454
+msgid "Trash all children"
+msgstr "Ukloni sve podređene"
+
+#: include/traits/admin_menu.php:449
+msgid "Trash child"
+msgstr "Ukloni podređeni"
+
+#: include/traits/post_actions.php:130
+msgid "Trash children"
+msgstr "Ukloni podređeni"
+
+#: include/traits/admin_menu.php:448
+msgid "Trash the child post"
+msgstr "Ukloni podređeni post"
+
+#: include/traits/admin_menu.php:400
+msgid "Uninstall"
+msgstr "Deinstaliraj"
+
+#: vendor/plainview/sdk/wordpress/base.php:351
+msgid "Uninstall plugin"
+msgstr "Deinstaliraj plugin"
+
+#: include/traits/post_actions.php:131
+msgid "Unlink"
+msgstr "Ukloni link"
+
+#: include/traits/admin_menu.php:464
+msgid "Unlink all child posts"
+msgstr "Ukloni link za sve podređene postove"
+
+#: include/traits/admin_menu.php:465
+msgid "Unlink all children"
+msgstr "Ukloni link za sve podređene"
+
+#: include/traits/admin_menu.php:459
+msgid "Unlink child"
+msgstr "Ukloni link za podređeni"
+
+#: include/traits/admin_menu.php:458
+msgid "Unlink the child post"
+msgstr "Ukloni link za podređeni post"
+
+#: include/traits/post_actions.php:454
+msgid "Unlink this post from its parent."
+msgstr "Ukloni ovaj post od svog nadređenog."
+
+#: include/traits/admin_menu.php:247
+msgid "Use parent permalink"
+msgstr "Koristi nadređeni permalink."
+
+#: include/traits/admin_menu.php:246
+msgid "Use the parent post's permalink for the children. If checked, child posts will link back to the parent post."
+msgstr "Koristite permalink nadređenog posta za podređene postove. Ako je ova opcija štiklirana, podređeni postovi ponovo će biti povezani sa nadređenim postom."
+
+#: vendor/plainview/sdk/form.php:389
+msgid "Valid values"
+msgstr "Važeće vrednosti"
+
+#: include/traits/admin_menu.php:213
+msgid "When a post is linked with broadcasted posts, the child posts are updated / deleted when the parent is updated."
+msgstr "Kad je post povezan sa emitovanim postovima, podređeni postovi se ažuriraju/brišu kad se ažurira nadređeni post."
+
+#: include/traits/admin_menu.php:278
+msgid "When broadcasting internal custom fields, do not overwrite the following fields on the child blogs."
+msgstr "Prilikom emitovanja internih prilagođenih polja, nemoj poništiti sledeća polja na podređenim blogovima."
+
+#: include/traits/admin_menu.php:269
+msgid "When broadcasting internal custom fields, override and do not broadcast these fields."
+msgstr "Prilikom emitovanja internih prilagođenih polja, poništi i nemoj emitovati sledeća polja."
+
+#: include/traits/admin_menu.php:287
+msgid "When not broadcasting internal custom fields, override and broadcast these fields."
+msgstr "Ako se prilagođena interna polja ne emituju, poništi i emituj sledeća polja."
+
+#: include/traits/admin_menu.php:219
+msgid "Which role is needed to allow custom field broadcasting?"
+msgstr "Koja uloga je potrebna za odobravanje emitovanja prilagođenog polja?"
+
+#: include/traits/admin_menu.php:225
+msgid "Which role is needed to allow taxonomy broadcasting? The taxonomies must have the same slug on all blogs."
+msgstr "Koja uloga je potrebna za odobravanje emitovanja taksonomije? Taksonomije moraju da imaju isti slug na svim blogovima."
+
+#: include/traits/admin_menu.php:231
+msgid "Which role is needed to broadcast drafts?"
+msgstr "Koja uloga je potrebna za emitovanje skica?"
+
+#: include/traits/admin_menu.php:237
+msgid "Which role is needed to broadcast scheduled (future) posts?"
+msgstr "Koja uloga je potrebna za emitovanje planiranih (budućih) postova?"
+
+#: vendor/plainview/sdk/form.php:401
+msgid "YYYY"
+msgstr "YYYY"
+
+#: vendor/plainview/sdk/wordpress/base.php:347
+msgid "Yes, I'm sure I want to remove all the plugin tables and settings."
+msgstr "Da, siguran sam da hoću da uklonim sve tabele i podešavanja plugin-a."
+
+#: vendor/plainview/sdk/wordpress/base.php:359
+msgid "You have to check the checkbox in order to uninstall the plugin."
+msgstr "Morate štiklirati polje da biste deinstalirali plugin."
+
+#: vendor/plainview/sdk/form.php:391
+msgid "characters"
+msgstr "karakteri"
+
+#: vendor/plainview/sdk/form.php:927
+msgid "characters long"
+msgstr "karaktera dugačak"
+
+#: include/traits/meta_boxes.php:178
+msgid "hide all"
+msgstr "sakrij sve"
+
+#: vendor/plainview/sdk/form.php:957
+msgid "may not be empty"
+msgstr "ne može da bude prazan"
+
+#: vendor/plainview/sdk/form.php:951
+msgid "may not be larger than"
+msgstr "ne može da bude veći od"
+
+#: vendor/plainview/sdk/form.php:939
+msgid "may not be smaller than"
+msgstr "ne može da bude manji od"
+
+#: vendor/plainview/sdk/form.php:927
+msgid "must be at least"
+msgstr "mora biti bar"
+
+#: vendor/plainview/sdk/wordpress/base.php:2041
+msgid "no"
+msgstr "ne"
+
+#: include/traits/admin_menu.php:305
+msgid "save_post priority"
+msgstr "sačuvaj_prioritet posta"
+
+#: include/traits/meta_boxes.php:181
+msgid "show all"
+msgstr "prikaži sve"
+
+#: vendor/plainview/sdk/form.php:389
+msgid "to"
+msgstr "na"
+
+#: vendor/plainview/sdk/wordpress/base.php:2041
+msgid "yes"
+msgstr "da"

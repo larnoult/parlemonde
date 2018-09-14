@@ -1,0 +1,32 @@
+<style type="text/css">
+.dem-lines {
+  width:60px;
+  height:40px;
+    
+  margin: 0 auto; text-align: center; font-size:.7em;
+}
+
+.dem-lines > div {
+  background-color: #8f2eba;
+  height: 100%;
+  width:6px;
+  display: inline-block;
+  
+  -webkit-animation: stretchdelay 1.2s infinite ease-in-out; animation: stretchdelay 1.2s infinite ease-in-out;
+}
+
+.dem-lines .rect2 { -webkit-animation-delay: -1.1s; animation-delay: -1.1s; }
+.dem-lines .rect3 { -webkit-animation-delay: -1.0s; animation-delay: -1.0s; }
+.dem-lines .rect4 { -webkit-animation-delay: -0.9s; animation-delay: -0.9s; }
+.dem-lines .rect5 { -webkit-animation-delay: -0.8s; animation-delay: -0.8s; }
+@-webkit-keyframes stretchdelay { 0%, 40%, 100% { -webkit-transform: scaleY(0.4) } 20% { -webkit-transform: scaleY(1.0) } }
+@keyframes stretchdelay { 0%, 40%, 100% { transform: scaleY(0.4); -webkit-transform: scaleY(0.4); }  20% { transform: scaleY(1.0); -webkit-transform: scaleY(1.0); } }
+</style>
+
+<div class="dem-lines">
+  <div class="rect1 css-fill"></div>
+  <div class="rect2 css-fill"></div>
+  <div class="rect3 css-fill"></div>
+  <div class="rect4 css-fill"></div>
+  <div class="rect5 css-fill"></div>
+</div>

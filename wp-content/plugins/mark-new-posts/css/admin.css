@@ -1,0 +1,112 @@
+.mnp-options {
+	width: 450px;
+	margin-top: 10px;
+	padding: 17px 15px;
+	border: 1px solid #359;
+	white-space: nowrap;
+	background-color: #fff;
+}
+
+.mnp-options input,
+.mnp-options select {
+	border: 1px solid #359;
+}
+
+.mnp-title {
+	color: #348;
+	font-size: 20px;
+}
+
+.mnp-row {
+	margin: 0 0 5px 25px;
+}
+
+.mnp-divider {
+	margin-top: 20px;
+}
+
+.mnp-col {
+	display: inline-block;
+	width: 250px;
+	white-space: normal;
+	vertical-align: middle;
+}
+
+.mnp-col:first-child {
+	width: 150px;
+	margin-right: 5px;
+	text-align: right;
+}
+
+.mnp-input {
+	width: 97%;
+}
+
+#mnp-post-stays-new-days {
+	width: 40px;
+	margin: -5px 0;
+}
+
+.mnp-radio {
+	margin-top: 3px;
+}
+
+.mnp-radio label {
+	padding-left: 2px;
+}
+
+.mnp-note {
+	font-size: 12px;
+	color: #e70;
+	white-space: normal;
+}
+
+.mnp-buttons-set {
+	float: right;
+}
+
+.mnp-button {
+	width: 100px;
+	height: 30px;
+	border: 0;
+	padding: 5px 10px;
+	color: #fff;
+}
+
+.mnp-button:not(:disabled) {
+	cursor: pointer;
+}
+
+.mnp-button-green {
+	background-color: #482;
+}
+
+.mnp-button-blue {
+	background-color: #359;
+}
+
+.mnp-button-green:not(:disabled):hover {
+	background-color: #593;
+}
+
+.mnp-button-blue:not(:disabled):hover {
+	background-color: #46a;
+}
+
+.mnp-message {
+	display: none;
+	float: right;
+	margin: 10px 5px 0 0;
+}
+
+.mnp-success {
+	color: #0a0;
+}
+
+.mnp-error {
+	color: #a00;
+}
+
+.mnp-clearfix {
+	clear: both;
+}

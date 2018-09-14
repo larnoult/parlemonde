@@ -1,0 +1,45 @@
+@import '_preset.css';
+
+/* default theme ------------------------------------------------------------- */
+.dem-link{ font-style:italic; font-size:90%; }
+
+/* vote screen */
+.dem-vote-link:before{ content:'◂ '; }
+
+.dem-vote label{  }
+.dem-vote label:hover{ opacity:.8; }
+
+.dem-vote-button{ float:left; }
+.dem-results-link{ float:right; }
+
+/* results screen */
+.dem-graph{ font-family:Arial, sans-serif; background: #F7F7F7; background:linear-gradient( to bottom, rgba(0,0,0,.05) 50%, rgba(0, 0, 0, 0.1) 50% ); background:-webkit-linear-gradient( top, rgba(0,0,0,.05) 50%, rgba(0, 0, 0, 0.1) 50% ); }
+
+.dem-fill{ background-image:linear-gradient( to right, rgba(255,255,255,.3), transparent ); background-image:-webkit-linear-gradient( left, rgba(255,255,255,.3), transparent ); }
+
+.dem-answers .dem-label{ margin-bottom:.1em; }
+
+.dem-votes-txt,
+.dem-percent-txt{ font-size:80%; }
+.dem-percent-txt{ display:none; }
+.dem-answers li:hover .dem-votes-txt { display:none; }
+.dem-answers li:hover .dem-percent-txt { display:table-cell; }
+
+.dem-voted-this .dem-label:before{ content:'✓'; display:inline-block; margin-right:.2em; }
+.dem-voted-this .dem-graph{ border-color:#969696; }
+
+.dem-label-percent-txt,
+.dem-votes-txt-percent,
+.dem-novoted .dem-votes-txt{ display:none; }
+
+/* dem-result-bottom */
+.dem-poll-info{ font-style: italic; }
+.dem-archive-link{ text-align: right; }
+
+
+/* dem-bottom */
+.dem-bottom{ text-align: left; }
+
+/* / default theme ------------------------------------------------------------- */
+
+

@@ -1,0 +1,70 @@
+<?php
+  
+  $latestNew = $this->feed['news'][0];
+  
+  
+  # Format pubDate: Month day Year
+  $latestNew['pubDate'] = date_create($latestNew['pubDate']);
+  $latestNew['pubDate'] = $latestNew['pubDate']->format('M j Y');
+  
+  # Add th for day
+  $latestNew['pubDate'] = explode(' ', $latestNew['pubDate']);
+  $latestNew['pubDate'][1] = "{$latestNew['pubDate'][1]}th";
+  $latestNew['pubDate'] = join(' ', $latestNew['pubDate']);
+?>
+<div id="cjt-statcs-metabox-news">
+	<span class="cjt_dw_latestnewstitle"><span class="cjt-pub-date"><?php echo $latestNew['pubDate'] ?></span>,&nbsp;&nbsp;<?php echo cssJSToolbox::getText('Latest News:') ?> <a target="_blank" href="<?php echo $latestNew['link'] ?>"><?php echo $latestNew['title'] ?></a></span>
+	<p class="cjt_dw_description"><?php echo $latestNew['description'] ?></p>
+</div>
+<hr />
+<div>
+	<table id="cjt-statcs-metabox">
+		<thead>
+			<tr>
+				<th colspan="2"><strong><?php echo cssJSToolbox::getText('Total') ?></strong></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><?php echo cssJSToolbox::getText('Code Blocks') ?></td>
+				<td><strong><?php echo $this->activeBlocks ?></strong></td>
+			</tr>
+			<tr>
+				<td><?php echo cssJSToolbox::getText('Metabox Code Blocks') ?></td>
+				<td><strong><?php echo $this->activeMetaboxBlocks ?></strong></td>
+			</tr>
+			<tr>
+				<td><?php echo cssJSToolbox::getText('Code Blocks') ?>&nbsp;<span class="cjt-grayed"><?php echo cssJSToolbox::getText('Inactive') ?></span></td>
+				<td><strong><?php echo $this->inactiveBlocks ?></strong></td>
+			</tr>
+			<tr>
+				<td><?php echo cssJSToolbox::getText('Metabox Code Blocks') ?>&nbsp;<span class="cjt-grayed"><?php echo cssJSToolbox::getText('Inactive') ?></span></td>
+				<td><strong><?php echo $this->inactiveMetaboxBlocks ?></strong></td>
+			</tr>
+            <tr>
+                <td><?php echo cssJSToolbox::getText('Code Files') ?></td>
+                <td><strong><?php echo $this->codeFiles ?></strong></td>
+            </tr>
+			<tr>
+				<td><?php echo cssJSToolbox::getText('Code Templates') ?></td>
+				<td><strong><?php echo $this->templates ?></strong></td>
+			</tr>
+			<tr>
+				<td><?php echo cssJSToolbox::getText('Script Packages') ?></td>
+				<td><strong><?php echo $this->scriptsPackage ?></strong></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<hr />
+<div id="cjt-statcs-metabox-info">
+	<span class="cjt-support-us-link">
+<?php echo cssJSToolbox::getText('Upgrade to') ?>: <a target="_blank" href="http://css-javascript-toolbox.com/pricing/"><?php echo cssJSToolbox::getText('CJT Core and CJT PLUS') ?></a>
+    </span>
+    <span class="cjt-support-us-link">
+<?php echo cssJSToolbox::getText('Learn with') ?>: <a target="_blank" href="http://css-javascript-toolbox.com/documentation/"><?php echo cssJSToolbox::getText('CJT Online Help') ?></a>    
+    </span>
+    <div class="cjt-stat-metabox-version">
+        <span><?php echo cssJSToolbox::getText('Version') ?>:&nbsp;&nbsp;<?php echo CJTPlugin::VERSION; ?></span>
+    </div>
+</div>

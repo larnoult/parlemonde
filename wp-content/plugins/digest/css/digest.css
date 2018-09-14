@@ -1,0 +1,14 @@
+/**
+ * Digest Notifications
+ * https://github.com/wearerequired/digest/
+ *
+ * Copyright (c) 2015 required+
+ * Licensed under the GPLv2+ license.
+ */
+#digest_frequency_day_wrapper {
+  opacity: 1;
+  transition: opacity .3s ease-in-out; }
+  #digest_frequency_day_wrapper.digest-hidden {
+    opacity: 0; }
+
+/*# sourceMappingURL=digest.css.map */

@@ -1,0 +1,43 @@
+body.login {
+background-image:url("http://www.parlemonde.fr/wp-content/uploads/2014/10/fond-plm.fr-clair.jpg");
+}
+
+.login h1 a {
+background-image: url("http://www.parlemonde.org/wp-content/uploads/2014/05/logo-aile.png");
+background-size: 285px 100px;
+width: 285px;
+height: 100px;
+}
+#login::before{
+	content:"Vous êtes sur www.parlemonde.fr, le site dédié aux enfants !";
+	font-size:18px;
+} 
+#login h1::after{
+	content:"Connectez-vous pour accéder au coin des professeurs";
+	font-size:13px;
+	text-align:right;
+	background:#cf4944;
+	color:white;
+	padding-left:10px;
+	padding-right:10px;
+	}
+#login h1{
+	margin-top:30px;
+}
+
+#loginform{
+background: #cf4944;
+}
+
+.login label{
+	color:white;
+}
+
+#loginform > p:nth-child(3) > label > a {
+	color:white!important;
+}
+
+#loginform > p:nth-child(3) > label > a:hover {
+	color:#DDD!important;
+}
+

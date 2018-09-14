@@ -1,0 +1,253 @@
+# Copyright (C) 2012 bbPress Digest
+# This file is distributed under the same license as the bbPress Digest package.
+msgid ""
+msgstr ""
+"Project-Id-Version: bbPress Digest 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/bbpress-digest\n"
+"POT-Creation-Date: 2012-07-21 15:02:30+00:00\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Davide Vecchini <vecchio999@gmail.com>\n"
+"Language-Team: Davide Vecchini <vecchio999@gmail.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: bbpress-digest.php:152
+msgctxt "plugin actions link"
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: bbpress-digest.php:153
+msgid "Donate"
+msgstr "Donazione"
+
+#: inc/admin.php:28
+msgctxt "settings section title"
+msgid "bbPress Digest Settings"
+msgstr "Impostazioni bbPress Digest"
+
+#: inc/admin.php:54
+msgid "Show one-click subscription"
+msgstr "Mostra l'iscrizione \"one-click\""
+
+#: inc/admin.php:61
+msgid "Show weekly digest option"
+msgstr "Mostra le opzioni del riepilogo settimanale"
+
+#: inc/admin.php:83
+msgid "bbPress Digest settings for enabling features"
+msgstr "Impostazioni di bbPress Digest per abilitare/disabilitare funzioni"
+
+#: inc/admin.php:101
+msgid "Allow users to include forum in a digest from a single forum page"
+msgstr ""
+"Permetti agli utenti di includere un forum nelle email di riepilogo "
+"direttamente nella pagina del singolo forum"
+
+#: inc/admin.php:119
+msgid ""
+"Allow users to chose do they want to receive digest once weekly instead of "
+"once daily"
+msgstr ""
+"Permetti agli utenti di scegliere se ricevere le email di riepilogo "
+"quotidianamente o settimanalmente"
+
+#: inc/bbp-profile.php:66 inc/wp-profile.php:43
+msgid "bbPress Digest Emails"
+msgstr "Riepilogo bbPress"
+
+#: inc/bbp-profile.php:71 inc/wp-profile.php:51
+msgctxt "checkbox label"
+msgid "Yes"
+msgstr "Sì"
+
+#: inc/bbp-profile.php:72 inc/wp-profile.php:52
+msgid ""
+"Check if you want to receive daily digest with active forum topics for that "
+"day."
+msgstr ""
+"Seleziona se vuoi ricevere un riepilogo giornaliero con le discussioni "
+"attive della giornata."
+
+#: inc/bbp-profile.php:80 inc/wp-profile.php:64
+msgctxt "radio button label"
+msgid "Daily"
+msgstr "Quotidiana"
+
+#: inc/bbp-profile.php:81 inc/wp-profile.php:65
+msgctxt "radio button label"
+msgid "Weekly"
+msgstr "Settimanale"
+
+#: inc/bbp-profile.php:82 inc/wp-profile.php:66
+msgid "Choose should you receive digest once daily or once weekly."
+msgstr ""
+"Scegli se ricevere le email di riepilogo quotidianamente o settimanalmente."
+
+#: inc/bbp-profile.php:100 inc/wp-profile.php:84
+msgid "Choose on which day of a week you want to receive a digest."
+msgstr "Scegli in quale giorno della settimana vuoi ricevere il riepilogo. "
+
+#: inc/bbp-profile.php:108 inc/wp-profile.php:96
+msgid "Digests should be sent at this time:"
+msgstr "Il riepilogo va inviato a alle ore:"
+
+#: inc/bbp-profile.php:115 inc/wp-profile.php:103
+msgid ""
+"Select the hour of the day when you want to receive digest emails. Current "
+"time is <code>%1$s</code>."
+msgstr ""
+"Scegli l'ora del giorno in cui vuoi ricevere le email di riepilogo. "
+"Attualmente è <code>%1$s</code>."
+
+#: inc/bbp-profile.php:115 inc/wp-profile.php:103
+msgctxt "current time date format"
+msgid "Y-m-d G:i:s"
+msgstr "Y-m-d G:i:s"
+
+#: inc/bbp-profile.php:120 inc/wp-profile.php:112
+msgctxt "radio button label"
+msgid "All"
+msgstr "Tutto"
+
+#: inc/bbp-profile.php:121 inc/wp-profile.php:113
+msgid "Only forums I choose"
+msgstr "Solo i forum da me selezionati"
+
+#: inc/bbp-profile.php:122 inc/wp-profile.php:114
+msgid ""
+"Choose should digest include topics from all forums or only from selected "
+"forums."
+msgstr ""
+"Scegli se il riepilogo deve contenere discussioni da tutti i forum o solo "
+"dai forum selezionati."
+
+#: inc/bbp-profile.php:132 inc/wp-profile.php:124
+msgid "Choose forums which you want to be included in a digest."
+msgstr "Seleziona i forum che vuoi siano inclusi nel riepilogo."
+
+#: inc/event.php:161
+msgid "Active topics for week ending %1$s"
+msgstr "Discussioni attive per la settimana del %1$s"
+
+#: inc/event.php:161
+msgctxt "week span email title date format"
+msgid "d. F Y."
+msgstr "d. F Y."
+
+#: inc/event.php:164
+msgid ""
+"This topics have been active in the last 7 days:\n"
+"\n"
+msgstr ""
+"Queste discussioni sono state attive nelle ultime 24 ore:\n"
+"\n"
+
+#: inc/event.php:168
+msgid "Active topics for %1$s"
+msgstr "Discussioni attive per %1$s"
+
+#: inc/event.php:168
+msgctxt "one day span email title date format"
+msgid "d. F Y."
+msgstr "d. F Y."
+
+#: inc/event.php:170
+msgctxt "1. Yesterday 2. Today"
+msgid "Active topics for %1$s / %2$s"
+msgstr "Discussioni attive per %1$s / %2$s"
+
+#: inc/event.php:170
+msgctxt "two day span yesterday email title date format"
+msgid "d. F Y."
+msgstr "d. F Y."
+
+#: inc/event.php:170
+msgctxt "one day span today email title date format"
+msgid "d. F Y."
+msgstr "d. F Y."
+
+#: inc/event.php:174
+msgid ""
+"This topics have been active in the last 24 hours:\n"
+"\n"
+msgstr ""
+"Queste discussioni sono state attive nelle ultime 24 ore:\n"
+"\n"
+
+#: inc/event.php:178
+msgctxt "1. Topic title 2. Topic URL"
+msgid "%1$s: %2$s\r\n"
+msgstr "%1$s: %2$s\n"
+
+#: inc/forums-list.php:218
+msgid "No topics available"
+msgstr "Nessuna discussione disponibile"
+
+#: inc/forums-list.php:223
+msgid "No forums available"
+msgstr "Nessun forum disponibile"
+
+#: inc/forums-list.php:228
+msgid "None available"
+msgstr "Non disponibile"
+
+#: inc/one-click-template.php:56
+msgid ""
+"<a href=\"%1$s\" class=\"%2$s\">Include topics from this forum to the digest "
+"emails</a> (<a href=\"%3$s\">edit settings</a>)"
+msgstr ""
+"<a href=\"%1$s\" class=\"%2$s\">Includi le discussioni di questo forum nel "
+"riepilogo inviato via email</a> (<a href=\"%3$s\">modifica impostazioni</a>)"
+
+#: inc/one-click-template.php:57
+msgid ""
+"Topics from this forum are included in digest emails (<a href=\"%1$s\" class="
+"\"%2$s\">remove </a> | <a href=\"%3$s\">edit settings</a>)"
+msgstr ""
+"Le discussioni in questo forum sono incluse nel riepilogo inviato via email "
+"(<a href=\"%1$s\" class=\"%2$s\">rimuovi </a> | <a href=\"%3$s\">modifica "
+"impostazioni</a>)"
+
+#: inc/wp-profile.php:48
+msgctxt "settings field label"
+msgid "Digest emails"
+msgstr "Email di riepilogo bbPress"
+
+#: inc/wp-profile.php:60
+msgid "Daily or weekly"
+msgstr "Giornaliero o settimanale"
+
+#: inc/wp-profile.php:93
+msgid "Digest time"
+msgstr "Orario riepilogo giornaliero"
+
+#: inc/wp-profile.php:108
+msgctxt "settings field label"
+msgid "Forums"
+msgstr "Forum"
+
+#. Plugin Name of the plugin/theme
+msgid "bbPress Digest"
+msgstr "bbPress Digest"
+
+#. Plugin URI of the plugin/theme
+msgid "http://blog.milandinic.com/wordpress/plugins/bbpress-digest/"
+msgstr "http://blog.milandinic.com/wordpress/plugins/bbpress-digest/"
+
+#. Description of the plugin/theme
+msgid "Send digests with forum's active topics."
+msgstr "Invia un riepilogo giornaliero con le discussioni attive nei forum."
+
+#. Author of the plugin/theme
+msgid "Milan Dinić"
+msgstr "Milan Dinić"
+
+#. Author URI of the plugin/theme
+msgid "http://blog.milandinic.com/"
+msgstr "http://blog.milandinic.com/"
+
+#~ msgid "Daily digest"
+#~ msgstr "Riepilogo giornaliero"

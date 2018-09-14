@@ -1,0 +1,311 @@
+<wpml-config>                             
+    <custom-types>
+        <custom-type translate="1">portfolio</custom-type>
+        <custom-type translate="1">staff</custom-type>
+        <custom-type translate="1">testimonial</custom-type>
+    </custom-types>    
+    <taxonomies>
+        <taxonomy translate="1">portfolio-type</taxonomy>
+        <taxonomy translate="1">testimonial-group</taxonomy>
+        <taxonomy translate="1">staff-group</taxonomy>
+    </taxonomies>    
+    <admin-texts>
+        <key name="virtue_premium">
+            <key name="x1_virtue_logo_upload">
+                    <key name="url" />
+            </key>
+            <key name="x2_virtue_logo_upload">
+                    <key name="url" />
+            </key>
+            <key name="logo_below_text" />
+            <key name="topbar_icon_menu">
+                <key name="0">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="1">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="2">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="3">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="4">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="5">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+            </key>
+            <key name="virtue_banner_upload">
+                <key name="url" />
+            </key>
+            <key name="virtue_banner_link" />
+            <key name="sitewide_after_header_shortcode_input" />
+            <key name="sitewide_action_text" />
+            <key name="sitewide_action_text_btn" />
+            <key name="sitewide_action_link" />
+            <key name="sitewide_footer_shortcode_input" />
+            <key name="mobile_header_logo">
+                    <key name="url" />
+            </key>
+            <key name="home_cyclone_slider" />
+            <key name="home_slider">
+                <key name="0">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="1">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="2">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="3">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="4">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="5">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+            </key>
+            <key name="home_mobile_slider">
+                <key name="0">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="1">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="2">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="3">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="4">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="5">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+            </key>
+            <key name="home_custom_carousel_items">
+                <key name="0">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="1">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="2">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="3">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="4">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="5">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+            </key>
+            <key name="shop_cyclone_slider" />
+            <key name="product_title" />
+            <key name="product_sale_title" />
+            <key name="product_best_title" />
+            <key name="blog_title" />
+            <key name="portfolio_title" />
+            <key name="custom_carousel_title" />
+            <key name="portfolio_full_title" />
+            <key name="search_placeholder_text" />
+            <key name="cart_placeholder_text" />
+            <key name="sold_placeholder_text" />
+            <key name="sale_placeholder_text" />
+            <key name="notavailable_placeholder_text" />
+            <key name="post_readmore_text" />
+            <key name="post_by_text" />
+            <key name="post_incat_text" />
+            <key name="filter_all_text" />
+            <key name="shop_filter_text" />
+            <key name="portfolio_filter_text" />
+            <key name="description_tab_text" />
+            <key name="description_header_text" />
+            <key name="additional_information_tab_text" />
+            <key name="additional_information_header_text" />
+            <key name="video_tab_text" />
+            <key name="video_title_text" />
+            <key name="review_tab_text" />
+            <key name="related_products_text" />
+            <key name="lightbox_loading_text" />
+            <key name="lightbox_of_text" />
+            <key name="lightbox_error_text" />
+            <key name="home_breadcrumb_text" />
+            <key name="footer_text" />
+            <key name="lightbox_error_text" />
+            <key name="portfolio_link" />
+            <key name="custom_404_page" />
+             <key name="icon_menu">
+                <key name="0">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="1">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="2">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="3">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="4">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="5">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+            </key>
+            <key name="home_image_menu">
+                <key name="0">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="1">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="2">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="3">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="4">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+                <key name="5">
+                    <key name="link" />
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="attachment_id" />
+                </key>
+            </key>
+        </key>
+    </admin-texts>
+	<custom-fields>
+		<custom-field action="translate">_kad_product_video</custom-field>
+		<custom-field action="translate">_kad_tab_content_01</custom-field>
+		<custom-field action="translate">_kad_tab_title_01</custom-field>
+		<custom-field action="translate">_kad_tab_priority_01</custom-field>
+		<custom-field action="translate">_kad_tab_content_02</custom-field>
+		<custom-field action="translate">_kad_tab_title_02</custom-field>
+		<custom-field action="translate">_kad_tab_priority_02</custom-field>
+		<custom-field action="translate">_kad_tab_content_03</custom-field>
+		<custom-field action="translate">_kad_tab_title_03</custom-field>
+		<custom-field action="translate">_kad_tab_priority_03</custom-field>
+	</custom-fields>  
+</wpml-config>

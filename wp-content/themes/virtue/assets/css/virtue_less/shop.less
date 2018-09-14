@@ -1,0 +1,198 @@
+.woocommerce-result-count {
+margin: 0px 0 0px 0;
+text-align: left;
+font-size: 10px;
+}
+.woocommerce-ordering {
+margin: 18px 0 0;
+float: right;
+position: relative;
+width: auto;
+height: 40px;
+}
+.woocommerce-ordering select, div.product form.cart .variations td.product_value select{
+  opacity: 0;
+}
+.customSelect {
+padding: 0;
+border: 1px solid #eee;
+border-color: rgba(0,0,0,0.05);
+background: 0;
+text-align: left;
+overflow: hidden;
+display: block;
+height: 40px;
+text-transform: uppercase;
+line-height: 40px;
+font-weight: bold;
+transition: background .6s ease-out;
+  -webkit-transition: background .6s ease-out;
+  -moz-transition: background .6s ease-out;
+  -o-transition: background .6s ease-out;
+}
+.customSelect.customSelectHover {
+  background: #f2f2f2;
+   background: rgba(0,0,0,0.01);
+}
+.customSelect .customSelectInner:before {
+font-family: 'FontAwesome';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  content: "\f078";
+  font-size: 12px;
+margin-right: 10px;
+text-align: left;
+height: 40px;
+line-height: 40px;
+}
+.customSelectInner {
+  margin-left: 10px;
+  font-size: 14px;
+}
+a.added_to_cart {
+display: block;
+position: absolute;
+top: 50%;
+right: 50%;
+margin-right: -60px;
+margin-top: -30px;
+width: 120px;
+height: 60px;
+background: #fff;
+background: rgba(255,255,255,0.65);
+line-height: 60px;
+font-size: 14px;
+font-weight: 800;
+z-index: 100;
+}
+.product_details .product_excerpt {
+  display: none;
+}
+a.kad-btn.loading:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: url(../img/ajax-loader.gif) center no-repeat rgba(255, 255, 255, 0.65);
+}
+.woocommerce .products .star-rating {
+display: block;
+margin:3px auto 4px;
+float: none;
+}
+.products div.product {
+position: relative;
+border: 1px solid #eee;
+border-color :rgba(0, 0, 0, 0.05)
+}
+.woocommerce ul.cart_list li img, .woocommerce ul.product_list_widget li img {
+float: right;
+margin-left: 4px;
+margin-top: 5px;
+width: 50px;
+height: auto;
+}
+// Woo Page nav 
+nav.woocommerce-pagination {
+  text-align: center;
+}
+nav.woocommerce-pagination ul {
+  display: inline-block;
+  white-space: nowrap;
+  padding: 0;
+  clear: both;
+  margin: 10px 0;
+}
+nav.woocommerce-pagination ul li {
+  padding: 0;
+  float: left;
+  margin: 0 5px;
+  display: inline;
+  overflow: hidden;
+}
+nav.woocommerce-pagination ul li a, nav.woocommerce-pagination ul li span {
+  margin: 0;
+  text-decoration: none;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  border: solid 2px #eee;
+  border-color: rgba(0,0,0,0.06);
+  display: block;
+  -webkit-transition: border 0.2s ease-in-out;
+  -moz-transition: border 0.2s ease-in-out;
+  -ms-transition: border 0.2s ease-in-out;
+  -o-transition: border 0.2s ease-in-out;
+  transition: border 0.2s ease-in-out;
+}
+nav.woocommerce-pagination ul li a:hover {
+  border-color: @primary;
+  background: url("../img/20black.png");
+  background: rgba(0,0,0,0.05);
+}
+nav.woocommerce-pagination ul li span.current {
+  background: url("../img/20black.png");
+  background: rgba(0,0,0,0.05);
+}
+.cat_main_img {
+  text-align: center;
+}
+.term-description {
+  padding: 10px 0;
+  font-size: 14px;
+}
+//Rating 
+.products .star-rating {
+display: block;
+margin: 3px auto 4px;
+float: none;
+}
+.star-rating span {
+  overflow: hidden;
+  float: left;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding-top: 1.5em;
+}
+.star-rating:before {
+  content: "\73\73\73\73\73";
+  color: #dfdbdf;
+  float: left;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.star-rating span:before {
+  content: "\53\53\53\53\53";
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+.star-rating {
+  float: right;
+  overflow: hidden;
+  position: relative;
+  height: 1em;
+  line-height: 1em;
+  font-size: 1em;
+  width: 5.4em;
+  font-family: 'star';
+}
+.kt-cat-intrinsic img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.kt-cat-intrinsic {
+    position: relative;
+    height: 0;
+}

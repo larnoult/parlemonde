@@ -1,0 +1,99 @@
+# Mark New Posts Wordpress Plugin
+# Author: TS Soft
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mark-new-posts\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-19 17:55+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Description of the plugin/theme
+msgid "Highlight unread WordPress posts."
+msgstr ""
+
+msgid "Settings saved"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Please specify image URL"
+msgstr ""
+
+msgid "Please specify correct count of days"
+msgstr ""
+
+msgid "Marker placement"
+msgstr ""
+
+msgid "Before post title"
+msgstr ""
+
+msgid "After post title"
+msgstr ""
+
+msgid "Before and after post title"
+msgstr ""
+
+msgid "Marker type"
+msgstr ""
+
+msgid "Orange circle"
+msgstr ""
+
+msgid "\"New\" text"
+msgstr ""
+
+msgid "Flag"
+msgstr ""
+
+msgid "Picture (default)"
+msgstr ""
+
+msgid "Picture (custom)"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Image URL"
+msgstr ""
+
+msgid "A post should be marked as read:"
+msgstr ""
+
+msgid "after viewing the post's page"
+msgstr ""
+
+msgid "after viewing the post on any page"
+msgstr ""
+
+msgid "after opening any page of the blog"
+msgstr ""
+
+#, php-format
+msgid "Published post stays marked as new only for %s days"
+msgstr ""
+
+msgid "Mark all existing posts as new to new visitors"
+msgstr ""
+
+msgid "Check page markup before displaying a marker"
+msgstr ""
+
+msgid "Enable this option only if the plugin is exploding your blog's markup."
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Reset"
+msgstr ""

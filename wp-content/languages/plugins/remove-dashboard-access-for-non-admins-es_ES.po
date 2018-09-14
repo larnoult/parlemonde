@@ -1,0 +1,138 @@
+# Translation of Plugins - Remove Dashboard Access - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Remove Dashboard Access - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-09-05 19:22:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Remove Dashboard Access - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://www.drewapicture.com"
+msgstr "http://www.drewapicture.com"
+
+#. Author of the plugin/theme
+msgid "Drew Jaynes (DrewAPicture)"
+msgstr "Drew Jaynes (DrewAPicture)"
+
+#. Description of the plugin/theme
+msgid "Removes Dashboard access for certain users based on capability."
+msgstr "Elimina el acceso al escritorio para ciertos usuarios basándose en sus permisos."
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.werdswords.com"
+msgstr "http://www.werdswords.com"
+
+#. Plugin Name of the plugin/theme
+msgid "Remove Dashboard Access"
+msgstr "Remove Dashboard Access"
+
+#: inc/class.rda-options.php:600
+msgid "empty"
+msgstr "en blanco"
+
+#: inc/class.rda-options.php:597
+msgid "Value"
+msgstr "Valor"
+
+#: inc/class.rda-options.php:596
+msgid "Setting"
+msgstr "Configuración"
+
+#: inc/class.rda-options.php:561
+msgid "Settings"
+msgstr "Configurar"
+
+#: inc/class.rda-options.php:441
+msgid "(Disabled when empty)"
+msgstr "(deshabilitado cuando está vacío)"
+
+#: inc/class.rda-options.php:428
+msgid "Default: %s"
+msgstr "Por defecto: %s"
+
+#: inc/class.rda-options.php:427
+msgid "Redirect disallowed users to:"
+msgstr "Redirige a los usuarios sin permisos a:"
+
+#. Translators: The leading space is intentional to space the text away from
+#. the checkbox
+#: inc/class.rda-options.php:410
+msgid " Allow all users to edit their profiles in the dashboard."
+msgstr " Permite a todos los usuarios editar su perfil en el escritorio."
+
+#: inc/class.rda-options.php:386
+msgid "--- Select a Capability ---"
+msgstr "---Selecciona una capacidad---"
+
+#: inc/class.rda-options.php:336
+msgid "Authors, Editors, and Administrators"
+msgstr "Autores, editores y administradores"
+
+#: inc/class.rda-options.php:332
+msgid "Editors and Administrators"
+msgstr "Editores y administradores"
+
+#: inc/class.rda-options.php:328
+msgid "Administrators only"
+msgstr "Sólo Administradores"
+
+#: inc/class.rda-options.php:285
+msgid " Disable access controls and redirection"
+msgstr " Desactiva los controles de acceso y la redirección"
+
+#: inc/class.rda-options.php:252
+msgid "Roles &amp; Capabilities"
+msgstr "Funciones y capacidades"
+
+#: inc/class.rda-options.php:249
+msgid "You can find out more about specific %s in the Codex."
+msgstr "Puede obtener más información específica sobre %s en el Codex."
+
+#: inc/class.rda-options.php:246
+msgid "<strong>Advanced</strong>: Limit by capability:"
+msgstr "<strong>Avanzado</strong>: Limitar por capacidades:"
+
+#: inc/class.rda-options.php:230
+msgid "Dashboard access can be restricted to users of certain roles only or users with a specific capability."
+msgstr "El acceso al escritorio puede restringirse a determinados perfiles o usuarios con una capacidad específica."
+
+#: inc/class.rda-options.php:218
+msgid "Debug Info"
+msgstr "Información de depuración"
+
+#: inc/class.rda-options.php:203
+msgid "Login Message"
+msgstr "Mensaje de inicio de sesión"
+
+#: inc/class.rda-options.php:199
+msgid "User Profile Access:"
+msgstr "Acceso al perfil de usuario:"
+
+#: inc/class.rda-options.php:195
+msgid "Redirect URL:"
+msgstr "Redireccionar URL:"
+
+#: inc/class.rda-options.php:187
+msgid "Dashboard User Access:"
+msgstr "Acceso de usuario al escritorio:"
+
+#: inc/class.rda-options.php:182
+msgid "Dashboard Access Controls"
+msgstr "Control de acceso al escritorio"
+
+#: inc/class.rda-options.php:142
+msgid "Dashboard Access"
+msgstr "Acceso al escritorio"
+
+#: inc/class.rda-options.php:141 inc/class.rda-options.php:160
+msgid "Dashboard Access Settings"
+msgstr "Ajustes acceso al escritorio"
+
+#: inc/class.rda-options.php:55
+msgid "This site is in maintenance mode."
+msgstr "Este sitio está en modo de mantenimiento."

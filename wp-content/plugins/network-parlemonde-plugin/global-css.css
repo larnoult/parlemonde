@@ -1,0 +1,408 @@
+
+
+h1{
+	font-family: 'littledays'!important;
+	font-size: 30px !important;
+	font-weight: normal!important;
+}
+
+ul.listeRouge, ul.citation, ul.bbp-forum  {
+list-style: none!important;
+}
+
+ul.listeRouge li:before , ul.bbp-forum li:before{
+		 content: "\00BB \0020"!important;
+		 color: #cf4944!important;
+		font-size:20px!important;
+		font-weight: bold!important;
+	     }
+
+ul.listeRouge li, ul.citation li, ul.bbp-forum li{
+	padding-bottom:6px!important;
+	margin-left:35px!important;
+}
+
+
+
+ul.citation li:before {
+	 	content: '\201c' !important;
+		 color: #87bc4b!important;
+		font-size:30px!important;
+		font-family:"alegrya";
+		font-weight: bold!important;
+	     }
+	
+ul.citation li:after {
+	content: '\201d'!important;
+	    color: #87bc4b!important;
+	    font-size: 30px!important;
+	    font-family: "alegrya";
+	    font-weight: bold!important;
+	    top: 15px;
+	    position: relative;
+	    margin-left: 3px;
+			     }
+ul.citation li {
+	margin-bottom:5px;
+}
+
+ul.citation li strong, ul.citation li b {
+	color:#87bc4b;
+}
+
+.pullquote-lb{
+    position: relative!important;
+    padding: 10px 90px 10px 90px!important;
+    margin: 30px 40px 30px 0 !important;
+    max-width: 4950px!important;
+    font-size: 23px!important;
+    line-height: 29px!important;
+	width:100%!important;
+}
+
+.pullquote-lb::before{
+position: absolute!important;
+left: 0!important;
+top: 20%!important;
+font-size: 34px!important;
+color: rgba(0, 0, 0, 0.53)!important;	
+font-family: virtue_icons!important;
+font-style: normal!important;
+speak: none!important;
+font-weight: 400!important;
+content: "\e19f"!important;
+-webkit-font-smoothing: antialiased!important;
+}
+
+h1{
+	font-family:'littledays'!important;
+	font-size: 35px !important;
+}
+
+
+ol.chapitre, ol.indice {
+	margin-left:30px!important;
+}
+
+ol.chapitre li, ol.indice li{
+	font-family: "littledays"!important;
+	font-size: 20px!important;
+	text-decoration:underline!important;
+	text-decoration-color:rgba(0, 0, 0, .05) !important;
+	 line-height:200%!important;
+}
+
+ol.chapitre, ol.indice {list-style: none; counter-reset: chapter 1!important;}
+ol.chapitre li+li, ol.indice li+li {counter-increment: chapter 1!important; list-style: none!important;}
+ol.chapitre li:before {content: "Chapitre " counter(chapter) " : "}
+ol.indice li:before {content: "Indice " counter(chapter) " : "}
+
+
+hr{
+margin-top:30px!important;
+}
+/* pour modifier le style des doubles lignes de chaque titre . pour modifier seulement le style de la home page, utilise welcomeclass et 'désactive' le style .welcomeclass .page-header*/
+
+body.page .page-header { 
+	border-top: 0px solid #eee !important;
+	border-bottom: 2px solid #eee !important;
+	width:74% !important;
+    border-color: rgba(0, 0, 0, .05) !important;
+    padding-bottom: 0px !important;
+    margin: 0 0 10px !important;
+    padding-top: 0px !important;
+	padding-left:6px !important;
+}
+
+.gallery-icon img, .imgShadow img{
+  -webkit-box-shadow: 0px 0px 20px 0px #c4c4c4!important;
+    -moz-box-shadow: 0px 0px 20px 0px #c4c4c4!important;
+    box-shadow: 0px 0px 20px 0px #c4c4c4!important;
+	
+}
+
+/* Style Tweets */
+.twitter-tweet {
+	margin:auto!important;
+	margin-top:20px;
+	margin-bottom:20px;
+	}
+
+/* Style topbar */
+
+
+/* Top bar menu */
+.topbarmenu ul li .sf-dropdown-menu li a{
+	font-size:15px!important;
+}
+
+/* To set global navigation parameters */
+
+
+#welcome-plm{
+    color: white;
+    text-align: right;
+    padding-top: 8px!important;
+}
+
+
+.topbarmenu{
+    padding-top: 5px;
+}
+
+.sf-menu li:hover ul{
+	z-index:9999999!important;
+}
+
+#menu-global > li > a > span {
+	font-family: 'Alegreya Sans SC'!important;
+	font-size: 30px !important;
+	text-transform: capitalize!important;
+}
+
+
+#menu-global > li{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.plm {
+	font-family: 'littledays'!important;
+	font-size: 23px !important;
+	text-transform: capitalize!important;
+
+}
+
+.VP{
+	font-family: "Luckiest Guy"!important;
+	text-transform: capitalize!important;
+	color:#5d5d5d!important;
+	
+}
+
+/* To set connection */
+
+
+#button-like{
+		float: right;
+	    box-shadow: rgba(120, 200, 230, 0.498) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.15) 0px 1px 0px 0px!important;
+	    box-sizing: border-box;
+	    color: rgb(121, 121, 121)!important
+	    cursor: pointer;
+	    display: block;
+	    box-shadow: rgba(120, 200, 230, 0.498) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.15) 0px 1px 0px 0px!important;
+	    box-sizing: border-box;
+	    color: rgb(171, 167, 167)!important!important;
+	    cursor: pointer;
+	    text-align: center;
+	    text-decoration: none solid rgb(255, 255, 255)!important;
+	    width: auto;
+	    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+	    border: 1px solid rgb(177, 173, 173)!important;
+	    border-radius: 3px 3px 3px 3px!important;
+	    margin-left: 5px!important;
+	    padding-top: 3px!important;
+	    padding-bottom: 3px!important;
+	    transition: all 0.5s;
+}
+
+#button-like:hover{
+	color:black;
+}
+
+#menu-global:hover{
+	cursor:pointer!important;
+}
+
+#lmm-admin-dashboard-widget{
+	display:none!important;
+}
+
+.kad_tagline, .below-text{
+	font-family: "Source Sans Pro"!important;
+	    line-height: 20px!important;
+	    font-weight: 400!important;
+	    font-style: normal!important;
+	    font-size: 16px!important;
+}
+
+
+/* To style front end admin bar */
+
+/* Icone of menu */
+#wp-admin-bar-my-sites > a:before, #wp-admin-bar-menu-exterieur > a:before{
+	content:"\f333"!important;
+}
+
+
+/* Icone of pelico.parlemonde.org */
+#wp-admin-bar-blog-3 > a > div::before, #wp-admin-bar-le-voyage-de-pelico > a:before{
+	content: "?"!important;
+}
+#wp-admin-bar-le-voyage-de-pelico > a:before{
+	padding-top:0px!important;
+	padding-left: 5px!important;
+	    padding-right: 6px!important;
+}
+
+/* Icone of prof.parlemonde.org */
+#wp-admin-bar-blog-5 > a > div::before, #wp-admin-bar-le-coin-des-professeurs > a:before{
+	content: "\f118"!important;
+}
+#wp-admin-bar-le-coin-des-professeurs > a:before{
+	padding-top:0px!important;
+}
+
+/* Icone of asso.parlemonde.org */
+#wp-admin-bar-blog-2 > a > div::before, #wp-admin-bar-l-association>a:before{
+	content: "\f319"!important;
+}
+#wp-admin-bar-l-association>a:before{
+	padding-top:0px!important;
+}
+
+/* Icone of visa.parlemonde.org */
+#wp-admin-bar-blog-6 > a > div::before, #wp-admin-bar-les-anciens-reportages > a:before{
+	content: "\f321"!important;
+}
+#wp-admin-bar-les-anciens-reportages > a:before{
+	padding-top:0px!important;
+}
+
+/* Icone of parlemonde.org */
+#wp-admin-bar-blog-1 > a > div::before{
+	content: "\f509"!important;
+}
+
+/* Icone of archive.parlemonde.org */
+#wp-admin-bar-blog-4 > a > div::before{
+	content: "\f527"!important;
+}
+
+/* Icone of parlemonde.org */
+#wp-admin-bar-blog-1 > a > div::before{
+	content: "\f509"!important;
+}
+
+ul#wp-admin-bar-root-default {
+    margin-left: 160px;
+}
+
+/* Connected menu for exterior */
+li#wp-admin-bar-menu-exterieur .ab-sub-wrapper {
+    width: 207px!important;
+}
+
+
+
+/* To style lateral menu toggle */
+#toggle-menu{
+    	width: 20px;
+	    height: 15px!important;
+	    background-color: #545454;
+	    position: fixed;
+		top:12%;
+		left: -6px;
+	    color: white;
+	    border-radius: 3px;
+	    padding-left: 9px;
+	    line-height: 11px;
+}
+#toggle-menu:hover{
+	cursor:pointer;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+#toggle-menu{
+display:none;
+}
+}
+
+/* to get vimeo video fluid */
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 10px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* To change display of tabs */
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    border: 3px solid #eee!important;
+    border-color: rgba(0,0,0,.2)!important;
+    border-bottom-color: transparent!important;
+    cursor: default!important;
+    -webkit-border-radius: 0!important;
+    -moz-border-radius: 0!important;
+    border-radius: 0!important;
+}
+
+
+.tab-content {
+    padding: 0 10px!important;
+    border-bottom: solid 3px #ededed!important;
+    border-right: solid 3px #ededed!important;
+    border-left: solid 3px #ededed!important;
+    border-right-color: rgba(0,0,0,.2)!important;
+    border-bottom-color: rgba(0,0,0,.2)!important;
+    border-left-color: rgba(0,0,0,.2)!important;
+}
+.nav-tabs>li>a{
+	
+border-color: rgba(0,0,0,.05)!important;
+ -webkit-border-radius: 0!important;
+  -moz-border-radius: 0!important;
+  border-radius: 0!important;
+}
+
+
+/* Home page corner ribbon video */
+
+.ribbon-wrapper-green {
+width: 187px;
+height: 249px;
+overflow: hidden;
+position: absolute;
+top: 10px;
+right: 15px;
+z-index: 200;
+}
+
+
+.ribbon-green {
+	color: white;
+    font-size: 17px;
+    text-align: center;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    position: relative;
+    padding: 13px 71px 10px 29px;
+    left: -19px;
+    top: 50px;
+    width: 294px;
+    background-color: #87bc4b;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+}
+/* Busted!*/
+
+
+.portfolio_item .portfoliolink{
+	background: rgba(255,255,255,1)!important;
+	ms-filter: "alpha(Opacity=90)"!important;
+	filter: alpha(opacity=90)!important;
+	-moz-opacity: 0.9!important;
+	-khtml-opacity: 0.9!important;
+	opacity: 0.9!important;
+}

@@ -1,0 +1,185 @@
+# Copyright (C) 2016 MyThemeShop
+# This file is distributed under the same license as the MyThemeShop Base Theme package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Quiz by MyThemeShop\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2017-10-17 05:53-0700\n"
+"PO-Revision-Date: 2016-11-16 21:35+0530\n"
+"Last-Translator: MyThemeShop <support-team@mythemeshop.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../assets/js/content.min.js:5
+msgid "function"
+msgstr ""
+
+#: ../inc/class-flip-quiz.php:53
+msgid "Click to Flip"
+msgstr ""
+
+#: ../inc/class-page-config.php:88
+msgid "Google Analytics"
+msgstr ""
+
+#: ../inc/class-page-config.php:89
+msgid "Default Quiz Settings"
+msgstr ""
+
+#: ../inc/class-page-config.php:90
+msgid "Ad Code"
+msgstr ""
+
+#: ../inc/class-page-config.php:91
+msgid "Global"
+msgstr ""
+
+#: ../inc/class-page-config.php:210
+msgid "Signup"
+msgstr ""
+
+#: ../inc/class-page-config.php:210
+msgid " and get your referral ID (username) if you don't have it already!"
+msgstr ""
+
+#: ../inc/class-page-config.php:210
+msgid "Check your affiliate earning by following "
+msgstr ""
+
+#: ../inc/class-page-config.php:210
+msgid "this link"
+msgstr ""
+
+#: ../inc/class-page-config.php:247
+#, php-format
+msgid ""
+"Learn how to create Facebook App ID <a href=\"%s\" target=\"_blank\">here</"
+"a>."
+msgstr ""
+
+#: ../inc/class-page-import-export.php:81
+msgid "Import and Export Quizzes"
+msgstr ""
+
+#: ../inc/class-page-support.php:138
+#, php-format
+msgid ""
+"We offer technical support through our %s. Please <strong>copy and paste the "
+"following information in your ticket</strong> when contacting support:"
+msgstr ""
+
+#: ../inc/class-page-support.php:138
+msgid "Support Ticket System"
+msgstr ""
+
+#: ../inc/class-page-support.php:142
+msgid "Gathering information. Please wait . . ."
+msgstr ""
+
+#: ../inc/class-page-support.php:160
+msgid "Copy Data for Support Request"
+msgstr ""
+
+#: ../inc/class-page-support.php:165
+msgid "Open Support Forum"
+msgstr ""
+
+#: ../inc/class-page-support.php:220
+msgid "Environment"
+msgstr ""
+
+#: ../inc/class-page-support.php:224
+msgid "WordPress"
+msgstr ""
+
+#: ../inc/class-page-support.php:228
+msgid "Plugins"
+msgstr ""
+
+#: ../inc/class-page-support.php:232
+msgid "Theme"
+msgstr ""
+
+#: ../inc/class-page-support.php:236 ../wp-quiz.php:164 ../wp-quiz.php:165
+#: ../wp-quiz.php:166 ../wp-quiz.php:167
+msgid "WP Quiz"
+msgstr ""
+
+#: ../inc/class-page-support.php:365
+msgid "None"
+msgstr ""
+
+#: ../inc/class-personality-quiz.php:132 ../inc/class-trivia-quiz.php:133
+msgid "Continue &gt;&gt;"
+msgstr ""
+
+#: ../inc/class-wp-quiz.php:171
+msgid "WordPress Quiz Plugin"
+msgstr ""
+
+#: ../wp-quiz.php:76 ../wp-quiz.php:83
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: ../wp-quiz.php:168
+msgid "All Quizzes"
+msgstr ""
+
+#: ../wp-quiz.php:169
+msgid "Search Quizzes"
+msgstr ""
+
+#: ../wp-quiz.php:170
+msgid "Add New"
+msgstr ""
+
+#: ../wp-quiz.php:171
+msgid "Add New WP Quiz"
+msgstr ""
+
+#: ../wp-quiz.php:172
+msgid "New Quiz"
+msgstr ""
+
+#: ../wp-quiz.php:173
+msgid "View Quiz"
+msgstr ""
+
+#: ../wp-quiz.php:174
+msgid "Edit Quiz"
+msgstr ""
+
+#: ../wp-quiz.php:175
+msgid "No Quizzes Found."
+msgstr ""
+
+#: ../wp-quiz.php:176
+msgid "WP Quiz not found in Trash."
+msgstr ""
+
+#: ../wp-quiz.php:177
+msgid "Parent Quiz"
+msgstr ""
+
+#: ../wp-quiz.php:182
+msgid "Holds the quizzes and their data."
+msgstr ""
+
+#: ../wp-quiz.php:297
+msgid ""
+"WP Quiz requires PHP version 5.4.0 with spl extension or greater and "
+"WordPress 3.4 or greater."
+msgstr ""
+
+#: ../wp-quiz.php:303
+msgid "Please deactivate WP Quiz Pro plugin"
+msgstr ""

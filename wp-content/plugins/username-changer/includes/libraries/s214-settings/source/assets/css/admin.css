@@ -1,0 +1,35 @@
+/* Fix color picker label alignment
+-------------------------------------------------------------- */
+.s214-color-picker-label {
+    position: absolute;
+    display: inline-block;
+    padding-top: 4px;
+}
+
+/* System info styles
+-------------------------------------------------------------- */
+#system-info-textarea {
+    width: 800px;
+    height: 400px;
+    font-family: Menlo, Monaco, monospace;
+    background: none;
+    white-space: pre;
+    overflow: auto;
+    display: block;
+}
+
+/* Tooltips
+-------------------------------------------------------------- */
+.s214-help-tip {
+    cursor: help;
+}
+
+.ui-tooltip {
+    background: #333 !important;
+    border-radius: 3px !important;
+    box-shadow: 1px 1px 2px 1px rgba(214,214,214,0.5);
+    color: #dedede !important;
+    max-width: 300px;
+    padding: 7px;
+    text-rendering: optimizeLegibility;
+}

@@ -1,0 +1,1194 @@
+/*--------------------------------------------------------------------------------------------
+*
+*	vars
+*
+*--------------------------------------------------------------------------------------------*/
+/* colors */
+/* fm-field */
+/* responsive */
+/*--------------------------------------------------------------------------------------------
+*
+*	General
+*
+*--------------------------------------------------------------------------------------------*/
+/* box-sizing */
+/*
+[class^="fieldmaster-"] {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+*/
+/* Horizontal List */
+.fieldmaster-hl {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: block;
+  position: relative;
+}
+.fieldmaster-hl > li {
+  float: left;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.fieldmaster-hl > li.fieldmaster-fr {
+  float: right;
+}
+/* Horizontal List: Clearfix */
+.fieldmaster-hl:before,
+.fieldmaster-hl:after,
+.fieldmaster-bl:before,
+.fieldmaster-bl:after,
+.fieldmaster-cf:before,
+.fieldmaster-cf:after {
+  content: "";
+  display: block;
+  line-height: 0;
+}
+.fieldmaster-hl:after,
+.fieldmaster-bl:after,
+.fieldmaster-cf:after {
+  clear: both;
+}
+/* Block List */
+.fieldmaster-bl {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: block;
+  position: relative;
+}
+.fieldmaster-bl > li {
+  display: block;
+  margin: 0;
+  padding: 0;
+  float: none;
+}
+/* Full width */
+img.fieldmaster-fw {
+  width: 100%;
+}
+/* Browser */
+.fieldmaster-visible {
+  display: block;
+  visibility: visible;
+}
+.fieldmaster-hidden {
+  display: none;
+  visibility: visible;
+}
+/* Float */
+.fieldmaster-fl {
+  float: left;
+}
+.fieldmaster-fr {
+  float: right;
+}
+.fieldmaster-fn {
+  float: none;
+}
+/* Align */
+.fieldmaster-al {
+  text-align: left;
+}
+.fieldmaster-ar {
+  text-align: right;
+}
+.fieldmaster-ac {
+  text-align: center;
+}
+/* loading */
+.fieldmaster-loading,
+.fieldmaster-spinner {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  vertical-align: text-top;
+  background: transparent url(../images/spinner.gif) no-repeat 50% 50%;
+}
+/* spinner */
+.fieldmaster-spinner {
+  display: none;
+}
+.fieldmaster-spinner.is-active {
+  display: inline-block;
+}
+/* WP < 4.2 */
+.spinner.is-active {
+  display: inline-block;
+}
+/* required */
+.fieldmaster-required {
+  color: #f00;
+}
+/* show on hover */
+.fieldmaster-soh .fieldmaster-soh-target {
+  -webkit-transition: opacity 0.25s 0s ease-in-out, visibility 0s linear 0.25s;
+  -moz-transition: opacity 0.25s 0s ease-in-out, visibility 0s linear 0.25s;
+  -o-transition: opacity 0.25s 0s ease-in-out, visibility 0s linear 0.25s;
+  transition: opacity 0.25s 0s ease-in-out, visibility 0s linear 0.25s;
+  visibility: hidden;
+  opacity: 0;
+}
+.fieldmaster-soh:hover .fieldmaster-soh-target {
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s;
+  visibility: visible;
+  opacity: 1;
+}
+/* show if value */
+.show-if-value {
+  display: none;
+}
+.hide-if-value {
+  display: block;
+}
+.has-value .show-if-value {
+  display: block;
+}
+.has-value .hide-if-value {
+  display: none;
+}
+/* select2 WP animation fix */
+.select2-search-choice-close {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+/*---------------------------------------------------------------------------------------------
+*
+*  tooltip
+*
+*---------------------------------------------------------------------------------------------*/
+/* tooltip */
+.fieldmaster-tooltip {
+  background: #2F353E;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px 15px;
+  position: absolute;
+  z-index: 999999;
+  font-size: 12px;
+}
+.fieldmaster-tooltip.top {
+  margin-top: -8px;
+}
+.fieldmaster-tooltip.right {
+  margin-right: -8px;
+}
+.fieldmaster-tooltip.bottom {
+  margin-bottom: -8px;
+}
+.fieldmaster-tooltip.left {
+  margin-left: -8px;
+}
+.fieldmaster-tooltip:before {
+  border: solid;
+  border-color: transparent;
+  border-width: 6px;
+  content: "";
+  position: absolute;
+}
+.fieldmaster-tooltip.top:before {
+  top: 100%;
+  left: 50%;
+  margin-left: -6px;
+  border-top-color: #2F353E;
+  border-bottom-width: 0;
+}
+.fieldmaster-tooltip.right:before {
+  top: 50%;
+  margin-top: -6px;
+  right: 100%;
+  border-right-color: #2F353E;
+  border-left-width: 0;
+}
+.fieldmaster-tooltip.bottom:before {
+  bottom: 100%;
+  left: 50%;
+  margin-left: -6px;
+  border-bottom-color: #2F353E;
+  border-top-width: 0;
+}
+.fieldmaster-tooltip.left:before {
+  top: 50%;
+  margin-top: -6px;
+  left: 100%;
+  border-left-color: #2F353E;
+  border-right-width: 0;
+}
+/*---------------------------------------------------------------------------------------------
+*
+*  callout
+*
+*---------------------------------------------------------------------------------------------*/
+.fieldmaster-callout {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #FCF8F2;
+  border-left: 3px solid #F0AD4E;
+}
+.fieldmaster-callout h4 {
+  color: #F0AD4E;
+  margin: 0 !important;
+}
+.fieldmaster-callout p {
+  margin-bottom: 0;
+}
+.fieldmaster-callout.danger {
+  border-color: #D9534F;
+  background-color: #FDF7F7;
+}
+.fieldmaster-callout.danger h4 {
+  color: #D9534F;
+}
+.fieldmaster-callout.success {
+  background-color: #f4faf6;
+  border-color: #bcf1c5;
+}
+.fieldmaster-callout.success h4 {
+  color: #3aad60;
+}
+/*--------------------------------------------------------------------------------------------
+*
+*	fieldmaster-icon
+*
+*--------------------------------------------------------------------------------------------*/
+@font-face {
+  font-family: 'fieldmaster';
+  src: url('../font/fieldmaster.eot?50902143');
+  src: url('../font/fieldmaster.eot?50902143#iefix') format('embedded-opentype'), url('../font/fieldmaster.woff?50902143') format('woff'), url('../font/fieldmaster.ttf?50902143') format('truetype'), url('../font/fieldmaster.svg?50902143#fieldmaster') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.fieldmaster-icon:before {
+  font-family: "fieldmaster";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* more consistent vertical align */
+  position: relative;
+}
+.fieldmaster-icon.-plus:before {
+  content: '\e800';
+}
+/* '' */
+.fieldmaster-icon.-minus:before {
+  content: '\e801';
+}
+/* '' */
+.fieldmaster-icon.-cancel:before {
+  content: '\e802';
+}
+/* '' */
+.fieldmaster-icon.-pencil:before {
+  content: '\e803';
+  top: -1px;
+}
+/* '' */
+.fieldmaster-icon.-location:before {
+  content: '\e804';
+}
+/* '' */
+.fieldmaster-icon.-down:before {
+  content: '\e805';
+  top: 1px;
+}
+/* '' */
+.fieldmaster-icon.-left:before {
+  content: '\e806';
+  left: -1px;
+}
+/* '' */
+.fieldmaster-icon.-right:before {
+  content: '\e807';
+  left: 1px;
+}
+/* '' */
+.fieldmaster-icon.-up:before {
+  content: '\e808';
+  top: -1px;
+}
+/* '' */
+.fieldmaster-icon.-sync:before {
+  content: '\e809';
+}
+/* '' */
+.fieldmaster-icon.-globe:before {
+  content: '\e80a';
+}
+/* '' */
+.fieldmaster-icon.-picture:before {
+  content: '\e80b';
+}
+/* '' */
+.fieldmaster-icon.-check:before {
+  content: '\e80c';
+}
+/* '' */
+.fieldmaster-icon.-dot-3:before {
+  content: '\e80d';
+}
+/* '' */
+.fieldmaster-icon.-arrow-combo:before {
+  content: '\e80e';
+}
+/* '' */
+.fieldmaster-icon.-arrow-up:before {
+  content: '\e810';
+  top: -1px;
+}
+/* '' */
+.fieldmaster-icon.-arrow-down:before {
+  content: '\e80f';
+  top: 1px;
+}
+/* '' */
+.fieldmaster-icon.-search:before {
+  content: '\e811';
+}
+/* '' */
+/* collapse */
+.fieldmaster-icon.-collapse:before {
+  content: '\e810';
+  top: -1px;
+}
+/* arrow-up */
+.-collapsed .fieldmaster-icon.-collapse:before {
+  content: '\e80f';
+  top: 1px;
+}
+/* arrow-down */
+/* default */
+.fieldmaster-icon {
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  border: transparent solid 1px;
+  border-radius: 100%;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: top;
+}
+/* elements */
+span.fieldmaster-icon {
+  color: #999;
+  border-color: #BBB;
+  background-color: #fff;
+}
+/* icon */
+a.fieldmaster-icon {
+  color: #999;
+  border-color: #BBB;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+  transition: none;
+}
+/* minor tweaks */
+.fieldmaster-icon.-pencil {
+  font-size: 15px;
+}
+.fieldmaster-icon.-location {
+  font-size: 18px;
+}
+/* states */
+a.fieldmaster-icon:hover {
+  border-color: transparent;
+  background: #b4b9be;
+  color: #fff;
+}
+a.fieldmaster-icon:active,
+a.fieldmaster-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+a.fieldmaster-icon.-minus:hover,
+a.fieldmaster-icon.-cancel:hover {
+  background-color: #F55E4F;
+}
+/* sizes */
+.fieldmaster-icon.small {
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  font-size: 14px;
+}
+/* styles */
+.fieldmaster-icon.light {
+  border: 0 none;
+  padding: 1px;
+  background: #F5F5F5;
+}
+.fieldmaster-icon.light:hover {
+  background: #0073AA;
+}
+/* dark */
+.fieldmaster-icon.dark {
+  border-color: transparent;
+  background: #23282D;
+  color: #eee;
+}
+a.fieldmaster-icon.dark:hover {
+  border-color: transparent;
+  background: #191E23;
+  color: #00b9eb;
+}
+a.fieldmaster-icon.-minus.dark:hover,
+a.fieldmaster-icon.-cancel.dark:hover {
+  color: #D54E21;
+}
+/* grey */
+.fieldmaster-icon.grey {
+  border-color: transparent;
+  background: #b4b9be;
+  color: #fff;
+}
+a.fieldmaster-icon.grey:hover {
+  border-color: transparent;
+  background: #00A0D2;
+  color: #fff;
+}
+a.fieldmaster-icon.-minus.grey:hover,
+a.fieldmaster-icon.-cancel.grey:hover {
+  background: #32373C;
+}
+/* red */
+.fieldmaster-icon.red {
+  border-color: transparent;
+  background-color: #F55E4F;
+  color: #fff;
+}
+/* yellow */
+.fieldmaster-icon.yellow {
+  border-color: transparent;
+  background-color: #FDBC40;
+  color: #fff;
+}
+/* logo */
+.fieldmaster-icon.logo {
+  width: 150px;
+  height: 150px;
+  background: #5EE8BF;
+  border: 0 none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/*--------------------------------------------------------------------------------------------
+*
+*	Sprite
+*
+*--------------------------------------------------------------------------------------------*/
+[class^="fieldmaster-sprite-"] {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(../images/sprite.png);
+}
+.fieldmaster-icon [class^="fieldmaster-sprite-"] {
+  margin: 1px auto 0;
+}
+.fieldmaster-sprite-logo {
+  background-position: 0 0;
+  width: 100px;
+  height: 46px;
+}
+.fieldmaster-icon .fieldmaster-sprite-logo {
+  margin-top: 52px;
+}
+/*--------------------------------------------------------------------------------------------
+*
+*	fieldmaster-box
+*
+*--------------------------------------------------------------------------------------------*/
+.fieldmaster-box {
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  position: relative;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  /* title */
+  /* footer */
+}
+.fieldmaster-box .title {
+  border-bottom: 1px solid #EEEEEE;
+  margin: 0;
+  padding: 15px;
+  background: #FFFFFF;
+}
+.fieldmaster-box .title h3 {
+  font-size: 14px;
+  line-height: 1em;
+  margin: 0;
+  padding: 0;
+}
+.fieldmaster-box .inner {
+  padding: 15px;
+}
+.fieldmaster-box h2 {
+  color: #333333;
+  font-size: 25px;
+  line-height: 29px;
+  margin: 0.25em 0 0.75em;
+  padding: 0;
+}
+.fieldmaster-box h3 {
+  margin: 1.5em 0 0;
+}
+.fieldmaster-box p {
+  margin-top: 0.5em;
+}
+.fieldmaster-box .footer {
+  background: #F5F5F5;
+  border-top: 1px solid #E1E1E1;
+  overflow: hidden;
+  padding: 15px;
+  position: relative;
+}
+.fieldmaster-box .footer.-blue {
+  border-top: 0 none;
+  background-color: #2a9bd9;
+  color: #FFFFFF;
+}
+.fieldmaster-box .footer.-blue p {
+  margin: 0;
+}
+.fieldmaster-box .footer.-blue a {
+  text-decoration: none;
+  text-shadow: none;
+  color: inherit;
+}
+/* error */
+.fieldmaster-error-message {
+  position: relative;
+  display: block;
+  background: #F55E4F;
+  margin: 5px 0 15px;
+  padding: 1px 12px;
+  min-height: 0px;
+  border-left: #dd4232 solid 4px;
+}
+.fieldmaster-error-message p {
+  font-size: 13px !important;
+  line-height: 1.5;
+  margin: 0.5em 0;
+  padding: 2px;
+  text-shadow: none;
+  color: #fff;
+}
+.fieldmaster-error-message .fieldmaster-icon {
+  position: absolute;
+  top: 9px;
+  right: 12px;
+  background-color: #dd4232;
+  border-color: transparent;
+  color: #fff;
+}
+/* important to include .-cancel to override .fieldmaster-icon.-cancel class */
+.fieldmaster-error-message .fieldmaster-icon.-cancel:hover {
+  background-color: #191e23;
+  color: #F55E4F;
+}
+/* success */
+.fieldmaster-error-message.-success {
+  background-color: #46b450;
+  border-color: #32973b;
+}
+.fieldmaster-error-message.-success .fieldmaster-icon {
+  background-color: #32973b;
+}
+.fieldmaster-error-message.-success .fieldmaster-icon.-cancel:hover {
+  background-color: #191e23;
+  color: #46b450;
+}
+/*--------------------------------------------------------------------------------------------
+*
+*	fieldmaster-table
+*
+*--------------------------------------------------------------------------------------------*/
+.fieldmaster-table {
+  border: #DFDFDF solid 1px;
+  background: #fff;
+  border-spacing: 0;
+  border-radius: 0;
+  table-layout: auto;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  clear: both;
+  /* defaults */
+  /* thead */
+  /* tbody */
+  /* -clear */
+}
+.fieldmaster-table > tbody > tr > th,
+.fieldmaster-table > thead > tr > th,
+.fieldmaster-table > tbody > tr > td,
+.fieldmaster-table > thead > tr > td {
+  padding: 8px;
+  vertical-align: top;
+  background: #fff;
+  text-align: left;
+  border-style: solid;
+  font-weight: normal;
+}
+.fieldmaster-table > tbody > tr > th,
+.fieldmaster-table > thead > tr > th {
+  position: relative;
+  color: #333333;
+}
+.fieldmaster-table > thead > tr > th {
+  border-color: #E1E1E1;
+  border-width: 0 0 1px 1px;
+}
+.fieldmaster-table > thead > tr > th:first-child {
+  border-left-width: 0;
+}
+.fieldmaster-table > tbody > tr {
+  z-index: 1;
+}
+.fieldmaster-table > tbody > tr > td {
+  border-color: #EDEDED;
+  border-width: 1px 0 0 1px;
+}
+.fieldmaster-table > tbody > tr > td:first-child {
+  border-left-width: 0;
+}
+.fieldmaster-table > tbody > tr:first-child > td {
+  border-top-width: 0;
+}
+.fieldmaster-table.-clear {
+  border: 0 none;
+}
+.fieldmaster-table.-clear > tbody > tr > td,
+.fieldmaster-table.-clear > thead > tr > td,
+.fieldmaster-table.-clear > tbody > tr > th,
+.fieldmaster-table.-clear > thead > tr > th {
+  border: 0 none;
+  padding: 4px;
+}
+/* remove tr */
+.fieldmaster-remove-element {
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  transform: translate(50px, 0);
+  opacity: 0;
+}
+/*---------------------------------------------------------------------------------------------
+*
+*  wp-admin
+*
+*---------------------------------------------------------------------------------------------*/
+/* Menu */
+#adminmenu a[href="edit.php?post_type=fm-field-group&page=fieldmaster-settings-info"] {
+  display: none;
+}
+/*---------------------------------------------------------------------------------------------
+*
+*  Field Group List
+*
+*---------------------------------------------------------------------------------------------*/
+#icon-edit.icon32-posts-fm-field-group {
+  background-position: -11px -5px;
+}
+#fm-field-group-wrap .tablenav,
+#fm-field-group-wrap p.search-box {
+  display: none;
+}
+#fm-field-group-wrap .wp-list-table .column-fieldmaster-fg-description,
+#fm-field-group-wrap .wp-list-table .column-fieldmaster-fg-description:before {
+  display: none !important;
+  /* important needed to override mobile */
+}
+#fm-field-group-wrap .wp-list-table .column-fieldmaster-fg-count {
+  width: 10%;
+}
+#fm-field-group-wrap .wp-list-table .column-fieldmaster-fg-status {
+  width: 10%;
+}
+#fm-field-group-wrap .tablenav.bottom {
+  display: block;
+}
+#fm-field-group-wrap .fieldmaster-description {
+  font-weight: normal;
+  font-size: 13px;
+  color: #999;
+  margin-left: 7px;
+  font-style: italic;
+}
+/* subsubsub */
+#fm-field-group-wrap .subsubsub {
+  /* WPML */
+  margin-bottom: 3px;
+  /* search */
+}
+#fm-field-group-wrap .subsubsub ul {
+  margin: 0;
+}
+#fm-field-group-wrap .subsubsub + .subsubsub {
+  margin-top: 0;
+}
+#fm-field-group-wrap .subsubsub a:focus {
+  box-shadow: none;
+}
+/* columns (replicate post edit layout) */
+.fieldmaster-columns-2 {
+  margin-right: 300px;
+  clear: both;
+  /* rtl */
+}
+html[dir="rtl"] .fieldmaster-columns-2 {
+  margin-right: 0;
+  margin-left: 300px;
+}
+.fieldmaster-columns-2 .fieldmaster-column-1 {
+  float: left;
+  width: 100%;
+  /* rtl */
+}
+html[dir="rtl"] .fieldmaster-columns-2 .fieldmaster-column-1 {
+  float: right;
+}
+.fieldmaster-columns-2 .fieldmaster-column-2 {
+  float: right;
+  margin-right: -300px;
+  width: 280px;
+  /* rtl */
+}
+html[dir="rtl"] .fieldmaster-columns-2 .fieldmaster-column-2 {
+  float: left;
+  margin-right: 0;
+  margin-left: -300px;
+}
+/* search */
+#fm-field-group-wrap .search-box:after {
+  display: block;
+  content: "";
+  height: 5px;
+}
+.fieldmaster-clear {
+  clear: both;
+}
+/* mobile compatibilty */
+@media screen and (max-width: 782px) {
+  #fm-field-group-wrap #the-list .fieldmaster-icon:after {
+    content: attr(title);
+    position: absolute;
+    margin-left: 5px;
+    font-size: 13px;
+    line-height: 18px;
+    font-style: normal;
+    color: #444;
+  }
+}
+/*---------------------------------------------------------------------------------------------
+*
+*  Fake table
+*
+*---------------------------------------------------------------------------------------------*/
+.fieldmaster-thead,
+.fieldmaster-tbody,
+.fieldmaster-tfoot {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.fieldmaster-thead > li,
+.fieldmaster-tbody > li,
+.fieldmaster-tfoot > li {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 8px 15px;
+  font-size: 12px;
+  line-height: 14px;
+}
+.fieldmaster-thead {
+  background: #FFFFFF;
+  border-bottom: #E1E1E1 solid 1px;
+}
+.fieldmaster-thead > li {
+  font-size: 14px;
+  line-height: 1.4em;
+  font-family: "Open Sans", sans-serif;
+  color: #222222;
+  font-weight: bold;
+}
+.fieldmaster-tfoot {
+  background: #f5f5f5;
+  border-top: #dddddd solid 1px;
+}
+.fieldmaster-tfoot > li {
+  color: #7A9BBE;
+  font-size: 12px;
+  line-height: 27px;
+}
+.fieldmaster-tfoot > li.comic-sans {
+  font-family: Comic Sans MS, sans-serif;
+  font-size: 11px;
+}
+/*--------------------------------------------------------------------------------------------
+*
+*	Settings
+*
+*--------------------------------------------------------------------------------------------*/
+.fieldmaster-settings-wrap .fieldmaster-box {
+  margin: 20px 0;
+}
+.fieldmaster-settings-wrap table {
+  margin: 0;
+}
+.fieldmaster-settings-wrap table .button {
+  vertical-align: middle;
+}
+/*--------------------------------------------------------------------------------------------
+*
+*	Settings: Add-ons
+*
+*--------------------------------------------------------------------------------------------*/
+.add-ons-list {
+  margin: 20px 0 0 -18px;
+  max-width: 960px;
+}
+.add-ons-list .add-on {
+  width: 220px;
+  margin: 0 0 20px 18px;
+  float: left;
+}
+.add-ons-list .add-on .inner {
+  min-height: 90px;
+}
+.add-ons-list .add-on-fieldmaster-pro {
+  width: 940px;
+}
+.add-ons-list .add-on .thumbnail img {
+  display: block;
+}
+.add-ons-list .add-on h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+.add-ons-list .add-on h3 {
+  margin: 0.5em 0;
+}
+/*--------------------------------------------------------------------------------------------
+*
+*	fieldmaster-popup
+*
+*--------------------------------------------------------------------------------------------*/
+#fieldmaster-popup {
+  position: fixed;
+  z-index: 999999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+#fieldmaster-popup .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  background: rgba(0, 0, 0, 0.25);
+}
+#fieldmaster-popup .fieldmaster-popup-box {
+  position: absolute;
+  z-index: 1;
+  width: 300px;
+  height: 300px;
+  left: 50%;
+  top: 50%;
+  margin: -150px 0 0 -150px;
+  border-color: #aaaaaa;
+}
+#fieldmaster-popup .title .fieldmaster-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+html[dir="rtl"] #fieldmaster-popup .title .fieldmaster-icon {
+  right: auto;
+  left: 10px;
+}
+#fieldmaster-popup .fieldmaster-popup-box .inner,
+#fieldmaster-popup .fieldmaster-popup-box .loading {
+  position: absolute;
+  top: 44px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+#fieldmaster-popup .fieldmaster-popup-box .loading {
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  border-top: #DDDDDD solid 1px;
+  display: none;
+}
+#fieldmaster-popup .fieldmaster-popup-box .loading .fieldmaster-loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -10px 0 0 -10px;
+}
+#fieldmaster-popup .inner > *:first-child {
+  margin-top: 0;
+}
+/* submit p */
+.fieldmaster-submit {
+  margin-bottom: 0;
+}
+.fieldmaster-submit span {
+  float: right;
+  color: #999;
+}
+.fieldmaster-submit .fieldmaster-loading {
+  display: none;
+}
+.fieldmaster-submit .button {
+  margin-right: 5px;
+}
+/*--------------------------------------------------------------------------------------------
+*
+*	upgrade notice
+*
+*--------------------------------------------------------------------------------------------*/
+#fieldmaster-upgrade-notice {
+  margin-left: -20px;
+  background: #fff;
+  border-bottom: #E5E5E5 solid 1px;
+}
+#fieldmaster-upgrade-notice .inner {
+  padding: 20px;
+}
+#fieldmaster-upgrade-notice .logo {
+  position: relative;
+  float: left;
+}
+#fieldmaster-upgrade-notice .content {
+  margin-left: 170px;
+  max-width: 710px;
+}
+#fieldmaster-upgrade-notice p {
+  font-size: 14px;
+}
+/*--------------------------------------------------------------------------------------------
+*
+*	Welcome
+*
+*--------------------------------------------------------------------------------------------*/
+.fieldmaster-wrap h1 {
+  margin-top: 0;
+  padding-top: 20px;
+}
+.fieldmaster-wrap .about-text {
+  margin-top: 0.5em;
+  min-height: 50px;
+}
+.fieldmaster-wrap .about-headline-callout {
+  font-size: 2.4em;
+  font-weight: 300;
+  line-height: 1.3;
+  margin: 1.1em 0 0.2em;
+  text-align: center;
+}
+.fieldmaster-wrap .feature-section {
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+.fieldmaster-three-col img {
+  border: #DDDDDD solid 1px;
+  margin: 0 0 20px;
+}
+.fieldmaster-three-col {
+  position: relative;
+  overflow: hidden;
+}
+.fieldmaster-three-col > div {
+  float: left;
+  margin: 0 0 15px 5%;
+  position: relative;
+  width: 30%;
+}
+.fieldmaster-three-col > div:first-child,
+.fieldmaster-three-col > br + div {
+  margin-left: 0;
+  clear: left;
+}
+.fieldmaster-three-col > br {
+  display: none;
+}
+.fieldmaster-wrap .fieldmaster-three-col h3,
+.fieldmaster-wrap .fieldmaster-three-col h4 {
+  margin-top: 0;
+}
+.fieldmaster-wrap .changelog {
+  list-style: disc;
+  padding-left: 15px;
+}
+.fieldmaster-wrap .changelog li {
+  margin: 0 0 0.75em;
+}
+/*--------------------------------------------------------------------------------------------
+*
+*	fieldmaster-hl cols
+*
+*--------------------------------------------------------------------------------------------*/
+.fieldmaster-hl[data-cols] {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.fieldmaster-hl[data-cols] > li {
+  padding: 0 8px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.fieldmaster-hl[data-cols="2"] > li {
+  width: 50%;
+}
+.fieldmaster-hl[data-cols="3"] > li {
+  width: 33.333%;
+}
+.fieldmaster-hl[data-cols="4"] > li {
+  width: 25%;
+}
+/*--------------------------------------------------------------------------------------------
+*
+*	misc
+*
+*--------------------------------------------------------------------------------------------*/
+.fieldmaster-actions li {
+  float: right;
+  margin-left: 5px;
+}
+/*--------------------------------------------------------------------------------------------
+*
+*	Plugins
+*
+*--------------------------------------------------------------------------------------------*/
+.fieldmaster-plugin-upgrade-notice {
+  font-weight: normal;
+  color: #fff;
+  background: #d54d21;
+  padding: 1em;
+  margin: 9px 0;
+}
+.fieldmaster-plugin-upgrade-notice:before {
+  content: "\f348";
+  display: inline-block;
+  font: 400 18px/1 dashicons;
+  speak: none;
+  margin: 0 8px 0 -2px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: top;
+}
+.fieldmaster-plugin-upgrade-notice h4 {
+  display: none;
+}
+.fieldmaster-plugin-upgrade-notice ul,
+.fieldmaster-plugin-upgrade-notice li {
+  display: inline;
+  color: inherit;
+  list-style: none;
+}
+.fieldmaster-plugin-upgrade-notice li:after {
+  content: '. ';
+  display: inline;
+}
+/*--------------------------------------------------------------------------------------------
+*
+*	RTL
+*
+*--------------------------------------------------------------------------------------------*/
+html[dir="rtl"] .fieldmaster-fl {
+  float: right;
+}
+html[dir="rtl"] .fieldmaster-fr {
+  float: left;
+}
+html[dir="rtl"] .fieldmaster-hl > li {
+  float: right;
+}
+html[dir="rtl"] .fieldmaster-hl > li.fieldmaster-fr {
+  float: left;
+}
+html[dir="rtl"] .fieldmaster-icon.logo {
+  left: 0;
+  right: auto;
+}
+html[dir="rtl"] .fieldmaster-table thead th {
+  text-align: right;
+  border-right-width: 1px;
+  border-left-width: 0px;
+}
+html[dir="rtl"] .fieldmaster-table > tbody > tr > td {
+  text-align: right;
+  border-right-width: 1px;
+  border-left-width: 0px;
+}
+html[dir="rtl"] .fieldmaster-table > thead > tr > th:first-child,
+html[dir="rtl"] .fieldmaster-table > tbody > tr > td:first-child {
+  border-right-width: 0;
+}
+html[dir="rtl"] .fieldmaster-table > tbody > tr > td.order + td {
+  border-right-color: #e1e1e1;
+}
+/*---------------------------------------------------------------------------------------------
+*
+*  Retina
+*
+*---------------------------------------------------------------------------------------------*/
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  [class^="fieldmaster-sprite-"],
+  [class*=" fieldmaster-sprite-"] {
+    background-image: url(../images/sprite@2x.png);
+    background-size: 250px 250px;
+  }
+  .fieldmaster-loading,
+  .fieldmaster-spinner {
+    background-image: url(../images/spinner@2x.gif);
+    background-size: 20px 20px;
+  }
+}
+/*---------------------------------------------------------------------------------------------
+*
+*  Device
+*
+*---------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 850px) {
+  .fieldmaster-columns-2 {
+    margin-right: 0;
+  }
+  .fieldmaster-columns-2 .fieldmaster-column-1,
+  .fieldmaster-columns-2 .fieldmaster-column-2 {
+    float: none;
+    width: auto;
+    margin: 0;
+  }
+}

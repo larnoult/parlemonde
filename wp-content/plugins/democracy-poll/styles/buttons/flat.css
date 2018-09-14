@@ -1,0 +1,24 @@
+/* button */
+input[type="submit"].dem-button,
+a.dem-button,
+.dem-button{
+    font-size:90%;
+    font-family: tahoma, arial, sans-serif;
+    padding: .8em 1.6em !important;
+    
+    color: #fff;
+    background: #61a9de;
+    text-transform: uppercase;
+} 
+
+
+input[type="submit"].dem-button:hover,
+a.dem-button:hover,
+.dem-button:hover {
+    color: #fff;
+    background: #3b8bc6;
+}
+
+a.dem-button:visited{
+	color:#fff;
+}

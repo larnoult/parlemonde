@@ -1,0 +1,654 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Capability Manager Enhanced\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-21 17:04-0500\n"
+"PO-Revision-Date: 2015-04-21 17:05-0500\n"
+"Last-Translator: Kevin Behrens <kevin@agapetry.net>\n"
+"Language-Team: Agapetry Creations LLC <kevin@agapetry.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_c;__ngettext;_n;pp_po_trigger;_x\n"
+"X-Poedit-Basepath: E:\\www\\wp42\\wp-content\\plugins\\capability-manager-enhanced\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: E:\\www\\wp42\\wp-content\\plugins\\capability-manager-enhanced\n"
+"X-Poedit-SearchPath-1: E:\\www\\wp42\\wp-content\\plugins\\capability-manager-enhanced\\includes\n"
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/capsman-enhanced.php:40
+msgid "<strong>Error:</strong> Capability Manager Extended cannot function because another copy of Capability Manager is active."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/capsman-enhanced.php:58
+msgid "Warning:"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/capsman-enhanced.php:59
+#, php-format
+msgid "The active plugin %s is not compatible with your PHP version."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/capsman-enhanced.php:61
+#, php-format
+msgid "%s is required for this plugin."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/capsman-enhanced.php:115
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/manager.php:177
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/manager.php:186
+msgid "Capabilities"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/capsman-enhanced.php:116
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/capsman-enhanced.php:120
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/capsman-enhanced.php:125
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/manager.php:177
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/manager.php:181
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/manager.php:187
+msgid "Capability Manager"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/capsman-enhanced.php:125
+msgid "Role Capabilities"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/framework/classes/abstract/plugin.php:224
+msgid "Explicity negate this capability by storing as disabled"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/framework/classes/abstract/plugin.php:225
+msgid "Explicitly negate these capabilities by storing as disabled"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/framework/classes/abstract/plugin.php:226
+msgid "Post type registration does not define this capability distinctly"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/framework/classes/abstract/plugin.php:227
+msgid "This capability is explicitly negated. Click to add/remove normally."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/framework/classes/abstract/plugin.php:228
+msgid "Add or remove this capability from the WordPress role"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/framework/classes/abstract/plugin.php:229
+msgid "Add or remove capability from the role normally"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/framework/lib/formating.php:40
+msgid "Settings saved."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/framework/lib/themes-agapetry.php:9
+msgid "Plugin Homepage"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/framework/lib/themes-agapetry.php:10
+msgid "Documentation"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/framework/lib/themes-agapetry.php:11
+msgid "Support Forum"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/framework/lib/themes-agapetry.php:12
+msgid "Author Homepage"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/framework/lib/themes-agapetry.php:13
+msgid "Help donating"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/framework/lib/themes-agapetry.php:23
+#, php-format
+msgid "Capability Manager Enhanced %s"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/framework/lib/themes-agapetry.php:24
+msgid "Copyright 2010 Jordi Canals"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/framework/lib/themes-agapetry.php:27
+#, php-format
+msgid "Modifications &copy; Copyright %1$s %2$s"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:50
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:50
+msgid "Roles and Capabilities"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:59
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:59
+#, php-format
+msgid "Capabilities for %s"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:62
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:62
+msgid "View and modify capabilities WordPress associates with each role. Changes <strong>remain in the database</strong> even if you deactivate this plugin."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:74
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:74
+msgid "To further customize editing or viewing access, consider stepping up to <a href='#pp-more'>Press Permit</a>."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:105
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:105
+msgid "Automatically define type-specific capabilities for your custom post types and taxonomies"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:109
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:109
+msgid "Assign standard WP roles supplementally for a specific post type"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:113
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:113
+msgid "Assign custom WP roles supplementally for a specific post type <em>(Pro)</em>"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:117
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:117
+msgid "Customize reading permissions per-category or per-post"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:121
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:121
+msgid "Customize editing permissions per-category or per-post <em>(Pro)</em>"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:125
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:125
+msgid "Custom Post Visibility statuses, fully implemented throughout wp-admin <em>(Pro)</em>"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:129
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:129
+msgid "Custom Moderation statuses for access-controlled, multi-step publishing workflow <em>(Pro)</em>"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:133
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:133
+msgid "Regulate permissions for Edit Flow post statuses <em>(Pro)</em>"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:137
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:137
+msgid "Customize the moderated editing of published content with Revisionary or Post Forking <em>(Pro)</em>"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:141
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:141
+msgid "Grant Spectator, Participant or Moderator access to specific bbPress forums <em>(Pro)</em>"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:145
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:145
+msgid "Grant supplemental content permissions to a BuddyPress group <em>(Pro)</em>"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:149
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:149
+msgid "WPML integration to mirror permissions to translations <em>(Pro)</em>"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:153
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:153
+msgid "Member support forum"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:159
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:159
+#, php-format
+msgid "%1$sgrab%2$s %3$s"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:159
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:159
+#, php-format
+msgid "%s (free install)"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:161
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:161
+#, php-format
+msgid "%1$sbuy%2$s %3$s"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:161
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:161
+#, php-format
+msgid "%s info/purchase"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:243
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:243
+msgid "&nbsp;"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:244
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:244
+msgid "Reading"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:245
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:245
+msgid "Editing Capabilities"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:246
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:246
+msgid "Deletion Capabilities"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:254
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:254
+msgid "can read posts which are currently published with private visibility"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:255
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:255
+msgid "has basic editing capability (but may need other capabilities based on post status and ownership)"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:256
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:256
+msgid "can edit posts which were created by other users"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:257
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:257
+msgid "can edit posts which are currently published"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:258
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:258
+msgid "can edit posts which are currently published with private visibility"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:259
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:259
+msgid "can make a post publicly visible"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:260
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:260
+msgid "has basic deletion capability (but may need other capabilities based on post status and ownership)"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:261
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:261
+msgid "can delete posts which were created by other users"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:262
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:262
+msgid "can delete posts which are currently published"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:263
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:263
+msgid "can delete posts which are currently published with private visibility"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:362
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:454
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:543
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:362
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:454
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:543
+#, php-format
+msgid "%s: assigned by Permission Group"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:431
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:431
+msgid "Other WordPress Core Capabilities"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:492
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:608
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:492
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:608
+msgid "check/uncheck all"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:492
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:608
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:492
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:608
+msgid "negate all (storing as disabled capabilities)"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:492
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:608
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:492
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:608
+msgid "negate none (add/remove all capabilities normally)"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:499
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:499
+msgid "Additional Capabilities"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:599
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:599
+msgid "Level:"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:617
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:617
+msgid "Note: Underscores replace spaces in stored capability name (\"edit users\" => \"edit_users\")."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:633
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:633
+msgid "Save Changes"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:636
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:636
+msgid "Delete this role"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:636
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:636
+#, php-format
+msgid ""
+"You are about to delete the %s role.\n"
+" 'Cancel' to stop, 'OK' to delete."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:636
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:636
+msgid "Delete Role"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:649
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:649
+msgid "Select New Role"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:657
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:657
+msgid "Change"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:662
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:662
+msgid "Create New Role"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:665
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:665
+msgid "Name of new role"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:668
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:684
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/pp-ui.php:86
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:668
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:684
+msgid "Make role available for supplemental assignment to Permission Groups only"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:668
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:684
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:668
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:684
+msgid "hidden"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:672
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:672
+msgid "Create"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:678
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:678
+msgid "Copy this role to"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:681
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:681
+msgid "Name of copied role"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:688
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:688
+msgid "Copy"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:694
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:694
+msgid "Add Capability"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:696
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:696
+msgid "capability name"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:697
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:697
+msgid "Add to role"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:725
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:725
+msgid "Create this role definition in new (future) sites"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:725
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:725
+msgid "include in new sites"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:728
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:728
+msgid "Copy / update this role definition to all sites now"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/admin.php:728
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced\includes/admin.php:728
+msgid "sync role to all sites now"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/backup-handler.php:9
+msgid "You do not have permission to restore roles."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/backup-handler.php:32
+msgid "New backup saved."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/backup-handler.php:38
+msgid "Roles and Capabilities restored from last backup."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/backup-handler.php:40
+msgid "Restore failed. No backup found."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/backup-handler.php:59
+msgid "Needed function to create default roles not found!"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/backup-handler.php:72
+msgid "Roles and Capabilities reset to WordPress defaults"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/backup.php:33
+msgid "Backup Tool for Capability Manager"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/backup.php:42
+msgid "Backup and Restore"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/backup.php:46
+msgid "Select action:"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/backup.php:49
+msgid "Backup roles and capabilities"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/backup.php:50
+msgid "Restore last saved backup"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/backup.php:52
+msgid "Do Action"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/backup.php:60
+msgid "Reset WordPress Defaults"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/backup.php:62
+msgid "WARNING:"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/backup.php:62
+msgid "Reseting default Roles and Capabilities will set them to the WordPress install defaults."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/backup.php:65
+msgid "If you have installed any plugin that adds new roles or capabilities, these will be lost."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/backup.php:66
+msgid "It is recommended to use this only as a last resource!"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/backup.php:67
+msgid "Reset Roles and Capabilities to WordPress defaults"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/backup.php:67
+msgid ""
+"You are about to reset Roles and Capabilities to WordPress defaults.\n"
+" 'Cancel' to stop, 'OK' to reset."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/backup.php:67
+msgid "Reset to WordPress defaults"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/handler.php:16
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/handler.php:29
+msgid "New role created."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/handler.php:22
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/handler.php:35
+msgid "Error: Failed creating the new role."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/handler.php:74
+msgid "New capability added to role."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/handler.php:88
+msgid "Incorrect capability name."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/handler.php:93
+msgid "Capability settings saved."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/handler.php:95
+msgid "Error saving capability settings."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/handler.php:99
+msgid "Bad form received."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/handler.php:211
+msgid "You cannot remove Manage Capabilities from Administrators"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/handler.php:313
+#, php-format
+msgid "Cannot delete default role. You <a href=\"%s\">have to change it first</a>."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/handler.php:358
+#, php-format
+msgid "Role has been deleted. %1$d users moved to default role %2$s."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/manager.php:263
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/manager.php:282
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/manager.php:438
+msgid "What do you think you're doing?!?"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/manager.php:321
+msgid "Bad form Received"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/pp-ui.php:44
+#, php-format
+msgid "see %1$sRole Usage%2$s: \"Pattern Roles\""
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/pp-ui.php:46
+#, php-format
+msgid "activate %1$sAdvanced settings%2$s, see Role Usage"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/pp-ui.php:51
+#, php-format
+msgid "\"Posts\" capabilities selected here also define type-specific role assignment for Permission Groups%s."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/pp-ui.php:53
+#, php-format
+msgid "\"Posts\" capabilities selected here also define type-specific role assignment for Permit Groups%s."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/pp-ui.php:61
+msgid "Capabilities for custom statuses can be manually added here (see Post Statuses > Status > Capability Mapping for applicable names). However, it is usually more convenient to use Permission Groups to assign a supplemental status-specific role."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/pp-ui.php:63
+msgid "Capabilities for custom statuses can be manually added here. Or activate the PP Custom Post Statuses extension to assign status-specific supplemental roles."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/pp-ui.php:66
+msgid "Capabilities for custom statuses can be manually added to a role here (see Conditions > Status > Capability Mapping for applicable names). However, it is usually more convenient to use Permit Groups to assign a supplemental status-specific role."
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/pp-ui.php:86
+msgid "hidden role"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/pp-ui.php:96
+msgid "Force Type-Specific Capabilities"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/pp-ui.php:99
+msgid "Force unique capability names for:"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/pp-ui.php:104
+msgid "(PP Filtered Post Types, Taxonomies)"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/pp-ui.php:159
+msgid "Use create_posts capability"
+msgstr ""
+
+#: E:\www\wp42\wp-content\plugins\capability-manager-enhanced/includes/pp-ui.php:164
+msgid "Update"
+msgstr ""
+

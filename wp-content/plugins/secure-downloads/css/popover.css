@@ -1,0 +1,204 @@
+/*  P O P O V E R  ************************************************************/
+.wpdevelop .popover {
+/*    width:400px;
+    max-width:400px;*/
+    border: 2px solid #555;
+    font-size: 12px;
+}
+.wpdevelop .popover .popover-title {
+    padding:2px 14px 0;
+    line-height: 30px;
+}
+.wpdevelop .popover .popover-title .popover-title-id {
+    display: inline-block;
+    margin: 0 5px 0 0;
+    /* FrontEnd */
+    line-height: 35px;
+}
+.wpdevelop .popover .popover-title .control-group {
+    display: inline-block;
+    vertical-align: middle;
+    margin:2px 0;
+}
+.wpdevelop .popover .popover-title .control-group a.button{
+    margin: 0 0 0 5px;
+    line-height: 28px;
+    
+    margin: 0 5px 5px 0;
+}
+.wpdevelop .popover .popover-title .control-group .opsd-buttons-separator {
+    margin-right: 10px;
+}
+.wpdevelop .popover .popover-content {
+    border-top: 1px solid #aaa;    
+}
+.wpdevelop .popover-inner {
+    width: 350px;
+}
+.wpdevelop.popover.left .arrow {
+    left:auto;
+}
+.wpdevelop.tooltip {
+    z-index:9999;
+}
+.wpdevelop .popover a,  
+.wpdevelop .popover a:hover,
+.wpdevelop .popover a:focus {
+    box-shadow: none;
+    outline: none;
+}
+.wpdevelop .popover .popover-close, 
+.wpdevelop .popover .popover-close:hover {
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 8px;   
+    
+    padding: 5px 6px;
+    right: 0;
+    top: 0;    
+}
+.wpdevelop .popover .popover-close a, 
+.wpdevelop .popover .popover-close a:hover,
+.wpdevelop .popover .popover-close a:active,
+.wpdevelop .popover .popover-close a:focus {
+    text-decoration: none;
+    color:#444;
+    border-style: none;
+    outline: 0;
+}
+.wpdevelop .popover_calendar_hover, 
+.wpdevelop .popover_calendar_hover .popover-content{
+    border: none;
+}
+.wpdevelop .popover-content .opsd_tl_popover_opsd_separator {
+    margin: 10px 0;
+}
+/* PopOver Content Data *******************************************************/
+.wpdevelop .popover-title, 
+.wpdevelop .popover-content .opsd-popover-content-data {
+    color:#000;
+}
+.wpdevelop .popover-content .opsd-popover-content-data {
+    font-size: 13px;
+    color:#000;
+}
+.wpdevelop .popover-content .opsd-popover-content-data .opsd-popover-labels-bar,
+.wpdevelop .popover-content .opsd-popover-content-data .opsd-popover-cost-bar {
+    float: left; 
+    margin: 0px; 
+    padding: 0px; 
+    width: auto;
+}
+.wpdevelop .popover-content .opsd-popover-content-data .opsd-popover-cost-bar {
+    float: right;
+}
+/* ID, Labels ... */
+.wpdevelop .popover-content .opsd-popover-content-data .field-id, 
+.wpdevelop .popover-content .opsd-popover-content-data .field-labels {
+    float:left;
+    margin: 0 10px 2px 0;    
+    font-size: 1em;    
+}
+/* ID */
+.wpdevelop .popover-content .opsd-popover-content-data .field-id span.label {
+    line-height:1.5em;
+    padding: 2px 5px;
+    
+    font-weight: 600;
+    border:none; 
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;  
+    color: #fff;    
+    background: #888;
+}
+/* Labels */
+.wpdevelop .popover-content .opsd-popover-content-data .field-labels span.label{    
+    line-height: 1.5em;
+    padding: 2px 5px; 
+    font-weight: 600;
+    
+    border: 1px solid #eeeeee;
+    box-shadow: 0 0 1px #cccccc;
+}
+/* Payment status*/
+.wpdevelop .popover-content .opsd-popover-content-data .field-labels span.label .label-payment-status-prefix {
+    font-size: 0.8em;
+    font-weight: 400;
+}
+/* Cost */
+.wpdevelop .popover-content .opsd-popover-content-data .opsd-popover-cost {
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.5em;
+    padding: 0;
+    text-align: center;
+    white-space: nowrap;
+}
+/*Data*/
+.wpdevelop .popover-content .opsd-popover-content-data .opsd-popover-opsd-data, 
+.wpdevelop .popover-content .opsd-popover-content-data .opsd-popover-opsd-data > div {
+    line-height: 1.7em;
+    text-align: left;
+    word-wrap: break-word;      
+    margin:5px 0 10px;
+}
+/* Notes */
+.wpdevelop .popover-content .opsd-popover-content-data .opsd-popover-opsd-notes {
+    font-size: 0.9em;
+    font-style: italic;
+    margin: 0 0 10px;
+}
+/*Dates*/
+.wpdevelop .popover-content .opsd-popover-content-data .field-dates .field-opsd-date,
+.wpdevelop .popover-content .opsd-popover-content-data .field-dates .field-opsd-date:hover {
+    background: none repeat scroll 0 0 #FFBB45;
+    border: 1px solid #EEE;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 1px #CCC;
+    color: #FFF;
+    font-weight: 600;    
+    padding: 4px 10px 3px;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 #CCC;
+    white-space: nowrap;
+    font-size: 0.85em;    
+    line-height: 2.5em;    
+}
+.wpdevelop .popover-content .opsd-popover-content-data .field-dates .field-opsd-date.approved,
+.wpdevelop .popover-content .opsd-popover-content-data .field-dates .field-opsd-date.approved:hover {
+    background: none repeat scroll 0 0 #9BE;
+}
+.wpdevelop .popover-content .opsd-popover-content-data .field-dates .field-opsd-time {
+    color: #555;
+    text-decoration: none;
+    text-shadow: 0 0 1px #AAA;
+}
+.wpdevelop .popover-content .opsd-popover-content-data .field-dates .date_tire {
+    font-size: 17px;
+    font-weight: 600;
+}
+.wpdevelop .popover-content .opsd-popover-content-data .field-dates .opsd_dates_small,
+.wpdevelop .popover-content .opsd-popover-content-data .field-dates .opsd_dates_full {
+    line-height: 24px;
+}
+.wpdevelop .popover-content .opsd-popover-content-data .field-dates .date_from_dif_type {
+    color: #FFF;
+    text-shadow: 0 -1px 0 #BBB;
+}
+
+/*   M O B I L E   ************************************************************/
+@media (max-width: 782px) { 
+    
+    /* PopOver */
+    .wpdevelop .popover .popover-title .control-group {
+        display: block;
+        margin: 0 0 0 -5px;
+        vertical-align: middle;
+    }    
+    .wpdevelop .popover .popover-title .control-group a.button{
+        height: 34px;
+        line-height: 1.5em;          
+    } 
+}

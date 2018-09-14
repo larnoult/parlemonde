@@ -1,0 +1,653 @@
+/*
+Theme Name: VP-multi-visa
+Theme URI: http://themes.kadencethemes.com/virtue-premium/
+Description: Child theme for Virtue – Premium theme
+Author: Kadence Themes
+Author URI: http://www.kadencethemes.com/
+Template: virtue_premium
+Version: 1.0.0
+*/
+
+
+@font-face {
+    font-family: 'ange';
+    src: url('cheveuxdange-webfont.eot');
+    src: url('cheveuxdange-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cheveuxdange-webfont.woff') format('woff'),
+         url('cheveuxdange-webfont.ttf') format('truetype'),
+         url('cheveuxdange-webfont.svg#cheveuxdangemedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'exception';
+    src: url('theonlyexception-webfont.eot');
+    src: url('theonlyexception-webfont.eot?#iefix') format('embedded-opentype'),
+         url('theonlyexception-webfont.woff') format('woff'),
+         url('theonlyexception-webfont.ttf') format('truetype'),
+         url('theonlyexception-webfont.svg#the_only_exceptionregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'amandine';
+    src: url('amandine-webfont.eot');
+    src: url('amandine-webfont.eot?#iefix') format('embedded-opentype'),
+         url('amandine-webfont.woff') format('woff'),
+         url('amandine-webfont.ttf') format('truetype'),
+         url('amandine-webfont.svg#amandinehandwriting') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'moon';
+    src: url('plmoon-webfont.eot');
+    src: url('plmoon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('plmoon-webfont.woff') format('woff'),
+         url('plmoon-webfont.ttf') format('truetype'),
+         url('plmoon-webfont.svg#pwflymetothemoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'littledays';
+    src: url('plm-littledays-webfont.eot');
+    src: url('plm-littledays-webfont.eot?#iefix') format('embedded-opentype'),
+         url('plm-littledays-webfont.woff') format('woff'),
+         url('plm-littledays-webfont.ttf') format('truetype'),
+         url('plm-littledays-webfont.svg#little_daysregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+  font-family: 'LoveYa';
+  src: url('LoveYaLikeASister.eot?#iefix') format('embedded-opentype'),  url('LoveYaLikeASister.woff') format('woff'), url('LoveYaLikeASister.ttf')  format('truetype'), url('LoveYaLikeASister.svg#LoveYaLikeASister') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* to have the captions not only on hover in galleries*/
+.kad_caption {
+	ms-filter: "alpha(Opacity=90)"!important;
+	filter: alpha(opacity=90)!important;
+	-moz-opacity: 0.9!important;
+	-khtml-opacity: 0.9!important;
+	opacity: 0.9!important;
+}	
+
+/* to have the gallery navigation disappear in the footer */
+.footer-widget .flex-control-nav {
+	display:none!important;
+}
+
+.portfolio_item .portfoliolink{
+	ms-filter: "alpha(Opacity=90)"!important;
+	filter: alpha(opacity=90)!important;
+	-moz-opacity: 0.9!important;
+	-khtml-opacity: 0.9!important;
+	opacity: 0.9!important;
+}
+
+/* To get slider pagination less visible */
+.kad-slider ul.kad-slider-pagination {
+	opacity:0.5!important;
+}
+
+
+.imp-shape-poly {
+  margin:100px;
+  display: block;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #cca92c;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+  animation: imp-shape-poly 1s infinite;
+}
+.imp-shape-poly:hover {
+  animation: none;
+}
+
+@-webkit-keyframes imp-shape-poly {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
+@keyframes imp-shape-poly {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+      box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
+
+/* to style home page logo */
+
+/*.kad-header-left{
+	position: absolute!important;
+    min-height: 1px!important;;
+    padding-left: 15px!important;;
+    padding-right: 15px!important;;
+    margin-top: -300px!important;;
+    left: 50px!important;;
+    background-color: rgba(0, 0, 0, 0.6)!important;;
+}*/
+
+
+/* to style description */
+
+.belowlogo-text:before {
+    content: "\201C"!important;
+	font-size:35px!important;
+    color: rgba(55, 56, 105, 0.72)!important;
+    padding-right: 10px!important;
+}
+.kad_tagline{
+	width: 120%;
+	padding-left: 30px;	
+}
+
+	
+	
+}
+.pullquote-left{
+    position: relative;
+    padding: 10px 0 10px 90px;
+    margin: 10px 40px 5px 0;
+    float: left;
+    max-width: 4450px;
+    font-size: 16px;
+    line-height: 24px;
+	width:100%;
+}
+
+.icon-plus-sign:before {
+    content: "\f055";
+}
+
+.icon-minus-sign:before {
+    content: "\f056";
+}
+
+.icon-plus:before {
+    content: "\f067"
+}
+
+.icon-minus:before {
+    content: "\f068"
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* pour la partie En route  Et Sri Lanka year map */ 
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#monde-map, #new-year-map{
+	position: relative; 
+	top: 10px;
+	width:100%;
+}
+
+#monde-map img, #new-year-map img {
+	display:block !important; 
+	width:100%;
+	}
+	
+#monde-map .hotspots, #new-year-map .new-year-hotspots {
+	width:100%; 
+	height:100%; 
+	position:absolute; 
+	left:0; 
+	top:0; 	
+	}
+
+#monde-map .hotspots span{
+	display:block; 
+/*	border:1px solid black; */
+	position:absolute;
+	width:6%; 
+	height:8%;
+}
+
+#new-year-map .new-year-hotspots span {
+	display:block; 
+	position:absolute;
+}
+
+
+#monde-map .hotspots span#france-drop-in {
+	left:45%; 
+	top:25%; 
+}
+#monde-map .hotspots span#tunisie-drop-in {
+	left:45%; 
+	top:34%; 
+}
+#monde-map .hotspots span#liban-drop-in {
+	left:52%; 
+	top:34%; 
+}
+
+#monde-map .hotspots span#ouganda-drop-in {
+	left:53%; 
+	top:50%; 
+}
+
+#monde-map .hotspots span#namibie-drop-in {
+	left:47%; 
+	top:58%; 
+}
+
+#monde-map .hotspots span#chili-drop-in {
+	left:24%; 
+	top:71%; 
+}
+
+#monde-map .hotspots span#colombie-drop-in {
+	left:24%; 
+	top:48%; 
+}
+
+#monde-map .hotspots span#salvador-drop-in {
+	left:17%; 
+	top:38%; 
+}
+
+#monde-map .hotspots span#canada-drop-in {
+	left:23%; 
+	top:22%; 
+}
+
+#monde-map .hotspots span#mongolie-drop-in {
+	left:69%; 
+	top:25%; 
+}
+/*
+#monde-map .hotspots span#nepal-drop-in {
+	left:69%; 
+	top:35%; 
+}*/
+
+#monde-map .hotspots span#sri-lanka-drop-in {	
+	left:69%; 
+	top:45%;
+}
+
+#monde-map .hotspots span#malaisie-drop-in {
+	left:76%; 
+	top:45%;
+}
+
+#monde-map .hotspots span#japon-drop-in {
+	left:82%; 
+	top:26%; 
+}
+
+#monde-map .hotspots span#australie-drop-in {
+	left:82%; 
+	top:68%; 
+}
+
+#monde-map .hotspots span#bolivie-drop-in {
+	left:23%; 
+		top:58%;
+}
+
+
+#monde-map .hotspots span#birmanie-drop-in {
+left:69.5%; 
+	top:38%; 
+}
+#monde-map .hotspots span#madagascar-drop-in {
+	left:58%; 
+	top:57%;
+}
+#monde-map .hotspots span#oman-drop-in {
+	left:58%; 
+	top:36%;
+}
+#monde-map .hotspots span#nigeria-drop-in {
+	left:45%; 
+	top:44%;
+}
+#monde-map .hotspots span#mozambique-drop-in {
+	left:51%; 
+	top:57%;
+}
+#monde-map .hotspots span#russie-drop-in {
+	left:55%; 
+	top:15%;
+}
+
+/*
+.monde {
+	margin: 0 auto;
+	max-width:900px;
+    width: 100%; 
+	text-align:middle;
+}*/
+
+
+#France,#Liban, #Ouganda, #Namibie, #Sri-Lanka, #Japon, #Colombie, #Bolivie, #Canada, #Birmanie, #Oman, #Madagascar, .mystere2015 {
+	z-index:1;
+	width: 85%;
+	position: relative; 
+	top: 0px;
+	left:0px;
+	cursor:move;
+}
+
+.mini-puzzle{
+	width: 82%;
+	height: auto; 
+}
+
+.puzzle-piece td{
+	font-family: "littledays";
+	font-size:20px;
+	text-align:center;
+	vertical-align:center;
+}
+
+
+#monde-map {
+	position: relative; 
+	top: 10px;
+}
+
+ul.list-bulle {
+	margin-top: 5px;
+	margin-left: 10px;
+	}
+	
+/* Pour styler le slider cyclone */
+.cycloneslider-caption {
+	margin-bottom: 15px!important;
+}
+
+#map_ou_actuellement{
+	visibility:hidden !important;
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*  Modification du menu de navigation entre sous-sites
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.topclass {
+    background: #c16666!important;
+} 
+
+.topbarmenu{
+    padding-top: 5px;
+}
+
+#menu-global > li > a > span:nth-child(1){
+	font-family: 'littledays';
+	font-size: 23px !important;
+	text-transform: capitalize;
+}
+
+
+#menu-global > li{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#welcome-plm{
+    color: white;
+    text-align: right;
+    padding-top: 7px;
+}
+#topbar{
+	background: #efa200!important;
+}
+
+
+
+
+/* To add a ressource type of list */
+
+ol.ressource li{
+	font-family: "littledays";
+	font-size: 20px;
+/*	text-decoration:underline;*/
+	line-height:200%;
+}
+ol.ressource {
+	margin-left:30px;
+}
+	
+	ol.ressource {list-style: none; counter-reset: chapter 1;}
+	ol.ressource li+li {counter-increment: chapter 1; list-style: none;}
+	ol.ressource li:before {content: "Ressource " counter(chapter) " : "}
+	
+/* For ressource game */ 
+span#coco1{
+width:75%!important;
+height:5%!important;
+top:42%!important;
+}
+span#coco2{
+	width:20%!important;
+	height:5%!important;
+	top:42%!important;
+	left:80%
+}
+
+span#peche{
+	width:65%!important;
+	height:20%!important;
+	top:48%!important;
+	left:32%
+}
+
+span#tourisme{
+	width:22%!important;
+	height:22%!important;
+	top:48%!important;
+	left:1%
+}
+
+span#eole1{
+	width:5%!important;
+	height:12%!important;
+	bottom:58.2%!important;
+	left:27%
+}
+
+span#eole2{
+	width:5%!important;
+	height:8%!important;
+	bottom:58.2%!important;
+	left:64%
+}
+
+span#eole3{
+	width:4.8%!important;
+	height:18%!important;
+	bottom:54%!important;
+	left:75.1%
+}
+span#coco1:hover, span#coco2:hover, span#eole1:hover, span#eole2:hover, span#tourisme:hover, span#eole3:hover, span#peche:hover{
+	cursor:pointer;
+}
+	
+span#peche:hover + span#peche-explained, span#coco1:hover + span#coco-explained, span#coco2:hover + span#coco-explained2, span#tourisme:hover + span#tourisme-explained, span#eole1:hover + span#eole-explained, span#eole2:hover + span#eole-explained2, span#eole3:hover + span#eole-explained3{
+	opacity:1;
+}
+
+
+.explanation {
+	transition: all 0.5s ease;
+	text-align: center;
+	padding:20px 20px 20px 20px;
+	font-size: 30px;
+	line-height: 32px;
+	position: absolute;
+	top:78%;
+	color: rgb(183, 183, 183);
+	width:100%!important;
+	opacity:0;
+	height:15%!important;
+	}
+	
+	
+.pullquote-left::before{
+	color: rgba(0, 0, 0, 0.53)!important;	
+}
+
+pullquote-lb::before{
+	color: rgba(0, 0, 0, 0.53)!important;	
+}
+
+/* to get vimeo video fluid */
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 10px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* pour l'article nouvel an cingalais */
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+span#SRL1-food{
+	width:26%;
+	height:35%;
+	left:8%;
+	bottom:1%;	
+}
+
+span#SRL2-stick{
+	width:50%;
+	height:35%;
+	top:0;
+}
+span#SRL3-pillow{
+width:30%;
+height:35%;
+top:5%;
+left:55%;
+}
+
+span#SRL4-elephant{
+	width:35%;
+	height:35%;
+	bottom:5%;
+	left:58%;
+}
+
+div#SRL-explained{
+	position:relative;
+	padding-bottom:400px;
+}
+div#SRL-explained span {
+	position:absolute;
+	width: 100%;
+	display:none!important;	
+	opacity:0;
+	transition:all 1s ease;
+}
+
+#new-year-map .new-year-hotspots span:hover{
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.45) 0%, rgba(255,255,255,0) 62%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.45)), color-stop(62%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.45) 0%,rgba(255,255,255,0) 62%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.45) 0%,rgba(255,255,255,0) 62%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.45) 0%,rgba(255,255,255,0) 62%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  rgba(255,255,255,0.45) 0%,rgba(255,255,255,0) 62%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+ /* IE6-9 fallback on horizontal gradient */
+}
+
+#SRL-explained span:target{
+	display:inline!important;
+	opacity:1;
+}
+
+
+/* Pour styler les champs de recherche */
+.VS-interface{
+padding-left: 3px !important;
+}
+
+.VS-interface.ui-autocomplete{
+line-height: 20px !important;
+min-width: 150px!important;
+max-width: 520px!important;
+width:auto!important;
+}
+
+/* Pour résoudre le bug des tabs */
+.tab-content >.tab-pane {
+    display: block!important;
+    visibility: hidden!important;
+    overflow: hidden!important;
+    height: 0px!important;
+    padding: 0!important;
+}
+.tab-content >.active {
+display: block!important;
+visibility: visible!important;
+height: auto!important;
+padding: 10px 0!important;
+}
+
+/* To adjust position of back-to-top */
+
+div#topcontrol{
+	bottom: 5px!important;
+}
+
+#japon-france .wp-audio-shortcode{
+	margin-top:20px;
+	margin-bottom:10px;
+}

@@ -1,0 +1,43 @@
+/* button */
+input[type="submit"].dem-button,
+a.dem-button,
+.dem-button{
+	background-color: #f8f8f8;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f0f0f0));
+	background: -webkit-linear-gradient(#fff, #f0f0f0);
+	background: linear-gradient(#fff, #f0f0f0);
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	color: #5f5f5f;
+	font-size:90%;
+	font-weight: bold;
+	text-shadow: 0 1px #fff;
+	white-space: nowrap;
+	padding:0.7em 1.2em;
+}
+
+input[type="submit"].dem-button:hover,
+a.dem-button:hover,
+.dem-button:hover,
+input[type="submit"].dem-button:focus,
+a.dem-button:focus,
+.dem-button:focus{
+	border-color: #ccc #c2c2c2 #b8b8b8;
+}
+
+a.dem-button:visited{
+	color:#5f5f5f;
+}
+
+input[type="submit"].dem-button:active,
+a.dem-button:active,
+.dem-button:active{
+	background-color: #f8f8f8;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f0f0f0), to(#fff));
+	background: -webkit-linear-gradient(#f0f0f0, #fff);
+	background: linear-gradient(#f0f0f0, #fff);
+	border-color: #b8b8b8 #c2c2c2 #ccc;
+	-webkit-box-shadow: 0 0 2px rgba(0,0,0,0.33) inset;
+	box-shadow: 0 0 2px rgba(0,0,0,0.33) inset;
+}
+

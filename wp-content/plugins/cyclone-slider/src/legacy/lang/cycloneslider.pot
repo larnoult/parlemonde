@@ -1,0 +1,222 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cyclone Slider 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-03 16:08+0800\n"
+"PO-Revision-Date: 2012-09-03 16:09+0800\n"
+"Last-Translator: \n"
+"Language-Team: kosinix <kosinix@codefleet.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: D:\\webserver\\htdocs\\wp3\\wp-content\\plugins\\cyclone-slider\n"
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:170
+msgid "Cyclone Slider"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:171
+msgid "Slideshow"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:172
+msgid "Add Slideshow"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:173
+msgid "Add New Slideshow"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:174
+msgid "Edit Slideshow"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:175
+msgid "New Slideshow"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:176
+msgid "View Slideshow"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:177
+msgid "Search Slideshows"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:178
+msgid "No slideshows found"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:179
+msgid "No slideshows found in Trash"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:195
+#, php-format
+msgid "Slideshow updated. Shortcode is [cycloneslider id=\"%s\"]"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:196
+msgid "Custom field updated."
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:197
+msgid "Custom field deleted."
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:198
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:199
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:202
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:203
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:204
+msgid "Slideshow updated."
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:200
+#, php-format
+msgid "Slideshow published. Shortcode is [cycloneslider id=\"%s\"]"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:201
+msgid "Slideshow saved."
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:213
+msgid "Slides"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:221
+msgid "Slider Settings"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:257
+msgid "Add Slide"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:319
+msgid "Transition Effects to Use:"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:330
+msgid "Next Slide Delay:"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:332
+msgid "Milliseconds. 0 to disable auto advance."
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:336
+msgid "Transition Effects Speed:"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:338
+msgid "Milliseconds"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:342
+msgid "Width:"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:344
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:350
+msgid "pixels."
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:348
+msgid "Height:"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:354
+msgid "Show Prev/Next Buttons?"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:356
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:364
+msgid "Yes"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:357
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:365
+msgid "No"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:362
+msgid "Show Navigation?"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:451
+msgid "Slideshow Name"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:452
+msgid "Slideshow ID"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:453
+msgid "Shortcode"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:546
+msgid "[Slideshow not found]"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/cyclone-slider.php:590
+#, php-format
+msgid "[Template \"%s\" not found]"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/inc/admin/box-js.php:4
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/inc/admin/box.php:4
+msgid "Slide"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/inc/admin/box-js.php:7
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/inc/admin/box.php:7
+msgid "Drag"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/inc/admin/box-js.php:8
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/inc/admin/box.php:8
+msgid "Toggle"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/inc/admin/box-js.php:9
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/inc/admin/box.php:9
+msgid "Delete"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/inc/admin/box-js.php:17
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/inc/admin/box.php:17
+msgid "Get Image"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/inc/admin/box-js.php:20
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/inc/admin/box.php:20
+msgid "Extra slide elements:"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/inc/admin/box-js.php:22
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/inc/admin/box.php:22
+msgid "Slide Link"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/inc/admin/box-js.php:24
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/inc/admin/box.php:24
+msgid "Link:"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/inc/admin/box-js.php:27
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/inc/admin/box.php:27
+msgid "Title"
+msgstr ""
+
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/inc/admin/box-js.php:31
+#: D:\webserver\htdocs\wp3\wp-content\plugins\cyclone-slider/inc/admin/box.php:31
+msgid "Description"
+msgstr ""
+

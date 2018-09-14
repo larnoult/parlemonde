@@ -1,0 +1,72 @@
+# Translation of Stable (latest release) in Arabic
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-04-08 13:52:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#: classes/PodsInit.php:952
+msgid "Uploaded to this %s"
+msgstr "تم الرفع إلى  %s"
+
+#: classes/PodsInit.php:970
+msgid "No %s"
+msgstr "لا %s"
+
+#: classes/PodsInit.php:950
+msgid "%s Archives"
+msgstr "أرشيف %s"
+
+#: classes/PodsInit.php:951
+msgid "Insert into %s"
+msgstr "إدخال إلى  %s"
+
+#: classes/PodsInit.php:949 ui/admin/setup-edit.php:394
+msgid "Use as featured image"
+msgstr "استخدامها كصورة بارزة"
+
+#: classes/PodsInit.php:947 ui/admin/setup-edit.php:386
+msgid "Set featured image"
+msgstr "وضع الصورة المفضلة"
+
+#: classes/PodsInit.php:948 ui/admin/setup-edit.php:390
+msgid "Remove featured image"
+msgstr "حذف الصورة البارزة "
+
+#: classes/PodsAdmin.php:2741
+msgid "Full"
+msgstr "كامل"
+
+#: ui/admin/setup-add.php:84 ui/admin/setup-add.php:235
+msgid "Content Type"
+msgstr "نوع المحتوى"
+
+#: components/Migrate-Packages/ui/wizard.php:279
+msgid "Continue"
+msgstr "متابعة"
+
+#: components/Templates/includes/auto-template/Pods_Templates_Auto_Template_Settings.php:174
+msgid "Taxonomy Template"
+msgstr "صفحة الفئة"
+
+#: classes/PodsUI.php:3857
+msgid "Current page"
+msgstr "الصفحة الحالية"
+
+#: classes/PodsUI.php:3883
+msgid "Go to the next page"
+msgstr "انتقل للصفحة التالية"
+
+#: classes/PodsUI.php:3884
+msgid "Go to the last page"
+msgstr "انتقل للصفحة الأخيرة"
+
+#: classes/PodsAdmin.php:444 classes/PodsAdmin.php:467
+#: ui/admin/components-admin.php:10 ui/admin/upgrade/upgrade_2_0_0.php:221
+msgid "Settings"
+msgstr "الإعدادات"

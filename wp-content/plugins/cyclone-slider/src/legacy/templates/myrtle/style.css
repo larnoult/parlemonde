@@ -1,0 +1,80 @@
+/*** Template Myrtle ***/
+.cycloneslider-template-myrtle{
+    overflow:hidden;
+}
+.cycloneslider-template-myrtle .cycloneslider-slide img{
+    max-width:100%;
+    max-height:100%;
+}
+.cycloneslider-template-myrtle .cycloneslider-prev,
+.cycloneslider-template-myrtle .cycloneslider-next{
+    display:none;
+    position:absolute;
+    top:50%;
+    margin-top:-19px;
+    z-index:102;
+    text-indent:-99999px;
+    width:45px;
+    height:45px;
+    background: url($tpl/images/sprite-arrows.png) no-repeat;
+}
+.cycloneslider-template-myrtle:hover .cycloneslider-prev,
+.cycloneslider-template-myrtle:hover .cycloneslider-next{
+    display:block;
+}
+.cycloneslider-template-myrtle .cycloneslider-prev{
+    left:10px;
+    background-position:-45px 0;
+}
+.cycloneslider-template-myrtle .cycloneslider-next{
+    right:10px;
+    background-position:0 0;
+}
+.cycloneslider-template-myrtle .cycloneslider-prev:hover{
+    background-position:-45px -45px;
+}
+.cycloneslider-template-myrtle .cycloneslider-next:hover{
+    background-position:0 -45px;
+}
+.cycloneslider-template-myrtle .cycloneslider-pager{
+    position:absolute;
+    z-index:99;
+    top:20px;
+    right:20px;
+}
+.cycloneslider-template-myrtle .cycloneslider-pager a {
+    background: url($tpl/images/sprite-nav.png) no-repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    font-size: 0;
+    width: 12px;
+    height: 12px;
+    line-height: 0;
+    margin-right: 6px;
+    text-indent: -99999px;
+}
+.cycloneslider-template-myrtle .cycloneslider-pager a.activeSlide {
+    background-position: left bottom;
+}
+.cycloneslider-template-myrtle .cycloneslider-caption{
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    z-index:99;
+    background: url($tpl/images/bg-caption.png) right;
+    color:#fff;
+}
+.cycloneslider-template-myrtle .cycloneslider-caption-title{
+    padding:10px 20px 5px 20px;
+    font-size:24px;
+    line-height:1;
+    margin-bottom:0;
+    color:#E62B4E;
+}
+.cycloneslider-template-myrtle .cycloneslider-caption-description{
+    padding:0 20px 15px 20px;
+    line-height:1.5;
+    font-size:12px;
+    color:#676761;
+}

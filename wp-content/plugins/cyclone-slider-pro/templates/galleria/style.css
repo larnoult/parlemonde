@@ -1,0 +1,221 @@
+/*** Template Galleria ***/
+.cycloneslider-template-galleria{
+	position:relative;
+	overflow:hidden;
+}
+.cycloneslider-template-galleria .cycloneslider-slides{
+	position:relative;
+	overflow:hidden;
+	background:#000;
+}
+.cycloneslider-template-galleria .cycloneslider-slide{
+	text-align: center;
+	width: 100%; /* For slides in scrollHorz to work */
+	display: none; /* Hide slides to prevent FOUC when JS hasn't kicked in yet */
+	background: #000; /* Add background to prevent slides from peeking behind the current slide when fx=scrollHorz and hideNonActive=false */
+}
+.cycloneslider-template-galleria .cycle-slide{
+	display: block; /* Show slide so that getBoundingClientRect().height will not return 0. Class .cycle-slide is added when cycle has initialized. */
+}
+.cycloneslider-template-galleria .cycloneslider-slide:first-child, /* Show first slide */
+.cycloneslider-template-galleria .cycle-sentinel + .cycloneslider-slide{ /* Select next slide when using sentinel slide */
+	display: block;
+}
+.cycloneslider-template-galleria .cycloneslider-slide img{
+	display:block;
+	margin:0 auto;
+	padding:0;
+	max-width:100%;
+	border:0;
+}
+.cycloneslider-template-galleria.cycloneslider-width-full .cycloneslider-slide img{
+	width:100%;
+}
+
+
+/*** Prev/Next ***/
+.cycloneslider-template-galleria .cycloneslider-prev,
+.cycloneslider-template-galleria .cycloneslider-next,
+.cycloneslider-template-galleria .cycloneslider-pager span {
+	cursor:pointer;
+}
+.cycloneslider-template-galleria .cycloneslider-prev,
+.cycloneslider-template-galleria .cycloneslider-next{
+    display:none;
+    position:absolute;
+    top:50%;
+    margin-top:-18px;
+    z-index:502;
+    width:36px;
+    height:36px;
+    text-indent:-99999px;
+    background: url(images/galleria-sprite-arrows.png) no-repeat;
+}
+.cycloneslider-template-galleria:hover .cycloneslider-prev,
+.cycloneslider-template-galleria:hover .cycloneslider-next{
+    display:block;
+}
+.cycloneslider-template-galleria .cycloneslider-prev{
+    left:10px;
+    background-position:0 0;
+}
+.cycloneslider-template-galleria .cycloneslider-next{
+    right:10px;
+    background-position:-36px 0;
+}
+.cycloneslider-template-galleria .cycloneslider-prev:hover{
+    background-position:0 -36px;
+}
+.cycloneslider-template-galleria .cycloneslider-next:hover{
+    background-position:-36px -36px;
+}
+.cycloneslider-template-galleria .cycloneslider-prev.disabled,
+.cycloneslider-template-galleria .cycloneslider-next.disabled{
+	display: none;
+}
+
+/*** Controls ***/
+.cycloneslider-template-galleria .cycloneslider-controls{
+    height:30px;
+    position:relative;
+    z-index:900;
+    background:#fff url(images/galleria-bg-bar.png) repeat-x bottom;
+    color:#BBBBBB;
+    font-size:11px;
+    font-family:sans-serif;
+}
+.cycloneslider-template-galleria .cycloneslider-autoplay{
+    float:left;
+    width:29px;
+    height:29px;
+    cursor:pointer;
+    background: url(images/galleria-sprite-play-pause.png) no-repeat 12px 10px;
+}
+.cycloneslider-template-galleria .cycloneslider-autoplay.pause{
+    background-position: 11px -90px;
+}
+.cycloneslider-template-galleria .cycloneslider-autoplay:hover{
+    background-color:#333;
+}
+
+/*** Thumbnails ***/
+.cycloneslider-template-galleria .cycloneslider-thumbs{
+    position:absolute;
+    right:0;
+    top:0;
+    width:29px;
+    height:29px;
+    cursor:pointer;
+    background: url(images/galleria-btn-thumbs.png) no-repeat 9px 10px;
+}
+.cycloneslider-template-galleria .cycloneslider-thumbs:hover{
+    background-color:#333;
+}
+.cycloneslider-template-galleria .cycloneslider-sep{
+    float:left;
+    width:2px;
+    height:29px;
+    background: url(images/galleria-bg-sep.png) repeat-y;
+}
+.cycloneslider-template-galleria .cycloneslider-sep-right{
+    float:none;
+    position:absolute;
+    right:29px;
+    top:0;
+}
+.cycloneslider-template-galleria .cycloneslider-counter{
+    float:left;
+    height:29px;
+    line-height:29px;
+    padding:0 10px;
+    
+}
+.cycloneslider-template-galleria .cycloneslider-caption-title{
+    float:left;
+    padding:0 10px;
+    height:29px;
+    line-height:29px;
+    font-weight:bold;
+    color:#fff;
+}
+.cycloneslider-template-galleria .cycloneslider-caption-description{
+    float:left;
+    padding-right:10px;
+    height:29px;
+    line-height:29px;
+    max-width:50%;
+    overflow:hidden;
+    white-space:nowrap;
+}
+.cycloneslider-template-galleria .cycloneslider-pager{
+    position:absolute;
+    z-index:99;
+    top:20px;
+    right:20px;
+}
+.cycloneslider-template-galleria .cycloneslider-pager a {
+    background: url(images/sprite-slide-nav.png) no-repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    font-size: 0;
+    height: 8px;
+    line-height: 0;
+    margin-left: 5px;
+    text-indent: -99999px;
+    width: 8px;
+}
+.cycloneslider-template-galleria .cycloneslider-pager a.activeSlide {
+    background-position: left bottom;
+}
+.cycloneslider-template-galleria .cycloneslider-thumbnails{
+    position:absolute;
+    left:0;
+    bottom:-100px;
+    width:100%;
+    height:84px;
+    background:#222;
+    z-index:505;
+    
+}
+.cycloneslider-template-galleria .thumbnails-inner{
+    padding:10px 20px;
+    position:relative;
+}
+.cycloneslider-template-galleria .thumbnails-carousel{
+    width:100%;
+}
+.cycloneslider-template-galleria .thumbnails-carousel img{
+    float:left;
+    border:2px solid #000;
+    margin:0 3px;
+    cursor:pointer;
+    list-style:none;
+    padding:0;
+}
+.cycloneslider-template-galleria .thumbnails-carousel img.current{
+    border-color:#ccc;
+}
+
+.cycloneslider-template-galleria .carousel-prev,
+.cycloneslider-template-galleria .carousel-next{
+    position:absolute;
+    bottom:0;
+    color:#fff;
+    width:20px;
+    height:100%;
+    cursor:pointer;
+    background: url(images/galleria-sprite-prevnext.png) no-repeat 8px center;
+}
+.cycloneslider-template-galleria .carousel-prev{
+    left:0;
+    background-position:8px center;
+}
+.cycloneslider-template-galleria .carousel-next{
+    right:0;
+    background-position:-72px center;
+}
+.cycloneslider-template-galleria .carousel-prev.disabled,
+.cycloneslider-template-galleria .carousel-next.disabled{
+    display:none;
+}
+

@@ -1,0 +1,25 @@
+/*
+ * WP Quiz Plugin by MyThemeShop
+ * https://mythemeshop.com/plugins/wp-quiz/
+*/
+.wq_quizCtr .wq_singleAnswerCtr {border: 1px solid rgba(0, 0, 0, 0.1);background: #f2f2f2;padding: 7px 7px 8px;margin: 0 0 15px 0;}
+.wq_quizCtr .wq_singleAnswerCtr:last-of-type { margin-bottom: 0 }
+.wq_singleAnswerCtr:hover { background: #fff195!important;transition: background 550ms ease-out;cursor: pointer;color: #000!important; }
+.wq_quizCtr .wq_singleAnswerCtr.wq_answerSelected { background: #4CAF50!important;color: #fff!important; }
+.wq_quizCtr .wq_singleAnswerCtr.wq_correctAnswer { background: #4CAF50!important; border-color: #409444!important; color: #FFF!important; opacity: 0.8; }
+.wq_quizCtr .wq_singleAnswerCtr.wq_incorrectAnswer {background: #F44336!important;border-color: #CE392E!important;color: #fff!important;opacity: 0.8;}
+.wq_questionAnswered .wq_singleAnswerCtr { opacity: 0.5;background: #f2f2f2!important;color: inherit!important; }
+.wq_questionAnswered .wq_singleAnswerCtr.chosen { opacity: 1 }
+.wq_singleAnswerCtr .wq_answerTxtCtr { background-image: url(../image/traditional-checkbox-no.jpg); background-repeat: no-repeat; vertical-align: middle; display: inline-block; line-height: 19px; font-weight: bold; font-size: 18px; height: auto; padding-left: 31px; cursor: pointer; }
+.chosen .wq_answerTxtCtr, .wq_answerSelected  .wq_answerTxtCtr { background-image: url(../image/traditional-checkbox-ok.jpg) }
+.wq_correctExplanationHead { color: #4CAF50; font-weight: bold; font-size: 1.2em; }
+.wq_wrongExplanationHead { color: #F44336; font-weight: bold; font-size: 1.2em; }
+.wq_quizForceActionCtr { background: #f9f9f9; padding: 30px 20px; border: 1px solid #dddddd; text-align: center; float: left; width: 100%; box-sizing: border-box; margin-top: 30px; }
+@media screen and (max-width: 480px){
+	.wq_singleAnswerCtr .wq_answerTxtCtr, .wq_wrongExplanationHead  {
+		font-size: 15px !important;
+	}
+	.wq_singleAnswerCtr.wq_hasImage .wq_answerTxtCtr{
+		font-size: 10px !important; line-height: 10px;
+	}
+}

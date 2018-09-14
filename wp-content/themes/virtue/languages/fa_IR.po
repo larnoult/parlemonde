@@ -1,0 +1,2492 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Virtue\n"
+"POT-Creation-Date: 2016-02-27 18:53-0700\n"
+"PO-Revision-Date: 2016-02-27 18:53-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../themeoptions/assets\n"
+"X-Poedit-SearchPathExcluded-1: ../themeoptons/framework.php\n"
+"X-Poedit-SearchPathExcluded-2: ../themeoptions/inc\n"
+"X-Poedit-SearchPathExcluded-3: ../themeoptions/options\n"
+"X-Poedit-SearchPathExcluded-4: ../themeoptions/redux-extensions\n"
+"X-Poedit-SearchPathExcluded-5: ../assets/js\n"
+
+#: ../404.php:11
+msgid "Sorry, but the page you were trying to view does not exist."
+msgstr "متاسفیم، صفحه ای که شما به دنبال آن هستید وجود ندارد."
+
+#: ../404.php:14
+msgid "It looks like this was the result of either:"
+msgstr "نتایج جستجو شامل این موارد نیز است:"
+
+#: ../404.php:16
+msgid "a mistyped address"
+msgstr "آدرس اشتباه نوشته شده است"
+
+#: ../404.php:17
+msgid "an out-of-date link"
+msgstr "پیوندهای تاریخ گذشته"
+
+#: ../archive.php:22 ../home.php:22 ../index.php:13
+#: ../taxonomy-portfolio-type.php:13
+msgid "Sorry, no results were found."
+msgstr "متاسفیم، پاسخی برای درخواست شما وجود ندارد."
+
+#: ../lib/authorbox.php:5
+msgid "About Author"
+msgstr "درباره نویسنده"
+
+#: ../lib/authorbox.php:6 ../lib/utils.php:60
+msgid "Latest Posts"
+msgstr "آخرین ارسال ها"
+
+#: ../lib/authorbox.php:13 ../lib/authorbox.php:16 ../lib/authorbox.php:20
+#: ../lib/authorbox.php:24 ../lib/authorbox.php:28 ../lib/authorbox.php:32
+#: ../lib/authorbox.php:36 ../lib/authorbox.php:40 ../lib/authorbox.php:44
+#: ../lib/authorbox.php:48 ../lib/authorbox.php:52
+msgid "Follow"
+msgstr "دنبال کردن"
+
+#: ../lib/authorbox.php:16
+msgid "on Facebook"
+msgstr "در فیسبوک"
+
+#: ../lib/authorbox.php:20
+msgid "on Twitter"
+msgstr "در توییتر"
+
+#: ../lib/authorbox.php:24
+msgid "on Google Plus"
+msgstr "در گوگل پلاس"
+
+#: ../lib/authorbox.php:28
+msgid "on YouTube"
+msgstr "در بوتیوب"
+
+#: ../lib/authorbox.php:32
+msgid "on Flickr"
+msgstr "در فلیکر"
+
+#: ../lib/authorbox.php:36
+msgid "on Vimeo"
+msgstr "در ویمئو"
+
+#: ../lib/authorbox.php:40
+msgid "on linkedin"
+msgstr "در لینکداین"
+
+#: ../lib/authorbox.php:44
+msgid "on Dribbble"
+msgstr "در دریبل"
+
+#: ../lib/authorbox.php:48
+msgid "on Pinterest"
+msgstr "در پینترس"
+
+#: ../lib/authorbox.php:52
+msgid "on Instagram"
+msgstr "در اینستاگرام"
+
+#: ../lib/authorbox.php:69
+msgid "Latest posts from"
+msgstr "آخرین ارسال ها از"
+
+#: ../lib/class-tgm-plugin-activation.php:303
+#: ../lib/virtuetoolkit-activate.php:35
+msgid "Install Required Plugins"
+msgstr "نصب افزونه های مورد نیاز"
+
+#: ../lib/class-tgm-plugin-activation.php:304
+#: ../lib/virtuetoolkit-activate.php:36
+msgid "Install Plugins"
+msgstr "نصب افزونه ها"
+
+#: ../lib/class-tgm-plugin-activation.php:305
+#: ../lib/virtuetoolkit-activate.php:37
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "نصب پلاگین: %s"
+
+#: ../lib/class-tgm-plugin-activation.php:306
+#: ../lib/virtuetoolkit-activate.php:38
+msgid "Something went wrong with the plugin API."
+msgstr "مشکلی در API افزونه به وجود آمده است."
+
+#: ../lib/class-tgm-plugin-activation.php:368
+#: ../lib/virtuetoolkit-activate.php:49
+msgid "Return to Required Plugins Installer"
+msgstr "برگشت به نصب افزونه های مورد نیاز"
+
+#: ../lib/class-tgm-plugin-activation.php:369
+msgid "Return to the dashboard"
+msgstr "برگشت به پیشخوان"
+
+#: ../lib/class-tgm-plugin-activation.php:370
+#: ../lib/class-tgm-plugin-activation.php:3052
+#: ../lib/virtuetoolkit-activate.php:50
+msgid "Plugin activated successfully."
+msgstr "افزونه به خوبی فعال شد."
+
+#: ../lib/class-tgm-plugin-activation.php:371
+#: ../lib/class-tgm-plugin-activation.php:2873
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "افزونه موردنظر به خوبی فعال شد:"
+
+#: ../lib/class-tgm-plugin-activation.php:372
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "کاری صورت نگرفت. افزونه %1$s قبلا فعال شده است."
+
+#: ../lib/class-tgm-plugin-activation.php:373
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. Please "
+"update the plugin."
+msgstr ""
+"افزونه فعال نیست. نسخه بالاتری از %s برای این قالب لازم است. لطفا این افزونه "
+"را بروز رسانی کنید."
+
+#: ../lib/class-tgm-plugin-activation.php:374
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "تمام افزونه ها به خوبی نصب و فعال شدند.  %1$s"
+
+#: ../lib/class-tgm-plugin-activation.php:375
+msgid "Dismiss this notice"
+msgstr "پنهان کردن این اطلاع"
+
+#: ../lib/class-tgm-plugin-activation.php:376
+msgid "Please contact the administrator of this site for help."
+msgstr "لطفا برای اطلاعات بیشتر با مدیر سایت تماس بگیرید."
+
+#: ../lib/class-tgm-plugin-activation.php:494
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "این افزونه برای هماهنگی با قالب شما نیاز به بروزرسانی دارد."
+
+#: ../lib/class-tgm-plugin-activation.php:2218
+msgid "Required"
+msgstr "ضروری"
+
+#: ../lib/class-tgm-plugin-activation.php:2221
+msgid "Recommended"
+msgstr "توصیه می شود"
+
+#: ../lib/class-tgm-plugin-activation.php:2238
+msgid "WordPress Repository"
+msgstr "مخزن وردپرس"
+
+#: ../lib/class-tgm-plugin-activation.php:2242
+msgid "External Source"
+msgstr "منبع خارجی"
+
+#: ../lib/class-tgm-plugin-activation.php:2246
+msgid "Pre-Packaged"
+msgstr "پیش بسته بندی شده"
+
+#: ../lib/class-tgm-plugin-activation.php:2265
+msgid "Not Installed"
+msgstr "نصب نشده است"
+
+#: ../lib/class-tgm-plugin-activation.php:2269
+msgid "Installed But Not Activated"
+msgstr "نصب شده اما فعال نیست."
+
+#: ../lib/class-tgm-plugin-activation.php:2271
+msgid "Active"
+msgstr "فعال"
+
+#: ../lib/class-tgm-plugin-activation.php:2277
+msgid "Required Update not Available"
+msgstr "بروزرسانی در دسترس نیست"
+
+#: ../lib/class-tgm-plugin-activation.php:2280
+msgid "Requires Update"
+msgstr "نیاز به بروزرسانی"
+
+#: ../lib/class-tgm-plugin-activation.php:2283
+msgid "Update recommended"
+msgstr "توصیه می شود بروزرسانی انجام شود"
+
+#: ../lib/class-tgm-plugin-activation.php:2344
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "نصب  <span class=\"count\">(%s)</span>"
+
+#: ../lib/class-tgm-plugin-activation.php:2348
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "بروزرسانی موجود است  <span class=\"count\">(%s)</span>"
+
+#: ../lib/class-tgm-plugin-activation.php:2352
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "فعال سازی <span class=\"count\">(%s)</span>"
+
+#: ../lib/class-tgm-plugin-activation.php:2453
+msgid "Installed version:"
+msgstr "نسخه نصب شده:"
+
+#: ../lib/class-tgm-plugin-activation.php:2461
+msgid "Minimum required version:"
+msgstr "حداقل نسخه موردنیاز:"
+
+#: ../lib/class-tgm-plugin-activation.php:2473
+msgid "Available version:"
+msgstr "نسخه در دسترس:"
+
+#: ../lib/class-tgm-plugin-activation.php:2497
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+"افزونه ای برای نصب وجود ندارد، بروزرسانی یا فعال کنید. <a href=\"%1$s\">بازگشت "
+"به پیشخوان</a>"
+
+#: ../lib/class-tgm-plugin-activation.php:2513
+msgid "Plugin"
+msgstr "افزونه"
+
+#: ../lib/class-tgm-plugin-activation.php:2514
+msgid "Source"
+msgstr "منبع"
+
+#: ../lib/class-tgm-plugin-activation.php:2515
+msgid "Type"
+msgstr "نوع"
+
+#: ../lib/class-tgm-plugin-activation.php:2519
+msgid "Version"
+msgstr "نسخه"
+
+#: ../lib/class-tgm-plugin-activation.php:2520
+msgid "Status"
+msgstr "وضعیت"
+
+#: ../lib/class-tgm-plugin-activation.php:2660
+msgid "Install"
+msgstr "نصب"
+
+#: ../lib/class-tgm-plugin-activation.php:2666
+msgid "Update"
+msgstr "بروزرسانی"
+
+#: ../lib/class-tgm-plugin-activation.php:2669
+msgid "Activate"
+msgstr "فعالسازی"
+
+#: ../lib/class-tgm-plugin-activation.php:2730
+msgid "No plugins are available to be installed at this time."
+msgstr "افزونه ای برای نصب در حال حاضر وجود ندارد."
+
+#: ../lib/class-tgm-plugin-activation.php:2732
+msgid "No plugins are available to be updated at this time."
+msgstr "افزونه ای برای نصب در حال حاضر وجود ندارد."
+
+#: ../lib/class-tgm-plugin-activation.php:3051
+msgid "Plugin activation failed."
+msgstr "فعالسازی افزونه با شکست مواجه شد."
+
+#: ../lib/class-tgm-plugin-activation.php:3390
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "بروزرسانی افزونه %1$s (%2$d/%3$d)"
+
+#: ../lib/class-tgm-plugin-activation.php:3394
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "یک خطا در حالت نصب  %1$s اتفاق افتاده است: <strong>%2$s</strong>."
+
+#: ../lib/class-tgm-plugin-activation.php:3395
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "نصب و راه اندازی  %1$s شکست خورد."
+
+#: ../lib/class-tgm-plugin-activation.php:3399
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"عملیات نصب و فعالسازی شروع شد. این عملیات ممکن است طولانی شود، لطفا صبور باشید."
+
+#: ../lib/class-tgm-plugin-activation.php:3400
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "نصب و فعالسازی %1$s به خوبی انجام شد."
+
+#: ../lib/class-tgm-plugin-activation.php:3401
+msgid "All installations and activations have been completed."
+msgstr "تمام نصب و فعالسازی ها به اتمام رسید."
+
+#: ../lib/class-tgm-plugin-activation.php:3402
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "نصب و فعالسازی افزونه %1$s (%2$d/%3$d)"
+
+#: ../lib/class-tgm-plugin-activation.php:3406
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr "عملیات نصب شروع شد. این عملیات ممکن است طولانی شود، لطفا صبور باشید."
+
+#: ../lib/class-tgm-plugin-activation.php:3408
+msgid "All installations have been completed."
+msgstr "تمام نصب ها به اتمام رسید."
+
+#: ../lib/class-tgm-plugin-activation.php:3409
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "نصب افزونه %1$s (%2$d/%3$d)"
+
+#: ../lib/cleanup.php:78 ../templates/content-fullpost.php:74
+#: ../templates/content-fullpostfull.php:75
+msgid "Continued"
+msgstr "ادامه یافت"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_ajax.php:47
+msgid "Please Try Again"
+msgstr "لطفا دوباره امتحان کنید"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_ajax.php:131
+msgid "Remove Embed"
+msgstr "حذف Embed"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_ajax.php:134
+#, php-format
+msgid "No oEmbed Results Found for %s. View more info at"
+msgstr "پاسخ oEmbed برای %s یافت نشد. اطلاعات بیشتری را مشاهده کنید"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:150
+msgid "Add Row"
+msgstr "اضافه کردن ردیف"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:178
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:547
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:590
+msgid "Remove"
+msgstr "حذف"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:523
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:563
+msgid "Add or Upload File"
+msgstr "اضافه کردن یا آپلود فایل"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:536
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:582
+msgid "Remove Image"
+msgstr "حذف تصویر"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:547
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:590
+msgid "File:"
+msgstr "فایل:"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:547
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:590
+msgid "Download"
+msgstr "دانلود"
+
+#: ../lib/cmb/init.php:243
+msgid "Clear"
+msgstr "پاک کردن"
+
+#: ../lib/cmb/init.php:244 ../lib/metaboxes.php:98 ../lib/metaboxes.php:123
+#: ../lib/metaboxes.php:154 ../lib/metaboxes.php:165
+#: ../themeoptions/framework.php:1822
+msgid "Default"
+msgstr "پیشفرض"
+
+#: ../lib/cmb/init.php:245
+msgid "Select Color"
+msgstr "انتخاب رنگ"
+
+#: ../lib/cmb/init.php:246
+msgid "Current Color"
+msgstr "رنگ فعلی"
+
+#: ../lib/cmb/init.php:1185
+msgid "Save"
+msgstr "ذخیره"
+
+#: ../lib/comments.php:38 ../templates/comment.php:5
+#, php-format
+msgid "%1$s"
+msgstr "%1$s"
+
+#: ../lib/comments.php:43
+msgid "| (Edit)"
+msgstr "| (ویرایش)"
+
+#: ../lib/comments.php:49 ../templates/comment.php:11
+msgid "Your comment is awaiting moderation."
+msgstr "نظر شما در انتظار تعدیل."
+
+#: ../lib/custom-woocommerce.php:108 ../templates/header-topbar.php:37
+msgid "View your shopping cart"
+msgstr "مشاهده سبد خرید شما"
+
+#: ../lib/custom-woocommerce.php:110 ../templates/header-topbar.php:39
+msgid "Your Cart"
+msgstr "سبد خرید شما"
+
+#: ../lib/custom.php:416 ../templates/entry-post-links.php:3
+msgid "Previous Post"
+msgstr "نوشته قبلی"
+
+#: ../lib/custom.php:416 ../templates/entry-post-links.php:6
+msgid "Next Post"
+msgstr "نوشته بعدی"
+
+#: ../lib/custom.php:516
+msgid "Occupation"
+msgstr "اشتغال"
+
+#: ../lib/custom.php:519
+msgid "Please enter your Occupation."
+msgstr "لطفا شغل خود را وارد کنید."
+
+#: ../lib/custom.php:526
+msgid "Please enter your Twitter username."
+msgstr "لطفا نام کاربری Twitter خود را وارد کنید"
+
+#: ../lib/custom.php:533
+msgid "Please enter your Facebook url. (be sure to include http://)"
+msgstr "لطفا آدرس url فیسبوک خود را وارد کنید. (حتما //:http را وارد کنید)"
+
+#: ../lib/custom.php:540
+msgid "Please enter your Google Plus url. (be sure to include http://)"
+msgstr "لطفا آدرس url گوگل پلاس خود را وارد کنید. (حتما //:http را وارد کنید)"
+
+#: ../lib/custom.php:547
+msgid "Please enter your YourTube url. (be sure to include http://)"
+msgstr "لطفا آدرس url یوتیوب خود را وارد کنید. (حتما //:http را وارد کنید)"
+
+#: ../lib/custom.php:554
+msgid "Please enter your Flickr url. (be sure to include http://)"
+msgstr "لطفا آدرس url فلیکر خود را وارد کنید. (حتما //:http را وارد کنید)"
+
+#: ../lib/custom.php:561
+msgid "Please enter your Linkedin url. (be sure to include http://)"
+msgstr "لطفا آدرس url لینکداین خود را وارد کنید. (حتما //:http را وارد کنید)"
+
+#: ../lib/custom.php:568
+msgid "Please enter your Dribbble url. (be sure to include http://)"
+msgstr "لطفا آدرس url دریبل خود را وارد کنید. (حتما //:http را وارد کنید)"
+
+#: ../lib/custom.php:575
+msgid "Please enter your Pinterest url. (be sure to include http://)"
+msgstr "لطفا آدرس url پینترس خود را وارد کنید. (حتما //:http را وارد کنید)"
+
+#: ../lib/custom.php:582
+msgid "Please enter your Instagram url. (be sure to include http://)"
+msgstr "لطفا آدرس url اینستاگرام خود را وارد کنید. (حتما //:http را وارد کنید)"
+
+#: ../lib/init.php:9
+msgid "Primary Navigation"
+msgstr "کنترل اولیه"
+
+#: ../lib/init.php:10
+msgid "Secondary Navigation"
+msgstr "کنترل ثانویه"
+
+#: ../lib/init.php:11
+msgid "Mobile Navigation"
+msgstr "کنترل موبایل"
+
+#: ../lib/init.php:12
+msgid "Topbar Navigation"
+msgstr "کنترل نوار بالا"
+
+#: ../lib/init.php:13
+msgid "Footer Navigation"
+msgstr "کنترل پانویس"
+
+#: ../lib/metaboxes.php:21 ../lib/metaboxes.php:205
+msgid "All"
+msgstr "همه"
+
+#: ../lib/metaboxes.php:36
+msgid "All Blog Posts"
+msgstr "تمام نوشته های بلاگ"
+
+#: ../lib/metaboxes.php:68
+msgid "Page Title and Subtitle"
+msgstr "عنوان صفحه و زیرعنوان"
+
+#: ../lib/metaboxes.php:75
+msgid "Subtitle"
+msgstr "زیرنویس"
+
+#: ../lib/metaboxes.php:76
+msgid "Subtitle will go below page title"
+msgstr "رفتن زیرنویس در زیر عنوان صفحه"
+
+#: ../lib/metaboxes.php:85
+msgid "Post Options"
+msgstr "گزینه های نوشته"
+
+#: ../lib/metaboxes.php:93
+msgid "Head Content"
+msgstr "سر محتوا"
+
+#: ../lib/metaboxes.php:99 ../themeoptions/options.php:1767
+msgid "None"
+msgstr "هیچ"
+
+#: ../lib/metaboxes.php:100 ../themeoptions/options.php:1767
+msgid "Image Slider"
+msgstr "اسلایدر تصویر"
+
+#: ../lib/metaboxes.php:101 ../lib/metaboxes.php:129
+#: ../themeoptions/options.php:1767
+msgid "Video"
+msgstr "ویدئو"
+
+#: ../lib/metaboxes.php:102 ../themeoptions/options.php:1767
+msgid "Image"
+msgstr "تصویر"
+
+#: ../lib/metaboxes.php:106
+msgid "Max Image/Slider Height"
+msgstr "حداکثر پهنای تصویر/اسلایدر"
+
+#: ../lib/metaboxes.php:107
+msgid "Default is: 400 <b>(Note: just input number, example: 350)</b>"
+msgstr "پیشفرض: ۴۰۰  <b>(نکته: تنها عدد را وارد کنید، مانند: ۳۵۰)</b>"
+
+#: ../lib/metaboxes.php:112
+msgid "Max Image/Slider Width"
+msgstr "حداکثر عرض تصویر/اسلایدر"
+
+#: ../lib/metaboxes.php:113
+msgid ""
+"Default is: 770 or 1140 on fullwidth posts <b>(Note: just input number, "
+"example: 650, does not apply to carousel slider)</b>"
+msgstr ""
+"برای نوشته های تمام صفحه پیشفرض ۷۷۰ یا ۱۱۴۰ است  <b>(نکته: فقط عدد وارد کنید، "
+"مانند: ۶۵۰)</b>"
+
+#: ../lib/metaboxes.php:118
+msgid "Post Summary"
+msgstr "ارسال خلاصه"
+
+#: ../lib/metaboxes.php:124
+msgid "Text"
+msgstr "متن"
+
+#: ../lib/metaboxes.php:125
+msgid "Portrait Image"
+msgstr "تصویر پرتره"
+
+#: ../lib/metaboxes.php:126
+msgid "Landscape Image"
+msgstr "تصویر منظره"
+
+#: ../lib/metaboxes.php:127
+msgid "Portrait Image Slider"
+msgstr "اسلایدر تصویر پرتره"
+
+#: ../lib/metaboxes.php:128
+msgid "Landscape Image Slider"
+msgstr "اسلایدر تصویر منظره"
+
+#: ../lib/metaboxes.php:133 ../lib/metaboxes.php:234
+msgid "Display Sidebar?"
+msgstr "نمایش ستون کناری؟"
+
+#: ../lib/metaboxes.php:134 ../lib/metaboxes.php:235
+msgid "Choose if layout is fullwidth or sidebar"
+msgstr "اگر طرح دارای نوارکناری یا تمام صفحه است انتخاب کنید"
+
+#: ../lib/metaboxes.php:138 ../lib/metaboxes.php:156 ../lib/metaboxes.php:239
+msgid "Yes"
+msgstr "بله"
+
+#: ../lib/metaboxes.php:139 ../lib/metaboxes.php:155 ../lib/metaboxes.php:166
+#: ../lib/metaboxes.php:240
+msgid "No"
+msgstr "خیر"
+
+#: ../lib/metaboxes.php:143 ../lib/metaboxes.php:244 ../lib/metaboxes.php:263
+msgid "Choose Sidebar"
+msgstr "نوارکناری را انتخاب کنید"
+
+#: ../lib/metaboxes.php:149
+msgid "Author Info"
+msgstr "اطلاعات نویسنده"
+
+#: ../lib/metaboxes.php:150
+msgid "Display an author info box?"
+msgstr "نمایش جعبه اطلاعات نویسنده؟"
+
+#: ../lib/metaboxes.php:160
+msgid "Posts Carousel"
+msgstr "نوشته های چرخشی"
+
+#: ../lib/metaboxes.php:161
+msgid "Display a carousel with similar or recent posts?"
+msgstr "نمایش چرخشی نوشته های مشابه یا اخیر؟"
+
+#: ../lib/metaboxes.php:167 ../themeoptions/options.php:1801
+msgid "Yes - Display Recent Posts"
+msgstr "بله - نمایش نوشته های اخیر"
+
+#: ../lib/metaboxes.php:168 ../themeoptions/options.php:1801
+msgid "Yes - Display Similar Posts"
+msgstr "بله - نمایش نوشته های مشابه"
+
+#: ../lib/metaboxes.php:173
+msgid "Carousel Title"
+msgstr "عنوان چرخشی"
+
+#: ../lib/metaboxes.php:174
+msgid "ex. Similar Posts"
+msgstr "نوشته های گذشته/سابق"
+
+#: ../lib/metaboxes.php:184
+msgid "Blog List Options"
+msgstr "لیست گزینه های بلاگ"
+
+#: ../lib/metaboxes.php:193
+msgid "Blog Category"
+msgstr "دسته بندی بلاگ"
+
+#: ../lib/metaboxes.php:194
+msgid "Select all blog posts or a specific category to show"
+msgstr "انتخاب همه نوشته های بلاگ یا یک دسته خاص برای نمایش"
+
+#: ../lib/metaboxes.php:200
+msgid "How Many Posts Per Page"
+msgstr "تعداد نمایش نوشته ها در هر صفحه"
+
+#: ../lib/metaboxes.php:224
+msgid "Display Post Content as:"
+msgstr "نمایش عنوان محتوای پست"
+
+#: ../lib/metaboxes.php:229
+msgid "Summary"
+msgstr "خلاصه"
+
+#: ../lib/metaboxes.php:230
+msgid "Full"
+msgstr "کامل"
+
+#: ../lib/metaboxes.php:254
+msgid "Sidebar Options"
+msgstr "گزینه های نوارکناری"
+
+#: ../lib/utils.php:69
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "بایگانی روزانه: %s"
+
+#: ../lib/utils.php:71
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "یایگانی ماهانه: %s"
+
+#: ../lib/utils.php:73
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "بایگانی سالانه: %s"
+
+#: ../lib/utils.php:75
+#, php-format
+msgid "Author Archives: %s"
+msgstr "بایگانی نویسنده: %s"
+
+#: ../lib/utils.php:80
+#, php-format
+msgid "Search Results for %s"
+msgstr "نتیجه جستجو برای %s"
+
+#: ../lib/utils.php:82
+msgid "Not Found"
+msgstr "یافت نشد"
+
+#: ../lib/virtuetoolkit-activate.php:51
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "تمام افزونه ها با موفقیت نصب و راه اندازی شدند. %s"
+
+#: ../lib/widgets.php:6 ../lib/widgets.php:59
+msgid "Primary Sidebar"
+msgstr "نوارکناری اصلی"
+
+#: ../lib/widgets.php:49
+msgid "Topbar Widget"
+msgstr "ابزارک های نوار بالایی"
+
+#: ../lib/widgets.php:71 ../lib/widgets.php:112 ../lib/widgets.php:143
+msgid "Footer Column 1"
+msgstr "ستون پاورقی ۱"
+
+#: ../lib/widgets.php:81 ../lib/widgets.php:122 ../lib/widgets.php:153
+msgid "Footer Column 2"
+msgstr "ستون پاورقی ۲"
+
+#: ../lib/widgets.php:91 ../lib/widgets.php:132
+msgid "Footer Column 3"
+msgstr "ستون پاورقی ۳"
+
+#: ../lib/widgets.php:101
+msgid "Footer Column 4"
+msgstr "ستون پاورقی ۴"
+
+#: ../lib/widgets.php:178
+msgid "Use this widget to add a Vcard to your site"
+msgstr " از این ابزارک برای اضافه کردن یک کارت ویزیت به سایت شما استفاده کنید."
+
+#: ../lib/widgets.php:179
+msgid "Virtue: Contact/Vcard"
+msgstr "توصیه: تماس با ما/ کارت ویزیت"
+
+#: ../lib/widgets.php:189
+msgid "vCard"
+msgstr "کارت ویزیت"
+
+#: ../lib/widgets.php:254 ../lib/widgets.php:393 ../lib/widgets.php:528
+#: ../lib/widgets.php:641
+msgid "Title:"
+msgstr "عن:وان"
+
+#: ../lib/widgets.php:258
+msgid "Company Name:"
+msgstr "نام شرکت:"
+
+#: ../lib/widgets.php:262
+msgid "Name:"
+msgstr "نام:"
+
+#: ../lib/widgets.php:266
+msgid "Street Address:"
+msgstr "نشانی خیابان:"
+
+#: ../lib/widgets.php:270
+msgid "City/Locality:"
+msgstr "شهر/محل:"
+
+#: ../lib/widgets.php:274
+msgid "State/Region:"
+msgstr "استان/منطقه:"
+
+#: ../lib/widgets.php:278
+msgid "Zipcode/Postal Code:"
+msgstr "کدپستی:"
+
+#: ../lib/widgets.php:282
+msgid "Mobile Telephone:"
+msgstr "شماره موبایل:"
+
+#: ../lib/widgets.php:286
+msgid "Fixed Telephone:"
+msgstr "تلفن ثابت:"
+
+#: ../lib/widgets.php:290
+msgid "Email:"
+msgstr "ایمیل:"
+
+#: ../lib/widgets.php:302
+msgid "Simple way to add Social Icons"
+msgstr "راه ساده برای اضافه کردن آیکن های شبکه های اجتماعی"
+
+#: ../lib/widgets.php:303
+msgid "Virtue: Social Links"
+msgstr "توصیه: لینک شبکه های اجتماعی"
+
+#: ../lib/widgets.php:397
+msgid "Facebook:"
+msgstr "فیسبوک:"
+
+#: ../lib/widgets.php:401
+msgid "Twitter:"
+msgstr "توییتر:"
+
+#: ../lib/widgets.php:405
+msgid "Instagram:"
+msgstr "اینستاگرام:"
+
+#: ../lib/widgets.php:409
+msgid "GooglePlus:"
+msgstr "گوگل پلاس:"
+
+#: ../lib/widgets.php:413
+msgid "Flickr:"
+msgstr "فلیکر:"
+
+#: ../lib/widgets.php:417
+msgid "Vimeo:"
+msgstr "Vimeo:"
+
+#: ../lib/widgets.php:421
+msgid "Youtube:"
+msgstr "یوتیوب:"
+
+#: ../lib/widgets.php:425
+msgid "Pinterest:"
+msgstr "Pinterest:"
+
+#: ../lib/widgets.php:429
+msgid "Dribbble:"
+msgstr "Dribbble:"
+
+#: ../lib/widgets.php:433
+msgid "Linkedin:"
+msgstr "لینکداین:"
+
+#: ../lib/widgets.php:437
+msgid "Tumblr:"
+msgstr "Tumblr:"
+
+#: ../lib/widgets.php:441
+msgid "VK:"
+msgstr "VK:"
+
+#: ../lib/widgets.php:445
+msgid "RSS:"
+msgstr "خبرنامه (RSS):"
+
+#: ../lib/widgets.php:460
+msgid "This shows the most recent posts on your site with a thumbnail"
+msgstr "این گزینه ارسال های تازه را همراه با یک تصویر بند انگشتی نمایش می دهد"
+
+#: ../lib/widgets.php:461
+msgid "Virtue: Recent Posts"
+msgstr "توصیه: آخرین ارسال ها"
+
+#: ../lib/widgets.php:470 ../templates/recentblog-carousel.php:7
+msgid "Recent Posts"
+msgstr "آخرین ارسال ها"
+
+#: ../lib/widgets.php:531
+msgid "Number of posts to show:"
+msgstr "تعداد نوشته ها برای نمایش:"
+
+#: ../lib/widgets.php:534
+msgid "Limit to Catagory (Optional):"
+msgstr "محدودیت برای دسته بندی (اختیاری):"
+
+#: ../lib/widgets.php:546
+msgid "This shows a grid of featured images from recent posts or portfolio items"
+msgstr ""
+"این گزینه یک ردیف از تصاویر آخرین نوشته ها یا اقلام نمونه کارها را نمایش می دهد"
+
+#: ../lib/widgets.php:547
+msgid "Virtue: Image Grid"
+msgstr "توصیه: ردیف تصویر"
+
+#: ../lib/widgets.php:556
+msgid "Post Gallery"
+msgstr "گالری نوشته"
+
+#: ../lib/widgets.php:644
+msgid "Grid Choice:"
+msgstr "انتخاب ردیف:"
+
+#: ../lib/widgets.php:646
+msgid "Blog Posts"
+msgstr "نوشته های بلاگ"
+
+#: ../lib/widgets.php:647
+msgid "Portfolio"
+msgstr "مقام"
+
+#: ../lib/widgets.php:650
+msgid "If Post - Choose Category (Optional):"
+msgstr "اگر دسته بندی نوشته انتخاب شود (اختیاری):"
+
+#: ../lib/widgets.php:653
+msgid "If Portfolio - Choose Type (Optional):"
+msgstr "اگر مقام نوع را انتخاب کند (اختیاری):"
+
+#: ../lib/widgets.php:656
+msgid "Number of images to show:"
+msgstr "تعداد تصاویر برای نمایش:"
+
+#: ../lib/widgets.php:684
+msgid "This allows for an image and a simple about text."
+msgstr "این گزینه اجازه می دهد که یک تصویر برای متن انتخاب کنید."
+
+#: ../lib/widgets.php:685
+msgid "Virtue: Image"
+msgstr "توصیه: تصویر"
+
+#: ../lib/widgets.php:734
+msgid "Lightbox"
+msgstr "Lightbox"
+
+#: ../lib/widgets.php:735
+msgid "New Window"
+msgstr "پنجره جدید"
+
+#: ../lib/widgets.php:736
+msgid "Same Window"
+msgstr "همان پنجره"
+
+#: ../lib/widgets.php:737
+msgid "No Link"
+msgstr "بدون پیوند"
+
+#: ../lib/widgets.php:749
+msgid "Image URL"
+msgstr "آدرس URL تصویر"
+
+#: ../lib/widgets.php:751
+msgid "Upload"
+msgstr "آپلود"
+
+#: ../lib/widgets.php:754
+msgid "Image opens in"
+msgstr "تصویر باز شود در"
+
+#: ../lib/widgets.php:758
+msgid "Image Link (optional)"
+msgstr "لینک تصویر (اختیاری)"
+
+#: ../lib/widgets.php:762
+msgid "Text/Caption (optional)"
+msgstr "متن/عنوان (اختیاری)"
+
+#: ../page-blog.php:70 ../templates/home/blog-home.php:142
+#: ../templates/home/latest-slider.php:58 ../templates/recentblog-carousel.php:71
+#: ../templates/similarblog-carousel.php:77
+msgid "Sorry, no blog entries found."
+msgstr "متاسفیم، وبلاگ وارد شده یافت نشد."
+
+#: ../page-portfolio.php:132 ../templates/home/portfolio-carousel.php:86
+#: ../templates/recentportfolio-carousel.php:65
+msgid "Sorry, no portfolio entries found."
+msgstr "متاسفیم، چیزی یافت نشد."
+
+#: ../searchform.php:2
+msgid "Search for:"
+msgstr "جستجو برای:"
+
+#: ../searchform.php:3
+msgid "Search"
+msgstr "جستجو"
+
+#: ../templates/account-sidebar.php:18
+msgid "Edit Account"
+msgstr "ویرایش حساب کاربری"
+
+#: ../templates/account-sidebar.php:21
+msgid "Logout"
+msgstr "خروج"
+
+#: ../templates/comment.php:7
+msgid "(Edit)"
+msgstr "(ویرایش)"
+
+#: ../templates/comments.php:8
+#, php-format
+msgid "One Response "
+msgid_plural "%1$s Responses "
+msgstr[0] "%1$s پاسخ"
+
+#: ../templates/comments.php:18
+msgid "&larr; Older comments"
+msgstr "&larr; نظرات قدیمی تر"
+
+#: ../templates/comments.php:21
+msgid "Newer comments &rarr;"
+msgstr "نظرات جدیدتر &rarr;"
+
+#: ../templates/comments.php:31 ../templates/comments.php:43
+msgid "Comments are closed."
+msgstr "قسمت گفتگوها بسته شد."
+
+#: ../templates/comments.php:52
+msgid "Name"
+msgstr "نام"
+
+#: ../templates/comments.php:54
+msgid "Email (will not be published)"
+msgstr "ایمیل (منتشر نخواهد شد)"
+
+#: ../templates/comments.php:56
+msgid "Website"
+msgstr "وبسایت"
+
+#: ../templates/comments.php:60
+msgid "Comment"
+msgstr "نظر"
+
+#: ../templates/comments.php:67 ../templates/content-fullpost.php:85
+#: ../templates/content-fullpostfull.php:86
+msgid "Leave a Reply"
+msgstr "ارسال پاسخ"
+
+#: ../templates/comments.php:68
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "ارسال پاسخ به %s"
+
+#: ../templates/comments.php:69
+msgid "Submit Comment"
+msgstr "ارسال نظر"
+
+#: ../templates/content-fullpost.php:80 ../templates/content-fullpostfull.php:81
+#: ../templates/content-single.php:108
+#: ../templates/content-singleportfolio.php:186
+msgid "Pages:"
+msgstr "صفحات:"
+
+#: ../templates/content-fullpost.php:86 ../templates/content-fullpostfull.php:87
+msgid "1 Comment"
+msgstr "۱ نظر"
+
+#: ../templates/content-fullpost.php:87 ../templates/content-fullpostfull.php:88
+msgid "% Comments"
+msgstr "% نظر"
+
+#: ../templates/content-fullpost.php:89 ../templates/content-fullpostfull.php:90
+msgid "Comments are Closed"
+msgstr "قسمت نطرات بسته شد"
+
+#: ../templates/entry-meta-subhead.php:3
+msgid "by"
+msgstr "توسط"
+
+#: ../templates/entry-meta-subhead.php:5
+msgid "posted in:"
+msgstr "ارسال شده در:"
+
+#: ../templates/entry-meta.php:2
+msgid "By"
+msgstr "توسط"
+
+#: ../templates/header.php:55
+msgid "Menu"
+msgstr "منو"
+
+#: ../templates/home/blog-home.php:15
+msgid "Latest from the Blog"
+msgstr "آخرین اخبار از وبلاگ"
+
+#: ../templates/home/blog-home.php:132
+msgid "READ MORE"
+msgstr "بیشتر بخوانید"
+
+#: ../templates/home/portfolio-carousel.php:6
+msgid "Featured Projects"
+msgstr "پروژه های آینده"
+
+#: ../templates/recentportfolio-carousel.php:7
+msgid "Recent Projects"
+msgstr "پروژه های اخیر"
+
+#: ../templates/similarblog-carousel.php:7
+msgid "Similar Posts"
+msgstr "نوشته های مشابه"
+
+#: ../themeoptions/core/enqueue.php:453
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr "شما تغییرات را ذخیره نکردید. آیا تمایل به ذخیره آن‌ها دارید؟"
+
+#: ../themeoptions/core/enqueue.php:461
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr "آیا شما مطمعن هستید؟ با بازنشانی تمام مقدارهای تنظیمات از دست می‌رود."
+
+#: ../themeoptions/core/enqueue.php:469
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+"آیا شما مطمعن هستید؟ با بازنشانی تمام مقدارهای تنظیمات سفارشی این قسمت از دست "
+"می‌رود."
+
+#: ../themeoptions/core/enqueue.php:477
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr "تغییر گزینه‌ها در تنظیمات اعمال خواهد شد. آیا از این کار مطمعن هستید؟"
+
+#: ../themeoptions/core/enqueue.php:484
+msgid "Please Wait"
+msgstr "لطفا صبرکنید"
+
+#: ../themeoptions/core/enqueue.php:495
+msgid "There was an error saving. Here is the result of your action:"
+msgstr "یک خطا در ذخیره رخ داده است. این اتفاق مربوط است به:"
+
+#: ../themeoptions/core/enqueue.php:496
+msgid ""
+"There was a problem with your action. Please try again or reload the page."
+msgstr ""
+"یک مشکل به وجود آمده است. لطفا مجدد تلاش کنید یا صفحه را دوباره بارگذاری کنید."
+
+#: ../themeoptions/core/panel.php:65
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr "هشدار - گزینه های این پنل بدون جاوا اسکریپت به درستی کار نمی‌کند."
+
+#: ../themeoptions/core/panel.php:141
+msgid "Settings Imported!"
+msgstr "وارد کردن تنظیمات!"
+
+#: ../themeoptions/core/panel.php:156
+msgid "All Defaults Restored!"
+msgstr "تمام تنظیمات پیشفرض برگردانده شد!"
+
+#: ../themeoptions/core/panel.php:170
+msgid "Section Defaults Restored!"
+msgstr "تنظیمات پیشقرض این قسمت برگردانده شد!"
+
+#: ../themeoptions/core/panel.php:184
+msgid "Settings Saved!"
+msgstr "تنظمیات ذخیره شد!"
+
+#: ../themeoptions/core/panel.php:204
+msgid "Settings have changed, you should save them!"
+msgstr "تنظمات تغییر کرده است. شما باید آن را ذخیره کنید!"
+
+#: ../themeoptions/core/panel.php:212
+msgid "error(s) were found!"
+msgstr "خطا (هایی) پیدا شده است!"
+
+#: ../themeoptions/core/panel.php:220
+msgid "warning(s) were found!"
+msgstr "هشدار (هایی) یافت شده است!"
+
+#: ../themeoptions/core/panel.php:312
+msgid ""
+"<strong>Your panel has bundled outdated copies of Redux Framework template "
+"files</strong> &#8211; if you encounter functionality issues this could be the "
+"reason. Ensure you update or remove them."
+msgstr "<strong>این پنل منسوخ شده است</strong> &#8211;  لطفا بروزرسانی کنید."
+
+#: ../themeoptions/framework.php:228
+#, php-format
+msgid "Options panel created using %1$s"
+msgstr "گزینه های پنل با استفاده از %1$s ایجاد شده است"
+
+#: ../themeoptions/framework.php:228
+msgid "Redux Framework"
+msgstr "Redux Framework"
+
+#: ../themeoptions/framework.php:232 ../themeoptions/framework.php:236
+msgid "Options"
+msgstr "گزینه‌ها"
+
+#: ../themeoptions/framework.php:1673
+msgid "Enable"
+msgstr "فعال"
+
+#: ../themeoptions/framework.php:1678
+msgid "Disable"
+msgstr "غیرفعال"
+
+#: ../themeoptions/framework.php:1684
+msgid "moving the mouse over"
+msgstr "حرکت ماوس را بر روی آن"
+
+#: ../themeoptions/framework.php:1686
+msgid "clicking"
+msgstr "کلیک کردن"
+
+#: ../themeoptions/framework.php:1690
+#, php-format
+msgid ""
+"Hints are tooltips that popup when %d the hint icon, offering addition "
+"information about the field in which they appear.  They can be %d d by using "
+"the link below."
+msgstr ""
+"زمانی که %d به آیکن اشاره می‌کند، اطلاعات مربوط به آن را نمایش دهد. با استفاده "
+"از این لینک %d d "
+
+#: ../themeoptions/framework.php:1695
+msgid "Hints"
+msgstr "نکات"
+
+#: ../themeoptions/framework.php:2702
+msgid "Invalid security credential.  Please reload the page and try again."
+msgstr ""
+
+#: ../themeoptions/framework.php:2711
+msgid "Invalid user capability.  Please reload the page and try again."
+msgstr ""
+
+#: ../themeoptions/framework.php:2787
+msgid "Your panel has no fields. Nothing to save."
+msgstr "در پنل هیچ فیلدی نیست. چیزی برای ذخیره وجود ندارد."
+
+#: ../themeoptions/framework.php:3880
+msgid ""
+"<strong>Redux Framework Notice: </strong>There are references to the Redux "
+"Framework support site in your config's <code>admin_bar_links</code> "
+"argument.  This is sample data.  Please change or remove this data before "
+"shipping your product."
+msgstr ""
+
+#: ../themeoptions/framework.php:3895
+msgid ""
+"<strong>Redux Framework Notice: </strong>There are references to the Redux "
+"Framework support site in your config's <code>share_icons</code> argument.  "
+"This is sample data.  Please change or remove this data before shipping your "
+"product."
+msgstr ""
+
+#: ../themeoptions/options.php:28 ../themeoptions/options.php:29
+msgid "Theme Options"
+msgstr "گزینه های قالب"
+
+#: ../themeoptions/options.php:53
+msgid ""
+"Thank you for using the Virtue Theme by <a href=\"http://kadencethemes.com/\" "
+"target=\"_blank\">Kadence Themes</a>."
+msgstr ""
+"برای استفاده از قالب Virtue ممنونیم. <a href=\"http://kadencethemes.com/\" "
+"target=\"_blank\">Kadence Themes</a>."
+
+#: ../themeoptions/options.php:105
+msgid "Main Settings"
+msgstr "تنظیمات اصلی"
+
+#: ../themeoptions/options.php:108
+msgid "Welcome to Virtue Theme Options"
+msgstr "به تنظیمات قالب Virtue خوش أمدید"
+
+#: ../themeoptions/options.php:109
+msgid "This theme was developed by"
+msgstr "این قالب توسعه یافته توسط "
+
+#: ../themeoptions/options.php:110
+msgid "For theme documentation visit"
+msgstr "برای مشاهده اسناد این قالب مراجعه کنید به "
+
+#: ../themeoptions/options.php:112
+msgid "For support please visit"
+msgstr "برای پشتیبانی لطفا بروید به "
+
+#: ../themeoptions/options.php:122
+msgid "Site Layout Style"
+msgstr "سبک چیدمان سایت "
+
+#: ../themeoptions/options.php:123
+msgid "Select Boxed or Wide Site Layout Style"
+msgstr "چیدمان پهن یا جعبه‌ای را انتخاب کنید"
+
+#: ../themeoptions/options.php:135
+msgid "Footer Widget Layout"
+msgstr "طرح ابزارک‌های پاورقی"
+
+#: ../themeoptions/options.php:136
+msgid "Select how many columns for footer widgets"
+msgstr "تعداد ستون‌ها برای ابزارک‌های پاورقی را انتخاب کنید"
+
+#: ../themeoptions/options.php:148
+msgid "Logo Options"
+msgstr "گزینه‌های لوگو"
+
+#: ../themeoptions/options.php:155
+msgid "Logo Layout"
+msgstr "حالت لوگو"
+
+#: ../themeoptions/options.php:156
+msgid "Choose how you want your logo to be laid out"
+msgstr "حالت قرارگیری لوگوی خودرا انتخاب کنید"
+
+#: ../themeoptions/options.php:169
+msgid "Logo"
+msgstr "لوگو"
+
+#: ../themeoptions/options.php:170
+msgid "Upload your Logo. If left blank theme will use site name."
+msgstr ""
+"لوگوی خودرا آپلود کنید. اگر نمی‌خواهید از این قسمت استفاده کنید از نام سایت "
+"استفاده کنید."
+
+#: ../themeoptions/options.php:177
+msgid "Upload Your @2x Logo for Retina Screens"
+msgstr "آپلود لوگو برای صفحه نمایشگرها با رزولیشن بالا مانند رتینا"
+
+#: ../themeoptions/options.php:179
+msgid "Should be twice the pixel size of your normal logo."
+msgstr "برای نمایش مناسب باید تعداد پیکسل‌ها ۲ برابر حالت عادی باشد."
+
+#: ../themeoptions/options.php:184
+msgid "Sitename Logo Font"
+msgstr "فونت عنوان سایت"
+
+#: ../themeoptions/options.php:200
+msgid "Choose size and style your sitename, if you don't use an image logo."
+msgstr ""
+"اندازه و حالت عنوان سایت را اتخاب کنید. اگر که شما از لوگو استفاده نمی‌کنید."
+
+#: ../themeoptions/options.php:212
+msgid "Site Tagline - Below Logo"
+msgstr "شعار سایت - زیر لوگو"
+
+#: ../themeoptions/options.php:213
+msgid "An optional line of text below your logo"
+msgstr "یک خط متن اختیاری زیر لوگو"
+
+#: ../themeoptions/options.php:221
+msgid "Site Tagline Font"
+msgstr "فونت شعار سایت"
+
+#: ../themeoptions/options.php:235
+msgid "Choose size and style your site tagline"
+msgstr "اندازه و حالت شعار سایت خود را انتخاب نمایید"
+
+#: ../themeoptions/options.php:246 ../themeoptions/options.php:257
+#: ../themeoptions/options.php:268 ../themeoptions/options.php:279
+msgid "Logo Spacing"
+msgstr "فاصله لوگو"
+
+#: ../themeoptions/options.php:247 ../themeoptions/options.php:291
+msgid "Top Spacing"
+msgstr "فاصله از بالا"
+
+#: ../themeoptions/options.php:258 ../themeoptions/options.php:302
+msgid "Bottom Spacing"
+msgstr "فاصله از پایین"
+
+#: ../themeoptions/options.php:269
+msgid "Left Spacing"
+msgstr "فاصله از چپ"
+
+#: ../themeoptions/options.php:280
+msgid "Right Spacing"
+msgstr "فاصله راست"
+
+#: ../themeoptions/options.php:290 ../themeoptions/options.php:301
+msgid "Primary Menu Spacing"
+msgstr "فاصله منوی اصلی"
+
+#: ../themeoptions/options.php:314
+msgid "Sitewide Banner"
+msgstr "صفحات ویژه بنر"
+
+#: ../themeoptions/options.php:316
+msgid "Upload a banner for bottom of header."
+msgstr "یک بنر برای زیر سربرگ سایت آپلود کنید."
+
+#: ../themeoptions/options.php:325
+msgid "Topbar Settings"
+msgstr "تنظیمات نوار بالایی"
+
+#: ../themeoptions/options.php:331
+msgid "Use Topbar?"
+msgstr "از نوار بالایی استفاده می‌کنید؟"
+
+#: ../themeoptions/options.php:332
+msgid "Choose to show or hide topbar"
+msgstr "نمایش یا مخفی کردن نوار بالایی"
+
+#: ../themeoptions/options.php:339
+msgid "Use Topbar Icon Menu?"
+msgstr "استفاده از آیکن در منو؟"
+
+#: ../themeoptions/options.php:340
+msgid "Choose to show or hide topbar icon Menu"
+msgstr "انتخاب کنید که آیکن منو بالایی نمایش داده شود یا خیر"
+
+#: ../themeoptions/options.php:347
+msgid "Topbar Icon Menu"
+msgstr "آیکن منو نوار بالایی"
+
+#: ../themeoptions/options.php:348
+msgid "Choose your icons for the topbar icon menu."
+msgstr "ازآیکن‌های خود برای آیکن منو نوار بالایی انتخاب کنید."
+
+#: ../themeoptions/options.php:355
+msgid "Show Cart total in topbar?"
+msgstr "مقدار سبد خرید در نوار بالایی نمایش داده شود؟"
+
+#: ../themeoptions/options.php:356
+msgid "This only works if using woocommerce"
+msgstr "این تنها زمانی که از افزونه ووکامرس استفاده شود کاربرد دارد"
+
+#: ../themeoptions/options.php:363
+msgid "Display Search in Topbar?"
+msgstr "قسمت جستجو در نوار بالایی نمایش داده شود؟"
+
+#: ../themeoptions/options.php:364
+msgid "Choose to show or hide search in topbar"
+msgstr "نمایش یا عدم نمایش قسمت جستجو در نوار بالایی"
+
+#: ../themeoptions/options.php:371
+msgid "Enable widget area in right of Topbar?"
+msgstr "فعالسازی قسمت ابزارک‌ها در سمت راست منو بالایی؟"
+
+#: ../themeoptions/options.php:372
+msgid ""
+"Note this will hide remove search (you can re-enable it by adding it to the "
+"widget area)"
+msgstr ""
+"توجه داشته باشید که مخفی کردن قسمت جستجو آن را حذف خواهد کرد (شما می‌توانید با "
+"فعال سازی مجدد آن یا اضافه کردن جستجو در قسمت ابزارک‌ها آن را داشته باشید)"
+
+#: ../themeoptions/options.php:379
+msgid "Topbar Layout Switch"
+msgstr "تغییر چیدمان منو بالایی"
+
+#: ../themeoptions/options.php:380
+msgid "This moves the left items to the right and right items to the left."
+msgstr ""
+"این گزینه آیتم‌های سمت راست را به سمت چپ، و آیتم‌های سمت چپ را به سمت راست می‌ "
+"برد."
+
+#: ../themeoptions/options.php:390
+msgid "Home Slider Settings"
+msgstr "تنظیمات اسلاید صفحه خانه"
+
+#: ../themeoptions/options.php:391
+msgid "Home Page Slider Options"
+msgstr "گزینه‌های اسلایدر صفحه خانه"
+
+#: ../themeoptions/options.php:397
+msgid ""
+"*NOTE: Make sure Virtue/Pinnacle Toolkit plugin is activated* <br>Go to "
+"Apperance > Theme Options > Home Slider for all Home slider settings"
+msgstr ""
+
+#: ../themeoptions/options.php:402
+msgid "Choose a Home Image Slider"
+msgstr "یک عکس برای اسلاید صفحه خانه انتخاب کنید"
+
+#: ../themeoptions/options.php:403
+msgid "If you don't want an image slider on your home page choose none."
+msgstr ""
+"اگر شما نمی‌خواهید از اسلایدر تصاویر در صفحه خانه استفاده کنید گزینه هیچ (None) "
+"را انتخاب کنید."
+
+#: ../themeoptions/options.php:414 ../themeoptions/options.php:530
+msgid "Slider Images"
+msgstr "تصاویر اسلایدر"
+
+#: ../themeoptions/options.php:415 ../themeoptions/options.php:531
+msgid "Use large images for best results."
+msgstr "برای بهترین حالت نمایش از یک تصویر بزرگ استفاده کنید.."
+
+#: ../themeoptions/options.php:421 ../themeoptions/options.php:539
+msgid "Slider Max Height"
+msgstr "حداکثر ارتفاع اسلایدر"
+
+#: ../themeoptions/options.php:422 ../themeoptions/options.php:433
+#: ../themeoptions/options.php:540 ../themeoptions/options.php:552
+msgid "Note: does not work if images are smaller than max."
+msgstr ""
+"نکته: اگر تصاویر انتخاب شده از حداکثر اندازه اسلایدر کوچکتر باشد، اسلایدر کار "
+"نخواهد کرد."
+
+#: ../themeoptions/options.php:432 ../themeoptions/options.php:551
+msgid "Slider Max Width"
+msgstr "حداکثر پهنای اسلایدر"
+
+#: ../themeoptions/options.php:443 ../themeoptions/options.php:563
+msgid "Auto Play?"
+msgstr "اجرای خودکار؟"
+
+#: ../themeoptions/options.php:444 ../themeoptions/options.php:564
+msgid "This determines if a slider automatically scrolls"
+msgstr "اسلایدر به صورت خودکار اسکرول شروع به نمایش تصاویر کند"
+
+#: ../themeoptions/options.php:451 ../themeoptions/options.php:572
+msgid "Slider Pause Time"
+msgstr "زمان ایستادن موقت اسلایدر"
+
+#: ../themeoptions/options.php:452 ../themeoptions/options.php:573
+msgid "How long to pause on each slide, in milliseconds."
+msgstr "مقدار زمان ایستادن موقت اسلاید، به میلی ثانیه"
+
+#: ../themeoptions/options.php:462 ../themeoptions/options.php:584
+msgid "Transition Type"
+msgstr "نوع حرکت بین اسلایدها"
+
+#: ../themeoptions/options.php:463 ../themeoptions/options.php:585
+msgid "Choose a transition type"
+msgstr "نوع حرکت اسلایدها را انتخاب کنید"
+
+#: ../themeoptions/options.php:471 ../themeoptions/options.php:594
+msgid "Slider Transition Time"
+msgstr "زمان حرکت اسلایدها"
+
+#: ../themeoptions/options.php:472 ../themeoptions/options.php:595
+msgid "How long for slide transitions, in milliseconds."
+msgstr "مقدار زمان حرکت اسلایدها، به میلی ثانیه"
+
+#: ../themeoptions/options.php:482 ../themeoptions/options.php:606
+msgid "Show Captions?"
+msgstr "نمایش شرح تصاویر؟"
+
+#: ../themeoptions/options.php:483 ../themeoptions/options.php:607
+msgid "Choose to show or hide captions"
+msgstr "انتخاب نمایش یا عدم نمایش شرح تصاویر"
+
+#: ../themeoptions/options.php:491 ../themeoptions/options.php:615
+msgid "Video Embed Code"
+msgstr "کد Embed ویدئو"
+
+#: ../themeoptions/options.php:492 ../themeoptions/options.php:616
+msgid "If your using a video on the home page place video embed code here."
+msgstr ""
+"اگر شما از ویدئو در صفحه خانه استفاده می‌کنید، کد Embed ویدئو خود را در اینجا "
+"قرار دهید."
+
+#: ../themeoptions/options.php:503
+msgid "Home Mobile Slider"
+msgstr "اسلایدر صفحه خانه برای نمایش در تلفن‌های همراه"
+
+#: ../themeoptions/options.php:504
+msgid "Create a more lightweight home slider for your mobile visitors."
+msgstr "ساخت یک اسلایدر برای نمایش در صفحه نمایش تلفن‌های همراه."
+
+#: ../themeoptions/options.php:510
+msgid "Would you like to use this feature?"
+msgstr "دوست دارید از این ویژگی استفاده کنید؟"
+
+#: ../themeoptions/options.php:511
+msgid ""
+"Choose if you would like to show a different slider on your home page for your "
+"mobile visitors."
+msgstr "انتخاب یک اسلایدر جداگانه برای نمایش در تلفن‌های همراه در صفحه خانه."
+
+#: ../themeoptions/options.php:518
+msgid "Choose a Slider for Mobile"
+msgstr "یک اسلایدر برای تلفن‌های همراه انتخاب کنید"
+
+#: ../themeoptions/options.php:519
+msgid "Choose which slider you would like to show for mobile viewers."
+msgstr "انتخاب اسلایدری که شما تمایل دارید در تلفن‌های همراه نمایش داده شود."
+
+#: ../themeoptions/options.php:627
+msgid "Home Layout"
+msgstr "حالت صفحه خانه"
+
+#: ../themeoptions/options.php:635
+msgid "Display a sidebar on the Home Page?"
+msgstr "آیا نوار کناری در صفحه خانه نمایش داده شود؟"
+
+#: ../themeoptions/options.php:636
+msgid "This determines if there is a sidebar on the home page."
+msgstr "مشخص کنید یک نوارکناری در صفحه خانه باشد یا خیر."
+
+#: ../themeoptions/options.php:647
+msgid "Choose a Sidebar for your Home Page"
+msgstr "یک نوار کناری برای صفحه خانه انتخاب کنید"
+
+#: ../themeoptions/options.php:658
+msgid "Homepage Layout Manager"
+msgstr "مدیریت حالت صفحه خانه"
+
+#: ../themeoptions/options.php:659
+msgid "Organize how you want the layout to appear on the homepage"
+msgstr "سازماندهی نحوه نمایش صفحه خانه"
+
+#: ../themeoptions/options.php:663
+msgid "Latest Blog Posts"
+msgstr "آخرین نوشته‌های وبلاگ"
+
+#: ../themeoptions/options.php:664
+msgid "Portfolio Carousel"
+msgstr "سوالات رایج درباره نمونه کارها"
+
+#: ../themeoptions/options.php:665 ../themeoptions/options.php:769
+msgid "Icon Menu"
+msgstr "منو آیکن"
+
+#: ../themeoptions/options.php:668
+msgid "Page Title"
+msgstr "عنوان صفحه"
+
+#: ../themeoptions/options.php:669
+msgid "Page Content"
+msgstr "محتوای صفحه"
+
+#: ../themeoptions/options.php:678
+msgid "Home Blog Settings"
+msgstr "تنظیمات وبلاگ صفحه اصلی"
+
+#: ../themeoptions/options.php:684
+msgid "Home Blog Title"
+msgstr "عنوان وبلاگ صفحه اصلی"
+
+#: ../themeoptions/options.php:685
+msgid "ex: Latest from the blog"
+msgstr "آخرین نوشته ها از وبلاگ"
+
+#: ../themeoptions/options.php:691
+msgid "Choose How many posts on Homepage"
+msgstr "انتخاب تعداد نوشته های قابل نمایش در صفحه خانه"
+
+#: ../themeoptions/options.php:703
+msgid "Limit posts to a Category"
+msgstr "نوشته های مربوط به یک دسته بندی"
+
+#: ../themeoptions/options.php:704
+msgid "Leave blank to select all"
+msgstr "برای انتخاب همه این قسمت را خالی بگذارید"
+
+#: ../themeoptions/options.php:712
+msgid "Home Portfolio Carousel Settings"
+msgstr "تنظیمات سوالات رایج درباره نمونه کارها صفحه خانه"
+
+#: ../themeoptions/options.php:718
+msgid "Home Portfolio Carousel title"
+msgstr "عنوان سوالات رایج درباره نمونه کارها صفحه خانه"
+
+#: ../themeoptions/options.php:719
+msgid "ex: Portfolio Carousel title"
+msgstr "سابق: سوالات رایج درباره نمونه کارها"
+
+#: ../themeoptions/options.php:727
+msgid "Portfolio Carousel Category Type"
+msgstr "نوع دسته بندی سوالات رایج درباره نمونه کارها"
+
+#: ../themeoptions/options.php:728
+msgid "Leave blank to select all types"
+msgstr "برای انتخاب همه نوع ها این قسمت را خالی بگذارید"
+
+#: ../themeoptions/options.php:736
+msgid "Choose how many portfolio items are in carousel"
+msgstr "انتخال کنید چند نمونه کار می خواهید در قسمت سوالات رایج باشد"
+
+#: ../themeoptions/options.php:746
+msgid "Portfolio Carousel Order by"
+msgstr "مرتب سازی سوالات رایج درباره نمونه کارها"
+
+#: ../themeoptions/options.php:747
+msgid "Choose how the portfolio items should be ordered in the carousel."
+msgstr "انتخاب کنید نمونه کارها در قسمت سوالات رایج چگونه مرتب شده باشند."
+
+#: ../themeoptions/options.php:756
+msgid "Display Portfolio Types under Title"
+msgstr "نمایش انواع نمونه کارها زیر عنوان"
+
+#: ../themeoptions/options.php:763
+msgid "Home Icon Menu"
+msgstr "منو آیکن صفحه خانه"
+
+#: ../themeoptions/options.php:770
+msgid "Choose your icons for the icon menu."
+msgstr "آیکن هایی که می خواهید در منو آیکن شما باشد را انتخاب کنید."
+
+#: ../themeoptions/options.php:777
+msgid "Choose how many columns in each row"
+msgstr "انتخاب کنید چند ستون در یک سطر باشد"
+
+#: ../themeoptions/options.php:787
+msgid "Page Content Options"
+msgstr "گزینه های محتوای صفحه"
+
+#: ../themeoptions/options.php:793
+msgid "Latest Post Display"
+msgstr "نمایش آخرین نوشته ها"
+
+#: ../themeoptions/options.php:794
+msgid ""
+"If Latest Post page is font page. Choose to show full post or post excerpt."
+msgstr ""
+"اگر آخرین نوشته‌ی صفحه یک متن است. انتخاب کنید نوشته کامل نمایش داده شود یا "
+"چکیده آن."
+
+#: ../themeoptions/options.php:804
+msgid ""
+"*NOTE: Make sure Virtue/Pinnacle Toolkit plugin is activated* <br>Go to "
+"Apperance > Theme Options > Home Layout for all home layout settings"
+msgstr ""
+
+#: ../themeoptions/options.php:814
+msgid "Shop Settings"
+msgstr "تنظمیات فروشگاه"
+
+#: ../themeoptions/options.php:815
+msgid "Shop Archive Page Settings (Woocommerce plugin required)"
+msgstr "تنظیمات صفحه فروشگاه"
+
+#: ../themeoptions/options.php:822
+msgid "Display the sidebar on shop archives?"
+msgstr "نوار کناری در قسمت فروشگاه نمایش داده شود؟"
+
+#: ../themeoptions/options.php:823
+msgid "This determines if there is a sidebar on the shop and category pages."
+msgstr ""
+"این گزینه زمانی قابل اجرا است که یک نوار کناری در فروشگاه و صفحات دسته بندی "
+"وجود داشته باشد."
+
+#: ../themeoptions/options.php:833
+msgid "Choose a Sidebar for your shop page"
+msgstr "یک نوار کناری برای صفحه فروشگاه انتخاب کنید"
+
+#: ../themeoptions/options.php:843
+msgid "How many products per page"
+msgstr "چند محصول در هر صفحه نمایش داده شود"
+
+#: ../themeoptions/options.php:853
+msgid "Show Ratings in Shop and Category Pages"
+msgstr "نمایش رتبه بندی در صفحات دسته بندی و فروشگاه"
+
+#: ../themeoptions/options.php:854
+msgid "This determines if the rating is displayed in the product archive pages"
+msgstr "این زمانی قابل اجراست که رده بندی در بایگانی صفحات نمایش داده شود"
+
+#: ../themeoptions/options.php:861
+msgid "Quantity Box plus and minus"
+msgstr "جعبه مثبت و منفی دادن"
+
+#: ../themeoptions/options.php:862
+msgid ""
+"Turn this off if you would like to use browser added plus and minus for number "
+"boxes"
+msgstr ""
+"این گزینه را خاموش کنید اگر شما می خواهید از مرورگر برای اضافه کردن مثبت یا "
+"منفی در جعبه اعداد استفاده کنید"
+
+#: ../themeoptions/options.php:869
+msgid "Shop Category Image Size"
+msgstr "اندازه تصویر دسته بندی فروشگاه"
+
+#: ../themeoptions/options.php:874
+msgid "Category Image Aspect Ratio"
+msgstr "دسته بندی نسبت تصویر"
+
+#: ../themeoptions/options.php:875
+msgid "This sets how you want your category images to be cropped."
+msgstr "این مقداری را که می خواهید تصاویر دسته بندی برش داده شوند را مشخص می کند"
+
+#: ../themeoptions/options.php:876
+msgid "Square 1:1"
+msgstr ""
+
+#: ../themeoptions/options.php:876
+msgid "Portrait 3:4"
+msgstr ""
+
+#: ../themeoptions/options.php:876
+msgid "Landscape 4:3"
+msgstr ""
+
+#: ../themeoptions/options.php:876
+msgid "Wide Landscape 4:2"
+msgstr ""
+
+#: ../themeoptions/options.php:876
+msgid "Turn Off"
+msgstr "خاموش کردن"
+
+#: ../themeoptions/options.php:885
+msgid "Shop Product Title Settings"
+msgstr "تنظیمات عنوان محصولات فروشگاه"
+
+#: ../themeoptions/options.php:890
+msgid "Shop & archive Product title Font"
+msgstr "فونت عنوان محصولات فروشگاه و بایگانی"
+
+#: ../themeoptions/options.php:906
+msgid "Choose Size and Style for product titles on category and archive pages."
+msgstr "اندازه و حالت عنوان محصولات در صفحات دسته بندی و بایگانی را انتخاب کنید."
+
+#: ../themeoptions/options.php:918
+msgid "Set Product Title to Uppercase?"
+msgstr "تنظیم متن عنوان محصولات به حروف بزرگ؟ (زمانی که نام محصول انگلیسی باشد)"
+
+#: ../themeoptions/options.php:919
+msgid "This makes your product titles uppercase on Category pages"
+msgstr ""
+"انتخاب این گزینه باعث می‌شود عنوان محصولات با حروف بزرگ نمایش داده شوند. (زمانی "
+"که عنوان به انگلیسی نوشته شود)"
+
+#: ../themeoptions/options.php:925
+msgid "Product title Min Height"
+msgstr "حداقل اندازه عنوان محصول"
+
+#: ../themeoptions/options.php:926
+msgid "If your titles are long increase this to help align your products height."
+msgstr "اگر نام عنوان محصول شما طولانی باشد، این گزینه به شما کمک خواهد کرد."
+
+#: ../themeoptions/options.php:937
+msgid "Product Image Sizes"
+msgstr "اندازه‌های تصویر محصول"
+
+#: ../themeoptions/options.php:943
+msgid "Enable Product Image Crop on Catalog pages"
+msgstr "فعالسازی نمایش تصویر در صفحات کاتالوگ"
+
+#: ../themeoptions/options.php:944
+msgid ""
+"If turned off image dimensions are set by woocommerce settings - recommended "
+"width: 270px for Catalog Images"
+msgstr ""
+"اگر تنظیمات ابعاد تصویر توسط ووکامرس انجام می‌شود، توصیه می‌شود عرض تصویر 270 "
+"پیکسل در نظر گرفته شود."
+
+#: ../themeoptions/options.php:951
+msgid "Enable Product Image Crop on product Page"
+msgstr "فعالسازی نمایش تصویر در صفحه محصول"
+
+#: ../themeoptions/options.php:952
+msgid ""
+"If turned off image dimensions are set by woocommerce settings - recommended "
+"width: 468px for Single Product Image"
+msgstr ""
+"اگر تنظیمات ابعاد تصویر توسط ووکامرس انجام می‌شود، توصیه می‌شود عرض تصویر 468 "
+"پیکسل در نظر گرفته شود برای تصویر شاخص محصول."
+
+#: ../themeoptions/options.php:959
+msgid "Product Page Settings"
+msgstr "تنظیمات صفحه محصول"
+
+#: ../themeoptions/options.php:964
+msgid "Display product tabs?"
+msgstr "زبانه محصول نمایش داده شود؟"
+
+#: ../themeoptions/options.php:965
+msgid "This determines if product tabs are displayed"
+msgstr "این گزینه زمانی قابل اجراست که زبانه محصول نمایش داده شود"
+
+#: ../themeoptions/options.php:974
+msgid "Display related products?"
+msgstr "محصولات مرتبط نمایش داده شوند؟"
+
+#: ../themeoptions/options.php:975
+msgid "This determines related products are displayed"
+msgstr "این گزینه زمانی قابل اجراست که محصولات مشابه نمیش داده شوند"
+
+#: ../themeoptions/options.php:985
+msgid "Basic Styling"
+msgstr "طرح پایه"
+
+#: ../themeoptions/options.php:986
+msgid "Basic Stylng"
+msgstr "طرح پایه"
+
+#: ../themeoptions/options.php:991
+msgid "Theme Skin Stylesheet"
+msgstr "موضوع پوسته قالب"
+
+#: ../themeoptions/options.php:992
+msgid ""
+"Note* changes made in options panel will override this stylesheet. Example: "
+"Colors set in typography."
+msgstr ""
+"* توجه داشته باشید تغییرات ایجاد شده در این پنل، شیوه نامه طراحی را تغییر "
+"می‌دهد. مانند: رنگ در تایپوگرافی."
+
+#: ../themeoptions/options.php:1002
+msgid "Primary Color"
+msgstr "رنگ اولیه"
+
+#: ../themeoptions/options.php:1003
+msgid "Choose the default Highlight color for your site."
+msgstr "رنگ برجسته پیش فرض سایت خود را انتخاب کنید."
+
+#: ../themeoptions/options.php:1012
+msgid "20% lighter than Primary Color"
+msgstr "20 ٪ سبک تر از رنگ اولیه"
+
+#: ../themeoptions/options.php:1013
+msgid "This is used for hover effects"
+msgstr "از این برای افکت‌های برجسته سازی استفاده می‌شود."
+
+#: ../themeoptions/options.php:1022
+msgid "Sitewide Gray Fonts"
+msgstr "فونت های خاکستری برای صفحات ویژه"
+
+#: ../themeoptions/options.php:1032
+msgid "Footer Font Color"
+msgstr "رنگ فونت پانویس سایت"
+
+#: ../themeoptions/options.php:1046
+msgid "Advanced Styling"
+msgstr "استایل پیشرفته"
+
+#: ../themeoptions/options.php:1047
+msgid "Main Content Background"
+msgstr "پس زمینه محتوای اصلی"
+
+#: ../themeoptions/options.php:1052
+msgid "Content Background Color"
+msgstr "رنگ پس زمینه محتوا "
+
+#: ../themeoptions/options.php:1062 ../themeoptions/options.php:1107
+#: ../themeoptions/options.php:1152 ../themeoptions/options.php:1197
+#: ../themeoptions/options.php:1242 ../themeoptions/options.php:1287
+#: ../themeoptions/options.php:1332
+msgid "Upload background image or texture"
+msgstr "آپلود کردن تصویر پس زمینه یا بافت (texture)"
+
+#: ../themeoptions/options.php:1068 ../themeoptions/options.php:1113
+#: ../themeoptions/options.php:1158 ../themeoptions/options.php:1203
+#: ../themeoptions/options.php:1248 ../themeoptions/options.php:1293
+#: ../themeoptions/options.php:1338
+msgid "Image repeat options"
+msgstr "گزینه‌های تکرار تصویر"
+
+#: ../themeoptions/options.php:1076 ../themeoptions/options.php:1121
+#: ../themeoptions/options.php:1166 ../themeoptions/options.php:1211
+#: ../themeoptions/options.php:1256 ../themeoptions/options.php:1301
+#: ../themeoptions/options.php:1346
+msgid "X image placement options"
+msgstr "گزینه‌های قراردادن تصویر به صورت افقی"
+
+#: ../themeoptions/options.php:1084 ../themeoptions/options.php:1129
+#: ../themeoptions/options.php:1174 ../themeoptions/options.php:1219
+#: ../themeoptions/options.php:1264 ../themeoptions/options.php:1309
+#: ../themeoptions/options.php:1354
+msgid "Y image placement options"
+msgstr "گزینه‌های قراردادن تصویر به صورت عمودی"
+
+#: ../themeoptions/options.php:1092
+msgid "Topbar Background"
+msgstr "پس زمینه نوار بالایی"
+
+#: ../themeoptions/options.php:1098
+msgid "Topbar Background Color"
+msgstr "رنگ پس زمینه منو بالایی"
+
+#: ../themeoptions/options.php:1137
+msgid "Header Background"
+msgstr "پس زمینه سربرگ"
+
+#: ../themeoptions/options.php:1142
+msgid "Header Background Color"
+msgstr "رنگ پس زمینه سربرگ"
+
+#: ../themeoptions/options.php:1182
+msgid "Secondary Menu Background"
+msgstr "پس زمینه منو ثانویه"
+
+#: ../themeoptions/options.php:1187
+msgid "Secondary menu Background Color"
+msgstr "رنگ پس زمینه منو ثانویه"
+
+#: ../themeoptions/options.php:1227
+msgid "Mobile Menu Background"
+msgstr "پس زمینه منو موبایل"
+
+#: ../themeoptions/options.php:1232
+msgid "Mobile Background Color"
+msgstr "رنگ پس زمینه منو موبایل"
+
+#: ../themeoptions/options.php:1272
+msgid "Footer Background"
+msgstr "پس زمینه پانویس"
+
+#: ../themeoptions/options.php:1277
+msgid "Footer Background Color"
+msgstr "رنگ پس زمینه پانویس"
+
+#: ../themeoptions/options.php:1317
+msgid "Body Background"
+msgstr "پس زمینه بدنه"
+
+#: ../themeoptions/options.php:1322
+msgid "Body Background Color"
+msgstr "رنگ پس زمینه بدنه"
+
+#: ../themeoptions/options.php:1362
+msgid "Fixed or Scroll"
+msgstr "ثابت یا قابل حرکت (Scroll)"
+
+#: ../themeoptions/options.php:1373
+msgid "Typography"
+msgstr "تایپوگرافی"
+
+#: ../themeoptions/options.php:1374
+msgid "Header Font Options"
+msgstr "گزینه‌های فونت سربرگ"
+
+#: ../themeoptions/options.php:1380
+msgid ""
+"*NOTE: Make sure Virtue/Pinnacle Toolkit plugin is activated* <br>Go to "
+"Apperance > Theme Options > Typography settings for all Typography settings"
+msgstr ""
+
+#: ../themeoptions/options.php:1385
+msgid "H1 Headings"
+msgstr "تگ H1"
+
+#: ../themeoptions/options.php:1401
+msgid "Choose Size and Style for h1 (This Styles Your Page Titles)"
+msgstr ""
+"اندازه و حالت موردنظر خود را برای تگ H1 انتخاب کنید. (این تگ برای عناوین صفحات "
+"کاربرد دارد)"
+
+#: ../themeoptions/options.php:1412
+msgid "H2 Headings"
+msgstr "تگ H2"
+
+#: ../themeoptions/options.php:1428
+msgid "Choose Size and Style for h2"
+msgstr "اندازه و حالت موردنظر خود را برای تگ H2 انتخاب کنید. "
+
+#: ../themeoptions/options.php:1439
+msgid "H3 Headings"
+msgstr "تگ H3"
+
+#: ../themeoptions/options.php:1455
+msgid "Choose Size and Style for h3"
+msgstr "اندازه و حالت موردنظر خود را برای تگ H3 انتخاب کنید. "
+
+#: ../themeoptions/options.php:1466
+msgid "H4 Headings"
+msgstr "تگ H4"
+
+#: ../themeoptions/options.php:1482
+msgid "Choose Size and Style for h4"
+msgstr "اندازه و حالت موردنظر خود را برای تگ H4 انتخاب کنید. "
+
+#: ../themeoptions/options.php:1493
+msgid "H5 Headings"
+msgstr "تگ H5"
+
+#: ../themeoptions/options.php:1509
+msgid "Choose Size and Style for h5"
+msgstr "اندازه و حالت موردنظر خود را برای تگH5 انتخاب کنید. "
+
+#: ../themeoptions/options.php:1521
+msgid "Body Font Options"
+msgstr "گزینه‌های فونت بدنه"
+
+#: ../themeoptions/options.php:1526
+msgid "Body Font"
+msgstr "فونت بدنه"
+
+#: ../themeoptions/options.php:1542
+msgid "Choose Size and Style for paragraphs"
+msgstr "اندازه و حالت تایپوگرافی‌ها را انتخاب کنید"
+
+#: ../themeoptions/options.php:1557
+msgid "Menu Settings"
+msgstr "تنظیمات منو"
+
+#: ../themeoptions/options.php:1558
+msgid "Primary Menu Options"
+msgstr "گزینه‌های منوی اصلی"
+
+#: ../themeoptions/options.php:1564
+msgid ""
+"*NOTE: Make sure Virtue/Pinnacle Toolkit plugin is activated* <br>Go to "
+"Apperance > Theme Options > Menu settings for all menu settings"
+msgstr ""
+
+#: ../themeoptions/options.php:1570
+msgid "Primary Menu Font"
+msgstr "فونت منوی اصلی"
+
+#: ../themeoptions/options.php:1585
+msgid "Choose Size and Style for primary menu"
+msgstr "اندازه و حالت منو اصلی را انتخاب کنید"
+
+#: ../themeoptions/options.php:1597
+msgid "Secondary Menu Options"
+msgstr "گزینه‌های منو ثانویه"
+
+#: ../themeoptions/options.php:1603
+msgid "Secondary Menu Font"
+msgstr "فونت منو ثانویه"
+
+#: ../themeoptions/options.php:1618
+msgid "Choose Size and Style for secondary menu"
+msgstr "اندازه و حالت منو ثانویه را انتخاب کنید"
+
+#: ../themeoptions/options.php:1630
+msgid "Mobile Menu Options"
+msgstr "گزینه‌های منو موبایل"
+
+#: ../themeoptions/options.php:1636
+msgid "Submenu items collapse until opened"
+msgstr "آیتم‌های زیر منو در هنگام باز شدن"
+
+#: ../themeoptions/options.php:1643
+msgid "Mobile Menu Font"
+msgstr "فونت منو موبایل"
+
+#: ../themeoptions/options.php:1658
+msgid "Choose Size and Style for Mobile Menu"
+msgstr "اندازه و حالت منو موبایل را انتخاب کنید"
+
+#: ../themeoptions/options.php:1673
+msgid "Page/Post Settings"
+msgstr "تنظیمات نوشته/صفحه"
+
+#: ../themeoptions/options.php:1674
+msgid "Page and Post Comment Settings"
+msgstr ""
+
+#: ../themeoptions/options.php:1680
+msgid "Show Comments Closed Text?"
+msgstr "آیا نظرات بسته شده نمایش داده شود؟"
+
+#: ../themeoptions/options.php:1681
+msgid "Choose to show or hide comments closed alert below posts."
+msgstr "انتخاب کنید که پیغام نمایش یا عدم نمایش نظرات زیر نوشته باشد."
+
+#: ../themeoptions/options.php:1688
+msgid "Allow Comments on Pages"
+msgstr "اجزه نظرات در صفحات"
+
+#: ../themeoptions/options.php:1689
+msgid "Turn on to allow comments on pages"
+msgstr "روشن کردن اجازه نظرات در صفحات"
+
+#: ../themeoptions/options.php:1696
+msgid "Allow Comments on Portfolio Posts"
+msgstr "اجازه قرار دادن نظرات در نوشته‌های نمونه کار"
+
+#: ../themeoptions/options.php:1697
+msgid "Turn on to allow comments on Portfolio posts"
+msgstr "روشن کردن اجازه قرار دادن نظرات در نوشته‌های نمونه کار"
+
+#: ../themeoptions/options.php:1704
+msgid "Portfolio Post"
+msgstr ""
+
+#: ../themeoptions/options.php:1712
+msgid "All Projects Portfolio Page"
+msgstr "تمام صفحات پروژه‌ها و صفحات"
+
+#: ../themeoptions/options.php:1713
+msgid ""
+"This sets the link in every single portfolio page. *note: You still have to "
+"set the page template to portfolio."
+msgstr "این گزینه در هر صفحه نمونه کار پیوند تنظیم می‌کند."
+
+#: ../themeoptions/options.php:1719
+msgid "Portfolio Type Page Defaults"
+msgstr ""
+
+#: ../themeoptions/options.php:1725
+msgid "Portfolio Type - Post Columns"
+msgstr ""
+
+#: ../themeoptions/options.php:1726
+msgid "Choose how many columns for portfolio type pages"
+msgstr ""
+
+#: ../themeoptions/options.php:1735
+msgid "Show Types under Title"
+msgstr ""
+
+#: ../themeoptions/options.php:1736
+msgid "Choose to show or hide portfolio type under title."
+msgstr ""
+
+#: ../themeoptions/options.php:1743
+msgid "Blog Post Defaults"
+msgstr "نوشته‌های پیشفرض وبلاگ "
+
+#: ../themeoptions/options.php:1749
+msgid "Blog Post Summary Default"
+msgstr "خلاصه نوشته‌های پیشفرض وبلاگ"
+
+#: ../themeoptions/options.php:1759
+msgid "Default post summary feature Image"
+msgstr "خلاصه نوشته‌های پیشفرض وبلاگ تصویر داشته باشند"
+
+#: ../themeoptions/options.php:1760
+msgid "Replace theme default feature image for posts without a featured image"
+msgstr "جایگزینی قالب پیشفرض خلاصه همراه با تصویر برای خلاصه نوشته‌های بدون نصویر"
+
+#: ../themeoptions/options.php:1766
+msgid "Blog Post Head Content Default"
+msgstr "محتوای سر نوشته‌های پشفرض وبلاگ"
+
+#: ../themeoptions/options.php:1775
+msgid "Show Previous and Next posts links?"
+msgstr "پیوندهای نوشته‌های قبلی و بعدی نشان داده شوند؟"
+
+#: ../themeoptions/options.php:1776
+msgid ""
+"Choose to show or hide previous and next post links in the footer of a single "
+"post."
+msgstr ""
+" انتخاب کنید پیوندهای نوشته‌های قبلی و بعدی زیر نمونه نوشته‌ها نشان داده شوند یا "
+"نه."
+
+#: ../themeoptions/options.php:1783
+msgid "Show Author Icon with posts?"
+msgstr "آیکن نویسنده همراه نوشته نمایش داده شود؟"
+
+#: ../themeoptions/options.php:1784
+msgid "Choose to show or hide author icon under post title."
+msgstr "انتخاب کنید آیکن نویسنده زیر عنوان نوشته نمایش داده شود یا نه."
+
+#: ../themeoptions/options.php:1791
+msgid "Blog Post Author Box Default"
+msgstr "جعبه پیشفرض نویسنده نوشته وبلاگ"
+
+#: ../themeoptions/options.php:1792 ../themeoptions/options.php:1801
+msgid "No, Do not Show"
+msgstr "نه، نمایش نده"
+
+#: ../themeoptions/options.php:1792
+msgid "Yes, Show"
+msgstr "بله، نمایش بده"
+
+#: ../themeoptions/options.php:1800
+msgid "Blog Post Bottom Carousel Default"
+msgstr "نوشته وبلاگ به صورت پیشفرض زیر منو چرخ فلکی باشد"
+
+#: ../themeoptions/options.php:1809
+msgid "Blog Category/Archive Defaults"
+msgstr "دسته بندی/بایگانی پیشفرض وبلاگ"
+
+#: ../themeoptions/options.php:1815
+msgid "Blog Archive"
+msgstr "بایگانی وبلاگ"
+
+#: ../themeoptions/options.php:1816
+msgid "Choose to show full post or post excerpt."
+msgstr "انتخاب کنید که وشته کامل نمایش داده شود یا خلاصه‌ای از آن."
+
+#: ../themeoptions/options.php:1828 ../themeoptions/options.php:1829
+msgid "Misc Settings"
+msgstr "تنظیمات متفرقه"
+
+#: ../themeoptions/options.php:1835
+msgid "Hide Image Border"
+msgstr "مخفی کردن مرز تصویر"
+
+#: ../themeoptions/options.php:1836
+msgid "Choose to show or hide image border for images added in pages or posts"
+msgstr ""
+"انتخاب کنید که مخفی کردن مرز تصویر برای تصاویری که در نوشته‌ها یا صفحات اضافه "
+"می‌شوند صورت گیرد یا خیر"
+
+#: ../themeoptions/options.php:1844
+msgid "Custom Favicon, *Note depreciated. Use WordPress site icon in customizer."
+msgstr ""
+
+#: ../themeoptions/options.php:1845
+msgid ""
+"Upload a 16px x 16px png/gif/ico image that will represent your website "
+"favicon."
+msgstr ""
+"یک تصویر ۱۶ پیکسل در ۱۶ پیکسل از فرمت png/gif/ico برای آیکن وبسایت خود آپلود "
+"کنید."
+
+#: ../themeoptions/options.php:1851
+msgid "Contact Form Email"
+msgstr "فرم تماس با ایمیل"
+
+#: ../themeoptions/options.php:1852
+msgid "Sets the email for the contact page email form."
+msgstr "یک ایمیل برای فرم ایمیل صفحه تماس با ما تنظیم کنید."
+
+#: ../themeoptions/options.php:1859
+msgid "Footer Copyright Text"
+msgstr "متن حق انحصار (Copyright) در پانویس"
+
+#: ../themeoptions/options.php:1860
+msgid ""
+"Write your own copyright text here. You can use the following shortcodes in "
+"your footer text: [copyright] [site-name] [the-year]"
+msgstr ""
+"متن حق انحصار (Copyright) خود را در اینجا بنویسید. شما می‌توانید از کدهای کوتاه "
+"(shortcodes) در این قسمت استفاده کنید مانند:  [copyright] [site-name] [the-"
+"year]"
+
+#: ../themeoptions/options.php:1867
+msgid "Create Sidebars"
+msgstr "ساخت نوارهای کناری"
+
+#: ../themeoptions/options.php:1873
+msgid "Create Custom Sidebars"
+msgstr "ساخت نوارهای کناری سفارشی"
+
+#: ../themeoptions/options.php:1874
+msgid "Type new sidebar name into textbox"
+msgstr "اسم نوارکناری جدید را در جعبه متن بنویسید"
+
+#: ../themeoptions/options.php:1875
+msgid "Extra Sidebar"
+msgstr "نوارکناری اضافی"
+
+#: ../themeoptions/options.php:1881
+msgid "Wordpress Galleries"
+msgstr "گالری‌های وردپرس"
+
+#: ../themeoptions/options.php:1887
+msgid "Enable Virtue Galleries to override Wordpress"
+msgstr "فعالسازی نادیده گرفتن گالری‌های وردپرس"
+
+#: ../themeoptions/options.php:1888
+msgid ""
+"Disable this if using a plugin to customize galleries, for example jetpack "
+"tiled gallery."
+msgstr ""
+"این قسمت را غیر فعال کنید اگر از افزونه گالری‌های سفارشی  استفاده می‌کنید. مانند "
+"افزونه  jetpack tiled gallery."
+
+#: ../themeoptions/options.php:1895
+msgid "Theme Lightbox"
+msgstr "جعبه نور قالب"
+
+#: ../themeoptions/options.php:1900
+msgid "Lightbox Off"
+msgstr ""
+
+#: ../themeoptions/options.php:1901
+msgid "Lightbox On"
+msgstr ""
+
+#: ../themeoptions/options.php:1903
+msgid "Turn Off Theme Lightbox?"
+msgstr "جعبه نور قالب خاموش شود؟"
+
+#: ../themeoptions/options.php:1913
+msgid "Advanced Settings"
+msgstr "تنظیمات پیشرفته"
+
+#: ../themeoptions/options.php:1914
+msgid "Custom CSS Box"
+msgstr "جعبه CSS سفارشی"
+
+#: ../themeoptions/options.php:1920
+msgid "Custom CSS"
+msgstr "CSS سفارشی"
+
+#: ../themeoptions/options.php:1921
+msgid "Quickly add some CSS to your theme by adding it to this block."
+msgstr "در این قسمت به راحتی CSS های خودرا  اضافه کنید."
+
+#: ../themeoptions/options.php:1929
+msgid "Import / Export"
+msgstr "ورودی/خروجی"
+
+#: ../themeoptions/options.php:1930
+msgid "Import and Export your Theme Options from text or URL."
+msgstr "وارد و خروجی گرفتن گزینه‌های قالب شما از متن یا پیوند URL."
+
+#: ../themeoptions/templates/panel/footer.tpl.php:57
+#: ../themeoptions/templates/panel/header_stickybar.tpl.php:21
+msgid "Save Changes"
+msgstr "ذخیره تغییرات"
+
+#: ../themeoptions/templates/panel/footer.tpl.php:61
+#: ../themeoptions/templates/panel/header_stickybar.tpl.php:25
+msgid "Reset Section"
+msgstr "بخش تنظیم مجدد"
+
+#: ../themeoptions/templates/panel/footer.tpl.php:62
+#: ../themeoptions/templates/panel/header_stickybar.tpl.php:26
+msgid "Reset All"
+msgstr "تنظیم مجدد همه"
+
+#: ../themeoptions/templates/panel/footer.tpl.php:67
+#: ../themeoptions/templates/panel/header_stickybar.tpl.php:29
+msgid "Working..."
+msgstr "درحال کار..."
+
+#: ../themeoptions/templates/panel/header.tpl.php:11
+#: ../themeoptions/templates/panel/header.tpl.php:49
+msgid "Developer Mode Enabled"
+msgstr "حالت توسعه فعال شد."
+
+#: ../themeoptions/templates/panel/header.tpl.php:20
+msgid "WP_DEBUG is enabled"
+msgstr "‌WP_DEBUG فعال شد"
+
+#: ../themeoptions/templates/panel/header.tpl.php:26
+msgid "you are working in a localhost environment"
+msgstr "شما دارید روی یک محیط هاست مجازی (localhost) کار‌می کنید"
+
+#: ../themeoptions/templates/panel/header.tpl.php:31
+msgid "and"
+msgstr "و"
+
+#: ../themeoptions/templates/panel/header.tpl.php:34
+msgid "This has been automatically enabled because"
+msgstr "این قسمت به صورت خودکار فعال شده است زیرا"
+
+#: ../themeoptions/templates/panel/header.tpl.php:36
+msgid ""
+"If you are not a developer, your theme/plugin author shipped with developer "
+"mode enabled. Contact them directly to fix it."
+msgstr ""
+"اگر شما یک توسعه دهنده نیستید، قالب/افزوه شما به حالت توسعه درآمده است. برای "
+"تعمیر با این دایرکتوری تماس بگیرید."
+
+#: ../themeoptions/templates/panel/header.tpl.php:58
+msgid "FORCED DEV MODE OFF ENABLED"
+msgstr ""
+
+#: ../themeoptions/templates/panel/header_stickybar.tpl.php:15
+msgid "Expand"
+msgstr "بسط دادن"
+
+#: ../woocommerce/loop/rating.php:21
+msgid "not rated"
+msgstr "درجه بندی نشده"
+
+#: ../woocommerce/loop/sale-flash.php:16
+#: ../woocommerce/single-product/sale-flash.php:16
+msgid "Sale!"
+msgstr "فروش!"
+
+#: ../woocommerce/single-product.php:27 ../woocommerce/single-product.php:29
+msgid "Back to"
+msgstr "برگشتن به"
+
+#: ../woocommerce/single-product.php:29
+msgid "Shop"
+msgstr "فروشگاه"
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:26
+msgid "This product is currently out of stock and unavailable."
+msgstr "این محصول در حال حاضر در دسترس نیست."
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:38
+msgid "Clear selection"
+msgstr "پک کردن انتخاب شده‌ها"
+
+#~ msgid ""
+#~ "Sorry, no products matched your selection. Please choose a different "
+#~ "combination."
+#~ msgstr ""
+#~ "متاسفیم، محصولی با معیارهای انتخابی شما وجود ندارد. لطفا یک گزینه دیگر را "
+#~ "انتخاب نمایید."
+
+#~ msgid ""
+#~ "Sorry, this product is unavailable. Please choose a different combination."
+#~ msgstr ""
+#~ "متاسفیم، این محصول در دسترس نیست. لطفا یک یک گزینه دیگر را انتخاب نمایید."
+
+#~ msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+#~ msgstr "برای ارسال نظر، شما ابتدا باید  <a href=\"%s\">وارد شوید</a> ."
+
+#~ msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
+#~ msgstr "توسط <a href=\"%s/wp-admin/profile.php\">%s</a> وارد شوید."
+
+#~ msgid "Log out of this account"
+#~ msgstr "از این حساب کاربری خارج شوید"
+
+#~ msgid "Log out &raquo;"
+#~ msgstr "خروج  &raquo;"
+
+#~ msgid "Invalid security credential, please reload the page and try again."
+#~ msgstr ""
+#~ "ورود اطلاعات ناامن، لطفا صفحه را دوباره بارگذاری کنید و مجددا امتحان کنید."
+
+#~ msgid "Page and Post Settings"
+#~ msgstr "تنظیمات صفحه و نوشته"
+
+#~ msgid "Custom Favicon"
+#~ msgstr "نماد موارد دلخواه سفارشی"
+
+#~ msgid "Rated %d out of 5"
+#~ msgstr "امتیاز از %d تا ۵"
+
+#~ msgid "out of 5"
+#~ msgstr "از ۵"
+
+#~ msgid "Your comment is awaiting approval"
+#~ msgstr "نظر شما منتظر تأیید شدن است"
+
+#~ msgid "verified owner"
+#~ msgstr "مالک تأیید"

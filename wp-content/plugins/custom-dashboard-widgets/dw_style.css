@@ -1,0 +1,172 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(//www.fontstatic.com/f=droid-naskh,jooza,flat-jooza,nawar,shekari,);
+.table{border-collapse:collapse!important}.table td,.table th{background-color:#fff!important}.table-bordered td,.table-bordered th{border:1px solid #ddd!important}
+#rg_forms_dashboard{
+	display:none!important;
+}
+#wpbody-content #dashboard-widgets .postbox-container {
+	width: 100% !important;
+}
+
+div#postbox-container-2,div#postbox-container-3,div#postbox-container-4,span#footer-thankyou,p#footer-upgrade{
+    display: none!important;
+} 
+.main_bashboard_widget_button{
+	display:inline-block;
+	padding:0;
+	margin:15px;
+	text-align:center;
+}
+.main_bashboard_widget_button a{
+	color:#777;
+	transition:all 0.5s;
+	outline:none!important;
+	display:block;
+	padding:15px 30px;
+	border:1px solid #e1e1e1!important;
+	border-radius:30px;
+}
+.main_bashboard_widget_button a i{
+	color:#777;
+	font-size:60px;
+	transition:all 0.5s;
+}
+.main_bashboard_widget_button a h3{
+	font-family:flat-jooza;
+	transition:all 0.5s;
+	margin-top:10px!important;
+	color:#666!important;
+	font-weight:bold!important;
+}
+.main_bashboard_widget_button a:hover{
+	border:1px solid #888!important;
+}
+.main_bashboard_widget_button a:hover i{
+	color:#444;
+}
+.main_bashboard_widget_button a:hover h3{
+	color:#444!important;
+}
+#custom_dashboard_widget .inside{
+	text-align:center;
+}
+#custom_dashboard_widget .inside h4{
+	font-size:18px;
+	font-family:flat-jooza;
+	margin:20px;
+	font-weight:bold;
+}
+.js .postbox .handlediv, .js .postbox .hndle, .js .widget .widget-top{
+	display:none!important;
+}
+p.submit{
+	float:left;
+	margin-right:20px;
+}
+.table{
+	width:100%;
+}
+.add-new{
+	width:100%;
+	margin-top:5px;
+	text-align:center;
+	background:#fff;
+	padding:10px 0;
+}
+.remCF{
+	color:#e14d43;
+}
+.addCF{
+	font-size:15px;
+	padding:6px 15px;
+	border:1px solid #ccc;
+	color:#555;
+	border-radius:5px;
+	background:#fff;
+	text-decoration:none;
+}
+.addCF i{
+	padding-right:8px;
+}
+.table td, .table th{
+	text-align:center;
+	padding:8px 10px;
+}
+td input{
+	width:100%;
+	height:35px;
+	line-height:35px;
+}
+
+.modalDialog {
+	position:fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	display:none;;
+}
+
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 20px;
+	border-radius: 10px;
+	background:#f1f1f1;
+}
+
+.modalDashIcons {
+    position:fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    display:none;;
+}
+
+.modalDashIcons > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 10px;
+    background:#f1f1f1;
+}
+
+.close, .closeDashIcons {
+	background: #555;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+#custom_dashboard_widget .dashicons{
+	line-height: 60px;
+	margin-bottom: 38px;
+	font-size: 60px;
+	text-align: center;
+    margin-right: 40px;
+}
+
+
+.main_bashboard_widget_button a { padding-top: 25px!important; border-radius: 0px!important; }
+#custom_dashboard_widget .inside h3 { font-family: "Open Sans"!important; }
+
+.close:hover { background: #999;color:#fff; }

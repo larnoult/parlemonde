@@ -1,0 +1,34 @@
+body.login {
+background-image:url("http://www.parlemonde.org/wp-content/uploads/2014/05/fond.jpg");
+}
+
+.login h1 a {
+background-image: url("http://www.parlemonde.org/wp-content/uploads/2014/05/logo-aile.png");
+background-size: 285px 100px;
+width: 285px;
+height: 100px;
+}
+#login::before{
+	content:"Vous êtes sur www.parlemonde.org, le site de l'association !";
+	font-size:18px;
+} 
+#login h1::after{
+	content:"Connectez-vous pour participer au forum";
+	font-size:13px;
+	text-align:right;
+	background:black;
+	color:white;
+	padding-left:30px;
+	padding-right:30px;
+	}
+#login h1{
+	margin-top:30px;
+}
+
+#loginform{
+background: black;
+}
+
+.login label{
+	color:white;
+}

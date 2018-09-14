@@ -1,0 +1,30 @@
+@import '_preset.css';
+
+
+/* minimalism theme --------------------------------------------------------------- */
+
+/* vote screen */
+.dem-vote label{ opacity:.9; }
+.dem-vote label:hover{ opacity:1; }
+
+.dem-vote-button{  }
+.dem-results-link{ display:none; }
+
+.dem-add-answer a{ text-decoration:none; margin-left:1.2em; color:inherit !important; }
+.dem-add-answer a:hover{ opacity:.8; }
+
+/* results screen */
+.dem-graph{ height:1.4em; line-height:1.4em; }
+
+.dem-voted-this{ font-weight: bold; }
+.dem-votes-txt-percent{ font-size: 90%; }
+.dem-votes-txt-percent:before{ content:'- '; display:inline; }
+
+.dem-percent-txt,
+.dem-label-percent-txt,
+.dem-poll-info > *{ display:none; }
+.dem-poll-info .dem-total-votes{ display:block; float:none; opacity:1; font-size: 100%; text-align: center; font-weight: 700; }
+
+
+/* / minimalism theme --------------------------------------------------------------- */
+

@@ -1,0 +1,122 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+#shufflepuzzle img {
+	max-width: none !important;
+	display: inline-block;
+}
+
+#puzzle-navigation {
+	padding: 0;
+	margin: 0;
+}
+
+#puzzle-navigation li{
+    margin: 0;
+}
+#puzzle-navigation ul{
+    margin: 0 0 0 -8px;
+}
+
+.sh_puzzle{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	display: inline-block;
+	overflow: hidden;
+	z-index: 0;
+	position: relative !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	direction: ltr;
+}
+
+.sp_bg{
+  position: absolute;
+  overflow: hidden;
+  transition: opacity 0.1s linear;
+  background: rgba(0, 0, 0, 0.73);
+}
+
+.sp_bg.visible{
+  opacity: 1;
+  transition-delay: 0s;
+}
+
+.spmenu,
+.spmenu ul,
+.spmenu ul li,
+.spmenu #menu-button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	line-height: 1;
+	display: block;
+	position: relative;
+	box-sizing: border-box;
+}
+.spmenu #menu-button {
+	display: none;
+}
+.spmenu {
+	width: auto;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1;
+	box-shadow: 0 0 16px rgba(0, 0, 0, 0.3)
+}
+#menu-line {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 3px;
+	background: #009ae1;
+	transition: all 0.25s ease-out;
+}
+.spmenu > ul > li {
+	float: left;
+	cursor: default;
+}
+.spmenu > ul > li {
+	padding: 8px;
+	font-size: 12px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000000;
+	background-color: #ffffff;
+	transition: color .2s ease;
+}
+.spmenu > ul > li:not(:last-child) {
+	border-right: 1px solid #AAA;
+}
+.spmenu > ul > li:hover{
+	color: #DDD;
+	background-color: #333;
+}
+.spmenu ul ul {
+	position: absolute;
+	padding-top: 8px;
+	left: -9999px;
+	margin-left: -8px;
+}
+.spmenu li:hover > ul {
+	left: auto;
+}
+.spmenu ul ul ul {
+	margin-left: 100%;
+	top: 0;
+}
+.spmenu ul li:hover > ul > li {
+	height: 26px;
+}
+.spmenu ul ul li {
+	white-space: nowrap;
+	padding: 8px;
+	font-size: 12px;
+	background: #333333;
+	text-decoration: none;
+	color: #dddddd;
+	transition: color .2s ease;
+}
+
+.spmenu ul ul li:hover {
+	color: #ffffff;
+	background-color: #000;
+}

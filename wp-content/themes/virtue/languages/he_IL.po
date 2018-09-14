@@ -1,0 +1,3479 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Virtue\n"
+"POT-Creation-Date: 2016-02-27 18:51-0700\n"
+"PO-Revision-Date: 2016-02-27 18:51-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:11
+msgid "Sorry, but the page you were trying to view does not exist."
+msgstr "הדף לא קיים"
+
+#: ../404.php:14
+msgid "It looks like this was the result of either:"
+msgstr "נראה שזה קרה כתוצאה מ:"
+
+#: ../404.php:16
+msgid "a mistyped address"
+msgstr "כתובת לא תקינה"
+
+#: ../404.php:17
+msgid "an out-of-date link"
+msgstr "קישור ישן לא תקין"
+
+#: ../archive.php:22 ../home.php:22 ../index.php:13
+#: ../taxonomy-portfolio-type.php:13
+msgid "Sorry, no results were found."
+msgstr "לא נמצאו תוצאות."
+
+#: ../lib/authorbox.php:5
+msgid "About Author"
+msgstr "אודות הכותב"
+
+#: ../lib/authorbox.php:6 ../lib/utils.php:60
+msgid "Latest Posts"
+msgstr "פוסטים אחרונים"
+
+#: ../lib/authorbox.php:13 ../lib/authorbox.php:16 ../lib/authorbox.php:20
+#: ../lib/authorbox.php:24 ../lib/authorbox.php:28 ../lib/authorbox.php:32
+#: ../lib/authorbox.php:36 ../lib/authorbox.php:40 ../lib/authorbox.php:44
+#: ../lib/authorbox.php:48 ../lib/authorbox.php:52
+msgid "Follow"
+msgstr "עקוב"
+
+#: ../lib/authorbox.php:16
+msgid "on Facebook"
+msgstr "בפייסבוק"
+
+#: ../lib/authorbox.php:20
+msgid "on Twitter"
+msgstr "בטוויטר"
+
+#: ../lib/authorbox.php:24
+msgid "on Google Plus"
+msgstr "בגוגל פלוס"
+
+#: ../lib/authorbox.php:28
+msgid "on YouTube"
+msgstr ""
+
+#: ../lib/authorbox.php:32
+msgid "on Flickr"
+msgstr "בפליקר"
+
+#: ../lib/authorbox.php:36
+msgid "on Vimeo"
+msgstr "ב-Vimeo"
+
+#: ../lib/authorbox.php:40
+msgid "on linkedin"
+msgstr "בלינקדאין"
+
+#: ../lib/authorbox.php:44
+msgid "on Dribbble"
+msgstr "בדריבל"
+
+#: ../lib/authorbox.php:48
+msgid "on Pinterest"
+msgstr "בפינטרסט"
+
+#: ../lib/authorbox.php:52
+msgid "on Instagram"
+msgstr "באינסטגרם"
+
+#: ../lib/authorbox.php:69
+msgid "Latest posts from"
+msgstr "פוסטים אחרונים מאת:"
+
+#: ../lib/class-tgm-plugin-activation.php:303
+#: ../lib/virtuetoolkit-activate.php:35
+msgid "Install Required Plugins"
+msgstr "התקן פלאגינים דרושים"
+
+#: ../lib/class-tgm-plugin-activation.php:304
+#: ../lib/virtuetoolkit-activate.php:36
+msgid "Install Plugins"
+msgstr "התקן פלאגינים"
+
+#: ../lib/class-tgm-plugin-activation.php:305
+#: ../lib/virtuetoolkit-activate.php:37
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "מתקין פלאגין: %s"
+
+#: ../lib/class-tgm-plugin-activation.php:306
+#: ../lib/virtuetoolkit-activate.php:38
+msgid "Something went wrong with the plugin API."
+msgstr "משהו השתבש עם הAPI של הפלאגין."
+
+#: ../lib/class-tgm-plugin-activation.php:368
+#: ../lib/virtuetoolkit-activate.php:49
+msgid "Return to Required Plugins Installer"
+msgstr "חזור למתקין הפלאגינים הדרושים"
+
+#: ../lib/class-tgm-plugin-activation.php:369
+msgid "Return to the dashboard"
+msgstr "חזור ללוח הבקרה"
+
+#: ../lib/class-tgm-plugin-activation.php:370
+#: ../lib/class-tgm-plugin-activation.php:3052
+#: ../lib/virtuetoolkit-activate.php:50
+msgid "Plugin activated successfully."
+msgstr "הפלאגין הופעל בהצלחה."
+
+#: ../lib/class-tgm-plugin-activation.php:371
+#: ../lib/class-tgm-plugin-activation.php:2873
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "הפלאגין הבא הופעל בהצלחה:"
+msgstr[1] "הפלאגינים הבאים הופעלו בהצלחה:"
+
+#: ../lib/class-tgm-plugin-activation.php:372
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../lib/class-tgm-plugin-activation.php:373
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../lib/class-tgm-plugin-activation.php:374
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "כל הפלאגינים הותקנו והופעלו בהצלחה. %1$s"
+
+#: ../lib/class-tgm-plugin-activation.php:375
+msgid "Dismiss this notice"
+msgstr "התעלם מודעה זו:"
+
+#: ../lib/class-tgm-plugin-activation.php:376
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../lib/class-tgm-plugin-activation.php:494
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../lib/class-tgm-plugin-activation.php:2218
+msgid "Required"
+msgstr "נדרש"
+
+#: ../lib/class-tgm-plugin-activation.php:2221
+msgid "Recommended"
+msgstr "מומלץ"
+
+#: ../lib/class-tgm-plugin-activation.php:2238
+msgid "WordPress Repository"
+msgstr "מאגר וורדפרס"
+
+#: ../lib/class-tgm-plugin-activation.php:2242
+msgid "External Source"
+msgstr ""
+
+#: ../lib/class-tgm-plugin-activation.php:2246
+msgid "Pre-Packaged"
+msgstr "ארוז מראש"
+
+#: ../lib/class-tgm-plugin-activation.php:2265
+msgid "Not Installed"
+msgstr "לא מותקן"
+
+#: ../lib/class-tgm-plugin-activation.php:2269
+msgid "Installed But Not Activated"
+msgstr "מותקן אך לא מופעל"
+
+#: ../lib/class-tgm-plugin-activation.php:2271
+msgid "Active"
+msgstr "פעיל"
+
+#: ../lib/class-tgm-plugin-activation.php:2277
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../lib/class-tgm-plugin-activation.php:2280
+msgid "Requires Update"
+msgstr ""
+
+#: ../lib/class-tgm-plugin-activation.php:2283
+msgid "Update recommended"
+msgstr ""
+
+#: ../lib/class-tgm-plugin-activation.php:2344
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/class-tgm-plugin-activation.php:2348
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/class-tgm-plugin-activation.php:2352
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/class-tgm-plugin-activation.php:2453
+msgid "Installed version:"
+msgstr ""
+
+#: ../lib/class-tgm-plugin-activation.php:2461
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../lib/class-tgm-plugin-activation.php:2473
+msgid "Available version:"
+msgstr ""
+
+#: ../lib/class-tgm-plugin-activation.php:2497
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: ../lib/class-tgm-plugin-activation.php:2513
+msgid "Plugin"
+msgstr "פלאגין"
+
+#: ../lib/class-tgm-plugin-activation.php:2514
+msgid "Source"
+msgstr "מקור"
+
+#: ../lib/class-tgm-plugin-activation.php:2515
+msgid "Type"
+msgstr "סוג"
+
+#: ../lib/class-tgm-plugin-activation.php:2519
+msgid "Version"
+msgstr ""
+
+#: ../lib/class-tgm-plugin-activation.php:2520
+msgid "Status"
+msgstr "סטטוס"
+
+#: ../lib/class-tgm-plugin-activation.php:2660
+msgid "Install"
+msgstr "התקן"
+
+#: ../lib/class-tgm-plugin-activation.php:2666
+msgid "Update"
+msgstr ""
+
+#: ../lib/class-tgm-plugin-activation.php:2669
+msgid "Activate"
+msgstr "הפעל"
+
+#: ../lib/class-tgm-plugin-activation.php:2730
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../lib/class-tgm-plugin-activation.php:2732
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../lib/class-tgm-plugin-activation.php:3051
+msgid "Plugin activation failed."
+msgstr "הפעלת פלאגין נכשלה."
+
+#: ../lib/class-tgm-plugin-activation.php:3390
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../lib/class-tgm-plugin-activation.php:3394
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "קרתה תקלה בהתקנה %1$s: <strong>%2$s</strong>."
+
+#: ../lib/class-tgm-plugin-activation.php:3395
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "ההתקנה של %1$s נכשלה. "
+
+#: ../lib/class-tgm-plugin-activation.php:3399
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr "תהליך ההתקנה וההפעלה מתחיל. התהליך יכול לקחת זמן מה..."
+
+#: ../lib/class-tgm-plugin-activation.php:3400
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s הותקן והופעל בהצלחה. "
+
+#: ../lib/class-tgm-plugin-activation.php:3401
+msgid "All installations and activations have been completed."
+msgstr "כל ההתקנות וההפעלות הושלמו."
+
+#: ../lib/class-tgm-plugin-activation.php:3402
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "מתקין ומפעיל פלאגין %1$s (%2$d/%3$d)"
+
+#: ../lib/class-tgm-plugin-activation.php:3406
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"תהליך ההתקנה מתחיל. זה יכול לקחת זמן מה במחשבים מאחרים מסוימים, אז אנא היה "
+"סבלני."
+
+#: ../lib/class-tgm-plugin-activation.php:3408
+msgid "All installations have been completed."
+msgstr "כל ההתקנות הושלמו."
+
+#: ../lib/class-tgm-plugin-activation.php:3409
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "מתקין פלאגין %1$s (%2$d/%3$d)"
+
+#: ../lib/cleanup.php:78 ../templates/content-fullpost.php:74
+#: ../templates/content-fullpostfull.php:75
+msgid "Continued"
+msgstr "נמשך"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_ajax.php:47
+msgid "Please Try Again"
+msgstr "אנא נסה שוב"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_ajax.php:131
+msgid "Remove Embed"
+msgstr "הסר הטמעה"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_ajax.php:134
+#, php-format
+msgid "No oEmbed Results Found for %s. View more info at"
+msgstr "לא נמצאו תוצאות oEmbed עבור %s. הצג מידע נוסף ב"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:150
+msgid "Add Row"
+msgstr "הוסף שורה"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:178
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:547
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:590
+msgid "Remove"
+msgstr "הסר"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:523
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:563
+msgid "Add or Upload File"
+msgstr "הוסף או העלה קובץ"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:536
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:582
+msgid "Remove Image"
+msgstr "הסר תמונה"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:547
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:590
+msgid "File:"
+msgstr "קובץ:"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:547
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:590
+msgid "Download"
+msgstr "הורד"
+
+#: ../lib/cmb/init.php:243
+msgid "Clear"
+msgstr "נקה"
+
+#: ../lib/cmb/init.php:244 ../lib/metaboxes.php:98 ../lib/metaboxes.php:123
+#: ../lib/metaboxes.php:154 ../lib/metaboxes.php:165
+#: ../themeoptions/framework.php:1822
+msgid "Default"
+msgstr "ברירת מחדל"
+
+#: ../lib/cmb/init.php:245
+msgid "Select Color"
+msgstr "בחר צבע"
+
+#: ../lib/cmb/init.php:246
+msgid "Current Color"
+msgstr "צבע נוכחי"
+
+#: ../lib/cmb/init.php:1185
+msgid "Save"
+msgstr "שמור"
+
+#: ../lib/comments.php:38 ../templates/comment.php:5
+#, php-format
+msgid "%1$s"
+msgstr "%1$s"
+
+#: ../lib/comments.php:43
+msgid "| (Edit)"
+msgstr "| (ערוך)"
+
+#: ../lib/comments.php:49 ../templates/comment.php:11
+msgid "Your comment is awaiting moderation."
+msgstr "התגובה שלך ממתינה לבדיקה"
+
+#: ../lib/custom-woocommerce.php:108 ../templates/header-topbar.php:37
+msgid "View your shopping cart"
+msgstr "הצג את עגלת הקניות שלך"
+
+#: ../lib/custom-woocommerce.php:110 ../templates/header-topbar.php:39
+msgid "Your Cart"
+msgstr "העגלה שלך"
+
+#: ../lib/custom.php:416 ../templates/entry-post-links.php:3
+msgid "Previous Post"
+msgstr "פוסט קודם"
+
+#: ../lib/custom.php:416 ../templates/entry-post-links.php:6
+msgid "Next Post"
+msgstr "הפוסט הבא"
+
+#: ../lib/custom.php:516
+msgid "Occupation"
+msgstr "עיסוק"
+
+#: ../lib/custom.php:519
+msgid "Please enter your Occupation."
+msgstr "אנא הכנס את תחום העיסוק שלך."
+
+#: ../lib/custom.php:526
+msgid "Please enter your Twitter username."
+msgstr "אנא הכנס את שם המשתמש שלך בטוויטר."
+
+#: ../lib/custom.php:533
+msgid "Please enter your Facebook url. (be sure to include http://)"
+msgstr "אנא הכנס את שורת הכתובת שלך בפייסבוק. (וודא שהכתובת כוללת http://)"
+
+#: ../lib/custom.php:540
+msgid "Please enter your Google Plus url. (be sure to include http://)"
+msgstr "אנא הכנס את שורת הכתובת שלך גוגל פלוס. (וודא שהכתובת כוללת http://)"
+
+#: ../lib/custom.php:547
+msgid "Please enter your YourTube url. (be sure to include http://)"
+msgstr ""
+
+#: ../lib/custom.php:554
+msgid "Please enter your Flickr url. (be sure to include http://)"
+msgstr "אנא הכנס את שורת הכתובת שלך בפליקר. (וודא שהכתובת כוללת http://)"
+
+#: ../lib/custom.php:561
+msgid "Please enter your Linkedin url. (be sure to include http://)"
+msgstr "אנא הכנס את שורת הכתובת שלך בלינקדאין. (וודא שהכתובת כוללת http://)"
+
+#: ../lib/custom.php:568
+msgid "Please enter your Dribbble url. (be sure to include http://)"
+msgstr "אנא הכנס את שורת הכתובת שלך בדריבל. (וודא שהכתובת כוללת http://)"
+
+#: ../lib/custom.php:575
+msgid "Please enter your Pinterest url. (be sure to include http://)"
+msgstr "אנא הכנס את שורת הכתובת שלך בפינטרסט. (וודא שהכתובת כוללת http://)"
+
+#: ../lib/custom.php:582
+msgid "Please enter your Instagram url. (be sure to include http://)"
+msgstr "אנא הכנס את שורת הכתובת שלך באינסטגרם. (וודא שהכתובת כוללת http://)"
+
+#: ../lib/init.php:9
+msgid "Primary Navigation"
+msgstr "תפריט ניווט ראשי"
+
+#: ../lib/init.php:10
+msgid "Secondary Navigation"
+msgstr "תפריט ניווט משני"
+
+#: ../lib/init.php:11
+msgid "Mobile Navigation"
+msgstr "תפריט ניווט סלולרי"
+
+#: ../lib/init.php:12
+msgid "Topbar Navigation"
+msgstr "תפריט ניווט עליון"
+
+#: ../lib/init.php:13
+msgid "Footer Navigation"
+msgstr "תפריט ניווט תחתון"
+
+#: ../lib/metaboxes.php:21 ../lib/metaboxes.php:205
+msgid "All"
+msgstr "הכל"
+
+#: ../lib/metaboxes.php:36
+msgid "All Blog Posts"
+msgstr "כל הפוסטים בבלוג"
+
+#: ../lib/metaboxes.php:68
+msgid "Page Title and Subtitle"
+msgstr "כותרת ראשית ומשנית לדף"
+
+#: ../lib/metaboxes.php:75
+msgid "Subtitle"
+msgstr "כותרת משנית"
+
+#: ../lib/metaboxes.php:76
+msgid "Subtitle will go below page title"
+msgstr "כותרת משנית תופיע מתחת לכותרת הראשית בדף"
+
+#: ../lib/metaboxes.php:85
+msgid "Post Options"
+msgstr "אפשרויות פוסט"
+
+#: ../lib/metaboxes.php:93
+msgid "Head Content"
+msgstr "תוכן ראשי"
+
+#: ../lib/metaboxes.php:99 ../themeoptions/options.php:1767
+msgid "None"
+msgstr "כלום"
+
+#: ../lib/metaboxes.php:100 ../themeoptions/options.php:1767
+msgid "Image Slider"
+msgstr "סליידר תמונות"
+
+#: ../lib/metaboxes.php:101 ../lib/metaboxes.php:129
+#: ../themeoptions/options.php:1767
+msgid "Video"
+msgstr "וידאו"
+
+#: ../lib/metaboxes.php:102 ../themeoptions/options.php:1767
+msgid "Image"
+msgstr "תמונה"
+
+#: ../lib/metaboxes.php:106
+msgid "Max Image/Slider Height"
+msgstr "גודל תמונה/סליידר מקסימלי"
+
+#: ../lib/metaboxes.php:107
+msgid "Default is: 400 <b>(Note: just input number, example: 350)</b>"
+msgstr "ברירת מחדל היא: 400 <b>(שים לב: פשוט הקש מספר, לדוגמא: 350)</b>"
+
+#: ../lib/metaboxes.php:112
+msgid "Max Image/Slider Width"
+msgstr "רוחב תמונה/סליידר מקסימלי"
+
+#: ../lib/metaboxes.php:113
+msgid ""
+"Default is: 770 or 1140 on fullwidth posts <b>(Note: just input number, "
+"example: 650, does not apply to carousel slider)</b>"
+msgstr ""
+"ברירת מחדל היא: 770 או 1140 על פוסטים ברוחב מלא <b>(שים לב: פשוט הקש מספר, "
+"לדוגמא: 650ת לא תקף לסליידר קרוסלה)</b>"
+
+#: ../lib/metaboxes.php:118
+msgid "Post Summary"
+msgstr "תקציר פוסט"
+
+#: ../lib/metaboxes.php:124
+msgid "Text"
+msgstr "טקסט"
+
+#: ../lib/metaboxes.php:125
+msgid "Portrait Image"
+msgstr "תמונת אנכית"
+
+#: ../lib/metaboxes.php:126
+msgid "Landscape Image"
+msgstr "תמונה אופקית"
+
+#: ../lib/metaboxes.php:127
+msgid "Portrait Image Slider"
+msgstr "סליידר תמונה אנכית"
+
+#: ../lib/metaboxes.php:128
+msgid "Landscape Image Slider"
+msgstr "סליידר תמונה אופקית"
+
+#: ../lib/metaboxes.php:133 ../lib/metaboxes.php:234
+msgid "Display Sidebar?"
+msgstr "הצג סרגל צדדי"
+
+#: ../lib/metaboxes.php:134 ../lib/metaboxes.php:235
+msgid "Choose if layout is fullwidth or sidebar"
+msgstr "בחר עיצוב ברוחב מלא או עם סרגל צדדי"
+
+#: ../lib/metaboxes.php:138 ../lib/metaboxes.php:156 ../lib/metaboxes.php:239
+msgid "Yes"
+msgstr "כן"
+
+#: ../lib/metaboxes.php:139 ../lib/metaboxes.php:155 ../lib/metaboxes.php:166
+#: ../lib/metaboxes.php:240
+msgid "No"
+msgstr "לא"
+
+#: ../lib/metaboxes.php:143 ../lib/metaboxes.php:244 ../lib/metaboxes.php:263
+msgid "Choose Sidebar"
+msgstr "בחר סרגל צדדי"
+
+#: ../lib/metaboxes.php:149
+msgid "Author Info"
+msgstr "מידע על הכותב"
+
+#: ../lib/metaboxes.php:150
+msgid "Display an author info box?"
+msgstr "הצג תיבת מידע על הכותב?"
+
+#: ../lib/metaboxes.php:160
+msgid "Posts Carousel"
+msgstr "קרוסלת פוסטים"
+
+#: ../lib/metaboxes.php:161
+msgid "Display a carousel with similar or recent posts?"
+msgstr "הצג קרוסלה עם פוסטים דומים או אחרונים?"
+
+#: ../lib/metaboxes.php:167 ../themeoptions/options.php:1801
+msgid "Yes - Display Recent Posts"
+msgstr "כן - הצג פוסטים אחרונים"
+
+#: ../lib/metaboxes.php:168 ../themeoptions/options.php:1801
+msgid "Yes - Display Similar Posts"
+msgstr "כן - הצג פוסטים דומים"
+
+#: ../lib/metaboxes.php:173
+msgid "Carousel Title"
+msgstr "כותרת קרוסלה"
+
+#: ../lib/metaboxes.php:174
+msgid "ex. Similar Posts"
+msgstr "לדוגמא, פוסטים דומים"
+
+#: ../lib/metaboxes.php:184
+msgid "Blog List Options"
+msgstr "אפשרויות רשימת בלוג"
+
+#: ../lib/metaboxes.php:193
+msgid "Blog Category"
+msgstr "קטגורית בלוג"
+
+#: ../lib/metaboxes.php:194
+msgid "Select all blog posts or a specific category to show"
+msgstr "בחר את כל הפוסטים של הבלוג או קטגוריה ספציפית להצגה"
+
+#: ../lib/metaboxes.php:200
+msgid "How Many Posts Per Page"
+msgstr "כמה פוסטים לדף"
+
+#: ../lib/metaboxes.php:224
+msgid "Display Post Content as:"
+msgstr "הצג תוכן פוסט בתור:"
+
+#: ../lib/metaboxes.php:229
+msgid "Summary"
+msgstr "תקציר"
+
+#: ../lib/metaboxes.php:230
+msgid "Full"
+msgstr "מלא"
+
+#: ../lib/metaboxes.php:254
+msgid "Sidebar Options"
+msgstr "אפשרויות סרגל צדדי"
+
+#: ../lib/utils.php:69
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "ארכיון יומי: %s"
+
+#: ../lib/utils.php:71
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "ארכיון חודשי: %s"
+
+#: ../lib/utils.php:73
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "ארכיון שנתי: %s"
+
+#: ../lib/utils.php:75
+#, php-format
+msgid "Author Archives: %s"
+msgstr "ארכיון כותב: %s"
+
+#: ../lib/utils.php:80
+#, php-format
+msgid "Search Results for %s"
+msgstr "תוצאות חיפוש עבור %s"
+
+#: ../lib/utils.php:82
+msgid "Not Found"
+msgstr "לא נמצא"
+
+#: ../lib/virtuetoolkit-activate.php:51
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "כל הפלאגינים הותקנו והופעלו בהצלחה. %s"
+
+#: ../lib/widgets.php:6 ../lib/widgets.php:59
+msgid "Primary Sidebar"
+msgstr "סרגל צדדי ראשי"
+
+#: ../lib/widgets.php:49
+msgid "Topbar Widget"
+msgstr "ווידג'ט חלק עליון"
+
+#: ../lib/widgets.php:71 ../lib/widgets.php:112 ../lib/widgets.php:143
+msgid "Footer Column 1"
+msgstr "טור חלק תחתון מספר 1"
+
+#: ../lib/widgets.php:81 ../lib/widgets.php:122 ../lib/widgets.php:153
+msgid "Footer Column 2"
+msgstr "טור חלק תחתון מספר 2"
+
+#: ../lib/widgets.php:91 ../lib/widgets.php:132
+msgid "Footer Column 3"
+msgstr "טור חלק תחתון מספר 3"
+
+#: ../lib/widgets.php:101
+msgid "Footer Column 4"
+msgstr "טור חלק תחתון מספר 4"
+
+#: ../lib/widgets.php:178
+msgid "Use this widget to add a Vcard to your site"
+msgstr "השתמש בווידג'ט כדי להוסיף Vcard לאתר שלך"
+
+#: ../lib/widgets.php:179
+msgid "Virtue: Contact/Vcard"
+msgstr "Virtue: צור קשר/Vcard"
+
+#: ../lib/widgets.php:189
+msgid "vCard"
+msgstr "vCard"
+
+#: ../lib/widgets.php:254 ../lib/widgets.php:393 ../lib/widgets.php:528
+#: ../lib/widgets.php:641
+msgid "Title:"
+msgstr "כותרת:"
+
+#: ../lib/widgets.php:258
+msgid "Company Name:"
+msgstr "שם חברה:"
+
+#: ../lib/widgets.php:262
+msgid "Name:"
+msgstr "שם:"
+
+#: ../lib/widgets.php:266
+msgid "Street Address:"
+msgstr "כתובת רחוב:"
+
+#: ../lib/widgets.php:270
+msgid "City/Locality:"
+msgstr "עיר/מיקום:"
+
+#: ../lib/widgets.php:274
+msgid "State/Region:"
+msgstr "מדינה/אזור:"
+
+#: ../lib/widgets.php:278
+msgid "Zipcode/Postal Code:"
+msgstr "מיקוד:"
+
+#: ../lib/widgets.php:282
+#, fuzzy
+msgid "Mobile Telephone:"
+msgstr "טלפון:"
+
+#: ../lib/widgets.php:286
+#, fuzzy
+msgid "Fixed Telephone:"
+msgstr "טלפון:"
+
+#: ../lib/widgets.php:290
+msgid "Email:"
+msgstr "אימייל:"
+
+#: ../lib/widgets.php:302
+msgid "Simple way to add Social Icons"
+msgstr "דרך פשוטה להוסיף אייקונים חברתיים"
+
+#: ../lib/widgets.php:303
+msgid "Virtue: Social Links"
+msgstr "Virtue: לינקים חברתיים"
+
+#: ../lib/widgets.php:397
+msgid "Facebook:"
+msgstr "פייסבוק:"
+
+#: ../lib/widgets.php:401
+msgid "Twitter:"
+msgstr "טוויטר:"
+
+#: ../lib/widgets.php:405
+msgid "Instagram:"
+msgstr "אינסטגרם:"
+
+#: ../lib/widgets.php:409
+msgid "GooglePlus:"
+msgstr "גוגל פלוס:"
+
+#: ../lib/widgets.php:413
+msgid "Flickr:"
+msgstr "פליקר:"
+
+#: ../lib/widgets.php:417
+msgid "Vimeo:"
+msgstr "Vimeo:"
+
+#: ../lib/widgets.php:421
+msgid "Youtube:"
+msgstr "יוטיוב:"
+
+#: ../lib/widgets.php:425
+msgid "Pinterest:"
+msgstr "פינטרסט:"
+
+#: ../lib/widgets.php:429
+msgid "Dribbble:"
+msgstr "דריבל:"
+
+#: ../lib/widgets.php:433
+msgid "Linkedin:"
+msgstr "לינקדאין:"
+
+#: ../lib/widgets.php:437
+msgid "Tumblr:"
+msgstr "טאמבלר:"
+
+#: ../lib/widgets.php:441
+msgid "VK:"
+msgstr "VK:"
+
+#: ../lib/widgets.php:445
+msgid "RSS:"
+msgstr "RSS:"
+
+#: ../lib/widgets.php:460
+msgid "This shows the most recent posts on your site with a thumbnail"
+msgstr "זה מציג את הפוסטים הכי עדכניים על האתר שלך עם תמונה ממוזערת"
+
+#: ../lib/widgets.php:461
+msgid "Virtue: Recent Posts"
+msgstr "Virtue: פוסטים אחרונים"
+
+#: ../lib/widgets.php:470 ../templates/recentblog-carousel.php:7
+msgid "Recent Posts"
+msgstr "פוסטים אחרונים"
+
+#: ../lib/widgets.php:531
+msgid "Number of posts to show:"
+msgstr "מספר פוסטים להצגה:"
+
+#: ../lib/widgets.php:534
+msgid "Limit to Catagory (Optional):"
+msgstr "הגבל לקטגוריה (אופציונלי):"
+
+#: ../lib/widgets.php:546
+msgid ""
+"This shows a grid of featured images from recent posts or portfolio items"
+msgstr ""
+"זה מציג תצוגת רשת של תמונות מפורסמות מתוך פוסטים אחרונים או פריטי פורטפוליו"
+
+#: ../lib/widgets.php:547
+msgid "Virtue: Image Grid"
+msgstr "Virtue: תצוגת רשת תמונות"
+
+#: ../lib/widgets.php:556
+msgid "Post Gallery"
+msgstr "גלרית פוסטים"
+
+#: ../lib/widgets.php:644
+msgid "Grid Choice:"
+msgstr "בחירת רשת תצוגה:"
+
+#: ../lib/widgets.php:646
+msgid "Blog Posts"
+msgstr "פוסטים של הבלוג"
+
+#: ../lib/widgets.php:647
+msgid "Portfolio"
+msgstr "פורטפוליו"
+
+#: ../lib/widgets.php:650
+msgid "If Post - Choose Category (Optional):"
+msgstr "אם פוסט - בחר קטגוריה (אופציונלי):"
+
+#: ../lib/widgets.php:653
+msgid "If Portfolio - Choose Type (Optional):"
+msgstr "אם פורטפוליו - בחר סוג (אופציונלי):"
+
+#: ../lib/widgets.php:656
+msgid "Number of images to show:"
+msgstr "מספר תמונות להצגה:"
+
+#: ../lib/widgets.php:684
+msgid "This allows for an image and a simple about text."
+msgstr "זה מאפשר תמונה ותיאור טקסט פשוט"
+
+#: ../lib/widgets.php:685
+#, fuzzy
+msgid "Virtue: Image"
+msgstr "Virtue: תצוגת רשת תמונות"
+
+#: ../lib/widgets.php:734
+#, fuzzy
+msgid "Lightbox"
+msgstr "ימני"
+
+#: ../lib/widgets.php:735
+msgid "New Window"
+msgstr ""
+
+#: ../lib/widgets.php:736
+msgid "Same Window"
+msgstr ""
+
+#: ../lib/widgets.php:737
+#, fuzzy
+msgid "No Link"
+msgstr "קישור אייקון"
+
+#: ../lib/widgets.php:749
+#, fuzzy
+msgid "Image URL"
+msgstr "תמונה"
+
+#: ../lib/widgets.php:751
+msgid "Upload"
+msgstr "העלה"
+
+#: ../lib/widgets.php:754
+#, fuzzy
+msgid "Image opens in"
+msgstr "אפשרויות שכפול תמונה"
+
+#: ../lib/widgets.php:758
+#, fuzzy
+msgid "Image Link (optional)"
+msgstr "אפשרויות שכפול תמונה"
+
+#: ../lib/widgets.php:762
+msgid "Text/Caption (optional)"
+msgstr ""
+
+#: ../page-blog.php:70 ../templates/home/blog-home.php:142
+#: ../templates/home/latest-slider.php:58
+#: ../templates/recentblog-carousel.php:71
+#: ../templates/similarblog-carousel.php:77
+msgid "Sorry, no blog entries found."
+msgstr "לא נמצאו רשומות בלוג."
+
+#: ../page-portfolio.php:132 ../templates/home/portfolio-carousel.php:86
+#: ../templates/recentportfolio-carousel.php:65
+msgid "Sorry, no portfolio entries found."
+msgstr "מצטערים, לא נמצאו רשומות פורטפוליו."
+
+#: ../searchform.php:2
+msgid "Search for:"
+msgstr "חפש את:"
+
+#: ../searchform.php:3
+msgid "Search"
+msgstr "חיפוש"
+
+#: ../templates/account-sidebar.php:18
+#, fuzzy
+msgid "Edit Account"
+msgstr "החשבון שלי"
+
+#: ../templates/account-sidebar.php:21
+#, fuzzy
+msgid "Logout"
+msgstr "לוגו"
+
+#: ../templates/comment.php:7
+msgid "(Edit)"
+msgstr "(ערוך)"
+
+#: ../templates/comments.php:8
+#, php-format
+msgid "One Response "
+msgid_plural "%1$s Responses "
+msgstr[0] "תגובה אחת"
+msgstr[1] "%1$s תגובות"
+
+#: ../templates/comments.php:18
+msgid "&larr; Older comments"
+msgstr "&larr; תגובות קודמות"
+
+#: ../templates/comments.php:21
+msgid "Newer comments &rarr;"
+msgstr "תגובות חדשות יותר &rarr;"
+
+#: ../templates/comments.php:31 ../templates/comments.php:43
+msgid "Comments are closed."
+msgstr "תגובות סגורות."
+
+#: ../templates/comments.php:52
+msgid "Name"
+msgstr "שם"
+
+#: ../templates/comments.php:54
+msgid "Email (will not be published)"
+msgstr "אימייל (לא יפורסם)"
+
+#: ../templates/comments.php:56
+msgid "Website"
+msgstr "אתר"
+
+#: ../templates/comments.php:60
+msgid "Comment"
+msgstr "תגובה"
+
+#: ../templates/comments.php:67 ../templates/content-fullpost.php:85
+#: ../templates/content-fullpostfull.php:86
+msgid "Leave a Reply"
+msgstr "השאר תגובה"
+
+#: ../templates/comments.php:68
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "השאר תגובה ל %s"
+
+#: ../templates/comments.php:69
+msgid "Submit Comment"
+msgstr "שלח תגובה"
+
+#: ../templates/content-fullpost.php:80
+#: ../templates/content-fullpostfull.php:81 ../templates/content-single.php:108
+#: ../templates/content-singleportfolio.php:186
+msgid "Pages:"
+msgstr "דפים:"
+
+#: ../templates/content-fullpost.php:86
+#: ../templates/content-fullpostfull.php:87
+msgid "1 Comment"
+msgstr ""
+
+#: ../templates/content-fullpost.php:87
+#: ../templates/content-fullpostfull.php:88
+msgid "% Comments"
+msgstr ""
+
+#: ../templates/content-fullpost.php:89
+#: ../templates/content-fullpostfull.php:90
+msgid "Comments are Closed"
+msgstr ""
+
+#: ../templates/entry-meta-subhead.php:3
+msgid "by"
+msgstr "על ידי"
+
+#: ../templates/entry-meta-subhead.php:5
+msgid "posted in:"
+msgstr "פורסם ב:"
+
+#: ../templates/entry-meta.php:2
+msgid "By"
+msgstr "על ידי"
+
+#: ../templates/header.php:55
+msgid "Menu"
+msgstr "תפריט"
+
+#: ../templates/home/blog-home.php:15
+msgid "Latest from the Blog"
+msgstr "לאחרונה מהבלוג"
+
+#: ../templates/home/blog-home.php:132
+msgid "READ MORE"
+msgstr "קרא עוד"
+
+#: ../templates/home/portfolio-carousel.php:6
+msgid "Featured Projects"
+msgstr "פרויקטים מפורסמים"
+
+#: ../templates/recentportfolio-carousel.php:7
+msgid "Recent Projects"
+msgstr "פרויקטים אחרונים"
+
+#: ../templates/similarblog-carousel.php:7
+msgid "Similar Posts"
+msgstr "פוסטים דומים"
+
+#: ../themeoptions/core/enqueue.php:453
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr "יש לך שינויים שאינם שמורים. האם תרצה לשמור אותם כעת?"
+
+#: ../themeoptions/core/enqueue.php:461
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr "האם אתה בטוח? אתחול מחדש יגרום לאובדן כל הערכים שהותאמו אישית."
+
+#: ../themeoptions/core/enqueue.php:469
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr "האם אתה בטוח? אתחול מחדש יגרום לאובדן כל הערכים שהותאמו אישית בחלק זה."
+
+#: ../themeoptions/core/enqueue.php:477
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+"האפשרויות הנוכחיות שלך יוחלפו עם הערכים של שנקבעו מראש בPreset הזה. האם תרצה "
+"להמשיך?"
+
+#: ../themeoptions/core/enqueue.php:484
+msgid "Please Wait"
+msgstr "אנא המתן"
+
+#: ../themeoptions/core/enqueue.php:495
+msgid "There was an error saving. Here is the result of your action:"
+msgstr ""
+
+#: ../themeoptions/core/enqueue.php:496
+msgid ""
+"There was a problem with your action. Please try again or reload the page."
+msgstr ""
+
+#: ../themeoptions/core/panel.php:65
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr "אזהרה- לוח בקרת האפשרויות הזה לא יפעל כראוי ללא javascript!"
+
+#: ../themeoptions/core/panel.php:141
+msgid "Settings Imported!"
+msgstr "הגדרות יובאו!"
+
+#: ../themeoptions/core/panel.php:156
+msgid "All Defaults Restored!"
+msgstr "כל ברירות המחדל שוחזרו!"
+
+#: ../themeoptions/core/panel.php:170
+msgid "Section Defaults Restored!"
+msgstr "ברירות המחדל של חלק זה שוחזרו!"
+
+#: ../themeoptions/core/panel.php:184
+msgid "Settings Saved!"
+msgstr "הגדרות נשמרו!"
+
+#: ../themeoptions/core/panel.php:204
+msgid "Settings have changed, you should save them!"
+msgstr "ההגדרות השתנו, אתה צריך לשמור אותן!"
+
+#: ../themeoptions/core/panel.php:212
+msgid "error(s) were found!"
+msgstr "נמצאה/ו שגיאה/ות!"
+
+#: ../themeoptions/core/panel.php:220
+msgid "warning(s) were found!"
+msgstr "מצאה/ו אזהר/ות!"
+
+#: ../themeoptions/core/panel.php:312
+msgid ""
+"<strong>Your panel has bundled outdated copies of Redux Framework template "
+"files</strong> &#8211; if you encounter functionality issues this could be "
+"the reason. Ensure you update or remove them."
+msgstr ""
+
+#: ../themeoptions/framework.php:228
+#, php-format
+msgid "Options panel created using %1$s"
+msgstr "לוח בקרת אפשרויות נוצר באמצעות %1$s"
+
+#: ../themeoptions/framework.php:228
+msgid "Redux Framework"
+msgstr "Redux Framework"
+
+#: ../themeoptions/framework.php:232 ../themeoptions/framework.php:236
+msgid "Options"
+msgstr "אפשרויות"
+
+#: ../themeoptions/framework.php:1673
+msgid "Enable"
+msgstr ""
+
+#: ../themeoptions/framework.php:1678
+msgid "Disable"
+msgstr ""
+
+#: ../themeoptions/framework.php:1684
+msgid "moving the mouse over"
+msgstr ""
+
+#: ../themeoptions/framework.php:1686
+msgid "clicking"
+msgstr ""
+
+#: ../themeoptions/framework.php:1690
+#, php-format
+msgid ""
+"Hints are tooltips that popup when %d the hint icon, offering addition "
+"information about the field in which they appear.  They can be %d d by using "
+"the link below."
+msgstr ""
+
+#: ../themeoptions/framework.php:1695
+msgid "Hints"
+msgstr "רמזים"
+
+#: ../themeoptions/framework.php:2702
+msgid "Invalid security credential.  Please reload the page and try again."
+msgstr ""
+
+#: ../themeoptions/framework.php:2711
+msgid "Invalid user capability.  Please reload the page and try again."
+msgstr ""
+
+#: ../themeoptions/framework.php:2787
+msgid "Your panel has no fields. Nothing to save."
+msgstr ""
+
+#: ../themeoptions/framework.php:3880
+msgid ""
+"<strong>Redux Framework Notice: </strong>There are references to the Redux "
+"Framework support site in your config's <code>admin_bar_links</code> "
+"argument.  This is sample data.  Please change or remove this data before "
+"shipping your product."
+msgstr ""
+
+#: ../themeoptions/framework.php:3895
+msgid ""
+"<strong>Redux Framework Notice: </strong>There are references to the Redux "
+"Framework support site in your config's <code>share_icons</code> argument.  "
+"This is sample data.  Please change or remove this data before shipping your "
+"product."
+msgstr ""
+
+#: ../themeoptions/options.php:28 ../themeoptions/options.php:29
+msgid "Theme Options"
+msgstr "אפשרויות עיצוב נושא"
+
+#: ../themeoptions/options.php:53
+msgid ""
+"Thank you for using the Virtue Theme by <a href=\"http://kadencethemes.com/"
+"\" target=\"_blank\">Kadence Themes</a>."
+msgstr ""
+"תודה לך שבחרת בעיצוב נושא Virtue על ידי <a href=\"http://kadencethemes.com/"
+"\" target=\"_blank\">Kadence Themes</a>"
+
+#: ../themeoptions/options.php:105
+msgid "Main Settings"
+msgstr "הגדרות ראשיות"
+
+#: ../themeoptions/options.php:108
+msgid "Welcome to Virtue Theme Options"
+msgstr "ברוך הבא לאפשרויות Virtue Theme"
+
+#: ../themeoptions/options.php:109
+msgid "This theme was developed by"
+msgstr "עיצוב נושא זה פותח על ידי"
+
+#: ../themeoptions/options.php:110
+msgid "For theme documentation visit"
+msgstr "לתיעוד עיצוב הנושא בקר ב"
+
+#: ../themeoptions/options.php:112
+msgid "For support please visit"
+msgstr "לתמיכה אנא בקר ב"
+
+#: ../themeoptions/options.php:122
+msgid "Site Layout Style"
+msgstr "סגנון מתאר האתר"
+
+#: ../themeoptions/options.php:123
+msgid "Select Boxed or Wide Site Layout Style"
+msgstr "בחר סגנון מתאר לאתר של תיבה או רחב"
+
+#: ../themeoptions/options.php:135
+msgid "Footer Widget Layout"
+msgstr "מתאר ווידג'ט תחתון"
+
+#: ../themeoptions/options.php:136
+msgid "Select how many columns for footer widgets"
+msgstr "בחר כמה טורים עבור ווידג'טים בתחתית"
+
+#: ../themeoptions/options.php:148
+msgid "Logo Options"
+msgstr "אפשרויות לוגו"
+
+#: ../themeoptions/options.php:155
+msgid "Logo Layout"
+msgstr "מתאר לוגו"
+
+#: ../themeoptions/options.php:156
+msgid "Choose how you want your logo to be laid out"
+msgstr "בחר מתאר להצגת הלוגו שלך"
+
+#: ../themeoptions/options.php:169
+msgid "Logo"
+msgstr "לוגו"
+
+#: ../themeoptions/options.php:170
+msgid "Upload your Logo. If left blank theme will use site name."
+msgstr "העלה את הלוגו שלך. אם יושאר ריק, נושא העיצוב ישתמש בשם האתר."
+
+#: ../themeoptions/options.php:177
+msgid "Upload Your @2x Logo for Retina Screens"
+msgstr "העלה לוגו בגודל כפול עבור מסכי רטינה"
+
+#: ../themeoptions/options.php:179
+msgid "Should be twice the pixel size of your normal logo."
+msgstr "צריך להיות בגודל פיקסל פי 2 מהלוגו הרגיל שלך."
+
+#: ../themeoptions/options.php:184
+msgid "Sitename Logo Font"
+msgstr "פונט ללוגו של שם האתר"
+
+#: ../themeoptions/options.php:200
+msgid "Choose size and style your sitename, if you don't use an image logo."
+msgstr "בחר גודל וסגנון לשם האתר, אם אתה לא משתמש בתמונת לוגו."
+
+#: ../themeoptions/options.php:212
+msgid "Site Tagline - Below Logo"
+msgstr ""
+
+#: ../themeoptions/options.php:213
+msgid "An optional line of text below your logo"
+msgstr "שורת טקסט אופציונלית מתחת ללוגו שלך"
+
+#: ../themeoptions/options.php:221
+msgid "Site Tagline Font"
+msgstr "פונט לסלוגן האתר"
+
+#: ../themeoptions/options.php:235
+msgid "Choose size and style your site tagline"
+msgstr "בחר גודל ועיצוב לסלוגן האתר שלך"
+
+#: ../themeoptions/options.php:246 ../themeoptions/options.php:257
+#: ../themeoptions/options.php:268 ../themeoptions/options.php:279
+msgid "Logo Spacing"
+msgstr "מרווח לוגו"
+
+#: ../themeoptions/options.php:247 ../themeoptions/options.php:291
+msgid "Top Spacing"
+msgstr "מרווח עליון"
+
+#: ../themeoptions/options.php:258 ../themeoptions/options.php:302
+msgid "Bottom Spacing"
+msgstr "מרווח תחתון"
+
+#: ../themeoptions/options.php:269
+msgid "Left Spacing"
+msgstr "מרווח משמאל"
+
+#: ../themeoptions/options.php:280
+msgid "Right Spacing"
+msgstr "מרווח מימין"
+
+#: ../themeoptions/options.php:290 ../themeoptions/options.php:301
+msgid "Primary Menu Spacing"
+msgstr "מרווח תפריט ראשי"
+
+#: ../themeoptions/options.php:314
+msgid "Sitewide Banner"
+msgstr "באנר לכלל האתר"
+
+#: ../themeoptions/options.php:316
+msgid "Upload a banner for bottom of header."
+msgstr "העלה באנר לתחתית חלק עליון."
+
+#: ../themeoptions/options.php:325
+msgid "Topbar Settings"
+msgstr "הגדרות סרגל חלק עליון"
+
+#: ../themeoptions/options.php:331
+msgid "Use Topbar?"
+msgstr "השתמש בסרגל חלק עליון?"
+
+#: ../themeoptions/options.php:332
+msgid "Choose to show or hide topbar"
+msgstr "בחר להראות או להסתיר סרגל חלק עליון"
+
+#: ../themeoptions/options.php:339
+msgid "Use Topbar Icon Menu?"
+msgstr "השתמש בתפריט אייקונים של סרגל חלק עליון?"
+
+#: ../themeoptions/options.php:340
+msgid "Choose to show or hide topbar icon Menu"
+msgstr "בחר להראות או להסתיר תפריט אייקונים של סרגל חלק עליון"
+
+#: ../themeoptions/options.php:347
+msgid "Topbar Icon Menu"
+msgstr "תפריט אייקונים של סרגל חלק עליון"
+
+#: ../themeoptions/options.php:348
+msgid "Choose your icons for the topbar icon menu."
+msgstr "בחר את האייקונים שלך עבור תפריט האייקונים של סרגל חלק עליון."
+
+#: ../themeoptions/options.php:355
+msgid "Show Cart total in topbar?"
+msgstr "הראה סכום עגלת קניות בסרגל חלק עליון?"
+
+#: ../themeoptions/options.php:356
+msgid "This only works if using woocommerce"
+msgstr "זה עובד רק אם משתמשים ב- Woocommerce"
+
+#: ../themeoptions/options.php:363
+msgid "Display Search in Topbar?"
+msgstr "הצג חיפוש בסרגל חלק עליון?"
+
+#: ../themeoptions/options.php:364
+msgid "Choose to show or hide search in topbar"
+msgstr "בחר אם להראות או להסתיר חיפוש בסרגל חלק עליון"
+
+#: ../themeoptions/options.php:371
+msgid "Enable widget area in right of Topbar?"
+msgstr "אפשר אזור ווידג'טים בחלק הימני של סרגל חלק עליון?"
+
+#: ../themeoptions/options.php:372
+msgid ""
+"Note this will hide remove search (you can re-enable it by adding it to the "
+"widget area)"
+msgstr ""
+
+#: ../themeoptions/options.php:379
+msgid "Topbar Layout Switch"
+msgstr "מתג מתאר סרגל חלק עליון"
+
+#: ../themeoptions/options.php:380
+msgid "This moves the left items to the right and right items to the left."
+msgstr "זה מזיז את הפריטים משמאל לימין ואת הפריטים מימין לשמאל."
+
+#: ../themeoptions/options.php:390
+msgid "Home Slider Settings"
+msgstr ""
+
+#: ../themeoptions/options.php:391
+msgid "Home Page Slider Options"
+msgstr "אפשרויות סליידר דף הבית"
+
+#: ../themeoptions/options.php:397
+msgid ""
+"*NOTE: Make sure Virtue/Pinnacle Toolkit plugin is activated* <br>Go to "
+"Apperance > Theme Options > Home Slider for all Home slider settings"
+msgstr ""
+
+#: ../themeoptions/options.php:402
+msgid "Choose a Home Image Slider"
+msgstr "בחר סליידר לדף הבית"
+
+#: ../themeoptions/options.php:403
+msgid "If you don't want an image slider on your home page choose none."
+msgstr "אם אתה לא רוצה סליידר תמונה על דף הבית שלך בחר כלום."
+
+#: ../themeoptions/options.php:414 ../themeoptions/options.php:530
+msgid "Slider Images"
+msgstr "תמונות סליידר"
+
+#: ../themeoptions/options.php:415 ../themeoptions/options.php:531
+msgid "Use large images for best results."
+msgstr "בחר תמונות גדולות לתוצאות הטובות ביותר."
+
+#: ../themeoptions/options.php:421 ../themeoptions/options.php:539
+msgid "Slider Max Height"
+msgstr "גובה מקסימלי לסליידר."
+
+#: ../themeoptions/options.php:422 ../themeoptions/options.php:433
+#: ../themeoptions/options.php:540 ../themeoptions/options.php:552
+msgid "Note: does not work if images are smaller than max."
+msgstr "שים לב: לא עובד אם התמונות יותר קטנות ממקסימום."
+
+#: ../themeoptions/options.php:432 ../themeoptions/options.php:551
+msgid "Slider Max Width"
+msgstr "רוחב מקסימלי של הסליידר"
+
+#: ../themeoptions/options.php:443 ../themeoptions/options.php:563
+msgid "Auto Play?"
+msgstr "הפעל אוטומטית?"
+
+#: ../themeoptions/options.php:444 ../themeoptions/options.php:564
+msgid "This determines if a slider automatically scrolls"
+msgstr "זה קובע אם הסליידר יגלול אוטומטית"
+
+#: ../themeoptions/options.php:451 ../themeoptions/options.php:572
+msgid "Slider Pause Time"
+msgstr "זמן המתנה של הסליידר"
+
+#: ../themeoptions/options.php:452 ../themeoptions/options.php:573
+msgid "How long to pause on each slide, in milliseconds."
+msgstr "כמה זמן להמתין על כל שקופית, במילישניות."
+
+#: ../themeoptions/options.php:462 ../themeoptions/options.php:584
+msgid "Transition Type"
+msgstr "סוג מעבר"
+
+#: ../themeoptions/options.php:463 ../themeoptions/options.php:585
+msgid "Choose a transition type"
+msgstr "בחר סוג מעבר"
+
+#: ../themeoptions/options.php:471 ../themeoptions/options.php:594
+msgid "Slider Transition Time"
+msgstr "זמן מעבר של הסליידר"
+
+#: ../themeoptions/options.php:472 ../themeoptions/options.php:595
+msgid "How long for slide transitions, in milliseconds."
+msgstr "כמה זמן למעבר בין שקופיות, במילישניות."
+
+#: ../themeoptions/options.php:482 ../themeoptions/options.php:606
+msgid "Show Captions?"
+msgstr "הראה כתוביות"
+
+#: ../themeoptions/options.php:483 ../themeoptions/options.php:607
+msgid "Choose to show or hide captions"
+msgstr "בחר להראות או להסתיר כתוביות"
+
+#: ../themeoptions/options.php:491 ../themeoptions/options.php:615
+msgid "Video Embed Code"
+msgstr "קוד הטמעת וידאו"
+
+#: ../themeoptions/options.php:492 ../themeoptions/options.php:616
+msgid "If your using a video on the home page place video embed code here."
+msgstr "אם אתה משתמש בוידאו על דף הבית מקם את קוד הטמעת הוידאו כאן."
+
+#: ../themeoptions/options.php:503
+msgid "Home Mobile Slider"
+msgstr ""
+
+#: ../themeoptions/options.php:504
+msgid "Create a more lightweight home slider for your mobile visitors."
+msgstr "צור סליידר דף בית יותר קל משקל עבור הגולשים שלך ממכשירים ניידים."
+
+#: ../themeoptions/options.php:510
+msgid "Would you like to use this feature?"
+msgstr "האם תרצה להשתמש בפיצ'ר הזה?"
+
+#: ../themeoptions/options.php:511
+msgid ""
+"Choose if you would like to show a different slider on your home page for "
+"your mobile visitors."
+msgstr ""
+"בחר אם תרצה להציג סליידר שונה על דף הבית שלך עבור גולשים ממכשירים ניידים."
+
+#: ../themeoptions/options.php:518
+msgid "Choose a Slider for Mobile"
+msgstr "בחר סליידר עבור מכשירים ניידים."
+
+#: ../themeoptions/options.php:519
+msgid "Choose which slider you would like to show for mobile viewers."
+msgstr "בחר איזה סליידר תרצה להציג לגולשים ממכשירים ניידים."
+
+#: ../themeoptions/options.php:627
+msgid "Home Layout"
+msgstr "מתאר דף הבית"
+
+#: ../themeoptions/options.php:635
+msgid "Display a sidebar on the Home Page?"
+msgstr "הצג סרגל צדדי על דף הבית?"
+
+#: ../themeoptions/options.php:636
+msgid "This determines if there is a sidebar on the home page."
+msgstr "זה קובע אם יש סרגל צדדי על דף הבית."
+
+#: ../themeoptions/options.php:647
+msgid "Choose a Sidebar for your Home Page"
+msgstr "בחר סרגל צדדי עבור דף הבית שלך"
+
+#: ../themeoptions/options.php:658
+#, fuzzy
+msgid "Homepage Layout Manager"
+msgstr "מתאר דף הבית"
+
+#: ../themeoptions/options.php:659
+msgid "Organize how you want the layout to appear on the homepage"
+msgstr ""
+
+#: ../themeoptions/options.php:663
+msgid "Latest Blog Posts"
+msgstr "פוסטים אחרונים בבלוג"
+
+#: ../themeoptions/options.php:664
+msgid "Portfolio Carousel"
+msgstr "קרוסלת פורטפוליו"
+
+#: ../themeoptions/options.php:665 ../themeoptions/options.php:769
+msgid "Icon Menu"
+msgstr "תפריט אייקונים"
+
+#: ../themeoptions/options.php:668
+msgid "Page Title"
+msgstr "כותרת דף"
+
+#: ../themeoptions/options.php:669
+msgid "Page Content"
+msgstr "תוכן דף"
+
+#: ../themeoptions/options.php:678
+msgid "Home Blog Settings"
+msgstr "הגדרות בלוג הבית"
+
+#: ../themeoptions/options.php:684
+msgid "Home Blog Title"
+msgstr "כותרת בלוג הבית"
+
+#: ../themeoptions/options.php:685
+msgid "ex: Latest from the blog"
+msgstr "לדוגמא, לאחרונה מתוך הבלוג"
+
+#: ../themeoptions/options.php:691
+msgid "Choose How many posts on Homepage"
+msgstr "בחר כמה פוסטים מתוך דף הבית"
+
+#: ../themeoptions/options.php:703
+msgid "Limit posts to a Category"
+msgstr "הגבל פוסטים לקטגוריה"
+
+#: ../themeoptions/options.php:704
+msgid "Leave blank to select all"
+msgstr "השאר ריק כדי לבחור הכל"
+
+#: ../themeoptions/options.php:712
+msgid "Home Portfolio Carousel Settings"
+msgstr "הגדרות קרוסלת פורטפוליו הבית"
+
+#: ../themeoptions/options.php:718
+msgid "Home Portfolio Carousel title"
+msgstr "כותרת קרוסלת פורטפוליו הבית"
+
+#: ../themeoptions/options.php:719
+msgid "ex: Portfolio Carousel title"
+msgstr "לדוגמא, כותרת, קרוסלת פורטפוליו"
+
+#: ../themeoptions/options.php:727
+msgid "Portfolio Carousel Category Type"
+msgstr "סוג קטגוריית קרוסלת פורטפוליו"
+
+#: ../themeoptions/options.php:728
+msgid "Leave blank to select all types"
+msgstr "השאר ריק כדי לבחור את כל הסוגים"
+
+#: ../themeoptions/options.php:736
+msgid "Choose how many portfolio items are in carousel"
+msgstr "בחר כמה פריטי פורטפוליו לקרוסלה"
+
+#: ../themeoptions/options.php:746
+msgid "Portfolio Carousel Order by"
+msgstr "סדר קרוסלת פורטפוליו לפי"
+
+#: ../themeoptions/options.php:747
+msgid "Choose how the portfolio items should be ordered in the carousel."
+msgstr "בחר איך פריטי הפורטפוליו אמורים להיות מסודרים בקרוסלה."
+
+#: ../themeoptions/options.php:756
+msgid "Display Portfolio Types under Title"
+msgstr "הצג סוגי פורטפוליו מתחת לכותרת"
+
+#: ../themeoptions/options.php:763
+msgid "Home Icon Menu"
+msgstr "תפריט האייקונים של דף הבית"
+
+#: ../themeoptions/options.php:770
+msgid "Choose your icons for the icon menu."
+msgstr "בחר את האייקונים עבור תפריט האייקונים."
+
+#: ../themeoptions/options.php:777
+msgid "Choose how many columns in each row"
+msgstr "בחר כמה טורים בכל שורה"
+
+#: ../themeoptions/options.php:787
+msgid "Page Content Options"
+msgstr "אפשרויות תוכן דף"
+
+#: ../themeoptions/options.php:793
+msgid "Latest Post Display"
+msgstr "הצגת פוסט אחרון"
+
+#: ../themeoptions/options.php:794
+msgid ""
+"If Latest Post page is font page. Choose to show full post or post excerpt."
+msgstr "אם דף פוסט אחרון הוא דף פונטים. בחר להראות פוסט מלא או תקציר פוסט."
+
+#: ../themeoptions/options.php:804
+msgid ""
+"*NOTE: Make sure Virtue/Pinnacle Toolkit plugin is activated* <br>Go to "
+"Apperance > Theme Options > Home Layout for all home layout settings"
+msgstr ""
+
+#: ../themeoptions/options.php:814
+msgid "Shop Settings"
+msgstr "הגדרות חנות."
+
+#: ../themeoptions/options.php:815
+msgid "Shop Archive Page Settings (Woocommerce plugin required)"
+msgstr ""
+
+#: ../themeoptions/options.php:822
+msgid "Display the sidebar on shop archives?"
+msgstr "הצג סרגל צדדי על ארכיון החנות?"
+
+#: ../themeoptions/options.php:823
+msgid "This determines if there is a sidebar on the shop and category pages."
+msgstr "זה קובע אם יש סרגל צדדי על דפי החנות והקטגוריות."
+
+#: ../themeoptions/options.php:833
+msgid "Choose a Sidebar for your shop page"
+msgstr "צור סרגל צדדי לדף החנות שלך"
+
+#: ../themeoptions/options.php:843
+msgid "How many products per page"
+msgstr "כמה מוצרים לכל דף"
+
+#: ../themeoptions/options.php:853
+msgid "Show Ratings in Shop and Category Pages"
+msgstr "הצג דירוגים בדפי החנות והקטגוריות"
+
+#: ../themeoptions/options.php:854
+msgid "This determines if the rating is displayed in the product archive pages"
+msgstr "זה קובע אם הרייטינג בדפי ארכיון המוצרים"
+
+#: ../themeoptions/options.php:861
+msgid "Quantity Box plus and minus"
+msgstr ""
+
+#: ../themeoptions/options.php:862
+msgid ""
+"Turn this off if you would like to use browser added plus and minus for "
+"number boxes"
+msgstr ""
+
+#: ../themeoptions/options.php:869
+msgid "Shop Category Image Size"
+msgstr ""
+
+#: ../themeoptions/options.php:874
+msgid "Category Image Aspect Ratio"
+msgstr ""
+
+#: ../themeoptions/options.php:875
+msgid "This sets how you want your category images to be cropped."
+msgstr ""
+
+#: ../themeoptions/options.php:876
+msgid "Square 1:1"
+msgstr ""
+
+#: ../themeoptions/options.php:876
+msgid "Portrait 3:4"
+msgstr ""
+
+#: ../themeoptions/options.php:876
+msgid "Landscape 4:3"
+msgstr ""
+
+#: ../themeoptions/options.php:876
+msgid "Wide Landscape 4:2"
+msgstr ""
+
+#: ../themeoptions/options.php:876
+msgid "Turn Off"
+msgstr ""
+
+#: ../themeoptions/options.php:885
+msgid "Shop Product Title Settings"
+msgstr "הגדרות כותרת מוצר חנות"
+
+#: ../themeoptions/options.php:890
+msgid "Shop & archive Product title Font"
+msgstr "פונט כותרת של החנות וארכיון מוצרים"
+
+#: ../themeoptions/options.php:906
+msgid "Choose Size and Style for product titles on category and archive pages."
+msgstr "בחר את הגודל והסגנון לכותרות מוצרים בדפי קטגוריה וארכיון."
+
+#: ../themeoptions/options.php:918
+msgid "Set Product Title to Uppercase?"
+msgstr "הגדר כותרת מוצר כאותיות גדולות?"
+
+#: ../themeoptions/options.php:919
+msgid "This makes your product titles uppercase on Category pages"
+msgstr "זה יוצר כותרות מוצרים באותיות גדולות על דפי קטגוריה"
+
+#: ../themeoptions/options.php:925
+msgid "Product title Min Height"
+msgstr "גובה מינימום לכותרת מוצר"
+
+#: ../themeoptions/options.php:926
+msgid ""
+"If your titles are long increase this to help align your products height."
+msgstr "אם הכותרות ארוכות, הגדל את זה כדי לסייע ביישור גובה המוצרים שלך."
+
+#: ../themeoptions/options.php:937
+msgid "Product Image Sizes"
+msgstr "גדלי תמונות מוצרים"
+
+#: ../themeoptions/options.php:943
+msgid "Enable Product Image Crop on Catalog pages"
+msgstr "אפשר חיתוך תמונת מוצר על דפי קטלוג"
+
+#: ../themeoptions/options.php:944
+msgid ""
+"If turned off image dimensions are set by woocommerce settings - recommended "
+"width: 270px for Catalog Images"
+msgstr ""
+"אם מכובה, גדלי תמונה מוגדרים על ידי הגדרות Woocommerce- רוחב מומלץ: 270 "
+"פיקסלים לתמונות קטלוג"
+
+#: ../themeoptions/options.php:951
+msgid "Enable Product Image Crop on product Page"
+msgstr "אפשר חיתוך תמונת מוצר על דף מוצר"
+
+#: ../themeoptions/options.php:952
+msgid ""
+"If turned off image dimensions are set by woocommerce settings - recommended "
+"width: 468px for Single Product Image"
+msgstr ""
+"אם מכובה, מימדי התמונה נקבעים על ידי הגדרות Woocommerce - רוחב מומלץ 468 "
+"פיקסלים לתמונת מוצר יחיד"
+
+#: ../themeoptions/options.php:959
+msgid "Product Page Settings"
+msgstr "הגדרות דף מוצר"
+
+#: ../themeoptions/options.php:964
+msgid "Display product tabs?"
+msgstr "הצג לשוניות מוצר?"
+
+#: ../themeoptions/options.php:965
+msgid "This determines if product tabs are displayed"
+msgstr "זה קובע אם לשוניות מוצר מוצגות"
+
+#: ../themeoptions/options.php:974
+msgid "Display related products?"
+msgstr "הצג מוצרים קשורים?"
+
+#: ../themeoptions/options.php:975
+msgid "This determines related products are displayed"
+msgstr "זה קובע אם מוצרים קשורים מוצגים"
+
+#: ../themeoptions/options.php:985
+msgid "Basic Styling"
+msgstr "עיצוב בסיסי"
+
+#: ../themeoptions/options.php:986
+msgid "Basic Stylng"
+msgstr "עיצוב בסיסי"
+
+#: ../themeoptions/options.php:991
+msgid "Theme Skin Stylesheet"
+msgstr "Theme Skin Stylesheet"
+
+#: ../themeoptions/options.php:992
+msgid ""
+"Note* changes made in options panel will override this stylesheet. Example: "
+"Colors set in typography."
+msgstr ""
+"שים לב* שינויים שנעשו בלוח בקרת האפשרויות יעקפו את ה- Stylesheet הזה. "
+"לדוגמא: צבעים שהוגדרו ב- טיפוגרפיה."
+
+#: ../themeoptions/options.php:1002
+msgid "Primary Color"
+msgstr "צבע עיקרי"
+
+#: ../themeoptions/options.php:1003
+msgid "Choose the default Highlight color for your site."
+msgstr "בחר את צבע ה-Highlight לאתר שלך."
+
+#: ../themeoptions/options.php:1012
+msgid "20% lighter than Primary Color"
+msgstr "20% בהיר יותר מהצבע העיקרי"
+
+#: ../themeoptions/options.php:1013
+msgid "This is used for hover effects"
+msgstr "נעשה בזה שימוש לאפקט בעת ריחוף סמן עכבר"
+
+#: ../themeoptions/options.php:1022
+msgid "Sitewide Gray Fonts"
+msgstr "פונטים Gray של כלל האתר"
+
+#: ../themeoptions/options.php:1032
+msgid "Footer Font Color"
+msgstr "צבע פונט לתחתית"
+
+#: ../themeoptions/options.php:1046
+msgid "Advanced Styling"
+msgstr "עיצוב מתקדם"
+
+#: ../themeoptions/options.php:1047
+msgid "Main Content Background"
+msgstr "רקע תוכן מרכזי"
+
+#: ../themeoptions/options.php:1052
+msgid "Content Background Color"
+msgstr ""
+
+#: ../themeoptions/options.php:1062 ../themeoptions/options.php:1107
+#: ../themeoptions/options.php:1152 ../themeoptions/options.php:1197
+#: ../themeoptions/options.php:1242 ../themeoptions/options.php:1287
+#: ../themeoptions/options.php:1332
+msgid "Upload background image or texture"
+msgstr "העלה תמונת רקע או טקסטורה"
+
+#: ../themeoptions/options.php:1068 ../themeoptions/options.php:1113
+#: ../themeoptions/options.php:1158 ../themeoptions/options.php:1203
+#: ../themeoptions/options.php:1248 ../themeoptions/options.php:1293
+#: ../themeoptions/options.php:1338
+msgid "Image repeat options"
+msgstr "אפשרויות שכפול תמונה"
+
+#: ../themeoptions/options.php:1076 ../themeoptions/options.php:1121
+#: ../themeoptions/options.php:1166 ../themeoptions/options.php:1211
+#: ../themeoptions/options.php:1256 ../themeoptions/options.php:1301
+#: ../themeoptions/options.php:1346
+msgid "X image placement options"
+msgstr "אפשרויות מיקום תמונה על ציר X"
+
+#: ../themeoptions/options.php:1084 ../themeoptions/options.php:1129
+#: ../themeoptions/options.php:1174 ../themeoptions/options.php:1219
+#: ../themeoptions/options.php:1264 ../themeoptions/options.php:1309
+#: ../themeoptions/options.php:1354
+msgid "Y image placement options"
+msgstr "אפשרויות מיקום תמונה על ציר Y"
+
+#: ../themeoptions/options.php:1092
+msgid "Topbar Background"
+msgstr "רקע סרגל חלק עליון"
+
+#: ../themeoptions/options.php:1098
+msgid "Topbar Background Color"
+msgstr ""
+
+#: ../themeoptions/options.php:1137
+msgid "Header Background"
+msgstr "רקע חלק עליון"
+
+#: ../themeoptions/options.php:1142
+msgid "Header Background Color"
+msgstr ""
+
+#: ../themeoptions/options.php:1182
+msgid "Secondary Menu Background"
+msgstr "רקע תפריט משני"
+
+#: ../themeoptions/options.php:1187
+msgid "Secondary menu Background Color"
+msgstr ""
+
+#: ../themeoptions/options.php:1227
+msgid "Mobile Menu Background"
+msgstr "רקע תפריט למכשירים ניידים"
+
+#: ../themeoptions/options.php:1232
+msgid "Mobile Background Color"
+msgstr ""
+
+#: ../themeoptions/options.php:1272
+msgid "Footer Background"
+msgstr "רקע תחתית"
+
+#: ../themeoptions/options.php:1277
+msgid "Footer Background Color"
+msgstr ""
+
+#: ../themeoptions/options.php:1317
+msgid "Body Background"
+msgstr "רקע חלק גוף מרכזי"
+
+#: ../themeoptions/options.php:1322
+msgid "Body Background Color"
+msgstr ""
+
+#: ../themeoptions/options.php:1362
+msgid "Fixed or Scroll"
+msgstr "קבוע או נגלל"
+
+#: ../themeoptions/options.php:1373
+msgid "Typography"
+msgstr "טיפוגרפיה"
+
+#: ../themeoptions/options.php:1374
+msgid "Header Font Options"
+msgstr "אפשרויות פונט חלק עליון"
+
+#: ../themeoptions/options.php:1380
+msgid ""
+"*NOTE: Make sure Virtue/Pinnacle Toolkit plugin is activated* <br>Go to "
+"Apperance > Theme Options > Typography settings for all Typography settings"
+msgstr ""
+
+#: ../themeoptions/options.php:1385
+msgid "H1 Headings"
+msgstr "כותרות H1"
+
+#: ../themeoptions/options.php:1401
+msgid "Choose Size and Style for h1 (This Styles Your Page Titles)"
+msgstr "בחר צבע וסגנון עבור h1 (זה מעצב את כותרות הדף שלך)"
+
+#: ../themeoptions/options.php:1412
+msgid "H2 Headings"
+msgstr "כותרות H2"
+
+#: ../themeoptions/options.php:1428
+msgid "Choose Size and Style for h2"
+msgstr "בחר צבע וסגנון עבור h2"
+
+#: ../themeoptions/options.php:1439
+msgid "H3 Headings"
+msgstr "כותרות H3"
+
+#: ../themeoptions/options.php:1455
+msgid "Choose Size and Style for h3"
+msgstr "בחר צבע וסגנון עבור h3"
+
+#: ../themeoptions/options.php:1466
+msgid "H4 Headings"
+msgstr "כותרות H4"
+
+#: ../themeoptions/options.php:1482
+msgid "Choose Size and Style for h4"
+msgstr "בחר צבע וסגנון עבור h4"
+
+#: ../themeoptions/options.php:1493
+msgid "H5 Headings"
+msgstr "כותרות H5"
+
+#: ../themeoptions/options.php:1509
+msgid "Choose Size and Style for h5"
+msgstr "בחר צבע וסגנון עבור h5"
+
+#: ../themeoptions/options.php:1521
+msgid "Body Font Options"
+msgstr "אפשרויות פונט גוף מרכזי"
+
+#: ../themeoptions/options.php:1526
+msgid "Body Font"
+msgstr "פונט גוף מרכזי"
+
+#: ../themeoptions/options.php:1542
+msgid "Choose Size and Style for paragraphs"
+msgstr "בחר גודל וסגנון עבור פסקאות"
+
+#: ../themeoptions/options.php:1557
+msgid "Menu Settings"
+msgstr "הגדרות תפריט"
+
+#: ../themeoptions/options.php:1558
+msgid "Primary Menu Options"
+msgstr "אפשרויות תפריט ראשי"
+
+#: ../themeoptions/options.php:1564
+msgid ""
+"*NOTE: Make sure Virtue/Pinnacle Toolkit plugin is activated* <br>Go to "
+"Apperance > Theme Options > Menu settings for all menu settings"
+msgstr ""
+
+#: ../themeoptions/options.php:1570
+msgid "Primary Menu Font"
+msgstr "פונט תפריט ראשי"
+
+#: ../themeoptions/options.php:1585
+msgid "Choose Size and Style for primary menu"
+msgstr "בחר גודל וסגנון לתפריט ראשי"
+
+#: ../themeoptions/options.php:1597
+msgid "Secondary Menu Options"
+msgstr "אפשרויות תפריט משני"
+
+#: ../themeoptions/options.php:1603
+msgid "Secondary Menu Font"
+msgstr "פונט תפריט משני"
+
+#: ../themeoptions/options.php:1618
+msgid "Choose Size and Style for secondary menu"
+msgstr "בחר גודל וסגנון לתפריט משני"
+
+#: ../themeoptions/options.php:1630
+msgid "Mobile Menu Options"
+msgstr "אפשרויות תפריט למכשירים ניידים"
+
+#: ../themeoptions/options.php:1636
+msgid "Submenu items collapse until opened"
+msgstr ""
+
+#: ../themeoptions/options.php:1643
+msgid "Mobile Menu Font"
+msgstr "פונט לתפריט למכשירים ניידים"
+
+#: ../themeoptions/options.php:1658
+msgid "Choose Size and Style for Mobile Menu"
+msgstr "בחר גודל וסגנון לתפריט למכשירים ניידים"
+
+#: ../themeoptions/options.php:1673
+msgid "Page/Post Settings"
+msgstr ""
+
+#: ../themeoptions/options.php:1674
+msgid "Page and Post Comment Settings"
+msgstr ""
+
+#: ../themeoptions/options.php:1680
+msgid "Show Comments Closed Text?"
+msgstr "הראה טקסט סגור של תגובות?"
+
+#: ../themeoptions/options.php:1681
+msgid "Choose to show or hide comments closed alert below posts."
+msgstr "בחר להציג או להסתיר אתרעה סגורה על תגובות מתחת לפוסטים."
+
+#: ../themeoptions/options.php:1688
+msgid "Allow Comments on Pages"
+msgstr ""
+
+#: ../themeoptions/options.php:1689
+msgid "Turn on to allow comments on pages"
+msgstr ""
+
+#: ../themeoptions/options.php:1696
+msgid "Allow Comments on Portfolio Posts"
+msgstr "אפשר תגובות על פוסטים של פורטפוליו"
+
+#: ../themeoptions/options.php:1697
+msgid "Turn on to allow comments on Portfolio posts"
+msgstr ""
+
+#: ../themeoptions/options.php:1704
+msgid "Portfolio Post"
+msgstr ""
+
+#: ../themeoptions/options.php:1712
+msgid "All Projects Portfolio Page"
+msgstr "דף פורטפוליו לכל הפרויקטים"
+
+#: ../themeoptions/options.php:1713
+msgid ""
+"This sets the link in every single portfolio page. *note: You still have to "
+"set the page template to portfolio."
+msgstr ""
+"זה קובע את הקישור בכל דף פורטפוליו. *שים לב: אתה עדיין צריך לקבוע את ה-"
+"template של הדף למצב פורטפוליו."
+
+#: ../themeoptions/options.php:1719
+msgid "Portfolio Type Page Defaults"
+msgstr ""
+
+#: ../themeoptions/options.php:1725
+msgid "Portfolio Type - Post Columns"
+msgstr ""
+
+#: ../themeoptions/options.php:1726
+msgid "Choose how many columns for portfolio type pages"
+msgstr ""
+
+#: ../themeoptions/options.php:1735
+msgid "Show Types under Title"
+msgstr ""
+
+#: ../themeoptions/options.php:1736
+msgid "Choose to show or hide portfolio type under title."
+msgstr ""
+
+#: ../themeoptions/options.php:1743
+msgid "Blog Post Defaults"
+msgstr "ברירות מחדל לפוסט של הבלוג"
+
+#: ../themeoptions/options.php:1749
+msgid "Blog Post Summary Default"
+msgstr "ברירת מחדל לתקציר פוסט של הבלוג"
+
+#: ../themeoptions/options.php:1759
+msgid "Default post summary feature Image"
+msgstr ""
+
+#: ../themeoptions/options.php:1760
+msgid "Replace theme default feature image for posts without a featured image"
+msgstr ""
+
+#: ../themeoptions/options.php:1766
+msgid "Blog Post Head Content Default"
+msgstr "ברירת מחדל לראש תוכן של פוסט בבלוג"
+
+#: ../themeoptions/options.php:1775
+msgid "Show Previous and Next posts links?"
+msgstr "הראה קישורים לפוסטים קודמים והבאים?"
+
+#: ../themeoptions/options.php:1776
+msgid ""
+"Choose to show or hide previous and next post links in the footer of a "
+"single post."
+msgstr "בחר להציג או להסתיר קישורים לפוסטים קודמים והבאים בתחתית של פוסט יחיד."
+
+#: ../themeoptions/options.php:1783
+msgid "Show Author Icon with posts?"
+msgstr "הצג אייקון של הכותב עם פוסטים?"
+
+#: ../themeoptions/options.php:1784
+msgid "Choose to show or hide author icon under post title."
+msgstr "בחר להציג או להסתיר אייקון של הכותב מתחת לכותרת הפוסט."
+
+#: ../themeoptions/options.php:1791
+msgid "Blog Post Author Box Default"
+msgstr ""
+
+#: ../themeoptions/options.php:1792 ../themeoptions/options.php:1801
+msgid "No, Do not Show"
+msgstr ""
+
+#: ../themeoptions/options.php:1792
+msgid "Yes, Show"
+msgstr ""
+
+#: ../themeoptions/options.php:1800
+msgid "Blog Post Bottom Carousel Default"
+msgstr ""
+
+#: ../themeoptions/options.php:1809
+msgid "Blog Category/Archive Defaults"
+msgstr ""
+
+#: ../themeoptions/options.php:1815
+msgid "Blog Archive"
+msgstr "ארכיון בלוג"
+
+#: ../themeoptions/options.php:1816
+msgid "Choose to show full post or post excerpt."
+msgstr "בחר להראות פוסט מלא או תקציר פוסט."
+
+#: ../themeoptions/options.php:1828 ../themeoptions/options.php:1829
+msgid "Misc Settings"
+msgstr "הגדרות שונות"
+
+#: ../themeoptions/options.php:1835
+msgid "Hide Image Border"
+msgstr "הסתר גבולות תמונה"
+
+#: ../themeoptions/options.php:1836
+msgid "Choose to show or hide image border for images added in pages or posts"
+msgstr ""
+
+#: ../themeoptions/options.php:1844
+msgid ""
+"Custom Favicon, *Note depreciated. Use WordPress site icon in customizer."
+msgstr ""
+
+#: ../themeoptions/options.php:1845
+msgid ""
+"Upload a 16px x 16px png/gif/ico image that will represent your website "
+"favicon."
+msgstr ""
+"העלה תמונה בגודל 16X16 פיקסלים בפורמט png/gif/ico שתציג את ה-Favicon של האתר "
+"שלך."
+
+#: ../themeoptions/options.php:1851
+msgid "Contact Form Email"
+msgstr "אימייל טופס יצירת קשר"
+
+#: ../themeoptions/options.php:1852
+msgid "Sets the email for the contact page email form."
+msgstr "מגדיר את האימייל אליו יישלח טופס יצירת קשר במייל."
+
+#: ../themeoptions/options.php:1859
+msgid "Footer Copyright Text"
+msgstr "טקסט זכויות יוצרים לחלק תחתון"
+
+#: ../themeoptions/options.php:1860
+msgid ""
+"Write your own copyright text here. You can use the following shortcodes in "
+"your footer text: [copyright] [site-name] [the-year]"
+msgstr ""
+"כתוב את טקסט זכויות היוצרים שלך כאן. אתה יכול להשתמש ב- Shortcodes הבאים "
+"בטקסט עבור החלק התחתון: [copyright] [site-name] [the-year]"
+
+#: ../themeoptions/options.php:1867
+msgid "Create Sidebars"
+msgstr "צור סרגלי צד"
+
+#: ../themeoptions/options.php:1873
+msgid "Create Custom Sidebars"
+msgstr "צור סרגלי צד מותאמים"
+
+#: ../themeoptions/options.php:1874
+msgid "Type new sidebar name into textbox"
+msgstr "הקש את השם של סרגל הצד החדש שלך בתיבת הטקסט"
+
+#: ../themeoptions/options.php:1875
+msgid "Extra Sidebar"
+msgstr "סרגל צד נוסף"
+
+#: ../themeoptions/options.php:1881
+msgid "Wordpress Galleries"
+msgstr "גלריות וורדפרס"
+
+#: ../themeoptions/options.php:1887
+msgid "Enable Virtue Galleries to override Wordpress"
+msgstr "אפשר גלריות של Virtue כדי לעקוף את וורדפרס"
+
+#: ../themeoptions/options.php:1888
+msgid ""
+"Disable this if using a plugin to customize galleries, for example jetpack "
+"tiled gallery."
+msgstr ""
+"השבת זאת אם משתמשים בפלאגין כדי להתאים גלריות, לדוגמא גלריה מרושתת על ידי "
+"jetpack."
+
+#: ../themeoptions/options.php:1895
+msgid "Theme Lightbox"
+msgstr ""
+
+#: ../themeoptions/options.php:1900
+msgid "Lightbox Off"
+msgstr ""
+
+#: ../themeoptions/options.php:1901
+msgid "Lightbox On"
+msgstr ""
+
+#: ../themeoptions/options.php:1903
+msgid "Turn Off Theme Lightbox?"
+msgstr ""
+
+#: ../themeoptions/options.php:1913
+msgid "Advanced Settings"
+msgstr "הגדרות מתקדמות"
+
+#: ../themeoptions/options.php:1914
+msgid "Custom CSS Box"
+msgstr "תיבת CSS מותאמת"
+
+#: ../themeoptions/options.php:1920
+msgid "Custom CSS"
+msgstr "CSS מותאם"
+
+#: ../themeoptions/options.php:1921
+msgid "Quickly add some CSS to your theme by adding it to this block."
+msgstr "הוסף קצת CSS לנושא העיצוב שלך על ידי הוספתו לתיבה זו."
+
+#: ../themeoptions/options.php:1929
+msgid "Import / Export"
+msgstr "ייבוא/ייצוא"
+
+#: ../themeoptions/options.php:1930
+msgid "Import and Export your Theme Options from text or URL."
+msgstr ""
+
+#: ../themeoptions/templates/panel/footer.tpl.php:57
+#: ../themeoptions/templates/panel/header_stickybar.tpl.php:21
+msgid "Save Changes"
+msgstr "שמור שינויים"
+
+#: ../themeoptions/templates/panel/footer.tpl.php:61
+#: ../themeoptions/templates/panel/header_stickybar.tpl.php:25
+msgid "Reset Section"
+msgstr "אתחל מחדש חלק זה"
+
+#: ../themeoptions/templates/panel/footer.tpl.php:62
+#: ../themeoptions/templates/panel/header_stickybar.tpl.php:26
+msgid "Reset All"
+msgstr "אתחל מחדש הכל"
+
+#: ../themeoptions/templates/panel/footer.tpl.php:67
+#: ../themeoptions/templates/panel/header_stickybar.tpl.php:29
+msgid "Working..."
+msgstr "עובד..."
+
+#: ../themeoptions/templates/panel/header.tpl.php:11
+#: ../themeoptions/templates/panel/header.tpl.php:49
+msgid "Developer Mode Enabled"
+msgstr ""
+
+#: ../themeoptions/templates/panel/header.tpl.php:20
+msgid "WP_DEBUG is enabled"
+msgstr ""
+
+#: ../themeoptions/templates/panel/header.tpl.php:26
+msgid "you are working in a localhost environment"
+msgstr ""
+
+#: ../themeoptions/templates/panel/header.tpl.php:31
+msgid "and"
+msgstr ""
+
+#: ../themeoptions/templates/panel/header.tpl.php:34
+msgid "This has been automatically enabled because"
+msgstr ""
+
+#: ../themeoptions/templates/panel/header.tpl.php:36
+msgid ""
+"If you are not a developer, your theme/plugin author shipped with developer "
+"mode enabled. Contact them directly to fix it."
+msgstr ""
+
+#: ../themeoptions/templates/panel/header.tpl.php:58
+msgid "FORCED DEV MODE OFF ENABLED"
+msgstr ""
+
+#: ../themeoptions/templates/panel/header_stickybar.tpl.php:15
+msgid "Expand"
+msgstr "הרחב"
+
+#: ../woocommerce/loop/rating.php:21
+msgid "not rated"
+msgstr ""
+
+#: ../woocommerce/loop/sale-flash.php:16
+#: ../woocommerce/single-product/sale-flash.php:16
+msgid "Sale!"
+msgstr "מבצע!"
+
+#: ../woocommerce/single-product.php:27 ../woocommerce/single-product.php:29
+msgid "Back to"
+msgstr "חזור אל"
+
+#: ../woocommerce/single-product.php:29
+msgid "Shop"
+msgstr "חנות"
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:26
+msgid "This product is currently out of stock and unavailable."
+msgstr "המוצר הזה כרגע מחוץ למלאי ולא זמין."
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:38
+msgid "Clear selection"
+msgstr "נקה בחירה"
+
+#~ msgid "Something went wrong."
+#~ msgstr "משהו השתבש."
+
+#~ msgid "External Link"
+#~ msgstr "לינק חיצוני:"
+
+#~ msgid "Private Repository"
+#~ msgstr "מאגר פרטי"
+
+#~ msgid ""
+#~ "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+#~ "Dashboard\">Return to the Dashboard</a>"
+#~ msgstr ""
+#~ "אין פלאגינים להתקנה או הפעלה. <a href=\"%1$s\" title=\"חזור ללוח הבקרה"
+#~ "\">חזור ללוח הבקרה</a>"
+
+#~ msgid "Install package not available."
+#~ msgstr "חבילת התקנה לא זמינה."
+
+#~ msgid ""
+#~ "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+#~ msgstr "הורד חבילת התקנה מאת <span class=\"code\">%s</span>&#8230;"
+
+#~ msgid "Unpacking the package&#8230;"
+#~ msgstr "פותח את החבילה"
+
+#~ msgid "Installing the plugin&#8230;"
+#~ msgstr "מתקין את הפלאגין"
+
+#~ msgid "Plugin install failed."
+#~ msgstr "התקנת פלאגין נכשלה."
+
+#~ msgid "Plugin installed successfully."
+#~ msgstr "פלאגין הותקן בהצלחה."
+
+#~ msgid "Show Details"
+#~ msgstr "הצג פרטים"
+
+#~ msgid "Hide Details"
+#~ msgstr "הסתר פרטים"
+
+#~ msgid "%1$s installed successfully."
+#~ msgstr "%1$s הותקן בהצלחה"
+
+#~ msgid "Return to the Dashboard"
+#~ msgstr "חזור ללוח הבקרה"
+
+#~ msgid ""
+#~ "Sorry, no products matched your selection. Please choose a different "
+#~ "combination."
+#~ msgstr "מצטערים, אין מוצרים שתואמים את בחירתך. אנא בחר צירוף אחר."
+
+#~ msgid ""
+#~ "Sorry, this product is unavailable. Please choose a different combination."
+#~ msgstr "מצטערים, המוצר אינו זמין, אנא בחר צירוף אחר."
+
+#~ msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+#~ msgstr "אתה חייב להיות <a href=\"%s\">מחובר</a> כדי להגיב."
+
+#~ msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
+#~ msgstr "התחבר כ- <a href=\"%s/wp-admin/profile.php\">%s</a>."
+
+#~ msgid "Log out of this account"
+#~ msgstr "צא מחשבון זה"
+
+#~ msgid "Log out &raquo;"
+#~ msgstr "התנתק &raquo;"
+
+#~ msgid ""
+#~ "You have changes that are not saved.  Would you like to save them now?"
+#~ msgstr "יש לך שינויים שלא שמרת. האם תרצה לשמור אותם כעת?"
+
+#~ msgid "Are you sure?  Resetting will lose all custom values."
+#~ msgstr "אתה בטוח? אתחול מחדש יגרום לאיבוד כל הערכים המותאמים."
+
+#~ msgid ""
+#~ "Your current options will be replaced with the values of this preset.  "
+#~ "Would you like to proceed?"
+#~ msgstr ""
+#~ "האפשרויות הנוכחיות שלך יוחלפו עם הערכים של ה-Preset הזה. האם תרצה להמשיך?"
+
+#~ msgid "System Info"
+#~ msgstr "מידע מערכת"
+
+#~ msgid "Site Tagline - Below Logo\""
+#~ msgstr "סלוגן האתר - מתחת ללוגו\""
+
+#~ msgid "Slider Settings"
+#~ msgstr "הגדרות סליידר"
+
+#~ msgid "Mobile Slider"
+#~ msgstr "סליידר למכשירים ניידים"
+
+#~ msgid "Shop Archive Page Settings"
+#~ msgstr "הגדרות דף ארכיון חנות"
+
+#~ msgid "Custom Favicon"
+#~ msgstr "Favicon מותאם"
+
+#~ msgid ""
+#~ "To track your order please enter your Order ID in the box below and press "
+#~ "return. This was given to you on your receipt and in the confirmation "
+#~ "email you should have received."
+#~ msgstr ""
+#~ "על מנת לעקוב אחר הזמנתך אנא הכנס מספר מזהה להזמנה בתיבה למטה ולחץ Enter. "
+#~ "מזהה זה ניתן לך בקבלה שלך ובמייל האישור שהיית אמור לקבל."
+
+#~ msgid "Order ID"
+#~ msgstr "מזהה הזמנה"
+
+#~ msgid "Found in your order confirmation email."
+#~ msgstr "נמצא במייל האישור שלך."
+
+#~ msgid "Billing Email"
+#~ msgstr "מייל עבור נושאי גביה"
+
+#~ msgid "Email you used during checkout."
+#~ msgstr "האימייל שבו השתמשת בזמן תשלום בקופה."
+
+#~ msgid "Track"
+#~ msgstr "עקוב"
+
+#~ msgid "Choose an option"
+#~ msgstr "בחר אפשרות"
+
+#~ msgid "Rated %d out of 5"
+#~ msgstr "דורג %d מתוך 5"
+
+#~ msgid "out of 5"
+#~ msgstr "מתוך 5"
+
+#~ msgid "Your comment is awaiting approval"
+#~ msgstr "התגובה שלך ממתינה לאישור"
+
+#~ msgid "verified owner"
+#~ msgstr "בעלים מאומתים"
+
+#~ msgid "Please enter your name."
+#~ msgstr "אנא הכנס את שמך."
+
+#~ msgid "Please enter your email address."
+#~ msgstr "אנא הכנס את כתובת האימייל שלך."
+
+#~ msgid "You entered an invalid email address."
+#~ msgstr "הקשת כתובת אימייל שגויה."
+
+#~ msgid "Please enter a message."
+#~ msgstr "אנא הוסף הודעה."
+
+#~ msgid " Contact"
+#~ msgstr "צור קשר"
+
+#~ msgid "From "
+#~ msgstr "מאת:"
+
+#~ msgid "From"
+#~ msgstr "מאת:"
+
+#~ msgid "Thanks, your email was sent successfully."
+#~ msgstr "תודה, האימייל שלך נשלח בהצלחה."
+
+#~ msgid "Sorry, an error occured."
+#~ msgstr "מצטערים, אירעה תקלה."
+
+#~ msgid "Email: "
+#~ msgstr "אימייל:"
+
+#~ msgid "Message: "
+#~ msgstr "הודעה:"
+
+#~ msgid "Send Email"
+#~ msgstr "שלח אימייל:"
+
+#~ msgid "&larr; Older posts"
+#~ msgstr "פוסטים ישנים"
+
+#~ msgid "Newer posts &rarr;"
+#~ msgstr "פוסטים חדשים יותר"
+
+#~ msgid "Post Slider Images"
+#~ msgstr "פרסם תמונות סליידר"
+
+#~ msgid "Portfolio Slider Images"
+#~ msgstr "תמונות של סליידר פורטפוליו"
+
+#~ msgid "Feature Page Slider Images"
+#~ msgstr "תמונות של סליידר דף פיצ'ר"
+
+#~ msgid "Remove image"
+#~ msgstr "הסר תמונה"
+
+#~ msgid "Add images"
+#~ msgstr "הוסף תמונות"
+
+#~ msgid "Add Images to Gallery"
+#~ msgstr "הוסף תמונות לגלריה"
+
+#~ msgid "Add to gallery"
+#~ msgstr "הוסף לגלריה"
+
+#~ msgid "Post Video Box"
+#~ msgstr "תיבת פוסט וידאו"
+
+#~ msgid "If Video Post"
+#~ msgstr "אם וידאו פוסט"
+
+#~ msgid "Place Embed Code Here, works with youtube, vimeo..."
+#~ msgstr "הכנס קוד הטמעה כאן, עובד עם Youtube, Vimeo..."
+
+#~ msgid "Portfolio Post Options"
+#~ msgstr "אפשרויות פוסט של פורטפוליו"
+
+#~ msgid "Project Layout"
+#~ msgstr "מתאר הפרוייקט"
+
+#~ msgid "Beside"
+#~ msgstr "ליד"
+
+#~ msgid "Above"
+#~ msgstr "מעל"
+
+#~ msgid "Three Rows"
+#~ msgstr "3 שורות"
+
+#~ msgid "Project Options"
+#~ msgstr "אפשרויות פרויקט"
+
+#~ msgid "Carousel Slider"
+#~ msgstr "סליידר קרוסלה"
+
+#~ msgid "Default is: 450 <b>(Note: just input number, example: 350)</b>"
+#~ msgstr "ברירת המחדל היא 450: <b>(שים לב: פשוט הכנס מספר, לדוגמא: 350)</b>"
+
+#~ msgid ""
+#~ "Default is: 670 or 1140 on <b>above</b> or <b>three row</b> layouts "
+#~ "(Note: just input number, example: 650)</b>"
+#~ msgstr ""
+#~ "ברירת המחדל היא: 640 או 1140 על <b>מעל</b> או <b>שלוש שורות</b>מתארים "
+#~ "(שים לב: פשוט הכנס מספר, לדוגמא: 650)</b>"
+
+#~ msgid "Auto Play Slider?"
+#~ msgstr "הפעל אוטומטית סליידר?"
+
+#~ msgid "Value 01 Title"
+#~ msgstr "כותרת ערך 01"
+
+#~ msgid "ex. Project Type:"
+#~ msgstr "לדוגמא, סוג פרוייקט:"
+
+#~ msgid "Value 01 Description"
+#~ msgstr "תיאור ערך 01"
+
+#~ msgid "ex. Character Illustration"
+#~ msgstr "לדוגמא, איור תו"
+
+#~ msgid "Value 02 Title"
+#~ msgstr "כותרת ערך 2"
+
+#~ msgid "ex. Skills Needed:"
+#~ msgstr "לדוגמא, כישורים נדרשים:"
+
+#~ msgid "Value 02 Description"
+#~ msgstr "תיאור ערך 2"
+
+#~ msgid "ex. Photoshop, Illustrator"
+#~ msgstr "לדוגמא Photoshop, Illustrator"
+
+#~ msgid "Value 03 Title"
+#~ msgstr "כותרת ערך 03"
+
+#~ msgid "ex. Customer:"
+#~ msgstr "לדוגמא, לקוח:"
+
+#~ msgid "Value 03 Description"
+#~ msgstr "תיאור ערך 03:"
+
+#~ msgid "ex. Example Inc"
+#~ msgstr "לדוגמא, חברת דוגמא בע\"מ"
+
+#~ msgid "Value 04 Title"
+#~ msgstr "כותרת ערך 04"
+
+#~ msgid "ex. Project Year:"
+#~ msgstr "לדוגמא, שנת פרויקט:"
+
+#~ msgid "Value 04 Description"
+#~ msgstr "תיאור ערך 04"
+
+#~ msgid "ex. 2013"
+#~ msgstr "לדוגמא, 2013"
+
+#~ msgid "External Website"
+#~ msgstr "אתר חיצוני"
+
+#~ msgid "ex. Website:"
+#~ msgstr "לדוגמא, שם אתר:"
+
+#~ msgid "Website Address"
+#~ msgstr "כתובת אתר"
+
+#~ msgid "ex. http://www.example.com"
+#~ msgstr "לדוגמא, http://www.example.com"
+
+#~ msgid "If Video Project"
+#~ msgstr "אם פרויקט וידאו"
+
+#~ msgid "Similar Portfolio Item Carousel"
+#~ msgstr "קרוסלת פריט פורטפוליו דומה"
+
+#~ msgid "Display a carousel with similar portfolio items below project?"
+#~ msgstr "הצג קרוסלה עם פריטי פורטפוליו דומים מתחת לפרויקט?"
+
+#~ msgid "Yes - Display Recent Projects"
+#~ msgstr "כן - הצג פרויקטים אחרונים"
+
+#~ msgid "ex. Similar Projects"
+#~ msgstr "לדוגמא, פרויקטים דומים"
+
+#~ msgid "Portfolio Page Options"
+#~ msgstr "אפשרויות דף פורטפוליו"
+
+#~ msgid "Columns"
+#~ msgstr "טורים"
+
+#~ msgid "Four Column"
+#~ msgstr "ארבעה טורים"
+
+#~ msgid "Three Column"
+#~ msgstr "שלושה טורים"
+
+#~ msgid "Two Column"
+#~ msgstr "שני טורים"
+
+#~ msgid "Portfolio Work Types"
+#~ msgstr "סוגי עבודה בפורטפוליו"
+
+#~ msgid "Order Items By"
+#~ msgstr "סדר פריטים לפי"
+
+#~ msgid "Menu Order"
+#~ msgstr "סדר תפריט"
+
+#~ msgid "Title"
+#~ msgstr "כותרת"
+
+#~ msgid "Date"
+#~ msgstr "תאריך"
+
+#~ msgid "Random"
+#~ msgstr "אקראי"
+
+#~ msgid "Items per Page"
+#~ msgstr "פריטים לפי דף"
+
+#~ msgid "How many portfolio items per page"
+#~ msgstr "כמה פריטי פורטפוליו לכל דף"
+
+#~ msgid "Set image height"
+#~ msgstr "הכנס גובה תמונה"
+
+#~ msgid "Default is 1:1 ratio <b>(Note: just input number, example: 350)</b>"
+#~ msgstr "ברירת מחדל היא יחס 1:1 <b>(שים לב: פשוט הכנס מספר, לדוגמא:350)</b>"
+
+#~ msgid "Display Item Work Types"
+#~ msgstr "הצג סוגי עבודה של פריטים"
+
+#~ msgid "Display Item Excerpt"
+#~ msgstr "הצג תקציר פריט"
+
+#~ msgid "Add Lightbox link in the top right of each item"
+#~ msgstr "הוסף קישור Lightbox בחלק הימני העליון של כל פריט"
+
+#~ msgid "Feature Page Options"
+#~ msgstr "אפשרויות דף פיצ'ר"
+
+#~ msgid "Feature Options"
+#~ msgstr "אפשרויות פיצ'ר"
+
+#~ msgid "If image slider make sure images uploaded are at least 1140px wide."
+#~ msgstr "אם סליידר תמונות וודא שתמונות מועלות הן לפחות ברוחב 1140px."
+
+#~ msgid ""
+#~ "Default is: 1140 <b>(Note: just input number, example: 650, does not "
+#~ "apply to Carousel slider)</b>"
+#~ msgstr ""
+#~ "ברירת המחדל היא: 1140 <b>(שים לב: פשוט הכנס מספר, לדוגמא: 650, לא תקף "
+#~ "לסליידר קרוסלה)</b>"
+
+#~ msgid "Use Lightbox for Feature Image"
+#~ msgstr "השתמש בLightbox עבור תמונת פיצ'ר"
+
+#~ msgid ""
+#~ "If feature option is set to image, choose to use lightbox link with image."
+#~ msgstr ""
+#~ "אם אפשרות פיצ'ר מוגדרת כתמונה, בחר להשתמש בקישור Lightbox עם התמונה."
+
+#~ msgid "Contact Page Options"
+#~ msgstr "אפשרויות דף יצירת קשר"
+
+#~ msgid "Use Contact Form"
+#~ msgstr "השתמש בדף יצירת קשר"
+
+#~ msgid "Contact Form Title"
+#~ msgstr "כותרת טופס יצירת קשר"
+
+#~ msgid "ex. Send us an Email"
+#~ msgstr "לדוגמא, שלח לנו אימייל"
+
+#~ msgid "Use Map"
+#~ msgstr "השתמש במפה"
+
+#~ msgid "Address"
+#~ msgstr "כתובת"
+
+#~ msgid "Enter your Location"
+#~ msgstr "הכנס את מיקומך"
+
+#~ msgid "Map Type"
+#~ msgstr "סוג מפה"
+
+#~ msgid "ROADMAP"
+#~ msgstr "מפת דרכים"
+
+#~ msgid "HYBRID"
+#~ msgstr "היברידי"
+
+#~ msgid "TERRAIN"
+#~ msgstr "פני השטח"
+
+#~ msgid "SATELLITE"
+#~ msgstr "לויין"
+
+#~ msgid "Map Zoom Level"
+#~ msgstr "רמת זום למפה"
+
+#~ msgid "A good place to start is 15"
+#~ msgstr "מקום טוב להתחיל הוא 15"
+
+#~ msgid "1 (World View)"
+#~ msgstr "1 (תצוגה מנקודת מבט עולם)"
+
+#~ msgid "21 (Street View)"
+#~ msgstr "21 (תצוגה מנקודת מבט רחוב)"
+
+#~ msgid "Map Height"
+#~ msgstr "גובה מפה"
+
+#~ msgid "Default is 300"
+#~ msgstr "ברירת מחדל היא 300"
+
+#~ msgid " <span>*</span>"
+#~ msgstr " <span>*</span>"
+
+#~ msgid "Copy and Paste this code into the theme options import feature"
+#~ msgstr "העתק והדבק קוד זה לתוך פיצ'ר ייבוא אפשרויות של עיצוב הנושא (Theme)"
+
+#~ msgid "There are no previous options"
+#~ msgstr "אין אפשרויות קודמות"
+
+#~ msgid ""
+#~ "Note this will hide remove search (you can re-enable it my adding it to "
+#~ "the widget area)"
+#~ msgstr ""
+#~ "שים לב שזה יסתיר הסרת חיפוש (אתה יכול לאפשר אותו מחדש על ידי הוספתו לאזור "
+#~ "הוויג'טים)"
+
+#~ msgid "Background Color"
+#~ msgstr "צבע רקע"
+
+#~ msgid "Turn on to allow Comments on Portfolio posts"
+#~ msgstr "הפעל לאפשר תגובות על פוסטים של פורטפוליו"
+
+#~ msgid "Choose to show or hide image border"
+#~ msgstr "בחר להראות או להסתיר גבולות תמונה"
+
+#~ msgid "Theme Update Import"
+#~ msgstr "ייבוא עדכון לעיצוב נושא"
+
+#~ msgid ""
+#~ "If updating from version 1.5.6 or earlier use this script to update your "
+#~ "theme options."
+#~ msgstr "אם מעדכנים מגרסה 1.5.6 או מוקדם יותר "
+
+#~ msgid "Turn on and save to start script"
+#~ msgstr "הפעל ושמור כדי להפעיל סקריפט"
+
+#~ msgid "If using a child theme enter child theme folder"
+#~ msgstr "אם אתה משתמש ב- chile theme הכנס תיקייה של child theme"
+
+#, fuzzy
+#~ msgid "Icon"
+#~ msgstr "הוסף אייקון"
+
+#, fuzzy
+#~ msgid "New %s"
+#~ msgstr "חדש"
+
+#~ msgid "Upload Icon"
+#~ msgstr "העלה אייקון"
+
+#~ msgid "Select an Icon"
+#~ msgstr "בחר אייקון"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Description"
+#~ msgstr "תיאור"
+
+#~ msgid "Icon Link"
+#~ msgstr "קישור אייקון"
+
+#~ msgid "Open Link in New Tab/Window"
+#~ msgstr "פתח קישור בלשונית/חלון חדש"
+
+#~ msgid "Delete Icon"
+#~ msgstr "מחק אייקון"
+
+#~ msgid "Add Icon"
+#~ msgstr "הוסף אייקון"
+
+#, fuzzy
+#~ msgid "Slide"
+#~ msgstr "הוסף שקופית"
+
+#~ msgid "Slide Link"
+#~ msgstr "קישור שקופית"
+
+#~ msgid "Delete Slide"
+#~ msgstr "מחק שקופית"
+
+#, fuzzy
+#~ msgid "Add %s"
+#~ msgstr "הוסף תמונות"
+
+#~ msgid "Virtue: About with Image"
+#~ msgstr "Virtue: אודות עם תמונה"
+
+#~ msgid "Dismiss"
+#~ msgstr "סגור"
+
+#~ msgid "<p>"
+#~ msgstr "<p>"
+
+#~ msgid "%1$s License Key"
+#~ msgstr "מפתח רישיון %1$s"
+
+#~ msgid "Deactivate License"
+#~ msgstr "בטל רישיון"
+
+#~ msgid ""
+#~ "Updating this theme will lose any customizations you have made. 'Cancel' "
+#~ "to stop, 'OK' to update."
+#~ msgstr ""
+#~ "עדכון עיצוב הנושא הזה יגרום לאובדן כל ההתאמות שעשית. \"ביטול\" כדי לעצור, "
+#~ "\"אישור\" כדי לעדכן."
+
+#~ msgid "Not Activated"
+#~ msgstr "לא מופעל"
+
+#~ msgid "Deactivated"
+#~ msgstr "מנוטרל"
+
+#~ msgid "Valid"
+#~ msgstr "תקף"
+
+#~ msgid "License Status"
+#~ msgstr "מצב רישיון"
+
+#~ msgid "Verify License"
+#~ msgstr "וודא רישיון"
+
+#~ msgid "Activate License"
+#~ msgstr "הפעל רישיון"
+
+#~ msgid "Select an Option"
+#~ msgstr "בחר אפשרות"
+
+#~ msgid "Transparent"
+#~ msgstr "שקוף"
+
+#~ msgid "Background Repeat"
+#~ msgstr "חזור על רקע"
+
+#~ msgid "Background Clip"
+#~ msgstr "קליפ רקע"
+
+#~ msgid "Background Origin"
+#~ msgstr "מקור רקע"
+
+#~ msgid "Background Size"
+#~ msgstr "גודל רקע"
+
+#~ msgid "Background Attachment"
+#~ msgstr "נספח רקע"
+
+#~ msgid "Background Position"
+#~ msgstr "מיקום רקע"
+
+#~ msgid "No media selected"
+#~ msgstr "לא נבחרה מדיה"
+
+#~ msgid "Top"
+#~ msgstr "עליון"
+
+#~ msgid "Bottom"
+#~ msgstr "תחתון"
+
+#~ msgid "Left"
+#~ msgstr "שמאלי"
+
+#~ msgid "Border style"
+#~ msgstr "סגנון גבול"
+
+#~ msgid "To "
+#~ msgstr "אל"
+
+#~ msgid "Width"
+#~ msgstr "רוחב"
+
+#~ msgid "height"
+#~ msgstr "גובה"
+
+#~ msgid "Units"
+#~ msgstr "יחידות"
+
+#~ msgid "Add/Edit Gallery"
+#~ msgstr "הוסף/ערוך גלריה"
+
+#~ msgid "Clear Gallery"
+#~ msgstr "נקה גלריה"
+
+#~ msgid "Delete"
+#~ msgstr "מחק"
+
+#~ msgid "Add"
+#~ msgstr "הוסף"
+
+#~ msgid "Import / Export Options"
+#~ msgstr "אפשרויות ייבוא/ייצוא"
+
+#~ msgid "Import Options"
+#~ msgstr "ייבוא אפשרויות"
+
+#~ msgid "Import from file"
+#~ msgstr "ייבוא מקובץ"
+
+#~ msgid "Import from URL"
+#~ msgstr "ייבוא מכתובת URL"
+
+#~ msgid ""
+#~ "Input your backup file below and hit Import to restore your sites options "
+#~ "from a backup."
+#~ msgstr ""
+#~ "הכנס את קובץ הגיבוי שלך למטה ולחץ על \"ייבא\" כדי לשחזר את אפשרויות האתר "
+#~ "שלך מתוך גיבוי."
+
+#~ msgid ""
+#~ "Input the URL to another sites options set and hit Import to load the "
+#~ "options from that site."
+#~ msgstr ""
+#~ "הכנס את כתובת הURL לאפשרויות אתר אחרות ולחץ \"ייבא\" כדי לטעון את "
+#~ "האפשרויות מתוך האתר הזה."
+
+#~ msgid "Import"
+#~ msgstr "ייבא"
+
+#~ msgid ""
+#~ "WARNING! This will overwrite all existing option values, please proceed "
+#~ "with caution!"
+#~ msgstr "אזהרה! זה ידרוס את ערכי האפשרויות הקיימים, אנא המשך בזהירות!"
+
+#~ msgid "Export Options"
+#~ msgstr "אפשרויות ייצוא"
+
+#~ msgid ""
+#~ "Here you can copy/download your current option settings. Keep this safe "
+#~ "as you can use it as a backup should anything go wrong, or you can use it "
+#~ "to restore your settings on this site (or any other site)."
+#~ msgstr ""
+#~ "כאן אתה יכול להעתיק/להוריד את הגדרות האפשרויות הנוכחיות שלך. שמור על זה "
+#~ "היטב מאחר ואתה יכולה להשתמש בזה כגיבוי אם משהו ישתבש, או שאתה יכול להשתמש "
+#~ "בזה כדי לשחזר את ההגדרות שלך לאתר זה (או כל אתר אחר)."
+
+#~ msgid "Copy"
+#~ msgstr "העתק"
+
+#~ msgid "Copy Link"
+#~ msgstr "העתק קישור"
+
+#~ msgid "Regular"
+#~ msgstr "רגיל"
+
+#~ msgid "Hover"
+#~ msgstr "רחף"
+
+#~ msgid "Visited"
+#~ msgstr "ביקרו בו"
+
+#~ msgid "Add More"
+#~ msgstr "הוסף עוד"
+
+#~ msgid "Password"
+#~ msgstr "סיסמא"
+
+#~ msgid "Username"
+#~ msgstr "שם משתמש "
+
+#~ msgid "Select an item"
+#~ msgstr "בחר פריט"
+
+#~ msgid "No items of this type were found."
+#~ msgstr "לא נמצאו פריטים מסוג זה."
+
+#~ msgid "On"
+#~ msgstr "פעיל"
+
+#~ msgid "Off"
+#~ msgstr "כבוי"
+
+#~ msgid "Font family"
+#~ msgstr "משפחת פונטים"
+
+#~ msgid "Standard Fonts"
+#~ msgstr "פונטים סטנדרטיים"
+
+#~ msgid "Backup Font Family"
+#~ msgstr "גבה משפחת פונטים"
+
+#~ msgid "Font style"
+#~ msgstr "סגנון פונט"
+
+#~ msgid "Style"
+#~ msgstr "סגנון"
+
+#~ msgid "Font subsets"
+#~ msgstr "סטים משניים לפונט"
+
+#~ msgid "Subsets"
+#~ msgstr "סטים משניים"
+
+#~ msgid "Font script"
+#~ msgstr "סקריפט של פונט"
+
+#~ msgid "Text Align"
+#~ msgstr "יישור טקסט"
+
+#~ msgid "Text Transform"
+#~ msgstr "שינוי טקסט"
+
+#~ msgid "Size"
+#~ msgstr "גודל"
+
+#~ msgid "Height"
+#~ msgstr "גובה"
+
+#~ msgid "Word Spacing"
+#~ msgstr "מרווח מילים"
+
+#~ msgid "Letter Spacing"
+#~ msgstr "מרווח אותיות"
+
+#~ msgid "Font color"
+#~ msgstr "צבע פונט"
+
+#~ msgid "Google Webfonts"
+#~ msgstr "פונטים של גוגל לרשת"
+
+#~ msgid "This field must be a valid color value."
+#~ msgstr "שדה זה צריך להיות ערך צבע חוקי."
+
+#~ msgid ""
+#~ "You must provide a comma separated list of numerical values for this "
+#~ "option."
+#~ msgstr "עליך לספק רשימה של ערכים נומריים, מופרדים בפסיק, עבור אפשרות זאת."
+
+#~ msgid "This field must be a valid date."
+#~ msgstr "שדה זה צריך להיות תאריך חוקי."
+
+#~ msgid "You must provide a valid email for this option."
+#~ msgstr "עליך לספק אימייל חוקי עבור אפשרות זאת."
+
+#~ msgid ""
+#~ "You must not enter any HTML in this field, all HTML tags have been "
+#~ "removed."
+#~ msgstr "עליך לא להכניס כל HTML בשדה זה, כל תגיות ה-HTML הוסרו."
+
+#~ msgid ""
+#~ "You must not enter any special characters in this field, all special "
+#~ "characters have been removed."
+#~ msgstr ""
+#~ "עליך לא להכניס תווים מיוחדים כלשהם בשדה זה, כל התווים המיוחדים הוסרו."
+
+#~ msgid "This field cannot be empty. Please provide a value."
+#~ msgstr "שדה זה לא יכול להיות ריק. אנא הכנס ערך."
+
+#~ msgid "You must provide a numerical value for this option."
+#~ msgstr "עליך לספק ערך נומרי עבור אפשרות זאת."
+
+#~ msgid "You must provide a valid URL for this option."
+#~ msgstr "עליך לספק כתובת URL חוקית עבור אפשרות זאת."
+
+#~ msgid "%s review for %s"
+#~ msgid_plural "%s reviews for %s"
+#~ msgstr[0] "%s ביקורת עבור %s"
+#~ msgstr[1] "%s ביקורות עבור %s"
+
+#~ msgid "Reviews"
+#~ msgstr "ביקורות"
+
+#~ msgid "There are no reviews yet."
+#~ msgstr "אין עדיין ביקורות."
+
+#~ msgid "Add a review"
+#~ msgstr "הוסף ביקורת."
+
+#~ msgid "Be the first to review"
+#~ msgstr "היה הראשון לסקור לביקורת"
+
+#~ msgid "Email"
+#~ msgstr "אימייל"
+
+#~ msgid "Submit"
+#~ msgstr "שלח"
+
+#~ msgid "Your Rating"
+#~ msgstr "הדירוג שלך"
+
+#~ msgid "Rate&hellip;"
+#~ msgstr "דרג&hellip;"
+
+#~ msgid "Perfect"
+#~ msgstr "מושלם"
+
+#~ msgid "Good"
+#~ msgstr "טוב"
+
+#~ msgid "Average"
+#~ msgstr "ממוצע"
+
+#~ msgid "Not that bad"
+#~ msgstr "לא כל כך גרוע"
+
+#~ msgid "Very Poor"
+#~ msgstr "גרוע"
+
+#~ msgid "Your Review"
+#~ msgstr "הביקורת שלך"
+
+#~ msgid ""
+#~ "Only logged in customers who have purchased this product may leave a "
+#~ "review."
+#~ msgstr "רק לקוחות שנכנסו לחשבון ורכשו מוצר זה יכולים להשאיר ביקורת."
+
+#~ msgid "Cart Totals"
+#~ msgstr "סיכומי עגלת קניות"
+
+#~ msgid "Cart Subtotal"
+#~ msgstr "סיכום ביניים לעגלה"
+
+#~ msgid "Order Total"
+#~ msgstr "סיכום הזמנה"
+
+#~ msgid " (taxes estimated for %s)"
+#~ msgstr " (מיסים משוערים עבור %s)"
+
+#~ msgid ""
+#~ "Note: Shipping and taxes are estimated%s and will be updated during "
+#~ "checkout based on your billing and shipping information."
+#~ msgstr ""
+#~ "שים לב: עלויות משלוח ומיסים מוערכים %s ויעודכנו במהלך התשלום בקופה על "
+#~ "בסיס המידע שסיפקת למשלוח וגבייה."
+
+#~ msgid "Product"
+#~ msgstr "מוצר"
+
+#~ msgid "Price"
+#~ msgstr "מחיר"
+
+#~ msgid "Quantity"
+#~ msgstr "כמות"
+
+#~ msgid "Total"
+#~ msgstr "סך הכל"
+
+#~ msgid "Remove this item"
+#~ msgstr "הסר פריט זה"
+
+#~ msgid "Available on backorder"
+#~ msgstr "זמין להזמנה מיוחדת"
+
+#~ msgid "Coupon"
+#~ msgstr "קופון"
+
+#~ msgid "Coupon code"
+#~ msgstr "קוד קופון"
+
+#~ msgid "Apply Coupon"
+#~ msgstr "הפעל קופון"
+
+#~ msgid "Update Cart"
+#~ msgstr "עדכן עגלה"
+
+#~ msgid "Proceed to Checkout"
+#~ msgstr "המשך לקופה"
+
+#~ msgid "You may be interested in&hellip;"
+#~ msgstr "אולי תהיה מעוניין ב-&hellip;"
+
+#~ msgid "Calculate Shipping"
+#~ msgstr "חשב עלויות משלוח"
+
+#~ msgid "Select a country&hellip;"
+#~ msgstr "בחר מדינה &hellip;"
+
+#~ msgid "State / county"
+#~ msgstr "מדינה בארהב / ארץ"
+
+#~ msgid "Select a state&hellip;"
+#~ msgstr "בחר מדינה בארהב &hellip;"
+
+#~ msgid "City"
+#~ msgstr "עיר"
+
+#~ msgid "Postcode / Zip"
+#~ msgstr "מיקוד"
+
+#~ msgid "Update Totals"
+#~ msgstr "עדכן סיכומים"
+
+#~ msgid ""
+#~ "Unfortunately your order cannot be processed as the originating bank/"
+#~ "merchant has declined your transaction."
+#~ msgstr ""
+#~ "מצטערים, אך לא ניתן לבצע את הזמנתך מאחר ובנק המקור/המוכר דחו את העסקה."
+
+#~ msgid "Please attempt your purchase again or go to your account page."
+#~ msgstr "אנא נסה שוב את הרכישה או גש לדף החשבון שלך."
+
+#~ msgid "Please attempt your purchase again."
+#~ msgstr "אנא נסה שוב את הרכישה שלך."
+
+#~ msgid "Pay"
+#~ msgstr "שלם"
+
+#~ msgid "Thank you. Your order has been received."
+#~ msgstr "תודה. הזמנתך התקבלה."
+
+#~ msgid "Order:"
+#~ msgstr "הזמנה:"
+
+#~ msgid "Date:"
+#~ msgstr "תאריך:"
+
+#~ msgid "Total:"
+#~ msgstr "סך הכל:"
+
+#~ msgid "Payment method:"
+#~ msgstr "אמצעי תשלום:"
+
+#~ msgid "No products found which match your selection."
+#~ msgstr "לא נמצאו מוצרים שתואמים את בחירתך."
+
+#~ msgid "Default sorting"
+#~ msgstr "מיון לפי ברירת מחדל"
+
+#~ msgid "Sort by popularity"
+#~ msgstr "מיין לפי פופולריות"
+
+#~ msgid "Sort by average rating"
+#~ msgstr "מיין לפי דירוג ממוצע"
+
+#~ msgid "Sort by newness"
+#~ msgstr "מיין לפי תאריך כניסה לחנות"
+
+#~ msgid "Sort by price: low to high"
+#~ msgstr "מיין לפי מחיר: נמוך עד גבוה"
+
+#~ msgid "Sort by price: high to low"
+#~ msgstr "מיין לפי מחיר: גבוה לנמוך"
+
+#~ msgid "Showing the single result"
+#~ msgstr "מציג את התוצאה היחידה"
+
+#~ msgid "Showing all %d results"
+#~ msgstr "מציג את כל תוצאות %d"
+
+#~ msgid "Order Details"
+#~ msgstr "פרטי הזמנה"
+
+#~ msgid "Download file%s"
+#~ msgstr "הורד קובץ%s"
+
+#~ msgid "Order Again"
+#~ msgstr "הזמן שוב"
+
+#~ msgid "Customer details"
+#~ msgstr "פרטי לקוח"
+
+#~ msgid "Billing Address"
+#~ msgstr "כתובת לחיוב"
+
+#~ msgid "N/A"
+#~ msgstr "לא זמין"
+
+#~ msgid "Shipping Address"
+#~ msgstr "כתובת למשלוח"
+
+#~ msgid "Products tagged &ldquo;"
+#~ msgstr "מוצר מתויג &ldquo;"
+
+#~ msgid "Search results for &ldquo;"
+#~ msgstr "תוצאות חיפוש עבור &ldquo;"
+
+#~ msgid "Error 404"
+#~ msgstr "שגיאה 404"
+
+#~ msgid "Posts tagged &ldquo;"
+#~ msgstr "פוסטים שתויגו &ldquo;"
+
+#~ msgid "Author:"
+#~ msgstr "הכותב:"
+
+#~ msgid "Page"
+#~ msgstr "עמוד"
+
+#~ msgid "Username or email"
+#~ msgstr "שם משתמש או אימייל"
+
+#~ msgid "Login"
+#~ msgstr "כניסה"
+
+#~ msgid "Lost Password?"
+#~ msgstr "איבדת סיסמא?"
+
+#~ msgid "Rated %s out of 5"
+#~ msgstr "דורג %s מתוך 5"
+
+#~ msgid "%s customer review"
+#~ msgid_plural "%s customer reviews"
+#~ msgstr[0] "%s ביקורת לקוח"
+#~ msgstr[1] "%s ביקורות לקוחות"
+
+#~ msgid "Additional Information"
+#~ msgstr "מידע נוסף"
+
+#~ msgid "Product Description"
+#~ msgstr "תיאור מוצר"

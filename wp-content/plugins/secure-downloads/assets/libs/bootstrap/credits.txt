@@ -1,0 +1,7 @@
+﻿Libs:
+Bootstrap v3.3.5 (CSS, JS files): Code licensed under MIT,  which  is compatible with GPLv2 . More here https://wordpress.org/support/topic/mit-license-in-wordpress-plugins?replies=10#post-5824280
+(The full Bootstrap license is located https://github.com/twbs/bootstrap/blob/master/LICENSE )
+
+Fonts:
+License for GLYPHICONS Halflings in Bootstrap
+GLYPHICONS Halflings font is also released as an extension of a Bootstrap www.getbootstrap.com for free and it is released under the same license as Bootstrap.  ( http://glyphicons.com/license/ ) Jan Kovařík

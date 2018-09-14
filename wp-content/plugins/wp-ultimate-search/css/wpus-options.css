@@ -1,0 +1,231 @@
+.settings_page_wpus-options .admin-notice {
+	background-color:lightYellow;
+	border:1px solid #E6DB55;
+	padding:10px 20px 20px 20px;
+}
+
+.settings_page_wpus-options .description {
+	width: 600px;
+	display: block;
+}
+
+.settings_page_wpus-options .widefat th.tax .checked {
+	-moz-border-radius:16px;
+	-webkit-border-radius:16px;
+	background-color:#D2E6FD;
+	background-image:-moz-linear-gradient(top, #D2E6FD, #B0D1F9);
+	background-image:-webkit-gradient(linear, left top, left bottom, from(#D2E6FD), to(#B0D1F9));
+	background-image:linear-gradient(top, #D2E6FD, #B0D1F9);
+	border:1px solid #6EADF5;
+	border-radius:16px;
+	height:26px;
+	padding:3px 8px 0 18px;
+	display:inline-block;
+	line-height:20px;
+	position:relative;
+	color:#333;
+	font-size:10px;
+	text-transform:uppercase;
+	font-family:Arial, sans-serif;
+	font-weight:bold;
+}
+.settings_page_wpus-options .widefat th.tax .checked .VS-icon-cancel {
+	background-image:url(../img/icons.png);
+	background-position:0 -11px;
+	height:11px;
+	position:absolute;
+	left:4px;
+	top:6px;
+	width:11px;
+	opacity:0.4;
+	cursor:pointer;
+}
+.settings_page_wpus-options .widefat th.tax .VS-icon-cancel:hover {
+	opacity:1.0;
+}
+
+.settings_page_wpus-options input.invalid {
+	border:1px solid #D22;
+}
+.settings_page_wpus-options input.valid {
+	background:url(../img/tick.png) no-repeat 278px 2px;
+}
+
+.settings_page_wpus-options .disabled {
+	opacity:0.4;
+}
+
+.settings_page_wpus-options .alert {
+	max-width: 900px;
+	background-color: #F2DEDE;
+	border-color: #EBCCD1;
+	color: #B94A35;
+}
+
+.settings_page_wpus-options .alert strong {
+
+}
+
+.settings_page_wpus-options h4.notice {
+	position:absolute;
+	left:30%;
+	top:200px;
+	display:block;
+	background-color:#fff;
+	padding:40px;
+	border:1px solid #6EADF5;
+	z-index:99;
+}
+
+.settings_page_wpus-options .eddri-addon {
+	position: absolute;
+	top:160px;
+	right: 20px;
+	z-index: 99;
+}
+
+.settings_page_wpus-options .eddri-addon .button {
+	margin-right: 5px;
+}
+
+.settings_page_wpus-options label {
+	font-weight: normal;
+	font-size: 13px;
+}
+
+.settings_page_wpus-options td label {
+	font-size: 12px;
+}
+
+.settings_page_wpus-options input[type=checkbox]:focus {
+	outline: none;
+}
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+	vertical-align: middle !important;
+	overflow: visible;
+}
+
+/* TipTip CSS - Version 1.2 */
+
+#tiptip_holder {
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:99999;
+}
+
+#tiptip_holder.tip_top {
+	padding-bottom:5px;
+}
+
+#tiptip_holder.tip_bottom {
+	padding-top:5px;
+}
+
+#tiptip_holder.tip_right {
+	padding-left:5px;
+}
+
+#tiptip_holder.tip_left {
+	padding-right:5px;
+}
+
+#tiptip_content {
+	font-size:11px;
+	color:#fff;
+	text-shadow:0 0 2px #000;
+	padding:4px 8px;
+	border:1px solid rgba(255, 255, 255, 0.25);
+	background-color:rgb(25, 25, 25);
+	background-color:rgba(25, 25, 25, 0.92);
+	background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(#000));
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	box-shadow:0 0 3px #555;
+	-webkit-box-shadow:0 0 3px #555;
+	-moz-box-shadow:0 0 3px #555;
+}
+
+#tiptip_arrow, #tiptip_arrow_inner {
+	position:absolute;
+	border-color:transparent;
+	border-style:solid;
+	border-width:6px;
+	height:0;
+	width:0;
+}
+.settings_page_wpus-options .tooltip {
+	width:14px;
+	height:14px;
+	display:inline-block;
+	margin-left:6px;
+	background:url(../img/tooltip.png) no-repeat center center;
+	opacity:0.5;
+}
+.settings_page_wpus-options .tooltip:hover {
+	opacity:0.9;
+}
+#tiptip_holder.tip_top #tiptip_arrow {
+	border-top-color:#fff;
+	border-top-color:rgba(255, 255, 255, 0.35);
+}
+
+#tiptip_holder.tip_bottom #tiptip_arrow {
+	border-bottom-color:#fff;
+	border-bottom-color:rgba(255, 255, 255, 0.35);
+}
+
+#tiptip_holder.tip_right #tiptip_arrow {
+	border-right-color:#fff;
+	border-right-color:rgba(255, 255, 255, 0.35);
+}
+
+#tiptip_holder.tip_left #tiptip_arrow {
+	border-left-color:#fff;
+	border-left-color:rgba(255, 255, 255, 0.35);
+}
+
+#tiptip_holder.tip_top #tiptip_arrow_inner {
+	margin-top:-7px;
+	margin-left:-6px;
+	border-top-color:rgb(25, 25, 25);
+	border-top-color:rgba(25, 25, 25, 0.92);
+}
+
+#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+	margin-top:-5px;
+	margin-left:-6px;
+	border-bottom-color:rgb(25, 25, 25);
+	border-bottom-color:rgba(25, 25, 25, 0.92);
+}
+
+#tiptip_holder.tip_right #tiptip_arrow_inner {
+	margin-top:-6px;
+	margin-left:-5px;
+	border-right-color:rgb(25, 25, 25);
+	border-right-color:rgba(25, 25, 25, 0.92);
+}
+
+#tiptip_holder.tip_left #tiptip_arrow_inner {
+	margin-top:-6px;
+	margin-left:-7px;
+	border-left-color:rgb(25, 25, 25);
+	border-left-color:rgba(25, 25, 25, 0.92);
+}
+
+/* Webkit Hacks  */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	#tiptip_content {
+		padding:4px 8px 5px 8px;
+		background-color:rgba(45, 45, 45, 0.88);
+	}
+	#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+		border-bottom-color:rgba(45, 45, 45, 0.88);
+	}
+	#tiptip_holder.tip_top #tiptip_arrow_inner {
+		border-top-color:rgba(20, 20, 20, 0.92);
+	}
+}

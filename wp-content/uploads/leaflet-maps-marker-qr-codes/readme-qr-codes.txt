@@ -1,0 +1,2 @@
+The file readme-qr-codes.zip is needed for creating the cache directory for QR codes by Visualead in order to improve the performance.
+This caching directory is automatically created in /wp-content/uploads/leaflet-maps-marker-qr-codes - all cached QR codes can be found there.

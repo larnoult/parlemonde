@@ -1,0 +1,101 @@
+# Mark New Posts Wordpress Plugin
+# Author: TS Soft
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mark-new-posts\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-19 17:55+0300\n"
+"PO-Revision-Date: 2016-09-28 16:28+0300\n"
+"Last-Translator: TS Soft\n"
+"Language-Team: TS Soft\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.7\n"
+"Language: ru_RU\n"
+
+#. Description of the plugin/theme
+msgid "Highlight unread WordPress posts."
+msgstr "Подсветка непрочитанных записей в WordPress"
+
+msgid "Settings saved"
+msgstr "Настройки сохранены"
+
+msgid "Settings"
+msgstr "Настройки"
+
+msgid "Please specify image URL"
+msgstr "Пожалуйста, укажите URL изображения"
+
+msgid "Please specify correct count of days"
+msgstr "Пожалуйста, укажите корректное количество дней"
+
+msgid "Marker placement"
+msgstr "Расположение маркера"
+
+msgid "Before post title"
+msgstr "Перед заголовком записи"
+
+msgid "After post title"
+msgstr "После заголовка записи"
+
+msgid "Before and after post title"
+msgstr "С обоих сторон заголовка записи"
+
+msgid "Marker type"
+msgstr "Вид отметки"
+
+msgid "Orange circle"
+msgstr "Оранжевый круг"
+
+msgid "\"New\" text"
+msgstr "Текст \"New\""
+
+msgid "Flag"
+msgstr "Флаг"
+
+msgid "Picture (default)"
+msgstr "Картинка (по умолчанию)"
+
+msgid "Picture (custom)"
+msgstr "Картинка (особая)"
+
+msgid "None"
+msgstr "Не отображается"
+
+msgid "Image URL"
+msgstr "URL изображения"
+
+msgid "A post should be marked as read:"
+msgstr "Запись отмечается как прочитанная:"
+
+msgid "after viewing the post's page"
+msgstr "после открытия страницы конкретной записи"
+
+msgid "after viewing the post on any page"
+msgstr "после того, как запись была отображена на любой странице"
+
+msgid "after opening any page of the blog"
+msgstr "после открытия любой страницы блога"
+
+#, php-format
+msgid "Published post stays marked as new only for %s days"
+msgstr "Опубликованная запись остаётся новой в течение %s дней"
+
+msgid "Mark all existing posts as new to new visitors"
+msgstr "Считать все записи новыми для новых посетителей"
+
+msgid "Check page markup before displaying a marker"
+msgstr "Проверять разметку страницы перед отображением отметки"
+
+msgid "Enable this option only if the plugin is exploding your blog's markup."
+msgstr ""
+"Эту опцию следует включать только в случае, если плагин нарушает разметку "
+"блога"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Reset"
+msgstr "Сброс"

@@ -1,0 +1,1 @@
+20-07-2017 12:49:25 - ERROR - m: 32,4 MB, u: 1 - cURL error 35: Unknown SSL protocol error in connection to www.thenewsletterplugin.com:443  (http_request_failed)

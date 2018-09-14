@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-gallery-custom-links\n"
+"POT-Creation-Date: 2013-08-09 16:39+0100\n"
+"PO-Revision-Date: 2014-03-27 13:47+0100\n"
+"Last-Translator: Martin Stehle <m.stehle@gmx.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de_DE\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wp-gallery-custom-links.php:68
+msgid "Gallery Link URL"
+msgstr "URL des Links in Galerien"
+
+#: wp-gallery-custom-links.php:71
+msgid ""
+"Will replace \"Image File\" or \"Attachment Page\" link for this image in "
+"galleries. Use [none] to remove the link from this image in galleries."
+msgstr ""
+"Ersetzt den Link auf \"Medien-Datei\" oder \"Anhang-Seite\" für dieses Bild "
+"in Galerien. Verwende \"Keine\", um den Link dieses Bildes in Galerien zu "
+"entfernen."
+
+#: wp-gallery-custom-links.php:76
+msgid "Gallery Link Target"
+msgstr "Ziel des Links in Galerien"
+
+#: wp-gallery-custom-links.php:80
+msgid "Same Window"
+msgstr "Selbes Fenster"
+
+#: wp-gallery-custom-links.php:81
+msgid "New Window"
+msgstr "Neues Fenster"
+
+#: wp-gallery-custom-links.php:83
+msgid ""
+"This setting will be applied to this image in galleries regardless of "
+"whether or not a Gallery Link URL has been specified."
+msgstr ""
+"Diese Einstellung wird auf dieses Bild in allen Galerien angewendet "
+"ungeachtet dessen, ob eine URL für den Link angegeben wurde oder nicht."
+
+#: wp-gallery-custom-links.php:88
+msgid "Gallery Link OnClick Effect"
+msgstr "OnClick-Effekt des Galerie-Links"
+
+#: wp-gallery-custom-links.php:92
+msgid "Remove"
+msgstr "Entfernen"
+
+#: wp-gallery-custom-links.php:93
+msgid "Keep"
+msgstr "Beibehalten"
+
+#: wp-gallery-custom-links.php:95
+msgid ""
+"Lightbox and other OnClick events are removed by default from this image in "
+"galleries. This setting will only be applied to this image in galleries if "
+"this image has a Gallery Link URL specified."
+msgstr ""
+"Lightbox und andere OnClick-Ereignisse werden standardmäßig von Bildern in "
+"Galerien entfernt. Diese Einstellung wird auf dieses Bild in Galerien nur "
+"dann angewendet, falls eine Galerie-Link-URL angegeben wurde."

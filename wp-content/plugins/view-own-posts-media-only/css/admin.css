@@ -1,0 +1,15 @@
+/* 
+    Document   : admin
+    Created on : 05.01.2013
+    Author     : Vladimir Garagulya
+    Description:
+    View own Posts Media Only - Admin Back-End CSS
+*/
+
+/* 
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.media-frame-content .attachment-filters:first-child {
+  display:none;
+}

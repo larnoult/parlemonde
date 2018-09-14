@@ -1,0 +1,83 @@
+.acui .main_bar{
+    float: left;
+    width: 80%;
+}
+
+.acui .sidebar {
+    float: right;
+    font-size: 12px;
+    margin: 0 1%;
+    width: 18%;
+}
+
+.acui .sidebar_section{
+    background-color: #F6F6F6;
+    border: 1px solid #8A2BE2;
+    float: left;
+    margin: 0 0 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.acui .sidebar_section.become_patreon{
+    background-color: transparent;
+    border: 0;
+}
+
+.acui .sidebar ul {
+    margin: 0;
+    padding: 0;
+}
+
+.acui .sidebar li {
+    font-size: 11px;
+    line-height: 16px;
+    list-style: disc outside none;
+    margin: 5px 0 5px 20px;
+}
+
+.acui .sidebar h3 {
+    margin: 0 0 10px;
+}
+
+.acui .sidebar img {
+    display: block;
+    margin: 0 auto;
+}
+
+.acui .sidebar_section label {
+    font-size: 11px;
+}
+
+.acui .sidebar_section.webempresa img {
+    width: 100%;
+}
+
+.acui #vote_us{
+    cursor: pointer;
+}
+
+.acui .patreon{
+    backface-visibility: hidden;
+    background-color: rgb(249, 104, 84);
+    box-sizing: border-box;
+    display: inline-block;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    user-select: none;
+    white-space: inherit;
+    cursor: pointer;
+    width: 100%;
+    color: rgb(255, 255, 255) !important;
+    font-size: 1rem !important;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(249, 104, 84);
+    border-image: initial;
+    border-radius: 0px;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(0.19, 1, 0.22, 1);
+}
