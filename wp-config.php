@@ -26,7 +26,7 @@ define('DB_NAME', 'parlemonde-plm');
 define('DB_USER', 'parlemonde-plm');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'DbhFkkstesZ9');
+define('DB_PASSWORD', 'XXXXXXX');
 
 /** MySQL hostname */
 define('DB_HOST', 'parlemonde-plm.mysql.db');
